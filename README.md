@@ -4,3 +4,4 @@
 Not all advancements were completely invented by us, some were taken from these datapacks:
 - [Bacap Torture Edition](https://www.planetminecraft.com/data-pack/bacap-torture-edition/?ysclid=lqt5bs9pwk88210964)
 - [Enhanced Advancements](https://www.planetminecraft.com/data-pack/enhanced-advancements/)
+#### The development is underway, the list of achievements can be viewed [here](https://komaru-cats.github.io/BACAP-Enhanced-Discoveries/)
