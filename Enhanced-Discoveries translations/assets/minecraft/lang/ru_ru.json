@@ -1,0 +1,324 @@
+{
+# BlazeandCave's Enhanced Discoveries Language File
+ 
+# How to use: Name and descriptions of advancement to left of : and put translation to right of :, inside the speech marks "" like this: "Advancement Description"
+# Some advancement titles make use of puns that would work in English but probably not in other languages. Be creative if you wish if you can find any puns in foreign languages.
+
+# This file will be updated with new advancements with each new update.
+# Currently the text that appears with reward functions are not translatable - support for translating the reward functions messages will come in a later update.
+
+# Language: Russian
+# Author: ItzSkyReed
+
+# adventure 
+
+"Din-Don": "Дин-Дон",
+"Ring the bell 10,000 times": "Позвоните в колокол 10,000 раз",
+
+"Komaru \u2665" : "Комару \u2665",
+"Name the cat \"Komaru\"": "Назовите кота \"Komaru\"",
+
+"No-Water Team": "Команда без Воды",
+"Place 1000 sponges": "Поставьте 1000 губок",
+
+"Water Team": "Водная Команда",
+"Use a bucket of water 4000 times": "Используйте ведро воды 4000 раз",
+
+"Gardener": "Садовник",
+"Water the flower in the pot while standing on it": "Полейте цветок в горшке, стоя на нём",
+
+"Oh, you again?": "О, снова ты?",
+"Open the door to a Wandering Trader": "Откройте дверь странствующему торговцу",
+
+"Placeholder": "Заполнитель",
+"Name the warden \"Placeholder\"": "Назовите хранителя \"Placeholder\"",
+
+# animal
+
+"Hot!": "Как в Сауне!",
+"Swim on a pig in the lava": "Поплавайте на свинье в лаве",
+
+"Live Salmon": "Живой Лосось",
+"Catch a live salmon with a fishing rod": "Поймайте живого лосося с помощью удочки",
+
+"More Colorful Wool!": "Больше Разноцветной Шерсти!",
+"Place a stack of wool of every color": "Поставьте стак шерсти каждого вида",
+
+"SnifferSniffEvent": "SnifferSniffEvent",
+"Introduce a sniffer to a warden so they can have a sniff-off": "Представьте нюхачу хранителя, чтобы устроить соревнование на обнаружение запахов",
+
+"The Wool Magnate": "Шерстяной Магнат",
+"Fill your inventory with pink wool": "Заполните свой инвентарь розовой шерстью",
+
+"The Invisible Turtle": "Невидимая Черепаха",
+"Look at the baby turtle in the snow through a spyglass": "Посмотрите на детёныша черепахи в снегу через подзорную трубу",
+
+# biomes
+
+"Good Dreams!": "Сладких Снов!",
+"Sleep in each type of surface biome in the Overworld": "Поспите в каждом типе биома верхнего мира",
+
+"Ice Sculptor": "Ледяной Скульптор",
+"Place 1000 blocks of blue ice": "Поставьте 1000 блоков синего льда",
+
+"The Infernal Cauldron": "Адский Котёл",
+"Spend a day in lava cauldron": "Проведите день в котле с лавой",
+
+"My Mountains": "Мои Горы",
+"Drink milk at the top of the mountain while looking at the goat": "Выпейте молоко на вершине горы, смотря на козу",
+
+"The Boatman": "Лодочник",
+"Take a boat ride on the blue ice": "Прокатитесь на лодке по голубому льду",
+
+# building
+
+"Art lover": "Ценитель Искусства",
+"Place 1000 paintings": "Поставьте 1000 картин",
+
+"Statue": "Статуя",
+"Stand on a block of chiseled quartz and look through a spyglass": "Стойте на блоке резного кварца, смотря в подзорную трубу",
+
+# challenges
+
+"Five Birds, One Stone": "Пяти Птиц, Один Камень",
+"Kill 5 Vexes with 1 crossbow shot": "Убейте 5 вредин одной стрелой",
+
+"Astronomer": "Астроном",
+"Look through the spyglass at the anvil that is 325 blocks above the world": "Посмотри в подзорную трубу на наковальню, которая находится на высоте 325 блоков над миром",
+
+"Celestial Protocol": "Небесный Протокол",
+"Reach an altitude of 100,000 blocks above the world": "Достигните высоты в 100,000 блоков над миром",
+
+"Dragon Vs Wither IV": "Дракон Против Иссушителя IV",
+"To the Underworld - Kill the Wither while in lava while wearing a dragon head and elytra": "В Подмирье - Убейте Визера, находясь в лаве, надев драконью голову и элитры.",
+
+"Explosive Elixir": "Взрывной Эликсир",
+"Have every max possible level effect applied at the same time": "Получите все возможные эффекты максимального уровня одновременно",
+
+"Extincion": "Вымирание",
+"Kill a strength 5 llama, a black rabbit, a brown panda, a blue axolotl and a jungle nitwit with a single piercing arrow in the End": "Убейте ламу с уровнем силы 5, черного кролика, коричневого панду, синего аксолотля и безработного джунглиевого жителя одной стрелой в Краю",
+
+"Happy New Year": "Счастливого Нового Года",
+"Launch firework on new year`s day in minecraft!": "Запустите фейерверк в новый год в майнкрафт!",
+
+"Master Villager": "Маэстро Жителей",
+"Trade for everything from a villager": "Выторгуйте все возможные предметы у всех возможных жителей",
+
+"Raise The Stakes": "Поднять Ставки",
+"Fill your inventory with golden apples": "Заполните свой инвентарь золотыми яблоками",
+
+"So Bright": "Так Ярко",
+"Fill your inventory with diamonds!": "Заполните свой инвентарь алмазами!",
+
+"Star Fisherman": "Звёздный Рыбак",
+"Catch a nautilus shell while you are 261 blocks above the world in the end": "Поймайте раковину наутилуса, находясь на высоте 261 блока над миром в Краю",
+
+"The world is actually ending 2": "Определенно конец света 2",
+"Summon 64 Withers at once": "Призовите 64 Иссушителя одновременно",
+
+"Void being": "Созданный в бездне",
+"Be 1000 blocks under the world": "Будьте на глубине 1000 блоков под миром",
+
+"Yes": "Да",
+"Stand on a chest filled with beacons": "Встаньте на сундук, который заполнен маяками",
+
+# end
+
+"Endergardener": "Садовник Края",
+"Plant 1000 chorus flowers": "Посадите 1000 цветков хоруса",
+
+"Last Hit": "Последний Удар",
+"Kill the Ender Dragon without any items in your inventory": "Убейте Эндер Дракона без каких-либо предметов в вашем инвентаре",
+
+# farming
+
+"Apple Addiction": "Яблочная Зависимость",
+"Fill your inventory with apples": "Заполните свой инвентарь яблоками",
+
+"Christmas Spirit": "Новогоднее Настроение",
+"Cookies, cakes, honey, fireworks, christmas tree and snowballs": "Печеньки, торты, мёд, фейерверки, новогоднее дерево и снежки",
+
+"Eco Warrior": "Экоактивист",
+"Plant 1728 saplings of any one type": "Посадите 1728 саженцев одного любого типа",
+
+"Golems": "Големы",
+"Gather all the golems together": "Соберите всех големов вместе",
+
+"More, More Cookies!": "Больше, Больше Печенья!",
+"Craft 10,000 cookies": "Скрафтите 10,000 печенек",
+
+"Plant Enthusiast": "Любитель растений",
+"Plant 10,000 potatoes": "Посадите 10,000 картошек"
+
+
+# mining
+
+"Bat-Man": "Бэтмэн",
+"Kill 64 bats": "Убейте 64 летучих мыши",
+
+"Copper King": "Медный Король",
+"Stand on a chest filled with copper blocks": "Встаньте на сундук, который заполнен медными блоками",
+
+"Light at the End of the Tunnel": "Свет в Конце Тоннеля",
+"Place the lantern in a dark place in the cave": "Установите фонарь в темном месте в пещере",
+
+# monsters
+
+"Get out of my sky": "Исчезни с глаз моих",
+"Get killed by a phantom while you are 320 blocks above the world": "Умрите от фантома, находясь на высоте 320 блоков над миром",
+
+"Phantom Rider": "Фантомный Гонщик",
+"Catch the phantom with a fishing rod": "Поймайте фантома удочкой",
+
+# potion
+
+"Master of effects": "Мастер Эффектов",
+"Get all the max level effects possible during your life (not all at the same time)": "Получи все возможные эффекты максимально возможного уровня в течение своей жизни (не все одновременно)",
+
+# statistics
+
+"Jungle Gymnast": "Джунглиевый Гимнаст",
+"Climb for 100m": "Проползите 100 метров",
+
+"Climb Expert": "Эксперт по Карабканью",
+"Climb for 1km": "Проползите 1 километр",
+
+"Ladder Legend": "Ползущая Легенда",
+"Climb for 10km": "Проползите 10 километров",
+
+"My Chest!": "Мой Сундук!",
+"Open 100 chests": "Откройте 100 сундуков",
+
+"Chest Lover": "Любитель Сундуков",
+"Open 1000 chests": "Open 1000 chests",
+
+"Mr. Chester": "Господин Сундук",
+"Open 10,000 chests": "Откройте 10,000 сундуков",
+
+"Happy Chest Year!": "Счастливого Года Сундука!",
+"Open 100,000 chests": "Откройте 100,000 сундуков",
+
+# weaponry
+
+"More Shields!": "Больше Шитов!",
+"Craft 1000 shields": "Скрафтите 1000 щитов",
+
+"Snow Fights!": "Снежные Бои!",
+"Kill a snow golem with a snowball": "Убейте снеговика снежком",
+
+
+
+# trophies
+
+
+
+# adventure
+
+"Magic Bell": "Магический Колокол",
+"Knock yourself on the head": "По голове себе постучи",
+
+"Komaru": "Комару",
+"Komaru`s Head": "Мордочка Комару",
+"My favorite cats name is Komaru. She is a": "Имя моей любимой кошки - Комару. Она",
+"playful and mischievous little furball": "игривый и озорной маленький комочек шерсти",
+"with a heart full of love. Komaru has": "с сердцем, полным любви. У Комару",
+"beautiful orange fur with white patches": "красивый оранжевый мех с белыми пятнами",
+"on her paws and chest. Her bright green": "на лапах и груди. Её ярко-зеленый",
+"eyes sparkle with curiosity and": "глаза искрятся любопытством и",
+"intelligence. Komaru loves to chase": "интеллектом. Комару любит гоняться",
+"after toys and climb up high places. She": "за игрушками и забираться на высокие места. Она",
+"is always ready for cuddles and will": "всегда к объятиям и ",
+"purr contently in your lap. Komaru": "мурлыканью у вас на коленях. Комару",
+"brings so much joy and happiness to my life": "приносит столько радости и счастья в мою жизнь",
+
+# animal
+
+"Big Nose": "Большой Нос",
+"Snort snort...": "Фырк фырк...",
+
+"The Pinkest Wool": "Самая Розовая Шерсть",
+"Soft, fluffy, delicate, blush-colored": "Мягкая, пушистая, нежная, румяного цвета",
+"wool that radiates warmth and elegance": "шерсть, которая излучает тепло и элегантность",
+
+# biomes
+
+"The Softest Bed": "Самая мягкая кровать",
+"Experience the ultimate comfort and": "Испытайте максимальный комфорт и",
+"luxury with our exquisite, plush bed,": "роскошь с нашей изысканной плюшевой кроватью",
+"the epitome of relaxation and bliss": "это воплощение расслабления и блаженства",
+
+# challenges
+
+"The Vex Slayer": "Убийца Вексов",
+"Diary, I cannot convey all the pain and": "Дорогой невник, я не могу передать всю боль и",
+"humiliation I have experienced": "унижение, которое я испытал",
+
+"The Orbital Anvil": "Орбитальная Наковальня",
+"Unleash your creativity with the": "Дайте волю своему творчеству с помощью",
+"unstoppable force of our anvil!": "неудержимой силы нашей наковальни!",
+
+"Space Rocket": "Космическая ракета",
+"Rocket riders...?": "Ракетные гонщики...?",
+
+"The Star Of The Apocalypse": "Звезда Апокалипсиса",
+"Unleash the cosmic chaos with The Star": "Дайте волю космическому хаосу вместе со Звездой",
+"Of The Apocalypse!": "Апокалипсиса!",
+
+"Sweet Darling": "Моя сладкая",
+"Mix with a bucket of milk": "Смешать с ведром молока",
+
+
+"Gold Llama": "Золотая Лама",
+"Introducing the Gold Llama: a majestic,": "Представляем золотую ламу: величественную,",
+"glitzy, and fabulous treasure!": " блестящее и сказочное сокровище!",
+
+"Big Firework": "Большой Фейерверк",
+"Experience a dazzling symphony of lights": "Ощутите ослепительную симфонию огней",
+"and colors, igniting joyous celebrations!": "и красок, зажигающую радость торжества",
+
+"Villager Head": "Голова Жителя",
+"nocom.": "без комментариев.",
+
+"Nautilus Crab": "Краб Наутилус",
+"The ultimate fashion statement for": "Идеальное заявление для",
+"gourmet seafood enthusiasts!": "гурманов-любителей морепродуктов",
+
+"Nuclear Bomb": "Ядерная Бомба",
+"The ultimate firework thats definitely": "Непревзойденный фейерверк, который определенно",
+"for parties": "подходит для вечеринок",
+
+"Absolute Dark Hole": "Абсолютно Тёмная Дыра",
+"The perfect accessory for hiding your": "Идеальный аксессуар для сокрытия ваших",
+"questionable late-night snacking habits!": "сомнительных привычек перекусывать поздно вечером!",
+
+"Ultimate Beacon": "Абсолютный Маяк",
+"Preheat oven to 400°F, place bacon on a": "Разогрейте духовку до 400°F, выложите бекон на",
+"rack over a baking sheet, bake for 15-20": "решетку поверх противня, запекайте в течение 15-20",
+"minutes, and drain on paper towels": "минут и обсушите на бумажных полотенцах",
+
+# end
+
+# farming
+
+# mining
+
+# monsters
+
+# potion
+
+"Brewing Factory": "Зельварный Завод",
+"Ah, the fabulous Brewing Factory, where": "Ах, сказочная пивоваренная фабрика, где",
+"dreams of exquisite beverages are": "мечты об изысканных напитках",
+"meticulously come true": "тщательно воплощаются в жизнь",
+
+# statistics
+
+# weaponry
+
+"Tree Shield": "Деревянный Щит",
+"You spent 94 stacks of wood on this": "Вы потратили 94 стака дерева на это",
+
+
+
+
+}
