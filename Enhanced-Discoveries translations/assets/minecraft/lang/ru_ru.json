@@ -24,7 +24,7 @@
 "Water Team": "Водная Команда",
 "Use a bucket of water 4000 times": "Используйте ведро воды 4000 раз",
 
-"Gardener": "Садовник",
+"Water-Dependent": "Зависимый от Воды",
 "Water the flower in the pot while standing on it": "Полейте цветок в горшке, стоя на нём",
 
 "Oh, you again?": "О, снова ты?",
@@ -32,6 +32,21 @@
 
 "Placeholder": "Заполнитель",
 "Name the warden \"Placeholder\"": "Назовите хранителя \"Placeholder\"",
+
+"General Cleaning": "Генеральная Уборка",
+"Clean up each type of structure and spawner in the dungeon": "Проведите уборку в каждом типе структуры и спаунере в подземелье",
+
+"Jurassic Park": "Парк Юрского Периода",
+"Get 64 torchflowers and 64 pitcher plants": "Соберите 64 факельника и 64 кувшинницы",
+
+"My Personal Slave": "Мой Личный Раб",
+"Have an allay drop all swords, trident, bow and crossbow": "Заставьте Эллея кинуть вам все мечи, трезубец, лук и арбалет",
+
+"The Beginning of the Day": "Начало Дня",
+"Ring the bell at 6:00 on top of the world": "Позвони в колокол в 6:00 на вершине мира",
+
+"Uncontrolled Reproduction": "Бесконтрольное Размножение",
+"Have an allay drop a amethyst shard at a note block": "Заставьте Эллея кинуть аметист на нотный блок",
 
 # animal
 
@@ -52,6 +67,9 @@
 
 "The Invisible Turtle": "Невидимая Черепаха",
 "Look at the baby turtle in the snow through a spyglass": "Посмотрите на детёныша черепахи в снегу через подзорную трубу",
+
+"I Love Salmons": "Я люблю лососей",
+"Fill your inventory with salmons": "Заполните свой инвентарь лососем",
 
 # biomes
 
@@ -122,6 +140,20 @@
 "Yes": "Да",
 "Stand on a chest filled with beacons": "Встаньте на сундук, который заполнен маяками",
 
+"Happy Anniversary": "С Юбилеем",
+"Kill 300 withers": "Убейте 300 визеров",
+
+"Oh, My Broken Legs": "Ох, Мои Сломанные Ноги",
+"Survive a fall from 1000 blocks above the world without landing on any blocks that soften the fall, with an empty inventory, and without any effects": "Переживите падение с высоты 1000 блоков над миром, не приземлившись ни на какие блоки, смягчающие падение, с пустым инвентарем и без каких-либо эффектов",
+
+"Zero Coordinates Magnet": "Магнит с нулевыми координатами",
+"Kill the blue axolotl at coordinates x: 0 z: 0 y: 0 in the End": "В конце убейте синего аксолотля в точке с координатами x: 0 z: 0 y: 0 в Крае",
+
+# enchanting
+
+"Oh, I Forgot about the Anvil": "Ох, Я Забыл о Наковальне",
+"Take Damage from the anvil": "Получите урон от наковальни",
+
 # end
 
 "Endergardener": "Садовник Края",
@@ -148,8 +180,7 @@
 "Craft 10,000 cookies": "Скрафтите 10,000 печенек",
 
 "Plant Enthusiast": "Любитель растений",
-"Plant 10,000 potatoes": "Посадите 10,000 картошек"
-
+"Plant 10,000 potatoes": "Посадите 10,000 картошек",
 
 # mining
 
@@ -170,10 +201,18 @@
 "Phantom Rider": "Фантомный Гонщик",
 "Catch the phantom with a fishing rod": "Поймайте фантома удочкой",
 
+"High Explosives": "Взрывоопасно",
+"Stand on a barrel filled with gunpowder": "Стойте на бочке, которая заполнена порохом",
+
 # potion
 
 "Master of effects": "Мастер Эффектов",
 "Get all the max level effects possible during your life (not all at the same time)": "Получи все возможные эффекты максимально возможного уровня в течение своей жизни (не все одновременно)",
+
+# redstone
+
+"What Do You Know About Pistons": "Что вы знаете о поршнях",
+"Craft 10,000 pistons": "Скрафтите 10,000 поршней",
 
 # statistics
 
@@ -206,7 +245,8 @@
 "Snow Fights!": "Снежные Бои!",
 "Kill a snow golem with a snowball": "Убейте снеговика снежком",
 
-
+"The Explosive Adventure": "Взрвные приключения",
+"Place 1000 tnt": "Поставьте 1000 динамита",
 
 # trophies
 
