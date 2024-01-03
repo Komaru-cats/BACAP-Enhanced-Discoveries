@@ -12,6 +12,9 @@
 
 # adventure 
 
+"Advancement Info": "Информация о Достижениях",
+"Climb cobblestone stairs while wearing diamond armor and wielding a diamond sword": "Поднимайтесь по булыжниковым ступенькам, надев алмазную броню и держа в руке алмазный меч",
+
 "Din-Don": "Дин-Дон",
 "Ring the bell 10,000 times": "Позвоните в колокол 10,000 раз",
 
@@ -43,10 +46,13 @@
 "Have an allay drop all swords, trident, bow and crossbow": "Заставьте Эллея кинуть вам все мечи, трезубец, лук и арбалет",
 
 "The Beginning of the Day": "Начало Дня",
-"Ring the bell at 6:00 on top of the world": "Позвони в колокол в 6:00 на вершине мира",
+"Ring the bell at 6:00 on top of the world": "Позвоните в колокол в 6:00 на вершине мира",
 
 "Uncontrolled Reproduction": "Бесконтрольное Размножение",
 "Have an allay drop a amethyst shard at a note block": "Заставьте Эллея кинуть аметист на нотный блок",
+
+"Sandpicious": "Педозрительно",
+"Get a stack of suspicious sand": "Заполучите стак подозрительного песка",
 
 # animal
 
@@ -98,6 +104,12 @@
 
 # challenges
 
+"How Did You End Up Here": "Как Ты Тут Очутилась?",
+"Kill a bat in the End below the height of the world": "Убейте летучую мышь в Краю на высоте ниже уровня мира",
+
+"Show the Nether to a Silverfish": "Явите Нижний Мир Чешуйнице",
+"Look through the spyglass to a silverfish in a bastion, fortress and a ruined portal in the Nether": "Посмотрите через подзорную трубу на Чешуйницу в бастионе, крепости нижнего мира и разрушенном портале",
+
 "Five Birds, One Stone": "Пяти Птиц, Один Камень",
 "Kill 5 Vexes with 1 crossbow shot": "Убейте 5 вредин одной стрелой",
 
@@ -116,7 +128,7 @@
 "Extincion": "Вымирание",
 "Kill a strength 5 llama, a black rabbit, a brown panda, a blue axolotl and a jungle nitwit with a single piercing arrow in the End": "Убейте ламу с уровнем силы 5, черного кролика, коричневого панду, синего аксолотля и безработного джунглиевого жителя одной стрелой в Краю",
 
-"Happy New Year": "Счастливого Нового Года",
+"Happy Minecraft Year": "Счастливого Нового Года",
 "Launch firework on new year`s day in minecraft!": "Запустите фейерверк в новый год в майнкрафт!",
 
 "Master Villager": "Маэстро Жителей",
@@ -131,7 +143,7 @@
 "Star Fisherman": "Звёздный Рыбак",
 "Catch a nautilus shell while you are 261 blocks above the world in the end": "Поймайте раковину наутилуса, находясь на высоте 261 блока над миром в Краю",
 
-"The world is actually ending 2": "Определенно конец света 2",
+"The world is actually ending 2": "Конец Света 2",
 "Summon 64 Withers at once": "Призовите 64 Иссушителя одновременно",
 
 "Void being": "Созданный в бездне",
@@ -154,6 +166,18 @@
 "Oh, I Forgot about the Anvil": "Ох, Я Забыл о Наковальне",
 "Take Damage from the anvil": "Получите урон от наковальни",
 
+"Master Shearer": "Мастер Ножниц",
+"Create a shears with all possible enchantments at max level": "Создайте идеальные ножницы со всеми возможными зачарованиями максимального уровня",
+
+"Pyromaniac": "Пироманьяк",
+"Create a flint and steel with all possible enchantments at max level": "Создайте идеальную зажигалку со всеми возможными зачарованиями максимального уровня",
+
+"Master Sweeper": "Мастер Уборки",
+"Create a brush with all possible enchantments at max level": "Создайте идеальную кисточку со всеми возможными зачарованиями максимального уровня",
+
+"Useless": "Бесполезная",
+"Craft a book with two curses": "Создайте книгу с двумя проклятиями",
+
 # end
 
 "Endergardener": "Садовник Края",
@@ -161,6 +185,9 @@
 
 "Last Hit": "Последний Удар",
 "Kill the Ender Dragon without any items in your inventory": "Убейте Эндер Дракона без каких-либо предметов в вашем инвентаре",
+
+"Bee Colonist": "Пчелиный Колонизатор",
+"Place a filled beehive in the End": "Разместите заполненное пчёлами гнездо в Краю",
 
 # farming
 
@@ -204,6 +231,11 @@
 "High Explosives": "Взрывоопасно",
 "Stand on a barrel filled with gunpowder": "Стойте на бочке, которая заполнена порохом",
 
+# nether
+
+"Show the Wither his Home": "Покажите Иссушителю его Дом",
+"Kill the wither in all Nether biomes": "Убейте Визера во всех биомах Нижнего мира"
+
 # potion
 
 "Master of effects": "Мастер Эффектов",
@@ -216,10 +248,16 @@
 
 # statistics
 
-"Titan of Olympian Gold Triumphs":  "Титан Золотых Триумфов Олимпа",
+"Happy 1000 Days!": "Счастливые 1000 Дней!",
+"Play for 1000 Minecraft days": "Играйте на протежение целых 1000 дней",
+
+"Intercontinental Rail Nexus": "Межконтинентальная связь",
+"Ride 250km in a minecart": "Преодолейте 250км на вагонетке",
+
+"Titan of Olympian Gold Triumphs":  "Титан Золотых Триумфов",
 "Swim 500km": "Проплывите 500км",
 
-"Wrath of the Western Frontier": "Гнев Западной Пограничной Конницы",
+"Wrath of the Western Frontier": "Гнев Западной Конницы",
 "Ride 250km on a horse": "Преодолейте 250км верхом на лошади",
 
 "Survival Saga": "Сага о выживании",
@@ -237,7 +275,7 @@
 "Jetsetter of the Skies": "Крылатый Космополит",
 "Fly 10,000km with elytra": "Пролетите 10,000км при помощи элитр",
 
-"Epic Capital Conqueror": "Эпический Завоеватель Капитала",
+"Epic Capital Conqueror": "Завоеватель Капитала",
 "Trade with villagers 10,000 times": "Поторговать с жителями 10,000 раз",
 
 "Аbsolutely Аblaze Journey": "Пылающее Приключение",
@@ -310,7 +348,7 @@
 "Open the shulker box 100,000 times": "Откройте шалкеровый ящик 100,000 раз",
 
 "Survivor`s Hour": "Час Выживания",
-"Avoid dying within 1 hour": "Избегайте смерти на протяжение 10 часа",
+"Avoid dying within 1 hour": "Избегайте смерти на протяжение 1 часа",
 
 "Resilient Centenarian": "Жизнерадостный Долгожитель",
 "Avoid dying within 10 hours": "Избегайте смерти на протяжение 10 часов",
@@ -331,6 +369,10 @@
 
 "The Explosive Adventure": "Взрвные приключения",
 "Place 1000 tnt": "Поставьте 1000 динамита",
+
+"Unlucky": "Невезунчик",
+"Die twice within 5 seconds": "Умрите дважды за 5 секунд",
+
 
 # trophies
 
@@ -440,7 +482,7 @@
 # weaponry
 
 "Tree Shield": "Деревянный Щит",
-"You spent 94 stacks of wood on this": "Вы потратили 94 стака дерева на это",
+"You spent 94 stacks of wood on this": "Вы потратили 94 стака дерева на это"
 
 
 
