@@ -129,7 +129,7 @@
 "Kill a strength 5 llama, a black rabbit, a brown panda, a blue axolotl and a jungle nitwit with a single piercing arrow in the End": "Убейте ламу с уровнем силы 5, черного кролика, коричневого панду, синего аксолотля и безработного джунглиевого жителя одной стрелой в Краю",
 
 "Happy Minecraft Year": "Счастливого Нового Года",
-"Launch firework on new year`s day in minecraft!": "Запустите фейерверк в новый год в майнкрафт!",
+"Launch firework on new year\u0027s day in minecraft!": "Запустите фейерверк в новый год в майнкрафт!",
 
 "Master Villager": "Маэстро Жителей",
 "Trade for everything from a villager": "Выторгуйте все возможные предметы у всех возможных жителей",
@@ -347,7 +347,7 @@
 "Shulker Maestro": "Шалкеровый Маэстро",
 "Open the shulker box 100,000 times": "Откройте шалкеровый ящик 100,000 раз",
 
-"Survivor`s Hour": "Час Выживания",
+"Survivor\u0027s Hour": "Час Выживания",
 "Avoid dying within 1 hour": "Избегайте смерти на протяжение 1 часа",
 
 "Resilient Centenarian": "Жизнерадостный Долгожитель",
@@ -380,11 +380,20 @@
 
 # adventure
 
+"Advancement\u0027s Stairs": "Ступеньки Достижения",
+"Show more information about advancement": "Показывает больше информации о достижениях",
+
+"Broomstick": "Метла",
+"Sweeps away messes and boredom!": "Сметает беспорядок и скуку!",
+
+"Not a bug, but a feature": "Не баг, а фича",
+"Each stone harbors a secret": "Каждый камень таит в себе тайну",
+
 "Magic Bell": "Магический Колокол",
 "Knock yourself on the head": "По голове себе постучи",
 
 "Komaru": "Комару",
-"Komaru`s Head": "Мордочка Комару",
+"Komaru\u0027s Head": "Мордочка Комару",
 "My favorite cats name is Komaru. She is a": "Имя моей любимой кошки - Комару. Она",
 "playful and mischievous little furball": "игривый и озорной маленький комочек шерсти",
 "with a heart full of love. Komaru has": "с сердцем, полным любви. У Комару",
@@ -398,6 +407,11 @@
 "brings so much joy and happiness to my life": "приносит столько радости и счастья в мою жизнь",
 
 # animal
+
+
+"Salmon\u0027s Head": "Голова лосося",
+"Unleash the wild sophistication with our": "Дайте волю дикой утонченности с нашей",
+"salmon head - the ultimate \u0027sea-rious\u0027": "головой лосося - непревзойденное \u0027морское рагу\u0027"
 
 "Big Nose": "Большой Нос",
 "Snort snort...": "Фырк фырк...",
