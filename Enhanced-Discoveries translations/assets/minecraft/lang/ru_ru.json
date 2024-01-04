@@ -65,7 +65,7 @@
 "More Colorful Wool!": "Больше Разноцветной Шерсти!",
 "Place a stack of wool of every color": "Поставьте стак шерсти каждого вида",
 
-"SnifferSniffEvent": "SnifferSniffEvent",
+"SnifferSniffEvent": "Событие НюхачНюхает",
 "Introduce a sniffer to a warden so they can have a sniff-off": "Представьте нюхачу хранителя, чтобы устроить соревнование на обнаружение запахов",
 
 "The Wool Magnate": "Шерстяной Магнат",
@@ -120,7 +120,7 @@
 "Reach an altitude of 100,000 blocks above the world": "Достигните высоты в 100,000 блоков над миром",
 
 "Dragon Vs Wither IV": "Дракон Против Иссушителя IV",
-"To the Underworld - Kill the Wither while in lava while wearing a dragon head and elytra": "В Подмирье - Убейте Визера, находясь в лаве, надев драконью голову и элитры.",
+"To the Underworld - Kill the Wither while in lava while wearing a dragon head and elytra": "В Подмирье - Убейте Иссушителя, находясь в лаве, надев драконью голову и элитры.",
 
 "Explosive Elixir": "Взрывной Эликсир",
 "Have every max possible level effect applied at the same time": "Получите все возможные эффекты максимального уровня одновременно",
@@ -153,7 +153,7 @@
 "Stand on a chest filled with beacons": "Встаньте на сундук, который заполнен маяками",
 
 "Happy Anniversary": "С Юбилеем",
-"Kill 300 withers": "Убейте 300 визеров",
+"Kill 300 withers": "Убейте 300 Иссушителей",
 
 "Oh, My Broken Legs": "Ох, Мои Сломанные Ноги",
 "Survive a fall from 1000 blocks above the world without landing on any blocks that soften the fall, with an empty inventory, and without any effects": "Переживите падение с высоты 1000 блоков над миром, не приземлившись ни на какие блоки, смягчающие падение, с пустым инвентарем и без каких-либо эффектов",
@@ -234,7 +234,7 @@
 # nether
 
 "Show the Wither his Home": "Покажите Иссушителю его Дом",
-"Kill the wither in all Nether biomes": "Убейте Визера во всех биомах Нижнего мира"
+"Kill the wither in all Nether biomes": "Убейте Иссушителя во всех биомах Нижнего мира"
 
 # potion
 
@@ -408,10 +408,11 @@
 
 # animal
 
-
-"Salmon\u0027s Head": "Голова лосося",
-"Unleash the wild sophistication with our": "Дайте волю дикой утонченности с нашей",
-"salmon head - the ultimate \u0027sea-rious\u0027": "головой лосося - непревзойденное \u0027морское рагу\u0027"
+"Salmon\u0027s Head": "Голова Лосося",
+"Unleash the wild sophistication with our": "Дайте волю дикой изысканности с нашей",
+"salmon head - the ultimate \"sea-rious\"": "головой лосося - непревзойденным \"морским\"",
+"statement piece for avant-garde seafood": "блюдом для любителей авангардных морепродуктов!",
+"enthusiasts! Swim in style, dine with fins!": "Плавайте стильно, обедайте с ластами!",
 
 "Big Nose": "Большой Нос",
 "Snort snort...": "Фырк фырк...",
@@ -420,12 +421,20 @@
 "Soft, fluffy, delicate, blush-colored": "Мягкая, пушистая, нежная, румяного цвета",
 "wool that radiates warmth and elegance": "шерсть, которая излучает тепло и элегантность",
 
+"Frozen Turtle": "Замороженная Черепаха",
+"Unique headpiece, an ethereal fusion of": "Уникальный головной убор, неземное сочетание красоты",
+"nature's beauty and chilling elegance": "природы и леденящей душу элегантност",
+
 # biomes
 
 "The Softest Bed": "Самая мягкая кровать",
 "Experience the ultimate comfort and": "Испытайте максимальный комфорт и",
 "luxury with our exquisite, plush bed,": "роскошь с нашей изысканной плюшевой кроватью",
 "the epitome of relaxation and bliss": "это воплощение расслабления и блаженства",
+
+"Lava Cauldron": "Лавовый Котёл",
+"An enchanting centerpiece for": "Очаровательное украшение для",
+"adventurous souls": "искателей приключений",
 
 # challenges
 
@@ -447,6 +456,11 @@
 "Sweet Darling": "Моя сладкая",
 "Mix with a bucket of milk": "Смешать с ведром молока",
 
+"My personal Wither": "Мой личный Иссушитель",
+"Dreadful Wither's visage, a bone": "Ужасный облик Иссушителя, костлявое",
+"chilling embodiment of darkness and": "воплощение тьмы и",
+"power, a sinister trophy for those who": "силы, зловещий трофей для тех, кто",
+"dare conquer": "осмелится победить",
 
 "Gold Llama": "Золотая Лама",
 "Introducing the Gold Llama: a majestic,": "Представляем золотую ламу: величественную,",
@@ -456,12 +470,39 @@
 "Experience a dazzling symphony of lights": "Ощутите ослепительную симфонию огней",
 "and colors, igniting joyous celebrations!": "и красок, зажигающую радость торжества",
 
-"Villager Head": "Голова Жителя",
+"Bat's Head": "Голова Летучей Мыши",
+"Ethereal bat-head ornament, a whimsical": "Неземное украшение в виде головы летучей мыши,",
+"tribute to the nocturnal wonders, an": "причудливая дань ночным чудесам,",
+"enchanting accessory for those who": "очаровательный аксессуар для тех, кто",
+"embrace the mysterious night sky": "любит таинственное ночное небо",
+
+"Villager's Head": "Голова Жителя",
 "nocom.": "без комментариев.",
+
+"The Most Golden Apple In The World": "Самое Золотое Яблоко в Мире",
+"The epitome of healthy living – because": "Воплощение здорового образа жизни – потому что",
+"nothing says nutrition like a metallic fruit": "ничто так не говорит о питании, как металлический фрукт",
+
+"Trick Or Treat Basket": "Корзинка с Конфетами",
+"This Trick or Treat basket in silverfish": "Эта корзинка для сладостей из чешуйницы -",
+"is the ideal accessory for those who": "идеальный аксессуар для тех, кто",
+"enjoy arachnids": "\"любит\" паукообразных",
+
+"Space Helmet": "Скафандр",
+"This space helmet is the perfect choice": "Этот космический шлем - идеальный выбор",
+"for those who aspire to look like an": "для тех, кто стремится выглядеть как",
+"astronaut from the '80s!": "космонавт в 80-х!",
+
+"A Charming Diamond": "Очаровательный Бриллиант",
+"Behold the cosmic diamond – because even": "Узрите космический бриллиант – потому что даже",
+"in space, nothing says 'I'm rich' like rocks": "в космосе ничто так не говорит \"я богат\", как камни",
 
 "Nautilus Crab": "Краб Наутилус",
 "The ultimate fashion statement for": "Идеальное заявление для",
 "gourmet seafood enthusiasts!": "гурманов-любителей морепродуктов",
+
+"There's more than it seems": "Здесь больше, чем кажется",
+"Use composters on hoppers - 75% faster": "Использовать компостеры на воронках - на 75% быстрее",
 
 "Nuclear Bomb": "Ядерная Бомба",
 "The ultimate firework thats definitely": "Непревзойденный фейерверк, который определенно",
@@ -476,13 +517,45 @@
 "rack over a baking sheet, bake for 15-20": "решетку поверх противня, запекайте в течение 15-20",
 "minutes, and drain on paper towels": "минут и обсушите на бумажных полотенцах",
 
+"Blue Axolotl": "Синий Аксолотль",
+"Presenting the blue axolotl – where": "Представляем голубого аксолотля – где",
+"mutations play the lottery, with a": "мутации играют в лотерею с",
+"whopping 0.083% chance!": "колоссальным шансом в 0,083%!",
+
 # end
+
+"Dragon Head": "Голова Дракона",
+"Armor is for amateurs": "Броня для любителей",
 
 # farming
 
+"Bad Apple": "Плохое Яблоко",
+"A rare feat achieved only by collecting": "Редкий подвиг, достигаемый только путем сбора",
+"countless apples": "бесчисленного количества яблок",
+
+"Cookie": "Печенька",
+"A bit of coffee, home comfort, and one": "Немного кофе, домашний уют и еще одно",
+"more cookie – what could be better?": "печенье – что может быть лучше?",
+
+"Poisonous Potato": "Отравленный Картофель",
+"Not all potatoes are edible, even if": "Не весь картофель съедобен, даже если",
+"they look perfectly fine": "он выглядит совершенно нормально",
+
 # mining
 
+"Brush": "Кисточка",
+"Use it to polish your copper treasures –": "Используй его, чтобы отполировать свои медные сокровища",
+"darn miner": "чертов шахтёр",
+
+"Some Rock": "Какой-нибудь камень",
+"Nothing in life is as strong as it seems": "Ничто в жизни не так сильно, как кажется на первый взгляд",
+
 # monsters
+
+# nether
+
+"The Last Rose": "Последняя Роза",
+"It was the last day I saw him": "Это был последний день, когда я видел его",
 
 # potion
 
@@ -491,9 +564,20 @@
 "dreams of exquisite beverages are": "мечты об изысканных напитках",
 "meticulously come true": "тщательно воплощаются в жизнь",
 
+# redstone
+
+"Another Piston": "Еще Один Поршень",
+"The creator of the achievements has": "Создатель достижений создал",
+"crafted 370,000 pistons and he needs the": "370,000 поршней, и ему нужно еще",
+"same amount more": "столько же",
+
 # statistics
 
 # weaponry
+
+"Loser": "Лузер",
+"Use it so you don't die": "Используй это, чтобы не умереть",
+
 
 "Tree Shield": "Деревянный Щит",
 "You spent 94 stacks of wood on this": "Вы потратили 94 стака дерева на это"
