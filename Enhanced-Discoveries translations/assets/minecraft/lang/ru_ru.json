@@ -247,17 +247,23 @@
 
 # enchanting
 
-"Oh, I Forgot about the Anvil": "Ох, Я Забыл о Наковальне",
-"Take Damage from the anvil": "Получите урон от наковальни",
+"All the Netherite Tools": "Все Незеритовые Инструменты",
+"Get perfect netherite for all tools and all paths": "Заполучите незеритовые предметы с идеальными зачарованиями и всеми их вариациями",
 
 "Master Shearer": "Мастер Ножниц",
 "Create a shears with all possible enchantments at max level": "Создайте идеальные ножницы со всеми возможными зачарованиями максимального уровня",
 
-"Pyromaniac": "Пироманьяк",
-"Create a flint and steel with all possible enchantments at max level": "Создайте идеальную зажигалку со всеми возможными зачарованиями максимального уровня",
+"Master Shieldman": "Герой Щита",
+"Create a shield with all possible enchantments at max level": "Создайте идеальный щит со всеми возможными зачарованиями",
 
 "Master Sweeper": "Мастер Уборки",
 "Create a brush with all possible enchantments at max level": "Создайте идеальную кисточку со всеми возможными зачарованиями максимального уровня",
+
+"Oh, I Forgot about the Anvil": "Ох, Я Забыл о Наковальне",
+"Take Damage from the anvil": "Получите урон от наковальни",
+
+"Pyromaniac": "Пироманьяк",
+"Create a flint and steel with all possible enchantments at max level": "Создайте идеальную зажигалку со всеми возможными зачарованиями максимального уровня",
 
 "Useless": "Бесполезная",
 "Craft a book with two curses": "Создайте книгу с двумя проклятиями",
