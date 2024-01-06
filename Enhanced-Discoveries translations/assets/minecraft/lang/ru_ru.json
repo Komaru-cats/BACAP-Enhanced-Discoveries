@@ -95,8 +95,14 @@
 
 # animal
 
+"A Ewe for Every Hue": "По Овце на Каждый Оттенок",
+"Have every color of sheep on a lead": "Держите на поводке овец всех цветов",
+
 "Hot!": "Как в Сауне!",
 "Swim on a pig in the lava": "Поплавайте на свинье в лаве",
+
+"I Love Salmons": "Я люблю Лососей",
+"Fill your inventory with salmons": "Заполните свой инвентарь лососем",
 
 "Live Salmon": "Живой Лосось",
 "Catch a live salmon with a fishing rod": "Поймайте живого лосося с помощью удочки",
@@ -104,17 +110,20 @@
 "More Colorful Wool!": "Больше Разноцветной Шерсти!",
 "Place a stack of wool of every color": "Поставьте стак шерсти каждого вида",
 
+"Skill Issue": "Проблемы с Навыками",
+"Die to a llama": "Умрите от ламы",
+
 "SnifferSniffEvent": "Событие НюхачНюхает",
 "Introduce a sniffer to a warden so they can have a sniff-off": "Представьте нюхачу хранителя, чтобы устроить соревнование на обнаружение запахов",
-
-"The Wool Magnate": "Шерстяной Магнат",
-"Fill your inventory with pink wool": "Заполните свой инвентарь розовой шерстью",
 
 "The Invisible Turtle": "Невидимая Черепаха",
 "Look at the baby turtle in the snow through a spyglass": "Посмотрите на детёныша черепахи в снегу через подзорную трубу",
 
-"I Love Salmons": "Я люблю лососей",
-"Fill your inventory with salmons": "Заполните свой инвентарь лососем",
+"The Wool Magnate": "Шерстяной Магнат",
+"Fill your inventory with pink wool": "Заполните свой инвентарь розовой шерстью",
+
+"You're Part of a Hive Mind Now": "Теперь Ты Часть Коллективного Разума",
+"Fill your inventory with beehives, where there are three bees in each beehive": "Заполните свой инвентарь ульями, где в каждом улье по три пчелы"
 
 # biomes
 
