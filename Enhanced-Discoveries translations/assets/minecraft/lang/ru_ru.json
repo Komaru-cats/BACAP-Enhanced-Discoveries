@@ -330,7 +330,7 @@
 
 # monsters
 
-"Get out of my sky": "Исчезни с глаз моих",
+"Get out of my sky": "Исчезни с Глаз Моих",
 "Get killed by a phantom while you are 320 blocks above the world": "Умрите от фантома, находясь на высоте 320 блоков над миром",
 
 "High Explosives": "Взрывоопасно",
@@ -341,8 +341,41 @@
 
 # nether
 
+"Bastion Robber": "Грабитель Бастиона",
+"Loot all types chest from bastion": "Откройте сундуки со всеми типами вещей в бастионе",
+
+"Bastion Sweet Bastion": "Бастион Милый Бастион",
+"Trade with a piglin in a bastion with a golden axe in the main hand while wearing a piglin head and a piece of gold armor": "Поторгуйтесь с пиглином в бастионе с золотым топором в руке пока на вас надета голова пиглина и часть золотой брони",
+
+"Diamond Beacon": "Алмазный Маяк",
+"Create a full power beacon that consists entirely of blocks of diamond": "Создайте маяк с максимальной мощностью, состоящий только из блоков алмазов",
+
+"Emerald Beacon": "Изумрудный Маяк",
+"Create a full power beacon that consists entirely of blocks of emerald": "Создайте маяк с максимальной мощностью, состоящий только из блоков изумрудов",
+
+"Give Them Everything They Want": "Дайте Им Всё Что Они Хотят",
+"Give every possible item to piglins": "Дайте все возможные предметы пиглину",
+
+"Gold Beacon": "Золотой Маяк",
+"Create a full power beacon that consists entirely of blocks of gold": "Создайте маяк с максимальной мощностью, состоящий только из блоков золота",
+
+"Impostor": "Свинозванец",
+"Ride a pig in the Nether": "Покатайтесь на свинье в Нижнем мире",
+
+"Iron Beacon": "Железный Маяк",
+"Create a full power beacon that consists entirely of blocks of iron": "Создайте маяк с максимальной мощностью, состоящий только из блоков железа",
+
+"Netherite Beacon!": "Незеритовый Маяк!",
+"Create a full power beacon that consists entirely of blocks of netherite": "Создайте маяк с максимальной мощностью, состоящий только из блоков незерита",
+
+"Never Careful Enough": "Никогда не Остерегайтесь Недостаточно",
+"Make absolutly sure you won't take damage from that magma block": "Будьте абсолютно уверенны, что вы не получите урон от блоков магмы",
+
 "Show the Wither his Home": "Покажите Иссушителю его Дом",
-"Kill the wither in all Nether biomes": "Убейте Иссушителя во всех биомах Нижнего мира"
+"Kill the wither in all Nether biomes": "Убейте Иссушителя во всех биомах Нижнего мира",
+
+"Withering Depths": "Иссушающие Глубины",
+"Summon and kill a wither in an ancient city": "Призовите Иссушителя и убейте его в Древнем городе",
 
 # potion
 
