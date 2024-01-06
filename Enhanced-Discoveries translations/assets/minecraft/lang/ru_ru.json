@@ -390,6 +390,12 @@
 
 # redstone
 
+"More Optimisations!": "Больше Оптимизаций!",
+"Place a redstone block above hopper to optimize its calculations": "Разместите блок красного камня над воронкой, чтобы оптимизировать её вычисления",
+
+"Optimisations": "Оптимизации",
+"Place a composter above hopper to optimize its calculations": "Разместите компостер над воронкой, чтобы оптимизировать её вычисления",
+
 "What Do You Know About Pistons": "Что вы знаете о поршнях",
 "Craft 10,000 pistons": "Скрафтите 10,000 поршней",
 
