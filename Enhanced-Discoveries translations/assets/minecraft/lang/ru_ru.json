@@ -12,8 +12,8 @@
 
 # adventure 
 
-"Advancement Info": "Информация о Достижениях",
-"Climb cobblestone stairs while wearing diamond armor and wielding a diamond sword": "Поднимайтесь по булыжниковым ступенькам, надев алмазную броню и держа в руке алмазный меч",
+"Advancement Info": "Advancement Info",
+"This mod can be useful for completing your advancements": "Этот мод может быть полезен при выполнение своих достижений",
 
 "Din-Don": "Дин-Дон",
 "Ring the bell 10,000 times": "Позвоните в колокол 10,000 раз",
@@ -24,44 +24,44 @@
 "Eye Contact Master": "Мастер Зрительного Контакта",
 "Look at enderman very closely using a Spyglass": "Посмотрите на эндермена в подзорную трубу с очень близкого расстояния",
 
-"Fake Netherite Armor": "Поддельная нетеритовая броня",
-"Wear a full set of black leather armor with any netherite trims of the same type": "Наденьте полный сет чёрной кожаной брони с любыми незеритовами шаблонами одного типа",
+"Fake Netherite Armor": "Поддельная Незеритовая броня",
+"Wear a full set of black leather armor with any netherite trims of the same type": "Наденьте полный сет чёрной кожаной брони с любыми незеритовыми шаблонами одного типа",
 
 "General Cleaning": "Генеральная Уборка",
 "Clean up each type of structure and spawner in the dungeon": "Проведите уборку в каждом типе структуры и спаунере в подземелье",
 
 "I Hate All of You": "Я Ненавижу Вас Всех",
-"Kill 100 villagers": "Убейте 100 жителей",
+"Kill 100 Villagers": "Убейте 100 Жителей",
 
 "Jurassic Park": "Парк Юрского Периода",
 "Get 64 torchflowers and 64 pitcher plants": "Соберите 64 факельника и 64 кувшинницы",
 
 "Komaru \u2665" : "Комару \u2665",
-"Name the cat \"Komaru\"": "Назовите кота \"Komaru\"",
+"Name the cat \"Komaru\"": "Назовите Кота \"Komaru\"",
 
 "Midnight Snack": "Полуночный Перекус",
-"Wake up a village to buy cookies late at night": "Разбудите жителя поздно ночью чтобы купить печеньки",
+"Wake up a Villager to buy cookies late at night": "Разбудите Жителя поздно ночью, чтобы купить печеньки",
 
 "My Personal Slave": "Мой Личный Раб",
-"Have an allay drop all swords, trident, bow and crossbow": "Заставьте Эллея кинуть вам все мечи, трезубец, лук и арбалет",
+"Have an Allay drop all swords, trident, bow and crossbow": "Заставьте Эллея кинуть вам все мечи, трезубец, лук и арбалет",
 
 "No-Water Team": "Команда без Воды",
 "Place 1000 sponges": "Поставьте 1000 губок",
 
 "Not Profitable Transportation": "Нерентабельная перевозка",
-"Buy any type of terracota from a villager in any badlands biome": "Купите любой тип терракоты у жителя находясь в месе",
+"Buy any type of terracota from a Villager in any badlands biome": "Купите любой тип терракоты у Жителя находясь в месе",
 
 "Oh, you again?": "О, Снова Ты?",
-"Open the door to a Wandering Trader": "Откройте дверь странствующему торговцу",
+"Open the door to a Wandering trader": "Откройте дверь Странствующему торговцу",
 
 "On Site Sale": "Распродажа на Месте",
-"Buy bricks from a villager in the river biome": "Купите кирпичи у жителя находясь в реке",
+"Buy bricks from a Villager in the river biome": "Купите кирпичи у Жителя находясь в реке",
 
 "Placeholder": "Заполнитель",
-"Name the warden \"Placeholder\"": "Назовите хранителя \"Placeholder\"",
+"Name the Warden \"Placeholder\"": "Назовите Хранителя \"Placeholder\"",
 
 "Real Netherite Armor": "Настоящая Незеритовая Броня",
-"Wear a full set of netherite armor with any netherite trims of the same type": "Наденьте полный сет незеритовой брони с любыми незеритовами шаблона одного типа",
+"Wear a full set of netherite armor with any netherite trims of the same type": "Наденьте полный сет незеритовой брони с любыми незеритовыми шаблона одного типа",
 
 "Restoring Population": "Восстановление численности",
 "Obtain 64 sniffer eggs": "Получите 64 яйца нюхача",
@@ -73,7 +73,7 @@
 "Wear a full set of armor with silence trims": "Наденьте полный сет брони с шаблонами \"Тишина\"",
 
 "Supply Chain": "Цепочка Поставок",
-"Buy dripstone blocks from a villager in dripstone caves": "Купите натёчный камень у жителя в карстовых пещерах",
+"Buy dripstone blocks from a Villager in dripstone caves": "Купите натёчный камень у Жителя в карстовых пещерах",
 
 "Sus Miner": "Недоверчивый Шахтёр",
 "Break 1 suspicious sand or gravel (break without brush)": "Сломайте 1 блок подозрительного песка или гравия (без использования кисточки)",
@@ -85,7 +85,7 @@
 "Ring the bell at 6:00 on top of the world": "Позвоните в колокол в 6:00 на вершине мира",
 
 "Uncontrolled Reproduction": "Бесконтрольное Размножение",
-"Have an allay drop a amethyst shard at a note block": "Заставьте Эллея кинуть аметист на нотный блок",
+"Have an Allay drop an amethyst shard at a note block": "Заставьте Эллея кинуть аметист на нотный блок",
 
 "Water Team": "Водная Команда",
 "Use a bucket of water 4000 times": "Используйте ведро воды 4000 раз",
@@ -96,10 +96,10 @@
 # animal
 
 "A Ewe for Every Hue": "По Овце на Каждый Оттенок",
-"Have every color of sheep on a lead": "Держите на поводке овец всех цветов",
+"Have every color of a Sheep on a lead": "Держите на поводке Овец всех цветов",
 
 "Hot!": "Как в Сауне!",
-"Swim on a pig in the lava": "Поплавайте на свинье в лаве",
+"Swim on a Pig in the lava": "Поплавайте на Свинье в лаве",
 
 "I Love Salmons": "Я люблю Лососей",
 "Fill your inventory with salmons": "Заполните свой инвентарь лососем",
@@ -111,19 +111,19 @@
 "Place a stack of wool of every color": "Поставьте стак шерсти каждого вида",
 
 "Skill Issue": "Проблемы с Навыками",
-"Die to a llama": "Умрите от ламы",
+"Die of a Llama": "Умрите от Ламы",
 
 "SnifferSniffEvent": "Событие НюхачНюхает",
-"Introduce a sniffer to a warden so they can have a sniff-off": "Представьте нюхачу хранителя, чтобы устроить соревнование на обнаружение запахов",
+"Introduce a Sniffer to a Warden so they can have a sniff-off": "Представьте Нюхачу Хранителя, чтобы устроить соревнование на обнаружение запахов",
 
 "The Invisible Turtle": "Невидимая Черепаха",
-"Look at the baby turtle in the snow through a spyglass": "Посмотрите на детёныша черепахи в снегу через подзорную трубу",
+"Look at the baby Turtle in the snow using a Spyglass": "Посмотрите на детёныша Черепахи в снегу через подзорную трубу",
 
 "The Wool Magnate": "Шерстяной Магнат",
 "Fill your inventory with pink wool": "Заполните свой инвентарь розовой шерстью",
 
 "You're Part of a Hive Mind Now": "Теперь Ты Часть Коллективного Разума",
-"Fill your inventory with beehives, where there are three bees in each beehive": "Заполните свой инвентарь ульями, где в каждом улье по три пчелы",
+"Fill your inventory with beehives, each with three bees": "Заполните свой инвентарь улеями, где в каждом улее по три пчелы",
 
 # biomes
 
@@ -134,9 +134,9 @@
 "Place 1000 blocks of blue ice": "Поставьте 1000 блоков синего льда",
 
 "My Mountains": "Мои Горы",
-"Drink milk at the top of the mountain while looking at the goat": "Выпейте молоко на вершине горы, смотря на козу",
+"Drink milk at the top of the mountain while looking at the Goat": "Выпейте молоко на вершине горы, смотря на Козу",
 
-"Stop there, you're tall enough": "Остановитель Здесь, Вы Достаточно Высокие",
+"Stop there, you're tall enough": "Вы Достаточно Высокие",
 "Stop the growth of kelp, twisted vine and weeping vine": "Остановите рост ламинарии, вьющайся лозы и плакучей лозы",
 
 "The Boatman": "Лодочник",
@@ -154,7 +154,7 @@
 "Place a flower pot above decorated pot": "Разместите цветочный горшок на узорчатой вазе",
 
 "Potception": "Горшкорождённый",
-"Put a brown shulker box full of decorated pots inside a decorated pot": "Разместите коричневый шалкер полный узорчатых ваз внутрь узорчатой вазы",
+"Put a brown shulker box full of decorated pots inside a decorated pot": "Поместите коричневый шалкер полный узорчатых ваз внутрь узорчатой вазы",
 
 "Statue": "Статуя",
 "Stand on a block of chiseled quartz and look through a spyglass": "Стойте на блоке резного кварца, смотря в подзорную трубу",
@@ -162,16 +162,16 @@
 # challenges
 
 "Five Birds, One Stone": "Пяти Птиц, Один Камень",
-"Kill 5 Vexes with 1 crossbow shot": "Убейте 5 вредин одной стрелой",
+"Kill 5 Vexes with a single piercing shot": "Убейте 5 Вредин одним выстрелом",
 
 "5G Connectivity": "5G Соединение",
-"Kill 5 Glow Squids with a single piercing arrow": "Убейте 5 Светящихся спрутов одной стрелой",
+"Kill 5 Glow squids with a single piercing arrow": "Убейте 5 Светящихся спрутов одной стрелой",
 
 "Astronomer": "Астроном",
-"Look through the spyglass at the anvil that is 325 blocks above the world": "Посмотри в подзорную трубу на наковальню, которая находится на высоте 325 блоков над миром",
+"Look at the anvil that is 325 blocks above the world using a Spyglass": "Посмотри на наковальню, которая находится на высоте 325 блоков над миром через Подзорную трубу",
 
 "Big Horse Adventure": "Большое Конное Приключение",
-"Discover every biome in every dimension on a horse": "Исследуйте каждый биом в каждом измерении на лошади",
+"Discover every biome in every dimension on a Horse": "Исследуйте каждый биом в каждом измерении на Лошади",
 
 "Celestial Protocol": "Небесный Протокол",
 "Reach an altitude of 100,000 blocks above the world": "Достигните высоты в 100,000 блоков над миром",
@@ -186,22 +186,22 @@
 "Have every max possible level effect applied at the same time": "Получите все возможные эффекты максимального уровня одновременно",
 
 "Extincion": "Вымирание",
-"Kill a strength 5 llama, a black rabbit, a brown panda, a blue axolotl and a jungle nitwit with a single piercing arrow in the End": "Убейте ламу с уровнем силы 5, черного кролика, коричневого панду, синего аксолотля и безработного джунглиевого жителя одной стрелой в Краю",
+"Kill a strength 5 Llama, a black Rabbit, a brown Panda, a blue Axolotl and a jungle Nitwit with a single piercing arrow in the End": "Убейте Ламу с уровнем силы 5, черного Кролика, коричневого Панду, синего Аксолотля и безработного джунглиевого Жителя одной стрелой в Краю",
 
 "Happy Anniversary": "С Юбилеем",
-"Kill 300 withers": "Убейте 300 Иссушителей",
+"Kill 300 Withers during your life": "Убейте 300 Иссушителей в течение вашей жизни",
 
 "Happy Minecraft Year": "Счастливого Нового Года",
-"Launch firework on new year\u0027s day in minecraft!": "Запустите фейерверк в новый год в майнкрафт!",
+"Launch firework on new year\u0027s day in minecraft!": "Запустите фейерверк в Новый год в вашем мире",
 
 "How Did You End Up Here": "Как Ты Тут Очутилась?",
-"Kill a bat in the End below the height of the world": "Убейте летучую мышь в Краю на высоте ниже уровня мира",
+"Kill a Bat in the End below the height of the world": "Убейте Летучую мышь в Краю на высоте ниже уровня мира",
 
 "Magic Kingdom": "Волшебное Королевство",
-"Get all magical mobs together within 32 blocks of you: Enderman, Endermite, Shulker, Witch, Blaze, Allay, Vex, Warden, Guardian, Snow Golem, Evoker": "Соберите всех магических мобов в радиусе 32 блоков от вас: Эндермена, Эндермита, Шалкера, Ведьму, Всполоха, Тихоню, Вредину, Стража, Древнего стража, Снеговика, Заклинателя",
+"Get all magical mobs together within 32 blocks of you: Enderman, Endermite, Shulker, Witch, Blaze, Allay, Vex, Warden, Guardian, Snow golem, Evoker": "Соберите всех магических мобов в радиусе 32 блоков от вас: Эндермена, Эндермита, Шалкера, Ведьму, Всполоха, Тихоню, Вредину, Стража, Древнего стража, Снеговика, Заклинателя",
 
 "Master Villager": "Маэстро Жителей",
-"Trade for everything from a villager": "Выторгуйте все возможные предметы у всех возможных жителей",
+"Trade for everything from a Villager": "Выторгуйте все возможные предметы у Жителей",
 
 "Oh, My Broken Legs": "Ох, Мои Сломанные Ноги",
 "Survive a fall from 1000 blocks above the world without landing on any blocks that soften the fall, with an empty inventory, and without any effects": "Переживите падение с высоты 1000 блоков над миром, не приземлившись ни на какие блоки, смягчающие падение, с пустым инвентарем и без каких-либо эффектов",
@@ -213,13 +213,13 @@
 "Fill your inventory with golden apples": "Заполните свой инвентарь золотыми яблоками",
 
 "Show the Nether to a Silverfish": "Явите Нижний Мир Чешуйнице",
-"Look through the spyglass to a silverfish in a bastion, fortress and a ruined portal in the Nether": "Посмотрите через подзорную трубу на Чешуйницу в бастионе, крепости нижнего мира и разрушенном портале",
+"Look at a Silverfish in a bastion, fortress and a ruined portal in the Nether using Spyglass": "Посмотрите на Чешуйницу в бастионе, крепости Нижнего мира и разрушенном портале через подзорную трубу",
 
 "So Bright": "Так Ярко",
-"Fill your inventory with diamonds!": "Заполните свой инвентарь алмазами!",
+"Fill your inventory with diamonds": "Заполните свой инвентарь алмазами",
 
 "Star Fisherman": "Звёздный Рыбак",
-"Catch a nautilus shell while you are 261 blocks above the world in the end": "Поймайте раковину наутилуса, находясь на высоте 261 блока над миром в Краю",
+"Catch a nautilus shell while you are 261 blocks above the world in the End": "Поймайте раковину наутилуса, на высоте более 261 блока над миром в Краю",
 
 "The Apocalyptic Decalogy": "Апокалиптическая Десятка",
 "Have the Wither, Elder guardian, Warden, Ravager, Ghast, Charged creeper, Phantom, Evoker, Blaze and Ender dragon in one place (have them all within 48 blocks of you)": "Приведите Иссушителя, Древнего стража, Хранителя, Разорителя, Гаста, Заряженного крипера, Фантома, Заклинателя, Всполоха, Эндер дракона в одно место (пусть все они будут в пределах 48 блоков от вас)",
@@ -234,21 +234,21 @@
 "Be 1000 blocks under the world": "Будьте на глубине 1000 блоков под миром",
 
 "What a Stupid Purchase": "Что за Глупая Сделка",
-"Buy pointed dripstone from a wandering trader in dripstone caves": "Купите капельник у странствующего торговца в биоме карстовых пещер",
+"Buy pointed dripstone from a Wandering trader in dripstone caves": "Купите капельник у Странствующего торговца в биоме карстовых пещер",
 
 "What are the chances": "Каковы Шансы",
-"Kill a phantom that is 92 blocks above the world with a bow enchanted with Flame, Punch 1, Unbreaking 2, and Curse of Vanishing while inside of a Mangrove Swamp biome": "Убейте фантомы на высоте 92 блока над уровнем мира с лука, который зачарован на воспламенение, откидывание 1, прочность 2 и проклятие утраты находясь в мангровом болоте",
+"Kill a Phantom that is 92 blocks above the world with a bow enchanted with Flame, Punch 1, Unbreaking 2, and Curse of Vanishing while inside the Mangrove Swamp biome": "Убейте Фантома на высоте 92 блока над уровнем мира с лука, который зачарован на воспламенение, откидывание 1, прочность 2 и проклятие утраты находясь в мангровом болоте",
 
 "Yes": "Да",
 "Stand on a chest filled with beacons": "Встаньте на сундук, который заполнен маяками",
 
 "Zero Coordinates Magnet": "Магнит с нулевыми координатами",
-"Kill the blue axolotl at coordinates x: 0 z: 0 y: 0 in the End": "В конце убейте синего аксолотля в точке с координатами x: 0 z: 0 y: 0 в Крае",
+"Kill the blue Axolotl at coordinates x: 0 z: 0 y: 0 in the End": "Убейте синего Аксолотля в точке с координатами x: 0 z: 0 y: 0 в Краю",
 
 # enchanting
 
 "All the Netherite Tools": "Все Незеритовые Инструменты",
-"Get perfect netherite for all tools and all paths": "Заполучите незеритовые предметы с идеальными зачарованиями и всеми их вариациями",
+"Get perfect enchantments for all netherite tools and all paths": "Заполучите идеальные зачарования для всех незеритовых инструментов и их вариаций",
 
 "Master Shearer": "Мастер Ножниц",
 "Create a shears with all possible enchantments at max level": "Создайте идеальные ножницы со всеми возможными зачарованиями максимального уровня",
@@ -265,13 +265,13 @@
 "Pyromaniac": "Пироманьяк",
 "Create a flint and steel with all possible enchantments at max level": "Создайте идеальную зажигалку со всеми возможными зачарованиями максимального уровня",
 
-"Useless": "Бесполезная",
+"Useless": "Бесполезность",
 "Craft a book with two curses": "Создайте книгу с двумя проклятиями",
 
 # end
 
 "Bee Colonist": "Пчелиный Колонизатор",
-"Place a filled beehive in the End": "Разместите заполненное пчёлами гнездо в Краю",
+"Place a filled bee nest in the End": "Разместите заполненное пчёлами гнездо в Краю",
 
 "Endergardener": "Садовник Края",
 "Plant 1000 chorus flowers": "Посадите 1000 цветков хоруса",
@@ -305,7 +305,7 @@
 # mining
 
 "Bat-Man": "Бэтмэн",
-"Kill 64 bats": "Убейте 64 летучих мыши",
+"Kill 64 Bats": "Убейте 64 Летучих мыши",
 
 "Copper King": "Медный Король",
 "Stand on a chest filled with copper blocks": "Встаньте на сундук, который заполнен медными блоками",
@@ -342,10 +342,10 @@
 # nether
 
 "Bastion Robber": "Грабитель Бастиона",
-"Loot all types chest from bastion": "Откройте сундуки со всеми типами вещей в бастионе",
+"Loot all types of chests from the bastion": "Откройте сундуки со всеми типами вещей в бастионе",
 
 "Bastion Sweet Bastion": "Бастион Милый Бастион",
-"Trade with a piglin in a bastion with a golden axe in the main hand while wearing a piglin head and a piece of gold armor": "Поторгуйтесь с пиглином в бастионе с золотым топором в руке пока на вас надета голова пиглина и часть золотой брони",
+"Trade with the Piglin in the bastion with a golden axe in the main hand while wearing the piglin's head and a piece of the golden armor": "Поторгуйтесь с Пиглином в бастионе с золотым топором в руке пока на вас надета голова Пиглина и часть золотой брони",
 
 "Diamond Beacon": "Алмазный Маяк",
 "Create a full power beacon that consists entirely of blocks of diamond": "Создайте маяк с максимальной мощностью, состоящий только из блоков алмазов",
@@ -354,13 +354,13 @@
 "Create a full power beacon that consists entirely of blocks of emerald": "Создайте маяк с максимальной мощностью, состоящий только из блоков изумрудов",
 
 "Give Them Everything They Want": "Дайте Им Всё Что Они Хотят",
-"Give every possible item to piglins": "Дайте все возможные предметы пиглину",
+"Give every possible item to Piglins": "Дайте все возможные предметы Пиглину",
 
 "Gold Beacon": "Золотой Маяк",
 "Create a full power beacon that consists entirely of blocks of gold": "Создайте маяк с максимальной мощностью, состоящий только из блоков золота",
 
 "Impostor": "Свинозванец",
-"Ride a pig in the Nether": "Покатайтесь на свинье в Нижнем мире",
+"Ride a Pig in the Nether": "Покатайтесь на Свинье в Нижнем мире",
 
 "Iron Beacon": "Железный Маяк",
 "Create a full power beacon that consists entirely of blocks of iron": "Создайте маяк с максимальной мощностью, состоящий только из блоков железа",
@@ -368,19 +368,19 @@
 "Netherite Beacon!": "Незеритовый Маяк!",
 "Create a full power beacon that consists entirely of blocks of netherite": "Создайте маяк с максимальной мощностью, состоящий только из блоков незерита",
 
-"Never Careful Enough": "Никогда не Остерегайтесь Недостаточно",
+"Never Careful Enough": "Остерегайтесь Недостаточно",
 "Make absolutly sure you won't take damage from that magma block": "Будьте абсолютно уверенны, что вы не получите урон от блоков магмы",
 
 "Show the Wither his Home": "Покажите Иссушителю его Дом",
-"Kill the wither in all Nether biomes": "Убейте Иссушителя во всех биомах Нижнего мира",
+"Kill the Wither in all Nether biomes": "Убейте Иссушителя во всех биомах Нижнего мира",
 
 "Withering Depths": "Иссушающие Глубины",
-"Summon and kill a wither in an ancient city": "Призовите Иссушителя и убейте его в Древнем городе",
+"Summon and kill the Wither in an ancient city": "Призовите Иссушителя и убейте его в Древнем городе",
 
 # potion
 
 "Flashlight": "Вспышка",
-"Have night vision and darkness at the same time": "Получите эффекты Тьмы и Ночного зрения в одно время",
+"Have Night Vision and Darkness effects at the same time": "Получите эффекты Тьмы и Ночного зрения в одно время",
 
 "Master of effects": "Мастер Эффектов",
 "Get all the max level effects possible during your life (not all at the same time)": "Получи все возможные эффекты максимально возможного уровня в течение своей жизни (не все одновременно)",
@@ -480,10 +480,10 @@
 "Open 100 chests": "Откройте 100 сундуков",
 
 "Chest Lover": "Любитель Сундуков",
-"Open 1000 chests": "Open 1000 chests",
+"Open 1000 chests": "Откройте 1000 сундуков",
 
 "Mr. Chester": "Господин Сундук",
-"Open 10,000 chests": "Откройте 10,000 сундуков",
+"Open 10,000 chests!": "Откройте 10,000 сундуков!",
 
 "Happy Chest Year!": "Счастливого Года Сундука!",
 "Open 100,000 chests": "Откройте 100,000 сундуков",
@@ -518,10 +518,10 @@
 "Craft 1000 shields": "Скрафтите 1000 щитов",
 
 "Snow Fights!": "Снежные Бои!",
-"Kill a snow golem with a snowball": "Убейте снеговика снежком",
+"Kill the Snow golem with a snowball": "Убейте Cнеговика снежком",
 
-"The Explosive Adventure": "Взрвные приключения",
-"Place 1000 tnt": "Поставьте 1000 динамита",
+"The Explosive Adventure": "Взрывные приключения",
+"Place 1000 blocks of tnt": "Поставьте 1000 блоков динамита",
 
 "Unlucky": "Невезунчик",
 "Die twice within 5 seconds": "Умрите дважды за 5 секунд",
