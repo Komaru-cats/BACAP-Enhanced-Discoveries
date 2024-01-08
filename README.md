@@ -30,6 +30,12 @@ Enhanced Discoveries currently supports only English and Russian, but you can he
 
 [File with example of translation](https://github.com/Komaru-cats/BACAP-Enhanced-Discoveries/blob/main/Enhanced-Discoveries%20Language%20Pack/assets/minecraft/lang/base_translation.json)
 
+## Compatibility
+
+**BACAP Hardcore - Not planned** ❌
+
+**Other BACAP Addons - Not tested** ⚠️
+
 ## How to Install?
 
 **The downloaded datapack should be a zipped file named "BACAP Enhanced Discoveries" and then followed by its version number.**
