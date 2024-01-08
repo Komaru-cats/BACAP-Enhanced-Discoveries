@@ -1,0 +1,10 @@
+name: Question
+description: Form for questions
+title: '[Question]: '
+labels:
+  - question
+body:
+  - type: textarea
+    attributes:
+      label: Ask your question here
+      placeholder: Write here

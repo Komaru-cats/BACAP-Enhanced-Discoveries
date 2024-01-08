@@ -1,0 +1,19 @@
+name: Bug report
+description: Form for bug reports
+title: '[Bug]: '
+labels:
+  - bug
+body:
+  - type: textarea
+    attributes:
+      label: Describe your bug
+      placeholder: Write here
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Version of datapack
+      description: Version can be found in datapack file name
+      placeholder: Old versions is not supported!
+    validations:
+      required: true

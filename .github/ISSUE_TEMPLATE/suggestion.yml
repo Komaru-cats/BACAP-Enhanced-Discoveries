@@ -1,0 +1,19 @@
+name: Suggestion
+description: Form for suggestions
+title: '[Suggestion]: '
+labels:
+  - enhancement
+body:
+  - type: textarea
+    attributes:
+      label: Describe your suggestion
+      description: Please describe in detail why this should be present
+      placeholder: Write here
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Before creating a new suggestion
+      options:
+        - label: I made sure that this function/advancement is not available at the moment in BACAP/Enhanced Discoveries
+          required: true
