@@ -536,6 +536,7 @@
 
 "Advancement's Stairs": "Ступеньки Достижения",
 "Show more information about advancement": "Показывает больше информации о достижениях",
+"requirements": "и их требованиях",
 
 "Magic Bell": "Магический Колокол",
 "Knock yourself on the head": "По голове себе постучи",
@@ -552,16 +553,16 @@
 "playful and mischievous little furball": "игривый и озорной маленький комочек шерсти",
 "with a heart full of love. Komaru has": "с сердцем, полным любви. У Комару",
 "beautiful orange fur with white patches": "красивый оранжевый мех с белыми пятнами",
-"on her paws and chest. Her bright green": "на лапах и груди. Её ярко-зеленый",
+"on her paws and chest. Her bright green": "на лапах и груди. Её ярко-зеленые",
 "eyes sparkle with curiosity and": "глаза искрятся любопытством и",
 "intelligence. Komaru loves to chase": "интеллектом. Комару любит гоняться",
 "after toys and climb up high places. She": "за игрушками и забираться на высокие места. Она",
-"is always ready for cuddles and will": "всегда к объятиям и ",
+"is always ready for cuddles and will": "всегда готова к объятиям и ",
 "purr contently in your lap. Komaru": "мурлыканью у вас на коленях. Комару",
 "brings so much joy and happiness to my life": "приносит столько радости и счастья в мою жизнь",
 
 "Watch": "Наручные Часы",
-"Next time, watch the time": "В следующий раз смотре время",
+"Next time, watch the time": "В следующий раз смотри время",
 
 "Real Netherite Template": "Реальный Незеритовый Шаблон",
 "So really real": "Слишком реально реальный",
@@ -569,7 +570,7 @@
 "Salt": "Соль",
 "Do you like it?": "Ты любишь её?",
 
-"Not a bug, but a feature": "Не баг, а фича",
+"Not a bug, but a feature": "Не баг, а Фича",
 "Each stone harbors a secret": "Каждый камень таит в себе тайну",
 
 "The Silence": "Тишина",
@@ -582,16 +583,17 @@
 
 "Salmon's Head": "Голова Лосося",
 "Unleash the wild sophistication with our": "Дайте волю дикой изысканности с нашей",
-"salmon head - the ultimate \"sea-rious\"": "головой лосося - непревзойденным \"морским\"",
+"salmon head - the ultimate 'sea-rious'": "головой лосося - непревзойденным \"морским\"",
 "statement piece for avant-garde seafood": "блюдом для любителей авангардных морепродуктов!",
-"enthusiasts! Swim in style, dine with fins!": "Плавайте стильно, обедайте с ластами!",
+"enthusiasts! Swim in style, dine with": "Плавайте стильно, обедайте с",
+"fins!": "ластами!",
 
 "Big Nose": "Большой Нос",
 "Snort snort...": "Фырк фырк...",
 
 "Frozen Turtle": "Замороженная Черепаха",
 "Unique headpiece, an ethereal fusion of": "Уникальный головной убор, неземное сочетание красоты",
-"nature's beauty and chilling elegance": "природы и леденящей душу элегантност",
+"nature's beauty and chilling elegance": "природы и леденящей душу элегантности",
 
 "The Pinkest Wool": "Самая Розовая Шерсть",
 "Soft, fluffy, delicate, blush-colored": "Мягкая, пушистая, нежная, румяного цвета",
@@ -604,7 +606,7 @@
 
 "The Softest Bed": "Самая мягкая кровать",
 "Experience the ultimate comfort and": "Испытайте максимальный комфорт и",
-"luxury with our exquisite, plush bed,": "роскошь с нашей изысканной плюшевой кроватью",
+"luxury with our exquisite, plush bed,": "роскошь с нашей изысканной плюшевой кроватью,",
 "the epitome of relaxation and bliss": "это воплощение расслабления и блаженства",
 
 "Lava Cauldron": "Лавовый Котёл",
@@ -619,7 +621,7 @@
 # challenges
 
 "The Vex Slayer": "Убийца Вексов",
-"Diary, I cannot convey all the pain and": "Дорогой невник, я не могу передать всю боль и",
+"Diary, I cannot convey all the pain and": "Дорогой дневник, я не могу передать всю боль и",
 "humiliation I have experienced": "унижение, которое я испытал",
 
 "Gold Glow Squid": "Золотой Светящийся Спрут",
@@ -647,7 +649,7 @@
 
 "Gold Llama": "Золотая Лама",
 "Introducing the Gold Llama: a majestic,": "Представляем золотую ламу: величественную,",
-"glitzy, and fabulous treasure!": " блестящее и сказочное сокровище!",
+"glitzy, and fabulous treasure!": "блестящее и сказочное сокровище!",
 
 "My personal Wither": "Мой личный Иссушитель",
 "Dreadful Wither's visage, a bone": "Ужасный облик Иссушителя, костлявое",
@@ -700,7 +702,7 @@
 "Zombies are coming": "Зомби наступают",
 
 "There's more than it seems": "Здесь больше, чем кажется",
-"Use composters on hoppers - 75% faster": "Использовать компостеры на воронках - на 75% быстрее",
+"Use composters on hoppers - 75% faster": "Используйте компостеры на воронках, это на 75% быстрее",
 
 "Nuclear Bomb": "Ядерная Бомба",
 "The ultimate firework thats definitely": "Непревзойденный фейерверк, который определенно",
@@ -714,7 +716,7 @@
 "Your face": "Твоё лицо",
 
 "Percent": "Процент",
-"The chance is approximately 0.000000040721%": "Шанс приблизительно равен 0.000000040721%",
+"The chance is approximately 0.000000040721%": "Шанс этого приблизительно равен 0.000000040721%",
 
 "Ultimate Beacon": "Абсолютный Маяк",
 "Preheat oven to 400°F, place bacon on a": "Разогрейте духовку до 400°F, выложите бекон на",
@@ -729,7 +731,7 @@
 # enchanting
 
 "Useful Instrument": "Полезный Инструмент",
-"As useful as most of the tools you've made": "Такая же полезная, как большинство сделанных тобой инструментов",
+"As useful as most of the tools you've made": "Полезная, как сделанные тобой инструменты",
 
 # end
 
@@ -802,12 +804,12 @@
 
 # statistics
 
-"Strider": "Лавамерка",
+"Strider": "Лавомерка",
 "Your personal lava-walker and": "Твоя персональная лава-ходка и",
 "spontaneous thrill ride": "спонтанная поездка с острыми ощущениями",
 
 "A good Table": "Хороший Стол",
-"Turned the Enchanting Table into you": "Превратили Стол Зачарования в",
+"Turned the Enchanting Table into your": "Превратили Стол Зачарования в",
 "personal desk": "личное рабочее место",
 
 "High Ladder": "Высокая Лестница",
@@ -837,7 +839,7 @@
 "psychiatric hospital": "психиатрической больнице",
 
 "Christmas Chest": "Рождественский Сундук",
-"A festive trophy shaped like Santa's": "Праздничный трофей в форме как у Санты",
+"A festive trophy shaped like Santa's": "Праздничный трофей в форме как у Санты,",
 "sack overflowing with loot. Includes a": "мешок, набитый награбленным. Включает в себя",
 "special Christmas Chest for the true": "специальный Рождественский Сундук для истинных ценителей",
 "chest opening connoisseur!": "вскрытия сундуков!",
@@ -846,7 +848,7 @@
 "A sleek golden trophy resembling": "Изящный золотой трофей, напоминающий",
 "intertwined train tracks": "переплетенные железнодорожные пути",
 
-"Big Firework Star": "Большая звезда фейерверка",
+"Big Firework Star": "Большая Пиротехническая Звезда Фейерверка",
 "Craft a big firework rocket.": "Сделай большой фейерверк",
 "You deserve it": "Ты заслужил это",
 
@@ -872,6 +874,8 @@
 "Infinite Shulker Box": "Бесконечный Шалкеровый Ящик",
 "Boundless storage, enchanted": "Безграничное хранилище, очаровательная",
 "organization, and ethereal design for": "организация и неземной дизайн для",
+"effortless and compact inventory": "легкого и компактного управления",
+"management": "инвентарем",
 
 "FreeBox": "ФриБокс",
 "The Freebox is an ADSL-VDSL-FTTH modem": "Freebox - это модем ADSL-VDSL-FTTH",
@@ -907,14 +911,15 @@
 "glitters as it gracefully traverses": "блестит, грациозно пересекая",
 "realms of luxury and extravagance": "царство роскоши и экстравагантности",
 
-"Running shoes": "",
+"Running shoes": "Кроссовки для бега",
 "This is only 1/40 of the perimeter of": "Это только 1/40 периметра",
 "our planet": "нашей планеты",
 
 # weaponry
 
 "Tree Shield": "Деревянный Щит",
-"You spent 94 stacks of wood on this": "Вы потратили 94 стака дерева на это",
+"You spent 94 stacks of wood on this": "Вы потратили 94 стака дерева на этот",
+"shield": "щит",
 
 "Loser": "Лузер",
 "Use it so you don't die": "Используй это, чтобы не умереть"
