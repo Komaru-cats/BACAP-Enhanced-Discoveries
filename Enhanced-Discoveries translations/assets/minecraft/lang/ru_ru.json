@@ -526,26 +526,28 @@
 "Unlucky": "Невезунчик",
 "Die twice within 5 seconds": "Умрите дважды за 5 секунд",
 
+
+
 # trophies
 
 
 
 # adventure
 
-"Advancement\u0027s Stairs": "Ступеньки Достижения",
+"Advancement's Stairs": "Ступеньки Достижения",
 "Show more information about advancement": "Показывает больше информации о достижениях",
-
-"Broomstick": "Метла",
-"Sweeps away messes and boredom!": "Сметает беспорядок и скуку!",
-
-"Not a bug, but a feature": "Не баг, а фича",
-"Each stone harbors a secret": "Каждый камень таит в себе тайну",
 
 "Magic Bell": "Магический Колокол",
 "Knock yourself on the head": "По голове себе постучи",
 
+"Broomstick": "Метла",
+"Sweeps away messes and boredom!": "Сметает беспорядок и скуку!",
+
+"Bread": "Хлеб",
+"So tasty...": "Очень вкусный...",
+
 "Komaru": "Комару",
-"Komaru\u0027s Head": "Мордочка Комару",
+"Komaru's Head": "Мордочка Комару",
 "My favorite cats name is Komaru. She is a": "Имя моей любимой кошки - Комару. Она",
 "playful and mischievous little furball": "игривый и озорной маленький комочек шерсти",
 "with a heart full of love. Komaru has": "с сердцем, полным любви. У Комару",
@@ -558,9 +560,27 @@
 "purr contently in your lap. Komaru": "мурлыканью у вас на коленях. Комару",
 "brings so much joy and happiness to my life": "приносит столько радости и счастья в мою жизнь",
 
+"Watch": "Наручные Часы",
+"Next time, watch the time": "В следующий раз смотре время",
+
+"Real Netherite Template": "Реальный Незеритовый Шаблон",
+"So really real": "Слишком реально реальный",
+
+"Salt": "Соль",
+"Do you like it?": "Ты любишь её?",
+
+"Not a bug, but a feature": "Не баг, а фича",
+"Each stone harbors a secret": "Каждый камень таит в себе тайну",
+
+"The Silence": "Тишина",
+"Still waters run deep": "В тихом омуте черти водятся",
+
+"Awkward Shovel": "Неуклюжая Лопата",
+"To mine suspiciously": "Для подозрительного копания",
+
 # animal
 
-"Salmon\u0027s Head": "Голова Лосося",
+"Salmon's Head": "Голова Лосося",
 "Unleash the wild sophistication with our": "Дайте волю дикой изысканности с нашей",
 "salmon head - the ultimate \"sea-rious\"": "головой лосося - непревзойденным \"морским\"",
 "statement piece for avant-garde seafood": "блюдом для любителей авангардных морепродуктов!",
@@ -569,13 +589,16 @@
 "Big Nose": "Большой Нос",
 "Snort snort...": "Фырк фырк...",
 
+"Frozen Turtle": "Замороженная Черепаха",
+"Unique headpiece, an ethereal fusion of": "Уникальный головной убор, неземное сочетание красоты",
+"nature's beauty and chilling elegance": "природы и леденящей душу элегантност",
+
 "The Pinkest Wool": "Самая Розовая Шерсть",
 "Soft, fluffy, delicate, blush-colored": "Мягкая, пушистая, нежная, румяного цвета",
 "wool that radiates warmth and elegance": "шерсть, которая излучает тепло и элегантность",
 
-"Frozen Turtle": "Замороженная Черепаха",
-"Unique headpiece, an ethereal fusion of": "Уникальный головной убор, неземное сочетание красоты",
-"nature's beauty and chilling elegance": "природы и леденящей душу элегантност",
+"Your Mind": "Твой разум",
+"I think you're stuck in a bottle": "Я думаю, ты застрял в бутылке",
 
 # biomes
 
@@ -588,15 +611,26 @@
 "An enchanting centerpiece for": "Очаровательное украшение для",
 "adventurous souls": "искателей приключений",
 
+# building
+
+"The Potted Pot": "Горшечный Горшок",
+"Chic Ceramic Pot": "Шикарный керамический горшок",
+
 # challenges
 
 "The Vex Slayer": "Убийца Вексов",
 "Diary, I cannot convey all the pain and": "Дорогой невник, я не могу передать всю боль и",
 "humiliation I have experienced": "унижение, которое я испытал",
 
+"Gold Glow Squid": "Золотой Светящийся Спрут",
+"Because regular squids are boring": "Потому что обычные спруты скучные",
+
 "The Orbital Anvil": "Орбитальная Наковальня",
 "Unleash your creativity with the": "Дайте волю своему творчеству с помощью",
 "unstoppable force of our anvil!": "неудержимой силы нашей наковальни!",
+
+"Soft Saddle": "Мягкое Седло",
+"So that your ass doesn't get tired": "Чтобы твоя попа не уставала",
 
 "Space Rocket": "Космическая ракета",
 "Rocket riders...?": "Ракетные гонщики...?",
@@ -605,18 +639,21 @@
 "Unleash the cosmic chaos with The Star": "Дайте волю космическому хаосу вместе со Звездой",
 "Of The Apocalypse!": "Апокалипсиса!",
 
+"The Ultimate Power": "Высшая Сила",
+"Touch the grass": "Потрогай траву",
+
 "Sweet Darling": "Моя сладкая",
 "Mix with a bucket of milk": "Смешать с ведром молока",
+
+"Gold Llama": "Золотая Лама",
+"Introducing the Gold Llama: a majestic,": "Представляем золотую ламу: величественную,",
+"glitzy, and fabulous treasure!": " блестящее и сказочное сокровище!",
 
 "My personal Wither": "Мой личный Иссушитель",
 "Dreadful Wither's visage, a bone": "Ужасный облик Иссушителя, костлявое",
 "chilling embodiment of darkness and": "воплощение тьмы и",
 "power, a sinister trophy for those who": "силы, зловещий трофей для тех, кто",
 "dare conquer": "осмелится победить",
-
-"Gold Llama": "Золотая Лама",
-"Introducing the Gold Llama: a majestic,": "Представляем золотую ламу: величественную,",
-"glitzy, and fabulous treasure!": " блестящее и сказочное сокровище!",
 
 "Big Firework": "Большой Фейерверк",
 "Experience a dazzling symphony of lights": "Ощутите ослепительную симфонию огней",
@@ -628,8 +665,19 @@
 "enchanting accessory for those who": "очаровательный аксессуар для тех, кто",
 "embrace the mysterious night sky": "любит таинственное ночное небо",
 
+"The Magic Wand": "Волшнебная Палочка",
+"Slytherin or Gryffindor?": "Слизерин или Гриффиндор",
+
 "Villager's Head": "Голова Жителя",
 "nocom.": "без комментариев.",
+
+"Space Helmet": "Скафандр",
+"This space helmet is the perfect choice": "Этот космический шлем - идеальный выбор",
+"for those who aspire to look like an": "для тех, кто стремится выглядеть как",
+"astronaut from the '80s!": "космонавт в 80-х!",
+
+"Broken": "Сломан",
+"Try to reload": "Попробуйте перезагрузить",
 
 "The Most Golden Apple In The World": "Самое Золотое Яблоко в Мире",
 "The epitome of healthy living – because": "Воплощение здорового образа жизни – потому что",
@@ -640,11 +688,6 @@
 "is the ideal accessory for those who": "идеальный аксессуар для тех, кто",
 "enjoy arachnids": "\"любит\" паукообразных",
 
-"Space Helmet": "Скафандр",
-"This space helmet is the perfect choice": "Этот космический шлем - идеальный выбор",
-"for those who aspire to look like an": "для тех, кто стремится выглядеть как",
-"astronaut from the '80s!": "космонавт в 80-х!",
-
 "A Charming Diamond": "Очаровательный Бриллиант",
 "Behold the cosmic diamond – because even": "Узрите космический бриллиант – потому что даже",
 "in space, nothing says 'I'm rich' like rocks": "в космосе ничто так не говорит \"я богат\", как камни",
@@ -652,6 +695,9 @@
 "Nautilus Crab": "Краб Наутилус",
 "The ultimate fashion statement for": "Идеальное заявление для",
 "gourmet seafood enthusiasts!": "гурманов-любителей морепродуктов",
+
+"Dr. Zomboss": "Доктор Зомбосс",
+"Zombies are coming": "Зомби наступают",
 
 "There's more than it seems": "Здесь больше, чем кажется",
 "Use composters on hoppers - 75% faster": "Использовать компостеры на воронках - на 75% быстрее",
@@ -664,6 +710,12 @@
 "The perfect accessory for hiding your": "Идеальный аксессуар для сокрытия ваших",
 "questionable late-night snacking habits!": "сомнительных привычек перекусывать поздно вечером!",
 
+"Wandering Llama": "Странствующая Лама",
+"Your face": "Твоё лицо",
+
+"Percent": "Процент",
+"The chance is approximately 0.000000040721%": "Шанс приблизительно равен 0.000000040721%",
+
 "Ultimate Beacon": "Абсолютный Маяк",
 "Preheat oven to 400°F, place bacon on a": "Разогрейте духовку до 400°F, выложите бекон на",
 "rack over a baking sheet, bake for 15-20": "решетку поверх противня, запекайте в течение 15-20",
@@ -673,6 +725,11 @@
 "Presenting the blue axolotl – where": "Представляем голубого аксолотля – где",
 "mutations play the lottery, with a": "мутации играют в лотерею с",
 "whopping 0.083% chance!": "колоссальным шансом в 0,083%!",
+
+# enchanting
+
+"Useful Instrument": "Полезный Инструмент",
+"As useful as most of the tools you've made": "Такая же полезная, как большинство сделанных тобой инструментов",
 
 # end
 
@@ -684,6 +741,9 @@
 "Bad Apple": "Плохое Яблоко",
 "A rare feat achieved only by collecting": "Редкий подвиг, достигаемый только путем сбора",
 "countless apples": "бесчисленного количества яблок",
+
+"My Little Cherry": "Моя Маленькая Вишня",
+"So rose...": "Слишком розовая",
 
 "Cookie": "Печенька",
 "A bit of coffee, home comfort, and one": "Немного кофе, домашний уют и еще одно",
@@ -699,12 +759,29 @@
 "Use it to polish your copper treasures –": "Используй его, чтобы отполировать свои медные сокровища",
 "darn miner": "чертов шахтёр",
 
+"Deepslate Emerald Ore Chest": "Сланцевый Изумрудный Сундук",
+"Why is it always empty?": "Почему он всегда пуст?",
+
 "Some Rock": "Какой-нибудь камень",
 "Nothing in life is as strong as it seems": "Ничто в жизни не так сильно, как кажется на первый взгляд",
 
 # monsters
 
+
+
 # nether
+
+"Pot Of Diamonds": "Горшок с Алмазами",
+"Look at your dirty pot, are you happy?": "Посмотри на свой грязный горшок, ты счастлив?",
+
+"Bag with Emeralds": "Мешочек с Изумрудами",
+"Are you still happy?": "Ты всё еще счастлив?",
+
+"My Precious": "Моя Прелесть",
+"It glitters, I know you love it": "Оно блестит, я знаю, тебе это нравится",
+
+"Netherite Cake": "Незеритовый Торт",
+"You can't be happy...": "Ты не можешь быть счастлив...",
 
 "The Last Rose": "Последняя Роза",
 "It was the last day I saw him": "Это был последний день, когда я видел его",
@@ -725,16 +802,123 @@
 
 # statistics
 
+"Strider": "Лавамерка",
+"Your personal lava-walker and": "Твоя персональная лава-ходка и",
+"spontaneous thrill ride": "спонтанная поездка с острыми ощущениями",
+
+"A good Table": "Хороший Стол",
+"Turned the Enchanting Table into you": "Превратили Стол Зачарования в",
+"personal desk": "личное рабочее место",
+
+"High Ladder": "Высокая Лестница",
+"Scaling heights like a seasoned": "Покоряя высоты, как опытный",
+"mountaineer, you've climbed 100km with a": "альпинист, вы преодолели 100 км с помощью простой",
+"mere ladder or vines": "лестницы или виноградных лоз",
+
+"Treasure Trove": "Сокровищница",
+"A miniature chest trophy that's": "Миниатюрный нагрудный трофей, который",
+"surprisingly empty": "на удивление пуст",
+
+"Low-Calorie Food": "Низкокaлорийная Пища",
+"I think you need to go on a diet": "Я думаю тебе нужно сесть на диету",
+
+"Mr. Sheep": "Господин Баран",
+"A miniature arc, acknowledging your": "Миниатюрная арка, свидетельствующая о вашем",
+"animal breeding prowess": "мастерстве в разведении животных",
+
+"MEGA STONKS": "СУПЕР ПРИБЫЛЬ",
+"Become richer than Rockefeller": "Станьте богаче чем Рокфеллер",
+
+"Your Heart": "Твоё Сердце",
+"Your life is like a heart on TV": "Твоя жизнь похожа на сердце в телевизоре",
+
+"Golden Hourglass": "Золотые песочные часы",
+"You spent quite a long time in the": "Вы провели довольно долгое время в",
+"psychiatric hospital": "психиатрической больнице",
+
+"Christmas Chest": "Рождественский Сундук",
+"A festive trophy shaped like Santa's": "Праздничный трофей в форме как у Санты",
+"sack overflowing with loot. Includes a": "мешок, набитый награбленным. Включает в себя",
+"special Christmas Chest for the true": "специальный Рождественский Сундук для истинных ценителей",
+"chest opening connoisseur!": "вскрытия сундуков!",
+
+"Railroad Baron's Emblem": "Эмблема Железнодорожного Барона",
+"A sleek golden trophy resembling": "Изящный золотой трофей, напоминающий",
+"intertwined train tracks": "переплетенные железнодорожные пути",
+
+"Big Firework Star": "Большая звезда фейерверка",
+"Craft a big firework rocket.": "Сделай большой фейерверк",
+"You deserve it": "Ты заслужил это",
+
+"Ladder": "Лестница",
+"Simple ladder, you can use it": "Простая лестница, ты можешь ею воспользоваться",
+
+"Gold Chest": "Золотой Сундук",
+"You've crafted your way into the": "Ты проложил себе путь в ",
+"legendary artisan's league!": "легендарную лигу ремесленников!",
+
+"Crafting Factory": "Фабрика Создания",
+"Try not to craft on it": "Постарайся не крафтить на ней",
+
+"Your Clock": "Твои Часы",
+"Do you know what time it is?": "Ты знаешь, который сейчас час?",
+
+"Personal Сhest": "Личный Сундук",
+"I know you like chests": "Я знаю, ты любишь сундуки",
+
+"Motor Boat": "Моторная Лодка",
+"Fast as the speed of light": "Быстра, как скорость света",
+
+"Infinite Shulker Box": "Бесконечный Шалкеровый Ящик",
+"Boundless storage, enchanted": "Безграничное хранилище, очаровательная",
+"organization, and ethereal design for": "организация и неземной дизайн для",
+
+"FreeBox": "ФриБокс",
+"The Freebox is an ADSL-VDSL-FTTH modem": "Freebox - это модем ADSL-VDSL-FTTH",
+"and a set-top box that the French": "и телеприставка, которую французский",
+"Internet service provider named Free": "интернет-провайдер, именуемый Free",
+"(part of the Iliad group) provides to": "(часть Илиад группы) предоставлял для",
+"its DSL-FTTH subscribers": "своих DSL-FTTH абонентов",
+
+"Trick or Treat Basket with Rabbit": "Корзинка с Конфетами и Кроликом",
+"Channels the spirit of bouncy joy,": "Направляет дух бодрой радости",
+"turning every leap into a pile of": "превращая каждый прыжок в кучу",
+"delight": "невероятного восторга",
+
+"Katana": "Катана",
+"Mastery does not tolerate haste": "Мастерство не терпит спешки",
+
+"PigTrain": "Свинопоезд",
+"You have a specific taste in": "У тебя экзотические вкусы в",
+"transportation": "перемещение",
+
+"Blood Moon": "Кровавая Луна",
+"Become the Nightmare": "Стань ночным кошмаром",
+
+"Private Pool": "Личный Бассейн",
+"An exclusive oasis of aquatic luxury,": "Эксклюзивный оазис, водная роскошь,",
+"this private pool is your personal": "этот частный бассейн - ваше личное",
+"retreat, where relaxation meets opulence": "убежище, где расслабление сочетается с роскошью",
+"in the comfort of your own space": "комфорта вашего пространства",
+
+"Gold Horse": "Золотая Лошадь",
+"Elegance in equine form, a majestic": "Элегантность в облике лошади, величественный",
+"steed that doesn't just gallop, but": "скакун, который не просто скачет галопом, но и",
+"glitters as it gracefully traverses": "блестит, грациозно пересекая",
+"realms of luxury and extravagance": "царство роскоши и экстравагантности",
+
+"Running shoes": "",
+"This is only 1/40 of the perimeter of": "Это только 1/40 периметра",
+"our planet": "нашей планеты",
+
 # weaponry
 
-"Loser": "Лузер",
-"Use it so you don't die": "Используй это, чтобы не умереть",
-
-
 "Tree Shield": "Деревянный Щит",
-"You spent 94 stacks of wood on this": "Вы потратили 94 стака дерева на это"
+"You spent 94 stacks of wood on this": "Вы потратили 94 стака дерева на это",
 
+"Loser": "Лузер",
+"Use it so you don't die": "Используй это, чтобы не умереть"
 
-
+# that is all...
 
 }
