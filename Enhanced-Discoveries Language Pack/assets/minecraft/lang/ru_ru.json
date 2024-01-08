@@ -926,15 +926,18 @@
 
 # menu if BACAP is installed
 
-" successfully installed": "Успешно загружен",
+" successfully installed": " yспешно загружен",
 
-"Thanks for downloading, if you find any bugs, typos or other inaccuracies, ": "Спасибо за скачивание, если вы найдёте любые баги, опечарки или другие неточности, ",
+"Thanks for downloading, if you find any bugs, typos or other inaccuracies, ": "Спасибо за скачивание, если вы найдёте любые баги, опечатки или другие неточности, ",
 "write an issue": "напишите репорт", 
+"Write an issue": "Написать репорт",
+"Open on GitHub": "Открыть на GitHub",
+"Open on Modrinth": "Открыть на Modrinth",
 
 # menu if BACAP is not installed
 
-"isn't installed": "не установлен",
-"[!] Download ": "[!] Установите",
+" isn't installed": " не установлен",
+"[!] Download ": "[!] Установите ",
 "BACAP first": "BACAP сначала",
 
 # version!
