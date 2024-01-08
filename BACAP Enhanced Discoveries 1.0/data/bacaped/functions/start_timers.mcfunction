@@ -1,4 +1,3 @@
-say 1
 # Objectives
 scoreboard objectives add bacaped_install dummy
 scoreboard objectives add bacaped_inlava dummy
