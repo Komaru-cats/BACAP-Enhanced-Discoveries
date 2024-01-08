@@ -8,3 +8,5 @@ body:
     attributes:
       label: Ask your question here
       placeholder: Write here
+    validations:
+      required: true
