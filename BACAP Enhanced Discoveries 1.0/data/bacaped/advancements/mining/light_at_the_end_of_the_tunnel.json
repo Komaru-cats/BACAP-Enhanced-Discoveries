@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:lantern"
+    },
+    "title": {
+      "translate": "Light at the End of the Tunnel"
+    },
+    "description": {
+      "translate": "Place the lantern in a dark place in the cave",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/heart_of_darkness",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": {
+          "location": {
+            "light": {
+              "light": 0
+            }
+          },
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:lantern"
+              ]
+            }
+          }
+        },
+        "location": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {}
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:mining/light_at_the_end_of_the_tunnel"
+  }
+}

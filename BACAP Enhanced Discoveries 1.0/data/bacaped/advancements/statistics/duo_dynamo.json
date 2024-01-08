@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:rabbit",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": {
+      "translate": "Duo Dynamo"
+    },
+    "description": {
+      "translate": "Breed 10,000 animals",
+      "color": "light_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "blazeandcave:statistics/two_by_two",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:animals_bred",
+                "value": {
+                  "min": 10000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:statistics/duo_dynamo"
+  }
+}

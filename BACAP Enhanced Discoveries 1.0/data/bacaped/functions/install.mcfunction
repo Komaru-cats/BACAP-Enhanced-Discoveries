@@ -1,0 +1,5 @@
+datapack disable "file/Bacaped"
+datapack disable "file/Bacaped.zip"
+datapack enable "file/Bacaped" last
+datapack enable "file/Bacaped.zip" last
+tellraw @a ["",{"text":"BACAP-Enhanced-Discoveries","bold":true,"color":"#5BE576"},{"text":" successfully installed","color":"yellow"},{"text":"\n"},{"text":"Version: beta-1.0","color":"#6FFF69"},{"text":"\n"},{"text":"Thanks for downloading, if you find any bugs, typos or other inaccuracies, ","color":"#A6DEFF"},{"text":"write an issue","underlined":true,"color":"#A6DEFF","clickEvent":{"action":"open_url","value":"https://github.com/Komaru-cats/BACAP-Enhanced-Discoveries/issues"},"hoverEvent":{"action":"show_text","contents":"Write an issue"}},{"text":"\n"},{"text":"[\u2604]","color":"gray"},{"text":" "},{"text":"GitHub","color":"dark_gray","clickEvent":{"action":"open_url","value":"https://github.com/Komaru-cats/BACAP-Enhanced-Discoveries"},"hoverEvent":{"action":"show_text","contents":"Open on GitHub"}},{"text":" |","color":"gray"},{"text":" "},{"text":"Modrinth","color":"#76E476","clickEvent":{"action":"open_url","value":"https://modrinth.com"},"hoverEvent":{"action":"show_text","contents":"Open on Modrinth"}}]

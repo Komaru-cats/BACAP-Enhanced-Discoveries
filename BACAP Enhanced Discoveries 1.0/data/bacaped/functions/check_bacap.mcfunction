@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"BACAP-Enhanced-Discoveries","bold":true,"color":"#5BE576"},{"text":" isn't installed","color":"yellow"},{"text":"\n"},{"text":"Version: beta-1.0","color":"#6FFF69"},{"text":"\n"},{"text":"Download ","color":"#A6DEFF"},{"text":"BACAP first","color":"#A6DEFF","hoverEvent":{"action":"show_text","contents":"Open on Modrinth"}}]
