@@ -922,7 +922,24 @@
 "shield": "щит",
 
 "Loser": "Лузер",
-"Use it so you don't die": "Используй это, чтобы не умереть"
+"Use it so you don't die": "Используй это, чтобы не умереть",
+
+# menu if BACAP is installed
+
+" successfully installed": "Успешно загружен",
+
+"Thanks for downloading, if you find any bugs, typos or other inaccuracies, ": "Спасибо за скачивание, если вы найдёте любые баги, опечарки или другие неточности, ",
+"write an issue": "напишите репорт", 
+
+# menu if BACAP is not installed
+
+"isn't installed": "не установлен",
+"[!] Download ": "[!] Установите",
+"BACAP first": "BACAP сначала",
+
+# version!
+
+"Version: beta-1.0": "Версия: Бета-1.0"
 
 # that is all...
 
