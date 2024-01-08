@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:brush",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": {
+      "translate": "Master Sweeper"
+    },
+    "description": {
+      "translate": "Create a brush with all possible enchantments at max level"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:enchanting/pyromaniac",
+  "criteria": {
+    "shears": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brush"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:mending"
+              },
+              {
+                "enchantment": "minecraft:unbreaking",
+                "levels": 3
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:enchanting/master_sweeper"
+  }
+}

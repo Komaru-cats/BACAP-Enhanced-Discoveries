@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wandering_trader_spawn_egg"
+    },
+    "title": {
+      "translate": "Oh, you again?"
+    },
+    "description": {
+      "translate": "Open the door to a Wandering trader",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/shady_deals",
+  "criteria": {
+    "oh_you_again": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "looking_at": {
+              "type": "minecraft:wandering_trader"
+            }
+          }
+        },
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:doors",
+                "state": {
+                  "open": "true"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:adventure/oh_you_again"
+  }
+}
