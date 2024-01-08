@@ -28,7 +28,7 @@ Enhanced Discoveries currently supports only English and Russian, but you can he
 
 [Create Pull Request](https://github.com/Komaru-cats/BACAP-Enhanced-Discoveries/pulls)
 
-[Russian translation that can be used as an example](https://github.com/Komaru-cats/BACAP-Enhanced-Discoveries/blob/main/Enhanced-Discoveries%20Language%20Pack/assets/minecraft/lang/ru_ru.json)
+[File with example of translation](https://github.com/Komaru-cats/BACAP-Enhanced-Discoveries/blob/main/Enhanced-Discoveries%20Language%20Pack/assets/minecraft/lang/base_translation.json)
 
 ## How to Install?
 
