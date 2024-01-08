@@ -14,6 +14,6 @@ body:
     attributes:
       label: Version of datapack
       description: Version can be found in datapack file name
-      placeholder: Old versions is not supported!
+      placeholder: Old versions are not supported!
     validations:
       required: true
