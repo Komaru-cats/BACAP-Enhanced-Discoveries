@@ -64,7 +64,7 @@ If you find any bugs, typos or other inaccuracies, write an [Issue](https://gith
 
 # Credits
 
-Not all advancements were completely invented by us, some were taken from these datapacks:
+Not all advancements were completely invented by us, some were taken from these places:
 - [Bacap Torture Edition](https://www.planetminecraft.com/data-pack/bacap-torture-edition/?ysclid=lqt5bs9pwk88210964)
 - [Enhanced Advancements](https://www.planetminecraft.com/data-pack/enhanced-advancements/)
 - [Blaze And Caves Advancements Pack Discord Server](https://discord.gg/blaze-and-cave-419383460600348673)
