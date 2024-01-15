@@ -47,5 +47,6 @@ jobs:
           ${{ github.workspace }}/${{ github.event.inputs.folder_name_2 }}.zip
         name: Release ${{ github.event.inputs.tag }}
         tag_name: ${{ github.event.inputs.tag }}
+        token: ${{ secrets.GITHUB_ORG_TOKEN }}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_ORG_TOKEN }}
