@@ -1,20 +1,20 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:oak_log"
+      "item": "minecraft:oak_planks"
     },
     "title": {
-      "translate": "Craftsman Novice"
+      "translate": "Artisan Adept"
     },
     "description": {
-      "translate": "Open the crafting table 50 times",
-      "color": "green"
+      "translate": "Open the crafting table 100 times",
+      "color": "#75E1FF"
     },
-    "frame": "task",
+    "frame": "goal",
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "blazeandcave:technical/you_are_a_big_cheater",
+  "parent": "bacaped:statistics/craftsman_novice",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:location",
@@ -27,7 +27,7 @@
                 "type": "minecraft:custom",
                 "stat": "minecraft:interact_with_crafting_table",
                 "value": {
-                  "min": 50
+                  "min": 100
                 }
               }
             ]
@@ -37,6 +37,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/craftsman_novice"
+    "function": "bc_rewards:statistics/artisan_adept"
   }
 }

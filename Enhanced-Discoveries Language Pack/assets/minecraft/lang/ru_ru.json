@@ -450,16 +450,16 @@
 "Jump 1,000,000 times": "Пропрыгайте 1,000,000 раз",
 
 "Craftsman Novice": "Начинающий Ремесленник",
-"Open the crafting table 50 times": "Откройте верстак 50 раз",
+"Open the crafting table 15 times": "Откройте верстак 15 раз",
 
 "Artisan Adept": "Искусный Ремесленник",
-"Open the crafting table 500 times": "Откройте верстак 500 раз",
+"Open the crafting table 100 times": "Откройте верстак 100 раз",
 
 "Master Artificer": "Мастер-ремесленник",
-"Open the crafting table 5000 times": "Откройте верстак 5000 раз",
+"Open the crafting table 500 times": "Откройте верстак 500 раз",
 
 "Legendary Artisan": "Легендарный Ремесленник",
-"Open the crafting table 50,000 times": "Откройте верстак 50,000 раз",
+"Open the crafting table 2500 times": "Откройте верстак 2500 раз",
 
 "Chests Aficionado": "Поклонник Сундуков",
 "Open 2500 loot chests": "Откройте 2500 сундуков с лутом",
@@ -942,7 +942,7 @@
 
 # version!
 
-"Version: beta-1.0": "Версия: Бета-1.0"
+"Version: beta-1.1": "Версия: Бета-1.1"
 
 # that is all...
 
