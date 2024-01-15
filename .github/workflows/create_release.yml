@@ -48,4 +48,4 @@ jobs:
         name: Release ${{ github.event.inputs.tag }}
         tag_name: ${{ github.event.inputs.tag }}
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_ORG_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
