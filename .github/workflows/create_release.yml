@@ -35,4 +35,4 @@ jobs:
           ${{ github.workspace }}/${{ github.event.inputs.folder_name }}.zip
         title: Release ${{ github.run_number }}
       env:
-        GITHUB_TOKEN: ${{ secrets.ORG_GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_ORG_TOKEN }}
