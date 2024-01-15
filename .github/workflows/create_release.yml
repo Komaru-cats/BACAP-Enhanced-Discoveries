@@ -32,12 +32,16 @@ jobs:
     - name: Create archive for folder 1
       run: |
         folder_name="${{ github.event.inputs.folder_name_1 }}"
-        zip -r "$folder_name.zip" "$folder_name"
+        cd "$folder_name"
+        zip -r "../$folder_name.zip" .
+        cd ..
 
     - name: Create archive for folder 2
       run: |
         folder_name="${{ github.event.inputs.folder_name_2 }}"
-        zip -r "$folder_name.zip" "$folder_name"
+        cd "$folder_name"
+        zip -r "../$folder_name.zip" .
+        cd ..
 
     - name: Upload to releases
       uses: softprops/action-gh-release@v1
@@ -45,7 +49,7 @@ jobs:
         files: |
           ${{ github.workspace }}/${{ github.event.inputs.folder_name_1 }}.zip
           ${{ github.workspace }}/${{ github.event.inputs.folder_name_2 }}.zip
-        title: Release ${{ github.run_number }}
+        name: Release ${{ github.event.inputs.tag }}
         tag_name: ${{ github.event.inputs.tag }}
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_ORG_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.TOKEN }}
