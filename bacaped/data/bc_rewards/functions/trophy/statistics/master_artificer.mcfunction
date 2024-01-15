@@ -1,0 +1,2 @@
+give @s minecraft:crafting_table{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#EF8310\",\"translate\":\"Crafting Factory\"}",Lore:["{\"color\": \"#EF8310\", \"translate\": \"Try not to craft on it\"}", "{\"text\":\" \"}", "{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}", "{\"italic\":false,\"color\":\"dark_purple\",\"translate\":\"Master Artificer\"}"]}} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Crafting Factory"}]}

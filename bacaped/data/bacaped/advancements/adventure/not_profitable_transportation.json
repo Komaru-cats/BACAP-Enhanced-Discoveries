@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:white_terracotta"
+    },
+    "title": {
+      "translate": "Not Profitable Transportation"
+    },
+    "description": {
+      "translate": "Buy any type of terracota from a Villager in any badlands biome",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:adventure/on_site_sale",
+  "criteria": {
+    "buy_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "biome": "minecraft:badlands"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "biome": "minecraft:eroded_badlands"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "biome": "minecraft:wooded_badlands"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "item": {
+          "tag": "minecraft:terracotta"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:adventure/not_profitable_transportation"
+  }
+}

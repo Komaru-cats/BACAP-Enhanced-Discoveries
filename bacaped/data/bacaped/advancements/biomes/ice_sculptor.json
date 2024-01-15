@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:blue_ice",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": {
+      "translate": "Ice Sculptor"
+    },
+    "description": {
+      "translate": "Place 1000 blocks of blue ice"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/thick_ice",
+  "criteria": {
+    "place_1000_blue_ice": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "stats": [
+                  {
+                    "type": "minecraft:used",
+                    "stat": "minecraft:blue_ice",
+                    "value": {
+                      "min": 1000
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:biomes/ice_sculptor"
+  }
+}

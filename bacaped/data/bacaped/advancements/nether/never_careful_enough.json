@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_boots",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": {
+      "translate": "Never Careful Enough"
+    },
+    "description": {
+      "translate": "Make absolutly sure you won't take damage from that magma block",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/stepping_on_legos",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:magma_block"
+              ]
+            }
+          },
+          "equipment": {
+            "feet": {
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:frost_walker"
+                }
+              ]
+            }
+          },
+          "effects": {
+            "minecraft:fire_resistance": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:nether/never_careful_enough"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:redstone_block",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": {
+      "translate": "The King of the Redskins"
+    },
+    "description": {
+      "translate": "Fill you inventory with redstone blocks",
+      "color": "#FF2A2A"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/all_the_items",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "nbt": "{Inventory:[{Slot:0b,id:\"minecraft:redstone_block\",Count:64b},{Slot:1b,id:\"minecraft:redstone_block\",Count:64b},{Slot:2b,id:\"minecraft:redstone_block\",Count:64b},{Slot:3b,id:\"minecraft:redstone_block\",Count:64b},{Slot:4b,id:\"minecraft:redstone_block\",Count:64b},{Slot:5b,id:\"minecraft:redstone_block\",Count:64b},{Slot:6b,id:\"minecraft:redstone_block\",Count:64b},{Slot:7b,id:\"minecraft:redstone_block\",Count:64b},{Slot:8b,id:\"minecraft:redstone_block\",Count:64b},{Slot:9b,id:\"minecraft:redstone_block\",Count:64b},{Slot:10b,id:\"minecraft:redstone_block\",Count:64b},{Slot:11b,id:\"minecraft:redstone_block\",Count:64b},{Slot:12b,id:\"minecraft:redstone_block\",Count:64b},{Slot:13b,id:\"minecraft:redstone_block\",Count:64b},{Slot:14b,id:\"minecraft:redstone_block\",Count:64b},{Slot:15b,id:\"minecraft:redstone_block\",Count:64b},{Slot:16b,id:\"minecraft:redstone_block\",Count:64b},{Slot:17b,id:\"minecraft:redstone_block\",Count:64b},{Slot:18b,id:\"minecraft:redstone_block\",Count:64b},{Slot:19b,id:\"minecraft:redstone_block\",Count:64b},{Slot:20b,id:\"minecraft:redstone_block\",Count:64b},{Slot:21b,id:\"minecraft:redstone_block\",Count:64b},{Slot:22b,id:\"minecraft:redstone_block\",Count:64b},{Slot:23b,id:\"minecraft:redstone_block\",Count:64b},{Slot:24b,id:\"minecraft:redstone_block\",Count:64b},{Slot:25b,id:\"minecraft:redstone_block\",Count:64b},{Slot:26b,id:\"minecraft:redstone_block\",Count:64b},{Slot:27b,id:\"minecraft:redstone_block\",Count:64b},{Slot:28b,id:\"minecraft:redstone_block\",Count:64b},{Slot:29b,id:\"minecraft:redstone_block\",Count:64b},{Slot:30b,id:\"minecraft:redstone_block\",Count:64b},{Slot:31b,id:\"minecraft:redstone_block\",Count:64b},{Slot:32b,id:\"minecraft:redstone_block\",Count:64b},{Slot:33b,id:\"minecraft:redstone_block\",Count:64b},{Slot:34b,id:\"minecraft:redstone_block\",Count:64b},{Slot:35b,id:\"minecraft:redstone_block\",Count:64b},{Slot:-106b,id:\"minecraft:redstone_block\",Count:64b}]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:challenges/the_king_of_the_redskins"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cookie"
+    },
+    "title": {
+      "translate": "Midnight Snack"
+    },
+    "description": {
+      "translate": "Wake up a Villager to buy cookies late at night",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:adventure/trade",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 21000,
+              "max": 22000
+            },
+            "period": 24000
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:cookie"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:adventure/midnight_snack"
+  }
+}
