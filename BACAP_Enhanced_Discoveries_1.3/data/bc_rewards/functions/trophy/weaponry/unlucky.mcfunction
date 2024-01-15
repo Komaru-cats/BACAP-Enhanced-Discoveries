@@ -1,0 +1,2 @@
+give @s minecraft:shield{BlockEntityTag:{Base:0,Patterns:[{Color:15,Pattern:"vh"},{Color:15,Pattern:"bs"}]},Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#F6FFDF\",\"translate\":\"Loser\"}",Lore:["{\"color\": \"#F6FFDF\", \"translate\": \"Use it so you don't die\"}", "{\"text\":\" \"}", "{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}", "{\"italic\":false,\"color\":\"#75E1FF\",\"translate\":\"Unlucky\"}"]}} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Loser"}]}

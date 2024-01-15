@@ -1,0 +1,79 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:silence_armor_trim_smithing_template",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": {
+      "translate": "Silent Armor"
+    },
+    "description": {
+      "translate": "Wear a full set of armor with silence trims",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:adventure/emerald_armor",
+  "criteria": {
+    "armor_with_trim_silence": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "head": {
+                      "nbt": "{Trim:{pattern:\"minecraft:silence\"}}"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "chest": {
+                      "nbt": "{Trim:{pattern:\"minecraft:silence\"}}"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "legs": {
+                      "nbt": "{Trim:{pattern:\"minecraft:silence\"}}"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "feet": {
+                      "nbt": "{Trim:{pattern:\"minecraft:silence\"}}"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:adventure/silent_armor"
+  }
+}

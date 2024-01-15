@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:crafting_table",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": {
+      "translate": "Master Artificer"
+    },
+    "description": {
+      "translate": "Open the crafting table 5000 times",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bacaped:statistics/artisan_adept",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:interact_with_crafting_table",
+                "value": {
+                  "min": 5000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:statistics/master_artificer"
+  }
+}
