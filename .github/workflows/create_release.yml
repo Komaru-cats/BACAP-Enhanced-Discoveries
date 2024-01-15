@@ -1,0 +1,38 @@
+name: Create Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      folder_name:
+        description: 'Specify the folder name'
+        required: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '14'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Create archive
+      run: |
+        folder_name="${{ github.event.inputs.folder_name }}"
+        zip -r "$folder_name.zip" "$folder_name"
+
+    - name: Upload to releases
+      uses: softprops/action-gh-release@v1
+      with:
+        files: |
+          ${{ github.workspace }}/${{ github.event.inputs.folder_name }}.zip
+        title: Release ${{ github.run_number }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.ORG_GITHUB_TOKEN }}
