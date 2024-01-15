@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{CustomPotionColor:563456}"
+    },
+    "title": {
+      "translate": "Flashlight"
+    },
+    "description": {
+      "translate": "Have Night Vision and Darkness effects at the same time",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/stealth_takedown",
+  "criteria": {
+    "two_effects": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:darkness": {},
+          "minecraft:night_vision": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:potion/flashlight"
+  }
+}

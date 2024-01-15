@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:chiseled_quartz_block",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": {
+      "translate": "Statue"
+    },
+    "description": {
+      "translate": "Stand on a block of chiseled quartz and look through a spyglass"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/greek_art_decor",
+  "criteria": {
+    "statue": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:chiseled_quartz_block"
+              ]
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:building/statue"
+  }
+}

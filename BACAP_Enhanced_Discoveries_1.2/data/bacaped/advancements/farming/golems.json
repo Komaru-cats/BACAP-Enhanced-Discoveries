@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:carved_pumpkin",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": {
+      "translate": "Golems"
+    },
+    "description": {
+      "translate": "Gather all the golems together"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/pumpa_kungen",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:farming/golems"
+  }
+}

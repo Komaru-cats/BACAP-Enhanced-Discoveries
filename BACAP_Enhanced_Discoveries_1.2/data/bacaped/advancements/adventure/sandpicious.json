@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:suspicious_sand",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": {
+      "translate": "Sandpicious"
+    },
+    "description": {
+      "translate": "Get a stack of suspicious sand",
+      "color": "light_purple"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:adventure/suspicious_miner",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:suspicious_sand"
+            ],
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:adventure/sandpicious"
+  }
+}
