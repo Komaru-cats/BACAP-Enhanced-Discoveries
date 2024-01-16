@@ -8,7 +8,7 @@
       "translate": "Legendary Artisan"
     },
     "description": {
-      "translate": "Open the crafting table 2500 times",
+      "translate": "Open the crafting table 50,000 times",
       "color": "light_purple"
     },
     "frame": "challenge",
@@ -28,7 +28,7 @@
                 "type": "minecraft:custom",
                 "stat": "minecraft:interact_with_crafting_table",
                 "value": {
-                  "min": 2500
+                  "min": 50000
                 }
               }
             ]

@@ -8,7 +8,7 @@
       "translate": "Master Artificer"
     },
     "description": {
-      "translate": "Open the crafting table 500 times",
+      "translate": "Open the crafting table 5000 times",
       "color": "dark_purple"
     },
     "frame": "challenge",
@@ -28,7 +28,7 @@
                 "type": "minecraft:custom",
                 "stat": "minecraft:interact_with_crafting_table",
                 "value": {
-                  "min": 500
+                  "min": 5000
                 }
               }
             ]

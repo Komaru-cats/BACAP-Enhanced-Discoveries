@@ -7,7 +7,7 @@
       "translate": "Artisan Adept"
     },
     "description": {
-      "translate": "Open the crafting table 100 times",
+      "translate": "Open the crafting table 500 times",
       "color": "#75E1FF"
     },
     "frame": "goal",
@@ -27,7 +27,7 @@
                 "type": "minecraft:custom",
                 "stat": "minecraft:interact_with_crafting_table",
                 "value": {
-                  "min": 100
+                  "min": 500
                 }
               }
             ]
