@@ -7,7 +7,7 @@
       "translate": "Craftsman Novice"
     },
     "description": {
-      "translate": "Open the crafting table 50 times",
+      "translate": "Open the crafting table 15 times",
       "color": "green"
     },
     "frame": "task",
@@ -27,7 +27,7 @@
                 "type": "minecraft:custom",
                 "stat": "minecraft:interact_with_crafting_table",
                 "value": {
-                  "min": 50
+                  "min": 15
                 }
               }
             ]
