@@ -1,0 +1,359 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:glistering_melon_slice"
+    },
+    "title": {
+      "translate": "Give Them Everything They Want"
+    },
+    "description": {
+      "translate": "Give every possible item to Piglins"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:nether/distract_piglin",
+  "criteria": {
+    "Bell": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:bell"
+          ]
+        }
+      }
+    },
+    "Block of Gold": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:gold_block"
+          ]
+        }
+      }
+    },
+    "Block of Raw Gold": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:raw_gold_block"
+          ]
+        }
+      }
+    },
+    "Clock": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:clock"
+          ]
+        }
+      }
+    },
+    "Deepslate Gold Ore": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:deepslate_gold_ore"
+          ]
+        }
+      }
+    },
+    "Enchanted Golden Apple": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_golden_apple"
+          ]
+        }
+      }
+    },
+    "Glistering Melon Slice": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:glistering_melon_slice"
+          ]
+        }
+      }
+    },
+    "Gilded Blackstone": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:gilded_blackstone"
+          ]
+        }
+      }
+    },
+    "Gold Ingot": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:gold_ingot"
+          ]
+        }
+      }
+    },
+    "Gold Ore": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:gold_ore"
+          ]
+        }
+      }
+    },
+    "Golden Apple": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_apple"
+          ]
+        }
+      }
+    },
+    "Golden Axe": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_axe"
+          ]
+        }
+      }
+    },
+    "Golden Boots": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_boots"
+          ]
+        }
+      }
+    },
+    "Golden Carrot": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_carrot"
+          ]
+        }
+      }
+    },
+    "Golden Chestplate": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_chestplate"
+          ]
+        }
+      }
+    },
+    "Golden Helmet": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_helmet"
+          ]
+        }
+      }
+    },
+    "Golden Hoe": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_hoe"
+          ]
+        }
+      }
+    },
+    "Golden Horse Armor": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_horse_armor"
+          ]
+        }
+      }
+    },
+    "Golden Leggings": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_leggings"
+          ]
+        }
+      }
+    },
+    "Gold Pickaxe": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_pickaxe"
+          ]
+        }
+      }
+    },
+    "Golden Shovel": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_shovel"
+          ]
+        }
+      }
+    },
+    "Golden Sword": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_sword"
+          ]
+        }
+      }
+    },
+    "Light Weight Pressure Plate": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:light_weighted_pressure_plate"
+          ]
+        }
+      }
+    },
+    "Nether Gold Ore": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:nether_gold_ore"
+          ]
+        }
+      }
+    },
+    "Raw Gold": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:raw_gold"
+          ]
+        }
+      }
+    },
+    "Gold Nugget": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:gold_nugget"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:nether/give_them_everything_they_want"
+  }
+}

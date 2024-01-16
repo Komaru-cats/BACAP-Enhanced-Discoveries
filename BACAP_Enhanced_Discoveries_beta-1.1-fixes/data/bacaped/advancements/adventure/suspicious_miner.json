@@ -1,0 +1,70 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:suspicious_gravel",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": {
+      "translate": "Suspicious Miner"
+    },
+    "description": {
+      "translate": "Break 64 suspicious sand or gravel (break without brush)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:adventure/sus_miner",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "player",
+                    "stats": [
+                      {
+                        "type": "minecraft:mined",
+                        "stat": "minecraft:suspicious_gravel",
+                        "value": {
+                          "min": 64
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "player",
+                    "stats": [
+                      {
+                        "type": "minecraft:mined",
+                        "stat": "minecraft:suspicious_sand",
+                        "value": {
+                          "min": 64
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:adventure/suspicious_miner"
+  }
+}

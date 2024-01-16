@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:player_head",
+      "nbt": "{SkullOwner:{Id:[I;-1228418290,1767981658,-1077355550,903373370],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI0NWU0NzYwYWJmMTBmMjkwMDYyNjkxNGNmNDJmODA0NDBjZDUzMDk5YWU1NTI5NTM0ZjU5ODI0MDY3ZGFkNiJ9fX0=\"}]}}}"
+    },
+    "title": {
+      "translate": "\u0410bsolutely \u0410blaze Journey"
+    },
+    "description": {
+      "translate": "Ride 100km on a Strider",
+      "color": "light_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "blazeandcave:statistics/this_ride_is_lit_yo",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:strider_one_cm",
+                "value": {
+                  "min": 10000000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:statistics/absolutely_ablaze_journey"
+  }
+}

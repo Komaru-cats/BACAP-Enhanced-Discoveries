@@ -1,0 +1,1 @@
+execute if entity @e[type=sniffer,distance=..8] if entity @e[type=warden,distance=..8] run advancement grant @s only bacaped:animal/sniffer-sniff-event

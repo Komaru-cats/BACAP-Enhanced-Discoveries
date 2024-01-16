@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:beacon",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": {
+      "translate": "Yes"
+    },
+    "description": {
+      "translate": "Stand on a chest filled with beacons",
+      "color": "light_purple"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/abyss_lord",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:chest"
+                  ],
+                  "nbt": "{Items:[{Slot:0b,id:\"minecraft:beacon\",Count:64b},{Slot:1b,id:\"minecraft:beacon\",Count:64b},{Slot:2b,id:\"minecraft:beacon\",Count:64b},{Slot:3b,id:\"minecraft:beacon\",Count:64b},{Slot:4b,id:\"minecraft:beacon\",Count:64b},{Slot:5b,id:\"minecraft:beacon\",Count:64b},{Slot:6b,id:\"minecraft:beacon\",Count:64b},{Slot:7b,id:\"minecraft:beacon\",Count:64b},{Slot:8b,id:\"minecraft:beacon\",Count:64b},{Slot:9b,id:\"minecraft:beacon\",Count:64b},{Slot:10b,id:\"minecraft:beacon\",Count:64b},{Slot:11b,id:\"minecraft:beacon\",Count:64b},{Slot:12b,id:\"minecraft:beacon\",Count:64b},{Slot:13b,id:\"minecraft:beacon\",Count:64b},{Slot:14b,id:\"minecraft:beacon\",Count:64b},{Slot:15b,id:\"minecraft:beacon\",Count:64b},{Slot:16b,id:\"minecraft:beacon\",Count:64b},{Slot:17b,id:\"minecraft:beacon\",Count:64b},{Slot:18b,id:\"minecraft:beacon\",Count:64b},{Slot:19b,id:\"minecraft:beacon\",Count:64b},{Slot:20b,id:\"minecraft:beacon\",Count:64b},{Slot:21b,id:\"minecraft:beacon\",Count:64b},{Slot:22b,id:\"minecraft:beacon\",Count:64b},{Slot:23b,id:\"minecraft:beacon\",Count:64b},{Slot:24b,id:\"minecraft:beacon\",Count:64b},{Slot:25b,id:\"minecraft:beacon\",Count:64b},{Slot:26b,id:\"minecraft:beacon\",Count:64b}]}"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:challenges/yes"
+  }
+}
