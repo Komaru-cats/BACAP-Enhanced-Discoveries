@@ -1,2 +1,0 @@
-give @s minecraft:decorated_pot{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#E59967\",\"translate\":\"The Potted Pot\"}",Lore:["{\"color\": \"#E59967\", \"translate\": \"Chic Ceramic Pot\"}", "{\"text\":\" \"}", "{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}", "{\"italic\":false,\"color\":\"dark_purple\",\"translate\":\"Potception\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"The Potted Pot"}]}
