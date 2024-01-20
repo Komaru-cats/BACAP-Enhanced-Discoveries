@@ -45,7 +45,7 @@
               },
               {
                 "enchantment": "minecraft:sweeping",
-                "levels": 2
+                "levels": 3
               },
               {
                 "enchantment": "minecraft:sharpness",
@@ -86,7 +86,7 @@
               },
               {
                 "enchantment": "minecraft:sweeping",
-                "levels": 2
+                "levels": 3
               },
               {
                 "enchantment": "minecraft:bane_of_arthropods",
@@ -127,7 +127,7 @@
               },
               {
                 "enchantment": "minecraft:sweeping",
-                "levels": 2
+                "levels": 3
               },
               {
                 "enchantment": "minecraft:smite",

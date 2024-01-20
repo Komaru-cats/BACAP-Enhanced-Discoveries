@@ -21,7 +21,7 @@
           "items": [
             "minecraft:name_tag"
           ],
-          "nbt": "{display:{Name:'{\"text\":\"Placeholder\"}'}}"
+          "nbt": "{display:{Name:'\"Placeholder\"'}}"
         },
         "entity": {
           "type": "minecraft:warden"

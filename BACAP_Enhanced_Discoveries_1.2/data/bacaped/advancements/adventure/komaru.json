@@ -24,7 +24,7 @@
           "items": [
             "minecraft:name_tag"
           ],
-          "nbt": "{display:{Name:'{\"text\":\"Komaru\"}'}}"
+          "nbt": "{display:{Name:'\"Komaru\"'}}"
         },
         "entity": {
           "type": "minecraft:cat"

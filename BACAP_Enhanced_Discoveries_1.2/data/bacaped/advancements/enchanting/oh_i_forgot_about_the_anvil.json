@@ -16,7 +16,7 @@
   },
   "parent": "blazeandcave:enchanting/heavy_metal",
   "criteria": {
-    "anvil_kill": {
+    "anvil": {
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
         "damage": {
@@ -26,8 +26,37 @@
           }
         }
       }
+    },
+    "damaged_anvil": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:falling_block",
+            "nbt": "{BlockState:{Name:\"minecraft:damaged_anvil\"}}"
+          }
+        }
+      }
+    },
+    "chipped_anvil": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:falling_block",
+            "nbt": "{BlockState:{Name:\"minecraft:chipped_anvil\"}}"
+          }
+        }
+      }
     }
   },
+  "requirements": [
+    [
+      "anvil",
+      "damaged_anvil",
+      "chipped_anvil"
+    ]
+  ],
   "rewards": {
     "function": "bc_rewards:enchanting/oh_i_forgot_about_the_anvil"
   }
