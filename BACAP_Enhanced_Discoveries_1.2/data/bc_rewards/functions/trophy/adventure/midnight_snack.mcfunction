@@ -1,0 +1,2 @@
+give @s minecraft:clock{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#F9FFAB\",\"translate\":\"Watch\"}",Lore:["{\"color\": \"#F9FFAB\", \"translate\": \"Next time, watch the time\"}", "{\"text\":\" \"}", "{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}", "{\"italic\":false,\"color\":\"#75E1FF\",\"translate\":\"Midnight Snack\"}"]}} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Watch"}]}

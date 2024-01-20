@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:pink_bed",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": {
+      "translate": "Skyward Legs"
+    },
+    "description": {
+      "translate": "Jump 1,000,000 times",
+      "color": "light_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "blazeandcave:statistics/jumping_jacks",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:jump",
+                "value": {
+                  "min": 1000000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:statistics/skyward_legs"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "title": {
+      "translate": "Get out of my sky"
+    },
+    "description": {
+      "translate": "Get killed by a Phantom while you are 320 blocks above the world"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:monsters/phantom_rider",
+  "criteria": {
+    "killed_by_phantom_at_y>320": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "min": 319
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:phantom"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:monsters/get_out_of_my_sky"
+  }
+}

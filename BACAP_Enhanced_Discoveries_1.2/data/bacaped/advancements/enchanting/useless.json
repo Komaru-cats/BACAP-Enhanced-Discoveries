@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "Useless"
+    },
+    "description": {
+      "translate": "Craft a book with two curses",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/handmade_blinding",
+  "criteria": {
+    "enchanted_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:enchanted_book"
+            ],
+            "nbt": "{StoredEnchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"minecraft:binding_curse\",lvl:1s}]}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:enchanting/useless"
+  }
+}

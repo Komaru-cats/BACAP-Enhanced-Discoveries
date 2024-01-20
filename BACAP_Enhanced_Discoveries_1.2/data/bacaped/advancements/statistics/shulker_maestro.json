@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:black_shulker_box"
+    },
+    "title": {
+      "translate": "Shulker Maestro"
+    },
+    "description": {
+      "translate": "Open the shulker box 100,000 times",
+      "color": "light_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "bacaped:statistics/shulker_voyager",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:open_shulker_box",
+                "value": {
+                  "min": 100000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:statistics/shulker_maestro"
+  }
+}
