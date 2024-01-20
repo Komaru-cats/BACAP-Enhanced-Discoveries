@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:player_head",
+      "nbt": "{SkullOwner:{Id:[I;83487693,467552694,-1549384507,666771816],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ4MDA4ZTA2YzlmZWNkMDIwMTA4MzBmM2JlNDE0OGFjMDhiNmNhMmQzZTBhNWNiNThlMGZlMTg1ZmQzZjQyMCJ9fX0=\"}]}}}"
+    },
+    "title": {
+      "translate": "I Hate All of You"
+    },
+    "description": {
+      "translate": "Kill 100 Villagers"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/murderer",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:villager",
+                "value": {
+                  "min": 99
+                }
+              }
+            ]
+          }
+        },
+        "entity": {
+          "type": "minecraft:villager"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:adventure/i_hate_all_of_you"
+  }
+}

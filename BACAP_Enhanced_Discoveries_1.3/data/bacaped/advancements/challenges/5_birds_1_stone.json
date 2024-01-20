@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:crossbow",
+      "nbt": "{Enchantments:[{id:unbreaking,lvl:1}]}"
+    },
+    "title": {
+      "translate": "Five Birds, One Stone"
+    },
+    "description": {
+      "translate": "Kill 5 Vexes with a single piercing shot",
+      "color": "#FF2A2A"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:challenges/5g_connectivity",
+  "criteria": {
+    "5_birds_1_stone": {
+      "trigger": "minecraft:killed_by_crossbow",
+      "conditions": {
+        "victims": [
+          {
+            "type": "minecraft:vex"
+          },
+          {
+            "type": "minecraft:vex"
+          },
+          {
+            "type": "minecraft:vex"
+          },
+          {
+            "type": "minecraft:vex"
+          },
+          {
+            "type": "minecraft:vex"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:challenges/5_birds_1_stone"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:obsidian",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": {
+      "translate": "Time Killer"
+    },
+    "description": {
+      "translate": "Fill you inventory with obsidian"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/obsidian_miner",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "nbt": "{Inventory:[{Slot:0b,id:\"minecraft:obsidian\",Count:64b},{Slot:1b,id:\"minecraft:obsidian\",Count:64b},{Slot:2b,id:\"minecraft:obsidian\",Count:64b},{Slot:3b,id:\"minecraft:obsidian\",Count:64b},{Slot:4b,id:\"minecraft:obsidian\",Count:64b},{Slot:5b,id:\"minecraft:obsidian\",Count:64b},{Slot:6b,id:\"minecraft:obsidian\",Count:64b},{Slot:7b,id:\"minecraft:obsidian\",Count:64b},{Slot:8b,id:\"minecraft:obsidian\",Count:64b},{Slot:9b,id:\"minecraft:obsidian\",Count:64b},{Slot:10b,id:\"minecraft:obsidian\",Count:64b},{Slot:11b,id:\"minecraft:obsidian\",Count:64b},{Slot:12b,id:\"minecraft:obsidian\",Count:64b},{Slot:13b,id:\"minecraft:obsidian\",Count:64b},{Slot:14b,id:\"minecraft:obsidian\",Count:64b},{Slot:15b,id:\"minecraft:obsidian\",Count:64b},{Slot:16b,id:\"minecraft:obsidian\",Count:64b},{Slot:17b,id:\"minecraft:obsidian\",Count:64b},{Slot:18b,id:\"minecraft:obsidian\",Count:64b},{Slot:19b,id:\"minecraft:obsidian\",Count:64b},{Slot:20b,id:\"minecraft:obsidian\",Count:64b},{Slot:21b,id:\"minecraft:obsidian\",Count:64b},{Slot:22b,id:\"minecraft:obsidian\",Count:64b},{Slot:23b,id:\"minecraft:obsidian\",Count:64b},{Slot:24b,id:\"minecraft:obsidian\",Count:64b},{Slot:25b,id:\"minecraft:obsidian\",Count:64b},{Slot:26b,id:\"minecraft:obsidian\",Count:64b},{Slot:27b,id:\"minecraft:obsidian\",Count:64b},{Slot:28b,id:\"minecraft:obsidian\",Count:64b},{Slot:29b,id:\"minecraft:obsidian\",Count:64b},{Slot:30b,id:\"minecraft:obsidian\",Count:64b},{Slot:31b,id:\"minecraft:obsidian\",Count:64b},{Slot:32b,id:\"minecraft:obsidian\",Count:64b},{Slot:33b,id:\"minecraft:obsidian\",Count:64b},{Slot:34b,id:\"minecraft:obsidian\",Count:64b},{Slot:35b,id:\"minecraft:obsidian\",Count:64b},{Slot:-106b,id:\"minecraft:obsidian\",Count:64b}]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:mining/time_killer"
+  }
+}
