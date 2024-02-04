@@ -1,0 +1,2 @@
+give @s minecraft:gilded_blackstone{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#FFFB7A\",\"translate\":\"My Precious\"}",Lore:["{\"color\": \"#FFFB7A\", \"translate\": \"It glitters, I know you love it\"}", "{\"text\":\" \"}", "{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}", "{\"italic\":false,\"color\":\"dark_purple\",\"translate\":\"Give Them Everything They Want\"}"]}} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"My Precious"}]}

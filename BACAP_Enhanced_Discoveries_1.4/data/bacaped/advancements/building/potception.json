@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:brown_shulker_box"
+    },
+    "title": {
+      "translate": "Potception"
+    },
+    "description": {
+      "translate": "Put a brown shulker box full of decorated pots inside a decorated pot"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:building/pot_on_a_pot",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:decorated_pot"
+                    ],
+                    "nbt": "{item:{Count:1b,id:\"minecraft:brown_shulker_box\",tag:{BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:\"minecraft:decorated_pot\"},{Count:64b,Slot:1b,id:\"minecraft:decorated_pot\"},{Count:64b,Slot:2b,id:\"minecraft:decorated_pot\"},{Count:64b,Slot:3b,id:\"minecraft:decorated_pot\"},{Count:64b,Slot:4b,id:\"minecraft:decorated_pot\"},{Count:64b,Slot:5b,id:\"minecraft:decorated_pot\"},{Count:64b,Slot:6b,id:\"minecraft:decorated_pot\"},{Count:64b,Slot:7b,id:\"minecraft:decorated_pot\"},{Count:64b,Slot:8b,id:\"minecraft:decorated_pot\"},{Count:64b,Slot:9b,id:\"minecraft:decorated_pot\"},{Count:64b,Slot:10b,id:\"minecraft:decorated_pot\"},{Count:64b,Slot:11b,id:\"minecraft:decorated_pot\"},{Count:64b,Slot:12b,id:\"minecraft:decorated_pot\"},{Count:64b,Slot:13b,id:\"minecraft:decorated_pot\"},{Count:64b,Slot:14b,id:\"minecraft:decorated_pot\"},{Count:64b,Slot:15b,id:\"minecraft:decorated_pot\"},{Count:64b,Slot:16b,id:\"minecraft:decorated_pot\"},{Count:64b,Slot:17b,id:\"minecraft:decorated_pot\"},{Count:64b,Slot:18b,id:\"minecraft:decorated_pot\"},{Count:64b,Slot:19b,id:\"minecraft:decorated_pot\"},{Count:64b,Slot:20b,id:\"minecraft:decorated_pot\"},{Count:64b,Slot:21b,id:\"minecraft:decorated_pot\"},{Count:64b,Slot:22b,id:\"minecraft:decorated_pot\"},{Count:64b,Slot:23b,id:\"minecraft:decorated_pot\"},{Count:64b,Slot:24b,id:\"minecraft:decorated_pot\"},{Count:64b,Slot:25b,id:\"minecraft:decorated_pot\"},{Count:64b,Slot:26b,id:\"minecraft:decorated_pot\"}],id:\"minecraft:shulker_box\"}}}}"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:brown_shulker_box"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:building/potception"
+  }
+}

@@ -1,0 +1,2 @@
+give @s minecraft:dried_kelp{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#176B2E\",\"translate\":\"Low-Calorie Food\"}",Lore:["{\"color\": \"#176B2E\", \"translate\": \"I think you need to go on a diet\"}", "{\"text\":\" \"}", "{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}", "{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"Culinary Delight Maestro\"}"]}} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Low-Calorie Food"}]}

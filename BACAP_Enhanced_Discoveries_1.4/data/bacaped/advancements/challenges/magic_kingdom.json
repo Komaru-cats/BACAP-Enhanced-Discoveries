@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stick",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": {
+      "translate": "Magic Kingdom"
+    },
+    "description": {
+      "translate": "Get all magical mobs together within 32 blocks of you: Enderman, Endermite, Shulker, Witch, Blaze, Allay, Vex, Warden, Guardian, Snow golem, Evoker",
+      "color": "#FF2A2A"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/endergeddon",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:challenges/magic_kingdom"
+  }
+}

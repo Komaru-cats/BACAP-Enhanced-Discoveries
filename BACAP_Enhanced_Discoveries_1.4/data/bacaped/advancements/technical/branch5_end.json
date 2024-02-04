@@ -1,0 +1,18 @@
+{
+  "parent": "bacaped:challenges/the_apocalyptic_decalogy",
+  "criteria": {
+    "root": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/root": true
+            }
+          }
+        }
+      }
+    }
+  }
+}
