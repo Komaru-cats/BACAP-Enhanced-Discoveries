@@ -19,16 +19,6 @@
     "trigger": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": {
-          "location": {
-            "position": {
-              "x": {
-                "max": 0
-              }
-            },
-            "dimension": "minecraft:the_end"
-          }
-        },
         "entity": {
           "type": "minecraft:bat",
           "location": {
