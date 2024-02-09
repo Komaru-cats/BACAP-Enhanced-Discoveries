@@ -1,2 +1,0 @@
-give @s minecraft:wither_rose{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#5F2C4E\",\"translate\":\"The Last Rose\"}",Lore:["{\"color\": \"#5F2C4E\", \"translate\": \"It was the last day I saw him\"}", "{\"text\":\" \"}", "{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}", "{\"italic\":false,\"color\":\"dark_purple\",\"translate\":\"Show the Wither his Home\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"The Last Rose"}]}
