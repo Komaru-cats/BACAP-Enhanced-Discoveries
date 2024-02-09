@@ -1,0 +1,2 @@
+give @s minecraft:structure_void{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#A8E5E4\",\"translate\":\"The Ultimate Power\"}",Lore:["{\"color\":\"#A8E5E4\",\"translate\":\"Touch the grass\"}","{\"text\":\" \"}","{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}","{\"italic\":false,\"color\":\"light_purple\",\"translate\":\"End of the World as we Know it\"}"]}} 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"The Ultimate Power"}]}

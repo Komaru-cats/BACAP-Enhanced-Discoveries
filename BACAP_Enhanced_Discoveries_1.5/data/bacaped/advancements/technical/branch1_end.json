@@ -1,0 +1,18 @@
+{
+  "parent": "bacaped:challenges/star_fisherman",
+  "criteria": {
+    "root": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/root": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

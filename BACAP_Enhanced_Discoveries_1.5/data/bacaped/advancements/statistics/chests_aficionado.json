@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:barrel",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": {
+      "translate": "Chests Aficionado"
+    },
+    "description": {
+      "translate": "Open 2500 loot chests",
+      "color": "light_purple",
+      "extra": [
+        {
+          "text": "\n\n"
+        },
+        {
+          "translate": "To view progress, run:",
+          "color": "dark_gray",
+          "italic": true
+        },
+        {
+          "text": "\n/trigger bac_statistics",
+          "color": "gray"
+        }
+      ]
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "blazeandcave:statistics/i_heart_chests",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:statistics/chests_aficionado"
+  }
+}

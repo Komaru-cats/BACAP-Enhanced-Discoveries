@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:acacia_boat",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": {
+      "translate": "The Boatman"
+    },
+    "description": {
+      "translate": "Take a boat ride on the blue ice",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/boaty_mcboatface",
+  "criteria": {
+    "the_boatman": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:blue_ice"
+              ]
+            }
+          },
+          "vehicle": {
+            "type": "minecraft:boat"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:biomes/the_boatman"
+  }
+}
