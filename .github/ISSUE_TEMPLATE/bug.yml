@@ -17,3 +17,10 @@ body:
       placeholder: Old versions are not supported!
     validations:
       required: true
+  - type: input
+    attributes:
+      label: Version of minecraft
+      description: Сheck if the datapack is suitable for your version
+      placeholder: If you are using an unsupported version, your issue will be closed
+    validations:
+      required: true
