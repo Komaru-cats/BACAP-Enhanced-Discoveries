@@ -925,13 +925,13 @@
 
 "Loser": "Лузер",
 "Use it so you don't die": "Используй это, чтобы не умереть",
-
+"The trophy appeared at the place of your death": "Трофей появился на месте вашей смерти",
 # menu if BACAP is installed
 
 " successfully installed": " yспешно загружен",
 
 "Thanks for downloading, if you find any bugs, typos or other inaccuracies, ": "Спасибо за скачивание, если вы найдёте любые баги, опечатки или другие неточности, ",
-"write an issue": "напишите репорт", 
+"write an issue": "напишите репорт",
 "Write an issue": "Написать репорт",
 "Open on GitHub": "Открыть на GitHub",
 "Open on Modrinth": "Открыть на Modrinth",
