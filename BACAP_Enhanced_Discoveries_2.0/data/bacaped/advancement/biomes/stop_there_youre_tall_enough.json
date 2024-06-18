@@ -1,0 +1,95 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:twisting_vines"
+    },
+    "title": {
+      "translate": "Stop there, you're tall enough"
+    },
+    "description": {
+      "translate": "Stop the growth of kelp, twisted vine and weeping vine",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/tarzan",
+  "criteria": {
+    "kelp": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:kelp",
+                "properties": {
+                  "age": "25"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "weeping_vines": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:weeping_vines",
+                "properties": {
+                  "age": "25"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "twisting_vines": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:twisting_vines",
+                "properties": {
+                  "age": "25"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:biomes/stop_there_youre_tall_enough"
+  }
+}

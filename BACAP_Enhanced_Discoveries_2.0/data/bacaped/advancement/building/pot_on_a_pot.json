@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:decorated_pot"
+    },
+    "title": {
+      "translate": "Pot on a Pot"
+    },
+    "description": {
+      "translate": "Place a flower pot above decorated pot",
+      "color": "green"
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/pot_planter",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:flower_pot",
+            "properties": {}
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": -1,
+            "offsetZ": 0,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:decorated_pot"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:building/pot_on_a_pot"
+  }
+}

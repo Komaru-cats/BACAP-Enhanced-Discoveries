@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_dragon_spawn_egg",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Last Hit"
+    },
+    "description": {
+      "translate": "Kill the Ender Dragon without any items in your inventory"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:end/kill_dragon",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Inventory:[]}"
+        },
+        "entity": {
+          "type": "minecraft:ender_dragon"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:end/last_hit"
+  }
+}

@@ -1,0 +1,2189 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            1190237836,
+            2087996771,
+            -1923479771,
+            -1279281415
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQwMDZhYTk2MTY2OGYzYWVhMGRiZmFmNGIwM2Y0MTA0ZTAzZmVlODQxZDEwM2U0ODJiZTIwZmM5MzdkNGM3MCJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "Netherite Beacon!"
+    },
+    "description": {
+      "translate": "Create a full power beacon that consists entirely of blocks of netherite",
+      "color": "light_purple"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:nether/emerald_beacon",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:beacon",
+            "properties": {
+            }
+          },
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -1,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -1,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -1,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -1,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -1,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -1,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -1,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -1,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -1,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -2,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -2,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -2,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -2,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -2,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -2,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -2,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -2,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -2,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -2,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -2,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -2,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -2,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -2,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -2,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -2,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -2,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -2,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -2,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -2,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -2,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -2,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -2,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -2,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -2,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -3,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -3,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -3,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -3,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -3,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -3,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -3,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -3,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -3,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -3,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -3,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -3,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -3,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -3,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -3,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -3,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -3,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -3,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -3,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -3,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -3,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -3,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -3,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -3,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -3,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -3,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -3,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -3,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -3,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -3,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -3,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -3,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -3,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -3,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -3,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -3,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -3,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -3,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -3,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -3,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -3,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -3,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -3,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -3,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -3,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -3,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -3,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -3,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -3,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 4,
+                "offsetY": -4,
+                "offsetZ": 4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 4,
+                "offsetY": -4,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 4,
+                "offsetY": -4,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 4,
+                "offsetY": -4,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 4,
+                "offsetY": -4,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 4,
+                "offsetY": -4,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 4,
+                "offsetY": -4,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 4,
+                "offsetY": -4,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 4,
+                "offsetY": -4,
+                "offsetZ": -4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -4,
+                "offsetZ": 4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -4,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -4,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -4,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -4,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -4,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -4,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -4,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -4,
+                "offsetZ": -4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -4,
+                "offsetZ": 4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -4,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -4,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -4,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -4,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -4,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -4,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -4,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -4,
+                "offsetZ": -4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -4,
+                "offsetZ": 4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -4,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -4,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -4,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -4,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -4,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -4,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -4,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -4,
+                "offsetZ": -4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -4,
+                "offsetZ": 4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -4,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -4,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -4,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -4,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -4,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -4,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -4,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -4,
+                "offsetZ": -4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -4,
+                "offsetZ": 4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -4,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -4,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -4,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -4,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -4,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -4,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -4,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -4,
+                "offsetZ": -4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -4,
+                "offsetZ": 4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -4,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -4,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -4,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -4,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -4,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -4,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -4,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -4,
+                "offsetZ": -4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -4,
+                "offsetZ": 4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -4,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -4,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -4,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -4,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -4,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -4,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -4,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -4,
+                "offsetZ": -4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -4,
+                "offsetY": -4,
+                "offsetZ": 4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -4,
+                "offsetY": -4,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -4,
+                "offsetY": -4,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -4,
+                "offsetY": -4,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -4,
+                "offsetY": -4,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -4,
+                "offsetY": -4,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -4,
+                "offsetY": -4,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -4,
+                "offsetY": -4,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -4,
+                "offsetY": -4,
+                "offsetZ": -4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:netherite_block"
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:nether/netherite_beacon"
+  }
+}

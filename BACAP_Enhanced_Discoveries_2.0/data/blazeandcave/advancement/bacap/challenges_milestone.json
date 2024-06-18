@@ -1,0 +1,854 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_eye"
+    },
+    "title": {
+      "translate": "Super Challenges Milestone"
+    },
+    "description": {
+      "color": "yellow",
+      "translate": "Complete every advancement in the Super Challenges tab. Good luck with this one ;)"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:bacap/end_milestone",
+  "rewards": {
+    "function": "bc_rewards:bacap/challenges_milestone"
+  },
+  "criteria": {
+    "a_million_blocks_away": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/a_million_blocks_away": true
+            }
+          }
+        }
+      }
+    },
+    "abyss_lord": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/abyss_lord": true
+            }
+          }
+        }
+      }
+    },
+    "all_the_blocks": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/all_the_blocks": true
+            }
+          }
+        }
+      }
+    },
+    "all_the_items": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/all_the_items": true
+            }
+          }
+        }
+      }
+    },
+    "biological_warfare": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/biological_warfare": true
+            }
+          }
+        }
+      }
+    },
+    "creepergeddon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/creepergeddon": true
+            }
+          }
+        }
+      }
+    },
+    "death_from_all": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/death_from_all": true
+            }
+          }
+        }
+      }
+    },
+    "dragon_army": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/dragon_army": true
+            }
+          }
+        }
+      }
+    },
+    "dragon_vs_dragon_ii_electric_boogaloo": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/dragon_vs_dragon_ii_electric_boogaloo": true
+            }
+          }
+        }
+      }
+    },
+    "endergeddon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/endergeddon": true
+            }
+          }
+        }
+      }
+    },
+    "global_vaccination": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/global_vaccination": true
+            }
+          }
+        }
+      }
+    },
+    "highway_to_hell": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/highway_to_hell": true
+            }
+          }
+        }
+      }
+    },
+    "im_in_space": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/im_in_space": true
+            }
+          }
+        }
+      }
+    },
+    "immortal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/immortal": true
+            }
+          }
+        }
+      }
+    },
+    "nuclear_fusion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/nuclear_fusion": true
+            }
+          }
+        }
+      }
+    },
+    "potion_master": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/potion_master": true
+            }
+          }
+        }
+      }
+    },
+    "rise_of_the_skeletons": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/rise_of_the_skeletons": true
+            }
+          }
+        }
+      }
+    },
+    "root": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/root": true
+            }
+          }
+        }
+      }
+    },
+    "stack_all_the_blocks": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/stack_all_the_blocks": true
+            }
+          }
+        }
+      }
+    },
+    "stack_all_the_items": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/stack_all_the_items": true
+            }
+          }
+        }
+      }
+    },
+    "the_world_is_ending": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/the_world_is_ending": true
+            }
+          }
+        }
+      }
+    },
+    "warlock": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/warlock": true
+            }
+          }
+        }
+      }
+    },
+    "were_in_the_endgame_now": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/were_in_the_endgame_now": true
+            }
+          }
+        }
+      }
+    },
+    "zombie_apocalypse": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/zombie_apocalypse": true
+            }
+          }
+        }
+      }
+    },
+    "constellation": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/constellation": true
+            }
+          }
+        }
+      }
+    },
+    "hearts_of_the_stack": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/hearts_of_the_stack": true
+            }
+          }
+        }
+      }
+    },
+    "the_devils_distance": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/the_devils_distance": true
+            }
+          }
+        }
+      }
+    },
+    "ad_astra": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/ad_astra": true
+            }
+          }
+        }
+      }
+    },
+    "dragon_vs_wither_the_pre_sequel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/dragon_vs_wither_the_pre_sequel": true
+            }
+          }
+        }
+      }
+    },
+    "explorer_of_worlds": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/explorer_of_worlds": true
+            }
+          }
+        }
+      }
+    },
+    "i_am_loot": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/i_am_loot": true
+            }
+          }
+        }
+      }
+    },
+    "stockbroker": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/stockbroker": true
+            }
+          }
+        }
+      }
+    },
+    "ultimate_enchanter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/ultimate_enchanter": true
+            }
+          }
+        }
+      }
+    },
+    "how_did_we_get_here": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:nether/all_effects": true
+            }
+          }
+        }
+      }
+    },
+    "the_perfect_run": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/the_perfect_run": true
+            }
+          }
+        }
+      }
+    },
+    "telescopic": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/telescopic": true
+            }
+          }
+        }
+      }
+    },
+    "riddle_me_this": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/riddle_me_this": true
+            }
+          }
+        }
+      }
+    },
+    "poglin": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/poglin": true
+            }
+          }
+        }
+      }
+    },
+    "overwarden": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/overwarden": true
+            }
+          }
+        }
+      }
+    },
+    "5_birds_1_stone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/5_birds_1_stone": true
+            }
+          }
+        }
+      }
+    },
+    "5g_connectivity": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/5g_connectivity": true
+            }
+          }
+        }
+      }
+    },
+    "astronomer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/astronomer": true
+            }
+          }
+        }
+      }
+    },
+    "big_horse_adventure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/big_horse_adventure": true
+            }
+          }
+        }
+      }
+    },
+    "celestial_protocol": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/celestial_protocol": true
+            }
+          }
+        }
+      }
+    },
+    "dragon_vs_wither_iv": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/dragon_vs_wither_iv": true
+            }
+          }
+        }
+      }
+    },
+    "explosive_elexir": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/explosive_elexir": true
+            }
+          }
+        }
+      }
+    },
+    "extincion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/extincion": true
+            }
+          }
+        }
+      }
+    },
+    "happy_anniversary": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/happy_anniversary": true
+            }
+          }
+        }
+      }
+    },
+    "happy_minecraft_year": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/happy_minecraft_year": true
+            }
+          }
+        }
+      }
+    },
+    "how_did_you_end_up_here": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/how_did_you_end_up_here": true
+            }
+          }
+        }
+      }
+    },
+    "magic_kingdom": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/magic_kingdom": true
+            }
+          }
+        }
+      }
+    },
+    "oh_my_broken_legs": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/oh_my_broken_legs": true
+            }
+          }
+        }
+      }
+    },
+    "professional_assassin": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/professional_assassin": true
+            }
+          }
+        }
+      }
+    },
+    "raise_the_stakes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/raise_the_stakes": true
+            }
+          }
+        }
+      }
+    },
+    "show_the_nether_to_a_silverfish": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/show_the_nether_to_a_silverfish": true
+            }
+          }
+        }
+      }
+    },
+    "so_bright": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/so_bright": true
+            }
+          }
+        }
+      }
+    },
+    "star_fisherman": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/star_fisherman": true
+            }
+          }
+        }
+      }
+    },
+    "the_apocalyptic_decalogy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/the_apocalyptic_decalogy": true
+            }
+          }
+        }
+      }
+    },
+    "the_king_of_the_redskins": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/the_king_of_the_redskins": true
+            }
+          }
+        }
+      }
+    },
+    "the_world_is_actually_ending_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/the_world_is_actually_ending_2": true
+            }
+          }
+        }
+      }
+    },
+    "void_being": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/void_being": true
+            }
+          }
+        }
+      }
+    },
+    "what_a_stupid_purchase": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/what_a_stupid_purchase": true
+            }
+          }
+        }
+      }
+    },
+    "what_are_the_chances": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/what_are_the_chances": true
+            }
+          }
+        }
+      }
+    },
+    "zero_coordinates_magnet": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/zero_coordinates_magnet": true
+            }
+          }
+        }
+      }
+    }
+  }
+}
