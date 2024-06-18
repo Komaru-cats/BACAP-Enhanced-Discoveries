@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_rocket"
+    },
+    "title": {
+      "translate": "Happy Minecraft Year"
+    },
+    "description": {
+      "translate": "Launch firework on new year's day in minecraft!",
+      "color": "#FF2A2A"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/riddle_me_this",
+  "criteria": {
+    "new_year": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:time_check",
+            "value": {
+              "min": 0,
+              "max": 24000
+            },
+            "period": 8760000
+          }
+        ],
+        "location": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "looking_at": {
+                  "type": "minecraft:firework_rocket"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:challenges/happy_minecraft_year"
+  }
+}

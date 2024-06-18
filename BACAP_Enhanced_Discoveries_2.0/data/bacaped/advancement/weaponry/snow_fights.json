@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:carved_pumpkin"
+    },
+    "title": {
+      "translate": "Snow Fights!"
+    },
+    "description": {
+      "translate": "Kill the Snow golem with a snowball",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/snowball_fight",
+  "criteria": {
+    "kill_snow_golem_with_snowball": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:snowball"
+              ]
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:snow_golem"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:weaponry/snow_fights"
+  }
+}
