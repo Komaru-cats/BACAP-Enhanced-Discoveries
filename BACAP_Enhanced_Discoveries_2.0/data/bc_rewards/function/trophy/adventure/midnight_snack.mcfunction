@@ -1,2 +1,0 @@
-give @s minecraft:clock[enchantments={levels:{"minecraft:unbreaking":1},show_in_tooltip:0b},custom_name='{"italic":false,"bold":true,"color":"#F9FFAB","translate":"Watch"}',lore=['{"color": "#F9FFAB", "translate": "Next time, watch the time"}','{"text":" "}','{"color":"gray","translate":"Awarded for achieving"}','{"italic":false,"color":"#75E1FF","translate":"Midnight Snack"}'],custom_model_data=131,hide_additional_tooltip={},custom_data={Trophy:1}] 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Watch"}]}
