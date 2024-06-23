@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_chestplate",
+      "components": {
+        "minecraft:trim": {
+          "material": "minecraft:amethyst",
+          "pattern": "minecraft:host"
+        }
+      }
+    },
+    "title": {
+      "translate": "Ready For Everything"
+    },
+    "description": {
+      "translate": "Wear a turtle shell, a golden chestplate, netherite leggings and leather boots to be read for everything",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:adventure/walk_on_powder_snow_with_leather_boots",
+  "criteria": {
+    "read_for_everything": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": "minecraft:turtle_helmet"
+            },
+            "chest": {
+              "items": "minecraft:golden_chestplate"
+            },
+            "legs": {
+              "items": "minecraft:netherite_leggings"
+            },
+            "feet": {
+              "items": "minecraft:leather_boots"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:biomes/ready_for_everything"
+  }
+}

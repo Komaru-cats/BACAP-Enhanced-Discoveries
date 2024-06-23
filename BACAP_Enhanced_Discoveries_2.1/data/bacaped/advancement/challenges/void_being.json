@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            -2058941513,
+            1722568392,
+            -1383009040,
+            640400140
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZhNDE3NWI3M2NkODRjNDVjNWFhN2VjMGFkYmU3NDgxMzQyYzAxYWU3NTA3NzEzN2I1MDRiZTMxODhkYzVhYiJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "Void being"
+    },
+    "description": {
+      "translate": "Be 1000 blocks under the world",
+      "color": "#FF2A2A"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:challenges/oh_my_broken_legs",
+  "criteria": {
+    "y=-1000": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "max": -1000
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:challenges/void_being"
+  }
+}

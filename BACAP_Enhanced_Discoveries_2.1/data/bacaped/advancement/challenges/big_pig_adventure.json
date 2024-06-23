@@ -1,0 +1,126 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:saddle"
+    },
+    "title": {
+      "translate": "Big Pig Adventure"
+    },
+    "description": {
+      "translate": "Discover all the biomes and structures in the Nether without getting up from the pig",
+      "color": "#FF2A2A"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/explorer_of_worlds",
+  "criteria": {
+    "nether_wastes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:nether_wastes"
+          },
+          "vehicle": {
+            "type": "minecraft:pig"
+          }
+        }
+      }
+    },
+    "warped_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:warped_forest"
+          },
+          "vehicle": {
+            "type": "minecraft:pig"
+          }
+        }
+      }
+    },
+    "basalt_deltas": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:basalt_deltas"
+          },
+          "vehicle": {
+            "type": "minecraft:pig"
+          }
+        }
+      }
+    },
+    "crimson_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:crimson_forest"
+          },
+          "vehicle": {
+            "type": "minecraft:pig"
+          }
+        }
+      }
+    },
+    "soul_sand_valley": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:soul_sand_valley"
+          },
+          "vehicle": {
+            "type": "minecraft:pig"
+          }
+        }
+      }
+    },
+    "ruined_portal_nether": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:ruined_portal_nether"
+          },
+          "vehicle": {
+            "type": "minecraft:pig"
+          }
+        }
+      }
+    },
+    "fortress": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:fortress"
+          },
+          "vehicle": {
+            "type": "minecraft:pig"
+          }
+        }
+      }
+    },
+    "bastion_remnant": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:bastion_remnant"
+          },
+          "vehicle": {
+            "type": "minecraft:pig"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:challenges/big_pig_adventure"
+  }
+}

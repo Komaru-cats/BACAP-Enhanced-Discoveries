@@ -1,0 +1,141 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:slime_block"
+    },
+    "title": {
+      "translate": "The Master of Falls"
+    },
+    "description": {
+      "translate": "Fall on each block that softens the fall"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:adventure/fall_from_world_height",
+  "criteria": {
+    "sweet_berry_bush": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "player": {
+          "location": {
+            "block": {
+              "blocks": "minecraft:sweet_berry_bush"
+            }
+          }
+        }
+      }
+    },
+    "water": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "fluid": {
+              "fluids": "#minecraft:water"
+            }
+          }
+        }
+      }
+    },
+    "cobweb": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": "minecraft:cobweb"
+            }
+          }
+        }
+      }
+    },
+    "lava": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "player": {
+          "location": {
+            "fluid": {
+              "fluids": "#minecraft:lava"
+            }
+          }
+        }
+      }
+    },
+    "slime": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": "minecraft:slime_block"
+            }
+          }
+        }
+      }
+    },
+    "hay_block": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": "minecraft:hay_block"
+            }
+          }
+        }
+      }
+    },
+    "honey_block": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": "minecraft:honey_block"
+            }
+          }
+        }
+      }
+    },
+    "bed": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": "#minecraft:beds"
+            }
+          }
+        }
+      }
+    },
+    "scaffolding": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": "minecraft:scaffolding"
+            }
+          }
+        }
+      }
+    },
+    "powder_snow": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "player": {
+          "location": {
+            "block": {
+              "blocks": "minecraft:powder_snow"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:mining/the_master_of_falls"
+  }
+}

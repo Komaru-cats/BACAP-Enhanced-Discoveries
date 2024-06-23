@@ -1,0 +1,63 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            -1660782166,
+            267469335,
+            -2121533424,
+            -335766957
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM1MTQ0NzE1NWU0ZTYwYTA4NWZiMTZhZTUyYTAwNTQzODFhMzVlODk3N2IzZTI2NTY4YjgwODUwMDkzM2RiIn19fQ=="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "Monstrous Rocket"
+    },
+    "description": {
+      "translate": "Kill a Warden with an empty inventory while both you and it 500 blocks above the world",
+      "color": "#FF2A2A"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:challenges/pulse_detonation_engine",
+  "criteria": {
+    "kill_warden_in_the_sky": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Inventory:[]}",
+          "location": {
+            "position": {
+              "y": {
+                "min": 500
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:warden",
+          "location": {
+            "position": {
+              "y": {
+                "min": 500
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:challenges/monstrous_rocket"
+  }
+}

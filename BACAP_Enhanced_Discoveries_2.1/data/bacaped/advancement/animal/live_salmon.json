@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:salmon"
+    },
+    "title": {
+      "translate": "Live Salmon"
+    },
+    "description": {
+      "translate": "Catch a live salmon with a fishing rod",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/grinding_nemo",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:salmon"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:animal/live_salmon"
+  }
+}

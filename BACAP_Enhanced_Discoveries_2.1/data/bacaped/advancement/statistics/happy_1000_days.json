@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            1623765429,
+            929253635,
+            -1082727050,
+            -920573758
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1YTZiZTIyZmJjNGRhZWU2YzAyZDJlYzUyNjI2NTE1Mjg3N2Y3ZDc1YWQzN2FjZjI5YTMzNWU5ZGFiODEzMCJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "Happy 1000 Days!"
+    },
+    "description": {
+      "translate": "Play for 1000 Minecraft days",
+      "color": "light_purple",
+      "extra": [
+        {
+          "text": "\n\n"
+        },
+        {
+          "translate": "To view progress, run:",
+          "color": "gray",
+          "italic": true
+        },
+        {
+          "text": "\n/trigger bac_statistics",
+          "color": "gray"
+        }
+      ]
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "blazeandcave:statistics/happy_new_year",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:statistics/happy_1000_days"
+  }
+}
