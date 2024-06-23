@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_breath"
+    },
+    "title": {
+      "translate": "Elementals"
+    },
+    "description": {
+      "translate": "Kill Bogged, Stray, Husk and Drowned with a single piercing arrow shot"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:adventure/arbalistic",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:killed_by_crossbow",
+      "conditions": {
+        "victims": [
+          {
+            "type": "minecraft:bogged"
+          },
+          {
+            "type": "minecraft:husk"
+          },
+          {
+            "type": "minecraft:stray"
+          },
+          {
+            "type": "minecraft:drowned"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:enchanting/elementals"
+  }
+}

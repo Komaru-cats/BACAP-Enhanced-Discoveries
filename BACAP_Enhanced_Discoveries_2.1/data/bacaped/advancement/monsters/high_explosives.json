@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            570072899,
+            880430595,
+            -1197170054,
+            -300354481
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODIyYTQ4YTU3NTllZGRlZjllMjkxOGZjODU5OTZmODQ5MWNjOTI1NzhkNTRkY2Q2MmUyYjZkOTEzYmZiNDIxZSJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "High Explosives"
+    },
+    "description": {
+      "translate": "Stand on a barrel filled with gunpowder"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/creeper_killer",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:barrel"
+              ],
+              "nbt": "{Items: [{count: 64, Slot: 0b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 1b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 2b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 3b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 4b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 5b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 6b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 7b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 8b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 9b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 10b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 11b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 12b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 13b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 14b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 15b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 16b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 17b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 18b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 19b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 20b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 21b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 22b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 23b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 24b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 25b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 26b, id: \"minecraft:gunpowder\"}]}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:monsters/high_explosives"
+  }
+}
