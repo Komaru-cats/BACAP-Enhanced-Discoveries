@@ -22,7 +22,7 @@
 "Wear a full set of lime leather armor with any emerald trims of the same type": "Наденьте полный сет лаймовой кожаной брони с любыми изумрудными шаблонами одного типа",
 
 "Eye Contact Master": "Мастер Зрительного Контакта",
-"Look at enderman very closely using a Spyglass": "Посмотрите на эндермена в подзорную трубу с очень близкого расстояния",
+"Look at an Enderman very closely using a Spyglass": "Посмотрите на эндермена в подзорную трубу с очень близкого расстояния",
 
 "Fake Netherite Armor": "Поддельная Незеритовая броня",
 "Wear a full set of black leather armor with any netherite trims of the same type": "Наденьте полный сет чёрной кожаной брони с любыми незеритовыми шаблонами одного типа",
@@ -93,6 +93,30 @@
 "Water-Dependent": "Зависимый от Воды",
 "Water the flower in the pot while standing on it": "Полейте цветок в горшке, стоя на нём",
 
+"Do You See This?": "Ты видишь это?",
+"Equip a villager with a full set of netherite armor": "Оденьте Жителя в полный незеритовый сет",
+
+"The Cult of the Spyglass": "Культ Подзорной Трубы",
+"Look at the spyglass through the spyglass": "Посмотрите на подзорную трубу через подзорную трубу",
+
+"The Hardest And Unfairest One Yet": "Сложнейшая и Самая Несправедливая",
+"Open the bonus chest": "Откройте бонусный сундук",
+
+"Copper Armor": "Медная Броня",
+"Wear a full set of orange leather armor with bolt trims with copper material":"Наденьте полный сет оранжевой коженной брони с отделкой Ось и медным материалом",
+
+"Nobody Needs Rockets!": "Никому не Нужны Ракеты!",
+"Use Wind Charge to launch yourself upward at least 50 blocks": "Используйте Заряд Ветра чтобы запустить себя вверх как минимум на 50 блоков",
+
+"On the Wings of the Wind": "На Крыльях Ветра",
+"Use Wind Charge to launch yourself upward at least 150 blocks": "Используйте Заряд Ветра чтобы запустить себя вверх как минимум на 150 блоков",
+
+"Wandering Caravane": "Странствующий Караван",
+"Leash a Boat with a Wandering Trader and Trader Llama inside": "Возьмите на поводок Лодку со Странсвующим Торговцем и Ламой Торговца",
+
+"Ominous Ocean": "Зловещий Океан",
+"Collect 64 ominous bottles of each level",: "Соберите 64 бутылки Зловещего проклятия каждого уровня",
+
 # animal
 
 "A Ewe for Every Hue": "По Овце на Каждый Оттенок",
@@ -125,6 +149,33 @@
 "You're Part of a Hive Mind Now": "Теперь Ты Часть Коллективного Разума",
 "Fill your inventory with beehives, each with three bees": "Заполните свой инвентарь улеями, где в каждом улее по три пчелы",
 
+"Turtle Bowl": "Черепашья Тарелка",
+"Kill the turtle with lightning to get a bowl": "Убейте Черпаху молнией чтобы получить тарелку",
+
+"Camel Adventure": "Преключение на Верблюде",
+"Travel to desert temple, village's house and pillager outpost in desert without getting up from the camel": "Посетите Пустынный храм, дом жителя, аванпост в пустыне не вставая с Верблюда",
+
+"The Sugar Cane Diet": "Тростниковая Диета",
+"Craft sugar from honey": "Скрафтите сахар из мёда",
+
+"That's a New Style": "Это Новый Стиль",
+"Wear a light blue leather tunic named \"Diamond Chestplate\"": "Наденьте светло-синий кожаный нагрудник с названием \"Diamond Chestplate\"",
+
+"What about Mooblooms?": "Что на счет Цветочных Коров?",
+"Kill a Glow Squid in a flower forest while holding a dandelion": "Убейте Светящегося спрута в цветочном лесу, держа одуванчик",
+
+"Buff Axolotl": "Усиленный Аксолотль",
+"Give your pet Axolotl resistance, regeneration and strength effects and win a fight": "Дайте своему питомцу Аксолотлю сопротивление урону, регенерацию и силу и убейте противника",
+
+"Beezlebooster": "Пчёлабустер",
+"Die by a Bee over that is 350 blocks above the world height": "Умрите от пчелы находясь на болеем чем 350 блоков выше уровня мира",
+
+"Crab Should Win": "Краб Должен Был Победить",
+"Kill 100 Armadillos": "Убейте 100 Броненосцев",
+
+"Cheers!": "Добрый День",
+"Use shears on all possible mobs and blocks": "Используйте ножницы на всех возможных блоках и мобах",
+
 # biomes
 
 "Good Dreams!": "Сладких Снов!",
@@ -145,6 +196,21 @@
 "The Infernal Cauldron": "Адский Котёл",
 "Spend a day in lava cauldron": "Проведите день в котле с лавой",
 
+"Underwater Pirates": "Подводные Пираты",
+"Travel on a sunken boat": "Попробуйте путешествовать на затонувшей лодке",
+
+"Ready For Everything": "Готов ко Всему",
+"Wear a turtle shell, a golden chestplate, netherite leggings and leather boots to be read for everything": "Наденьте Черепаший шлем, золотой нагрудник, незеритовые поножи и кожаные ботинки, чтобы быть готовым ко всему",
+
+"Hydrodynamic": "Гидродинамика",
+"Attempt to escape an angry Polar Bear by jumping in water, only to realize they’re very fast swimmers ": "Попытайтесь убежать от злого медведя, прыгнув в воду, и только тогда осознайте, что они очень быстрые пловцы",
+
+"Pandas Express": "Панда-Экспресс",
+"Leash a Boat with a two Pandas inside": "Возьмите на поводок Лодку с двумя Пандами внутри",
+
+"Icy Pirates": "Снежные Пираты",
+"Dig up a Buried Treasure in a Snowy Beach": "Найдите Закопанный Клад на Снежнем Пляже",
+
 # building
 
 "Art lover": "Ценитель Искусства",
@@ -159,13 +225,22 @@
 "Statue": "Статуя",
 "Stand on a block of chiseled quartz and look through a spyglass": "Стойте на блоке резного кварца, смотря в подзорную трубу",
 
+"Rainbow!": "Радуга!",
+"Place all kinds of colored glass directly above the beacon": "Поставьте стекло всех цветов прямо поверх маяка",
+
+"Stickman": "Стикман",
+"Craft 10,000 sticks": "Скрафтите 10,000 палок",
+
+"Artificial Forest": "Древний Лес",
+"Mine a full stack of all types of leaves, logs, stems, and saplings": "Добутьте стак всех видов листьев, блоков дерева, стеблей и саженцев",
+
 # challenges
 
 "Five Birds, One Stone": "Пяти Птиц, Один Камень",
 "Kill 5 Vexes with a single piercing shot": "Убейте 5 Вредин одним выстрелом",
 
 "5G Connectivity": "5G Соединение",
-"Kill 5 Glow squids with a single piercing arrow": "Убейте 5 Светящихся спрутов одной стрелой",
+"Kill 5 Glow squids with a single piercing arrow shot": "Убейте 5 Светящихся спрутов выстрелом одной стрелы",
 
 "Astronomer": "Астроном",
 "Look at the anvil that is 325 blocks above the world using a Spyglass": "Посмотри на наковальню, которая находится на высоте 325 блоков над миром через Подзорную трубу",
@@ -185,9 +260,8 @@
 "Explosive Elixir": "Взрывной Эликсир",
 "Have every max possible level effect applied at the same time": "Получите все возможные эффекты максимального уровня одновременно",
 
-
 "Extincion": "Истребление",
-"Kill a strength 5 Llama, a black Rabbit, a brown Panda, a blue Axolotl and a jungle Nitwit with a single piercing arrow in the End": "Убейте Ламу с уровнем силы 5, черного Кролика, коричневого Панду, синего Аксолотля и безработного джунглиевого Жителя одной стрелой в Краю",
+"Kill a strength 5 Llama, a black Rabbit, a brown Panda, a blue Axolotl and a jungle Nitwit with a single piercing arrow shot in the End": "Убейте Ламу с уровнем силы 5, черного Кролика, коричневого Панду, синего Аксолотля и безработного джунглиевого Жителя выстрелом одной стрелы в Краю",
 
 "Happy Anniversary": "С Юбилеем",
 "Kill 300 Withers during your life": "Убейте 300 Иссушителей в течение вашей жизни",
@@ -247,6 +321,42 @@
 "Zero Coordinates Magnet": "Магнит с нулевыми координатами",
 "Kill the blue Axolotl at coordinates x: 0 z: 0 y: 0 in the End": "Убейте синего Аксолотля в точке с координатами x: 0 z: 0 y: 0 в Краю",
 
+"Big Pig Adventure": "Большое Свиное Приключение",
+"Discover all the biomes and structures in the Nether without getting up from the pig": "Посетите все биомы и структуры Незера не вставая со свиньи",
+
+"Big End Adventure": "Большое Приключение Края",
+"Kill the Ender Dragon and discover all the biomes and structures in the End without getting up from the Strider": "Убейте Эндер Дракона и посетите все биомы и структуры Края не вставая со Страйдера",
+
+"Piggish Poison Tango": "Ядовитое Танго со Свиньей",
+"Kill the Warden with an empty inventory with effects of poison, nausea and hunger sitting on a pig": "Убейте Хранителя с пустым инвентарем и эффектами отравления, тошноты, голода сидя на Свинье",
+
+"Pyrotechnic vs Dragon V": "Пиротехник против Дракона V",
+"Kill the Ender Dragon using a crossbow with fireworks while wearing a Piglin head, elytra, and golden boots without taking damage and touching the ground": "Убейте Дракона используя арбалет с феерверками надев голову пиглина, элитры и золотые ботинки без получения урона и касаний земли на протяжении всей битвы",
+
+"Dragon vs Warden VI": "Дракон против Хранителя VI",
+"Kill the Warden while holding Dragon's Breath in the main hand and Ender Pearl in the offhand wearing Dragon Head, Elytra and Black Leather Pants and Boots with Netherite Eye armor trim with Slow Falling effect applied from the moment of the summoning the Warden and without other players within a 64 block radius during all the fight": "Убейте Хранителя держа в основной руке дыхание дракона и эндер жемчуг в дополнительной, надев голову Дракона, Элитры, Черный Кожаные Штаны и Ботинки с незеритовой отделкой Око, с эффектом Плавного падения с момента призыва Хранителя и без других игроков в радиусе 64 блоков на протяжении всей битвы",
+
+"Pulse Detonation Engine": "Импульсно Детонационный Двигатель",
+"Launch yourself at least 1000 blocks up with TNT explosions": "Запустите себя вверх как минимум на 1000 блоков с помощью взрывов Динамита",
+
+"From the Underworld": "Из подземелья",
+"Buy Glowstone from a Wandering Trader in the Nether":"Купите Светокамень у Странсвующего торговца в Нижнем Мире",
+
+"Sandwich": "Бутерброд",
+"Kill 5 Wardens with a single piercing arrow shot": "Убейте 5 Хранителей одним выстрелом пронзающей стрелы",
+
+"Jump for Joy": "Прыжки от Радости",
+"Kill every jumping mob while both you and it have the jump boost effect": "Убейте всех прыгающих мобов пока он и вы оба имеете эффект Прыгучести",
+
+"Monstrous Rocket": "Чудовищная Ракета",
+"Kill a Warden with an empty inventory while both you and it 500 blocks above the world": "Убейте Вардена с пустым инвентарем пока он и вы выше 500 блоков от уровня мира",
+
+"Command Work": "Командная Работа",
+"Kill the Ender Dragon with a Ghast's fireball without any items in your inventory and under nausea effect": "Убейте Эндер Дракона Огненным Шаром Гаста с пустым инвентарем и эффектом тошноты",
+
+"Airborne Annihilator": "Воздушный Уничтожитель",
+"Kill Ender Dragon, Bee, Blaze, Breeze, Vex, Phantom with Wind Charge": "Убейте Эндер Дракона, Пчелу, Блэйза, Вихря, Векса, Фантома с помощью Заряда Ветра",
+
 # enchanting
 
 "All the Netherite Tools": "Все Незеритовые Инструменты",
@@ -270,6 +380,9 @@
 "Useless": "Бесполезность",
 "Craft a book with two curses": "Создайте книгу с двумя проклятиями",
 
+"Elementals": "Элементали",
+"Kill Bogged, Stray, Husk and Drowned with a single piercing arrow shot": "Убейте Болотника, Зимогора, Кадавра и Утопленника одним выстрелом пронзающей стрелы",
+
 # end
 
 "Bee Colonist": "Пчелиный Колонизатор",
@@ -280,6 +393,12 @@
 
 "Last Hit": "Последний Удар",
 "Kill the Ender Dragon without any items in your inventory": "Убейте Эндер Дракона без каких-либо предметов в вашем инвентаре",
+
+"Universal Solitude": "Вселенское Одиночество",
+"Have 42 wardens in End with name \"Mason\"": "Находитесь в Краю вместе с 42 Хранителями с именем \"Mason\"",
+
+"Interdimensional Travel": "Межпространственное Перемещение",
+"Get directly from the Nether to the End": "Окажитесь в Краю из Нижнего Мира"
 
 # farming
 
@@ -303,6 +422,18 @@
 
 "Plant Enthusiast": "Любитель растений",
 "Plant 10,000 potatoes": "Посадите 10,000 картошек",
+
+"Overpayment": "Переплата",
+"Craft golden carrot from carrot and golden nuggets": "Скрафтите золотую морковь из моркови и золотых самородков",
+
+"High Risk": "Большой Риск",
+"Eat the golden carrot and the golden apple while looking at the piglin": " Съешьте золотую морковь и золотое яблоко, пока смотрите на пиглина",
+
+"It's Midnight Already!?": "Уже Полночь?",
+"Place a book with a hundred pages on a lectern and read it": "Прочтите на кафедре книгу в которой 100 страниц",
+
+"Raising Canes": "Растущий Тростник",
+"Place Sugarcane on every possible block":"Посадите Сахарный Тростник на все возможные блоки",
 
 # mining
 
@@ -330,6 +461,15 @@
 "Time Killer": "Убийца Времени",
 "Fill you inventory with obsidian": "Заполните свой инвентарь обсидианом",
 
+"The Master of Falls": "Мастер Падений",
+"Fall on each block that softens the fall": "Упадите на каждый блок, который смягчает падение",
+
+"Distorted Cave Maze": "Искаженный Пещерный Лабиринт",
+"Stay in a deep cave without sun and moon light for 3 days": "Оставайтесь глубоко в пещерах без света солнца и луны 3 дня",
+
+"Chief Spide": "Паук-Шеф",
+"Fill your inventory with cobweb": "Заполните инвентарь паутиной",
+
 # monsters
 
 "Get out of my sky": "Исчезни с Глаз Моих",
@@ -340,6 +480,12 @@
 
 "Phantom Rider": "Фантомный Гонщик",
 "Catch the Phantom with a fishing rod": "Поймайте Фантома удочкой",
+
+"Not That Impossible": "Не так уж Невозможно",
+"Be killed by husk while riding a camel": "Будьте убиты Кадавром пока сидите на Верблюде",
+
+"More Impossible": "Более Невозможно",
+"Kill the Wither with an arrow": "Убейте Визера стрелой",
 
 # nether
 
@@ -390,9 +536,15 @@
 "Worst Cleric in the World": "Худший Зельевар в Мире",
 "Fill your entire inventory with corrupted potions": "Заполните свой инвентарь неудачными зельями",
 
+"Cowabunga It Is": "Это Ковабунга",
+"kill a Turtle that is under the effect of a turtle master potion": "Убейте Черепаху на которую наложен эффект Черепашьей Мощи",
+
+"You're not the Zillager": "Ты не Зомби Житель",
+"Try to cure yourself from Zombification": "Попытайтесь вылечить себя от зомбификации",
+
 # redstone
 
-"More Optimisations!": "Больше Оптимизаций!",
+"Old Optimisations!": "Старые Оптимизации",
 "Before 1.21, the composter placed above hopper optimized the calculations. Do it in honor of tradition": "До 1.21 компостер, поставленный над воронкой оптимизировал её вычисления. Сделайте это в дань традиции",
 
 "Optimisations": "Оптимизации",
@@ -514,6 +666,55 @@
 "Eternal Vanguard": "Бессмертный Страж",
 "Avoid dying within 500 hours": "Избегайте смерти на протяжение 500 часов",
 
+"Novice Angler": "Рыбак-Новичок",
+"Catch 5 fish with a fishing rod.": "Поймайте 5 рыб с помощью удочки",
+
+"Intermediate Fisher": "Рыбак-Любитель",
+"Catch 25 fish with a fishing rod.": "Поймайте 25 рыб с помощью удочки",
+
+"Experienced Angler": "Опытный Рыбак",
+"Catch 100 fish with a fishing rod.": "Поймайте 100 рыб с помощью удочки",
+
+"Master Fisherman": "Рыбак-Профессионал",
+"Catch 500 fish with a fishing rod.": "Поймайте 500 рыб с помощью удочки",
+
+"Totem Tinkerer": "Подмастерье по Тотемам",
+"Spend 5 totems of undying": "Используйте 5 тотемов бессмертия",
+
+"Totem Adept": "Адепт Тотемов",
+"Spend 25 totems of undying": "Используйте 25 тотемов бессмертия",
+
+"Totem Expert": "Экперт по Тотемам",
+"Spend 100 totems of undying": "Используйте 100 тотемов бессмертия",
+
+"Totem Immortal": "Бессмертный Мастер Тотемов",
+"Spend 1000 totems of undying": "Используйте 1000 тотемов бессмертия",
+
+"Stone Cutter": "Каменьщик",
+"Break 100 blocks with Iron Pickaxe": "Сломайте 100 блоков, используя Железную кирку",
+
+"Metal Miner": "Вскопщик Минералов",
+"Break 2500 blocks with Diamond Pickaxe": "Сломайте 2500 блоков, используя Алмазную Кирку",
+
+"Diamond Digger": "Алмазный Копатель",
+"Break 10,000 blocks with Netherite Pickaxe": "Сломайте 10,000 блоков, используя Незеритовую Кирку",
+
+"Bedrock Breaker": "Разрушитель Бедрока",
+"Break 100,000 blocks with Netherite Pickaxe": "Сломайте 100,000 блоков, используя Незеритовую Кирку",
+
+"Raid Resister": "Защитник от Рейдов",
+"Win 3 Raids": "Отразите 3 Рейда",
+
+"Pillager Protector": "Покровитель от Разбойников",
+"Win 10 Raids": "Отразите 10 Рейдов",
+
+"Vindicator Vanquisher": "Покоритель Поборников",
+"Win 25 Raids": "Отразите 25 Рейдов",
+
+"Ravager Repeller": "Страх Разорителей",
+"Win 250 Raids": "Отразите 250 Рейдов",
+
+
 # weaponry
 
 "More Shields!": "Больше Шитов!",
@@ -528,6 +729,20 @@
 "Unlucky": "Невезунчик",
 "Die twice within 5 seconds": "Умрите дважды за 5 секунд",
 
+"Explosive Fisherman": "Взрывной Рыбак",
+"Catch TNT on a fishing rod": "Поймайте Динамит удочкой",
+
+"Frightening Fishing": "Жуткая Рыбалка",
+"Use a fishing rod to hook a Warden": "Используйте удочку чтобы приманить Хранителя",
+
+"Meet the Snipe": "Встречайте Снайпера",
+"Hold a spyglass and a crossbow": "Возьмите в руки подзорную трубу и арбалет",
+
+"Cold Betrayal": "Холодное Предательство",
+"Get killed by a snow golem": "Умрите от Снежного Голема",
+
+"Dead-eye": "Меткий Глаз",
+"Kill a baby Turtle that is below sea level while you are more than 300 blocks above the world height by using Trident": "Убейте детёныша Черепахи, который находится ниже уровня моря, находясь выше 300 блоков над миром используя Трезубец",
 
 
 # trophies
@@ -581,6 +796,18 @@
 "Awkward Shovel": "Неуклюжая Лопата",
 "To mine suspiciously": "Для подозрительного копания",
 
+"Ruby": "Рубин",
+"Priceless...": "Бесценен...",
+
+"Ominous Bottle": "Зловещая Бутылка",
+"An incredibly concentrated curse": "Невероятно концентрированное проклятие",
+
+"Storm Charge": "Штормовой Заряд",
+"A charge that is better not to use": "Заряд, который лучше не применять",
+
+"Not an Ordinary Chest": "Не Просто Сундук",
+"What is wrong with it?": "Что не так с ним?",
+
 # animal
 
 "Salmon's Head": "Голова Лосося",
@@ -604,6 +831,22 @@
 "Your Mind": "Твой разум",
 "I think you're stuck in a bottle": "Я думаю, ты застрял в бутылке",
 
+"Gray Bee": "Серая Пчела",
+"Gray World...": "Серый Мир...",
+
+"The World Cactus": "Мировой Кактус",
+"Feed it to your camel, he's definitely": "Накормите им своего Верблюда, он определенно",
+"tired": "Устал",
+
+"Crab": "Краб",
+"Hope dies last...": "Надежда умирает последней...",
+
+"Bowl": "Тарелка",
+"Without soup...": "Без супа",
+
+"Yellow Flower": "Жёлтый Цветок",
+"Something very similar to dandelion": "Что-то очень похожее на одуванчик",
+
 # biomes
 
 "The Softest Bed": "Самая мягкая кровать",
@@ -619,6 +862,8 @@
 
 "The Potted Pot": "Горшечный Горшок",
 "Chic Ceramic Pot": "Шикарный керамический горшок",
+
+"Stick": "Палка",
 
 # challenges
 
@@ -730,6 +975,42 @@
 "mutations play the lottery, with a": "мутации играют в лотерею с",
 "whopping 0.083% chance!": "колоссальным шансом в 0,083%!",
 
+"Arrow from the Wind": "Стрела Ветра",
+"Each shot with this arrow creates a": "Каждый выстрел этой стрелой создает",
+"tornado": "торнадо",
+
+"Charged End Stone": "Заряженный Камень Края",
+"Was found on the forgotten islands of": "Был найден на забытых островах",
+"the End": "Края",
+
+"Aristocratic Pig": "Аристократичная Свинья",
+"It definitely has a story to tell.": "У неё определенно есть о чем рассказать.",
+
+"The Exploded Dragon's Head": "Взорванная Драконья Голова",
+"Was slightly damaged during the killing": "Была немного повреждена во время убийства",
+
+"Warden's Plate": "Плита Хранителя",
+"Was taken out of the Warden": "Была вытащена из Хранителя",
+
+"Glowstone from the Overworld": "Светокамень из Верхнего Мира",
+"Where was it found?": "Где же он был найден?",
+
+"Big Rocket": "Большая Ракета",
+"Contains a large supply of gunpowder": "Содержит большой пороховой заряд",
+
+"Shoked Pig": "Шокированная Свинья",
+"Your pig is at the time of completing": "Твоя свинья во время выполнения",
+"this advancement": "этого достижения",
+
+"Atomic TNT": "Атомный ТНТ",
+"Explosive! Explosive! Explosive!": "Взрывоопасен! Взрывоопасен! Взрывоопасен!",
+
+"Pyrotechnic Charge": "Пиротехнический Заряд",
+"Base of any Good Firework": "Основа каждого хорошего Феерверка",
+
+"Warden's Head": "Голова Хранителя",
+"Not that scary": "Не такая уж и страшная",
+
 # enchanting
 
 "Useful Instrument": "Полезный Инструмент",
@@ -739,6 +1020,12 @@
 
 "Dragon Head": "Голова Дракона",
 "Armor is for amateurs": "Броня для любителей",
+
+"Ancient Teleporter": "Древний Телепортер",
+"How to use it!?": "Как его использовать!?",
+
+"Greatest Stonecutter": "Великий Камнетёс",
+"Workbench for any Mason": "Рабочий стол для любого Каменьщика",
 
 # farming
 
@@ -756,6 +1043,9 @@
 "Poisonous Potato": "Отравленный Картофель",
 "Not all potatoes are edible, even if": "Не весь картофель съедобен, даже если",
 "they look perfectly fine": "он выглядит совершенно нормально",
+
+"Book from the Bookshelf": "Книга с Книжной Полки",
+"Have you not heard of this magnificent, unparalleled, one-of-a-kind book, said to have been written by none other than Zeus himself in a moment of enlightenment, when he also happened to create the universe, and which has now, after centuries of wandering the earth, found its way into our hands, discovered deep within an ancient cave, covered in dust and cobwebs, and now, finally, after careful examination and restoration by the greatest minds of our time, is ready to reveal its secrets to anyone daring enough to gaze upon its pages, which, it is said, have the power to absorb anyone who lacks sufficient strength of spirit and transport them to a world of fantastical adventures, filled with incredible creatures and hidden mysteries, and also, of course, provide the opportunity to inscribe one's own thoughts, ideas, and discoveries upon its blank pages, which may then become a part of this great book and endure forever, until the very universe itself ceases to exist?":"Неужели вы не слышали о этой великолепной, непревзойденной, единственной в своем роде книге, которая, как говорят, была написана самим Зевсом в момент просветления, когда он, между прочим, также создал вселенную, и которая теперь, после стольких веков странствий по миру, оказалась в наших руках, будучи обнаруженной в глубине древней пещеры, заваленной пылью и паутиной, и теперь, наконец-то, после тщательного изучения и реставрации лучшими умами нашего времени, готова раскрыть свои тайны любому, кто посмеет взглянуть на её страницы, которые, как говорят, способны поглотить любого, кто не обладает достаточной силой духа, и перенести его в мир фантастических приключений, полных невероятных созданий и сокровенных тайн, а также, конечно же, дать возможность записать на её пустых страницах собственные мысли, идеи и открытия, которые, возможно, также станут частью этой великой книги и просуществуют вечно, пока сама вселенная не прекратит свое существование?",
 
 # mining
 
@@ -917,6 +1207,31 @@
 "This is only 1/40 of the perimeter of": "Это только 1/40 периметра",
 "our planet": "нашей планеты",
 
+"Golden Infused Pickaxe": "Золотая Заряженная Кирка",
+"The master who created it put all his": "Мастер который создал её, вложил все свои",
+"efforts into efficiency": "усилия в эффективность",
+
+"High-Quality Diamond Ore": "Качественная Алмазная Руда",
+"Your glory": "Твоя гордость",
+
+"Incredibly Big Salmon": "Невероятно Большой Лосось",
+"Is it worth eating?": "Стоит ли его есть?",
+
+"Ravager's Head": "Голова Разорителя",
+"Trophy obtained by force": "Трофей, полученный силой",
+
+"Totem of Totems": "Тотем всех Тотемов",
+"Maybe stop dying?": "Может хватит умирать?",
+
+"Totem of Totem of Totems": "Тотем Тотема Всех Тотемов",
+"STOP DYING!": "ХВАТИТ УМИРАТЬ!",
+
+"Iron Ax": "Железная Секира",
+"Heavier than a regular axe": "Тяжелее, чем обычный топор",
+
+"Professional Fishing Rod": "Профессиональная Удочка",
+"For real Masters": "Для реальных Мастеров",
+
 # weaponry
 
 "Tree Shield": "Деревянный Щит",
@@ -926,6 +1241,10 @@
 "Loser": "Лузер",
 "Use it so you don't die": "Используй это, чтобы не умереть",
 " The trophy appeared at the place of your death": "Трофей появился на месте вашей смерти",
+
+"Portable Telescope": "Портативный Телескоп",
+"Allows you to see more": "Позволяет тебе видеть больше",
+
 # menu if BACAP is installed
 
 " successfully installed": " yспешно загружен",
@@ -944,7 +1263,7 @@
 
 # version!
 
-"Version: 2.0": "Версия: 2.0"
+"Version: 2.1": "Версия: 2.10"
 
 # that is all...
 
