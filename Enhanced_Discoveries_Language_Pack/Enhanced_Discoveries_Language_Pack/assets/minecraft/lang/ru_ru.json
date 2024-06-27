@@ -19,7 +19,7 @@
 "Ring the bell 10,000 times": "Позвоните в колокол 10,000 раз",
 
 "Emerald Armor?": "Изумрудная Броня?",
-"Wear a full set of lime leather armor with any emerald trims of the same type": "Наденьте полный сет лаймовой кожаной брони с любыми изумрудными шаблонами одного типа",
+"Wear a full set of lime leather armor with any emerald trims": "Наденьте полный сет лаймовой кожаной брони с любыми изумрудными шаблонами",
 
 "Eye Contact Master": "Мастер Зрительного Контакта",
 "Look at an Enderman very closely using a Spyglass": "Посмотрите на эндермена в подзорную трубу с очень близкого расстояния",
@@ -52,7 +52,7 @@
 "Buy any type of terracota from a Villager in any badlands biome": "Купите любой тип терракоты у Жителя находясь в месе",
 
 "Oh, you again?": "О, Снова Ты?",
-"Open the door to a Wandering trader": "Откройте дверь Странствующему торговцу",
+"Open the door to a Wandering Trader": "Откройте дверь Странствующему торговцу",
 
 "On Site Sale": "Распродажа на Месте",
 "Buy bricks from a Villager in the river biome": "Купите кирпичи у Жителя находясь в реке",
@@ -115,7 +115,7 @@
 "Leash a Boat with a Wandering Trader and Trader Llama inside": "Возьмите на поводок Лодку со Странсвующим Торговцем и Ламой Торговца",
 
 "Ominous Ocean": "Зловещий Океан",
-"Collect 64 ominous bottles of each level",: "Соберите 64 бутылки Зловещего проклятия каждого уровня",
+"Collect 64 ominous bottles of each level": "Соберите 64 бутылки Зловещего проклятия каждого уровня",
 
 # animal
 
@@ -152,7 +152,7 @@
 "Turtle Bowl": "Черепашья Тарелка",
 "Kill the turtle with lightning to get a bowl": "Убейте Черпаху молнией чтобы получить тарелку",
 
-"Camel Adventure": "Преключение на Верблюде",
+"Camel Adventure": "Приключение на Верблюде",
 "Travel to desert temple, village's house and pillager outpost in desert without getting up from the camel": "Посетите Пустынный храм, дом жителя, аванпост в пустыне не вставая с Верблюда",
 
 "The Sugar Cane Diet": "Тростниковая Диета",
@@ -167,7 +167,7 @@
 "Buff Axolotl": "Усиленный Аксолотль",
 "Give your pet Axolotl resistance, regeneration and strength effects and win a fight": "Дайте своему питомцу Аксолотлю сопротивление урону, регенерацию и силу и убейте противника",
 
-"Beezlebooster": "Пчёлабустер",
+"Beezlebooster": "Пчёлобустер",
 "Die by a Bee over that is 350 blocks above the world height": "Умрите от пчелы находясь на болеем чем 350 блоков выше уровня мира",
 
 "Crab Should Win": "Краб Должен Был Победить",
@@ -203,7 +203,7 @@
 "Wear a turtle shell, a golden chestplate, netherite leggings and leather boots to be read for everything": "Наденьте Черепаший шлем, золотой нагрудник, незеритовые поножи и кожаные ботинки, чтобы быть готовым ко всему",
 
 "Hydrodynamic": "Гидродинамика",
-"Attempt to escape an angry Polar Bear by jumping in water, only to realize they’re very fast swimmers ": "Попытайтесь убежать от злого медведя, прыгнув в воду, и только тогда осознайте, что они очень быстрые пловцы",
+"Attempt to escape an angry Polar Bear by jumping in water, only to realize they're very fast swimmers": "Попытайтесь убежать от злого медведя, прыгнув в воду, и только тогда осознайте, что они очень быстрые пловцы",
 
 "Pandas Express": "Панда-Экспресс",
 "Leash a Boat with a two Pandas inside": "Возьмите на поводок Лодку с двумя Пандами внутри",
@@ -321,11 +321,11 @@
 "Zero Coordinates Magnet": "Магнит с нулевыми координатами",
 "Kill the blue Axolotl at coordinates x: 0 z: 0 y: 0 in the End": "Убейте синего Аксолотля в точке с координатами x: 0 z: 0 y: 0 в Краю",
 
-"Big Pig Adventure": "Большое Свиное Приключение",
+"Big Pig Adventure": "Большое Свиноприключение",
 "Discover all the biomes and structures in the Nether without getting up from the pig": "Посетите все биомы и структуры Незера не вставая со свиньи",
 
 "Big End Adventure": "Большое Приключение Края",
-"Kill the Ender Dragon and discover all the biomes and structures in the End without getting up from the Strider": "Убейте Эндер Дракона и посетите все биомы и структуры Края не вставая со Страйдера",
+"Kill the Ender Dragon and discover all the biomes and structures in the End without getting up from the Strider": "Убейте Эндер Дракона и посетите все биомы и структуры Края не вставая с Лавамерки",
 
 "Piggish Poison Tango": "Ядовитое Танго со Свиньей",
 "Kill the Warden with an empty inventory with effects of poison, nausea and hunger sitting on a pig": "Убейте Хранителя с пустым инвентарем и эффектами отравления, тошноты, голода сидя на Свинье",
@@ -397,8 +397,8 @@
 "Universal Solitude": "Вселенское Одиночество",
 "Have 42 wardens in End with name \"Mason\"": "Находитесь в Краю вместе с 42 Хранителями с именем \"Mason\"",
 
-"Interdimensional Travel": "Межпространственное Перемещение",
-"Get directly from the Nether to the End": "Окажитесь в Краю из Нижнего Мира"
+"Interdimensional Travel": "Многомерное Перемещение",
+"Get directly from the Nether to the End": "Окажитесь в Краю из Нижнего Мира",
 
 # farming
 
@@ -417,7 +417,7 @@
 "More, More Cookies!": "Больше, Больше Печенья!",
 "Craft 10,000 cookies": "Скрафтите 10,000 печенек",
 
-"Not a fireflies": "Не Светлячки",
+"Not Fireflies": "Не Светлячки",
 "Have a stack of melon seeds": "Заполучите стак семян арбуза",
 
 "Plant Enthusiast": "Любитель растений",
@@ -806,7 +806,7 @@
 "A charge that is better not to use": "Заряд, который лучше не применять",
 
 "Not an Ordinary Chest": "Не Просто Сундук",
-"What is wrong with it?": "Что не так с ним?",
+"What is wrong with it?": "Что с ним не так?",
 
 # animal
 
