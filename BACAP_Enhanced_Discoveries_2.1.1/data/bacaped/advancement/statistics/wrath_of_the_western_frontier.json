@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_horse_armor",
+      "components": {
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:dyed_color": 10409302
+      }
+    },
+    "title": {
+      "translate": "Wrath of the Western Frontier"
+    },
+    "description": {
+      "translate": "Ride 250km on a horse",
+      "color": "light_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "blazeandcave:statistics/scourge_of_the_west",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:horse_one_cm",
+                "value": {
+                  "min": 25000000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:statistics/wrath_of_the_western_frontier"
+  }
+}

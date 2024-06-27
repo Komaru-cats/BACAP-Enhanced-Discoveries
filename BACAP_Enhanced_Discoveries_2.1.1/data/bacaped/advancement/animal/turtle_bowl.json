@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bowl",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Turtle Bowl"
+    },
+    "description": {
+      "translate": "Kill the turtle with lightning to get a bowl",
+      "color": "light_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "blazeandcave:animal/turtle_army",
+  "criteria": {
+    "bowl": {
+      "trigger": "minecraft:channeled_lightning",
+      "conditions": {
+        "victims": [
+          {
+            "type": "minecraft:turtle"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:animal/turtle_bowl"
+  }
+}
