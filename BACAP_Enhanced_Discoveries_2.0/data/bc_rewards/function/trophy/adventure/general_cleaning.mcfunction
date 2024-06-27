@@ -1,2 +1,0 @@
-give @s minecraft:brush[enchantments={levels:{unbreaking:1},show_in_tooltip:False},custom_name='{"italic":false,"bold":true,"color":"#D8AD8B","translate":"Broomstick"}',lore=['{"color": "#D8AD8B", "translate": "Sweeps away messes and boredom!"}','{"text":" "}','{"color":"gray","translate":"Awarded for achieving"}','{"italic":false,"color":"dark_purple","translate":"General Cleaning"}'],custom_model_data=131,hide_additional_tooltip={},custom_data={Trophy:1}] 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Broomstick"}]}

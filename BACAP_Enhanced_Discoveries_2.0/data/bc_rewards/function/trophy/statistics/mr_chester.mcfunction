@@ -1,2 +1,0 @@
-give @s minecraft:chest[enchantments={levels:{"minecraft:unbreaking":1},show_in_tooltip:0b},custom_name='{"italic":false,"bold":true,"color":"#FF9D00","translate":"Personal Сhest"}',lore=['{"color": "#FF9D00", "translate": "I know you like chests"}','{"text":" "}','{"color":"gray","translate":"Awarded for achieving"}','{"italic":false,"color":"dark_purple","translate":"Mr. Chester"}'],custom_model_data=131,hide_additional_tooltip={},custom_data={Trophy:1}] 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Personal Сhest"}]}
