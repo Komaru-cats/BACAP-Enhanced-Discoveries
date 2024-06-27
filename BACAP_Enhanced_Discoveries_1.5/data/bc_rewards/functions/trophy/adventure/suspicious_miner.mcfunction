@@ -1,2 +1,0 @@
-give @s minecraft:wooden_shovel{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#E58850\",\"translate\":\"Awkward Shovel\"}",Lore:["{\"color\": \"#E58850\", \"translate\": \"To mine suspiciously\"}", "{\"text\":\" \"}", "{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}", "{\"italic\":false,\"color\":\"dark_purple\",\"translate\":\"Suspicious Miner\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Awkward Shovel"}]}

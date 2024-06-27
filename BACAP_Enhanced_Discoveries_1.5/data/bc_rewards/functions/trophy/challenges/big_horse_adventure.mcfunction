@@ -1,2 +1,0 @@
-give @s minecraft:saddle{Enchantments:[{id:"minecraft:unbreaking",lvl:1}],Trophy:1,CustomModelData:131,HideFlags:33,display:{Name:"{\"italic\":false,\"bold\":true,\"color\":\"#DC663D\",\"translate\":\"Soft Saddle\"}",Lore:["{\"color\": \"#DC663D\", \"translate\": \"So that your ass doesn't get tired\"}", "{\"text\":\" \"}", "{\"color\":\"gray\",\"translate\":\"Awarded for achieving\"}", "{\"italic\":false,\"color\":\"#FF2A2A\",\"translate\":\"Big Horse Adventure\"}"]}} 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Soft Saddle"}]}
