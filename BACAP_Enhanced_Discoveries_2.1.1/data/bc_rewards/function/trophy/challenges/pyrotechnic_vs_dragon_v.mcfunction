@@ -1,0 +1,2 @@
+give @s minecraft:firework_star[minecraft:enchantment_glint_override=1b,custom_name='{"italic":false,"bold":true,"color":"#FF483A","translate":"Pyrotechnic Charge"}',lore=['{"color": "#FF483A", "translate": "Base of any Good Firework"}','{"text":" "}','{"color":"gray","translate":"Awarded for achieving"}','{"italic":false,"color":"#FF2A2A","translate":"Pyrotechnic vs Dragon V"}'],custom_model_data=131,hide_additional_tooltip={},custom_data={Trophy:1}] 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Pyrotechnic Charge"}]}

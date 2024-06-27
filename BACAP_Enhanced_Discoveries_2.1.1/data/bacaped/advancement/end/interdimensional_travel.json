@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_portal_frame",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Interdimensional Travel"
+    },
+    "description": {
+      "translate": "Get directly from the Nether to the End"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/event_horizon",
+  "criteria": {
+    "from_the_nether_to_the_end": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:end/interdimensional_travel"
+  }
+}

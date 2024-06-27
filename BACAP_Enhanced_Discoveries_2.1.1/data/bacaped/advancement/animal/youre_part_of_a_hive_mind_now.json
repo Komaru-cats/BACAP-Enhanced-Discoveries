@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:honeycomb",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "You're Part of a Hive Mind Now"
+    },
+    "description": {
+      "translate": "Fill your inventory with beehives, each with three bees"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/nest_quick",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "nbt": "{Inventory:[{Slot:0b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:1b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:2b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:3b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:4b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:5b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:6b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:7b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:8b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:9b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:10b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:11b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:12b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:13b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:14b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:15b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:16b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:17b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:18b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:19b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:20b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:21b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:22b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:23b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:24b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:25b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:26b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:27b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:28b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:29b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:30b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:31b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:32b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:33b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:34b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:35b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:-106b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}}]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:animal/youre_part_of_a_hive_mind_now"
+  }
+}

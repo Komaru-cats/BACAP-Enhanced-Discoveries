@@ -1,0 +1,1533 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_sword",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Professional Assassin"
+    },
+    "description": {
+      "translate": "Kill 25 mobs of each type",
+      "color": "#FF2A2A",
+      "extra": [
+        {
+          "text": "\n\n"
+        },
+        {
+          "translate": "The following mobs can be killed in a single instance:",
+          "color": "dark_gray",
+          "italic": true
+        },
+        {
+          "text": "\n",
+          "color": "gray"
+        },
+        {
+          "translate": "entity.minecraft.wandering_trader",
+          "color": "gray"
+        },
+        {
+          "text": ", ",
+          "color": "gray"
+        },
+        {
+          "translate": "entity.minecraft.skeleton_horse",
+          "color": "gray"
+        }
+      ]
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:challenges/airborne_annihilator",
+  "criteria": {
+    "bat": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:bat",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "breeze": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:breeze",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "bogged": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:bogged",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "armadillo": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:armadillo",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "chicken": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:chicken",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "cod": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:cod",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "cow": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:cow",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mooshroom": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:mooshroom",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "pig": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:pig",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "rabbit": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:rabbit",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "salmon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:salmon",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "sheep": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:sheep",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "squid": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:squid",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "tropical_fish": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:tropical_fish",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "turtle": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:turtle",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "villager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:villager",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "wandering_trader": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:wandering_trader",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "pufferfish": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:pufferfish",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "cave_spider": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:cave_spider",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "enderman": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:enderman",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "panda": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:panda",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "polar_bear": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:polar_bear",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "spider": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:spider",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "zombified_piglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:zombified_piglin",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "blaze": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:blaze",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "creeper": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:creeper",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "drowned": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:drowned",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "endermite": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:endermite",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "evoker": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:evoker",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "ghast": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:ghast",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "guardian": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:guardian",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "husk": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:husk",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "magma_cube": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:magma_cube",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "phantom": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:phantom",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "pillager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:pillager",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "ravager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:ravager",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "shulker": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:shulker",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "silverfish": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:silverfish",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:skeleton",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "slime": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:slime",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "stray": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:stray",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "vex": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:vex",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "vindicator": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:vindicator",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "witch": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:witch",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "wither_skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:wither_skeleton",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "zombie_villager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:zombie_villager",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "zombie": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:zombie",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "cat": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:cat",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "donkey": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:donkey",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "horse": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:horse",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "llama": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:llama",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mule": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:mule",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "parrot": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:parrot",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "skeleton_horse": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:skeleton_horse",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "trader_llama": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:trader_llama",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "wolf": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:wolf",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "dolphin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:dolphin",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "fox": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:fox",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "ocelot": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:ocelot",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "iron_golem": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:iron_golem",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "snow_golem": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:snow_golem",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "wither": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:wither",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "bee": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:bee",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "piglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:piglin",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "hoglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:hoglin",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "strider": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:strider",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "zoglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:zoglin",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "piglin_brute": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:piglin_brute",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "axolotl": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:axolotl",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "glow_squid": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:glow_squid",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "goat": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:goat",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "frog": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:frog",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "tadpole": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:tadpole",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "allay": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:allay",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "warden": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:warden",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "camel": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:camel",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "sniffer": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:sniffer",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "ender_dragon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:ender_dragon",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:challenges/professional_assassin"
+  }
+}

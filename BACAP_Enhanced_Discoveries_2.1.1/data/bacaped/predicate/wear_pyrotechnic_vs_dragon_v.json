@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "items": "minecraft:piglin_head"
+      },
+      "chest": {
+        "items": "minecraft:elytra"
+      },
+      "feet": {
+        "items": "minecraft:golden_boots"
+      }
+    }
+  }
+}
