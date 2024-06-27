@@ -1,3 +1,0 @@
-execute as @a[scores={bacaped_changed_dim=1},advancements={bacaped:technical/from_nether_to_over=true},predicate=bacaped:is_in_end] run advancement grant @s only bacaped:end/interdimensional_travel
-execute as @a[scores={bacaped_changed_dim=1}] run advancement revoke @s only bacaped:technical/from_nether_to_over
-execute as @a[scores={bacaped_changed_dim=1}] run scoreboard players reset @s bacaped_changed_dim
