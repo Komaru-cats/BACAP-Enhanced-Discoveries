@@ -1,22 +1,23 @@
 # BACAP-Enhanced-Discoveries
-### "Enhanced discoveries" is an add-on for [BACAP](https://modrinth.com/datapack/blazeandcaves-advancements-pack) with new advancements.
+**"Enhanced discoveries" is an add-on for [BACAP](https://modrinth.com/datapack/blazeandcaves-advancements-pack) with new advancements.**
 
 # Features
-## Over 150 new Advancements
+**Over 230 new Advancements**
   
 | Tasks | Goals | Challenges | Super Challenges | Hidden Advancements |
 |:-----:|:-----:|:----------:|:----------------:|:-------------------:|
-|   10  |   39  |     58     |        26        |          29         |
+|   19  |   63  |     78     |        35        |          37         |
 
-### [List with all advancements](https://komaru-cats.github.io/BACAP-Enhanced-Discoveries/)
+**[List with all advancements](https://komaru-cats.github.io/BACAP-Enhanced-Discoveries/)**
 
 ### Examples
 <div align="center">
   
-<img src="https://github.com/Komaru-cats/BACAP-Enhanced-Discoveries/assets/93844414/9b80d758-9b57-4395-8432-2f30ad74ea83" alt="Advancement Examples" width="60%" height="60%">
+<img src="https://cdn.modrinth.com/data/Qx9yFN48/images/26683e75217d147c41bfded25625b939f61a7083.png" alt="Advancement Examples" width="60%" height="60%">
 </div>
 
 ## Lag-Friendly
+**BACAPED 1.x; Tested on Fabric 1.20.4 without any mods except Spark Profiler**
 <div align="center">
   
 ![Chart with lags](https://github.com/Komaru-cats/BACAP-Enhanced-Discoveries/assets/93844414/f8336126-3ab0-4628-9f0e-bd5f946c14d5)
@@ -24,21 +25,21 @@
 
 ## Languages Support 
 
+**[Language Pack Page](https://modrinth.com/project/bacaped-language-pack)**
+
 Enhanced Discoveries currently supports only English and Russian, but you can help us fix this by translating it into your native language
 
-[Create Pull Request](https://github.com/Komaru-cats/BACAP-Enhanced-Discoveries/pulls)
-
-[File with example of translation](https://github.com/Komaru-cats/BACAP-Enhanced-Discoveries/blob/main/Enhanced-Discoveries%20Language%20Pack/assets/minecraft/lang/base_translation.json)
+**More information about translation can be found on BACAPED Language Pack Page**
 
 ## Compatibility
 
 **BACAP Hardcore - Not planned** ❌
 
-**Other BACAP Addons - Not tested** ⚠️
+**Other BACAP Addons - Not tested** 🔔
 
 ## How to Install?
 
-**The downloaded datapack should be a zipped file named "BACAP Enhanced Discoveries" and then followed by its version number.**
+**The downloaded datapack should be a zipped file named "BACAP_Enhanced_Discoveries" and then followed by its version number.**
 
 ### Installation instructions are as follows:
 
@@ -68,3 +69,5 @@ Not all advancements were completely invented by us, some were taken from these 
 - [Bacap Torture Edition](https://www.planetminecraft.com/data-pack/bacap-torture-edition/?ysclid=lqt5bs9pwk88210964)
 - [Enhanced Advancements](https://www.planetminecraft.com/data-pack/enhanced-advancements/)
 - [Blaze And Caves Advancements Pack Discord Server](https://discord.gg/blaze-and-cave-419383460600348673)
+- @insertanicknamehere (Discord)
+- [Melwin's Mad Pack](https://www.planetminecraft.com/data-pack/melwin-s-mad-pack-1-20-6/)
