@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:water_bucket"
+    },
+    "title": {
+      "translate": "Hydrodynamic"
+    },
+    "description": {
+      "translate": "Attempt to escape an angry Polar Bear by jumping in water, only to realize they're very fast swimmers",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/were_going_on_a_bear_hunt",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "location": {
+            "fluid": {
+              "fluids": "#minecraft:water"
+            }
+          }
+        },
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:polar_bear",
+            "location": {
+              "fluid": {
+                "fluids": "#minecraft:water"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:biomes/hydrodynamic"
+  }
+}
