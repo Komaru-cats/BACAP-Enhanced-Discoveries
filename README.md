@@ -34,7 +34,7 @@ Enhanced Discoveries currently supports only English and Russian, but you can he
 ## Compatibility
 
 ### BACAP Hardcore
-- Install latest [Hardcore Version](https://github.com/Komaru-cats/BACAP-Enhanced-Discoveries/releases/tag/2.1.1%2Bhc)
+- Install latest [Hardcore Version](https://github.com/Komaru-cats/BACAP-Enhanced-Discoveries/releases/tag/2.1.1%2Bhc) (Thanks for rewerze) 
 - Add it as an ordinary datapack **WITH** normal version of BACAPED
 - Write /function bacaped:bacaped_hc_install
 
