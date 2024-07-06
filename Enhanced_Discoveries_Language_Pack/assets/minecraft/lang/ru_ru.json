@@ -136,6 +136,8 @@
 
 "Skill Issue": "Проблемы с Навыками",
 "Die of a Llama": "Умрите от Ламы",
+# Hardcore
+"Get hurt by a Llama": "Получите урон от ламы",
 
 "SnifferSniffEvent": "Событие НюхачНюхает",
 "Introduce a Sniffer to a Warden so they can have a sniff-off": "Представьте Нюхачу Хранителя, чтобы устроить соревнование на обнаружение запахов",
@@ -169,6 +171,8 @@
 
 "Beezlebooster": "Пчёлобустер",
 "Die by a Bee over that is 350 blocks above the world height": "Умрите от пчелы находясь на болеем чем 350 блоков выше уровня мира",
+# Hardcore
+"Get hurt by a Bee over that is 350 blocks above the world height": "Будьте ужалены пчелой находясь на более чем 350 блоков выше уровня мира",
 
 "Crab Should Win": "Краб Должен Был Победить",
 "Kill 100 Armadillos": "Убейте 100 Броненосцев",
@@ -474,6 +478,8 @@
 
 "Get out of my sky": "Исчезни с Глаз Моих",
 "Get killed by a Phantom while you are 320 blocks above the world": "Умрите от Фантома, находясь на высоте 320 блоков над миром",
+# Hardcore
+"Get hurt by a Phantom while you are 320 blocks above the world": "Получите урон от Фантома, находясь на высоте 320 блоков над миром",
 
 "High Explosives": "Взрывоопасно",
 "Stand on a barrel filled with gunpowder": "Стойте на бочке, которая заполнена порохом",
@@ -483,6 +489,8 @@
 
 "Not That Impossible": "Не так уж Невозможно",
 "Be killed by husk while riding a camel": "Будьте убиты Кадавром пока сидите на Верблюде",
+# Hardcore
+"Get damaged by husk while riding a camel": "Получите урон от Кадавра пока сидите на Верблюде",
 
 "More Impossible": "Более Невозможно",
 "Kill the Wither with an arrow": "Убейте Визера стрелой",
@@ -728,6 +736,8 @@
 
 "Unlucky": "Невезунчик",
 "Die twice within 5 seconds": "Умрите дважды за 5 секунд",
+# Hardcore
+"Get damage twice within 5 seconds": "Получите урон дважды за 5 секунд",
 
 "Explosive Fisherman": "Взрывной Рыбак",
 "Catch TNT on a fishing rod": "Поймайте Динамит удочкой",
