@@ -64,7 +64,7 @@ Once the datapack is installed, go into the world. A message should pop up sayin
 
 ## Bugs or Imporovements
 
-If you have any questions, bugs, suggestions you can [create an issue on github](https://github.com/Komaru-cats/Vanilla_Fireflies/issues) or [join our discord server](https://discord.gg/j9VKsyXPhz)
+If you have any questions, bugs, suggestions you can [create an issue on github](https://github.com/Komaru-cats/BACAP-Enhanced-Discoveries/issues) or [join our discord server](https://discord.gg/j9VKsyXPhz)
 
 # Credits
 
