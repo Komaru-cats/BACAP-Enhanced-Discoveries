@@ -38,7 +38,7 @@ Enhanced Discoveries currently supports only English and Russian, but you can he
 - Add it as an ordinary datapack **WITH** normal version of BACAPED
 - Write /function bacaped:bacaped_hc_install
 
-**Other BACAP Addons - Not tested** 🔔
+For other addons you don't need any compatibility datapacks.
 
 ## How to Install?
 
@@ -64,7 +64,7 @@ Once the datapack is installed, go into the world. A message should pop up sayin
 
 ## Bugs or Imporovements
 
-If you find any bugs, typos or other inaccuracies, write an [Issue](https://github.com/Komaru-cats/BACAP-Enhanced-Discoveries/issues)
+If you have any questions, bugs, suggestions you can [create an issue on github](https://github.com/Komaru-cats/Vanilla_Fireflies/issues) or [join our discord server](https://discord.gg/j9VKsyXPhz)
 
 # Credits
 
