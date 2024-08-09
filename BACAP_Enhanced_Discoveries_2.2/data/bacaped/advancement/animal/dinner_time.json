@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bone"
+    },
+    "title": {
+      "translate": "Dinner Time"
+    },
+    "description": {
+      "translate": "Look at the Wolf that is hunting the Skeleton using Spyglass"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:husbandry/tame_an_animal",
+  "criteria": {
+    "angry_wolf": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type": "minecraft:wolf",
+              "targeted_entity": {
+                "type": "minecraft:skeleton"
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:spyglass"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:animal/dinner_time"
+  }
+}

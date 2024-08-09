@@ -1,0 +1,2 @@
+execute store result score @s bacaped_ravager_count run execute if entity @e[type=ravager,distance=..32]
+execute if score @s bacaped_ravager_count matches 20.. run advancement grant @s only bacaped:monsters/i_uh_forgot_a_composter

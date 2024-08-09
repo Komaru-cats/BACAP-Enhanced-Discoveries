@@ -1,0 +1,179 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:suspicious_stew",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Delicious"
+    },
+    "description": {
+      "translate": "Feed a Brown Mooshroom with all possible flowers from which you can craft a suspicious stew",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/im_gonna_be_sick",
+  "criteria": {
+    "azure_bluet": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:azure_bluet"
+        },
+        "entity": {
+          "type": "minecraft:mooshroom"
+        }
+      }
+    },
+    "allium": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:allium"
+        },
+        "entity": {
+          "type": "minecraft:mooshroom"
+        }
+      }
+    },
+    "blue_orchid": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:blue_orchid"
+        },
+        "entity": {
+          "type": "minecraft:mooshroom"
+        }
+      }
+    },
+    "dandelion": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:dandelion"
+        },
+        "entity": {
+          "type": "minecraft:mooshroom"
+        }
+      }
+    },
+    "lily_of_the_valley": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lily_of_the_valley"
+        },
+        "entity": {
+          "type": "minecraft:mooshroom"
+        }
+      }
+    },
+    "cornflower": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:cornflower"
+        },
+        "entity": {
+          "type": "minecraft:mooshroom"
+        }
+      }
+    },
+    "red_tulip": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:red_tulip"
+        },
+        "entity": {
+          "type": "minecraft:mooshroom"
+        }
+      }
+    },
+    "orange_tulip": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:orange_tulip"
+        },
+        "entity": {
+          "type": "minecraft:mooshroom"
+        }
+      }
+    },
+    "white_tulip": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:white_tulip"
+        },
+        "entity": {
+          "type": "minecraft:mooshroom"
+        }
+      }
+    },
+    "pink_tulip": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:pink_tulip"
+        },
+        "entity": {
+          "type": "minecraft:mooshroom"
+        }
+      }
+    },
+    "poppy": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poppy"
+        },
+        "entity": {
+          "type": "minecraft:mooshroom"
+        }
+      }
+    },
+    "torchflower": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:torchflower"
+        },
+        "entity": {
+          "type": "minecraft:mooshroom"
+        }
+      }
+    },
+    "wither_rose": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:wither_rose"
+        },
+        "entity": {
+          "type": "minecraft:mooshroom"
+        }
+      }
+    },
+    "oxeye_daisy": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:oxeye_daisy"
+        },
+        "entity": {
+          "type": "minecraft:mooshroom"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:farming/delicious"
+  }
+}

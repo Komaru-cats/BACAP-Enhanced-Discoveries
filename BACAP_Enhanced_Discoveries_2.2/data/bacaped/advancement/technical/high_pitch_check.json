@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "ghast_killed_with_fireball": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "bacaped:nether/high_pitch": false
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:ghast"
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "type": "minecraft:fireball"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped:high_pitch/ghast_killed"
+  }
+}

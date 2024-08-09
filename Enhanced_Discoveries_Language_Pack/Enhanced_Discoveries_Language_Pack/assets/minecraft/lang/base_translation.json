@@ -1,0 +1,17 @@
+{
+# BlazeandCave's Enhanced Discoveries Language File
+ 
+# How to use: Name and descriptions of advancement to left of : and put translation to right of :, inside the speech marks "" like this: "Advancement Description"
+# Some advancement titles make use of puns that would work in English but probably not in other languages. Be creative if you wish if you can find any puns in foreign languages.
+
+# This file will be updated with new advancements with each new update.
+# Currently the text that appears with reward functions are not translatable - support for translating the reward functions messages will come in a later update.
+
+# Language: Your Language
+# Author: Names
+
+# adventure 
+
+"This is an example string, there should be a string in English from the datapack files": "There should be a translation, and also, there must be a comma after it, if it is not the last line!"
+
+}

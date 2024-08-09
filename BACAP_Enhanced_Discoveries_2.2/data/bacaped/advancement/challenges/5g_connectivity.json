@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tipped_arrow",
+      "components": {
+        "minecraft:potion_contents": "minecraft:water"
+      }
+    },
+    "title": {
+      "translate": "5G Connectivity"
+    },
+    "description": {
+      "translate": "Kill 5 Glow Squids with a single piercing arrow shot",
+      "color": "#FF2A2A"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/endergeddon",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:killed_by_crossbow",
+      "conditions": {
+        "victims": [
+          {
+            "type": "minecraft:glow_squid"
+          },
+          {
+            "type": "minecraft:glow_squid"
+          },
+          {
+            "type": "minecraft:glow_squid"
+          },
+          {
+            "type": "minecraft:glow_squid"
+          },
+          {
+            "type": "minecraft:glow_squid"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:challenges/5g_connectivity"
+  }
+}
