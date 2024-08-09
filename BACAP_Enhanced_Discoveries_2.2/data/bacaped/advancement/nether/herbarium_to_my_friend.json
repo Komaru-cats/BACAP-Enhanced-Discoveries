@@ -1,0 +1,288 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lily_of_the_valley"
+    },
+    "title": {
+      "translate": "Herbarium to My Friend"
+    },
+    "description": {
+      "translate": "Give the baby Piglin all kinds of flowers",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:nether/distract_piglin",
+  "criteria": {
+    "allium": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin",
+          "flags": {
+            "is_baby": true
+          }
+        },
+        "item": {
+          "items": "minecraft:allium"
+        }
+      }
+    },
+    "azure_bluet": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin",
+          "flags": {
+            "is_baby": true
+          }
+        },
+        "item": {
+          "items": "minecraft:azure_bluet"
+        }
+      }
+    },
+    "blue_orchid": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin",
+          "flags": {
+            "is_baby": true
+          }
+        },
+        "item": {
+          "items": "minecraft:blue_orchid"
+        }
+      }
+    },
+    "cornflower": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin",
+          "flags": {
+            "is_baby": true
+          }
+        },
+        "item": {
+          "items": "minecraft:cornflower"
+        }
+      }
+    },
+    "dandelion": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin",
+          "flags": {
+            "is_baby": true
+          }
+        },
+        "item": {
+          "items": "minecraft:dandelion"
+        }
+      }
+    },
+    "lily_of_the_valley": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin",
+          "flags": {
+            "is_baby": true
+          }
+        },
+        "item": {
+          "items": "minecraft:lily_of_the_valley"
+        }
+      }
+    },
+    "oxeye_daisy": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin",
+          "flags": {
+            "is_baby": true
+          }
+        },
+        "item": {
+          "items": "minecraft:oxeye_daisy"
+        }
+      }
+    },
+    "poppy": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin",
+          "flags": {
+            "is_baby": true
+          }
+        },
+        "item": {
+          "items": "minecraft:poppy"
+        }
+      }
+    },
+    "torchflower": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin",
+          "flags": {
+            "is_baby": true
+          }
+        },
+        "item": {
+          "items": "minecraft:torchflower"
+        }
+      }
+    },
+    "orange_tulip": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin",
+          "flags": {
+            "is_baby": true
+          }
+        },
+        "item": {
+          "items": "minecraft:orange_tulip"
+        }
+      }
+    },
+    "pink_tulip": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin",
+          "flags": {
+            "is_baby": true
+          }
+        },
+        "item": {
+          "items": "minecraft:pink_tulip"
+        }
+      }
+    },
+    "red_tulip": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin",
+          "flags": {
+            "is_baby": true
+          }
+        },
+        "item": {
+          "items": "minecraft:red_tulip"
+        }
+      }
+    },
+    "white_tulip": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin",
+          "flags": {
+            "is_baby": true
+          }
+        },
+        "item": {
+          "items": "minecraft:white_tulip"
+        }
+      }
+    },
+    "wither_rose": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin",
+          "flags": {
+            "is_baby": true
+          }
+        },
+        "item": {
+          "items": "minecraft:wither_rose"
+        }
+      }
+    },
+    "lilac": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin",
+          "flags": {
+            "is_baby": true
+          }
+        },
+        "item": {
+          "items": "minecraft:lilac"
+        }
+      }
+    },
+    "peony": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin",
+          "flags": {
+            "is_baby": true
+          }
+        },
+        "item": {
+          "items": "minecraft:peony"
+        }
+      }
+    },
+    "pitcher_plant": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin",
+          "flags": {
+            "is_baby": true
+          }
+        },
+        "item": {
+          "items": "minecraft:pitcher_plant"
+        }
+      }
+    },
+    "rose_bush": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin",
+          "flags": {
+            "is_baby": true
+          }
+        },
+        "item": {
+          "items": "minecraft:pitcher_plant"
+        }
+      }
+    },
+    "sunflower": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin",
+          "flags": {
+            "is_baby": true
+          }
+        },
+        "item": {
+          "items": "minecraft:pitcher_plant"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:nether/herbarium_to_my_friend"
+  }
+}

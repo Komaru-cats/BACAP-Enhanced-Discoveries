@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sand",
+      "components": {
+        "minecraft:enchantment_glint_override": false
+      }
+    },
+    "title": {
+      "translate": "Camel Adventure"
+    },
+    "description": {
+      "translate": "Travel to desert temple, Village's house and Pillager outpost in desert without getting up from the Camel"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:animal/desert_warrior",
+  "criteria": {
+    "desert_pyramid": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:desert_pyramid"
+          },
+          "vehicle": {
+            "type": "minecraft:camel"
+          }
+        }
+      }
+    },
+    "village_desert": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:village_desert"
+          },
+          "vehicle": {
+            "type": "minecraft:camel"
+          }
+        }
+      }
+    },
+    "pillager_outpost": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:desert",
+            "structures": "pillager_outpost"
+          },
+          "vehicle": {
+            "type": "minecraft:camel"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:animal/camel_adventure"
+  }
+}

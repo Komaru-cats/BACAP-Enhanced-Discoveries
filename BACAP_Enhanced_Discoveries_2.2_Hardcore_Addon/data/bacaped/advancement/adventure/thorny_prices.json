@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "Thorny Prices"
+    },
+    "description": {
+      "translate": "Get damage from a Villager wearing armor with the Thorns enchantment",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/murderer",
+  "criteria": {
+    "villager": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:villager"
+          },
+          "type": {
+            "tags": [
+              {
+                "id": "bacaped:is_thorns",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:adventure/thorny_prices"
+  }
+}

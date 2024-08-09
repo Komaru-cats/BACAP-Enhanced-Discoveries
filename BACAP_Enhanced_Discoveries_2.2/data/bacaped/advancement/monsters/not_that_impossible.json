@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            -209009852,
+            -1073328197,
+            -1274708150,
+            -1803867034
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTAzMDdmNDkzZmRkYTc2ODU4ZTVkYWE1MTFlM2ZkYjRiN2VkMjQxZjdkM2E3YTIyNjU2ZWQ1YzZiYWNiZjUyIn19fQ=="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "Not That Impossible"
+    },
+    "description": {
+      "translate": "Be killed by Husk while riding a Camel",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "blazeandcave:monsters/desert_nomad",
+  "criteria": {
+    "be_killed_by_husk_on_camel": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:player",
+              "vehicle": {
+                "type": "minecraft:camel"
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:husk"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:monsters/not_that_impossible"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            -1066144363,
+            -1464710923,
+            -1556982291,
+            -178053398
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWM2ZDVhYmJmNjhjY2IyMzg2YmYxNmFmMjVhYzM4ZDhiNzdiYjBlMDQzMTUyNDYxYmQ5N2YzZjYzMGRiYjhiYyJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "One in a Million Steed"
+    },
+    "description": {
+      "translate": "Ride a Horse that has more than 25 health points, moves faster than 13 blocks per second and jumps more than 4 blocks",
+      "color": "#FF2A2A"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:challenges/circus_act",
+  "criteria": {
+    "sit_on_good_horse": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:challenges/one_in_a_million_steed"
+  }
+}

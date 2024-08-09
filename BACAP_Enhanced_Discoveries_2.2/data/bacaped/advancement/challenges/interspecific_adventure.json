@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_pearl"
+    },
+    "title": {
+      "translate": "Interspecific Adventure"
+    },
+    "description": {
+      "translate": "Bring a Silverfish and an Endermite from the main End island to the End city and look at them through a spyglass",
+      "color": "#FF2A2A"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "blazeandcave:challenges/explorer_of_worlds",
+  "criteria": {
+    "silverfish": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type": "minecraft:silverfish",
+              "nbt": "{Tags:[\"bacaped_interspecific_adventure\"]}"
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:spyglass"
+        }
+      }
+    },
+    "endermite": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type": "minecraft:endermite",
+              "nbt": "{Tags:[\"bacaped_interspecific_adventure\"]}"
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:spyglass"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:challenges/interspecific_adventure"
+  }
+}
