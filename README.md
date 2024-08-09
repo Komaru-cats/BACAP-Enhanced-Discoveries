@@ -68,6 +68,7 @@ If you have any questions, bugs, suggestions you can [create an issue on github]
 
 # Credits
 - Initial Hardcore Addon - @rewerze
+
 Not all advancements were completely invented by us, some were taken from these places:
 - [Bacap Torture Edition](https://www.planetminecraft.com/data-pack/bacap-torture-edition/?ysclid=lqt5bs9pwk88210964)
 - [Enhanced Advancements](https://www.planetminecraft.com/data-pack/enhanced-advancements/)
