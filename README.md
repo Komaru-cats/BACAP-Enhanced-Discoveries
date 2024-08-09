@@ -67,10 +67,11 @@ Once the datapack is installed, go into the world. A message should pop up sayin
 If you have any questions, bugs, suggestions you can [create an issue on github](https://github.com/Komaru-cats/BACAP-Enhanced-Discoveries/issues) or [join our discord server](https://discord.gg/j9VKsyXPhz)
 
 # Credits
-
+- Initial Hardcore Addon - @rewerze
 Not all advancements were completely invented by us, some were taken from these places:
 - [Bacap Torture Edition](https://www.planetminecraft.com/data-pack/bacap-torture-edition/?ysclid=lqt5bs9pwk88210964)
 - [Enhanced Advancements](https://www.planetminecraft.com/data-pack/enhanced-advancements/)
 - [Blaze And Caves Advancements Pack Discord Server](https://discord.gg/blaze-and-cave-419383460600348673)
-- @insertanicknamehere (Discord)
 - [Melwin's Mad Pack](https://www.planetminecraft.com/data-pack/melwin-s-mad-pack-1-20-6/)
+- @insertanicknamehere (Discord)
+- @TomGo (Discord)
