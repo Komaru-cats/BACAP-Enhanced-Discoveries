@@ -34,7 +34,7 @@ Enhanced Discoveries currently supports only English and Russian, but you can he
 ## Compatibility
 
 ### Hardcore
-[BACAPED Hardcore Addon](https://modrinth.com/project/bacap-enhanced-discoveries-hardcore-addon/versions) is required
+[BACAPED Hardcore Addon](https://modrinth.com/project/bacap-enhanced-discoveries-hardcore-addon) is required
 
 ### Any other *official* addons are suppored out of the box
 
