@@ -2,7 +2,7 @@
 **"Enhanced discoveries" is an add-on for [BACAP](https://modrinth.com/datapack/blazeandcaves-advancements-pack) with new advancements.**
 
 # Features
-**Over 230 new Advancements**
+**Over 280 new Advancements**
   
 | Tasks | Goals | Challenges | Super Challenges | Hidden Advancements |
 |:-----:|:-----:|:----------:|:----------------:|:-------------------:|
