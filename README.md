@@ -6,7 +6,7 @@
   
 | Tasks | Goals | Challenges | Super Challenges | Hidden Advancements |
 |:-----:|:-----:|:----------:|:----------------:|:-------------------:|
-|   19  |   63  |     78     |        35        |          37         |
+|   25  |   79  |     102     |        44        |          38         |
 
 **[List with all advancements](https://komaru-cats.github.io/BACAP-Enhanced-Discoveries/)**
 
