@@ -8,7 +8,7 @@
 |:-----:|:-----:|:----------:|:----------------:|:-------------------:|
 |   25  |   79  |     102     |        44        |          38         |
 
-**[List with all advancements as of 2.1.1](https://komaru-cats.github.io/BACAP-Enhanced-Discoveries/)**
+**[List with all advancements](https://komaru-cats.github.io/BACAP-Enhanced-Discoveries/)**
 
 ### Examples
 <div align="center">
