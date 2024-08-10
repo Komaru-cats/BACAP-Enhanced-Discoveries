@@ -32,22 +32,29 @@ fetch('data.json')
 
 document.addEventListener('DOMContentLoaded', function () {
     // Проверка и применение сохранённой темы при загрузке страницы
-    const savedTheme = localStorage.getItem('theme');
+    let savedTheme = localStorage.getItem('theme');
     if (savedTheme === 'light') {
         document.body.classList.add('light_theme');
+        document.body.classList.remove('dark_theme');
     } else {
         document.body.classList.remove('light_theme');
+        document.body.classList.add('dark_theme');
     }
 
     // Добавление обработчика для переключения темы
     document.getElementById('theme-toggle').addEventListener('click', function () {
-        document.body.classList.toggle('light_theme');
+        // Переключение темы
+        if (document.body.classList.contains('light_theme')) {
+            document.body.classList.remove('light_theme');
+            document.body.classList.add('dark_theme');
+            savedTheme = 'dark';
+        } else {
+            document.body.classList.remove('dark_theme');
+            document.body.classList.add('light_theme');
+            savedTheme = 'light';
+        }
 
         // Сохранение состояния темы в localStorage
-        if (document.body.classList.contains('light_theme')) {
-            localStorage.setItem('theme', 'light');
-        } else {
-            localStorage.setItem('theme', 'dark');
-        }
+        localStorage.setItem('theme', savedTheme);
     });
 });

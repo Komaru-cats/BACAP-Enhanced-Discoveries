@@ -24,6 +24,14 @@ body.light_theme {
     --th-background: #bdbdbd;
 }
 
+body.dark_theme {
+    --background-color: #16181c;
+    --text-color: #ecf9fb;
+    --accent-color: #4a4a4f;
+    --button_color: #f0f0f0;
+    --th-background: #121316;
+}
+
 /* Убираю все отступы */
 body, main, h1 {
     margin: 0;
