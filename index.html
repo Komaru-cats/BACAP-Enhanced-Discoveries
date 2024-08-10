@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta charset="UTF-8">
@@ -10,136 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link rel="icon" href="assets/pack.ico?v=3" type="image/x-icon">
-    <style>
-        /* Убираю все отступы */
-        body, main, h1 {
-            margin: 0;
-            font-family: Nunito, ui-rounded;
-            padding: 0;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        /* Стили для блока main */
-        main {
-            background-color: #26292f;
-            min-height: 100vh;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 0 0;
-            border-top: none; /* Убирает верхнюю границу у всей таблицы */
-        }
-
-        th, td {
-            border: 1px solid #a1a1a1;
-            background-color: transparent;
-        }
-
-        table tr:first-child th,
-        table tr:first-child td {
-            border-top: none; /* Убирает верхнюю границу у первой строки таблицы */
-        }
-
-        th, td {
-            padding: 10px;
-            text-align: left;
-        }
-
-        tbody {
-            color: #ecf9fb;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        th, td {
-            padding: 10px;
-            text-align: left;
-            border: 1px solid #a1a1a1;
-        }
-
-        /* Удаляем левую границу у самого левого столбца */
-        th:first-child, td:first-child {
-            border-left: none;
-        }
-
-        /* Удаляем правую границу у самого правого столбца */
-        th:last-child, td:last-child {
-            border-right: none;
-        }
-
-        th {
-            background-color: #16181c;
-            color: white;
-            position: sticky;
-            top: 0; /* Закрепляет заголовок вверху страницы */
-            z-index: 1;
-        }
-
-        tr {
-            transition: background-color 0.3s; /* Переход при уводе курсора */
-        }
-
-        tr:hover {
-            transition: background-color 0.2s; /* Переход при наведении */
-            background-color: #4a4a4f;
-        }
-
-        /* Фиксированные ширины столбцов в процентах */
-        th:nth-child(1), td:nth-child(1) {
-            width: 19%;
-        }
-
-        th:nth-child(2), td:nth-child(2) {
-            width: 38%;
-        }
-
-        th:nth-child(3), td:nth-child(3) {
-            width: 2%;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            vertical-align: middle;
-        }
-
-        th:nth-child(4), td:nth-child(4) {
-            width: 7%;
-        }
-
-        th:nth-child(5), td:nth-child(5) {
-            width: 6%;
-        }
-
-        th:nth-child(6), td:nth-child(6) {
-            width: 10%;
-        }
-
-        th:nth-child(7), td:nth-child(7) {
-            width: 10%;
-        }
-
-        th:nth-child(8), td:nth-child(8) {
-            width: 3%;
-        }
-
-        /* Стиль для цветного квадрата */
-        .color-square {
-            width: 20px;
-            height: 20px;
-            display: inline-block;
-            border: none;
-            border-radius: 5px; /* Закругленные углы */;
-            margin: 0;
-            padding: 0;
-        }
-    </style>
+    <link href="styles.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 <main>
@@ -161,6 +32,11 @@
         </tbody>
     </table>
 </main>
+<footer>
+    <button>
+        <img src="assets/theme.svg"  alt="Theme" id="theme-toggle" width="50" height="50">
+    </button>
+</footer>
 <script src="script.js"></script>
 </body>
 </html>

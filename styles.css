@@ -1,0 +1,177 @@
+:root {
+    --background-color: #16181c;
+    --text-color: #ecf9fb;
+    --accent-color: #4a4a4f;
+    --button_color: #f0f0f0;
+    --th-background: #121316;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --background-color: #ececec;
+        --text-color: #16181c;
+        --accent-color: #d0d0d0;
+        --button_color: #d5d5d5;
+        --th-background: #bdbdbd;
+    }
+}
+
+body.light_theme {
+    --background-color: #ececec;
+    --text-color: #16181c;
+    --accent-color: #d0d0d0;
+    --button_color: #d5d5d5;
+    --th-background: #bdbdbd;
+}
+
+/* Убираю все отступы */
+body, main, h1 {
+    margin: 0;
+    font-family: Nunito, ui-rounded;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Стили для блока main */
+main {
+    background-color: var(--background-color);
+    min-height: 100vh;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 0;
+    border-top: none; /* Убирает верхнюю границу у всей таблицы */
+}
+
+th, td {
+    border: 1px solid #a1a1a1;
+    background-color: transparent;
+}
+
+table tr:first-child th,
+table tr:first-child td {
+    border-top: none; /* Убирает верхнюю границу у первой строки таблицы */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+tbody {
+    color: var(--text-color);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #a1a1a1;
+}
+
+/* Удаляем левую границу у самого левого столбца */
+th:first-child, td:first-child {
+    border-left: none;
+}
+
+/* Удаляем правую границу у самого правого столбца */
+th:last-child, td:last-child {
+    border-right: none;
+}
+
+th {
+    background-color: var(--th-background);
+    color: var(--text-color);
+    position: sticky;
+    top: 0; /* Закрепляет заголовок вверху страницы */
+    z-index: 1;
+}
+
+tr {
+    transition: background-color 0.3s; /* Переход при уводе курсора */
+}
+
+tr:hover {
+    transition: background-color 0.2s; /* Переход при наведении */
+    background-color: var(--accent-color);
+}
+
+footer {
+    position: relative;
+}
+
+footer button {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    /* При желании можно добавить отступы или стили, например: */
+    border: none;
+    background-color: var(--button_color);
+    cursor: pointer;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+    /* Другие стили по желанию */
+}
+
+/* Фиксированные ширины столбцов в процентах */
+th:nth-child(1), td:nth-child(1) {
+    width: 19%;
+}
+
+th:nth-child(2), td:nth-child(2) {
+    width: 38%;
+}
+
+th:nth-child(3), td:nth-child(3) {
+    width: 2%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th:nth-child(4), td:nth-child(4) {
+    width: 7%;
+}
+
+th:nth-child(5), td:nth-child(5) {
+    width: 6%;
+}
+
+th:nth-child(6), td:nth-child(6) {
+    width: 10%;
+}
+
+th:nth-child(7), td:nth-child(7) {
+    width: 10%;
+}
+
+th:nth-child(8), td:nth-child(8) {
+    width: 3%;
+}
+
+/* Стиль для цветного квадрата */
+.color-square {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: none;
+    border-radius: 5px; /* Закругленные углы */;
+    margin: 0;
+    padding: 0;
+}
