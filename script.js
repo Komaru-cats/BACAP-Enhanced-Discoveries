@@ -3,35 +3,54 @@ fetch('data.json')
     .then(response => response.json())
     .then(data => {
         const tableBody = document.querySelector('#data-table tbody');
-        data.forEach(item => {
-            const row = document.createElement('tr');
+        const searchInput = document.querySelector('#search-input');
 
-            // Создаем ячейки для каждого элемента JSON объекта
-            Object.keys(item).forEach(key => {
-                const cell = document.createElement('td');
+        function renderTable(filteredData) {
+            tableBody.innerHTML = '';
+            filteredData.forEach(item => {
+                const row = document.createElement('tr');
 
-                if (key === 'color') {
-                    // Если ключ равен "color", создаем квадрат с соответствующим цветом
-                    const colorSquare = document.createElement('div');
-                    colorSquare.className = 'color-square';
-                    colorSquare.style.backgroundColor = item[key];
-                    cell.appendChild(colorSquare);
-                } else {
-                    cell.textContent = item[key];
-                }
+                Object.keys(item).forEach(key => {
+                    const cell = document.createElement('td');
 
-                row.appendChild(cell);
+                    if (key === 'color') {
+                        const colorSquare = document.createElement('div');
+                        colorSquare.className = 'color-square';
+                        colorSquare.style.backgroundColor = item[key];
+                        cell.appendChild(colorSquare);
+                    } else {
+                        cell.textContent = item[key];
+                    }
+
+                    row.appendChild(cell);
+                });
+
+                tableBody.appendChild(row);
             });
+        }
 
-            tableBody.appendChild(row);
+        function filterData(query) {
+            return data.filter(item => {
+                const titleMatch = item.title.toLowerCase().includes(query.toLowerCase());
+                const descriptionMatch = item.description.toLowerCase().includes(query.toLowerCase());
+                const trophyMatch = item.trophy.toLowerCase().includes(query.toLowerCase());
+                return titleMatch || descriptionMatch || trophyMatch;
+            });
+        }
+
+        searchInput.addEventListener('input', (event) => {
+            const query = event.target.value;
+            const filteredData = filterData(query);
+            renderTable(filteredData);
         });
+
+        renderTable(data);
     })
     .catch(error => {
-        console.error('Ошибка загрузки или обработки JSON:', error);
+        console.error('Error:', error);
     });
 
 document.addEventListener('DOMContentLoaded', function () {
-    // Проверка и применение сохранённой темы при загрузке страницы
     let savedTheme = localStorage.getItem('theme');
     if (savedTheme === 'light') {
         document.body.classList.add('light_theme');
@@ -41,9 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.body.classList.add('dark_theme');
     }
 
-    // Добавление обработчика для переключения темы
     document.getElementById('theme-toggle').addEventListener('click', function () {
-        // Переключение темы
         if (document.body.classList.contains('light_theme')) {
             document.body.classList.remove('light_theme');
             document.body.classList.add('dark_theme');
@@ -54,7 +71,6 @@ document.addEventListener('DOMContentLoaded', function () {
             savedTheme = 'light';
         }
 
-        // Сохранение состояния темы в localStorage
         localStorage.setItem('theme', savedTheme);
     });
 });
