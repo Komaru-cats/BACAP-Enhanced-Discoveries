@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lingering_potion",
+      "components": {
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:potion_contents": {
+          "potion": "minecraft:turtle_master"
+        }
+      }
+    },
+    "title": {
+      "translate": "Cowabunga It Is"
+    },
+    "description": {
+      "translate": "kill a Turtle that is under the effect of a turtle master potion",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "blazeandcave:potion/tank",
+  "criteria": {
+    "kill_a_turtle": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:turtle",
+          "effects": {
+            "minecraft:slowness": {
+              "amplifier": {
+                "min": 3
+              }
+            },
+            "minecraft:resistance": {
+              "amplifier": {
+                "min": 2
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:potion/cowabunga_it_is"
+  }
+}

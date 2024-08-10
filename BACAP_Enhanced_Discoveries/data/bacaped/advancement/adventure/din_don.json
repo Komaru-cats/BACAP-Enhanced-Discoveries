@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bell",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Din-Don"
+    },
+    "description": {
+      "translate": "Ring the bell 10,000 times"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:adventure/the_beginning_of_the_day",
+  "criteria": {
+    "din_don": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:bell_ring",
+                "value": {
+                  "min": 10000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:adventure/din_don"
+  }
+}

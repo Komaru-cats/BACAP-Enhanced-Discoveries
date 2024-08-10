@@ -1,0 +1,423 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_deepslate",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Deepslate Master"
+    },
+    "description": {
+      "translate": "Mine 16 blocks of all forms of deepslate"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:mining/reinforced_miner",
+  "criteria": {
+    "break_reinforced_deepslate": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:reinforced_deepslate",
+                "value": {
+                  "min": 16
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "break_deepslate": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:deepslate",
+                "value": {
+                  "min": 16
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "break_cobbled_deepslate": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:cobbled_deepslate",
+                "value": {
+                  "min": 16
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "break_cobbled_deepslate_wall": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:cobbled_deepslate_wall",
+                "value": {
+                  "min": 16
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "break_chiseled_deepslate": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:chiseled_deepslate",
+                "value": {
+                  "min": 16
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "break_cobbled_deepslate_stairs": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:cobbled_deepslate_stairs",
+                "value": {
+                  "min": 16
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "break_cobbled_deepslate_slab": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:cobbled_deepslate_slab",
+                "value": {
+                  "min": 16
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "break_polished_deepslate": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:polished_deepslate",
+                "value": {
+                  "min": 16
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "break_polished_deepslate_stairs": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:polished_deepslate_stairs",
+                "value": {
+                  "min": 16
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "break_polished_deepslate_slab": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:polished_deepslate_slab",
+                "value": {
+                  "min": 16
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "break_polished_deepslate_wall": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:polished_deepslate_wall",
+                "value": {
+                  "min": 16
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "break_deepslate_bricks": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:deepslate_bricks",
+                "value": {
+                  "min": 16
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "break_cracked_deepslate_bricks": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:cracked_deepslate_bricks",
+                "value": {
+                  "min": 16
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "break_deepslate_brick_stairs": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:deepslate_brick_stairs",
+                "value": {
+                  "min": 16
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "break_deepslate_brick_slab": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:deepslate_brick_slab",
+                "value": {
+                  "min": 16
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "break_deepslate_brick_wall": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:deepslate_brick_wall",
+                "value": {
+                  "min": 16
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "break_deepslate_tiles": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:deepslate_tiles",
+                "value": {
+                  "min": 16
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "break_cracked_deepslate_tiles": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:cracked_deepslate_tiles",
+                "value": {
+                  "min": 16
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "break_deepslate_tile_stairs": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:deepslate_tile_stairs",
+                "value": {
+                  "min": 16
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "break_deepslate_tile_slab": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:deepslate_tile_slab",
+                "value": {
+                  "min": 16
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "break_deepslate_tile_wall": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:deepslate_tile_wall",
+                "value": {
+                  "min": 16
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:mining/deepslate_master"
+  }
+}

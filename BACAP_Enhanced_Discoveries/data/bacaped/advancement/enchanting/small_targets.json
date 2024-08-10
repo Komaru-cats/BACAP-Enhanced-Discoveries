@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:frogspawn",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Small Targets"
+    },
+    "description": {
+      "translate": "Kill a baby Turtle, a baby Chicken, a baby Rabbit, a baby Cat, a baby Axolotl with a single piercing arrow shot",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:enchanting/elementals",
+  "criteria": {
+    "small_targets": {
+      "trigger": "minecraft:killed_by_crossbow",
+      "conditions": {
+        "victims": [
+          {
+            "type": "minecraft:axolotl",
+            "flags": {
+              "is_baby": true
+            }
+          },
+          {
+            "type": "minecraft:turtle",
+            "flags": {
+              "is_baby": true
+            }
+          },
+          {
+            "type": "minecraft:chicken",
+            "flags": {
+              "is_baby": true
+            }
+          },
+          {
+            "type": "minecraft:rabbit",
+            "flags": {
+              "is_baby": true
+            }
+          },
+          {
+            "type": "minecraft:cat",
+            "flags": {
+              "is_baby": true
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:enchanting/small_targets"
+  }
+}

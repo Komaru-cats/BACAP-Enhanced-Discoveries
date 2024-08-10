@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blackstone"
+    },
+    "title": {
+      "translate": "Bastion Robber"
+    },
+    "description": {
+      "translate": "Loot all types of chests from the bastion",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:nether/loot_bastion",
+  "criteria": {
+    "bastion_bridge": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/bastion_bridge"
+      }
+    },
+    "bastion_hoglin_stable": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/bastion_hoglin_stable"
+      }
+    },
+    "bastion_other": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/bastion_other"
+      }
+    },
+    "bastion_treasure": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/bastion_treasure"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:nether/bastion_robber"
+  }
+}

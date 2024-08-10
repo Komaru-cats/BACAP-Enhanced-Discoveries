@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_vein"
+    },
+    "title": {
+      "translate": "Placeholder"
+    },
+    "description": {
+      "translate": "Name the Warden \"Placeholder\"",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/nerds_never_die",
+  "criteria": {
+    "placeholder": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "\"Placeholder\""
+          }
+        },
+        "entity": {
+          "type": "minecraft:warden"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:adventure/placeholder"
+  }
+}

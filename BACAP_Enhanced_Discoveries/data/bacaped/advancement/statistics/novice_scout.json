@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_horse_armor",
+      "components": {
+        "minecraft:dyed_color": {
+          "rgb": 16707753
+        }
+      }
+    },
+    "title": {
+      "translate": "Novice Scout"
+    },
+    "description": {
+      "translate": "Ride a Horse that moves faster than 9 blocks per second",
+      "color": "green"
+    },
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "blazeandcave:technical/you_are_a_big_cheater",
+  "criteria": {
+    "horse_9_bps": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:statistics/novice_scout"
+  }
+}

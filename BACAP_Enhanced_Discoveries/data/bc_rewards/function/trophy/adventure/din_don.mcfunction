@@ -1,0 +1,2 @@
+give @s minecraft:bell[enchantments={levels:{"minecraft:unbreaking":1},show_in_tooltip:0b},custom_name='{"italic":false,"bold":true,"color":"#fbfb80","translate":"Magic Bell"}',lore=['{"color": "#fbfb80", "translate": "Knock yourself on the head"}','{"text":" "}','{"color":"gray","translate":"Awarded for achieving"}','{"italic":false,"color":"dark_purple","translate":"Din-Don"}'],custom_model_data=131,hide_additional_tooltip={},custom_data={Trophy:1}] 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Magic Bell"}]}

@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:black_carpet"
+    },
+    "title": {
+      "translate": "Skill Issue"
+    },
+    "description": {
+      "translate": "Get hurt by a Llama",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/blistering_barnacles",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [],
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:llama"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:animal/skill_issue"
+  }
+}
