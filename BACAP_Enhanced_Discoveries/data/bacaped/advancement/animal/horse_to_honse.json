@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wheat"
+    },
+    "title": {
+      "translate": "Horse to Honse"
+    },
+    "description": {
+      "translate": "Get on a Horse, having previously fed it many times, to be sure that it will tame",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/cowboy",
+  "criteria": {
+    "sit_on_horse_with_temper_100": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "minecraft:horse",
+            "nbt": "{Temper:100}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:animal/horse_to_honse"
+  }
+}

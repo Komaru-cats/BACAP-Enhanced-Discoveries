@@ -1,0 +1,183 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Redstoner"
+    },
+    "description": {
+      "translate": "Fill you inventory with redstone"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/redstone_miner",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "slots": {
+            "inventory.0": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "inventory.1": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "inventory.2": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "inventory.3": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "inventory.4": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "inventory.5": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "inventory.6": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "inventory.7": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "inventory.8": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "inventory.9": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "inventory.10": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "inventory.11": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "inventory.12": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "inventory.13": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "inventory.14": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "inventory.15": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "inventory.16": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "inventory.17": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "inventory.18": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "inventory.19": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "inventory.20": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "inventory.21": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "inventory.22": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "inventory.23": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "inventory.24": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "inventory.25": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "inventory.26": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "hotbar.0": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "hotbar.1": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "hotbar.2": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "hotbar.3": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "hotbar.4": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "hotbar.5": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "hotbar.6": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "hotbar.7": {
+              "items": "minecraft:redstone",
+              "count": 64
+            },
+            "hotbar.8": {
+              "items": "minecraft:redstone",
+              "count": 64
+            }
+          },
+          "equipment": {
+            "offhand": {
+              "items": "minecraft:redstone",
+              "count": 64
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:mining/redstoner"
+  }
+}

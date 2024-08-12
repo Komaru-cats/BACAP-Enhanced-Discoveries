@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:piglin_head"
+    },
+    "title": {
+      "translate": "High Risk"
+    },
+    "description": {
+      "translate": "Eat the golden carrot and the golden apple while looking at the Piglin",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:farming/overpayment",
+  "criteria": {
+    "golden_carrot": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type": [
+                "minecraft:piglin",
+                "minecraft:piglin_brute"
+              ]
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:golden_carrot"
+        }
+      }
+    },
+    "golden_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type": [
+                "minecraft:piglin",
+                "minecraft:piglin_brute"
+              ]
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:golden_apple"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:farming/high_risk"
+  }
+}

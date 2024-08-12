@@ -1,0 +1,70 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            765048161,
+            692210011,
+            -1911537328,
+            -870783960
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGYwMTdkNmU2MGM4ZGM0ZTZiZWU5ZmM5NDNhNWRiMDA1MWZkN2Y4ZGNhMGM5Nzg1MjhhOTg4OTQ2NTE3MDllOSJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "One More Frog!"
+    },
+    "description": {
+      "translate": "Breed two Frogs with a Frog's head trophy on your head",
+      "color": "light_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:husbandry/leash_all_frog_variants",
+  "criteria": {
+    "breed": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": "minecraft:player_head",
+              "components": {
+                "minecraft:profile": {
+                  "id": [
+                    -278056039,
+                    -737522707,
+                    -1252972649,
+                    -611505375
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzE3ODE4OWVmOGZhN2E1YjcyNGZiOTFkZjlhNDQ3ODRmZDg1NjQ4ZWQzZTNhY2Y2ZDBkZWQ3YjhjYWEzMGYwNyJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "parent": {
+          "type": "minecraft:frog"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:animal/one_more_frog"
+  }
+}

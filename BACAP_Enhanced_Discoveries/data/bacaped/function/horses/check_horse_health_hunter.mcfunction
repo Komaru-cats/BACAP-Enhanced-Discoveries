@@ -1,0 +1,2 @@
+execute if score @s bacaped_horse_health matches 27.. run advancement grant @s only bacaped:animal/horse_health_hunter sit_on_healthy_horse
+execute if score @s bacaped_horse_health matches ..17 run advancement grant @s only bacaped:animal/horse_health_hunter sit_on_sick_horse

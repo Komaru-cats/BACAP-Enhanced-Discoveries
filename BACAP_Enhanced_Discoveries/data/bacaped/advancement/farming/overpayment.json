@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_nugget",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Overpayment"
+    },
+    "description": {
+      "translate": "Craft golden carrot from carrot and golden nuggets"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/24_carrot_gold",
+  "criteria": {
+    "golden_carrot": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_carrot",
+        "ingredients": [
+          {
+            "items": "minecraft:gold_nugget"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:farming/overpayment"
+  }
+}

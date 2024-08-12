@@ -1,0 +1,41 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "items": "minecraft:dragon_breath"
+      },
+      "offhand": {
+        "items": "minecraft:ender_pearl"
+      },
+      "head": {
+        "items": "minecraft:dragon_head"
+      },
+      "chest": {
+        "items": "minecraft:elytra"
+      },
+      "legs": {
+        "items": "minecraft:leather_leggings",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:netherite",
+            "pattern": "minecraft:eye"
+          }
+        }
+      },
+      "feet": {
+        "items": "minecraft:leather_boots",
+        "components": {
+          "minecraft:trim": {
+            "material": "minecraft:netherite",
+            "pattern": "minecraft:eye"
+          }
+        }
+      }
+    },
+    "effects": {
+      "minecraft:slow_falling": {}
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:campfire"
+    },
+    "title": {
+      "translate": "The Inquisition"
+    },
+    "description": {
+      "translate": "Make the Witch burn itself at the campfire while it runs away from your sword",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/taste_of_your_own_medicine",
+  "criteria": {
+    "kill_campfire": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "witch"
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "bacaped:is_campfire",
+              "expected": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:monsters/the_inquisition"
+  }
+}

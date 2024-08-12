@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_horse_armor",
+      "components": {
+        "minecraft:dyed_color": {
+          "rgb": 16495988
+        }
+      }
+    },
+    "title": {
+      "translate": "Swift Herder"
+    },
+    "description": {
+      "translate": "Ride a Horse that moves faster than 11 blocks per second",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bacaped:statistics/novice_scout",
+  "criteria": {
+    "horse_11_bps": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:statistics/swift_herder"
+  }
+}

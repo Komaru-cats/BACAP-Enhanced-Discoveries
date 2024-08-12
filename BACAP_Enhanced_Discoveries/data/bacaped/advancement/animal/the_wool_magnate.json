@@ -1,0 +1,177 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pink_wool",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "The Wool Magnate"
+    },
+    "description": {
+      "translate": "Fill your inventory with pink wool"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:animal/more_colorful_wool",
+  "criteria": {
+    "wool": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "slots": {
+            "inventory.0": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "inventory.1": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "inventory.2": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "inventory.3": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "inventory.4": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "inventory.5": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "inventory.6": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "inventory.7": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "inventory.8": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "inventory.9": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "inventory.10": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "inventory.11": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "inventory.12": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "inventory.13": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "inventory.14": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "inventory.15": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "inventory.16": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "inventory.17": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "inventory.18": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "inventory.19": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "inventory.20": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "inventory.21": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "inventory.22": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "inventory.23": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "inventory.24": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "inventory.25": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "inventory.26": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "hotbar.0": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "hotbar.1": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "hotbar.2": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "hotbar.3": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "hotbar.4": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "hotbar.5": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "hotbar.6": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "hotbar.7": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            },
+            "hotbar.8": {
+              "items": "minecraft:pink_wool",
+              "count": 64
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:animal/the_wool_magnate"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:goat_horn",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "You're Bald"
+    },
+    "description": {
+      "translate": "Look at the Goat without both horns by using a spyglass",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/screaming_milk",
+  "criteria": {
+    "look_on_a_goat_without_horns": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type": "minecraft:goat",
+              "nbt": "{HasLeftHorn:0b, HasRightHorn:0b}"
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:spyglass"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:animal/youre_bald"
+  }
+}
