@@ -1,1 +1,0 @@
-execute at @s if entity @e[type=minecraft:ender_dragon,distance=..128] if entity @e[type=minecraft:shulker,distance=..128] if entity @e[type=minecraft:endermite,distance=..128] if entity @e[type=minecraft:enderman,distance=..128] run advancement grant @s only bacaped:challenges/mob_universe end

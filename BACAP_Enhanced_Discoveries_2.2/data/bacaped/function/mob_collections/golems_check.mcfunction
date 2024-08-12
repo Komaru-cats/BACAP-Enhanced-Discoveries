@@ -1,1 +1,0 @@
-execute if entity @e[type=minecraft:iron_golem,distance=..16] if entity @e[type=minecraft:snow_golem,distance=..16] run advancement grant @s only bacaped:farming/golems

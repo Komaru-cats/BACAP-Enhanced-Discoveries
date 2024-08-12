@@ -1,2 +1,0 @@
-give @s minecraft:ominous_bottle[minecraft:enchantment_glint_override=1b,custom_name='{"italic":false,"bold":true,"color":"#CBAE09","translate":"Ominous Bottle"}',lore=['{"color": "#CBAE09", "translate": "An incredibly concentrated curse"}','{"text":" "}','{"color":"gray","translate":"Awarded for achieving"}','{"italic":false,"color":"light_purple","translate":"Ominous Ocean"}'],custom_model_data=131,hide_additional_tooltip={},custom_data={Trophy:1}] 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Ominous Bottle"}]}

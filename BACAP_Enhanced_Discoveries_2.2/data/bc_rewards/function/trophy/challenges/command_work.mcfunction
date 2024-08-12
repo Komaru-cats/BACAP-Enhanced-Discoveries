@@ -1,2 +1,0 @@
-give @s minecraft:dragon_head[minecraft:enchantment_glint_override=1b,custom_name='{"italic":false,"bold":true,"color":"#6D1888","translate":"The Exploded Dragon\'s Head"}',lore=['{"color": "#6D1888", "translate": "Was slightly damaged during the killing"}','{"text":" "}','{"color":"gray","translate":"Awarded for achieving"}','{"italic":false,"color":"#FF2A2A","translate":"Command Work"}'],custom_model_data=131,hide_additional_tooltip={},custom_data={Trophy:1}] 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"The Exploded Dragon\'s Head"}]}

@@ -1,2 +1,0 @@
-give @s minecraft:golden_sword[enchantments={"minecraft:punch":10},custom_name='{"italic":false,"bold":true,"color":"#FFD9B1","translate":"Broken"}',lore=['{"color":"#FFD9B1","translate":"Try to reload"}','{"text":" "}','{"color":"gray","translate":"Awarded for achieving"}','{"italic":false,"color":"#FF2A2A","translate":"Professional Assassin"}'],custom_model_data=131,hide_additional_tooltip={},custom_data={Trophy:1}] 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Broken"}]}
