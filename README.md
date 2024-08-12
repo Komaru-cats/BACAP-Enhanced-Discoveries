@@ -20,7 +20,7 @@
 **BACAPED 1.x; Tested on Fabric 1.20.4 without any mods except Spark Profiler**
 <div align="center">
   
-![Chart with lags](https://github.com/Komaru-cats/BACAP-Enhanced-Discoveries/blob/main/chart.webp)
+![Chart with lags](https://github.com/Komaru-cats/BACAP-Enhanced-Discoveries/blob/main/chart.png)
 </div>
 
 ## Languages Support 
