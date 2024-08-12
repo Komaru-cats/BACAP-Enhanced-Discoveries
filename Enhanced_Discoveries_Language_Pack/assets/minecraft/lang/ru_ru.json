@@ -1,7 +1,7 @@
 {
-# BlazeandCave's Enhanced Discoveries Language File
- 
-# How to use: Name and descriptions of advancement to left of : and put translation to right of :, inside the speech marks "" like this: "Advancement Description"
+  # BlazeandCave's Enhanced Discoveries Language File
+
+# How to use: Name and descriptions of advancement to left of: and put translation to right of:, inside the speech marks "" like this: "Advancement Description"
 # Some advancement titles make use of puns that would work in English but probably not in other languages. Be creative if you wish if you can find any puns in foreign languages.
 
 # This file will be updated with new advancements with each new update.
@@ -10,751 +10,644 @@
 # Language: Russian
 # Author: ItzSkyReed
 
-# adventure 
+# adventure
 
 "Advancement Info": "Advancement Info",
 "This mod can be useful for completing your advancements": "Этот мод может быть полезен при выполнение своих достижений",
 
 "Din-Don": "Дин-Дон",
 "Ring the bell 10,000 times": "Позвоните в колокол 10,000 раз",
-
 "Emerald Armor?": "Изумрудная Броня?",
 "Wear a full set of lime leather armor with any emerald trims": "Наденьте полный сет лаймовой кожаной брони с любыми изумрудными шаблонами",
-
 "Eye Contact Master": "Мастер Зрительного Контакта",
 "Look at an Enderman very closely using a Spyglass": "Посмотрите на эндермена в подзорную трубу с очень близкого расстояния",
-
 "Fake Netherite Armor": "Поддельная Незеритовая броня",
 "Wear a full set of black leather armor with any netherite trims of the same type": "Наденьте полный сет чёрной кожаной брони с любыми незеритовыми шаблонами одного типа",
-
 "General Cleaning": "Генеральная Уборка",
 "Clean up each type of structure and spawner in the dungeon": "Проведите уборку в каждом типе структуры и спаунере в подземелье",
 
 "I Hate All of You": "Я Ненавижу Вас Всех",
 "Kill 100 Villagers": "Убейте 100 Жителей",
-
 "Jurassic Park": "Парк Юрского Периода",
 "Get 64 torchflowers and 64 pitcher plants": "Соберите 64 факельника и 64 кувшинницы",
-
-"Komaru \u2665" : "Комару \u2665",
-"Name the cat \"Komaru\"": "Назовите Кота \"Komaru\"",
-
+"Komaru \u2665": "Комару \u2665",
+"Name the Cat \"Komaru\"": "Назовите Кота \"Komaru\"",
 "Midnight Snack": "Полуночный Перекус",
 "Wake up a Villager to buy cookies late at night": "Разбудите Жителя поздно ночью, чтобы купить печеньки",
-
 "My Personal Slave": "Мой Личный Раб",
 "Have an Allay drop all swords, trident, bow, crossbow and mace": "Заставьте Эллея кинуть вам все мечи, трезубец, лук, арбалет и булаву",
 
 "No-Water Team": "Команда без Воды",
 "Place 1000 sponges": "Поставьте 1000 губок",
-
 "Not Profitable Transportation": "Нерентабельная перевозка",
 "Buy any type of terracota from a Villager in any badlands biome": "Купите любой тип терракоты у Жителя находясь в месе",
-
 "Oh, you again?": "О, Снова Ты?",
 "Open the door to a Wandering Trader": "Откройте дверь Странствующему торговцу",
-
 "On Site Sale": "Распродажа на Месте",
 "Buy bricks from a Villager in the river biome": "Купите кирпичи у Жителя находясь в реке",
-
 "Placeholder": "Заполнитель",
 "Name the Warden \"Placeholder\"": "Назовите Хранителя \"Placeholder\"",
 
 "Real Netherite Armor": "Настоящая Незеритовая Броня",
 "Wear a full set of netherite armor with any netherite trims": "Наденьте полный сет незеритовой брони с любыми незеритовыми шаблонами",
-
 "Restoring Population": "Восстановление численности",
-"Obtain 64 sniffer eggs": "Получите 64 яйца нюхача",
-
+"Obtain 64 Sniffer eggs": "Получите 64 яйца нюхача",
 "Sandpicious": "Педозрительно",
 "Get a stack of suspicious sand": "Заполучите стак подозрительного песка",
-
 "Silent Armor": "Бесшумная Броня",
 "Wear a full set of armor with silence trims": "Наденьте полный сет брони с шаблонами \"Тишина\"",
-
 "Supply Chain": "Цепочка Поставок",
 "Buy dripstone blocks from a Villager in dripstone caves": "Купите натёчный камень у Жителя в карстовых пещерах",
 
 "Sus Miner": "Недоверчивый Шахтёр",
 "Break 1 suspicious sand or gravel (break without brush)": "Сломайте 1 блок подозрительного песка или гравия (без использования кисточки)",
-
 "Suspicious Miner": "Подозрительный Шахтёр",
 "Break 64 suspicious sand or gravel (break without brush)": "Сломайте 64 блока подозрительного песка или гравия (без использования кисточки)",
-
 "The Beginning of the Day": "Начало Дня",
 "Ring the bell at 6:00 on top of the world": "Позвоните в колокол в 6:00 на вершине мира",
-
 "Uncontrolled Reproduction": "Бесконтрольное Размножение",
 "Have an Allay drop an amethyst shard at a note block": "Заставьте Эллея кинуть аметист на нотный блок",
-
 "Water Team": "Водная Команда",
 "Use a bucket of water 4000 times": "Используйте ведро воды 4000 раз",
 
 "Water-Dependent": "Зависимый от Воды",
 "Water the flower in the pot while standing on it": "Полейте цветок в горшке, стоя на нём",
-
 "Do You See This?": "Ты видишь это?",
-"Equip a villager with a full set of netherite armor": "Оденьте Жителя в полный незеритовый сет",
-
+"Equip a Villager with a full set of netherite armor": "Оденьте Жителя в полный незеритовый сет",
 "The Cult of the Spyglass": "Культ Подзорной Трубы",
 "Look at the spyglass through the spyglass": "Посмотрите на подзорную трубу через подзорную трубу",
-
 "The Hardest And Unfairest One Yet": "Сложнейшая и Самая Несправедливая",
 "Open the bonus chest": "Откройте бонусный сундук",
-
 "Copper Armor": "Медная Броня",
-"Wear a full set of orange leather armor with bolt trims with copper material":"Наденьте полный сет оранжевой коженной брони с отделкой Ось и медным материалом",
+"Wear a full set of orange leather armor with bolt trims with copper material": "Наденьте полный сет оранжевой коженной брони с отделкой Ось и медным материалом",
 
 "Nobody Needs Rockets!": "Никому не Нужны Ракеты!",
 "Use Wind Charge to launch yourself upward at least 50 blocks": "Используйте Заряд Ветра чтобы запустить себя вверх как минимум на 50 блоков",
-
 "On the Wings of the Wind": "На Крыльях Ветра",
 "Use Wind Charge to launch yourself upward at least 150 blocks": "Используйте Заряд Ветра чтобы запустить себя вверх как минимум на 150 блоков",
-
 "Wandering Caravane": "Странствующий Караван",
 "Leash a Boat with a Wandering Trader and Trader Llama inside": "Возьмите на поводок Лодку со Странсвующим Торговцем и Ламой Торговца",
-
 "Ominous Ocean": "Зловещий Океан",
 "Collect 64 ominous bottles of each level": "Соберите 64 бутылки Зловещего проклятия каждого уровня",
-
+"Real Immortal": "Реальный Бессмертный",
+"Kill an Allay that is under the effect of Strong Turtle Master Potion": "Убейте Эллея с сильным эффектом зелья Черепашьей Мощи",
+"Save me!": "Спаси Меня!",
+"Repair the Iron Golem during the battle with the Warden": "Почините Железного Голема во время его сражения с Варедном",
+"Thorny Prices": "Колкие Цены",
+"Die from a Villager wearing armor with the Thorns enchantment": "Умрите от Жителя, уколовшись об шипы на его броне",
+# Hardcore
+"Get damage from a Villager wearing armor with the Thorns enchantment": "Получите урон от Жителя, уколовшись об шипы на его броне",
+"Warden's Thrust": "Удар Хранителя",
+"Soar with Elytra from a Warden's sonic boom attack": "Подлетите на элитрах от звуковой атаки Хранителя",
 # animal
 
 "A Ewe for Every Hue": "По Овце на Каждый Оттенок",
 "Have every color of a Sheep on a lead": "Держите на поводке Овец всех цветов",
-
 "Hot!": "Как в Сауне!",
 "Swim on a Pig in the lava": "Поплавайте на Свинье в лаве",
-
 "I Love Salmons": "Я люблю Лососей",
-"Fill your inventory with salmons": "Заполните свой инвентарь лососем",
-
+"Fill your inventory with raw salmon": "Заполните свой инвентарь лососем",
 "Live Salmon": "Живой Лосось",
-"Catch a live salmon with a fishing rod": "Поймайте живого лосося с помощью удочки",
-
+"Catch a live Salmon with a fishing rod": "Поймайте живого Лосося с помощью удочки",
 "More Colorful Wool!": "Больше Разноцветной Шерсти!",
 "Place a stack of wool of every color": "Поставьте стак шерсти каждого вида",
-
 "Skill Issue": "Проблемы с Навыками",
 "Die of a Llama": "Умрите от Ламы",
 # Hardcore
 "Get hurt by a Llama": "Получите урон от ламы",
-
 "SnifferSniffEvent": "Событие НюхачНюхает",
 "Introduce a Sniffer to a Warden so they can have a sniff-off": "Представьте Нюхачу Хранителя, чтобы устроить соревнование на обнаружение запахов",
-
 "The Invisible Turtle": "Невидимая Черепаха",
 "Look at the baby Turtle in the snow using a Spyglass": "Посмотрите на детёныша Черепахи в снегу через подзорную трубу",
-
 "The Wool Magnate": "Шерстяной Магнат",
 "Fill your inventory with pink wool": "Заполните свой инвентарь розовой шерстью",
-
 "You're Part of a Hive Mind Now": "Теперь Ты Часть Коллективного Разума",
-"Fill your inventory with beehives, each with three bees": "Заполните свой инвентарь улеями, где в каждом улее по три пчелы",
-
+"Fill your inventory with beehives, each with three Bees": "Заполните свой инвентарь улеями, где в каждом улее по три Пчелы",
 "Turtle Bowl": "Черепашья Тарелка",
-"Kill the turtle with lightning to get a bowl": "Убейте Черпаху молнией чтобы получить тарелку",
-
+"Kill the Turtle with lightning to get a bowl": "Убейте Черпаху молнией чтобы получить тарелку",
 "Camel Adventure": "Приключение на Верблюде",
-"Travel to desert temple, village's house and pillager outpost in desert without getting up from the camel": "Посетите Пустынный храм, дом жителя, аванпост в пустыне не вставая с Верблюда",
-
+"Travel to desert temple, Village's house and Pillager outpost in desert without getting up from the Camel": "Посетите Пустынный храм, дом Жителя, аванпост в пустыне не вставая с Верблюда",
 "The Sugar Cane Diet": "Тростниковая Диета",
 "Craft sugar from honey": "Скрафтите сахар из мёда",
-
 "That's a New Style": "Это Новый Стиль",
 "Wear a light blue leather tunic named \"Diamond Chestplate\"": "Наденьте светло-синий кожаный нагрудник с названием \"Diamond Chestplate\"",
-
 "What about Mooblooms?": "Что на счет Цветочных Коров?",
 "Kill a Glow Squid in a flower forest while holding a dandelion": "Убейте Светящегося спрута в цветочном лесу, держа одуванчик",
-
 "Buff Axolotl": "Усиленный Аксолотль",
 "Give your pet Axolotl resistance, regeneration and strength effects and win a fight": "Дайте своему питомцу Аксолотлю сопротивление урону, регенерацию и силу и убейте противника",
-
 "Beezlebooster": "Пчёлобустер",
-"Die by a Bee over that is 350 blocks above the world height": "Умрите от пчелы находясь на болеем чем 350 блоков выше уровня мира",
+"Die from a Bee that is 350 blocks above the world height": "Умрите от Пчелы находясь на болеем чем 350 блоков выше уровня мира",
 # Hardcore
 "Get hurt by a Bee over that is 350 blocks above the world height": "Будьте ужалены пчелой находясь на более чем 350 блоков выше уровня мира",
-
 "Crab Should Win": "Краб Должен Был Победить",
 "Kill 100 Armadillos": "Убейте 100 Броненосцев",
-
 "Cheers!": "Добрый День",
 "Use shears on all possible mobs and blocks": "Используйте ножницы на всех возможных блоках и мобах",
-
+"Horse to Honse": "Из Лошади в Лошадя",
+"Get on a Horse, having previously fed it many times, to be sure that it will tame": "Оседлайте лошадь, предварительно покормив её достаточное колличество раз, чтобы быть уверенным, что она приручится",
+"You're Bald": "Ты Лысый!",
+"Look at the Goat without both horns by using a spyglass": "Посмотрите на Козла без рогов используя подзорную трубу",
+"Desert Warrior": "Пустынный Воин",
+"Sit on the Camel with shield and sword wearing leather armor": "Оседлайте верблюда с щитом и мечом в кожаных доспехах",
+"Poisoned Ball": "Отравленный Шарик",
+"Get poisoned by the thorns of a Pufferfish": "Отравитесь шипами Иглобрюха",
+"Accept Cookies": "Принять Куки",
+"Feed the Parrot a cookie and see what happens next": "Накормите Попугая печенькой и посмотрите что будет дальше",
+"Driven to Death": "Доведённый до Смерти",
+"Make the Rabbit die from falling while trying to escape from you": "Заставьте Кролика умереть от падения в попытке убежать от вас",
+"Scared Box": "Испуганная Коробка",
+"Look at the scared Armadillo using a spyglass": "Посмотрите на испуганного Броненосца, используя подзорную трубу",
+"Horse Health Hunter": "Охотник за Конским Здоровьем",
+"Ride a Horse with less than 18 health and a Horse with more than 26 health": "Оседлайте Лошадь с менее чем 18 еденицами здоровья и Лошадь с более чем 26 еденицами здоровья",
+"What a Mess This Horse is!": "Что это за Испорченная Лошадь!",
+"Ride a Horse that has less than 20 health points, moves slower than 9 blocks per second and and jumps lower than 3 blocks": "Оседлайте Лошадь у которой менее 20 едениц здоровья, скорость передвижения ниже 9 блоков в секунду и сила прыжка меньше 3 блоков в высоту",
+"One More Frog!": "Еще Одна Лягушка",
+"Breed two Frogs with a Frog's head trophy on your head": "Расплодите двух лягушек, надев трофей-голову лягушки",
+"Dinner Time": "Время Ужинать",
+"Look at the Wolf that is hunting the Skeleton using Spyglass": "Посмотрите на Волка который охотится за Скелетом, используя подзорную трубу",
+"Ok I Pull Up": "Хорошо, Я Подъезжаю",
+"Name the Axolotl \"Capybara\"": "Назовите Аксолотля \"Capybara\"",
+"What are You Doing in My Swamp": "Что Вы Делаете на Моем Болоте",
+"Arrange a meeting of all your pets with all variants of Frogs in the swamp (have them all within 16 blocks of you)": "Устройте встречу всех ваших питомцев со всеми видами Лягушек на болоте (пусть все они будут в пределах 16 блоков от вас)",
+"What's the best transport?": "Какой Транспорт Самый Лучший?",
+"Be near all types of transport": "Будьте рядом со всеми видами транспорта",
+"Baby Zoo": "Детский Зоопарк",
+"Bring one of every type of baby animal to one place (have them all within 32 blocks of you)": "Соберите всех детёнышей животных в одном месте (пусть все они будут в предах 32 блоков от вас",
+"Air Balloon": "Воздушный Шар",
+"Leash the Bee while you have the levitation effect": "Возьмите пчелу на поводок, пока на вас есть эффект левитации",
+#bacap
+"Enhanced Legend": "Enhanced Legend",
+"Complete every single advancement in Enhanced Discoveries": "Выполните каждое достижение в Enhanced Discoveries",
 # biomes
 
 "Good Dreams!": "Сладких Снов!",
 "Sleep in each type of surface biome in the Overworld": "Поспите в каждом типе биома верхнего мира",
-
 "Ice Sculptor": "Ледяной Скульптор",
 "Place 1000 blocks of blue ice": "Поставьте 1000 блоков синего льда",
-
 "My Mountains": "Мои Горы",
 "Drink milk at the top of the mountain while looking at the Goat": "Выпейте молоко на вершине горы, смотря на Козу",
-
 "Stop there, you're tall enough": "Вы Достаточно Высокие",
 "Stop the growth of kelp, twisted vine and weeping vine": "Остановите рост ламинарии, вьющайся лозы и плакучей лозы",
-
 "The Boatman": "Лодочник",
 "Take a boat ride on the blue ice": "Прокатитесь на лодке по голубому льду",
-
 "The Infernal Cauldron": "Адский Котёл",
 "Spend a day in lava cauldron": "Проведите день в котле с лавой",
-
 "Underwater Pirates": "Подводные Пираты",
 "Travel on a sunken boat": "Попробуйте путешествовать на затонувшей лодке",
-
 "Ready For Everything": "Готов ко Всему",
 "Wear a turtle shell, a golden chestplate, netherite leggings and leather boots to be read for everything": "Наденьте Черепаший шлем, золотой нагрудник, незеритовые поножи и кожаные ботинки, чтобы быть готовым ко всему",
-
 "Hydrodynamic": "Гидродинамика",
 "Attempt to escape an angry Polar Bear by jumping in water, only to realize they're very fast swimmers": "Попытайтесь убежать от злого медведя, прыгнув в воду, и только тогда осознайте, что они очень быстрые пловцы",
-
 "Pandas Express": "Панда-Экспресс",
 "Leash a Boat with a two Pandas inside": "Возьмите на поводок Лодку с двумя Пандами внутри",
-
 "Icy Pirates": "Снежные Пираты",
 "Dig up a Buried Treasure in a Snowy Beach": "Найдите Закопанный Клад на Снежнем Пляже",
-
+"Unite Storm": "Буря Объеденения",
+"Be near a Polar Fox, a Snow Golem, a Stray, a Snow Wolf, a Snow Rabbit, a Polar Bear and a Goat in a snow biome during a snowfall (have them all within 16 blocks of you)": "Находитесь рядом с Полярной Лисой, Снеговиком, Зимогором, Снежным Волком, Снежным Зайцем, Полярным Медвем и Козлом в снежном биоме во время снегопада (пусть все они будут в пределах 16 блоков от вас)",
+"Treasure Compass": "Компас Сокровищ",
+"Open the treasure with the Dolphin's help": "Откройте клад, к которому вас привёл Дельфин",
 # building
 
 "Art lover": "Ценитель Искусства",
 "Place 1000 paintings": "Поставьте 1000 картин",
-
 "Pot on a Pot": "Горшок на Горшке",
 "Place a flower pot above decorated pot": "Разместите цветочный горшок на узорчатой вазе",
-
 "Potception": "Горшкорождённый",
 "Put a brown shulker box full of decorated pots inside a decorated pot": "Поместите коричневый шалкер полный узорчатых ваз внутрь узорчатой вазы",
-
 "Statue": "Статуя",
 "Stand on a block of chiseled quartz and look through a spyglass": "Стойте на блоке резного кварца, смотря в подзорную трубу",
-
 "Rainbow!": "Радуга!",
 "Place all kinds of colored glass directly above the beacon": "Поставьте стекло всех цветов прямо поверх маяка",
-
 "Stickman": "Стикман",
 "Craft 10,000 sticks": "Скрафтите 10,000 палок",
-
 "Artificial Forest": "Древний Лес",
 "Mine a full stack of all types of leaves, logs, stems, and saplings": "Добутьте стак всех видов листьев, блоков дерева, стеблей и саженцев",
-
 # challenges
-
+"One in a Million Steed": "Скакун Один на Миллион",
+"Ride a Horse that has more than 25 health points, moves faster than 13 blocks per second and jumps more than 4 blocks": "Оседлайте Лошадь у которой более 25 едениц здоровья, скорость передвижения больше 13 блоков в секунду и сила прыжка больше 4 блоков в высоту",
+"Mob Universe": "Вселенная Мобов",
+"Collect all the mobs from their dimension in each dimension (have them all within 128 blocks of you)": "Соберите всех мобов из их измерений в каждом измерении (пусть все они будут в пределах 128 блоков от вас)",
+"To view list of required mobs, run:\n": "Чтобы увидеть список требующихся мобов, напишите:\n",
+"Mob list for every dimension for Mob Universe Advancement": "Список мобов для каждого измерения для достижения \"Вселенная Мобов\"",
+"Overworld": "Верхний Мир",
+": Allay, Armadillo, Axolotl, Bat, Camel, Cat, Chicken, Cod, Cow, Donkey, Frog, Glow Squid, Horse, Mooshroom, Mule, Ocelot, Parrot, Pig, Pufferfish, Rabbit, Salmon, Sheep, Skeleton Horse, Sniffer, Snow Golem, Squid, Tadpole, Tropical Fish, Turtle, Villager, Wandering Trader, Bee, Cave Spider, Dolphin, Drowned, Fox, Goat, Iron Golem, Llama, Panda, Polar Bear, Spider, Trader Llama, Wolf, Bogged, Breeze, Creeper, Elder Guardian, Evoker, Guardian, Husk, Phantom, Pillager, Ravager, Silverfish, Skeleton, Slime, Stray, Vex, Vindicator, Warden, Witch, Zombie, Zombie Villager": ": Тихоня, Броненосец, Аксолотль, Летучая Мышь, Верблюд, Кошка, Курица, Треска, Корова, Осёл, Лягушка, Светящийся Спрут, Лошадь, Грибная Корова, Мул, Оцелот, Попугай, Свинья, Иглобрюх, Кролик, Лосось, Овца, Лошадь Скелет, Нюхач, Снеговик, Спрут, Головастик, Тропическая Рыба, Черепаха, Житель, Странствующий Торговец, Пчела, Пещерный Паук, Дельфин, Утопленник, Лиса, Козёл, Железный Голем, Лама, Панда, Полярный Медведь, Паук, Лама Торговца, Волк, Болотник, Всполох, Крипер, Древний Страж, Призыватель, Страж, Кадавр, Фантом, Разбойник, Разоритель, Чешуйница, Скелет, Слайм, Зимогор, Вредина, Поборник, Хранитель, Ведьма, Зомби, Зомби Житель",
+"Nether": "Нижний Мир",
+": Strider, Zombified Piglin, Blaze, Magma Cube, Piglin Brute, Wither Skeleton, Zoglin, Hoglin, Wither": ": Лавомерка, Зомбифицированный Пиглин, Всполох, Магма Куб, Брутальный Пиглин, Визер Скелет, Зоглин, Хоглин, Визер",
+"End": "Край",
+": Enderman, Endermite, Shulker, Ender Dragon": ": Странник Края, Эндермит, Шалкер, Эндер Дракон",
 "Five Birds, One Stone": "Пяти Птиц, Один Камень",
 "Kill 5 Vexes with a single piercing shot": "Убейте 5 Вредин одним выстрелом",
-
 "5G Connectivity": "5G Соединение",
-"Kill 5 Glow squids with a single piercing arrow shot": "Убейте 5 Светящихся спрутов выстрелом одной стрелы",
-
+"Kill 5 Glow Squids with a single piercing arrow shot": "Убейте 5 Светящихся Спрутов выстрелом одной стрелы",
 "Astronomer": "Астроном",
 "Look at the anvil that is 325 blocks above the world using a Spyglass": "Посмотри на наковальню, которая находится на высоте 325 блоков над миром через Подзорную трубу",
-
 "Big Horse Adventure": "Большое Конное Приключение",
 "Discover every biome in every dimension on a Horse": "Исследуйте каждый биом в каждом измерении на Лошади",
-
 "Celestial Protocol": "Небесный Протокол",
 "Reach an altitude of 100,000 blocks above the world": "Достигните высоты в 100,000 блоков над миром",
-
 "Dragon Vs Wither IV": "Дракон Против Иссушителя IV",
 "To the Underworld - Kill the Wither while in lava while wearing a dragon head and elytra": "В Подмирье - Убейте Иссушителя, находясь в лаве, надев драконью голову и элитры.",
-
 "End of the World as we Know it": "Конец Мира Каким Мы Его Знаем",
 "Reach the world border in all 3 dimensions": "Достигните границы мира во всех трёх измерениях",
-
 "Explosive Elixir": "Взрывной Эликсир",
 "Have every max possible level effect applied at the same time": "Получите все возможные эффекты максимального уровня одновременно",
-
 "Extincion": "Истребление",
 "Kill a strength 5 Llama, a black Rabbit, a brown Panda, a blue Axolotl and a jungle Nitwit with a single piercing arrow shot in the End": "Убейте Ламу с уровнем силы 5, черного Кролика, коричневого Панду, синего Аксолотля и безработного джунглиевого Жителя выстрелом одной стрелы в Краю",
-
 "Happy Anniversary": "С Юбилеем",
 "Kill 300 Withers during your life": "Убейте 300 Иссушителей в течение вашей жизни",
-
 "Happy Minecraft Year": "Счастливого Нового Года",
 "Launch firework on new year\u0027s day in minecraft!": "Запустите фейерверк в Новый год в вашем мире",
-
 "How Did You End Up Here": "Как Ты Тут Очутилась?",
 "Kill a Bat in the End below the height of the world": "Убейте Летучую мышь в Краю на высоте ниже уровня мира",
-
 "Magic Kingdom": "Волшебное Королевство",
 "Get all magical mobs together within 32 blocks of you: Enderman, Endermite, Shulker, Witch, Blaze, Allay, Vex, Warden, Guardian, Snow golem, Evoker, Breeze": "Соберите всех магических мобов в радиусе 32 блоков от вас: Эндермена, Эндермита, Шалкера, Ведьму, Всполоха, Тихоню, Вредину, Стража, Древнего стража, Снеговика, Заклинателя, Вихря",
-
 "Master Villager": "Маэстро Жителей",
 "Trade for everything from a Villager": "Выторгуйте все возможные предметы у Жителей",
-
 "Oh, My Broken Legs": "Ох, Мои Сломанные Ноги",
 "Survive a fall from 1000 blocks above the world without landing on any blocks that soften the fall, with an empty inventory, and without any effects": "Переживите падение с высоты 1000 блоков над миром, не приземлившись ни на какие блоки, смягчающие падение, с пустым инвентарем и без каких-либо эффектов",
-
 "Professional Assassin": "Профессиональный Убийца",
 "Kill 25 mobs of each type": "Убейте 25 мобов каждого вида",
 "The following mobs can be killed in a single instance:": "Данные мобы могут быть убиты в единственном экземпляре:",
- 
 "Raise The Stakes": "Поднять Ставки",
 "Fill your inventory with golden apples": "Заполните свой инвентарь золотыми яблоками",
-
 "Show the Nether to a Silverfish": "Явите Нижний Мир Чешуйнице",
 "Look at a Silverfish in a bastion, fortress and a ruined portal in the Nether using Spyglass": "Посмотрите на Чешуйницу в бастионе, крепости Нижнего мира и разрушенном портале через подзорную трубу",
-
 "So Bright": "Так Ярко",
 "Fill your inventory with diamonds": "Заполните свой инвентарь алмазами",
-
 "Star Fisherman": "Звёздный Рыбак",
 "Catch a nautilus shell while you are 261 blocks above the world in the End": "Поймайте раковину наутилуса, на высоте более 261 блока над миром в Краю",
-
 "The Apocalyptic Decalogy": "Апокалиптическая Десятка",
-"Have the Wither, Elder guardian, Warden, Ravager, Ghast, Charged creeper, Phantom, Evoker, Blaze and Ender dragon in one place (have them all within 48 blocks of you)": "Приведите Иссушителя, Древнего стража, Хранителя, Разорителя, Гаста, Заряженного крипера, Фантома, Заклинателя, Всполоха, Эндер дракона в одно место (пусть все они будут в пределах 48 блоков от вас)",
-
+"Have the Wither, Elder Guardian, Warden, Ravager, Ghast, Charged Creeper, Phantom, Evoker, Blaze and the Ender Dragon in one place (have them all within 48 blocks of you)": "Приведите Иссушителя, Древнего Cтража, Хранителя, Разорителя, Гаста, Заряженного Крипера, Фантома, Заклинателя, Всполоха, Эндер Дракона в одно место (пусть все они будут в пределах 48 блоков от вас)",
 "The King of the Redskins": "Король Краснокожих",
 "Fill you inventory with redstone blocks": "Заполните свой инвентарь блоками красного камня",
-
-"The world is actually ending 2": "Конец Света 2",
+"The World is Actually Ending 2": "Конец Света 2",
 "Summon 64 Withers at once": "Призовите 64 Иссушителя одновременно",
-
-"Void being": "Созданный в бездне",
+"Void Being": "Созданный в Бездне",
 "Be 1000 blocks under the world": "Будьте на глубине 1000 блоков под миром",
-
 "What a Stupid Purchase": "Что за Глупая Сделка",
-"Buy pointed dripstone from a Wandering trader in dripstone caves": "Купите капельник у Странствующего торговца в биоме карстовых пещер",
-
+"Buy pointed dripstone from a Wandering Trader in dripstone caves": "Купите капельник у Странствующего торговца в биоме карстовых пещер",
 "What are the chances": "Каковы Шансы",
 "Kill a Phantom that is 92 blocks above the world with a bow enchanted with Flame, Punch 1, Unbreaking 2, and Curse of Vanishing while inside the Mangrove Swamp biome": "Убейте Фантома на высоте 92 блока над уровнем мира с лука, который зачарован на воспламенение, откидывание 1, прочность 2 и проклятие утраты находясь в мангровом болоте",
-
 "Yes": "Да",
 "Stand on a chest filled with beacons": "Встаньте на сундук, который заполнен маяками",
-
 "Zero Coordinates Magnet": "Магнит с нулевыми координатами",
 "Kill the blue Axolotl at coordinates x: 0 z: 0 y: 0 in the End": "Убейте синего Аксолотля в точке с координатами x: 0 z: 0 y: 0 в Краю",
-
 "Big Pig Adventure": "Большое Свиноприключение",
 "Discover all the biomes and structures in the Nether without getting up from the pig": "Посетите все биомы и структуры Незера не вставая со свиньи",
-
 "Big End Adventure": "Большое Приключение Края",
 "Kill the Ender Dragon and discover all the biomes and structures in the End without getting up from the Strider": "Убейте Эндер Дракона и посетите все биомы и структуры Края не вставая с Лавамерки",
-
 "Piggish Poison Tango": "Ядовитое Танго со Свиньей",
 "Kill the Warden with an empty inventory with effects of poison, nausea and hunger sitting on a pig": "Убейте Хранителя с пустым инвентарем и эффектами отравления, тошноты, голода сидя на Свинье",
-
 "Pyrotechnic vs Dragon V": "Пиротехник против Дракона V",
 "Kill the Ender Dragon using a crossbow with fireworks while wearing a Piglin head, elytra, and golden boots without taking damage and touching the ground": "Убейте Дракона используя арбалет с феерверками надев голову пиглина, элитры и золотые ботинки без получения урона и касаний земли на протяжении всей битвы",
-
 "Dragon vs Warden VI": "Дракон против Хранителя VI",
 "Kill the Warden while holding Dragon's Breath in the main hand and Ender Pearl in the offhand wearing Dragon Head, Elytra and Black Leather Pants and Boots with Netherite Eye armor trim with Slow Falling effect applied from the moment of the summoning the Warden and without other players within a 64 block radius during all the fight": "Убейте Хранителя держа в основной руке дыхание дракона и эндер жемчуг в дополнительной, надев голову Дракона, Элитры, Черный Кожаные Штаны и Ботинки с незеритовой отделкой Око, с эффектом Плавного падения с момента призыва Хранителя и без других игроков в радиусе 64 блоков на протяжении всей битвы",
-
 "Pulse Detonation Engine": "Импульсно Детонационный Двигатель",
 "Launch yourself at least 1000 blocks up with TNT explosions": "Запустите себя вверх как минимум на 1000 блоков с помощью взрывов Динамита",
-
 "From the Underworld": "Из подземелья",
-"Buy Glowstone from a Wandering Trader in the Nether":"Купите Светокамень у Странсвующего торговца в Нижнем Мире",
-
+"Buy Glowstone from a Wandering Trader in the Nether": "Купите Светокамень у Странсвующего торговца в Нижнем Мире",
 "Sandwich": "Бутерброд",
 "Kill 5 Wardens with a single piercing arrow shot": "Убейте 5 Хранителей одним выстрелом пронзающей стрелы",
-
 "Jump for Joy": "Прыжки от Радости",
 "Kill every jumping mob while both you and it have the jump boost effect": "Убейте всех прыгающих мобов пока он и вы оба имеете эффект Прыгучести",
-
 "Monstrous Rocket": "Чудовищная Ракета",
 "Kill a Warden with an empty inventory while both you and it 500 blocks above the world": "Убейте Вардена с пустым инвентарем пока он и вы выше 500 блоков от уровня мира",
-
 "Command Work": "Командная Работа",
 "Kill the Ender Dragon with a Ghast's fireball without any items in your inventory and under nausea effect": "Убейте Эндер Дракона Огненным Шаром Гаста с пустым инвентарем и эффектом тошноты",
-
 "Airborne Annihilator": "Воздушный Уничтожитель",
-"Kill Ender Dragon, Bee, Blaze, Breeze, Vex, Phantom with Wind Charge": "Убейте Эндер Дракона, Пчелу, Блэйза, Вихря, Векса, Фантома с помощью Заряда Ветра",
-
+"Kill the Ender Dragon, Bee, Blaze, Breeze, Vex, Phantom with Wind Charge": "Убейте Эндер Дракона, Пчелу, Блэйза, Вихря, Векса, Фантома с помощью Заряда Ветра",
+"Red + Red = Brown": "Красный + Красный = Коричневый",
+"Get a Brown Mooshroom by breeding two Red Mooshrooms": "Выведите Коричневую Грибную Корову скрестив две красные Грибные Коровы",
+"My Little Pig": "Моя Маленькая Свинка",
+"Be 10,000 blocks above the world by sitting on a Pig": "Будьте выше 10,000 блоков над уровне мира сидя на Свинье",
+"Dead Carnaval": "Карнавал Мертвецов",
+"Kill all undead mobs with a single firework rocket": "Убейте всю нечисть одним феерверком",
+"The following mobs are not required:": "Следующие мобы не требуются:",
+"Circus Act": "Цирковое Представление",
+"Give the Enderman levitation, then name it \"Circus\" in the End, and finally, kill It in the Overworld using TNT": "Дайте Страннику Края левитацию, затем назовите его \"Circus\" в Крае, и затем убейте его в Верхнем Мире используя Динамит",
+"Interspecific Adventure": "Межвидовое Приключение",
+"Bring a Silverfish and an Endermite from the main End island to the End city and look at them through a spyglass": "Приведите Чешуйницу и Эндермита с центрального острова Края в Город Края и посмотрите на них, используя подзорную трубу",
+"Pooch Purge Pilot": "Пилот по Очистке Дворняжек",
+"Kill all types of Wolves in their biomes without getting off the Llama": "Убейте все типы Волков в их биомах не вставая с Ламы",
 # enchanting
 
 "All the Netherite Tools": "Все Незеритовые Инструменты",
 "Get perfect enchantments for all netherite tools and all paths": "Заполучите идеальные зачарования для всех незеритовых инструментов и их вариаций",
-
 "Master Shearer": "Мастер Ножниц",
 "Create a shears with all possible enchantments at max level": "Создайте идеальные ножницы со всеми возможными зачарованиями максимального уровня",
-
 "Master Shieldman": "Герой Щита",
 "Create a shield with all possible enchantments at max level": "Создайте идеальный щит со всеми возможными зачарованиями",
-
 "Master Sweeper": "Мастер Уборки",
 "Create a brush with all possible enchantments at max level": "Создайте идеальную кисточку со всеми возможными зачарованиями максимального уровня",
-
 "Oh, I Forgot about the Anvil": "Ох, Я Забыл о Наковальне",
 "Take Damage from the anvil": "Получите урон от наковальни",
-
 "Pyromaniac": "Пироманьяк",
 "Create a flint and steel with all possible enchantments at max level": "Создайте идеальную зажигалку со всеми возможными зачарованиями максимального уровня",
-
 "Useless": "Бесполезность",
 "Craft a book with two curses": "Создайте книгу с двумя проклятиями",
-
 "Elementals": "Элементали",
 "Kill Bogged, Stray, Husk and Drowned with a single piercing arrow shot": "Убейте Болотника, Зимогора, Кадавра и Утопленника одним выстрелом пронзающей стрелы",
-
+"Small Targets": "Маленькие Цели",
+"Kill a baby Turtle, a baby Chicken, a baby Rabbit, a baby Cat, a baby Axolotl with a single piercing arrow shot": "Убейте детенышей Черепахи, Курицы, Кролика, Кошки и Аксолотля выстрелом одной пронзающей стрелы",
 # end
 
 "Bee Colonist": "Пчелиный Колонизатор",
 "Place a filled bee nest in the End": "Разместите заполненное пчёлами гнездо в Краю",
-
 "Endergardener": "Садовник Края",
 "Plant 1000 chorus flowers": "Посадите 1000 цветков хоруса",
-
 "Last Hit": "Последний Удар",
 "Kill the Ender Dragon without any items in your inventory": "Убейте Эндер Дракона без каких-либо предметов в вашем инвентаре",
-
 "Universal Solitude": "Вселенское Одиночество",
-"Have 42 wardens in End with name \"Mason\"": "Находитесь в Краю вместе с 42 Хранителями с именем \"Mason\"",
-
+"Have 42 Wardens in the End with name \"Mason\"": "Находитесь в Краю вместе с 42 Хранителями с именем \"Mason\"",
 "Interdimensional Travel": "Многомерное Перемещение",
 "Get directly from the Nether to the End": "Окажитесь в Краю из Нижнего Мира",
-
+"Intergalactic Journey": "Межгалактическое Приключение",
+"Sail through all dimensions in one boat without getting out": "Проплывите на одной лодке через все измерения на вставая с неё",
 # farming
 
 "Apple Addiction": "Яблочная Зависимость",
 "Fill your inventory with apples": "Заполните свой инвентарь яблоками",
-
 "Christmas Spirit": "Новогоднее Настроение",
 "Cookies, cakes, honey, fireworks, christmas tree and snowballs": "Печеньки, торты, мёд, фейерверки, новогоднее дерево и снежки",
-
 "Eco Warrior": "Экоактивист",
 "Plant 1728 saplings of any one type": "Посадите 1728 саженцев одного любого типа",
-
 "Golems": "Големы",
 "Gather all the golems together": "Соберите всех големов вместе",
-
 "More, More Cookies!": "Больше, Больше Печенья!",
 "Craft 10,000 cookies": "Скрафтите 10,000 печенек",
-
 "Not Fireflies": "Не Светлячки",
 "Have a stack of melon seeds": "Заполучите стак семян арбуза",
-
 "Plant Enthusiast": "Любитель растений",
 "Plant 10,000 potatoes": "Посадите 10,000 картошек",
-
 "Overpayment": "Переплата",
 "Craft golden carrot from carrot and golden nuggets": "Скрафтите золотую морковь из моркови и золотых самородков",
-
 "High Risk": "Большой Риск",
-"Eat the golden carrot and the golden apple while looking at the piglin": " Съешьте золотую морковь и золотое яблоко, пока смотрите на пиглина",
-
+"Eat the golden carrot and the golden apple while looking at the Piglin": " Съешьте золотую морковь и золотое яблоко, пока смотрите на Пиглина",
 "It's Midnight Already!?": "Уже Полночь?",
 "Place a book with a hundred pages on a lectern and read it": "Прочтите на кафедре книгу в которой 100 страниц",
-
 "Raising Canes": "Растущий Тростник",
-"Place Sugarcane on every possible block":"Посадите Сахарный Тростник на все возможные блоки",
-
+"Place Sugarcane on every possible block": "Посадите Сахарный Тростник на все возможные блоки",
+"Preventive Conversation": "Профилактическая беседа",
+"Kill the Rabbit immediately after it has eaten your carrot": "Убейте Кролика сразу после того как он съел вашу морковь",
+"Delicious": "Восхитительно",
+"Feed a Brown Mooshroom with all possible flowers from which you can craft a suspicious stew": "Покормите Коричневую Грибную Корову всеми возможными видами цветов, из которых можно сделать подозрительное рагу",
 # mining
 
 "Bat-Man": "Бэтмэн",
 "Kill 64 Bats": "Убейте 64 Летучих мыши",
-
 "Copper King": "Медный Король",
 "Stand on a chest filled with copper blocks": "Встаньте на сундук, который заполнен медными блоками",
-
 "Deepslate Master": "Мастер Глубинного Сланца",
 "Mine 16 blocks of all forms of deepslate": "Сломайте 16 блоков всех форм глубинного сланца",
-
 "Deepslated Miner": "Глубинносланцевый Копатель",
 "Collect two blocks of deepslate emerald ore": "Соберите два блока изумрудоносного глубинного сланца",
-
 "Light at the End of the Tunnel": "Свет в Конце Тоннеля",
 "Place the lantern in a dark place in the cave": "Установите фонарь в темном месте в пещере",
-
 "Redstoner": "Краснокаменьщик",
 "Fill you inventory with redstone": "Заполните свой инвентарь красным камнем",
-
 "Reinforced Miner": "Укреплённый Шахтёр",
 "Mine one block of reinforced deepslate": "Сломайте один блок укреплённого глубинного сланца",
-
 "Time Killer": "Убийца Времени",
 "Fill you inventory with obsidian": "Заполните свой инвентарь обсидианом",
-
 "The Master of Falls": "Мастер Падений",
 "Fall on each block that softens the fall": "Упадите на каждый блок, который смягчает падение",
-
 "Distorted Cave Maze": "Искаженный Пещерный Лабиринт",
 "Stay in a deep cave without sun and moon light for 3 days": "Оставайтесь глубоко в пещерах без света солнца и луны 3 дня",
-
 "Chief Spide": "Паук-Шеф",
 "Fill your inventory with cobweb": "Заполните инвентарь паутиной",
-
 # monsters
 
-"Get out of my sky": "Исчезни с Глаз Моих",
+"Get Out of My Sky": "Исчезни с Глаз Моих",
 "Get killed by a Phantom while you are 320 blocks above the world": "Умрите от Фантома, находясь на высоте 320 блоков над миром",
 # Hardcore
 "Get hurt by a Phantom while you are 320 blocks above the world": "Получите урон от Фантома, находясь на высоте 320 блоков над миром",
-
 "High Explosives": "Взрывоопасно",
 "Stand on a barrel filled with gunpowder": "Стойте на бочке, которая заполнена порохом",
-
 "Phantom Rider": "Фантомный Гонщик",
 "Catch the Phantom with a fishing rod": "Поймайте Фантома удочкой",
-
 "Not That Impossible": "Не так уж Невозможно",
-"Be killed by husk while riding a camel": "Будьте убиты Кадавром пока сидите на Верблюде",
+"Be killed by Husk while riding a Camel": "Будьте убиты Кадавром пока сидите на Верблюде",
 # Hardcore
-"Get damaged by husk while riding a camel": "Получите урон от Кадавра пока сидите на Верблюде",
-
+"Get damaged by Husk while riding a Camel": "Получите урон от Кадавра пока сидите на Верблюде",
 "More Impossible": "Более Невозможно",
 "Kill the Wither with an arrow": "Убейте Визера стрелой",
-
+"Live Сactus": "Живой Кактус",
+"Kill the Elder Guardian in the desert": "Убейте Древнего Стража в пустыне",
+"Frozen Heart": "Замерзшее Сердце",
+"Kill a Stray while in a snow biome during a snowstorm with hunger and slowness effects, taking damage from powdering snow with a slowness arrow": "Убейте Зимогора находясь в снежном биоме во время снегопада, с эффектами голода и замедления, получая урон от рыхлого снега стрелой замедления",
+"I uh... Forgot a Composter": "Я ух... Забыл об Компостере",
+"The Inquisition": "Инквизиция",
+"Make the Witch burn itself at the campfire while it runs away from your sword": "Заставьте Ведьму сжечь себя на костре, пока она убегает от вашего меча",
+"The Undertaker's Revenge": "Месть Гробовщика",
+"Kill the Phantom at the bottom of the world with an iron shovel": "Убейте Фантома на дне мира используя железную лопату",
+"Arachnophobia": "Арахнофобия",
+"Kill all the Spiders with effects that they can naturally spawn with a single piercing arrow": "Убейте всех пауков с эффектами, с которыми они могут появиться натурально одним выстрелом пронзающей стрелы",
+"One Minute Warden's Hugs": "Одна Минута Объятий с Хранителем",
+"Stay within 5 blocks of the Warden for 1 minute": "Находитесь одну минуту на расстоянии не более 5 блоков рядом с Хранителем",
 # nether
 
 "Bastion Robber": "Грабитель Бастиона",
 "Loot all types of chests from the bastion": "Откройте сундуки со всеми типами вещей в бастионе",
-
 "Bastion Sweet Bastion": "Бастион Милый Бастион",
 "Trade with the Piglin in the bastion with a golden axe in the main hand while wearing the piglin's head and a piece of the golden armor": "Поторгуйтесь с Пиглином в бастионе с золотым топором в руке пока на вас надета голова Пиглина и часть золотой брони",
-
 "Diamond Beacon": "Алмазный Маяк",
 "Create a full power beacon that consists entirely of blocks of diamond": "Создайте маяк с максимальной мощностью, состоящий только из блоков алмазов",
-
 "Emerald Beacon": "Изумрудный Маяк",
 "Create a full power beacon that consists entirely of blocks of emerald": "Создайте маяк с максимальной мощностью, состоящий только из блоков изумрудов",
-
 "Give Them Everything They Want": "Дайте Им Всё Что Они Хотят",
 "Give every possible item to Piglins": "Дайте все возможные предметы Пиглину",
-
 "Gold Beacon": "Золотой Маяк",
 "Create a full power beacon that consists entirely of blocks of gold": "Создайте маяк с максимальной мощностью, состоящий только из блоков золота",
-
 "Impostor": "Свинозванец",
 "Ride a Pig in the Nether": "Покатайтесь на Свинье в Нижнем мире",
-
 "Iron Beacon": "Железный Маяк",
 "Create a full power beacon that consists entirely of blocks of iron": "Создайте маяк с максимальной мощностью, состоящий только из блоков железа",
-
 "Netherite Beacon!": "Незеритовый Маяк!",
 "Create a full power beacon that consists entirely of blocks of netherite": "Создайте маяк с максимальной мощностью, состоящий только из блоков незерита",
-
 "Never Careful Enough": "Остерегайтесь Недостаточно",
 "Make absolutly sure you won't take damage from that magma block": "Будьте абсолютно уверенны, что вы не получите урон от блоков магмы",
-
 "Show the Wither his Home": "Покажите Иссушителю его Дом",
-"Kill the Wither in all Nether biomes": "Убейте Иссушителя во всех биомах Нижнего мира",
-
+"Kill the Wither in all the Nether biomes": "Убейте Иссушителя во всех биомах Нижнего мира",
 "Withering Depths": "Иссушающие Глубины",
 "Summon and kill the Wither in an ancient city": "Призовите Иссушителя и убейте его в Древнем городе",
-
+"Blaze3D": "Blaze3D",
+"Kill three Blazes with a single piercing arrow shot": "Убейте трех всполохов одним выстрелом пронзающей стрелы",
+"Suspicious Duel": "Подозрительная Дуэль",
+"Look at the Skeleton who decided to have a duel with another Skeleton using a spyglass": "Посмотрите на Скелета, который решил начать дуэль с другим скелетом, используя подзорную трубу",
+"A Long Journey": "Долгое Путешествие",
+"Ride at least 300 meters on the lava lake on Strider in the End": "Проедьте как минимум 300 метров по лававому озеру на Лавомерке в Энде",
+"Hot Combat": "Жаркий Бой",
+"Die from a Blaze while having fire resistance effect": "Умрите от Всполоха пока на вас есть эффект Огнестойкости",
+# Hardcore
+"Die from a Blaze while having fire resistance effect": "Получите урон от Всполоха пока на вас есть эффект Огнестойкости",
+"Hot Lake": "Горячее Озеро",
+"Use a fishing rod to hook a Salmon from the lava in the Nether": "Используйте удочку чтобы выложить живого Лосося из лавы в Нижнем Мире",
+"The New Swamp Won't Be Here": "Нового Болота Здесь Не Будет",
+"Bring all kinds of Frogs, Bogged and Slime to Basalt Deltas and then kill them all with a single piercing arrow shot": "Приведите все виды Лягушек, Болотника и Слайма в Базальтовые Дельты и затем убейте их всех одним выстрелом пронзающей стрелы",
+"Herbarium to My Friend": "Гербарий Для Моего Друга",
+"Give the baby Piglin all kinds of flowers": "Дайте маленьким Пиглинам все виды цветов",
+"High Pitch": "Высокий Отскок",
+"Kill 7 Ghasts in a row with their Fireballs, while not missing the blows from them": "Убейте 7 Гастов подряд, отбив их огненные шары, при этом не пропустив ни одного удара по себе",
 # potion
 
 "Flashlight": "Вспышка",
 "Have Night Vision and Darkness effects at the same time": "Получите эффекты Тьмы и Ночного зрения в одно время",
-
 "Master of effects": "Мастер Эффектов",
 "Get all the max level effects possible during your life (not all at the same time)": "Получи все возможные эффекты максимально возможного уровня в течение своей жизни (не все одновременно)",
-
 "Worst Cleric in the World": "Худший Зельевар в Мире",
 "Fill your entire inventory with corrupted potions": "Заполните свой инвентарь неудачными зельями",
-
 "Cowabunga It Is": "Это Ковабунга",
 "kill a Turtle that is under the effect of a turtle master potion": "Убейте Черепаху на которую наложен эффект Черепашьей Мощи",
-
 "You're not the Zillager": "Ты не Зомби Житель",
 "Try to cure yourself from Zombification": "Попытайтесь вылечить себя от зомбификации",
-
 # redstone
 
 "Old Optimisations!": "Старые Оптимизации",
 "Before 1.21, the composter placed above hopper optimized the calculations. Do it in honor of tradition": "До 1.21 компостер, поставленный над воронкой оптимизировал её вычисления. Сделайте это в дань традиции",
-
 "Optimisations": "Оптимизации",
 "Place a composter above hopper to optimize its calculations": "Разместите компостер над воронкой, чтобы оптимизировать её вычисления",
-
 "What Do You Know About Pistons": "Что вы знаете о поршнях",
 "Craft 1000 pistons": "Скрафтите 1000 поршней",
-
 # statistics
 
 "Happy 1000 Days!": "Счастливые 1000 Дней!",
 "Play for 1000 Minecraft days": "Играйте на протежение целых 1000 дней",
-
 "Intercontinental Rail Nexus": "Межконтинентальная связь",
 "Ride 250km in a minecart": "Преодолейте 250км на вагонетке",
-
-"Titan of Olympian Gold Triumphs":  "Титан Золотых Триумфов",
+"Titan of Olympian Gold Triumphs": "Титан Золотых Триумфов",
 "Swim 500km": "Проплывите 500км",
-
 "Wrath of the Western Frontier": "Гнев Западной Конницы",
-"Ride 250km on a horse": "Преодолейте 250км верхом на лошади",
-
+"Ride 250km on a Horse": "Преодолейте 250км верхом на Лошади",
 "Survival Saga": "Сага о выживании",
 "Defeat 500,000 mobs": "Победите 500,000 мобов",
-
 "Duo Dynamo": "Дуэт Двоих",
 "Breed 10,000 animals": "Размножьте 10,000 животных",
-
 "Your legs are beat": "Твои Ноги Избиты",
 "Sprint 1000km": "Пробегите 1000км",
-
 "Navigator of the Infinite Waters": "Навигатор Бесконечных Вод",
 "Sail 500km in a boat": "Проплывите 500км при помощи лодки",
-
 "Jetsetter of the Skies": "Крылатый Космополит",
 "Fly 10,000km with elytra": "Пролетите 10,000км при помощи элитр",
-
 "Epic Capital Conqueror": "Завоеватель Капитала",
-"Trade with villagers 10,000 times": "Поторговать с жителями 10,000 раз",
-
+"Trade with Villagers 10,000 times": "Поторговать с Жителями 10,000 раз",
 "Аbsolutely Аblaze Journey": "Пылающее Приключение",
 "Ride 100km on a Strider": "Преодолейте 100км на лавомерке",
-
 "Ancient Sorcerer Sage": "Древний Волшебник",
 "Enchant 1000 items": "Зачаруйте 1000 предметов",
-
 "Storm Hog Pilgrim": "Паломник на Штормовой Свинье",
-"Ride 100km on a pig": "Преодолейте 100км верхом на свинье",
-
+"Ride 100km on a Pig": "Преодолейте 100км верхом на Свинье",
 "Sovereign of Martial Shifting": "Владыка боевого перемещения",
 "Sneak 100km": "Прокрадитесь 100км",
-
 "Culinary Delight Maestro": "Маэстро Кулинарных Изысков",
 "Eat 25,000 food items": "Съешьте еду 25,000 раз",
-
 "Skyward Legs": "Небесные Ноги",
 "Jump 1,000,000 times": "Пропрыгайте 1,000,000 раз",
-
 "Craftsman Novice": "Начинающий Ремесленник",
 "Open the crafting table 15 times": "Откройте верстак 15 раз",
-
 "Artisan Adept": "Искусный Ремесленник",
 "Open the crafting table 100 times": "Откройте верстак 100 раз",
-
 "Master Artificer": "Мастер-ремесленник",
 "Open the crafting table 500 times": "Откройте верстак 500 раз",
-
 "Legendary Artisan": "Легендарный Ремесленник",
 "Open the crafting table 2500 times": "Откройте верстак 2500 раз",
-
 "Chests Aficionado": "Поклонник Сундуков",
 "Open 2500 loot chests": "Откройте 2500 сундуков с лутом",
-
 "Jungle Gymnast": "Джунглиевый Гимнаст",
 "Climb for 100m": "Проползите 100м",
-
 "Climb Expert": "Эксперт по Карабканью",
 "Climb for 1km": "Проползите 1км",
-
 "Ladder Legend": "Ползущая Легенда",
 "Climb for 10km": "Проползите 10км",
-
 "Ascension Ace": "Туз Вознесения",
 "Climb for 100km": "Проползите 100км",
-
 "My Chest!": "Мой Сундук!",
 "Open 100 chests": "Откройте 100 сундуков",
-
 "Chest Lover": "Любитель Сундуков",
 "Open 1000 chests": "Откройте 1000 сундуков",
-
 "Mr. Chester": "Господин Сундук",
 "Open 10,000 chests!": "Откройте 10,000 сундуков!",
-
 "Happy Chest Year!": "Счастливого Года Сундука!",
 "Open 25,000 chests": "Откройте 25,000 сундуков",
-
 "Shulker Seeker": "Шалкеровый Искатель",
 "Open the shulker box 100 times": "Откройте шалкеровый ящик 100 раз",
-
 "Shulker Explorer": "Шалкеровый Исследователь",
 "Open the shulker box 1000 times": "Откройте шалкеровый ящик 1000 раз",
-
 "Shulker Voyager": "Шалкеровый Путешественник",
 "Open the shulker box 10,000 times": "Откройте шалкеровый ящик 10,000 раз",
-
 "Shulker Maestro": "Шалкеровый Маэстро",
 "Open the shulker box 100,000 times": "Откройте шалкеровый ящик 100,000 раз",
-
 "Survivor\u0027s Hour": "Час Выживания",
 "Avoid dying within 1 hour": "Избегайте смерти на протяжение 1 часа",
-
 "Resilient Centenarian": "Жизнерадостный Долгожитель",
 "Avoid dying within 10 hours": "Избегайте смерти на протяжение 10 часов",
-
 "Master of Survival": "Мастер Выживания",
 "Avoid dying within 100 hours": "Избегайте смерти на протяжение 100 часов",
-
 "Eternal Vanguard": "Бессмертный Страж",
 "Avoid dying within 500 hours": "Избегайте смерти на протяжение 500 часов",
-
 "Novice Angler": "Рыбак-Новичок",
-"Catch 5 fish with a fishing rod.": "Поймайте 5 рыб с помощью удочки",
-
+"Catch 5 fish with a fishing rod": "Поймайте 5 рыб с помощью удочки",
 "Intermediate Fisher": "Рыбак-Любитель",
-"Catch 25 fish with a fishing rod.": "Поймайте 25 рыб с помощью удочки",
-
+"Catch 25 fish with a fishing rod": "Поймайте 25 рыб с помощью удочки",
 "Experienced Angler": "Опытный Рыбак",
-"Catch 100 fish with a fishing rod.": "Поймайте 100 рыб с помощью удочки",
-
+"Catch 100 fish with a fishing rod": "Поймайте 100 рыб с помощью удочки",
 "Master Fisherman": "Рыбак-Профессионал",
-"Catch 500 fish with a fishing rod.": "Поймайте 500 рыб с помощью удочки",
-
+"Catch 500 fish with a fishing rod": "Поймайте 500 рыб с помощью удочки",
 "Totem Tinkerer": "Подмастерье по Тотемам",
 "Spend 5 totems of undying": "Используйте 5 тотемов бессмертия",
-
 "Totem Adept": "Адепт Тотемов",
 "Spend 25 totems of undying": "Используйте 25 тотемов бессмертия",
-
 "Totem Expert": "Экперт по Тотемам",
 "Spend 100 totems of undying": "Используйте 100 тотемов бессмертия",
-
 "Totem Immortal": "Бессмертный Мастер Тотемов",
 "Spend 1000 totems of undying": "Используйте 1000 тотемов бессмертия",
-
 "Stone Cutter": "Каменьщик",
 "Break 100 blocks with Iron Pickaxe": "Сломайте 100 блоков, используя Железную кирку",
-
 "Metal Miner": "Вскопщик Минералов",
 "Break 2500 blocks with Diamond Pickaxe": "Сломайте 2500 блоков, используя Алмазную Кирку",
-
 "Diamond Digger": "Алмазный Копатель",
 "Break 10,000 blocks with Netherite Pickaxe": "Сломайте 10,000 блоков, используя Незеритовую Кирку",
-
 "Bedrock Breaker": "Разрушитель Бедрока",
 "Break 100,000 blocks with Netherite Pickaxe": "Сломайте 100,000 блоков, используя Незеритовую Кирку",
-
 "Raid Resister": "Защитник от Рейдов",
 "Win 3 Raids": "Отразите 3 Рейда",
-
 "Pillager Protector": "Покровитель от Разбойников",
 "Win 10 Raids": "Отразите 10 Рейдов",
-
 "Vindicator Vanquisher": "Покоритель Поборников",
 "Win 25 Raids": "Отразите 25 Рейдов",
-
 "Ravager Repeller": "Страх Разорителей",
 "Win 250 Raids": "Отразите 250 Рейдов",
-
-
+"Novice Scout": "Начинающий Разведчик",
+"Ride a Horse that moves faster than 9 blocks per second": "Оседлайте Лошадь которая перемещается быстрее чем 9 блоков в секунду",
+"Swift Herder": "Быстрый Пастух",
+"Ride a Horse that moves faster than 11 blocks per second": "Оседлайте Лошадь которая перемещается быстрее чем 11 блоков в секунду",
+"Speed Master": "Мастер Скорости",
+"Ride a Horse that moves faster than 13 blocks per second": "Оседлайте Лошадь которая перемещается быстрее чем 13 блоков в секунду",
+"Legend of the Races": "Легенда Скачек",
+"Ride a Horse that moves faster than 14.1 blocks per second": "Оседлайте Лошадь которая перемещается быстрее чем 14.1 блоков в секунду",
 # weaponry
 
 "More Shields!": "Больше Шитов!",
 "Craft 1000 shields": "Скрафтите 1000 щитов",
-
 "Snow Fights!": "Снежные Бои!",
-"Kill the Snow golem with a snowball": "Убейте Cнеговика снежком",
-
+"Kill the Snow Golem with a snowball": "Убейте Cнеговика снежком",
 "The Explosive Adventure": "Взрывные приключения",
 "Place 1000 blocks of tnt": "Поставьте 1000 блоков динамита",
-
 "Unlucky": "Невезунчик",
 "Die twice within 5 seconds": "Умрите дважды за 5 секунд",
 # Hardcore
 "Get damage twice within 5 seconds": "Получите урон дважды за 5 секунд",
-
 "Explosive Fisherman": "Взрывной Рыбак",
 "Catch TNT on a fishing rod": "Поймайте Динамит удочкой",
-
 "Frightening Fishing": "Жуткая Рыбалка",
 "Use a fishing rod to hook a Warden": "Используйте удочку чтобы приманить Хранителя",
-
 "Meet the Snipe": "Встречайте Снайпера",
 "Hold a spyglass and a crossbow": "Возьмите в руки подзорную трубу и арбалет",
-
 "Cold Betrayal": "Холодное Предательство",
-"Get killed by a snow golem": "Умрите от Снежного Голема",
-
+"Get killed by a Snow Golem": "Умрите от Снеговика",
 "Dead-eye": "Меткий Глаз",
 "Kill a baby Turtle that is below sea level while you are more than 300 blocks above the world height by using Trident": "Убейте детёныша Черепахи, который находится ниже уровня моря, находясь выше 300 блоков над миром используя Трезубец",
-
-
+"Glowball": "Светящийся Шар",
+"Hit the Glow Squid in the air with a snowball": "Попадите в Светящегося Спрута снежком, пока он находится в воздухе",
 # trophies
 
 
@@ -762,18 +655,14 @@
 # adventure
 
 "Advancement's Stairs": "Ступеньки Достижения",
-"Show more information about advancement": "Показывает больше информации о достижениях",
+"Shows more information about advancement": "Показывает больше информации о достижениях",
 "requirements": "и их требованиях",
-
 "Magic Bell": "Магический Колокол",
 "Knock yourself on the head": "По голове себе постучи",
-
 "Broomstick": "Метла",
 "Sweeps away messes and boredom!": "Сметает беспорядок и скуку!",
-
 "Bread": "Хлеб",
 "So tasty...": "Очень вкусный...",
-
 "Komaru": "Комару",
 "Komaru's Head": "Мордочка Комару",
 "My favorite cats name is Komaru. She is a": "Имя моей любимой кошки - Комару. Она",
@@ -787,37 +676,26 @@
 "is always ready for cuddles and will": "всегда готова к объятиям и ",
 "purr contently in your lap. Komaru": "мурлыканью у вас на коленях. Комару",
 "brings so much joy and happiness to my life": "приносит столько радости и счастья в мою жизнь",
-
 "Watch": "Наручные Часы",
 "Next time, watch the time": "В следующий раз смотри время",
-
 "Real Netherite Template": "Реальный Незеритовый Шаблон",
 "So really real": "Слишком реально реальный",
-
 "Salt": "Соль",
 "Do you like it?": "Ты любишь её?",
-
 "Not a bug, but a feature": "Не баг, а Фича",
 "Each stone harbors a secret": "Каждый камень таит в себе тайну",
-
 "The Silence": "Тишина",
 "Still waters run deep": "В тихом омуте черти водятся",
-
 "Awkward Shovel": "Неуклюжая Лопата",
 "To mine suspiciously": "Для подозрительного копания",
-
 "Ruby": "Рубин",
 "Priceless...": "Бесценен...",
-
 "Ominous Bottle": "Зловещая Бутылка",
 "An incredibly concentrated curse": "Невероятно концентрированное проклятие",
-
 "Storm Charge": "Штормовой Заряд",
 "A charge that is better not to use": "Заряд, который лучше не применять",
-
 "Not an Ordinary Chest": "Не Просто Сундук",
 "What is wrong with it?": "Что с ним не так?",
-
 # animal
 
 "Salmon's Head": "Голова Лосося",
@@ -826,455 +704,410 @@
 "statement piece for avant-garde seafood": "блюдом для любителей авангардных морепродуктов!",
 "enthusiasts! Swim in style, dine with": "Плавайте стильно, обедайте с",
 "fins!": "ластами!",
-
 "Big Nose": "Большой Нос",
 "Snort snort...": "Фырк фырк...",
-
 "Frozen Turtle": "Замороженная Черепаха",
 "Unique headpiece, an ethereal fusion of": "Уникальный головной убор, неземное сочетание красоты",
 "nature's beauty and chilling elegance": "природы и леденящей душу элегантности",
-
 "The Pinkest Wool": "Самая Розовая Шерсть",
 "Soft, fluffy, delicate, blush-colored": "Мягкая, пушистая, нежная, румяного цвета",
 "wool that radiates warmth and elegance": "шерсть, которая излучает тепло и элегантность",
-
 "Your Mind": "Твой разум",
 "I think you're stuck in a bottle": "Я думаю, ты застрял в бутылке",
-
 "Gray Bee": "Серая Пчела",
 "Gray World...": "Серый Мир...",
-
 "The World Cactus": "Мировой Кактус",
 "Feed it to your camel, he's definitely": "Накормите им своего Верблюда, он определенно",
 "tired": "Устал",
-
 "Crab": "Краб",
 "Hope dies last...": "Надежда умирает последней...",
-
 "Bowl": "Тарелка",
 "Without soup...": "Без супа",
-
 "Yellow Flower": "Жёлтый Цветок",
 "Something very similar to dandelion": "Что-то очень похожее на одуванчик",
-
+"Fake Horse": "Фэйковая Лошадь",
+"For galloping to victory on your trusty": "Галопом к победе на своей надежной",
+"steed... even if it\'s just a stick with a": "лошади... даже если это просто палка с ",
+"sock on it!": "носком на ней",
+"King Shrek": "Его Величество Шрек",
+"In some cultures, Donkeys are revered as the": "В некоторых культурах, Ослы считаются",
+"smartest animals": "умнейшими животными",
+"Baby Pig": "Детёныш Свиньи",
+"For adding a touch of adorable mischief,": "За то, что добавила очаровательного озорства",
+"where even the smallest piglet brings big": "где даже самая маленькая свинга приносит большую",
+"smiles and endless charm!": "улыбку и бесконечное счастье!",
+#bacap
+"Enhanced Boots": "Enhanced Boots",
+"Given to those who never miss a step,": "Дается тем, кто не останавливается",
+"even when the road gets rough!": "даже когда путь становится тернистым",
 # biomes
 
 "The Softest Bed": "Самая мягкая кровать",
 "Experience the ultimate comfort and": "Испытайте максимальный комфорт и",
 "luxury with our exquisite, plush bed,": "роскошь с нашей изысканной плюшевой кроватью,",
 "the epitome of relaxation and bliss": "это воплощение расслабления и блаженства",
-
 "Lava Cauldron": "Лавовый Котёл",
 "An enchanting centerpiece for": "Очаровательное украшение для",
 "adventurous souls": "искателей приключений",
-
+"Storm Core": "Ядро Шторма",
+"In the heart of the storm, where light and": "В сердце шторма, где свет и",
+"darkness merge into one": "тьма объеденяются воедина",
 # building
 
 "The Potted Pot": "Горшечный Горшок",
 "Chic Ceramic Pot": "Шикарный керамический горшок",
-
 "Stick": "Палка",
-
 # challenges
 
 "The Vex Slayer": "Убийца Вексов",
 "Diary, I cannot convey all the pain and": "Дорогой дневник, я не могу передать всю боль и",
 "humiliation I have experienced": "унижение, которое я испытал",
-
 "Gold Glow Squid": "Золотой Светящийся Спрут",
 "Because regular squids are boring": "Потому что обычные спруты скучные",
-
 "The Orbital Anvil": "Орбитальная Наковальня",
 "Unleash your creativity with the": "Дайте волю своему творчеству с помощью",
 "unstoppable force of our anvil!": "неудержимой силы нашей наковальни!",
-
 "Soft Saddle": "Мягкое Седло",
 "So that your ass doesn't get tired": "Чтобы твоя попа не уставала",
-
 "Space Rocket": "Космическая ракета",
 "Rocket riders...?": "Ракетные гонщики...?",
-
 "The Star Of The Apocalypse": "Звезда Апокалипсиса",
 "Unleash the cosmic chaos with The Star": "Дайте волю космическому хаосу вместе со Звездой",
 "Of The Apocalypse!": "Апокалипсиса!",
-
 "The Ultimate Power": "Высшая Сила",
 "Touch the grass": "Потрогай траву",
-
 "Sweet Darling": "Моя сладкая",
 "Mix with a bucket of milk": "Смешать с ведром молока",
-
 "Gold Llama": "Золотая Лама",
 "Introducing the Gold Llama: a majestic,": "Представляем золотую ламу: величественную,",
 "glitzy, and fabulous treasure!": "блестящее и сказочное сокровище!",
-
 "My personal Wither": "Мой личный Иссушитель",
 "Dreadful Wither's visage, a bone": "Ужасный облик Иссушителя, костлявое",
 "chilling embodiment of darkness and": "воплощение тьмы и",
 "power, a sinister trophy for those who": "силы, зловещий трофей для тех, кто",
 "dare conquer": "осмелится победить",
-
 "Big Firework": "Большой Фейерверк",
 "Experience a dazzling symphony of lights": "Ощутите ослепительную симфонию огней",
 "and colors, igniting joyous celebrations!": "и красок, зажигающую радость торжества",
-
 "Bat's Head": "Голова Летучей Мыши",
 "Ethereal bat-head ornament, a whimsical": "Неземное украшение в виде головы летучей мыши,",
 "tribute to the nocturnal wonders, an": "причудливая дань ночным чудесам,",
 "enchanting accessory for those who": "очаровательный аксессуар для тех, кто",
 "embrace the mysterious night sky": "любит таинственное ночное небо",
-
 "The Magic Wand": "Волшнебная Палочка",
 "Slytherin or Gryffindor?": "Слизерин или Гриффиндор",
-
 "Villager's Head": "Голова Жителя",
 "nocom.": "без комментариев.",
-
 "Space Helmet": "Скафандр",
 "This space helmet is the perfect choice": "Этот космический шлем - идеальный выбор",
 "for those who aspire to look like an": "для тех, кто стремится выглядеть как",
 "astronaut from the '80s!": "космонавт в 80-х!",
-
 "Broken": "Сломан",
 "Try to reload": "Попробуйте перезагрузить",
-
 "The Most Golden Apple In The World": "Самое Золотое Яблоко в Мире",
 "The epitome of healthy living – because": "Воплощение здорового образа жизни – потому что",
 "nothing says nutrition like a metallic fruit": "ничто так не говорит о питании, как металлический фрукт",
-
 "Trick Or Treat Basket": "Корзинка с Конфетами",
 "This Trick or Treat basket in silverfish": "Эта корзинка для сладостей из чешуйницы -",
 "is the ideal accessory for those who": "идеальный аксессуар для тех, кто",
 "enjoy arachnids": "\"любит\" паукообразных",
-
 "A Charming Diamond": "Очаровательный Бриллиант",
 "Behold the cosmic diamond – because even": "Узрите космический бриллиант – потому что даже",
 "in space, nothing says 'I'm rich' like rocks": "в космосе ничто так не говорит \"я богат\", как камни",
-
 "Nautilus Crab": "Краб Наутилус",
 "The ultimate fashion statement for": "Идеальное заявление для",
 "gourmet seafood enthusiasts!": "гурманов-любителей морепродуктов",
-
 "Dr. Zomboss": "Доктор Зомбосс",
 "Zombies are coming": "Зомби наступают",
-
 "There's more than it seems": "Здесь больше, чем кажется",
-"Use composters on hoppers - 75% faster": "Используйте компостеры на воронках, это на 75% быстрее",
-
+"Place blocks on composters, it\'s 75% more optimized": "Устанавливайте полные блоки на компостеры, это на 75% более оптимизированно",
 "Nuclear Bomb": "Ядерная Бомба",
 "The ultimate firework thats definitely": "Непревзойденный фейерверк, который определенно",
 "for parties": "подходит для вечеринок",
-
 "Absolute Dark Hole": "Абсолютно Тёмная Дыра",
 "The perfect accessory for hiding your": "Идеальный аксессуар для сокрытия ваших",
 "questionable late-night snacking habits!": "сомнительных привычек перекусывать поздно вечером!",
-
 "Wandering Llama": "Странствующая Лама",
 "Your face": "Твоё лицо",
-
 "Percent": "Процент",
 "The chance is approximately 0.000000040721%": "Шанс этого приблизительно равен 0.000000040721%",
-
 "Ultimate Beacon": "Абсолютный Маяк",
 "Preheat oven to 400°F, place bacon on a": "Разогрейте духовку до 400°F, выложите бекон на",
 "rack over a baking sheet, bake for 15-20": "решетку поверх противня, запекайте в течение 15-20",
 "minutes, and drain on paper towels": "минут и обсушите на бумажных полотенцах",
-
 "Blue Axolotl": "Синий Аксолотль",
 "Presenting the blue axolotl – where": "Представляем голубого аксолотля – где",
 "mutations play the lottery, with a": "мутации играют в лотерею с",
 "whopping 0.083% chance!": "колоссальным шансом в 0,083%!",
-
 "Arrow from the Wind": "Стрела Ветра",
 "Each shot with this arrow creates a": "Каждый выстрел этой стрелой создает",
 "tornado": "торнадо",
-
 "Charged End Stone": "Заряженный Камень Края",
 "Was found on the forgotten islands of": "Был найден на забытых островах",
 "the End": "Края",
-
 "Aristocratic Pig": "Аристократичная Свинья",
 "It definitely has a story to tell.": "У неё определенно есть о чем рассказать.",
-
 "The Exploded Dragon's Head": "Взорванная Драконья Голова",
 "Was slightly damaged during the killing": "Была немного повреждена во время убийства",
-
 "Warden's Plate": "Плита Хранителя",
 "Was taken out of the Warden": "Была вытащена из Хранителя",
-
 "Glowstone from the Overworld": "Светокамень из Верхнего Мира",
 "Where was it found?": "Где же он был найден?",
-
 "Big Rocket": "Большая Ракета",
 "Contains a large supply of gunpowder": "Содержит большой пороховой заряд",
-
 "Shoked Pig": "Шокированная Свинья",
 "Your pig is at the time of completing": "Твоя свинья во время выполнения",
 "this advancement": "этого достижения",
-
 "Atomic TNT": "Атомный ТНТ",
 "Explosive! Explosive! Explosive!": "Взрывоопасен! Взрывоопасен! Взрывоопасен!",
-
 "Pyrotechnic Charge": "Пиротехнический Заряд",
 "Base of any Good Firework": "Основа каждого хорошего Феерверка",
-
 "Warden's Head": "Голова Хранителя",
 "Not that scary": "Не такая уж и страшная",
-
+"Clown Mask": "Маска Клоуна",
+"Given to those who know that behind every": "Дается тем, кто знает, что за каждой",
+"smile, there’s a pain!": "улыбкой присутствует боль!",
+"The Living Head": "Живая Голова",
+"I love Zoglin": "Я люблю Зоглина",
+"Lunacy Endermite": "Безумный Эндермит",
+"Turning insanity into inspiration, making": "Превращает безумие во вдохновение, делая",
+"chaos your home and every moment an": "хаос вашим домом и каждый момент",
+"unpredictable ride": "непредсказуемой поездкой",
+"Galaxy": "Галактика",
+"Pushing boundaries so far that soon, even the": "Раздвигая границы так далеко, что скоро даже сам",
+"cosmos itself might not have enough room to": "космос не будет иметь достаточно места чтобы",
+"hold your greatness!": "удержать ваше величество",
+"Pig Pilot": "Свинка-Пилот",
+"Mastering the art of aerial navigation,": "Овладение искусством воздушной навигации",
+"showing that when pigs fly, they fly with": "показывает что когда свиньи летают, они летают с",
+"flair": "талантом",
+"Cyborg Horse": "Лошадь Киборг",
+"Blending the best of technology and": "Совмещение лучше от технологий и",
+"tradition, showing that even a steed can be": "традиций, показывает что даже лошадь может быть",
+"upgraded to the future!": "улучшена в нашем будущем",
+"Pile of Llama Masks": "Груда Масок Ламы",
+"Accumulating so many llama masks that even": "Накопилось столько масок лам, что даже",
+"the most stylish llamas would be envious!": "самые стильные ламы позавидовали бы",
+"Brown Mushroom": "Коричневый Гриб",
+"It is the Brown Mushroom": "Это Коричневый Гриб",
 # enchanting
 
 "Useful Instrument": "Полезный Инструмент",
 "As useful as most of the tools you've made": "Полезная, как сделанные тобой инструменты",
-
+"Non-selected Сandidate": "Невошедший Кандидат",
+"For embracing the journey with a small start,": "За то, что начали путешествие с малого",
+"proving that even the smallest beginnings can": "доказав, что даже самые маленькие начинания могут",
+"lead to great things!": "привести к великим вещам!",
 # end
 
 "Dragon Head": "Голова Дракона",
 "Armor is for amateurs": "Броня для любителей",
-
 "Ancient Teleporter": "Древний Телепортер",
 "How to use it!?": "Как его использовать!?",
-
 "Greatest Stonecutter": "Великий Камнетёс",
 "Workbench for any Mason": "Рабочий стол для любого Каменьщика",
-
 # farming
 
 "Bad Apple": "Плохое Яблоко",
 "A rare feat achieved only by collecting": "Редкий подвиг, достигаемый только путем сбора",
 "countless apples": "бесчисленного количества яблок",
-
 "My Little Cherry": "Моя Маленькая Вишня",
 "So rose...": "Слишком розовая",
-
 "Cookie": "Печенька",
 "A bit of coffee, home comfort, and one": "Немного кофе, домашний уют и еще одно",
 "more cookie – what could be better?": "печенье – что может быть лучше?",
-
 "Poisonous Potato": "Отравленный Картофель",
 "Not all potatoes are edible, even if": "Не весь картофель съедобен, даже если",
 "they look perfectly fine": "он выглядит совершенно нормально",
-
 "Book from the Bookshelf": "Книга с Книжной Полки",
-"Have you not heard of this magnificent, unparalleled, one-of-a-kind book, said to have been written by none other than Zeus himself in a moment of enlightenment, when he also happened to create the universe, and which has now, after centuries of wandering the earth, found its way into our hands, discovered deep within an ancient cave, covered in dust and cobwebs, and now, finally, after careful examination and restoration by the greatest minds of our time, is ready to reveal its secrets to anyone daring enough to gaze upon its pages, which, it is said, have the power to absorb anyone who lacks sufficient strength of spirit and transport them to a world of fantastical adventures, filled with incredible creatures and hidden mysteries, and also, of course, provide the opportunity to inscribe one's own thoughts, ideas, and discoveries upon its blank pages, which may then become a part of this great book and endure forever, until the very universe itself ceases to exist?":"Неужели вы не слышали о этой великолепной, непревзойденной, единственной в своем роде книге, которая, как говорят, была написана самим Зевсом в момент просветления, когда он, между прочим, также создал вселенную, и которая теперь, после стольких веков странствий по миру, оказалась в наших руках, будучи обнаруженной в глубине древней пещеры, заваленной пылью и паутиной, и теперь, наконец-то, после тщательного изучения и реставрации лучшими умами нашего времени, готова раскрыть свои тайны любому, кто посмеет взглянуть на её страницы, которые, как говорят, способны поглотить любого, кто не обладает достаточной силой духа, и перенести его в мир фантастических приключений, полных невероятных созданий и сокровенных тайн, а также, конечно же, дать возможность записать на её пустых страницах собственные мысли, идеи и открытия, которые, возможно, также станут частью этой великой книги и просуществуют вечно, пока сама вселенная не прекратит свое существование?",
-
+"Have you not heard of this magnificent, unparalleled, one-of-a-kind book, said to have been written by none other than Zeus himself in a moment of enlightenment, when he also happened to create the universe, and which has now, after centuries of wandering the earth, found its way into our hands, discovered deep within an ancient cave, covered in dust and cobwebs, and now, finally, after careful examination and restoration by the greatest minds of our time, is ready to reveal its secrets to anyone daring enough to gaze upon its pages, which, it is said, have the power to absorb anyone who lacks sufficient strength of spirit and transport them to a world of fantastical adventures, filled with incredible creatures and hidden mysteries, and also, of course, provide the opportunity to inscribe one's own thoughts, ideas, and discoveries upon its blank pages, which may then become a part of this great book and endure forever, until the very universe itself ceases to exist?": "Неужели вы не слышали о этой великолепной, непревзойденной, единственной в своем роде книге, которая, как говорят, была написана самим Зевсом в момент просветления, когда он, между прочим, также создал вселенную, и которая теперь, после стольких веков странствий по миру, оказалась в наших руках, будучи обнаруженной в глубине древней пещеры, заваленной пылью и паутиной, и теперь, наконец-то, после тщательного изучения и реставрации лучшими умами нашего времени, готова раскрыть свои тайны любому, кто посмеет взглянуть на её страницы, которые, как говорят, способны поглотить любого, кто не обладает достаточной силой духа, и перенести его в мир фантастических приключений, полных невероятных созданий и сокровенных тайн, а также, конечно же, дать возможность записать на её пустых страницах собственные мысли, идеи и открытия, которые, возможно, также станут частью этой великой книги и просуществуют вечно, пока сама вселенная не прекратит свое существование?",
 # mining
 
 "Brush": "Кисточка",
 "Use it to polish your copper treasures –": "Используй его, чтобы отполировать свои медные сокровища",
 "darn miner": "чертов шахтёр",
-
 "Deepslate Emerald Ore Chest": "Сланцевый Изумрудный Сундук",
 "Why is it always empty?": "Почему он всегда пуст?",
-
 "Some Rock": "Какой-нибудь камень",
 "Nothing in life is as strong as it seems": "Ничто в жизни не так сильно, как кажется на первый взгляд",
-
 # monsters
 
-
-
+"Ravager Plushie": "Плюшевый Разоритель",
+"You\'ve grown accustomed to it, and now it\'s": "Ты привык к ним, и теперь это",
+"your personal toy for tormenting": "твоя личная игрушка для пыток",
+"Warden Priestess": "Жрица Хранителя",
+"Stay within 5 blocks of the Prison Warden for": "Оставайтесь в пределах 5 кварталов от начальника тюрьмы в течение",
+"1 minute": "1 минуты",
+"The Undertaker's Shovel": "Лопата Гробовщика",
+"Use it to bury all your enemies": "используй её, чтобы закопать всех своих врагов",
 # nether
 
 "Pot Of Diamonds": "Горшок с Алмазами",
 "Look at your dirty pot, are you happy?": "Посмотри на свой грязный горшок, ты счастлив?",
-
 "Bag with Emeralds": "Мешочек с Изумрудами",
 "Are you still happy?": "Ты всё еще счастлив?",
-
 "My Precious": "Моя Прелесть",
 "It glitters, I know you love it": "Оно блестит, я знаю, тебе это нравится",
-
 "Netherite Cake": "Незеритовый Торт",
 "You can't be happy...": "Ты не можешь быть счастлив...",
-
 "The Last Rose": "Последняя Роза",
 "It was the last day I saw him": "Это был последний день, когда я видел его",
-
+"Blaze Powder In A Bottle": "Порошок Всполоха в Банке",
+"Capturing the explosive energy in 3D space,": "Запечатление взрывной энергии в трехмерном пространстве",
+"showing that even the tiniest amounts of": "показывает что даже самое маленькое количество",
+"blaze powder can render impressive three-": "порошка Всполоха может привести к невероятному",
+"dimensional feats!": "трехмерному подвигу",
 # potion
 
 "Brewing Factory": "Зельварный Завод",
 "Ah, the fabulous Brewing Factory, where": "Ах, сказочная пивоваренная фабрика, где",
 "dreams of exquisite beverages are": "мечты об изысканных напитках",
 "meticulously come true": "тщательно воплощаются в жизнь",
-
 # redstone
 
 "Another Piston": "Еще Один Поршень",
 "The creator of the achievements has": "Создатель достижений создал",
 "crafted 370,000 pistons and he needs the": "370,000 поршней, и ему нужно еще",
 "same amount more": "столько же",
-
 # statistics
 
 "Strider": "Лавомерка",
 "Your personal lava-walker and": "Твоя персональная лава-ходка и",
 "spontaneous thrill ride": "спонтанная поездка с острыми ощущениями",
-
 "A good Table": "Хороший Стол",
 "Turned the Enchanting Table into your": "Превратили Стол Зачарования в",
 "personal desk": "личное рабочее место",
-
 "High Ladder": "Высокая Лестница",
 "Scaling heights like a seasoned": "Покоряя высоты, как опытный",
 "mountaineer, you've climbed 100km with a": "альпинист, вы преодолели 100 км с помощью простой",
 "mere ladder or vines": "лестницы или виноградных лоз",
-
 "Treasure Trove": "Сокровищница",
 "A miniature chest trophy that's": "Миниатюрный нагрудный трофей, который",
 "surprisingly empty": "на удивление пуст",
-
 "Low-Calorie Food": "Низкокaлорийная Пища",
 "I think you need to go on a diet": "Я думаю тебе нужно сесть на диету",
-
 "Mr. Sheep": "Господин Баран",
 "A miniature arc, acknowledging your": "Миниатюрная арка, свидетельствующая о вашем",
 "animal breeding prowess": "мастерстве в разведении животных",
-
 "MEGA STONKS": "СУПЕР ПРИБЫЛЬ",
 "Become richer than Rockefeller": "Станьте богаче чем Рокфеллер",
-
 "Your Heart": "Твоё Сердце",
 "Your life is like a heart on TV": "Твоя жизнь похожа на сердце в телевизоре",
-
 "Golden Hourglass": "Золотые песочные часы",
 "You spent quite a long time in the": "Вы провели довольно долгое время в",
 "psychiatric hospital": "психиатрической больнице",
-
 "Christmas Chest": "Рождественский Сундук",
 "A festive trophy shaped like Santa's": "Праздничный трофей в форме как у Санты,",
 "sack overflowing with loot. Includes a": "мешок, набитый награбленным. Включает в себя",
 "special Christmas Chest for the true": "специальный Рождественский Сундук для истинных ценителей",
 "chest opening connoisseur!": "вскрытия сундуков!",
-
 "Railroad Baron's Emblem": "Эмблема Железнодорожного Барона",
 "A sleek golden trophy resembling": "Изящный золотой трофей, напоминающий",
 "intertwined train tracks": "переплетенные железнодорожные пути",
-
 "Big Firework Star": "Большая Пиротехническая Звезда Фейерверка",
 "Craft a big firework rocket.": "Сделай большой фейерверк",
 "You deserve it": "Ты заслужил это",
-
 "Ladder": "Лестница",
 "Simple ladder, you can use it": "Простая лестница, ты можешь ею воспользоваться",
-
 "Gold Chest": "Золотой Сундук",
 "You've crafted your way into the": "Ты проложил себе путь в ",
 "legendary artisan's league!": "легендарную лигу ремесленников!",
-
 "Crafting Factory": "Фабрика Создания",
 "Try not to craft on it": "Постарайся не крафтить на ней",
-
 "Your Clock": "Твои Часы",
 "Do you know what time it is?": "Ты знаешь, который сейчас час?",
-
 "Personal Сhest": "Личный Сундук",
 "I know you like chests": "Я знаю, ты любишь сундуки",
-
 "Motor Boat": "Моторная Лодка",
 "Fast as the speed of light": "Быстра, как скорость света",
-
 "Infinite Shulker Box": "Бесконечный Шалкеровый Ящик",
 "Boundless storage, enchanted": "Безграничное хранилище, очаровательная",
 "organization, and ethereal design for": "организация и неземной дизайн для",
 "effortless and compact inventory": "легкого и компактного управления",
 "management": "инвентарем",
-
 "FreeBox": "ФриБокс",
 "The Freebox is an ADSL-VDSL-FTTH modem": "Freebox - это модем ADSL-VDSL-FTTH",
 "and a set-top box that the French": "и телеприставка, которую французский",
 "Internet service provider named Free": "интернет-провайдер, именуемый Free",
 "(part of the Iliad group) provides to": "(часть Илиад группы) предоставлял для",
 "its DSL-FTTH subscribers": "своих DSL-FTTH абонентов",
-
 "Trick or Treat Basket with Rabbit": "Корзинка с Конфетами и Кроликом",
 "Channels the spirit of bouncy joy,": "Направляет дух бодрой радости",
 "turning every leap into a pile of": "превращая каждый прыжок в кучу",
 "delight": "невероятного восторга",
-
 "Katana": "Катана",
 "Mastery does not tolerate haste": "Мастерство не терпит спешки",
-
 "PigTrain": "Свинопоезд",
 "You have a specific taste in": "У тебя экзотические вкусы в",
 "transportation": "перемещение",
-
 "Blood Moon": "Кровавая Луна",
 "Become the Nightmare": "Стань ночным кошмаром",
-
 "Private Pool": "Личный Бассейн",
 "An exclusive oasis of aquatic luxury,": "Эксклюзивный оазис, водная роскошь,",
 "this private pool is your personal": "этот частный бассейн - ваше личное",
 "retreat, where relaxation meets opulence": "убежище, где расслабление сочетается с роскошью",
 "in the comfort of your own space": "комфорта вашего пространства",
-
 "Gold Horse": "Золотая Лошадь",
 "Elegance in equine form, a majestic": "Элегантность в облике лошади, величественный",
 "steed that doesn't just gallop, but": "скакун, который не просто скачет галопом, но и",
 "glitters as it gracefully traverses": "блестит, грациозно пересекая",
 "realms of luxury and extravagance": "царство роскоши и экстравагантности",
-
 "Running shoes": "Кроссовки для бега",
 "This is only 1/40 of the perimeter of": "Это только 1/40 периметра",
 "our planet": "нашей планеты",
-
 "Golden Infused Pickaxe": "Золотая Заряженная Кирка",
 "The master who created it put all his": "Мастер который создал её, вложил все свои",
 "efforts into efficiency": "усилия в эффективность",
-
 "High-Quality Diamond Ore": "Качественная Алмазная Руда",
 "Your glory": "Твоя гордость",
-
 "Incredibly Big Salmon": "Невероятно Большой Лосось",
 "Is it worth eating?": "Стоит ли его есть?",
-
 "Ravager's Head": "Голова Разорителя",
 "Trophy obtained by force": "Трофей, полученный силой",
-
 "Totem of Totems": "Тотем всех Тотемов",
 "Maybe stop dying?": "Может хватит умирать?",
-
 "Totem of Totem of Totems": "Тотем Тотема Всех Тотемов",
 "STOP DYING!": "ХВАТИТ УМИРАТЬ!",
-
 "Iron Ax": "Железная Секира",
 "Heavier than a regular axe": "Тяжелее, чем обычный топор",
-
 "Professional Fishing Rod": "Профессиональная Удочка",
 "For real Masters": "Для реальных Мастеров",
-
+"Horse Pet": "Питомец Лошадь",
+"Have you heard about this horse? They say it": "Слышал ли ты об этой лошади? Мне сказали, что",
+"exceeded the speed of light!": "она может разгоняться до скорости света!",
+"Lightweight Saddle": "Лёгкое Седло",
+"Perfect for your fast steed": "Идеальное седло для вашей быстрой лошади",
 # weaponry
 
 "Tree Shield": "Деревянный Щит",
 "You spent 94 stacks of wood on this": "Вы потратили 94 стака дерева на этот",
 "shield": "щит",
-
 "Loser": "Лузер",
 "Use it so you don't die": "Используй это, чтобы не умереть",
-" The trophy appeared at the place of your death": "Трофей появился на месте вашей смерти",
-
+"The trophy appeared at the place of your death": "Трофей появился на месте вашей смерти",
 "Portable Telescope": "Портативный Телескоп",
 "Allows you to see more": "Позволяет тебе видеть больше",
-
+# msg
+# bacap
+"%1$s has completed every advancement in Enhanced Discoveries, earning them the coveted title of %2$s%3$s%4$s": "%1$s выполнил каждое достижение в Enhanced Discoveries, заработав тем самым желанный титул %2$s%3$s%4$s",
 # menu if BACAP is installed
 
 " successfully installed": " yспешно загружен",
-
 "Thanks for downloading, if you find any bugs, typos or other inaccuracies, ": "Спасибо за скачивание, если вы найдёте любые баги, опечатки или другие неточности, ",
 "write an issue": "напишите репорт",
 "Write an issue": "Написать репорт",
 "Open on GitHub": "Открыть на GitHub",
 "Open on Modrinth": "Открыть на Modrinth",
-
 # menu if BACAP is not installed
 
 " isn't installed": " не установлен",
 "[!] Download ": "[!] Установите ",
 "BACAP first": "BACAP сначала",
-
 # version!
 
-"Version: 2.1": "Версия: 2.10"
-
+"Version:": "Версия:",
+# triggers
+"Timer Progress": "Прогресс Таймеров",
+"Numbers are in seconds": "Числа в Секундах"
 # that is all...
-
 }

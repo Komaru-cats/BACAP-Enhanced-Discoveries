@@ -1,0 +1,841 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_horse_armor"
+    },
+    "title": {
+      "translate": "Big Horse Adventure"
+    },
+    "description": {
+      "translate": "Discover every biome in every dimension on a Horse",
+      "color": "#FF2A2A"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:challenges/pooch_purge_pilot",
+  "criteria": {
+    "river": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:river"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "swamp": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:swamp"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "desert": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:desert"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "snowy_taiga": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:snowy_taiga"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "badlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:badlands"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:forest"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "stony_shore": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:stony_shore"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "snowy_plains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:snowy_plains"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "wooded_badlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:wooded_badlands"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "savanna": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:savanna"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "plains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:plains"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "frozen_river": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:frozen_river"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "old_growth_pine_taiga": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:old_growth_pine_taiga"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "snowy_beach": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:snowy_beach"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "deep_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:deep_ocean"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "sparse_jungle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:sparse_jungle"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:ocean"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "windswept_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:windswept_hills"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "jungle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:jungle"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "beach": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:beach"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "savanna_plateau": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:savanna_plateau"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "dark_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:dark_forest"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "taiga": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:taiga"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "birch_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:birch_forest"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "mushroom_fields": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:mushroom_fields"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "windswept_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:windswept_forest"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "cold_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:cold_ocean"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "warm_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:warm_ocean"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "lukewarm_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:lukewarm_ocean"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "frozen_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:frozen_ocean"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "deep_frozen_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:deep_frozen_ocean"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "deep_lukewarm_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:deep_lukewarm_ocean"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "deep_cold_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:deep_cold_ocean"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "bamboo_jungle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:bamboo_jungle"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "sunflower_plains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:sunflower_plains"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "windswept_gravelly_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:windswept_gravelly_hills"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "flower_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:flower_forest"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "ice_spikes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:ice_spikes"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "old_growth_birch_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:old_growth_birch_forest"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "old_growth_spruce_taiga": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:old_growth_spruce_taiga"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "windswept_savanna": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:windswept_savanna"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "eroded_badlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:eroded_badlands"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "meadow": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:meadow"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "grove": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:grove"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "snowy_slopes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:snowy_slopes"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "frozen_peaks": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:frozen_peaks"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "jagged_peaks": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:jagged_peaks"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "stony_peaks": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:stony_peaks"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "lush_caves": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:lush_caves"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "dripstone_caves": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:dripstone_caves"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "nether_wastes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:nether_wastes"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "crimson_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:crimson_forest"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "warped_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:warped_forest"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "soul_sand_valley": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:soul_sand_valley"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "basalt_deltas": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:basalt_deltas"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "the_end": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:the_end"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "small_end_islands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:small_end_islands"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "end_highlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:end_highlands"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "end_midlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:end_midlands"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "end_barrens": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:end_barrens"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "mangrove_swamp": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:mangrove_swamp"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "deep_dark": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:deep_dark"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    },
+    "cherry_grove": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:cherry_grove"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:challenges/big_horse_adventure"
+  }
+}

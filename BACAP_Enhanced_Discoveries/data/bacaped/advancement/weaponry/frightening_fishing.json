@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ward_armor_trim_smithing_template",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Frightening Fishing"
+    },
+    "description": {
+      "translate": "Use a fishing rod to hook a Warden",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bacaped:weaponry/explosive_fisherman",
+  "criteria": {
+    "catch_warden": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": [],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:warden"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:weaponry/frightening_fishing"
+  }
+}

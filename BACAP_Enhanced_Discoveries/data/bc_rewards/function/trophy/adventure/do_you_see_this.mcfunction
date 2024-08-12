@@ -1,0 +1,2 @@
+give @s minecraft:emerald[minecraft:enchantment_glint_override=1b,custom_name='{"italic":false,"bold":true,"color":"#FD1401","translate":"Ruby"}',lore=['{"color": "#FD1401", "translate": "Priceless..."}','{"text":" "}','{"color":"gray","translate":"Awarded for achieving"}','{"italic":false,"color":"dark_purple","translate":"Do You See This?"}'],custom_model_data=131,hide_additional_tooltip={},custom_data={Trophy:1}] 1
+tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Ruby"}]}

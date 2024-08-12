@@ -1,0 +1,101 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:slime_ball"
+    },
+    "title": {
+      "translate": "Jump for Joy"
+    },
+    "description": {
+      "translate": "Kill every jumping mob while both you and it have the jump boost effect"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/hopping_mad",
+  "criteria": {
+    "rabbit": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "effects": {
+            "minecraft:jump_boost": {}
+          }
+        },
+        "entity": {
+          "type": "minecraft:rabbit",
+          "effects": {
+            "minecraft:jump_boost": {}
+          }
+        }
+      }
+    },
+    "slime": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "effects": {
+            "minecraft:jump_boost": {}
+          }
+        },
+        "entity": {
+          "type": "minecraft:slime",
+          "effects": {
+            "minecraft:jump_boost": {}
+          }
+        }
+      }
+    },
+    "magma_cube": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "effects": {
+            "minecraft:jump_boost": {}
+          }
+        },
+        "entity": {
+          "type": "minecraft:magma_cube",
+          "effects": {
+            "minecraft:jump_boost": {}
+          }
+        }
+      }
+    },
+    "frog": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "effects": {
+            "minecraft:jump_boost": {}
+          }
+        },
+        "entity": {
+          "type": "minecraft:frog",
+          "effects": {
+            "minecraft:jump_boost": {}
+          }
+        }
+      }
+    },
+    "goat": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "effects": {
+            "minecraft:jump_boost": {}
+          }
+        },
+        "entity": {
+          "type": "minecraft:goat",
+          "effects": {
+            "minecraft:jump_boost": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:potion/jump_for_joy"
+  }
+}

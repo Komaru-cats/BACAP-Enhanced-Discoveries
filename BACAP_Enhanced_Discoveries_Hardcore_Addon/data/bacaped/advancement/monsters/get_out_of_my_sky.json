@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:phantom_membrane"
+    },
+    "title": {
+      "translate": "Get out of my sky"
+    },
+    "description": {
+      "translate": "Get hurt by a Phantom while you are 320 blocks above the world"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:monsters/phantom_rider",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "min": 319
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:phantom"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:monsters/get_out_of_my_sky"
+  }
+}

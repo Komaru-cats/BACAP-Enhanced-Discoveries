@@ -1,0 +1,72 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            1321839152,
+            1083133311,
+            -1417581316,
+            -1788229706
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTkxY2ZmNDZkN2ExYjAwOWZhYWQ0YWM0OTQ5YWZjZjcxMGRkY2ViZGQzYTEyYmNkZWE1ZTI3M2NmZmYwYTVmNSJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "Pandas Express"
+    },
+    "description": {
+      "translate": "Leash a Boat with a two Pandas inside",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/zoologist",
+  "criteria": {
+    "use_lead": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": {
+          "type": "minecraft:boat",
+          "nbt": "{Passengers:[{id:\"minecraft:panda\"},{id:\"minecraft:panda\"}]}"
+        }
+      }
+    },
+    "look_panda": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type": "minecraft:panda",
+              "vehicle": {
+                "nbt": "{Passengers:[{id:\"minecraft:panda\"},{id:\"minecraft:panda\"}],leash:{}}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "use_lead",
+      "look_panda"
+    ]
+  ],
+  "rewards": {
+    "function": "bc_rewards:biomes/pandas_express"
+  }
+}

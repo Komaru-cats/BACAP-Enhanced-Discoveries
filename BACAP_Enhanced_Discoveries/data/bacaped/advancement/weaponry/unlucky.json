@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_banner",
+      "components": {
+        "minecraft:banner_patterns": [
+          {
+            "color": "black",
+            "pattern": "stripe_bottom"
+          },
+          {
+            "color": "black",
+            "pattern": "stripe_left"
+          },
+          {
+            "color": "white",
+            "pattern": "border"
+          }
+        ]
+      }
+    },
+    "title": {
+      "translate": "Unlucky"
+    },
+    "description": {
+      "translate": "Die twice within 5 seconds",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/loser",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:weaponry/unlucky"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_horse_armor",
+      "components": {
+        "minecraft:dyed_color": {
+          "rgb": 16083819
+        }
+      }
+    },
+    "title": {
+      "translate": "Horse Health Hunter"
+    },
+    "description": {
+      "translate": "Ride a Horse with less than 18 health and a Horse with more than 26 health",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:animal/horse_to_honse",
+  "criteria": {
+    "sit_on_sick_horse": {
+      "trigger": "minecraft:impossible"
+    },
+    "sit_on_healthy_horse": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:animal/horse_health_hunter"
+  }
+}
