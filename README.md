@@ -6,7 +6,7 @@
   
 | Tasks | Goals | Challenges | Super Challenges | Hidden Advancements |
 |:-----:|:-----:|:----------:|:----------------:|:-------------------:|
-|   25  |   79  |     102     |        44        |          38         |
+|   25  |   79  |     101     |        43        |          38         |
 
 **[List with all advancements](https://komaru-cats.github.io/BACAP-Enhanced-Discoveries/)**
 
@@ -17,10 +17,15 @@
 </div>
 
 ## Lag-Friendly
-**BACAPED 1.x; Tested on Fabric 1.20.4 without any mods except Spark Profiler**
+**BACAPED 2.2; Tested on Fabric 1.21**
+- Mods: Spark
+- Players: 30
+- Specs:
+  - I5 10400 6 cores
+  - 6GB RAM
 <div align="center">
   
-![Chart with lags](https://github.com/Komaru-cats/BACAP-Enhanced-Discoveries/blob/main/chart.png)
+![Chart with lags](https://github.com/Komaru-cats/BACAP-Enhanced-Discoveries/blob/main/chart.png?raw=true)
 </div>
 
 ## Languages Support 
