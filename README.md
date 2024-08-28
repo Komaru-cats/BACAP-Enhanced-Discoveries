@@ -13,7 +13,7 @@
 ### Examples
 <div align="center">
   
-<img src="https://cdn.modrinth.com/data/Qx9yFN48/images/26683e75217d147c41bfded25625b939f61a7083.png" alt="Advancement Examples" width="60%" height="60%">
+<img src="https://cdn.modrinth.com/data/Qx9yFN48/images/5aaf2fac43be5952765e2b3e3be9db8712646dac.png" alt="Advancement Examples" width="60%" height="60%">
 </div>
 
 ## Lag-Friendly
