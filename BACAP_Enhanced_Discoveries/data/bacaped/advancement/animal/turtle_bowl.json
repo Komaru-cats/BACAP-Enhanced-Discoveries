@@ -10,10 +10,12 @@
       "translate": "Turtle Bowl"
     },
     "description": {
-      "translate": "Kill the Turtle with lightning to get a bowl"
+      "translate": "Kill the Turtle with lightning to get a bowl",
+      "color": "dark_purple"
     },
     "frame": "challenge",
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "hidden": false
   },
   "parent": "blazeandcave:animal/turtle_army",
   "criteria": {
