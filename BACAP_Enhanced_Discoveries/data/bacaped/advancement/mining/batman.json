@@ -29,7 +29,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:bat",
                 "value": {
-                  "min": 64
+                  "min": 63
                 }
               }
             ]

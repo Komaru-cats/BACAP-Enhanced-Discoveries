@@ -10,7 +10,7 @@
       "translate": "Titan of Olympian Gold Triumphs"
     },
     "description": {
-      "translate": "Swim 500km",
+      "translate": "Swim 250km",
       "color": "light_purple"
     },
     "frame": "challenge",
@@ -30,7 +30,7 @@
                 "type": "minecraft:custom",
                 "stat": "minecraft:swim_one_cm",
                 "value": {
-                  "min": 5000000
+                  "min": 25000000
                 }
               }
             ]
