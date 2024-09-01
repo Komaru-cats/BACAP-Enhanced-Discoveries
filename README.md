@@ -1,5 +1,5 @@
 # BACAP-Enhanced-Discoveries
-**"Enhanced discoveries" is an add-on for [BACAP](https://modrinth.com/datapack/blazeandcaves-advancements-pack) with new advancements.**
+**"Enhanced discoveries" is an expansion for [BACAP](https://modrinth.com/datapack/blazeandcaves-advancements-pack) with new advancements.**
 
 # Features
 **Over 280 new Advancements**
@@ -13,7 +13,7 @@
 ### Examples
 <div align="center">
   
-<img src="https://cdn.modrinth.com/data/Qx9yFN48/images/5aaf2fac43be5952765e2b3e3be9db8712646dac.png" alt="Advancement Examples" width="60%" height="60%">
+<img src="https://cdn.modrinth.com/data/Qx9yFN48/images/5aaf2fac43be5952765e2b3e3be9db8712646dac.png" alt="Advancement Examples" width="80%" height="80%">
 </div>
 
 ## Lag-Friendly
@@ -70,7 +70,8 @@ Once the datapack is installed, go into the world. A message should pop up sayin
 If you have any questions, bugs, suggestions you can [create an issue on github](https://github.com/Komaru-cats/BACAP-Enhanced-Discoveries/issues) or [join our discord server](https://discord.gg/j9VKsyXPhz)
 
 # Credits
-- Initial Hardcore Addon - @rewerze
+- @rewerze - Initial Hardcore Addon Version
+- @yungieamongie - A huge help with bug finding
 
 Not all advancements were completely invented by us, some were taken from these places:
 - [Bacap Torture Edition](https://www.planetminecraft.com/data-pack/bacap-torture-edition/?ysclid=lqt5bs9pwk88210964)
