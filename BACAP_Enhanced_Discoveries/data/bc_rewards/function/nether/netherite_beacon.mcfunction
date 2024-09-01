@@ -72,7 +72,7 @@ execute if score exp bac_settings matches -2 if entity @s[team=bac_team_light_pu
 execute if score exp bac_settings matches -2 if entity @s[team=bac_team_yellow] unless score bacaped:nether/netherite_beacon bac_obtained_yellow matches 1.. run function bc_rewards:exp/nether/netherite_beacon
 execute if score exp bac_settings matches -2 if entity @s[team=bac_team_white] unless score bacaped:nether/netherite_beacon bac_obtained_white matches 1.. run function bc_rewards:exp/nether/netherite_beacon
 
-function bc_rewards:score_add
+#function bc_rewards:score_add
 
 execute unless score bacaped:nether/netherite_beacon bac_obtained matches 1.. run function bc_rewards:first_score_add
 execute if entity @s[team=bac_team_black] unless score bacaped:nether/netherite_beacon bac_obtained_black matches 1.. run function bc_rewards:first_team_score_add

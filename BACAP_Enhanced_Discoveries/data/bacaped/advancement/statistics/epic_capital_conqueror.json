@@ -33,17 +33,17 @@
   "parent": "blazeandcave:statistics/stonks",
   "criteria": {
     "trigger": {
-      "trigger": "minecraft:location",
+      "trigger": "minecraft:villager_trade",
       "conditions": {
         "player": {
           "type_specific": {
-            "type": "player",
+            "type": "minecraft:player",
             "stats": [
               {
                 "type": "minecraft:custom",
                 "stat": "minecraft:traded_with_villager",
                 "value": {
-                  "min": 10000
+                  "min": 9999
                 }
               }
             ]

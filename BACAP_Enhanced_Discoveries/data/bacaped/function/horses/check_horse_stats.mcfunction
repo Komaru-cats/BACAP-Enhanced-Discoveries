@@ -3,7 +3,7 @@ execute store result score @s bacaped_horse_health run data get entity @s RootVe
 execute store result score @s bacaped_horse_jump run data get entity @s RootVehicle.Entity.attributes[{id:"minecraft:generic.jump_strength"}].base 10000
 
 # Horse Health Hunter
-execute if entity @s[advancements={bacaped:animals/horse_health_hunter=false}] run function bacaped:horses/check_horse_health_hunter
+execute as @a if entity @s[advancements={bacaped:animal/horse_health_hunter=false}] run function bacaped:horses/check_horse_health_hunter
 
 # Novice Scout
 execute if entity @s[advancements={bacaped:statistics/novice_scout=false}] if score @s bacaped_horse_speed matches 2135.. run advancement grant @s only bacaped:statistics/novice_scout

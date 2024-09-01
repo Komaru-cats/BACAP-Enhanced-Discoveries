@@ -72,7 +72,7 @@ execute if score exp bac_settings matches -2 if entity @s[team=bac_team_light_pu
 execute if score exp bac_settings matches -2 if entity @s[team=bac_team_yellow] unless score bacaped:statistics/wrath_of_the_western_frontier bac_obtained_yellow matches 1.. run function bc_rewards:exp/statistics/wrath_of_the_western_frontier
 execute if score exp bac_settings matches -2 if entity @s[team=bac_team_white] unless score bacaped:statistics/wrath_of_the_western_frontier bac_obtained_white matches 1.. run function bc_rewards:exp/statistics/wrath_of_the_western_frontier
 
-function bc_rewards:score_add
+#function bc_rewards:score_add
 
 execute unless score bacaped:statistics/wrath_of_the_western_frontier bac_obtained matches 1.. run function bc_rewards:first_score_add
 execute if entity @s[team=bac_team_black] unless score bacaped:statistics/wrath_of_the_western_frontier bac_obtained_black matches 1.. run function bc_rewards:first_team_score_add

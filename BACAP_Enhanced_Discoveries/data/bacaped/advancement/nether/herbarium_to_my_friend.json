@@ -263,7 +263,7 @@
           }
         },
         "item": {
-          "items": "minecraft:pitcher_plant"
+          "items": "minecraft:rose_bush"
         }
       }
     },
@@ -277,7 +277,7 @@
           }
         },
         "item": {
-          "items": "minecraft:pitcher_plant"
+          "items": "minecraft:sunflower"
         }
       }
     }
