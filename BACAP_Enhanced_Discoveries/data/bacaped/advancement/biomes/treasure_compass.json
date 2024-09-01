@@ -8,10 +8,11 @@
     },
     "description": {
       "translate": "Open the treasure with the Dolphin's help",
-      "color": "#75E1FF"
+      "color": "dark_purple"
     },
-    "frame": "goal",
-    "announce_to_chat": true
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": false
   },
   "parent": "blazeandcave:biomes/echolocation",
   "criteria": {

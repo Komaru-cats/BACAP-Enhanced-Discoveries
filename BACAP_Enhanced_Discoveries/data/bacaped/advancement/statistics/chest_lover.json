@@ -16,11 +16,11 @@
   "parent": "bacaped:statistics/my_chest",
   "criteria": {
     "trigger": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:default_block_use",
       "conditions": {
         "player": {
           "type_specific": {
-            "type": "player",
+            "type": "minecraft:player",
             "stats": [
               {
                 "type": "minecraft:custom",
@@ -31,7 +31,17 @@
               }
             ]
           }
-        }
+        },
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:chest"
+              }
+            }
+          }
+        ]
       }
     }
   },

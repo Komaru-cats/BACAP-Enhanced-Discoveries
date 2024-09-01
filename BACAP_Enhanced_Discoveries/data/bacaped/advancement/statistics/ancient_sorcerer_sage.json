@@ -14,17 +14,17 @@
       "color": "light_purple"
     },
     "frame": "challenge",
-    "hidden": true,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "hidden": true
   },
   "parent": "blazeandcave:statistics/elderly_enchanter",
   "criteria": {
     "trigger": {
-      "trigger": "minecraft:location",
+      "trigger": "minecraft:enchanted_item",
       "conditions": {
         "player": {
           "type_specific": {
-            "type": "player",
+            "type": "minecraft:player",
             "stats": [
               {
                 "type": "minecraft:custom",

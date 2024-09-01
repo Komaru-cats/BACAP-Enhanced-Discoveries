@@ -20,11 +20,11 @@
   "parent": "blazeandcave:statistics/two_by_two",
   "criteria": {
     "trigger": {
-      "trigger": "minecraft:location",
+      "trigger": "minecraft:bred_animals",
       "conditions": {
         "player": {
           "type_specific": {
-            "type": "player",
+            "type": "minecraft:player",
             "stats": [
               {
                 "type": "minecraft:custom",

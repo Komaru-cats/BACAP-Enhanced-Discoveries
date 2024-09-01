@@ -493,6 +493,21 @@
                 ]
               }
             }
+          },
+          "equipment": {
+            "offhand": {
+              "items": [
+                "minecraft:potion",
+                "minecraft:splash_potion",
+                "minecraft:lingering_potion"
+              ],
+              "predicates": {
+                "minecraft:potion_contents": [
+                  "minecraft:mundane",
+                  "minecraft:thick"
+                ]
+              }
+            }
           }
         }
       }

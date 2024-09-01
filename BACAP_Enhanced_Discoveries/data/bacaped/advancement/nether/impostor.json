@@ -16,7 +16,7 @@
   "parent": "blazeandcave:nether/roadhog",
   "criteria": {
     "ride_a_pig_in_the_nether": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "minecraft:started_riding",
       "conditions": {
         "player": {
           "vehicle": {

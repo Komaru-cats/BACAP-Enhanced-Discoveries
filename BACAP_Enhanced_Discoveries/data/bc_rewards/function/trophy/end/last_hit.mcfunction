@@ -1,2 +1,2 @@
-give @s minecraft:dragon_head[custom_name='{"italic":false,"bold":true,"color":"#AC6DFF","translate":"Dragon Head"}',lore=['{"color": "#AC6DFF", "translate": "Armor is for amateurs"}','{"text":" "}','{"color":"gray","translate":"Awarded for achieving"}','{"italic":false,"color":"dark_purple","translate":"Last Hit"}'],custom_model_data=131,hide_additional_tooltip={},custom_data={Trophy:1}] 1
-tellraw @s {"color":"gold","text":" +1 ","extra":[{"translate":"Dragon Head"}]}
+give @s minecraft:dragon_head[custom_name='{italic:false,bold:true,color:"#AC6DFF",translate:"Dragon Head"}', lore=['{color:"#AC6DFF",translate:"Armor is for amateurs"}','{text:" "}','{translate:"Awarded for achieving",color:"gray"}','{translate:"Last Hit",color:"dark_purple",italic:false}'], custom_model_data=131, hide_additional_tooltip={}, custom_data={Trophy:1}] 1
+tellraw @s {"color": "gold", "text": " +1 ", "extra": [{"translate": "Dragon Head"}]}

@@ -17,11 +17,11 @@
   "parent": "bacaped:statistics/craftsman_novice",
   "criteria": {
     "trigger": {
-      "trigger": "minecraft:location",
+      "trigger": "minecraft:default_block_use",
       "conditions": {
         "player": {
           "type_specific": {
-            "type": "player",
+            "type": "minecraft:player",
             "stats": [
               {
                 "type": "minecraft:custom",
@@ -32,7 +32,17 @@
               }
             ]
           }
-        }
+        },
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:crafting_table"
+              }
+            }
+          }
+        ]
       }
     }
   },

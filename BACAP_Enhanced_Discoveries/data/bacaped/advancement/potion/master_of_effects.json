@@ -34,12 +34,7 @@
       "trigger": "minecraft:effects_changed",
       "conditions": {
         "effects": {
-          "minecraft:trial_omen": {
-            "amplifier": {
-              "min": 4,
-              "max": 0
-            }
-          }
+          "minecraft:trial_omen": {}
         }
       }
     },

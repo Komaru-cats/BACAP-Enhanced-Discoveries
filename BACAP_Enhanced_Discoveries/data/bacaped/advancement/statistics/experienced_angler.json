@@ -29,7 +29,7 @@
                 "type": "minecraft:custom",
                 "stat": "minecraft:fish_caught",
                 "value": {
-                  "min": 100
+                  "min": 99
                 }
               }
             ]
