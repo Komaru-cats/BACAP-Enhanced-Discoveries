@@ -26,3 +26,16 @@ html, body {
     background: linear-gradient(90deg, var(--cell-color-start), var(--cell-color-end) 70%);
     z-index: -1;
 }
+
+
+
+.cell-wrap {
+    white-space: normal;
+}
+
+.cell-wrap.hidden {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+

@@ -111,16 +111,64 @@ const columnDefs = [
                 };
             }
             return null;
-        }
+        },
+        flex: 10
     },
-    {headerName: 'Tab', field: 'tab', sortable: true, filter: CustomCheckboxFilter},
-    {headerName: 'Description', field: 'description', sortable: true, filter: true, flex: 1},
-    {headerName: 'Color', field: 'color', sortable: true, filter: true},
-    {headerName: 'Frame', field: 'frame', sortable: true, filter: true},
-    {headerName: 'Trophy', field: 'trophy', sortable: true, filter: true},
-    {headerName: 'Reward', field: 'reward', sortable: true, filter: true},
-    {headerName: 'Exp', field: 'exp', sortable: true, filter: true},
+    {headerName: 'Tab', field: 'tab', sortable: true, filter: CustomCheckboxFilter, flex: 5},
+    {
+        headerName: 'Description',
+        field: 'description',
+        sortable: true,
+        filter: true,
+        flex: 30,
+        autoHeight:true,
+        wrapText: true,
+    },
+    {headerName: 'Type', field: 'type', sortable: true, filter: true, flex: 8, comparator: advTypeComparator},
+    {headerName: 'Trophy', field: 'trophy', sortable: true, filter: true, flex: 15},
+    {headerName: 'Reward', field: 'reward', sortable: true, filter: true, flex: 10},
+    {headerName: 'Exp', field: 'exp', sortable: true, filter: true, flex: 5},
+    {
+        headerName: 'Requirements',
+        field: 'req',
+        sortable: true,
+        filter: true,
+        flex: 20,
+        cellClass: "cell-wrap hidden",
+        onCellClicked: toggleCellWrap,
+        autoHeight:true,
+    },
+    {headerName: 'Color', field: 'color', sortable: true, filter: true, hide: true, flex: 0},
 ];
+
+
+const advTypeLevel = {
+    "Task": 0,
+    "Goal": 1,
+    "Challenge": 2,
+    "Super Challenge": 3,
+    "Hidden": 4,
+    "Milestone": 5,
+    "Advancement Legend": 6
+}
+
+function advTypeComparator(valueA, valueB, nodeA, nodeB, isInverted) {
+    const valueAIndex = advTypeLevel[valueA]
+    const valueBIndex = advTypeLevel[valueB]
+    if (valueAIndex < valueBIndex) return -1
+    if (valueAIndex > valueBIndex) return 1
+    return 0;
+}
+
+
+
+function toggleCellWrap(params) {
+    const cellDiv = params.event.target
+    console.log(cellDiv)
+    if (cellDiv){
+        cellDiv.classList.toggle('cell-wrap');
+    }
+}
 
 
 const gridOptions = {
