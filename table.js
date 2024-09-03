@@ -92,22 +92,27 @@ class DetailsRenderer {
             let details = document.createElement('details');
 
             let summary = document.createElement('summary');
-            summary.textContent = params.value
+            summary.textContent = params.value;
             summary.style.cursor = 'pointer';
 
             let content = document.createElement('div');
             content.classList.add('details-content');
-            content.textContent = "Requirements: " + params.data.req
 
-            details.appendChild(content);
+            let strongText = document.createElement('strong');
+            strongText.textContent = "Requirements: ";
+
+            let textNode = document.createTextNode(params.data.req);
+
+            content.appendChild(strongText);
+            content.appendChild(textNode);
+
             details.appendChild(summary);
+            details.appendChild(content);
 
-            this.eGui = details
+            this.eGui = details;
         } else {
-            this.eGui = document.createTextNode(params.value)
+            this.eGui = document.createTextNode(params.value);
         }
-
-
     }
 
     getGui() {
@@ -121,7 +126,6 @@ class DetailsRenderer {
 
 
 function hexToRgba(hex, alpha) {
-    let r = 0, g = 0, b = 0;
 
     r = parseInt(hex[1] + hex[2], 16);
     g = parseInt(hex[3] + hex[4], 16);
@@ -146,8 +150,7 @@ const columnDefs = [
             }
             return null;
         },
-        flex: 10,
-        suppressDragLeaveHidesColumns: true,
+        flex: 12,
         lockPosition: 'left'
     },
     {
@@ -155,8 +158,7 @@ const columnDefs = [
         field: 'tab',
         sortable: true,
         filter: CustomCheckboxFilter,
-        flex: 5,
-        suppressDragLeaveHidesColumns: false,
+        flex: 8,
     },
     {
         headerName: 'Description',
@@ -166,33 +168,29 @@ const columnDefs = [
         flex: 30,
         autoHeight: true,
         wrapText: true,
-        suppressDragLeaveHidesColumns: true,
         cellRenderer: DetailsRenderer
     },
     {
         headerName: 'Type',
         field: 'type',
         sortable: true,
-        filter: true,
         flex: 8,
-        suppressDragLeaveHidesColumns: true,
-        comparator: advTypeComparator
+        comparator: advTypeComparator,
+        filter: CustomCheckboxFilter
     },
     {
         headerName: 'Trophy',
         field: 'trophy',
         sortable: true,
         filter: true,
-        flex: 15,
-        suppressDragLeaveHidesColumns: true
+        flex: 13,
     },
     {
         headerName: 'Reward',
         field: 'reward',
         sortable: true,
         filter: true,
-        flex: 10,
-        suppressDragLeaveHidesColumns: true,
+        flex: 11,
     },
     {
         headerName: 'Exp',
@@ -200,7 +198,6 @@ const columnDefs = [
         sortable: true,
         filter: true,
         flex: 5,
-        suppressDragLeaveHidesColumns: true,
     }
 ];
 
