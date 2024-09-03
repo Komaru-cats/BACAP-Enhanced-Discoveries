@@ -745,7 +745,7 @@
     "trophy": "",
     "reward": "",
     "exp": 150,
-    "req": ""
+    "req": "Have a Skeleton Horse, Strider, Camel, Mule, Llama, Donkey, Chest Boat, Horse, Pig, Boat, Minecart within 20 blocks of you"
   },
   {
     "title": "What about Mooblooms?",
@@ -778,7 +778,7 @@
     "trophy": "Fake Horse",
     "reward": "",
     "exp": 100,
-    "req": "Have a Skeleton Horse, Strider, Camel, Mule, Llama, Donkey, Chest Boat, Horse, Pig, Boat, Minecart within 20 blocks of you"
+    "req": ""
   },
   {
     "title": "You're Bald",
@@ -1563,7 +1563,7 @@
   },
   {
     "title": "Master Shearer",
-    "description": "Create a shears with all possible enchantments at max level",
+    "description": "Create shears with all possible enchantments at max level",
     "color": "#AA00AA",
     "tab": "Enchanting",
     "type": "Challenge",
@@ -2373,7 +2373,7 @@
     "trophy": "",
     "reward": "",
     "exp": 100,
-    "req": "Fill your inventory with Mundane or Thich potions"
+    "req": "Fill your inventory with Mundane or Thick potions"
   },
   {
     "title": "You're not the Zillager",
