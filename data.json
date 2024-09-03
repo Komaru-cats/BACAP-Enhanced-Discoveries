@@ -8,7 +8,7 @@
     "trophy": "Advancement's Stairs",
     "reward": "",
     "exp": 100,
-    "req": "насрал"
+    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the cobblestone stairs"
   },
   {
     "title": "Copper Armor",
@@ -19,7 +19,7 @@
     "trophy": "",
     "reward": "1 Smithing Template",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Din-Don",
@@ -30,7 +30,7 @@
     "trophy": "Magic Bell",
     "reward": "16 Bell",
     "exp": 200,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Do You See This?",
@@ -41,7 +41,7 @@
     "trophy": "Ruby",
     "reward": "16 Emerald",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Emerald Armor?",
@@ -52,7 +52,7 @@
     "trophy": "",
     "reward": "8 Emerald",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Eye Contact Master",
@@ -63,7 +63,7 @@
     "trophy": "",
     "reward": "4 Ender Pearl",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": "Look at the Enderman less than 1 block away"
   },
   {
     "title": "Fake Netherite Armor",
@@ -74,7 +74,7 @@
     "trophy": "",
     "reward": "8 Black Dye",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "General Cleaning",
@@ -85,7 +85,7 @@
     "trophy": "Broomstick",
     "reward": "",
     "exp": 300,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": "Use your brush on a spawner and inside Igloo, Desert Pyramid, Jungle Pyramid, Swamp Hut, desert Villager's House, plains Villager's House, savanna Villager's House, snowy Villager's House, taiga Villager's House, Mineshaft, Mesa Mineshaft, Stronghold, Fortress, End City, Monument, Mansion, cold Ocean Ruin, warm Ocean Ruin, Shipwreck, Buried Treasure, Pillager Outpost, Ruined Portal, Bastion, Trial Chambers, Trail Ruins"
   },
   {
     "title": "I Hate All of You",
@@ -96,7 +96,7 @@
     "trophy": "Bread",
     "reward": "16 Bread",
     "exp": 200,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Jurassic Park",
@@ -107,7 +107,7 @@
     "trophy": "",
     "reward": "4 Sniffer Egg",
     "exp": 150,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Komaru ♥",
@@ -118,7 +118,7 @@
     "trophy": "Komaru's Head",
     "reward": "64 Raw Cod",
     "exp": 0,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Midnight Snack",
@@ -129,7 +129,7 @@
     "trophy": "Watch",
     "reward": "8 Cookie",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": "Buy cookies from a Villager between 3 a.m. and 4 a.m."
   },
   {
     "title": "My Personal Slave",
@@ -140,7 +140,7 @@
     "trophy": "",
     "reward": "16 Amethyst Shard",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Nobody Needs Rockets!",
@@ -151,7 +151,7 @@
     "trophy": "",
     "reward": "5 Wind Charge",
     "exp": 80,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Not Profitable Transportation",
@@ -162,7 +162,7 @@
     "trophy": "",
     "reward": "32 Terracotta",
     "exp": 150,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "No-Water Team",
@@ -173,7 +173,7 @@
     "trophy": "",
     "reward": "8 Sponge",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Oh, you again?",
@@ -184,7 +184,7 @@
     "trophy": "",
     "reward": "1 Acacia Door",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": "Open the door looking at the Wandering Trader through it"
   },
   {
     "title": "Ominous Ocean",
@@ -195,7 +195,7 @@
     "trophy": "Ominous Bottle",
     "reward": "4 Ominous Trial Key",
     "exp": 2000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "On Site Sale",
@@ -206,7 +206,7 @@
     "trophy": "",
     "reward": "32 Brick",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "On the Wings of the Wind",
@@ -217,7 +217,7 @@
     "trophy": "Storm Charge",
     "reward": "10 Wind Charge",
     "exp": 200,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Placeholder",
@@ -228,7 +228,7 @@
     "trophy": "",
     "reward": "",
     "exp": 75,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Real Immortal",
@@ -239,7 +239,7 @@
     "trophy": "",
     "reward": "1 Potion",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Real Netherite Armor",
@@ -250,7 +250,7 @@
     "trophy": "Real Netherite Template",
     "reward": "2 Netherite Scrap",
     "exp": 250,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Restoring Population",
@@ -261,7 +261,7 @@
     "trophy": "Salt",
     "reward": "16 Sniffer Egg",
     "exp": 300,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Save me!",
@@ -272,7 +272,7 @@
     "trophy": "",
     "reward": "2 Block of Iron",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Silent Armor",
@@ -283,7 +283,7 @@
     "trophy": "The Silence",
     "reward": "",
     "exp": 200,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Supply Chain",
@@ -294,7 +294,7 @@
     "trophy": "",
     "reward": "32 Dripstone Block",
     "exp": 200,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Suspicious Miner",
@@ -305,7 +305,7 @@
     "trophy": "Awkward Shovel",
     "reward": "",
     "exp": 500,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Sus Miner",
@@ -316,7 +316,7 @@
     "trophy": "",
     "reward": "",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "That's a New Style",
@@ -327,7 +327,7 @@
     "trophy": "",
     "reward": "",
     "exp": 30,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "The Beginning of the Day",
@@ -338,7 +338,7 @@
     "trophy": "",
     "reward": "",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": "Ring the Bell between 6 a.m. and 6:30 a.m."
   },
   {
     "title": "The Cult of the Spyglass",
@@ -349,7 +349,7 @@
     "trophy": "",
     "reward": "1 Spyglass",
     "exp": 35,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "The Hardest And Unfairest One Yet",
@@ -360,7 +360,7 @@
     "trophy": "Not an Ordinary Chest",
     "reward": "",
     "exp": 0,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Thorny Prices",
@@ -371,7 +371,7 @@
     "trophy": "",
     "reward": "",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Uncontrolled Reproduction",
@@ -382,7 +382,7 @@
     "trophy": "",
     "reward": "4 Amethyst Shard",
     "exp": 30,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Wandering Caravane",
@@ -393,7 +393,7 @@
     "trophy": "",
     "reward": "8 Emerald",
     "exp": 70,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Warden's Thrust",
@@ -404,7 +404,7 @@
     "trophy": "",
     "reward": "",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Water-Dependent",
@@ -415,7 +415,7 @@
     "trophy": "",
     "reward": "",
     "exp": 25,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": "Stand on the pot and throw the potion into it"
   },
   {
     "title": "Water Team",
@@ -426,7 +426,7 @@
     "trophy": "",
     "reward": "",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Accept Cookies",
@@ -437,7 +437,7 @@
     "trophy": "",
     "reward": "10 Cookie",
     "exp": 10,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Air Balloon",
@@ -448,7 +448,7 @@
     "trophy": "",
     "reward": "",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "A Ewe for Every Hue",
@@ -459,7 +459,7 @@
     "trophy": "",
     "reward": "2 Lead",
     "exp": 75,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Baby Zoo",
@@ -470,7 +470,7 @@
     "trophy": "Baby Pig",
     "reward": "",
     "exp": 400,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": "Have a baby Axolotl, Cat, Chicken, Cow, Donkey, Fox, Horse, Mooshroom, Mule, Ocelot, Pig, Rabbit, Sheep, Strider, Turtle, Bee, Goat, Llama, Panda, Polar Bear, Wolf, Hoglin, Camel, Sniffer, Armadillo within 32 blocks of you"
   },
   {
     "title": "Beezlebooster",
@@ -481,7 +481,7 @@
     "trophy": "Gray Bee",
     "reward": "",
     "exp": 150,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Buff Axolotl",
@@ -492,7 +492,7 @@
     "trophy": "",
     "reward": "1 Bucket of Tropical Fish",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Camel Adventure",
@@ -503,7 +503,7 @@
     "trophy": "The World Cactus",
     "reward": "16 Cactus",
     "exp": 300,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Cheers!",
@@ -514,7 +514,7 @@
     "trophy": "",
     "reward": "1 Shears",
     "exp": 80,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": "Use shears on the Sheep, Mooshroom, Snow Golem, Bogged, Wolf, Beehive, Bee Nest, Pumpkin, Cave Vines, Kelp, Weeping Vines, Twisting Vines, "
   },
   {
     "title": "Crab Should Win",
@@ -525,7 +525,7 @@
     "trophy": "Crab",
     "reward": "4 Armadillo Scute",
     "exp": 200,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Desert Warrior",
@@ -536,7 +536,7 @@
     "trophy": "",
     "reward": "5 Cactus",
     "exp": 30,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Dinner Time",
@@ -547,7 +547,7 @@
     "trophy": "",
     "reward": "8 Bone",
     "exp": 25,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Driven to Death",
@@ -558,7 +558,7 @@
     "trophy": "",
     "reward": "8 Carrot",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Horse Health Hunter",
@@ -569,7 +569,7 @@
     "trophy": "",
     "reward": "2 Hay Bale",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Horse to Honse",
@@ -580,7 +580,7 @@
     "trophy": "",
     "reward": "5 Wheat",
     "exp": 25,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": "Sit on a horse with {Temper:100} NBT tag"
   },
   {
     "title": "Hot!",
@@ -591,7 +591,7 @@
     "trophy": "",
     "reward": "1 Carrot on a Stick",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "I Love Salmons",
@@ -602,7 +602,7 @@
     "trophy": "Salmons's Head",
     "reward": "",
     "exp": 1000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Live Salmon",
@@ -613,7 +613,7 @@
     "trophy": "",
     "reward": "1 Bucket of Salmon",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "More Colorful Wool!",
@@ -624,7 +624,7 @@
     "trophy": "",
     "reward": "",
     "exp": 200,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Ok I Pull Up",
@@ -635,7 +635,7 @@
     "trophy": "",
     "reward": "2 Melon",
     "exp": 10,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "One More Frog!",
@@ -646,7 +646,7 @@
     "trophy": "",
     "reward": "",
     "exp": 53,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Poisoned Ball",
@@ -657,7 +657,7 @@
     "trophy": "",
     "reward": "",
     "exp": 5,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Scared Box",
@@ -668,7 +668,7 @@
     "trophy": "",
     "reward": "",
     "exp": 10,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Skill Issue",
@@ -679,7 +679,7 @@
     "trophy": "",
     "reward": "",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "SnifferSniffEvent",
@@ -690,7 +690,7 @@
     "trophy": "Big Nose",
     "reward": "",
     "exp": 300,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": "Have the Warden and the Sniffer within 8 blocks of you"
   },
   {
     "title": "The Invisible Turtle",
@@ -701,7 +701,7 @@
     "trophy": "Frozen Turtle",
     "reward": "1 Turtle Egg",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "The Sugar Cane Diet",
@@ -712,7 +712,7 @@
     "trophy": "",
     "reward": "4 Sugar Cane",
     "exp": 10,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "The Wool Magnate",
@@ -723,7 +723,7 @@
     "trophy": "The Pinkest Wool",
     "reward": "",
     "exp": 500,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Turtle Bowl",
@@ -734,7 +734,7 @@
     "trophy": "Bowl",
     "reward": "",
     "exp": 200,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "What's the best transport?",
@@ -745,7 +745,7 @@
     "trophy": "",
     "reward": "",
     "exp": 150,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "What about Mooblooms?",
@@ -756,7 +756,7 @@
     "trophy": "Yellow Flower",
     "reward": "",
     "exp": 200,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "What are You Doing in My Swamp",
@@ -767,7 +767,7 @@
     "trophy": "King Shrek",
     "reward": "",
     "exp": 200,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": "Have a Cat, Parrot, Wolf and Warm, Temperate and Cold Forg within 16 blocks of you in the swamp biome"
   },
   {
     "title": "What a Mess This Horse is!",
@@ -778,7 +778,7 @@
     "trophy": "Fake Horse",
     "reward": "",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": "Have a Skeleton Horse, Strider, Camel, Mule, Llama, Donkey, Chest Boat, Horse, Pig, Boat, Minecart within 20 blocks of you"
   },
   {
     "title": "You're Bald",
@@ -789,7 +789,7 @@
     "trophy": "",
     "reward": "",
     "exp": 70,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "You're Part of a Hive Mind Now",
@@ -800,7 +800,7 @@
     "trophy": "Your Mind",
     "reward": "",
     "exp": 500,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Enhanced Legend",
@@ -811,7 +811,7 @@
     "trophy": "Enhanced Boots",
     "reward": "",
     "exp": 10000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Good Dreams!",
@@ -822,7 +822,7 @@
     "trophy": "The Softest Bed",
     "reward": "",
     "exp": 1000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": "Sleep in Snowy Plains, Ice Spikes, Snowy Taiga, Windswept Hills or Gravely Hills or Forest, Taiga, Old Growth Pine or Spruce Taiga, Plains or Sunflower Plains, Forest or Flower Forest, Birch Forest or Old Growth Birch Forest, Dark Forest, Swamp or Mangrove Swamp, Jungle or Sparce Jungle or Bamboo Jungle, River or Frozen River, Beach or Snowy Beach or Stony Shore, Mushroom Fields, Desert, Savanna or Savanna Plateau or Windswept Savanna, Badlands or Wooded Badlands or Eroded Badlands, Warm Ocean, Lukewarm Ocean or Deep Lukewarm Ocean, Ocean or Deep Ocean, Cold Ocean or Deep Cold Ocean, Frozen Ocean or Deep Frozen Ocean, Meadow, Snowy Slopes or Grove, Frozen Peaks or Jagged Peaks or Stony Peaks and Cherry Grove"
   },
   {
     "title": "Hydrodynamic",
@@ -833,7 +833,7 @@
     "trophy": "",
     "reward": "",
     "exp": 30,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": "Get hit by a Polar Bear in the water"
   },
   {
     "title": "Ice Sculptor",
@@ -844,7 +844,7 @@
     "trophy": "",
     "reward": "",
     "exp": 200,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Icy Pirates",
@@ -855,18 +855,18 @@
     "trophy": "",
     "reward": "2 Nautilus Shell",
     "exp": 150,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "My Mountains",
-    "description": "Drink milk at the top of the mountain while looking at the Goat",
+    "description": "Drink a milk at the top of the mountain while looking at the Goat",
     "color": "#75E1FF",
     "tab": "Biomes",
     "type": "Goal",
     "trophy": "",
     "reward": "",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": "Drink a milk in any of these biomes: Frozen Peaks, Grove, Jagged Peaks, Meadow, Snowy Slopes, Stony Peaks, Windswept Forest, Windswept Gravelly Hills, Windswept Hills while looking at the Goat"
   },
   {
     "title": "Pandas Express",
@@ -877,7 +877,7 @@
     "trophy": "",
     "reward": "",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Ready For Everything",
@@ -888,7 +888,7 @@
     "trophy": "",
     "reward": "",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Stop there, you're tall enough",
@@ -899,7 +899,7 @@
     "trophy": "",
     "reward": "",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "The Boatman",
@@ -910,7 +910,7 @@
     "trophy": "",
     "reward": "4 Blue Ice",
     "exp": 0,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "The Infernal Cauldron",
@@ -921,7 +921,7 @@
     "trophy": "Lava Cauldron",
     "reward": "",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": "Spend 20 minutes in the lava cauldron"
   },
   {
     "title": "Treasure Compass",
@@ -932,7 +932,7 @@
     "trophy": "",
     "reward": "4 Raw Cod",
     "exp": 30,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": "Generate a buried treasure or shipwreck treasure while there is a dolphin at a distance of no more than 32 blocks from you, which leads to some kind of treasure"
   },
   {
     "title": "Underwater Pirates",
@@ -943,7 +943,7 @@
     "trophy": "",
     "reward": "",
     "exp": 15,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": "Be in a boat under the water"
   },
   {
     "title": "Unite Storm",
@@ -954,7 +954,7 @@
     "trophy": "Storm Core",
     "reward": "",
     "exp": 300,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Artificial Forest",
@@ -965,7 +965,7 @@
     "trophy": "",
     "reward": "16 Bone Meal",
     "exp": 200,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Art lover",
@@ -976,7 +976,7 @@
     "trophy": "",
     "reward": "32 Painting",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Potception",
@@ -987,7 +987,7 @@
     "trophy": "The Potted Pot",
     "reward": "",
     "exp": 400,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Pot on a Pot",
@@ -998,7 +998,7 @@
     "trophy": "",
     "reward": "1 Flower Pot",
     "exp": 20,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Rainbow!",
@@ -1009,7 +1009,7 @@
     "trophy": "",
     "reward": "16 Glass",
     "exp": 25,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Statue",
@@ -1020,7 +1020,7 @@
     "trophy": "",
     "reward": "",
     "exp": 25,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Stickman",
@@ -1031,7 +1031,7 @@
     "trophy": "Stick",
     "reward": "",
     "exp": 200,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "5G Connectivity",
@@ -1042,7 +1042,7 @@
     "trophy": "Gold Glow Squid",
     "reward": "",
     "exp": 500,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Five Birds, One Stone",
@@ -1053,7 +1053,7 @@
     "trophy": "The Vex Slayer",
     "reward": "64 Stone",
     "exp": 1000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Airborne Annihilator",
@@ -1064,7 +1064,7 @@
     "trophy": "Arrow from the Wind",
     "reward": "25 Wind Charge",
     "exp": 500,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Astronomer",
@@ -1075,7 +1075,7 @@
     "trophy": "The Orbital Anvil",
     "reward": "",
     "exp": 500,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Big End Adventure",
@@ -1086,7 +1086,7 @@
     "trophy": "Charged End Stone",
     "reward": "1 Warped Fungus on a Stick",
     "exp": 500,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": "Kill the Ender Dragon, visit End City and this biomes: The End, End Highlands, End Midlands, End Barrens, Small End Islands without getting up from the Strider"
   },
   {
     "title": "Big Horse Adventure",
@@ -1097,7 +1097,7 @@
     "trophy": "Soft Saddle",
     "reward": "",
     "exp": 4000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Big Pig Adventure",
@@ -1108,7 +1108,7 @@
     "trophy": "Aristocratic Pig",
     "reward": "",
     "exp": 450,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": "Visit Fortress, Ruined Portal, Bastion, Nether Wastes, Crimson Forest, Warped Forest, Soul Sand Valley, Basalt Deltas without getting up from the Pig"
   },
   {
     "title": "Celestial Protocol",
@@ -1119,7 +1119,7 @@
     "trophy": "Space Rocket",
     "reward": "",
     "exp": 1000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Circus Act",
@@ -1130,7 +1130,7 @@
     "trophy": "Clown Mask",
     "reward": "",
     "exp": 546,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Command Work",
@@ -1141,7 +1141,7 @@
     "trophy": "The Exploded Dragon's Head",
     "reward": "",
     "exp": 1000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Dead Carnaval",
@@ -1152,7 +1152,7 @@
     "trophy": "The Living Head",
     "reward": "",
     "exp": 500,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": "Kill a Bogged, Zombie, Drowned, Husk, Phantom, Skeleton, Skeleton Horse, Stray, Wither Skeleton, Zombie Villager, Zombified Piglin and Zoglin with a single firework rocket"
   },
   {
     "title": "Dragon vs Warden VI",
@@ -1163,7 +1163,7 @@
     "trophy": "Warden's Plate",
     "reward": "5 Smithing Template",
     "exp": 3000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Dragon Vs Wither IV",
@@ -1174,7 +1174,7 @@
     "trophy": "The Star Of The Apocalypse",
     "reward": "1 Dragon Head",
     "exp": 300,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "End of the World as we Know it",
@@ -1185,7 +1185,7 @@
     "trophy": "The Ultimate Power",
     "reward": "",
     "exp": 100000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Explosive Elixir",
@@ -1196,7 +1196,7 @@
     "trophy": "Sweet Darling",
     "reward": "",
     "exp": 10000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": "Have all the effects of a certain level or higher at the same time: Speed 2, Slowness 6, Strength 2, Jump Boost 2, Regeneration 2, Fire Resistance 1, Water Breathing 1, Invisibility 1, Night Vision 1, Weakness 1, Poison 2, Wither 2, Haste 2, Mining Fatigue 3, Levitation 1, Glowing 1, Absorption 4, Hunger 3, Nausea 1, Resistance 4, Slow Falling 1, Conduit Power 1, Dolphins Grace 1, Blindness 1, Hero of the Village 5, Darkness 1, Oozing 1, Weaving 1, Infested 1, Wind Charged 1, Raid Omen 5, Bad Omen 5, Trial Omen 1 "
   },
   {
     "title": "Extincion",
@@ -1207,7 +1207,7 @@
     "trophy": "Gold Llama",
     "reward": "",
     "exp": 1000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "From the Underworld",
@@ -1218,7 +1218,7 @@
     "trophy": "Glowstone from the Overworld",
     "reward": "16 Glowstone",
     "exp": 250,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Happy Anniversary",
@@ -1229,7 +1229,7 @@
     "trophy": "My personal Wither",
     "reward": "",
     "exp": 1000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Happy Minecraft Year",
@@ -1240,7 +1240,7 @@
     "trophy": "Big Firework",
     "reward": "",
     "exp": 500,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "How Did You End Up Here",
@@ -1251,7 +1251,7 @@
     "trophy": "Bat's Head",
     "reward": "",
     "exp": 500,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Interspecific Adventure",
@@ -1262,7 +1262,7 @@
     "trophy": "Lunacy Endermite",
     "reward": "",
     "exp": 555,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Magic Kingdom",
@@ -1273,7 +1273,7 @@
     "trophy": "The Magic Wand",
     "reward": "",
     "exp": 4000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Mob Universe",
@@ -1284,7 +1284,7 @@
     "trophy": "Galaxy",
     "reward": "",
     "exp": 3500,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": "Collect all the mobs from their dimension in each dimension within 128 blocks of you. Overworld Mobs: Allay, Armadillo, Axolotl, Bat, Camel, Cat, Chicken, Cod, Cow, Donkey, Frog, Glow Squid, Horse, Mooshroom, Mule, Ocelot, Parrot, Pig, Pufferfish, Rabbit, Salmon, Sheep, Skeleton Horse, Sniffer, Snow Golem, Squid, Tadpole, Tropical Fish, Turtle, Villager, Wandering Trader, Bee, Cave Spider, Dolphin, Drowned, Fox, Goat, Iron Golem, Llama, Panda, Polar Bear, Spider, Trader Llama, Wolf, Bogged, Breeze, Creeper, Elder Guardian, Evoker, Guardian, Husk, Phantom, Pillager, Ravager, Silverfish, Skeleton, Slime, Stray, Vex, Vindicator, Warden, Witch, Zombie, Zombie Villager;\nNether Mobs: Strider, Zombified Piglin, Blaze, Magma Cube, Piglin Brute, Wither Skeleton, Zoglin, Hoglin, Wither;\nEnd Mobs: Enderman, Endermite, Shulker, Ender Dragon"
   },
   {
     "title": "Monstrous Rocket",
@@ -1295,7 +1295,7 @@
     "trophy": "Big Rocket",
     "reward": "",
     "exp": 2300,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "My Little Pig",
@@ -1306,7 +1306,7 @@
     "trophy": "Pig Pilot",
     "reward": "",
     "exp": 400,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Oh, My Broken Legs",
@@ -1317,7 +1317,7 @@
     "trophy": "Space Helmet",
     "reward": "",
     "exp": 250,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": "Fall over 1000 blocks and sit on any possible mob (This is only 1 of the ways to do it)"
   },
   {
     "title": "One in a Million Steed",
@@ -1328,7 +1328,7 @@
     "trophy": "Cyborg Horse",
     "reward": "",
     "exp": 1000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Piggish Poison Tango",
@@ -1339,7 +1339,7 @@
     "trophy": "Shoked Pig",
     "reward": "",
     "exp": 500,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Pooch Purge Pilot",
@@ -1350,7 +1350,7 @@
     "trophy": "Pile of Llama Masks",
     "reward": "",
     "exp": 1000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": "Kill an Ashen Wolf in the Snowy Taiga, Black Wolf in the Old Growth Pine Taiga, Chestnut Wolf in the Old Growth Spruce Taiga, Pale Wolf in the Taiga, Rusty Wolf in any type of the Jungle, Snowy Wolf in the Grove, Spotted Wolf in any type of Savanna, Striped Wolf in any type of Badlands, Woods Wolf in any type of Forest, without getting off the Llama"
   },
   {
     "title": "Professional Assassin",
@@ -1361,7 +1361,7 @@
     "trophy": "Broken",
     "reward": "",
     "exp": 5000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Pulse Detonation Engine",
@@ -1372,7 +1372,7 @@
     "trophy": "Atomic TNT",
     "reward": "64 TNT",
     "exp": 500,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Pyrotechnic vs Dragon V",
@@ -1383,7 +1383,7 @@
     "trophy": "Pyrotechnic Charge",
     "reward": "",
     "exp": 2000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Raise The Stakes",
@@ -1394,7 +1394,7 @@
     "trophy": "The Most Golden Apple In The World",
     "reward": "",
     "exp": 1000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Red + Red = Brown",
@@ -1405,7 +1405,7 @@
     "trophy": "Brown Mushroom",
     "reward": "1 Shulker Box",
     "exp": 500,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Sandwich",
@@ -1416,7 +1416,7 @@
     "trophy": "Warden's Head",
     "reward": "32 Arrow",
     "exp": 1750,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Show the Nether to a Silverfish",
@@ -1427,7 +1427,7 @@
     "trophy": "Trick Or Treat Basket",
     "reward": "",
     "exp": 500,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "So Bright",
@@ -1438,7 +1438,7 @@
     "trophy": "A Charming Diamond",
     "reward": "",
     "exp": 1000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Star Fisherman",
@@ -1449,7 +1449,7 @@
     "trophy": "Nautilus Crab",
     "reward": "",
     "exp": 300,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "The Apocalyptic Decalogy",
@@ -1460,7 +1460,7 @@
     "trophy": "Dr. Zomboss",
     "reward": "",
     "exp": 10000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "The King of the Redskins",
@@ -1471,7 +1471,7 @@
     "trophy": "There's more than it seems",
     "reward": "",
     "exp": 350,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "The World is Actually Ending 2",
@@ -1482,7 +1482,7 @@
     "trophy": "Nuclear Bomb",
     "reward": "",
     "exp": 1000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Void Being",
@@ -1493,7 +1493,7 @@
     "trophy": "Absolute Dark Hole",
     "reward": "",
     "exp": 500,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "What are the chances",
@@ -1504,7 +1504,7 @@
     "trophy": "Percent",
     "reward": "",
     "exp": 2000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "What a Stupid Purchase",
@@ -1515,7 +1515,7 @@
     "trophy": "Wandering Llama",
     "reward": "",
     "exp": 10000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Yes",
@@ -1526,7 +1526,7 @@
     "trophy": "Ultimate Beacon",
     "reward": "64 Beacon",
     "exp": 5000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Zero Coordinates Magnet",
@@ -1537,7 +1537,7 @@
     "trophy": "Blue Axolotl",
     "reward": "",
     "exp": 750,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "All the Netherite Tools",
@@ -1548,7 +1548,7 @@
     "trophy": "Useful Instrument",
     "reward": "",
     "exp": 1000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Elementals",
@@ -1559,7 +1559,7 @@
     "trophy": "",
     "reward": "",
     "exp": 300,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Master Shearer",
@@ -1570,7 +1570,7 @@
     "trophy": "",
     "reward": "",
     "exp": 75,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Master Shieldman",
@@ -1581,7 +1581,7 @@
     "trophy": "",
     "reward": "",
     "exp": 150,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Master Sweeper",
@@ -1592,7 +1592,7 @@
     "trophy": "",
     "reward": "",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Oh, I Forgot about the Anvil",
@@ -1603,7 +1603,7 @@
     "trophy": "",
     "reward": "",
     "exp": 0,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Pyromaniac",
@@ -1614,7 +1614,7 @@
     "trophy": "",
     "reward": "",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Small Targets",
@@ -1625,7 +1625,7 @@
     "trophy": "Non-selected Сandidate",
     "reward": "",
     "exp": 300,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Useless",
@@ -1636,7 +1636,7 @@
     "trophy": "",
     "reward": "",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Bee Colonist",
@@ -1647,7 +1647,7 @@
     "trophy": "",
     "reward": "4 Honeycomb",
     "exp": 75,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Endergardener",
@@ -1658,7 +1658,7 @@
     "trophy": "",
     "reward": "16 Chorus Flower",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Interdimensional Travel",
@@ -1669,7 +1669,7 @@
     "trophy": "Ancient Teleporter",
     "reward": "16 Ender Pearl",
     "exp": 150,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Intergalactic Journey",
@@ -1680,7 +1680,7 @@
     "trophy": "",
     "reward": "",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Last Hit",
@@ -1691,7 +1691,7 @@
     "trophy": "Dragon Head",
     "reward": "",
     "exp": 150,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Universal Solitude",
@@ -1702,7 +1702,7 @@
     "trophy": "Greatest Stonecutter",
     "reward": "24 Sculk Sensor",
     "exp": 1000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Apple Addiction",
@@ -1713,7 +1713,7 @@
     "trophy": "Bad Apple",
     "reward": "",
     "exp": 200,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Christmas Spirit",
@@ -1724,7 +1724,7 @@
     "trophy": "",
     "reward": "1 Cake",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Delicious",
@@ -1735,7 +1735,7 @@
     "trophy": "",
     "reward": "",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Eco Warrior",
@@ -1746,7 +1746,7 @@
     "trophy": "My Little Cherry",
     "reward": "",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Golems",
@@ -1757,7 +1757,7 @@
     "trophy": "",
     "reward": "",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "High Risk",
@@ -1768,7 +1768,7 @@
     "trophy": "",
     "reward": "1 Golden Sword",
     "exp": 35,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "It's Midnight Already!?",
@@ -1779,7 +1779,7 @@
     "trophy": "Book from the Bookshelf",
     "reward": "2 Book",
     "exp": 15,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "More, More Cookies!",
@@ -1790,7 +1790,7 @@
     "trophy": "Cookie",
     "reward": "",
     "exp": 250,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Not Fireflies",
@@ -1801,7 +1801,7 @@
     "trophy": "",
     "reward": "16 Melon Seeds",
     "exp": 20,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Overpayment",
@@ -1812,7 +1812,7 @@
     "trophy": "",
     "reward": "",
     "exp": 15,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Plant Enthusiast",
@@ -1823,7 +1823,7 @@
     "trophy": "Poisonous Potato",
     "reward": "",
     "exp": 250,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Preventive Conversation",
@@ -1834,7 +1834,7 @@
     "trophy": "",
     "reward": "8 Carrot",
     "exp": 45,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Raising Canes",
@@ -1845,7 +1845,7 @@
     "trophy": "",
     "reward": "16 Sugar Cane",
     "exp": 35,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Bat-Man",
@@ -1856,7 +1856,7 @@
     "trophy": "",
     "reward": "",
     "exp": 200,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Chief Spide",
@@ -1867,7 +1867,7 @@
     "trophy": "",
     "reward": "64 Cobweb",
     "exp": 300,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Copper King",
@@ -1878,7 +1878,7 @@
     "trophy": "Brush",
     "reward": "",
     "exp": 300,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Deepslated Miner",
@@ -1889,7 +1889,7 @@
     "trophy": "Deepslate Emerald Ore Chest",
     "reward": "64 Emerald",
     "exp": 3000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Deepslate Master",
@@ -1900,7 +1900,7 @@
     "trophy": "",
     "reward": "",
     "exp": 500,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Distorted Cave Maze",
@@ -1911,7 +1911,7 @@
     "trophy": "",
     "reward": "32 Stone",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Light at the End of the Tunnel",
@@ -1922,7 +1922,7 @@
     "trophy": "",
     "reward": "2 Lantern",
     "exp": 30,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Redstoner",
@@ -1933,7 +1933,7 @@
     "trophy": "",
     "reward": "32 Block of Redstone",
     "exp": 120,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Reinforced Miner",
@@ -1944,7 +1944,7 @@
     "trophy": "",
     "reward": "",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "The Master of Falls",
@@ -1955,7 +1955,7 @@
     "trophy": "",
     "reward": "",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Time Killer",
@@ -1966,7 +1966,7 @@
     "trophy": "Some Rock",
     "reward": "",
     "exp": 400,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Arachnophobia",
@@ -1977,7 +1977,7 @@
     "trophy": "",
     "reward": "16 String",
     "exp": 150,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Frozen Heart",
@@ -1988,7 +1988,7 @@
     "trophy": "",
     "reward": "64 Snowball",
     "exp": 200,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Get Out of My Sky",
@@ -1999,7 +1999,7 @@
     "trophy": "",
     "reward": "",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "High Explosives",
@@ -2010,7 +2010,7 @@
     "trophy": "",
     "reward": "",
     "exp": 150,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "I uh... Forgot a Composter",
@@ -2021,7 +2021,7 @@
     "trophy": "Ravager Plushie",
     "reward": "",
     "exp": 250,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Live Сactus",
@@ -2032,7 +2032,7 @@
     "trophy": "",
     "reward": "",
     "exp": 200,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "More Impossible",
@@ -2043,7 +2043,7 @@
     "trophy": "",
     "reward": "",
     "exp": 150,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Not That Impossible",
@@ -2054,7 +2054,7 @@
     "trophy": "",
     "reward": "4 Rotten Flesh",
     "exp": 40,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "One Minute Warden's Hugs",
@@ -2065,7 +2065,7 @@
     "trophy": "Warden Priestess",
     "reward": "",
     "exp": 400,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Phantom Rider",
@@ -2076,7 +2076,7 @@
     "trophy": "",
     "reward": "4 Phantom Membrane",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Suspicious Duel",
@@ -2087,7 +2087,7 @@
     "trophy": "",
     "reward": "",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "The Inquisition",
@@ -2098,7 +2098,7 @@
     "trophy": "",
     "reward": "1 Campfire",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "The Undertaker's Revenge",
@@ -2109,7 +2109,7 @@
     "trophy": "The Undertaker's Shovel",
     "reward": "",
     "exp": 80,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "A Long Journey",
@@ -2120,7 +2120,7 @@
     "trophy": "",
     "reward": "",
     "exp": 150,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Bastion Robber",
@@ -2131,7 +2131,7 @@
     "trophy": "",
     "reward": "12 Gold Ingot",
     "exp": 300,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Bastion Sweet Bastion",
@@ -2142,7 +2142,7 @@
     "trophy": "",
     "reward": "",
     "exp": 150,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Blaze3D",
@@ -2153,7 +2153,7 @@
     "trophy": "Blaze Powder In A Bottle",
     "reward": "",
     "exp": 150,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Diamond Beacon",
@@ -2164,7 +2164,7 @@
     "trophy": "Pot Of Diamonds",
     "reward": "",
     "exp": 5000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Emerald Beacon",
@@ -2175,7 +2175,7 @@
     "trophy": "Bag with Emeralds",
     "reward": "",
     "exp": 500,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Give Them Everything They Want",
@@ -2186,7 +2186,7 @@
     "trophy": "My Precious",
     "reward": "",
     "exp": 1000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Gold Beacon",
@@ -2197,7 +2197,7 @@
     "trophy": "",
     "reward": "",
     "exp": 2000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Herbarium to My Friend",
@@ -2208,7 +2208,7 @@
     "trophy": "",
     "reward": "32 Gold Ingot",
     "exp": 200,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "High Pitch",
@@ -2219,7 +2219,7 @@
     "trophy": "",
     "reward": "16 Ghast Tear",
     "exp": 150,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Hot Combat",
@@ -2230,7 +2230,7 @@
     "trophy": "",
     "reward": "",
     "exp": 40,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Hot Lake",
@@ -2241,7 +2241,7 @@
     "trophy": "",
     "reward": "4 Cooked Salmon",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Impostor",
@@ -2252,7 +2252,7 @@
     "trophy": "",
     "reward": "16 Cooked Porkchop",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Iron Beacon",
@@ -2263,7 +2263,7 @@
     "trophy": "",
     "reward": "",
     "exp": 1500,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Netherite Beacon!",
@@ -2274,7 +2274,7 @@
     "trophy": "Netherite Cake",
     "reward": "",
     "exp": 50000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Never Careful Enough",
@@ -2285,7 +2285,7 @@
     "trophy": "",
     "reward": "8 Magma Block",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Show the Wither his Home",
@@ -2296,7 +2296,7 @@
     "trophy": "The Last Rose",
     "reward": "",
     "exp": 175,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "The New Swamp Won't Be Here",
@@ -2307,7 +2307,7 @@
     "trophy": "Bogged Potion",
     "reward": "",
     "exp": 200,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Withering Depths",
@@ -2318,7 +2318,7 @@
     "trophy": "",
     "reward": "1 Wither Skeleton Skull",
     "exp": 250,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Cowabunga It Is",
@@ -2329,7 +2329,7 @@
     "trophy": "",
     "reward": "2 Turtle Scute",
     "exp": 80,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Flashlight",
@@ -2340,7 +2340,7 @@
     "trophy": "",
     "reward": "",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Jump for Joy",
@@ -2351,7 +2351,7 @@
     "trophy": "",
     "reward": "4 Rabbit's Foot",
     "exp": 130,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Master of effects",
@@ -2362,7 +2362,7 @@
     "trophy": "Brewing Factory",
     "reward": "",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Worst Cleric in the World",
@@ -2373,7 +2373,7 @@
     "trophy": "",
     "reward": "",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "You're not the Zillager",
@@ -2384,7 +2384,7 @@
     "trophy": "",
     "reward": "1 Golden Apple",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "More Optimisations!",
@@ -2395,7 +2395,7 @@
     "trophy": "",
     "reward": "1 Block of Redstone",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Old Optimisations",
@@ -2406,7 +2406,7 @@
     "trophy": "",
     "reward": "1 Composter",
     "exp": 30,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "What Do You Know About Pistons",
@@ -2417,7 +2417,7 @@
     "trophy": "Another Piston",
     "reward": "",
     "exp": 300,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Аbsolutely Аblaze Journey",
@@ -2428,7 +2428,7 @@
     "trophy": "Strider",
     "reward": "",
     "exp": 1000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Ancient Sorcerer Sage",
@@ -2439,7 +2439,7 @@
     "trophy": "A good Table",
     "reward": "",
     "exp": 500,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Artisan Adept",
@@ -2450,7 +2450,7 @@
     "trophy": "",
     "reward": "",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Ascension Ace",
@@ -2461,7 +2461,7 @@
     "trophy": "High Ladder",
     "reward": "",
     "exp": 1000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Bedrock Breaker",
@@ -2472,7 +2472,7 @@
     "trophy": "Golden Infused Pickaxe",
     "reward": "5 Diamond Ore",
     "exp": 1000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Chests Aficionado",
@@ -2483,7 +2483,7 @@
     "trophy": "Treasure Trove",
     "reward": "",
     "exp": 7000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Chest Lover",
@@ -2494,7 +2494,7 @@
     "trophy": "",
     "reward": "",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Climb Expert",
@@ -2505,7 +2505,7 @@
     "trophy": "",
     "reward": "",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Craftsman Novice",
@@ -2516,7 +2516,7 @@
     "trophy": "",
     "reward": "",
     "exp": 0,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Culinary Delight Maestro",
@@ -2527,7 +2527,7 @@
     "trophy": "Low-Calorie Food",
     "reward": "",
     "exp": 1000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Diamond Digger",
@@ -2538,7 +2538,7 @@
     "trophy": "High-Quality Diamond Ore",
     "reward": "5 Diamond",
     "exp": 200,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Duo Dynamo",
@@ -2549,7 +2549,7 @@
     "trophy": "Mr. Sheep",
     "reward": "",
     "exp": 5000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Epic Capital Conqueror",
@@ -2560,7 +2560,7 @@
     "trophy": "MEGA STONKS",
     "reward": "",
     "exp": 1000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Eternal Vanguard",
@@ -2571,7 +2571,7 @@
     "trophy": "Your Heart",
     "reward": "",
     "exp": 3000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Experienced Angler",
@@ -2582,7 +2582,7 @@
     "trophy": "Professional Fishing Rod",
     "reward": "",
     "exp": 150,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Happy 1000 Days!",
@@ -2593,7 +2593,7 @@
     "trophy": "Golden Hourglass",
     "reward": "",
     "exp": 1000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Happy Chest Year!",
@@ -2604,7 +2604,7 @@
     "trophy": "Christmas Chest",
     "reward": "",
     "exp": 2000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Intercontinental Rail Nexus",
@@ -2615,7 +2615,7 @@
     "trophy": "Railroad Baron's Emblem",
     "reward": "",
     "exp": 3500,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Intermediate Fisher",
@@ -2626,7 +2626,7 @@
     "trophy": "",
     "reward": "5 Raw Salmon",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Jetsetter of the Skies",
@@ -2637,7 +2637,7 @@
     "trophy": "Big Firework Star",
     "reward": "",
     "exp": 2000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Jungle Gymnast",
@@ -2648,7 +2648,7 @@
     "trophy": "",
     "reward": "",
     "exp": 0,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Ladder Legend",
@@ -2659,7 +2659,7 @@
     "trophy": "Ladder",
     "reward": "",
     "exp": 200,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Legendary Artisan",
@@ -2670,7 +2670,7 @@
     "trophy": "Gold Chest",
     "reward": "",
     "exp": 1000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Legend of the Races",
@@ -2681,7 +2681,7 @@
     "trophy": "Horse Pet",
     "reward": "",
     "exp": 600,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Master Artificer",
@@ -2692,7 +2692,7 @@
     "trophy": "Crafting Factory",
     "reward": "",
     "exp": 500,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Master Fisherman",
@@ -2703,7 +2703,7 @@
     "trophy": "Incredibly Big Salmon",
     "reward": "",
     "exp": 700,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Master of Survival",
@@ -2714,7 +2714,7 @@
     "trophy": "Your Clock",
     "reward": "",
     "exp": 500,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Metal Miner",
@@ -2725,7 +2725,7 @@
     "trophy": "",
     "reward": "16 Iron Ingot",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Mr. Chester",
@@ -2736,7 +2736,7 @@
     "trophy": "Personal Сhest",
     "reward": "",
     "exp": 500,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "My Chest!",
@@ -2747,7 +2747,7 @@
     "trophy": "",
     "reward": "",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Navigator of the Infinite Waters",
@@ -2758,7 +2758,7 @@
     "trophy": "Motor Boat",
     "reward": "",
     "exp": 10000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Novice Angler",
@@ -2769,7 +2769,7 @@
     "trophy": "",
     "reward": "",
     "exp": 10,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Novice Scout",
@@ -2780,7 +2780,7 @@
     "trophy": "",
     "reward": "",
     "exp": 10,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Pillager Protector",
@@ -2791,7 +2791,7 @@
     "trophy": "",
     "reward": "16 Emerald",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Raid Resister",
@@ -2802,7 +2802,7 @@
     "trophy": "",
     "reward": "4 Emerald",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Ravager Repeller",
@@ -2813,7 +2813,7 @@
     "trophy": "Ravager's Head",
     "reward": "6 Block of Emerald",
     "exp": 2000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Resilient Centenarian",
@@ -2824,7 +2824,7 @@
     "trophy": "",
     "reward": "",
     "exp": 300,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Shulker Explorer",
@@ -2835,7 +2835,7 @@
     "trophy": "",
     "reward": "",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Shulker Maestro",
@@ -2846,7 +2846,7 @@
     "trophy": "Infinite Shulker Box",
     "reward": "",
     "exp": 3000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Shulker Seeker",
@@ -2857,7 +2857,7 @@
     "trophy": "",
     "reward": "",
     "exp": 25,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Shulker Voyager",
@@ -2868,7 +2868,7 @@
     "trophy": "FreeBox",
     "reward": "",
     "exp": 1000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Skyward Legs",
@@ -2879,7 +2879,7 @@
     "trophy": "Trick or Treat Basket with Rabbit",
     "reward": "",
     "exp": 5000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Sovereign of Martial Shifting",
@@ -2890,7 +2890,7 @@
     "trophy": "Katana",
     "reward": "",
     "exp": 4000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Speed Master",
@@ -2901,7 +2901,7 @@
     "trophy": "Lightweight Saddle",
     "reward": "",
     "exp": 150,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Stone Cutter",
@@ -2912,7 +2912,7 @@
     "trophy": "",
     "reward": "16 Cobblestone",
     "exp": 20,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Storm Hog Pilgrim",
@@ -2923,7 +2923,7 @@
     "trophy": "PigTrain",
     "reward": "",
     "exp": 10000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Survival Saga",
@@ -2934,7 +2934,7 @@
     "trophy": "Blood Moon",
     "reward": "",
     "exp": 6000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Survivor's Hour",
@@ -2945,7 +2945,7 @@
     "trophy": "",
     "reward": "",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Swift Herder",
@@ -2956,7 +2956,7 @@
     "trophy": "",
     "reward": "",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Titan of Olympian Gold Triumphs",
@@ -2967,7 +2967,7 @@
     "trophy": "Private Pool",
     "reward": "",
     "exp": 4000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Totem Adept",
@@ -2978,7 +2978,7 @@
     "trophy": "",
     "reward": "1 Totem of Undying",
     "exp": 120,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Totem Expert",
@@ -2989,7 +2989,7 @@
     "trophy": "Totem of Totems",
     "reward": "",
     "exp": 700,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Totem Immortal",
@@ -3000,7 +3000,7 @@
     "trophy": "Totem of Totem of Totems",
     "reward": "",
     "exp": 1700,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Totem Tinkerer",
@@ -3011,7 +3011,7 @@
     "trophy": "",
     "reward": "4 Emerald",
     "exp": 30,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Vindicator Vanquisher",
@@ -3022,7 +3022,7 @@
     "trophy": "Iron Ax",
     "reward": "1 Totem of Undying",
     "exp": 300,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Wrath of the Western Frontier",
@@ -3033,7 +3033,7 @@
     "trophy": "Gold Horse",
     "reward": "",
     "exp": 3000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Your legs are beat",
@@ -3044,7 +3044,7 @@
     "trophy": "Running shoes",
     "reward": "",
     "exp": 5000,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Cold Betrayal",
@@ -3055,7 +3055,7 @@
     "trophy": "",
     "reward": "",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Dead-eye",
@@ -3066,7 +3066,7 @@
     "trophy": "Portable Telescope",
     "reward": "2 Turtle Scute",
     "exp": 300,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Explosive Fisherman",
@@ -3077,7 +3077,7 @@
     "trophy": "",
     "reward": "",
     "exp": 25,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Frightening Fishing",
@@ -3088,7 +3088,7 @@
     "trophy": "",
     "reward": "2 Sculk Catalyst",
     "exp": 60,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Glowball",
@@ -3099,7 +3099,7 @@
     "trophy": "",
     "reward": "",
     "exp": 70,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Meet the Snipe",
@@ -3110,7 +3110,7 @@
     "trophy": "",
     "reward": "",
     "exp": 20,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "More Shields!",
@@ -3121,7 +3121,7 @@
     "trophy": "Tree Shield",
     "reward": "",
     "exp": 50,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Snow Fights!",
@@ -3132,7 +3132,7 @@
     "trophy": "",
     "reward": "4 Snowball",
     "exp": 25,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "The Explosive Adventure",
@@ -3143,7 +3143,7 @@
     "trophy": "",
     "reward": "4 TNT",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   },
   {
     "title": "Unlucky",
@@ -3154,6 +3154,6 @@
     "trophy": "Loser",
     "reward": "",
     "exp": 100,
-    "req": "Wear a full set of diamond armor, with a diamond sword in your mainhand and stand on the stone steps"
+    "req": ""
   }
 ]

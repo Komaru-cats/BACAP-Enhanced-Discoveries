@@ -5,7 +5,6 @@ class CustomCheckboxFilter {
         this.field = params.colDef.field;
 
         this.gui = document.createElement('div');
-        this.gui.classList.add('ag-custom-filter');
 
         this.checkboxesContainer = document.createElement('div');
         this.checkboxesContainer.classList.add('ag-filter-body-wrapper');
@@ -73,18 +72,53 @@ class CustomCheckboxFilter {
     }
 
     doesFilterPass(params) {
-        // Используем сохраненное название поля для получения значения
         const value = params.data ? params.data[this.field] : undefined;
         return this.selectedValues.has(value?.toString());
     }
 
     destroy() {
-        // Удаление событий и очистка
         Array.from(this.checkboxesContainer.querySelectorAll('input')).forEach((input) => {
             input.removeEventListener('change', this.onChange);
         });
     }
 }
+
+
+class DetailsRenderer {
+    eGui;
+
+    init(params) {
+        if (params.data.req) {
+            let details = document.createElement('details');
+
+            let summary = document.createElement('summary');
+            summary.textContent = params.value
+            summary.style.cursor = 'pointer';
+
+            let content = document.createElement('div');
+            content.classList.add('details-content');
+            content.textContent = "Requirements: " + params.data.req
+
+            details.appendChild(content);
+            details.appendChild(summary);
+
+            this.eGui = details
+        } else {
+            this.eGui = document.createTextNode(params.value)
+        }
+
+
+    }
+
+    getGui() {
+        return this.eGui;
+    }
+
+    refresh(params) {
+        return false;
+    }
+}
+
 
 function hexToRgba(hex, alpha) {
     let r = 0, g = 0, b = 0;
@@ -112,33 +146,62 @@ const columnDefs = [
             }
             return null;
         },
-        flex: 10
+        flex: 10,
+        suppressDragLeaveHidesColumns: true,
+        lockPosition: 'left'
     },
-    {headerName: 'Tab', field: 'tab', sortable: true, filter: CustomCheckboxFilter, flex: 5},
+    {
+        headerName: 'Tab',
+        field: 'tab',
+        sortable: true,
+        filter: CustomCheckboxFilter,
+        flex: 5,
+        suppressDragLeaveHidesColumns: false,
+    },
     {
         headerName: 'Description',
         field: 'description',
         sortable: true,
         filter: true,
         flex: 30,
-        autoHeight:true,
+        autoHeight: true,
         wrapText: true,
+        suppressDragLeaveHidesColumns: true,
+        cellRenderer: DetailsRenderer
     },
-    {headerName: 'Type', field: 'type', sortable: true, filter: true, flex: 8, comparator: advTypeComparator},
-    {headerName: 'Trophy', field: 'trophy', sortable: true, filter: true, flex: 15},
-    {headerName: 'Reward', field: 'reward', sortable: true, filter: true, flex: 10},
-    {headerName: 'Exp', field: 'exp', sortable: true, filter: true, flex: 5},
     {
-        headerName: 'Requirements',
-        field: 'req',
+        headerName: 'Type',
+        field: 'type',
         sortable: true,
         filter: true,
-        flex: 20,
-        cellClass: "cell-wrap hidden",
-        onCellClicked: toggleCellWrap,
-        autoHeight:true,
+        flex: 8,
+        suppressDragLeaveHidesColumns: true,
+        comparator: advTypeComparator
     },
-    {headerName: 'Color', field: 'color', sortable: true, filter: true, hide: true, flex: 0},
+    {
+        headerName: 'Trophy',
+        field: 'trophy',
+        sortable: true,
+        filter: true,
+        flex: 15,
+        suppressDragLeaveHidesColumns: true
+    },
+    {
+        headerName: 'Reward',
+        field: 'reward',
+        sortable: true,
+        filter: true,
+        flex: 10,
+        suppressDragLeaveHidesColumns: true,
+    },
+    {
+        headerName: 'Exp',
+        field: 'exp',
+        sortable: true,
+        filter: true,
+        flex: 5,
+        suppressDragLeaveHidesColumns: true,
+    }
 ];
 
 
@@ -161,29 +224,69 @@ function advTypeComparator(valueA, valueB, nodeA, nodeB, isInverted) {
 }
 
 
-
-function toggleCellWrap(params) {
-    const cellDiv = params.event.target
-    console.log(cellDiv)
-    if (cellDiv){
-        cellDiv.classList.toggle('cell-wrap');
-    }
-}
-
-
 const gridOptions = {
     columnDefs: columnDefs,
     rowData: [],
     defaultColDef: {
         resizable: true,
     },
-    animateRows: true
+    animateRows: true,
+
 };
 
 
-// Инициализация сетки с использованием createGrid
 const eGridDiv = document.getElementById('AdvancementGrid');
 const gridApi = agGrid.createGrid(eGridDiv, gridOptions);
+
+
+const debounce = (func, delay) => {
+    let timer;
+    return (...args) => {
+        clearTimeout(timer);
+        timer = setTimeout(() => {
+            func.apply(this, args);
+        }, delay);
+    };
+};
+
+
+const saveStateDebounced = debounce(saveState, 100);
+
+const onAnyGridChange = (event) => {
+    saveStateDebounced();
+};
+
+const events = [
+    'filterChanged',
+    'filterModified',
+    'columnResized',
+    'sortChanged',
+    'columnVisible',
+    'columnMoved',
+    'cellValueChanged',
+    'gridSizeChanged',
+];
+events.forEach(event => gridApi.addEventListener(event, onAnyGridChange));
+
+
+function saveState() {
+    localStorage.setItem("grid-state", JSON.stringify(gridApi.getColumnState()))
+}
+
+function loadState() {
+    const gridState = JSON.parse(localStorage.getItem("grid-state"));
+    if (gridState !== undefined) {
+        gridApi.applyColumnState({state: gridState, applyOrder: true})
+    }
+}
+
+function resetState() {
+    gridApi.resetColumnState()
+    gridApi.setFilterModel(null)
+}
+
 fetch('data.json')
     .then(response => response.json())
     .then((data) => gridApi.setGridOption('rowData', data))
+
+loadState()
