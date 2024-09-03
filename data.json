@@ -1196,7 +1196,7 @@
     "trophy": "Sweet Darling",
     "reward": "",
     "exp": 10000,
-    "req": "Have all the effects of a certain level or higher at the same time: Speed 2, Slowness 6, Strength 2, Jump Boost 2, Regeneration 2, Fire Resistance 1, Water Breathing 1, Invisibility 1, Night Vision 1, Weakness 1, Poison 2, Wither 2, Haste 2, Mining Fatigue 3, Levitation 1, Glowing 1, Absorption 4, Hunger 3, Nausea 1, Resistance 4, Slow Falling 1, Conduit Power 1, Dolphins Grace 1, Blindness 1, Hero of the Village 5, Darkness 1, Oozing 1, Weaving 1, Infested 1, Wind Charged 1, Raid Omen 5, Bad Omen 5, Trial Omen 1 "
+    "req": "Have all the effects of a certain level or higher at the same time: Speed 2, Slowness 6, Strength 2, Jump Boost 2, Regeneration 2, Fire Resistance 1, Water Breathing 1, Invisibility 1, Night Vision 1, Weakness 1, Poison 2, Wither 2, Haste 2, Mining Fatigue 3, Levitation 1, Glowing 1, Absorption 4, Hunger 3, Nausea 1, Resistance 4, Slow Falling 1, Conduit Power 1, Dolphins Grace 1, Blindness 1, Hero of the Village 5, Darkness 1, Oozing 1, Weaving 1, Infested 1, Wind Charged 1, Raid Omen 5, Bad Omen 5, Trial Omen 1"
   },
   {
     "title": "Extincion",
@@ -1361,7 +1361,7 @@
     "trophy": "Broken",
     "reward": "",
     "exp": 5000,
-    "req": ""
+    "req": "Kill these mobs 25 times: Bat, Armadillo, Breeze, Bogged, Chicken, Cod, Cow, Mooshroom, Pig, Rabbit, Sheep, Salmon, Squid, Tropical Fish, Turtle, Villager, Pufferfish, Cave Spider, Enderman, Panda, Polar Bear, Spider, Zombified Piglin, Blaze, Creeper, Drowned, Endermite, Evoker, Ghast, Guardian, Husk, Magma Cube, Phantom, Pillager, Ravager, Shulker, Silverfish, Skeleton, Slime, Stray, Vex, Vindicator, Witch, Wither Skeleton, Zombie Villager, Zombie, Cat, Donkey, Horse, Llama, Mule, Parrot, Trader Llama, Wolf, Dolphin, Fox, Ocelot, Iron Golem, Snow Golem, Wither, Bee, Piglin, Hoglin, Strider, Zoglin, Piglin Brute, Axolotl, Glow Squid, Goat, Frog, Tadpole, Allay, Warden, Camel, Sniffer, Ender Dragon and kill Wandering Trader and Skeleton Horse at least once "
   },
   {
     "title": "Pulse Detonation Engine",
@@ -1420,7 +1420,7 @@
   },
   {
     "title": "Show the Nether to a Silverfish",
-    "description": "Look at a Silverfish in a bastion, fortress and a ruined portal in the Nether using Spyglass",
+    "description": "Look at a Silverfish in a Bastion, Fortress and a Ruined Portal in the Nether using Spyglass",
     "color": "#FF2A2A",
     "tab": "Super Challenges",
     "type": "Super Challenge",
@@ -1548,7 +1548,7 @@
     "trophy": "Useful Instrument",
     "reward": "",
     "exp": 1000,
-    "req": ""
+    "req": "Enchant all of this netherite items: 3 Swords with Unbreaking 3, Mending, Fire Aspect 2, Looting 3, Knockback 2, Sweeping Edge with Sharpness 5, Smite 5 and Bane of Arthropods 5; Pickaxes, Shovels and Hoes with Unbreaking 3, Mending, Efficiency 5 with Silk Touch and Fortune 3; Axes with Unbreaking 3, Efficiency 5, Mending, Fortune 3 with Sharpness 5, Smite 5 and Bane of Arthropods 5 and Axes with Unbreaking 3, Efficiency 5, Mending, Silk Touch with Sharpness 5, Smite 5 and Bane of Arthropods 5"
   },
   {
     "title": "Elementals",
@@ -1570,7 +1570,7 @@
     "trophy": "",
     "reward": "",
     "exp": 75,
-    "req": ""
+    "req": "Enchant Shears with Efficiency 5, Mending, Unbreaking 3"
   },
   {
     "title": "Master Shieldman",
@@ -1581,7 +1581,7 @@
     "trophy": "",
     "reward": "",
     "exp": 150,
-    "req": ""
+    "req": "Enchant Shield with Mending, Unbreaking 3"
   },
   {
     "title": "Master Sweeper",
@@ -1592,7 +1592,7 @@
     "trophy": "",
     "reward": "",
     "exp": 50,
-    "req": ""
+    "req": "Enchant Brush with Mending, Unbreaking 3"
   },
   {
     "title": "Oh, I Forgot about the Anvil",
@@ -1614,7 +1614,7 @@
     "trophy": "",
     "reward": "",
     "exp": 50,
-    "req": ""
+    "req": "Enchant Flint and Steel with Mending, Unbreaking 3"
   },
   {
     "title": "Small Targets",
@@ -1636,7 +1636,7 @@
     "trophy": "",
     "reward": "",
     "exp": 50,
-    "req": ""
+    "req": "Enchant a book with Curse of Binding and Vanishing"
   },
   {
     "title": "Bee Colonist",
@@ -1647,7 +1647,7 @@
     "trophy": "",
     "reward": "4 Honeycomb",
     "exp": 75,
-    "req": ""
+    "req": "Place a Beenest with 3 bees inside in the End"
   },
   {
     "title": "Endergardener",
@@ -1669,7 +1669,7 @@
     "trophy": "Ancient Teleporter",
     "reward": "16 Ender Pearl",
     "exp": 150,
-    "req": ""
+    "req": "Teleport from the Nether to the End by using a pearl Stasis or throw an ender pearl through Nether and End portals"
   },
   {
     "title": "Intergalactic Journey",
@@ -1735,7 +1735,7 @@
     "trophy": "",
     "reward": "",
     "exp": 100,
-    "req": ""
+    "req": "Feed a brown Mooshroom with Azure Bluet, Allium, Blue Archid, Dandelion, Lily of the Valley, Corn Flower, Red Tulip, White Tulip, Pink Tulip, Orange Tulip, Poppy, Torchflower, Wither Rose, Oxeye Daisy"
   },
   {
     "title": "Eco Warrior",
@@ -1757,7 +1757,7 @@
     "trophy": "",
     "reward": "",
     "exp": 100,
-    "req": ""
+    "req": "Have Iron Golem, Snow Golem, Wither within 16 blocks of you"
   },
   {
     "title": "High Risk",
@@ -1845,7 +1845,7 @@
     "trophy": "",
     "reward": "16 Sugar Cane",
     "exp": 35,
-    "req": ""
+    "req": "Place Sugarcane on Grass Block, Dirt, Coarse Dirt, Rooted Dirt, Podzol, Mycelium, Sand, Red Sand, Suspicious Sand, Moss Block, Mud"
   },
   {
     "title": "Bat-Man",
@@ -1900,7 +1900,7 @@
     "trophy": "",
     "reward": "",
     "exp": 500,
-    "req": ""
+    "req": "Mine 16 blocks of: Reinforced Deepslate, Deepslate, Cobbled Deepslate, Cobbled Deepslate Wall, Chiseled Deepslate, Cobbled Deepslate Stairs, Cobbled Deepslate Slab, Polished Deepslate, Polished Deepslate Stairs, Polished Deepslate Slab, Polished Deepslate Wall, Deepslate Bricks, Cracked Deepslate Bricks, Deepslate Brick Stairs, Deepslate Brick Slab, Deepslate Brick Wall, Deepslate Tiles, Cracked Deepslate Tiles, Deepslate Tile Stairs, Deepslate Tile Slab, Deepslate Tile Wall"
   },
   {
     "title": "Distorted Cave Maze",
@@ -1911,7 +1911,7 @@
     "trophy": "",
     "reward": "32 Stone",
     "exp": 100,
-    "req": ""
+    "req": "Be in the Deep Dark, Dripstone or Lush Caves biome or under y=20 without seeing the sky light for one hour"
   },
   {
     "title": "Light at the End of the Tunnel",
@@ -1922,7 +1922,7 @@
     "trophy": "",
     "reward": "2 Lantern",
     "exp": 30,
-    "req": ""
+    "req": "Place a lentern on the block with light level 0"
   },
   {
     "title": "Redstoner",
@@ -1955,7 +1955,7 @@
     "trophy": "",
     "reward": "",
     "exp": 100,
-    "req": ""
+    "req": "Fall on the Sweet Berry Bush, Water, Cobweb, Lava, Slime Block, Hay Block, Honey Block, any type of Bed, Scaffolding, Powder Snow"
   },
   {
     "title": "Time Killer",
@@ -1977,7 +1977,7 @@
     "trophy": "",
     "reward": "16 String",
     "exp": 150,
-    "req": ""
+    "req": "Kill Spiders with this effects with a single piercing shot: Regeneration, Invisibility, Strength, Speed"
   },
   {
     "title": "Frozen Heart",
@@ -2043,7 +2043,7 @@
     "trophy": "",
     "reward": "",
     "exp": 150,
-    "req": ""
+    "req": "Kill the Wither while handing any type of arrow in the mainhand"
   },
   {
     "title": "Not That Impossible",
@@ -2098,7 +2098,7 @@
     "trophy": "",
     "reward": "1 Campfire",
     "exp": 100,
-    "req": ""
+    "req": "Hit a Witch and then kill it by using a campfire"
   },
   {
     "title": "The Undertaker's Revenge",
@@ -2109,7 +2109,7 @@
     "trophy": "The Undertaker's Shovel",
     "reward": "",
     "exp": 80,
-    "req": ""
+    "req": "Kill Phantom on y < 60 with an iron shovel"
   },
   {
     "title": "A Long Journey",
@@ -2186,7 +2186,7 @@
     "trophy": "My Precious",
     "reward": "",
     "exp": 1000,
-    "req": ""
+    "req": "Give these items to the Piglin: Bell, Block of Gold, Block of Raw Gold, Clock, Deepslate Gold Ore, Enchanted Golden Apple, Glistering Melon Slice, Gilded Blackstone, Gold Ingot, Gold Ore, Golden Apple, Golden Axe, Golden Boots, Golden Carrot, Golden Chestplate, Golden Helmet, Golden Hoe, Golden Horse Armor, Golden Leggings, Golden Pickaxe, Golden Shovel, Golden Sword, Light Weight Pressure Plate, Nether Gold Ore, Raw Gold, Gold Nugget"
   },
   {
     "title": "Gold Beacon",
@@ -2208,7 +2208,7 @@
     "trophy": "",
     "reward": "32 Gold Ingot",
     "exp": 200,
-    "req": ""
+    "req": "Give these flowers to the Baby Piglin: Azure Bluet, Allium, Blue Archid, Dandelion, Lily of the Valley, Corn Flower, Red Tulip, White Tulip, Pink Tulip, Orange Tulip, Poppy, Torchflower, Wither Rose, Oxeye Daisy, Sunflower, Rose Bush, Pitcher Plant, Peony, Lilac, Wither Rose"
   },
   {
     "title": "High Pitch",
@@ -2285,7 +2285,7 @@
     "trophy": "",
     "reward": "8 Magma Block",
     "exp": 100,
-    "req": ""
+    "req": "Stand on a Magma block with frost walker enchantment on the boots and fire resistance effect"
   },
   {
     "title": "Show the Wither his Home",
@@ -2296,7 +2296,7 @@
     "trophy": "The Last Rose",
     "reward": "",
     "exp": 175,
-    "req": ""
+    "req": "Kill the Wither in Crimson Forest, Warped Forest, Soul Sand Valley, Basalt Deltas and Nether Wastes"
   },
   {
     "title": "The New Swamp Won't Be Here",
@@ -2351,7 +2351,7 @@
     "trophy": "",
     "reward": "4 Rabbit's Foot",
     "exp": 130,
-    "req": ""
+    "req": "Kill a Rabbit, Slime, Magma Cube, Frog, Goat while both you and them have a Jump Boost Effect"
   },
   {
     "title": "Master of effects",
@@ -2362,7 +2362,7 @@
     "trophy": "Brewing Factory",
     "reward": "",
     "exp": 100,
-    "req": ""
+    "req": "Have all the effects of a certain level or higher not at the same time: Speed 2, Slowness 6, Strength 2, Jump Boost 2, Regeneration 2, Fire Resistance 1, Water Breathing 1, Invisibility 1, Night Vision 1, Weakness 1, Poison 2, Wither 2, Haste 2, Mining Fatigue 3, Levitation 1, Glowing 1, Absorption 4, Hunger 3, Nausea 1, Resistance 4, Slow Falling 1, Conduit Power 1, Dolphins Grace 1, Blindness 1, Hero of the Village 5, Darkness 1, Oozing 1, Weaving 1, Infested 1, Wind Charged 1, Raid Omen 5, Bad Omen 5, Trial Omen 1"
   },
   {
     "title": "Worst Cleric in the World",
@@ -2373,7 +2373,7 @@
     "trophy": "",
     "reward": "",
     "exp": 100,
-    "req": ""
+    "req": "Fill your inventory with Mundane or Thich potions"
   },
   {
     "title": "You're not the Zillager",
@@ -2384,7 +2384,7 @@
     "trophy": "",
     "reward": "1 Golden Apple",
     "exp": 50,
-    "req": ""
+    "req": "Have Weakness, Absorption and Regeneration 2 effects at the same time"
   },
   {
     "title": "More Optimisations!",
