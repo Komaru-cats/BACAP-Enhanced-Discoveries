@@ -4,12 +4,11 @@ html, body {
     display: flex;
     flex-direction: column;
     min-width: 1600px;
-    min-height: 100vh;
 }
 
 #AdvancementGrid {
     flex: 1;
-    width: 100%;
+    min-height: 100vh;
 }
 
 .glow-container {
