@@ -151,7 +151,8 @@ const columnDefs = [
             return null;
         },
         flex: 12,
-        lockPosition: 'left'
+        lockPosition: 'left',
+        minWidth: 250
     },
     {
         headerName: 'Tab',
@@ -159,6 +160,7 @@ const columnDefs = [
         sortable: true,
         filter: CustomCheckboxFilter,
         flex: 8,
+        minWidth: 150
     },
     {
         headerName: 'Description',
@@ -168,7 +170,8 @@ const columnDefs = [
         flex: 30,
         autoHeight: true,
         wrapText: true,
-        cellRenderer: DetailsRenderer
+        cellRenderer: DetailsRenderer,
+        minWidth: 550,
     },
     {
         headerName: 'Type',
@@ -176,7 +179,8 @@ const columnDefs = [
         sortable: true,
         flex: 8,
         comparator: advTypeComparator,
-        filter: CustomCheckboxFilter
+        filter: CustomCheckboxFilter,
+        minWidth: 170,
     },
     {
         headerName: 'Trophy',
@@ -184,6 +188,7 @@ const columnDefs = [
         sortable: true,
         filter: true,
         flex: 13,
+        minWidth: 280,
     },
     {
         headerName: 'Reward',
@@ -191,6 +196,7 @@ const columnDefs = [
         sortable: true,
         filter: true,
         flex: 11,
+        minWidth: 200,
     },
     {
         headerName: 'Exp',
@@ -198,6 +204,7 @@ const columnDefs = [
         sortable: true,
         filter: true,
         flex: 5,
+        minWidth: 100,
     }
 ];
 
@@ -226,11 +233,11 @@ const gridOptions = {
     rowData: [],
     defaultColDef: {
         resizable: true,
+        flex: 1,
     },
     animateRows: true,
 
 };
-
 
 const eGridDiv = document.getElementById('AdvancementGrid');
 const gridApi = agGrid.createGrid(eGridDiv, gridOptions);
