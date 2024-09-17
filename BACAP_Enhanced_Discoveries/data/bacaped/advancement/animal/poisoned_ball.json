@@ -7,7 +7,7 @@
       "translate": "Poisoned Ball"
     },
     "description": {
-      "translate": "Get poisoned by the thorns of a Pufferfish",
+      "translate": "Get poisoned by a Pufferfish's thorns",
       "color": "green"
     },
     "frame": "task",

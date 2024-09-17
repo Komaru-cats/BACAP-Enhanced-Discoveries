@@ -10,7 +10,7 @@
       "translate": "Redstoner"
     },
     "description": {
-      "translate": "Fill you inventory with redstone"
+      "translate": "Fill your inventory with redstone"
     },
     "frame": "challenge",
     "announce_to_chat": true

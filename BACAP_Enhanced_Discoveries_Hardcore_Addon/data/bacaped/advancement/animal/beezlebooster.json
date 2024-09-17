@@ -23,7 +23,7 @@
       "translate": "Beezlebooster"
     },
     "description": {
-      "translate": "Get hurt by a Bee over that is 350 blocks above the world height"
+      "translate": "Get hurt by a Bee over that is 350 blocks above the world"
     },
     "frame": "challenge",
     "announce_to_chat": true

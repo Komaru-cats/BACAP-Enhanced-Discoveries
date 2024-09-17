@@ -23,7 +23,7 @@
       "translate": "Circus Act"
     },
     "description": {
-      "translate": "Give the Enderman levitation, then name it \"Circus\" in the End, and finally, kill It in the Overworld using TNT",
+      "translate": "Give an Enderman levitation, then name it \"Circus\" in the End, and finally, kill It in the Overworld using TNT",
       "color": "#FF2A2A"
     },
     "frame": "challenge",
@@ -38,6 +38,9 @@
         "entity": {
           "type": "minecraft:enderman",
           "nbt": "{Tags:[\"bacaped_circus\"]}",
+          "location": {
+            "dimension": "minecraft:overworld"
+          },
           "effects": {
             "minecraft:levitation": {}
           }

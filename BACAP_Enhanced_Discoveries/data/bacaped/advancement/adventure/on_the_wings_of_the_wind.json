@@ -10,7 +10,7 @@
       "translate": "On the Wings of the Wind"
     },
     "description": {
-      "translate": "Use Wind Charge to launch yourself upward at least 150 blocks"
+      "translate": "Use a Wind Charge to launch yourself upward at least 150 blocks"
     },
     "frame": "challenge",
     "announce_to_chat": true

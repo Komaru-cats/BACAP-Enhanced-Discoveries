@@ -10,14 +10,16 @@
       "translate": "Eco Warrior"
     },
     "description": {
-      "translate": "Plant 1728 saplings of any one type"
+      "translate": "Plant 100 saplings of any one type",
+      "color": "#75E1FF"
     },
-    "frame": "challenge",
-    "announce_to_chat": true
+    "frame": "goal",
+    "announce_to_chat": true,
+    "hidden": false
   },
   "parent": "blazeandcave:farming/one_course_meal",
   "criteria": {
-    "1728_saplings": {
+    "trigger": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [
@@ -35,7 +37,7 @@
                         "type": "minecraft:used",
                         "stat": "minecraft:acacia_sapling",
                         "value": {
-                          "min": 1728
+                          "min": 99
                         }
                       }
                     ]
@@ -53,7 +55,7 @@
                         "type": "minecraft:used",
                         "stat": "minecraft:birch_sapling",
                         "value": {
-                          "min": 1728
+                          "min": 99
                         }
                       }
                     ]
@@ -71,7 +73,7 @@
                         "type": "minecraft:used",
                         "stat": "minecraft:cherry_sapling",
                         "value": {
-                          "min": 1728
+                          "min": 99
                         }
                       }
                     ]
@@ -89,7 +91,7 @@
                         "type": "minecraft:used",
                         "stat": "minecraft:dark_oak_sapling",
                         "value": {
-                          "min": 1728
+                          "min": 99
                         }
                       }
                     ]
@@ -107,7 +109,7 @@
                         "type": "minecraft:used",
                         "stat": "minecraft:jungle_sapling",
                         "value": {
-                          "min": 1728
+                          "min": 99
                         }
                       }
                     ]
@@ -125,7 +127,7 @@
                         "type": "minecraft:used",
                         "stat": "minecraft:oak_sapling",
                         "value": {
-                          "min": 1728
+                          "min": 99
                         }
                       }
                     ]
@@ -143,7 +145,7 @@
                         "type": "minecraft:used",
                         "stat": "minecraft:spruce_sapling",
                         "value": {
-                          "min": 1728
+                          "min": 99
                         }
                       }
                     ]

@@ -23,7 +23,7 @@
       "translate": "Rainbow!"
     },
     "description": {
-      "translate": "Place all kinds of colored glass directly above the beacon",
+      "translate": "Place all kinds of colored glass directly above a beacon",
       "color": "#75E1FF"
     },
     "frame": "goal",

@@ -7,7 +7,7 @@
       }
     },
     "title": {
-      "translate": "Crab Should Win"
+      "translate": "Crab Should've Win"
     },
     "description": {
       "translate": "Kill 100 Armadillos"
@@ -33,7 +33,7 @@
                     "type": "minecraft:killed",
                     "stat": "minecraft:armadillo",
                     "value": {
-                      "min": 100
+                      "min": 99
                     }
                   }
                 ]

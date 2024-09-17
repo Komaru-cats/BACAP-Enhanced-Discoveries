@@ -7,7 +7,7 @@
       "translate": "Dinner Time"
     },
     "description": {
-      "translate": "Look at the Wolf that is hunting the Skeleton using Spyglass"
+      "translate": "Look at a Wolf that is hunting a Skeleton using Spyglass"
     },
     "frame": "task",
     "announce_to_chat": true

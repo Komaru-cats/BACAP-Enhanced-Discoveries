@@ -6,28 +6,28 @@
         "minecraft:base_color": "blue",
         "minecraft:banner_patterns": [
           {
-            "color": "light_gray",
-            "pattern": "mojang"
+            "pattern": "minecraft:mojang",
+            "color": "light_gray"
           },
           {
-            "color": "light_blue",
-            "pattern": "gradient_up"
+            "pattern": "minecraft:gradient_up",
+            "color": "light_blue"
           },
           {
-            "color": "black",
-            "pattern": "gradient"
+            "pattern": "minecraft:gradient",
+            "color": "black"
           },
           {
-            "color": "black",
-            "pattern": "triangles_bottom"
+            "pattern": "minecraft:triangles_bottom",
+            "color": "black"
           },
           {
-            "color": "white",
-            "pattern": "circle"
+            "pattern": "minecraft:circle",
+            "color": "white"
           },
           {
-            "color": "black",
-            "pattern": "square_bottom_left"
+            "pattern": "minecraft:square_bottom_left",
+            "color": "black"
           }
         ]
       }
@@ -36,31 +36,135 @@
       "translate": "More Shields!"
     },
     "description": {
-      "translate": "Craft 1000 shields"
+      "translate": "Fill your inventory with shields",
+      "color": "#75E1FF"
     },
-    "frame": "challenge",
-    "announce_to_chat": true
+    "frame": "goal",
+    "announce_to_chat": true,
+    "hidden": false
   },
   "parent": "blazeandcave:weaponry/master_shieldsman",
   "criteria": {
-    "shield": {
-      "trigger": "minecraft:recipe_crafted",
+    "trigger": {
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
-            "stats": [
-              {
-                "type": "minecraft:crafted",
-                "stat": "minecraft:shield",
-                "value": {
-                  "min": 1000
-                }
-              }
-            ]
+          "slots": {
+            "inventory.0": {
+              "items": "minecraft:shield"
+            },
+            "inventory.1": {
+              "items": "minecraft:shield"
+            },
+            "inventory.2": {
+              "items": "minecraft:shield"
+            },
+            "inventory.3": {
+              "items": "minecraft:shield"
+            },
+            "inventory.4": {
+              "items": "minecraft:shield"
+            },
+            "inventory.5": {
+              "items": "minecraft:shield"
+            },
+            "inventory.6": {
+              "items": "minecraft:shield"
+            },
+            "inventory.7": {
+              "items": "minecraft:shield"
+            },
+            "inventory.8": {
+              "items": "minecraft:shield"
+            },
+            "inventory.9": {
+              "items": "minecraft:shield"
+            },
+            "inventory.10": {
+              "items": "minecraft:shield"
+            },
+            "inventory.11": {
+              "items": "minecraft:shield"
+            },
+            "inventory.12": {
+              "items": "minecraft:shield"
+            },
+            "inventory.13": {
+              "items": "minecraft:shield"
+            },
+            "inventory.14": {
+              "items": "minecraft:shield"
+            },
+            "inventory.15": {
+              "items": "minecraft:shield"
+            },
+            "inventory.16": {
+              "items": "minecraft:shield"
+            },
+            "inventory.17": {
+              "items": "minecraft:shield"
+            },
+            "inventory.18": {
+              "items": "minecraft:shield"
+            },
+            "inventory.19": {
+              "items": "minecraft:shield"
+            },
+            "inventory.20": {
+              "items": "minecraft:shield"
+            },
+            "inventory.21": {
+              "items": "minecraft:shield"
+            },
+            "inventory.22": {
+              "items": "minecraft:shield"
+            },
+            "inventory.23": {
+              "items": "minecraft:shield"
+            },
+            "inventory.24": {
+              "items": "minecraft:shield"
+            },
+            "inventory.25": {
+              "items": "minecraft:shield"
+            },
+            "inventory.26": {
+              "items": "minecraft:shield"
+            },
+            "hotbar.0": {
+              "items": "minecraft:shield"
+            },
+            "hotbar.1": {
+              "items": "minecraft:shield"
+            },
+            "hotbar.2": {
+              "items": "minecraft:shield"
+            },
+            "hotbar.3": {
+              "items": "minecraft:shield"
+            },
+            "hotbar.4": {
+              "items": "minecraft:shield"
+            },
+            "hotbar.5": {
+              "items": "minecraft:shield"
+            },
+            "hotbar.6": {
+              "items": "minecraft:shield"
+            },
+            "hotbar.7": {
+              "items": "minecraft:shield"
+            },
+            "hotbar.8": {
+              "items": "minecraft:shield"
+            }
+          },
+          "equipment": {
+            "offhand": {
+              "items": "minecraft:shield"
+            }
           }
-        },
-        "recipe_id": "minecraft:shield"
+        }
       }
     }
   },

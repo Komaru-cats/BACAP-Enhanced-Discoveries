@@ -18,7 +18,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:bacap/challenges_milestone",
+  "parent": "bacaped:bacap/enhanced_challenges_milestone",
   "criteria": {
     "copper_armor": {
       "trigger": "minecraft:location",
@@ -891,6 +891,201 @@
         }
       }
     },
+    "enhanced_adventure_milestone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:bacap/enhanced_adventure_milestone": true
+            }
+          }
+        }
+      }
+    },
+    "enhanced_animal_milestone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:bacap/enhanced_animal_milestone": true
+            }
+          }
+        }
+      }
+    },
+    "enhanced_biomes_milestone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:bacap/enhanced_biomes_milestone": true
+            }
+          }
+        }
+      }
+    },
+    "enhanced_building_milestone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:bacap/enhanced_building_milestone": true
+            }
+          }
+        }
+      }
+    },
+    "enhanced_challenges_milestone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:bacap/enhanced_challenges_milestone": true
+            }
+          }
+        }
+      }
+    },
+    "enhanced_enchanting_milestone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:bacap/enhanced_enchanting_milestone": true
+            }
+          }
+        }
+      }
+    },
+    "enhanced_end_milestone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:bacap/enhanced_end_milestone": true
+            }
+          }
+        }
+      }
+    },
+    "enhanced_farming_milestone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:bacap/enhanced_farming_milestone": true
+            }
+          }
+        }
+      }
+    },
+    "enhanced_mining_milestone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:bacap/enhanced_mining_milestone": true
+            }
+          }
+        }
+      }
+    },
+    "enhanced_monsters_milestone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:bacap/enhanced_monsters_milestone": true
+            }
+          }
+        }
+      }
+    },
+    "enhanced_nether_milestone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:bacap/enhanced_nether_milestone": true
+            }
+          }
+        }
+      }
+    },
+    "enhanced_potion_milestone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:bacap/enhanced_potion_milestone": true
+            }
+          }
+        }
+      }
+    },
+    "enhanced_redstone_milestone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:bacap/enhanced_redstone_milestone": true
+            }
+          }
+        }
+      }
+    },
+    "enhanced_statistics_milestone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:bacap/enhanced_statistics_milestone": true
+            }
+          }
+        }
+      }
+    },
+    "enhanced_weaponry_milestone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:bacap/enhanced_weaponry_milestone": true
+            }
+          }
+        }
+      }
+    },
     "good_dreams": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -1333,19 +1528,6 @@
         }
       }
     },
-    "from_the_underworld": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:challenges/from_the_underworld": true
-            }
-          }
-        }
-      }
-    },
     "happy_anniversary": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -1679,19 +1861,6 @@
             "type": "player",
             "advancements": {
               "bacaped:challenges/what_are_the_chances": true
-            }
-          }
-        }
-      }
-    },
-    "what_a_stupid_purchase": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:challenges/what_a_stupid_purchase": true
             }
           }
         }

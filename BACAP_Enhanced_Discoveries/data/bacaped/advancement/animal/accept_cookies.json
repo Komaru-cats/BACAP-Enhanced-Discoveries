@@ -7,7 +7,7 @@
       "translate": "Accept Cookies"
     },
     "description": {
-      "translate": "Feed the Parrot a cookie and see what happens next",
+      "translate": "Feed a Parrot a cookie and see what happens next",
       "color": "green"
     },
     "frame": "task",

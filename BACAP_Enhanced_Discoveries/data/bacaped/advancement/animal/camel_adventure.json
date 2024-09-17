@@ -10,7 +10,7 @@
       "translate": "Camel Adventure"
     },
     "description": {
-      "translate": "Travel to desert temple, Village's house and Pillager outpost in desert without getting up from the Camel"
+      "translate": "Travel to a desert temple, Village house and a Pillager outpost in desert without dismounting from the Camel"
     },
     "frame": "challenge",
     "announce_to_chat": true

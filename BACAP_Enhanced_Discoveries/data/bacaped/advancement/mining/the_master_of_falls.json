@@ -7,7 +7,7 @@
       "translate": "The Master of Falls"
     },
     "description": {
-      "translate": "Fall on each block that softens the fall"
+      "translate": "Fall on each block that softens falls"
     },
     "frame": "challenge",
     "announce_to_chat": true

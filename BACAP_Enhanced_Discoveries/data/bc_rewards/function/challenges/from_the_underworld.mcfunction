@@ -72,7 +72,7 @@ execute if score exp bac_settings matches -2 if entity @s[team=bac_team_light_pu
 execute if score exp bac_settings matches -2 if entity @s[team=bac_team_yellow] unless score bacaped:challenges/from_the_underworld bac_obtained_yellow matches 1.. run function bc_rewards:exp/challenges/from_the_underworld
 execute if score exp bac_settings matches -2 if entity @s[team=bac_team_white] unless score bacaped:challenges/from_the_underworld bac_obtained_white matches 1.. run function bc_rewards:exp/challenges/from_the_underworld
 
-function bc_rewards:score_add
+#function bc_rewards:score_add
 
 execute unless score bacaped:challenges/from_the_underworld bac_obtained matches 1.. run function bc_rewards:first_score_add
 execute if entity @s[team=bac_team_black] unless score bacaped:challenges/from_the_underworld bac_obtained_black matches 1.. run function bc_rewards:first_team_score_add

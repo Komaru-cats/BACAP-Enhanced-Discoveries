@@ -1,0 +1,191 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:melon"
+    },
+    "title": {
+      "translate": "Enh. Farming Milestone"
+    },
+    "description": {
+      "translate": "Complete every Enhanced Discoveries advancement in the Farming tab",
+      "color": "yellow"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:bacap/enhanced_building_milestone",
+  "criteria": {
+    "apple_addiction": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:farming/apple_addiction": true
+            }
+          }
+        }
+      }
+    },
+    "christmas_spirit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:farming/christmas_spirit": true
+            }
+          }
+        }
+      }
+    },
+    "delicious": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:farming/delicious": true
+            }
+          }
+        }
+      }
+    },
+    "eco_warrior": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:farming/eco_warrior": true
+            }
+          }
+        }
+      }
+    },
+    "golems": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:farming/golems": true
+            }
+          }
+        }
+      }
+    },
+    "high_risk": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:farming/high_risk": true
+            }
+          }
+        }
+      }
+    },
+    "its_midnight_already": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:farming/its_midnight_already": true
+            }
+          }
+        }
+      }
+    },
+    "more_more_cookies": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:farming/more_more_cookies": true
+            }
+          }
+        }
+      }
+    },
+    "not_fireflies": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:farming/not_fireflies": true
+            }
+          }
+        }
+      }
+    },
+    "overpayment": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:farming/overpayment": true
+            }
+          }
+        }
+      }
+    },
+    "plant_enthusiast": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:farming/plant_enthusiast": true
+            }
+          }
+        }
+      }
+    },
+    "preventive_conversation": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:farming/preventive_conversation": true
+            }
+          }
+        }
+      }
+    },
+    "raising_canes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:farming/raising_canes": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:bacap/enhanced_farming_milestone"
+  }
+}

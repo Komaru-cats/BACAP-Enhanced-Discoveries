@@ -10,14 +10,16 @@
       "translate": "Endergardener"
     },
     "description": {
-      "translate": "Plant 1000 chorus flowers"
+      "translate": "Plant 100 chorus flowers",
+      "color": "#75E1FF"
     },
-    "frame": "challenge",
-    "announce_to_chat": true
+    "frame": "goal",
+    "announce_to_chat": true,
+    "hidden": false
   },
   "parent": "blazeandcave:end/extrabiologist",
   "criteria": {
-    "1000_chorus_flowers": {
+    "trigger": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [
@@ -32,7 +34,7 @@
                     "type": "minecraft:used",
                     "stat": "minecraft:chorus_flower",
                     "value": {
-                      "min": 999
+                      "min": 99
                     }
                   }
                 ]

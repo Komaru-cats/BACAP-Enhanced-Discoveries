@@ -23,7 +23,7 @@
       "translate": "Beezlebooster"
     },
     "description": {
-      "translate": "Die from a Bee that is 350 blocks above the world height"
+      "translate": "Die from a Bee that is 350 blocks above the world"
     },
     "frame": "challenge",
     "announce_to_chat": true

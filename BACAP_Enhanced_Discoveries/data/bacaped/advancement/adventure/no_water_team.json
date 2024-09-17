@@ -7,10 +7,12 @@
       "translate": "No-Water Team"
     },
     "description": {
-      "translate": "Place 1000 sponges"
+      "translate": "Place 250 sponges",
+      "color": "#75E1FF"
     },
-    "frame": "challenge",
-    "announce_to_chat": true
+    "frame": "goal",
+    "announce_to_chat": true,
+    "hidden": false
   },
   "parent": "bacaped:adventure/water_team",
   "criteria": {
@@ -29,7 +31,7 @@
                     "type": "minecraft:used",
                     "stat": "minecraft:sponge",
                     "value": {
-                      "min": 1000
+                      "min": 249
                     }
                   }
                 ]

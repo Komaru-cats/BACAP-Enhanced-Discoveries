@@ -10,7 +10,7 @@
       "translate": "Suspicious Duel"
     },
     "description": {
-      "translate": "Look at the Skeleton who decided to have a duel with another Skeleton using a spyglass",
+      "translate": "Look at a Skeleton who decided to have a duel with another Skeleton using a spyglass",
       "color": "#75E1FF"
     },
     "frame": "goal",

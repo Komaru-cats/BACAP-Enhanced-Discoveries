@@ -10,7 +10,7 @@
       "translate": "Piggish Poison Tango"
     },
     "description": {
-      "translate": "Kill the Warden with an empty inventory with effects of poison, nausea and hunger sitting on a Pig",
+      "translate": "Kill a Warden with an empty inventory with effects of poison, nausea and hunger sitting on a Pig",
       "color": "#FF2A2A"
     },
     "frame": "challenge",

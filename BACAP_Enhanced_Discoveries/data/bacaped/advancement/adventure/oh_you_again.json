@@ -4,10 +4,10 @@
       "id": "minecraft:wandering_trader_spawn_egg"
     },
     "title": {
-      "translate": "Oh, you again?"
+      "translate": "Oh, You Again?"
     },
     "description": {
-      "translate": "Open the door to a Wandering Trader",
+      "translate": "Open a door for a Wandering Trader",
       "color": "#75E1FF"
     },
     "frame": "goal",

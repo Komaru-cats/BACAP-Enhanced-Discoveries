@@ -23,7 +23,7 @@
       "translate": "One Minute Warden's Hugs"
     },
     "description": {
-      "translate": "Stay within 5 blocks of the Warden for 1 minute",
+      "translate": "Stay within 5 blocks of a Warden for 1 minute",
       "color": "dark_purple"
     },
     "frame": "challenge",

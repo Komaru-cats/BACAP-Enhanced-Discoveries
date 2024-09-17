@@ -22,13 +22,13 @@
       "conditions": {
         "player": {
           "type_specific": {
-            "type": "player",
+            "type": "minecraft:player",
             "stats": [
               {
                 "type": "minecraft:crafted",
                 "stat": "minecraft:cookie",
                 "value": {
-                  "min": 10000
+                  "min": 9999
                 }
               }
             ]
@@ -36,8 +36,36 @@
         },
         "recipe_id": "minecraft:cookie"
       }
+    },
+    "cookies_buy": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:crafted",
+                "stat": "minecraft:cookie",
+                "value": {
+                  "min": 9999
+                }
+              }
+            ]
+          }
+        },
+        "item": {
+          "items": "minecraft:cookie"
+        }
+      }
     }
   },
+  "requirements": [
+    [
+      "cookies",
+      "cookies_buy"
+    ]
+  ],
   "rewards": {
     "function": "bc_rewards:farming/more_more_cookies"
   }

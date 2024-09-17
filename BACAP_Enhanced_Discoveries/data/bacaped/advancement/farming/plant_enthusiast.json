@@ -10,10 +10,12 @@
       "translate": "Plant Enthusiast"
     },
     "description": {
-      "translate": "Plant 10,000 potatoes"
+      "translate": "Plant 800 potatoes",
+      "color": "#75E1FF"
     },
-    "frame": "challenge",
-    "announce_to_chat": true
+    "frame": "goal",
+    "announce_to_chat": true,
+    "hidden": false
   },
   "parent": "blazeandcave:farming/not_today",
   "criteria": {
@@ -28,7 +30,7 @@
                 "type": "minecraft:used",
                 "stat": "minecraft:potato",
                 "value": {
-                  "min": 10000
+                  "min": 799
                 }
               }
             ]

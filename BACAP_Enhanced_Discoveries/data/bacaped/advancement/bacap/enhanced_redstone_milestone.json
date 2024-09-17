@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crafter"
+    },
+    "title": {
+      "translate": "Enh. Redstone Milestone"
+    },
+    "description": {
+      "translate": "Complete every Enhanced Discoveries advancement in the Redstone tab",
+      "color": "yellow"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:bacap/enhanced_adventure_milestone",
+  "criteria": {
+    "more_optimisations": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:redstone/more_optimisations": true
+            }
+          }
+        }
+      }
+    },
+    "old_optimisations": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:redstone/old_optimisations": true
+            }
+          }
+        }
+      }
+    },
+    "what_do_you_know_about_pistons": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:redstone/what_do_you_know_about_pistons": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:bacap/enhanced_redstone_milestone"
+  }
+}

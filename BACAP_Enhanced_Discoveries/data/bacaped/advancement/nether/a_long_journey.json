@@ -23,7 +23,7 @@
       "translate": "A Long Journey"
     },
     "description": {
-      "translate": "Ride at least 300 meters on the lava lake on Strider in the End",
+      "translate": "Ride at least 300 meters on a lava lake riding a Strider in the End",
       "color": "dark_purple"
     },
     "frame": "challenge",
@@ -40,7 +40,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "dimension": "minecraft:end"
+                "dimension": "minecraft:the_end"
               },
               "vehicle": {
                 "type": "minecraft:strider"

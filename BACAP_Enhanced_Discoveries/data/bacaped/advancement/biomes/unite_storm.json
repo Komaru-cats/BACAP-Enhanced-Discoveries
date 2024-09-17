@@ -10,7 +10,7 @@
       "translate": "Unite Storm"
     },
     "description": {
-      "translate": "Be near a Polar Fox, a Snow Golem, a Stray, a Snow Wolf, a Snow Rabbit, a Polar Bear and a Goat in a snow biome during a snowfall (have them all within 16 blocks of you)",
+      "translate": "Be near a Polar Fox, a Snow Golem, a Stray, a Snow Wolf, a Snow Rabbit, a Polar Bear and a Goat in a snow biome during snowfall (have them all within 16 blocks of you)",
       "color": "dark_purple"
     },
     "frame": "challenge",

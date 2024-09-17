@@ -10,7 +10,7 @@
       "translate": "Dead-eye"
     },
     "description": {
-      "translate": "Kill a baby Turtle that is below sea level while you are more than 300 blocks above the world height by using Trident"
+      "translate": "Kill a baby Turtle that is below sea level while you are more than 300 blocks above the world by using Trident"
     },
     "frame": "challenge",
     "announce_to_chat": true,

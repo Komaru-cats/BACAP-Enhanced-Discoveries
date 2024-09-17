@@ -23,7 +23,7 @@
       "translate": "Netherite Beacon!"
     },
     "description": {
-      "translate": "Create a full power beacon that consists entirely of blocks of netherite",
+      "translate": "Create a full power beacon that consists entirely of netherite blocks",
       "color": "light_purple"
     },
     "frame": "challenge",

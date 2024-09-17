@@ -7,7 +7,7 @@
       "translate": "Bee Colonist"
     },
     "description": {
-      "translate": "Place a filled bee nest in the End",
+      "translate": "Place a full bee nest in the End",
       "color": "#75E1FF"
     },
     "frame": "goal",

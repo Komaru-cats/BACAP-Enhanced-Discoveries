@@ -10,7 +10,7 @@
       "translate": "Universal Solitude"
     },
     "description": {
-      "translate": "Have 42 Wardens in the End with name \"Mason\"",
+      "translate": "Have 42 Wardens in the End named \"Mason\"",
       "color": "light_purple"
     },
     "frame": "challenge",

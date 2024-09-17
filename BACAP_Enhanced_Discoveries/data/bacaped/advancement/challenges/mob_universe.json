@@ -23,14 +23,14 @@
       "translate": "Mob Universe"
     },
     "description": {
-      "translate": "Collect all the mobs from their dimension in each dimension (have them all within 128 blocks of you)",
+      "translate": "Collect all types of mobs from their dimension in each dimension (have them all within 128 blocks of you)",
       "color": "#FF2A2A",
       "extra": [
         {
           "text": "\n\n"
         },
         {
-          "translate": "To view list of required mobs, run:\n",
+          "translate": "To view list of required mobs, run:",
           "color": "dark_gray",
           "italic": true
         },

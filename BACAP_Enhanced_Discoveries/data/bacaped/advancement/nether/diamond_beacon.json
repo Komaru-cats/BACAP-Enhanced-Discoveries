@@ -23,7 +23,7 @@
       "translate": "Diamond Beacon"
     },
     "description": {
-      "translate": "Create a full power beacon that consists entirely of blocks of diamond",
+      "translate": "Create a full power beacon that consists entirely of diamond blocks",
       "color": "dark_purple"
     },
     "frame": "challenge",

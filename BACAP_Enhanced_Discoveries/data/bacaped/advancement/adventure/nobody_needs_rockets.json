@@ -11,7 +11,7 @@
       "translate": "Nobody Needs Rockets!"
     },
     "description": {
-      "translate": "Use Wind Charge to launch yourself upward at least 50 blocks",
+      "translate": "Use a Wind Charge to launch yourself upward at least 50 blocks",
       "color": "#75E1FF"
     },
     "frame": "goal",
