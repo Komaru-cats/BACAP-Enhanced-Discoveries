@@ -292,7 +292,13 @@ function resetState() {
 const params = new URLSearchParams(window.location.search);
 const version = params.get('ver');
 let versionFolder = version ? version.replace(/\./g, '_') : null;
-const defaultDataFile = 'ver/2_3/data.json';
+let defaultDataFile = '';
+fetch('default_data.json')
+    .then(response => response.json())
+    .then((defaultData) => {
+        defaultDataFile = `ver/${defaultData.defaultVersion}/data.json`;
+        }
+    )
 let dataFile = `ver/${versionFolder}/data.json`;
 
 function fetchData(filePath) {
@@ -303,10 +309,11 @@ function fetchData(filePath) {
         .then((data) => {
             gridApi.setGridOption('rowData', data);
         })
-        .catch((error) => {
+        .catch(() => {
             fetchData(defaultDataFile);
         });
 }
+
 if (versionFolder) {
     fetchData(dataFile);
 } else {
