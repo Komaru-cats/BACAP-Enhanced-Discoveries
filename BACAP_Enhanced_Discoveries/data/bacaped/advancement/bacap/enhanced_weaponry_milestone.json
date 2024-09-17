@@ -1,0 +1,152 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_sword"
+    },
+    "title": {
+      "translate": "Enh. Weaponry Milestone"
+    },
+    "description": {
+      "translate": "Complete every Enhanced Discoveries advancement in the Weaponry tab",
+      "color": "yellow"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:bacap/enhanced_monsters_milestone",
+  "criteria": {
+    "cold_betrayal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:weaponry/cold_betrayal": true
+            }
+          }
+        }
+      }
+    },
+    "dead-eye": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:weaponry/dead-eye": true
+            }
+          }
+        }
+      }
+    },
+    "explosive_fisherman": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:weaponry/explosive_fisherman": true
+            }
+          }
+        }
+      }
+    },
+    "frightening_fishing": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:weaponry/frightening_fishing": true
+            }
+          }
+        }
+      }
+    },
+    "glowball": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:weaponry/glowball": true
+            }
+          }
+        }
+      }
+    },
+    "meet_the_snipe": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:weaponry/meet_the_snipe": true
+            }
+          }
+        }
+      }
+    },
+    "more_shields": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:weaponry/more_shields": true
+            }
+          }
+        }
+      }
+    },
+    "snow_fights": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:weaponry/snow_fights": true
+            }
+          }
+        }
+      }
+    },
+    "the_explosive_adventure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:weaponry/the_explosive_adventure": true
+            }
+          }
+        }
+      }
+    },
+    "unlucky": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:weaponry/unlucky": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:bacap/enhanced_weaponry_milestone"
+  }
+}

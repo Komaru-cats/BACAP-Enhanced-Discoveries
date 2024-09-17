@@ -10,7 +10,7 @@
       "translate": "Pyromaniac"
     },
     "description": {
-      "translate": "Create a flint and steel with all possible enchantments at max level"
+      "translate": "Create flint and steel with all possible enchantments at max level"
     },
     "frame": "challenge",
     "announce_to_chat": true

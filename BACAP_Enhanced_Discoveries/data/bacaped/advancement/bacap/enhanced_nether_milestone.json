@@ -1,0 +1,256 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gilded_blackstone"
+    },
+    "title": {
+      "translate": "Enh. Nether Milestone"
+    },
+    "description": {
+      "translate": "Complete every Enhanced Discoveries advancement in the Nether tab",
+      "color": "yellow"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:bacap/enhanced_statistics_milestone",
+  "criteria": {
+    "a_long_journey": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:nether/a_long_journey": true
+            }
+          }
+        }
+      }
+    },
+    "bastion_robber": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:nether/bastion_robber": true
+            }
+          }
+        }
+      }
+    },
+    "bastion_sweet_bastion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:nether/bastion_sweet_bastion": true
+            }
+          }
+        }
+      }
+    },
+    "blaze3d": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:nether/blaze3d": true
+            }
+          }
+        }
+      }
+    },
+    "diamond_beacon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:nether/diamond_beacon": true
+            }
+          }
+        }
+      }
+    },
+    "emerald_beacon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:nether/emerald_beacon": true
+            }
+          }
+        }
+      }
+    },
+    "give_them_everything_they_want": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:nether/give_them_everything_they_want": true
+            }
+          }
+        }
+      }
+    },
+    "gold_beacon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:nether/gold_beacon": true
+            }
+          }
+        }
+      }
+    },
+    "herbarium_to_my_friend": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:nether/herbarium_to_my_friend": true
+            }
+          }
+        }
+      }
+    },
+    "high_pitch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:nether/high_pitch": true
+            }
+          }
+        }
+      }
+    },
+    "hot_combat": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:nether/hot_combat": true
+            }
+          }
+        }
+      }
+    },
+    "hot_lake": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:nether/hot_lake": true
+            }
+          }
+        }
+      }
+    },
+    "impostor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:nether/impostor": true
+            }
+          }
+        }
+      }
+    },
+    "iron_beacon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:nether/iron_beacon": true
+            }
+          }
+        }
+      }
+    },
+    "never_careful_enough": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:nether/never_careful_enough": true
+            }
+          }
+        }
+      }
+    },
+    "show_the_wither_his_home": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:nether/show_the_wither_his_home": true
+            }
+          }
+        }
+      }
+    },
+    "the_new_swamp_wont_be_here": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:nether/the_new_swamp_wont_be_here": true
+            }
+          }
+        }
+      }
+    },
+    "withering_depths": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:nether/withering_depths": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:bacap/enhanced_nether_milestone"
+  }
+}

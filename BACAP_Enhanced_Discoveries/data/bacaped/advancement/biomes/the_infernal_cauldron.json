@@ -7,7 +7,21 @@
       "translate": "The Infernal Cauldron"
     },
     "description": {
-      "translate": "Spend a day in lava cauldron"
+      "translate": "Spend a day in lava a cauldron",
+      "extra": [
+        {
+          "text": "\n\n"
+        },
+        {
+          "translate": "To view progress, run:",
+          "color": "dark_gray",
+          "italic": true
+        },
+        {
+          "text": "/trigger bacaped_timers",
+          "color": "gray"
+        }
+      ]
     },
     "frame": "challenge",
     "announce_to_chat": true

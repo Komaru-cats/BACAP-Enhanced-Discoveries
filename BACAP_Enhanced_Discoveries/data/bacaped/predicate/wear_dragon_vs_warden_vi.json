@@ -21,7 +21,8 @@
           "minecraft:trim": {
             "material": "minecraft:netherite",
             "pattern": "minecraft:eye"
-          }
+          },
+          "minecraft:dyed_color": 1908001
         }
       },
       "feet": {
@@ -30,7 +31,8 @@
           "minecraft:trim": {
             "material": "minecraft:netherite",
             "pattern": "minecraft:eye"
-          }
+          },
+          "minecraft:dyed_color": 1908001
         }
       }
     },

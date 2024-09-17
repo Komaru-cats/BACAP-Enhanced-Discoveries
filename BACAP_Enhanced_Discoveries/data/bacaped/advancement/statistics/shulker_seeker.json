@@ -7,7 +7,7 @@
       "translate": "Shulker Seeker"
     },
     "description": {
-      "translate": "Open the shulker box 100 times",
+      "translate": "Open a shulker box 100 times",
       "color": "green"
     },
     "frame": "task",

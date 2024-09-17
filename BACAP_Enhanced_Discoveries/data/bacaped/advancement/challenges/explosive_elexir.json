@@ -113,11 +113,7 @@
               "min": 4
             }
           },
-          "minecraft:trial_omen": {
-            "amplifier": {
-              "min": 4
-            }
-          }
+          "minecraft:trial_omen": {}
         }
       }
     }

@@ -7,7 +7,7 @@
       "translate": "Water Team"
     },
     "description": {
-      "translate": "Use a bucket of water 4000 times"
+      "translate": "Use buckets of water 500 times"
     },
     "frame": "challenge",
     "announce_to_chat": true
@@ -29,7 +29,7 @@
                     "type": "minecraft:used",
                     "stat": "minecraft:water_bucket",
                     "value": {
-                      "min": 4000
+                      "min": 499
                     }
                   }
                 ]

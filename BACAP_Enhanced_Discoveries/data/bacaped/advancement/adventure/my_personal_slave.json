@@ -7,7 +7,7 @@
       "translate": "My Personal Slave"
     },
     "description": {
-      "translate": "Have an Allay drop all swords, trident, bow, crossbow and mace"
+      "translate": "Have an Allay drop you all the swords, trident, bow, crossbow and mace"
     },
     "frame": "challenge",
     "announce_to_chat": true

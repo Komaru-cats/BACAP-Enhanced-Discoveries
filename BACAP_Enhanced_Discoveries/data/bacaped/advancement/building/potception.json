@@ -27,8 +27,7 @@
                   "block": {
                     "blocks": [
                       "minecraft:decorated_pot"
-                    ],
-                    "nbt": "{item: {components: {\"minecraft:container\": [{item: {count: 64, id: \"minecraft:decorated_pot\"}, slot: 0}, {item: {count: 64, id: \"minecraft:decorated_pot\"}, slot: 1}, {item: {count: 64, id: \"minecraft:decorated_pot\"}, slot: 2}, {item: {count: 64, id: \"minecraft:decorated_pot\"}, slot: 3}, {item: {count: 64, id: \"minecraft:decorated_pot\"}, slot: 4}, {item: {count: 64, id: \"minecraft:decorated_pot\"}, slot: 5}, {item: {count: 64, id: \"minecraft:decorated_pot\"}, slot: 6}, {item: {count: 64, id: \"minecraft:decorated_pot\"}, slot: 7}, {item: {count: 64, id: \"minecraft:decorated_pot\"}, slot: 8}, {item: {count: 64, id: \"minecraft:decorated_pot\"}, slot: 9}, {item: {count: 64, id: \"minecraft:decorated_pot\"}, slot: 10}, {item: {count: 64, id: \"minecraft:decorated_pot\"}, slot: 11}, {item: {count: 64, id: \"minecraft:decorated_pot\"}, slot: 12}, {item: {count: 64, id: \"minecraft:decorated_pot\"}, slot: 13}, {item: {count: 64, id: \"minecraft:decorated_pot\"}, slot: 14}, {item: {count: 64, id: \"minecraft:decorated_pot\"}, slot: 15}, {item: {count: 64, id: \"minecraft:decorated_pot\"}, slot: 16}, {item: {count: 64, id: \"minecraft:decorated_pot\"}, slot: 17}, {item: {count: 64, id: \"minecraft:decorated_pot\"}, slot: 18}, {item: {count: 64, id: \"minecraft:decorated_pot\"}, slot: 19}, {item: {count: 64, id: \"minecraft:decorated_pot\"}, slot: 20}, {item: {count: 64, id: \"minecraft:decorated_pot\"}, slot: 21}, {item: {count: 64, id: \"minecraft:decorated_pot\"}, slot: 22}, {item: {count: 64, id: \"minecraft:decorated_pot\"}, slot: 23}, {item: {count: 64, id: \"minecraft:decorated_pot\"}, slot: 24}, {item: {count: 64, id: \"minecraft:decorated_pot\"}, slot: 25}, {item: {count: 64, id: \"minecraft:decorated_pot\"}, slot: 26}]}, count: 1, id: \"minecraft:brown_shulker_box\"}}"
+                    ]
                   }
                 }
               },
@@ -37,7 +36,200 @@
                 "predicate": {
                   "items": [
                     "minecraft:brown_shulker_box"
-                  ]
+                  ],
+                  "components": {
+                    "minecraft:container": [
+                      {
+                        "slot": 0,
+                        "item": {
+                          "id": "minecraft:decorated_pot",
+                          "count": 64
+                        }
+                      },
+                      {
+                        "slot": 1,
+                        "item": {
+                          "id": "minecraft:decorated_pot",
+                          "count": 64
+                        }
+                      },
+                      {
+                        "slot": 2,
+                        "item": {
+                          "id": "minecraft:decorated_pot",
+                          "count": 64
+                        }
+                      },
+                      {
+                        "slot": 3,
+                        "item": {
+                          "id": "minecraft:decorated_pot",
+                          "count": 64
+                        }
+                      },
+                      {
+                        "slot": 4,
+                        "item": {
+                          "id": "minecraft:decorated_pot",
+                          "count": 64
+                        }
+                      },
+                      {
+                        "slot": 5,
+                        "item": {
+                          "id": "minecraft:decorated_pot",
+                          "count": 64
+                        }
+                      },
+                      {
+                        "slot": 6,
+                        "item": {
+                          "id": "minecraft:decorated_pot",
+                          "count": 64
+                        }
+                      },
+                      {
+                        "slot": 7,
+                        "item": {
+                          "id": "minecraft:decorated_pot",
+                          "count": 64
+                        }
+                      },
+                      {
+                        "slot": 8,
+                        "item": {
+                          "id": "minecraft:decorated_pot",
+                          "count": 64
+                        }
+                      },
+                      {
+                        "slot": 9,
+                        "item": {
+                          "id": "minecraft:decorated_pot",
+                          "count": 64
+                        }
+                      },
+                      {
+                        "slot": 10,
+                        "item": {
+                          "id": "minecraft:decorated_pot",
+                          "count": 64
+                        }
+                      },
+                      {
+                        "slot": 11,
+                        "item": {
+                          "id": "minecraft:decorated_pot",
+                          "count": 64
+                        }
+                      },
+                      {
+                        "slot": 12,
+                        "item": {
+                          "id": "minecraft:decorated_pot",
+                          "count": 64
+                        }
+                      },
+                      {
+                        "slot": 13,
+                        "item": {
+                          "id": "minecraft:decorated_pot",
+                          "count": 64
+                        }
+                      },
+                      {
+                        "slot": 14,
+                        "item": {
+                          "id": "minecraft:decorated_pot",
+                          "count": 64
+                        }
+                      },
+                      {
+                        "slot": 15,
+                        "item": {
+                          "id": "minecraft:decorated_pot",
+                          "count": 64
+                        }
+                      },
+                      {
+                        "slot": 16,
+                        "item": {
+                          "id": "minecraft:decorated_pot",
+                          "count": 64
+                        }
+                      },
+                      {
+                        "slot": 17,
+                        "item": {
+                          "id": "minecraft:decorated_pot",
+                          "count": 64
+                        }
+                      },
+                      {
+                        "slot": 18,
+                        "item": {
+                          "id": "minecraft:decorated_pot",
+                          "count": 64
+                        }
+                      },
+                      {
+                        "slot": 19,
+                        "item": {
+                          "id": "minecraft:decorated_pot",
+                          "count": 64
+                        }
+                      },
+                      {
+                        "slot": 20,
+                        "item": {
+                          "id": "minecraft:decorated_pot",
+                          "count": 64
+                        }
+                      },
+                      {
+                        "slot": 21,
+                        "item": {
+                          "id": "minecraft:decorated_pot",
+                          "count": 64
+                        }
+                      },
+                      {
+                        "slot": 22,
+                        "item": {
+                          "id": "minecraft:decorated_pot",
+                          "count": 64
+                        }
+                      },
+                      {
+                        "slot": 23,
+                        "item": {
+                          "id": "minecraft:decorated_pot",
+                          "count": 64
+                        }
+                      },
+                      {
+                        "slot": 24,
+                        "item": {
+                          "id": "minecraft:decorated_pot",
+                          "count": 64
+                        }
+                      },
+                      {
+                        "slot": 25,
+                        "item": {
+                          "id": "minecraft:decorated_pot",
+                          "count": 64
+                        }
+                      },
+                      {
+                        "slot": 26,
+                        "item": {
+                          "id": "minecraft:decorated_pot",
+                          "count": 64
+                        }
+                      }
+                    ]
+                  }
                 }
               }
             ]

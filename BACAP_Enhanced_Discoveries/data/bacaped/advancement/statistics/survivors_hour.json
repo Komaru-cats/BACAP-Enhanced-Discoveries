@@ -7,7 +7,7 @@
       "translate": "Survivor's Hour"
     },
     "description": {
-      "translate": "Avoid dying within 1 hour",
+      "translate": "Avoid dying for 1 hour",
       "color": "green"
     },
     "frame": "task",

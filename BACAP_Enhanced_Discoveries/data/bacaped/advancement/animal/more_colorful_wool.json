@@ -29,7 +29,7 @@
                     "type": "minecraft:used",
                     "stat": "minecraft:white_wool",
                     "value": {
-                      "min": 64
+                      "min": 63
                     }
                   }
                 ]
@@ -54,7 +54,7 @@
                     "type": "minecraft:used",
                     "stat": "minecraft:light_gray_wool",
                     "value": {
-                      "min": 64
+                      "min": 63
                     }
                   }
                 ]
@@ -79,7 +79,7 @@
                     "type": "minecraft:used",
                     "stat": "minecraft:gray_wool",
                     "value": {
-                      "min": 64
+                      "min": 63
                     }
                   }
                 ]
@@ -104,7 +104,7 @@
                     "type": "minecraft:used",
                     "stat": "minecraft:black_wool",
                     "value": {
-                      "min": 64
+                      "min": 63
                     }
                   }
                 ]
@@ -129,7 +129,7 @@
                     "type": "minecraft:used",
                     "stat": "minecraft:brown_wool",
                     "value": {
-                      "min": 64
+                      "min": 63
                     }
                   }
                 ]
@@ -154,7 +154,7 @@
                     "type": "minecraft:used",
                     "stat": "minecraft:red_wool",
                     "value": {
-                      "min": 64
+                      "min": 63
                     }
                   }
                 ]
@@ -179,7 +179,7 @@
                     "type": "minecraft:used",
                     "stat": "minecraft:orange_wool",
                     "value": {
-                      "min": 64
+                      "min": 63
                     }
                   }
                 ]
@@ -204,7 +204,7 @@
                     "type": "minecraft:used",
                     "stat": "minecraft:yellow_wool",
                     "value": {
-                      "min": 64
+                      "min": 63
                     }
                   }
                 ]
@@ -229,7 +229,7 @@
                     "type": "minecraft:used",
                     "stat": "minecraft:lime_wool",
                     "value": {
-                      "min": 64
+                      "min": 63
                     }
                   }
                 ]
@@ -254,7 +254,7 @@
                     "type": "minecraft:used",
                     "stat": "minecraft:green_wool",
                     "value": {
-                      "min": 64
+                      "min": 63
                     }
                   }
                 ]
@@ -279,7 +279,7 @@
                     "type": "minecraft:used",
                     "stat": "minecraft:cyan_wool",
                     "value": {
-                      "min": 64
+                      "min": 63
                     }
                   }
                 ]
@@ -304,7 +304,7 @@
                     "type": "minecraft:used",
                     "stat": "minecraft:light_blue_wool",
                     "value": {
-                      "min": 64
+                      "min": 63
                     }
                   }
                 ]
@@ -329,7 +329,7 @@
                     "type": "minecraft:used",
                     "stat": "minecraft:blue_wool",
                     "value": {
-                      "min": 64
+                      "min": 63
                     }
                   }
                 ]
@@ -354,7 +354,7 @@
                     "type": "minecraft:used",
                     "stat": "minecraft:purple_wool",
                     "value": {
-                      "min": 64
+                      "min": 63
                     }
                   }
                 ]
@@ -379,7 +379,7 @@
                     "type": "minecraft:used",
                     "stat": "minecraft:magenta_wool",
                     "value": {
-                      "min": 64
+                      "min": 63
                     }
                   }
                 ]
@@ -404,7 +404,7 @@
                     "type": "minecraft:used",
                     "stat": "minecraft:pink_wool",
                     "value": {
-                      "min": 64
+                      "min": 63
                     }
                   }
                 ]

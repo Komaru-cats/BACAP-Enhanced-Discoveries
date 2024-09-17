@@ -23,7 +23,7 @@
       "translate": "Show the Nether to a Silverfish"
     },
     "description": {
-      "translate": "Look at a Silverfish in a bastion, fortress and a ruined portal in the Nether using Spyglass",
+      "translate": "Look at a Silverfish in a Bastion, Fortress and a Ruined Portal in the Nether using Spyglass",
       "color": "#FF2A2A"
     },
     "frame": "challenge",
@@ -52,7 +52,7 @@
         }
       }
     },
-    "bastion": {
+    "fortress": {
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
@@ -73,7 +73,7 @@
         }
       }
     },
-    "fortress": {
+    "bastion": {
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {

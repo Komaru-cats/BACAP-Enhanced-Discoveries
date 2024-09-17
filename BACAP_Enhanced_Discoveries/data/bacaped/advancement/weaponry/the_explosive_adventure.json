@@ -10,8 +10,22 @@
       "translate": "The Explosive Adventure"
     },
     "description": {
-      "translate": "Place 1000 blocks of tnt",
-      "color": "#75E1FF"
+      "translate": "Ignite 250 blocks of TNT",
+      "color": "#75E1FF",
+      "extra": [
+        {
+          "text": "\n\n"
+        },
+        {
+          "translate": "To view the statistics, run:",
+          "color": "dark_gray",
+          "italic": true
+        },
+        {
+          "text": "/trigger bacaped_statistics",
+          "color": "gray"
+        }
+      ]
     },
     "frame": "goal",
     "announce_to_chat": true
@@ -19,30 +33,7 @@
   "parent": "bacaped:weaponry/explosive_fisherman",
   "criteria": {
     "trigger": {
-      "trigger": "minecraft:placed_block",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "stats": [
-              {
-                "type": "minecraft:used",
-                "stat": "minecraft:tnt",
-                "value": {
-                  "min": 1000
-                }
-              }
-            ]
-          }
-        },
-        "location": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {}
-          }
-        ]
-      }
+      "trigger": "minecraft:impossible"
     }
   },
   "rewards": {

@@ -10,7 +10,7 @@
       "translate": "My Mountains"
     },
     "description": {
-      "translate": "Drink milk at the top of the mountain while looking at the Goat",
+      "translate": "Drink milk at the top of the mountain while looking at a Goat",
       "color": "#75E1FF"
     },
     "frame": "goal",
@@ -92,15 +92,6 @@
                     "predicate": {
                       "location": {
                         "biome": "minecraft:stony_peaks"
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "location": {
-                        "biome": "minecraft:stony_shore"
                       }
                     }
                   },

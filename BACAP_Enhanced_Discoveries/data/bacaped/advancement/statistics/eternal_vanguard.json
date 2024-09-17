@@ -23,7 +23,7 @@
       "translate": "Eternal Vanguard"
     },
     "description": {
-      "translate": "Avoid dying within 500 hours",
+      "translate": "Avoid dying for 500 hours",
       "color": "light_purple"
     },
     "frame": "challenge",

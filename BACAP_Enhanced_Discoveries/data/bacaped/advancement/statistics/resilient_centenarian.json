@@ -23,7 +23,7 @@
       "translate": "Resilient Centenarian"
     },
     "description": {
-      "translate": "Avoid dying within 10 hours",
+      "translate": "Avoid dying for 10 hours",
       "color": "#75E1FF"
     },
     "frame": "goal",

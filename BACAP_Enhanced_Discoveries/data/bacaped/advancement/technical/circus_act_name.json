@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "name_enderman_with_slowfalling": {
+    "name_enderman_with_levitation": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {

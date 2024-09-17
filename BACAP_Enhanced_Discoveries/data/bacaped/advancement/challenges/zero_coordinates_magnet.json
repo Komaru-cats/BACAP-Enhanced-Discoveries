@@ -10,7 +10,7 @@
       "translate": "Zero Coordinates Magnet"
     },
     "description": {
-      "translate": "Kill the blue Axolotl at coordinates x: 0 z: 0 y: 0 in the End",
+      "translate": "Kill a blue Axolotl at coordinates x: 0 z: 0 y: 0 in the End",
       "color": "#FF2A2A"
     },
     "frame": "challenge",

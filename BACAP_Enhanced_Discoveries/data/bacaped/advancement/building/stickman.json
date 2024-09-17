@@ -28,7 +28,7 @@
                 "type": "minecraft:crafted",
                 "stat": "minecraft:stick",
                 "value": {
-                  "min": 10000
+                  "min": 9999
                 }
               }
             ]

@@ -23,7 +23,7 @@
       "translate": "Warden's Thrust"
     },
     "description": {
-      "translate": "Soar with Elytra from a Warden's sonic boom attack"
+      "translate": "Soar with an Elytra from a Warden's sonic boom attack"
     },
     "frame": "challenge",
     "announce_to_chat": true

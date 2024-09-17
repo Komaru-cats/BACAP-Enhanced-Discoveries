@@ -11,10 +11,11 @@
     },
     "description": {
       "translate": "Buy Glowstone from a Wandering Trader in the Nether",
-      "color": "#FF2A2A"
+      "color": "light_purple"
     },
     "frame": "challenge",
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "hidden": true
   },
   "parent": "bacaped:challenges/what_a_stupid_purchase",
   "criteria": {

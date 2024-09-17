@@ -1,0 +1,87 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_stone_bricks"
+    },
+    "title": {
+      "translate": "Enh. End Milestone"
+    },
+    "description": {
+      "translate": "Complete every Enhanced Discoveries advancement in the End tab",
+      "color": "yellow"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:bacap/enhanced_potion_milestone",
+  "criteria": {
+    "bee_colonist": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:end/bee_colonist": true
+            }
+          }
+        }
+      }
+    },
+    "endergardener": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:end/endergardener": true
+            }
+          }
+        }
+      }
+    },
+    "interdimensional_travel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:end/interdimensional_travel": true
+            }
+          }
+        }
+      }
+    },
+    "intergalactic_journey": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:end/intergalactic_journey": true
+            }
+          }
+        }
+      }
+    },
+    "last_hit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:end/last_hit": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:bacap/enhanced_end_milestone"
+  }
+}

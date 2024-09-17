@@ -1,0 +1,139 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:experience_bottle"
+    },
+    "title": {
+      "translate": "Enh. Enchanting Milestone"
+    },
+    "description": {
+      "translate": "Complete every Enhanced Discoveries advancement in the Enchanting tab",
+      "color": "yellow"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:bacap/enhanced_redstone_milestone",
+  "criteria": {
+    "all_the_netherite_tools": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:enchanting/all_the_netherite_tools": true
+            }
+          }
+        }
+      }
+    },
+    "elementals": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:enchanting/elementals": true
+            }
+          }
+        }
+      }
+    },
+    "master_shearer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:enchanting/master_shearer": true
+            }
+          }
+        }
+      }
+    },
+    "master_shieldman": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:enchanting/master_shieldman": true
+            }
+          }
+        }
+      }
+    },
+    "master_sweeper": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:enchanting/master_sweeper": true
+            }
+          }
+        }
+      }
+    },
+    "oh_i_forgot_about_the_anvil": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:enchanting/oh_i_forgot_about_the_anvil": true
+            }
+          }
+        }
+      }
+    },
+    "pyromaniac": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:enchanting/pyromaniac": true
+            }
+          }
+        }
+      }
+    },
+    "small_targets": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:enchanting/small_targets": true
+            }
+          }
+        }
+      }
+    },
+    "useless": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:enchanting/useless": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:bacap/enhanced_enchanting_milestone"
+  }
+}

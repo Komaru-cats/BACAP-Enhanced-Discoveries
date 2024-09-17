@@ -7,7 +7,7 @@
       "translate": "Ladder Legend"
     },
     "description": {
-      "translate": "Climb for 10km"
+      "translate": "Climb 10km"
     },
     "frame": "challenge",
     "announce_to_chat": true

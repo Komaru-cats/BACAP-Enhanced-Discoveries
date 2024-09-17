@@ -30,16 +30,9 @@
         ],
         "location": [
           {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
+            "condition": "minecraft:match_tool",
             "predicate": {
-              "type": "minecraft:player",
-              "type_specific": {
-                "type": "player",
-                "looking_at": {
-                  "type": "minecraft:firework_rocket"
-                }
-              }
+              "items": "minecraft:firework_rocket"
             }
           }
         ]

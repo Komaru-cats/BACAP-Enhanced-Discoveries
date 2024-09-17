@@ -4,10 +4,10 @@
       "id": "minecraft:phantom_membrane"
     },
     "title": {
-      "translate": "Get out of my sky"
+      "translate": "Get Out of My Sky"
     },
     "description": {
-      "translate": "Get hurt by a Phantom while you are 320 blocks above the world"
+      "translate": "Get hurt by a Phantom while you are 320 blocks up in the sky"
     },
     "frame": "challenge",
     "announce_to_chat": true

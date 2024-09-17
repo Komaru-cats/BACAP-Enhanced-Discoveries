@@ -10,7 +10,7 @@
       "translate": "Master Shearer"
     },
     "description": {
-      "translate": "Create a shears with all possible enchantments at max level"
+      "translate": "Create shears with all possible enchantments at max level"
     },
     "frame": "challenge",
     "announce_to_chat": true

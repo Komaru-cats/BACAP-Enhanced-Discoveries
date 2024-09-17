@@ -30,6 +30,13 @@ execute as @a[advancements={bacaped:technical/kill_full_hp_warden=true}] run adv
 # Camel Adventure
 execute as @a[advancements={bacaped:animal/camel_adventure=false}] run execute unless entity @s[nbt={RootVehicle:{Entity:{id:"minecraft:camel"}}}] run advancement revoke @s only bacaped:animal/camel_adventure
 
+# Big Pig Adventure
+execute as @a[advancements={bacaped:challenges/big_pig_adventure=false}] run execute unless entity @s[nbt={RootVehicle:{Entity:{id:"minecraft:pig"}}}] run advancement revoke @s only bacaped:challenges/big_pig_adventure
+
+# Big End Adventure
+execute as @a[advancements={bacaped:challenges/big_end_adventure=false}] run execute unless entity @s[nbt={RootVehicle:{Entity:{id:"minecraft:strider"}}}] run advancement revoke @s only bacaped:challenges/big_end_adventure
+
+
 # Intergalactic Journey
 execute as @a[advancements={bacaped:end/intergalactic_journey=false}] unless predicate bacaped:in_boat run advancement revoke @s only bacaped:end/intergalactic_journey
 
@@ -53,13 +60,17 @@ scoreboard players add @a bacaped_unlucky 1
 execute as @a[gamemode=!spectator,advancements={bacaped:weaponry/unlucky=false},scores={bacaped_unlucky_hurt=1..}] run function bacaped:scores/unlucky
 
 # Warden near score
-execute as @a[gamemode=!spectator,advancements={bacaped:challenges/one_minute_wardens_hugs=false}] at @s run function bacaped:scores/warden_near
+execute as @a[gamemode=!spectator,advancements={bacaped:monsters/one_minute_wardens_hugs=false}] at @s run function bacaped:scores/warden_near
 
 # Triggers
 
 # Trigger to get a list of mobs for Mob Universe
 scoreboard players enable @a bacaped_mob_universe
 execute as @a if score @s bacaped_mob_universe matches 1.. run function bacaped:triggers_callback/mob_universe_trigger
+
+# Trigger to get info about custom stats
+scoreboard players enable @a bacaped_statistics
+execute as @a if score @s bacaped_statistics matches 1.. run function bacaped:triggers_callback/statistics_trigger
 
 # Trigger to get info about timers
 scoreboard players enable @a bacaped_timers

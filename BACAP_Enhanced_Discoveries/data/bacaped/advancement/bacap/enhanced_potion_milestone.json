@@ -1,0 +1,105 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lingering_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "custom_color": 3325906
+        }
+      }
+    },
+    "title": {
+      "translate": "Enh. Potions Milestone"
+    },
+    "description": {
+      "translate": "Complete every Enhanced Discoveries advancement in the Potion tab",
+      "color": "yellow"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:bacap/enhanced_nether_milestone",
+  "criteria": {
+    "cowabunga_it_is": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:potion/cowabunga_it_is": true
+            }
+          }
+        }
+      }
+    },
+    "flashlight": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:potion/flashlight": true
+            }
+          }
+        }
+      }
+    },
+    "jump_for_joy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:potion/jump_for_joy": true
+            }
+          }
+        }
+      }
+    },
+    "master_of_effects": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:potion/master_of_effects": true
+            }
+          }
+        }
+      }
+    },
+    "worst_cleric_in_the_world": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:potion/worst_cleric_in_the_world": true
+            }
+          }
+        }
+      }
+    },
+    "youre_not_the_zillager": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:potion/youre_not_the_zillager": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:bacap/enhanced_potion_milestone"
+  }
+}

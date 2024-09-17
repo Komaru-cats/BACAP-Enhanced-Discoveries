@@ -1,0 +1,165 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobbled_deepslate"
+    },
+    "title": {
+      "translate": "Enh. Mining Milestone"
+    },
+    "description": {
+      "translate": "Complete every Enhanced Discoveries advancement in the Mining tab",
+      "color": "yellow"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:bacap/time_to_farm",
+  "criteria": {
+    "batman": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:mining/batman": true
+            }
+          }
+        }
+      }
+    },
+    "chief_spide": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:mining/chief_spide": true
+            }
+          }
+        }
+      }
+    },
+    "copper_king": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:mining/copper_king": true
+            }
+          }
+        }
+      }
+    },
+    "deepslated_miner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:mining/deepslated_miner": true
+            }
+          }
+        }
+      }
+    },
+    "deepslate_master": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:mining/deepslate_master": true
+            }
+          }
+        }
+      }
+    },
+    "distorted_cave_maze": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:mining/distorted_cave_maze": true
+            }
+          }
+        }
+      }
+    },
+    "light_at_the_end_of_the_tunnel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:mining/light_at_the_end_of_the_tunnel": true
+            }
+          }
+        }
+      }
+    },
+    "redstoner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:mining/redstoner": true
+            }
+          }
+        }
+      }
+    },
+    "reinforced_miner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:mining/reinforced_miner": true
+            }
+          }
+        }
+      }
+    },
+    "the_master_of_falls": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:mining/the_master_of_falls": true
+            }
+          }
+        }
+      }
+    },
+    "time_killer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:mining/time_killer": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:bacap/enhanced_mining_milestone"
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:piglin_head"
+    },
+    "title": {
+      "translate": "Enh. Monsters Milestone"
+    },
+    "description": {
+      "translate": "Complete every Enhanced Discoveries advancement in the Monsters tab",
+      "color": "yellow"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:bacap/enhanced_animal_milestone",
+  "criteria": {
+    "arachnophobia": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:monsters/arachnophobia": true
+            }
+          }
+        }
+      }
+    },
+    "frozen_heart": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:monsters/frozen_heart": true
+            }
+          }
+        }
+      }
+    },
+    "get_out_of_my_sky": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:monsters/get_out_of_my_sky": true
+            }
+          }
+        }
+      }
+    },
+    "high_explosives": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:monsters/high_explosives": true
+            }
+          }
+        }
+      }
+    },
+    "i_uh_forgot_a_composter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:monsters/i_uh_forgot_a_composter": true
+            }
+          }
+        }
+      }
+    },
+    "live_cactus": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:monsters/live_cactus": true
+            }
+          }
+        }
+      }
+    },
+    "more_impossible": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:monsters/more_impossible": true
+            }
+          }
+        }
+      }
+    },
+    "not_that_impossible": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:monsters/not_that_impossible": true
+            }
+          }
+        }
+      }
+    },
+    "one_minute_wardens_hugs": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:monsters/one_minute_wardens_hugs": true
+            }
+          }
+        }
+      }
+    },
+    "phantom_rider": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:monsters/phantom_rider": true
+            }
+          }
+        }
+      }
+    },
+    "suspicious_duel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:monsters/suspicious_duel": true
+            }
+          }
+        }
+      }
+    },
+    "the_inquisition": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:monsters/the_inquisition": true
+            }
+          }
+        }
+      }
+    },
+    "the_undertakers_revenge": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:monsters/the_undertakers_revenge": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:bacap/enhanced_monsters_milestone"
+  }
+}

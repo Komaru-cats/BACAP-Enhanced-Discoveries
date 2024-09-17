@@ -23,7 +23,7 @@
       "translate": "Save me!"
     },
     "description": {
-      "translate": "Repair the Iron Golem during the battle with the Warden",
+      "translate": "Repair an Iron Golem during the battle with the Warden",
       "color": "dark_purple"
     },
     "frame": "challenge",

@@ -1,0 +1,412 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:knowledge_book"
+    },
+    "title": {
+      "translate": "Enh. Statistics Milestone"
+    },
+    "description": {
+      "translate": "Complete every Enhanced Discoveries advancement in the Statistics tab",
+      "color": "yellow"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:bacap/enhanced_enchanting_milestone",
+  "criteria": {
+    "artisan_adept": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/artisan_adept": true
+            }
+          }
+        }
+      }
+    },
+    "chest_lover": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/chest_lover": true
+            }
+          }
+        }
+      }
+    },
+    "climb_expert": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/climb_expert": true
+            }
+          }
+        }
+      }
+    },
+    "craftsman_novice": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/craftsman_novice": true
+            }
+          }
+        }
+      }
+    },
+    "diamond_digger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/diamond_digger": true
+            }
+          }
+        }
+      }
+    },
+    "experienced_angler": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/experienced_angler": true
+            }
+          }
+        }
+      }
+    },
+    "intermediate_fisher": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/intermediate_fisher": true
+            }
+          }
+        }
+      }
+    },
+    "jungle_gymnast": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/jungle_gymnast": true
+            }
+          }
+        }
+      }
+    },
+    "ladder_legend": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/ladder_legend": true
+            }
+          }
+        }
+      }
+    },
+    "master_artificer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/master_artificer": true
+            }
+          }
+        }
+      }
+    },
+    "master_of_survival": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/master_of_survival": true
+            }
+          }
+        }
+      }
+    },
+    "metal_miner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/metal_miner": true
+            }
+          }
+        }
+      }
+    },
+    "mr_chester": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/mr_chester": true
+            }
+          }
+        }
+      }
+    },
+    "my_chest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/my_chest": true
+            }
+          }
+        }
+      }
+    },
+    "novice_angler": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/novice_angler": true
+            }
+          }
+        }
+      }
+    },
+    "novice_scout": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/novice_scout": true
+            }
+          }
+        }
+      }
+    },
+    "pillager_protector": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/pillager_protector": true
+            }
+          }
+        }
+      }
+    },
+    "raid_resister": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/raid_resister": true
+            }
+          }
+        }
+      }
+    },
+    "resilient_centenarian": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/resilient_centenarian": true
+            }
+          }
+        }
+      }
+    },
+    "shulker_explorer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/shulker_explorer": true
+            }
+          }
+        }
+      }
+    },
+    "shulker_seeker": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/shulker_seeker": true
+            }
+          }
+        }
+      }
+    },
+    "shulker_voyager": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/shulker_voyager": true
+            }
+          }
+        }
+      }
+    },
+    "speed_master": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/speed_master": true
+            }
+          }
+        }
+      }
+    },
+    "stone_cutter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/stone_cutter": true
+            }
+          }
+        }
+      }
+    },
+    "survivors_hour": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/survivors_hour": true
+            }
+          }
+        }
+      }
+    },
+    "swift_herder": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/swift_herder": true
+            }
+          }
+        }
+      }
+    },
+    "totem_adept": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/totem_adept": true
+            }
+          }
+        }
+      }
+    },
+    "totem_expert": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/totem_expert": true
+            }
+          }
+        }
+      }
+    },
+    "totem_tinkerer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/totem_tinkerer": true
+            }
+          }
+        }
+      }
+    },
+    "vindicator_vanquisher": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:statistics/vindicator_vanquisher": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:bacap/enhanced_statistics_milestone"
+  }
+}

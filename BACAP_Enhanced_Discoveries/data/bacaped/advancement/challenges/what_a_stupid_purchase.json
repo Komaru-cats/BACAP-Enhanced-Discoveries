@@ -11,10 +11,11 @@
     },
     "description": {
       "translate": "Buy pointed dripstone from a Wandering Trader in dripstone caves",
-      "color": "#FF2A2A"
+      "color": "light_purple"
     },
     "frame": "challenge",
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "hidden": true
   },
   "parent": "blazeandcave:challenges/stockbroker",
   "criteria": {

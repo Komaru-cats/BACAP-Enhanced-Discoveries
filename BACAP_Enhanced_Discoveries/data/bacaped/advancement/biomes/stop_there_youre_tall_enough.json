@@ -4,10 +4,10 @@
       "id": "minecraft:twisting_vines"
     },
     "title": {
-      "translate": "Stop there, you're tall enough"
+      "translate": "Stop There, You're Tall Enough"
     },
     "description": {
-      "translate": "Stop the growth of kelp, twisted vine and weeping vine",
+      "translate": "Stop the growth of kelp, twisted vines and weeping vines",
       "color": "#75E1FF"
     },
     "frame": "goal",

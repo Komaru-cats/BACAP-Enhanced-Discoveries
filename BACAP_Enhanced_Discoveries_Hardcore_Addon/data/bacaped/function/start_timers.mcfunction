@@ -12,6 +12,8 @@ scoreboard objectives add bacaped_horse_speed dummy
 scoreboard objectives add bacaped_horse_health dummy
 scoreboard objectives add bacaped_horse_jump dummy
 scoreboard objectives add bacaped_warden_near_seconds dummy
+scoreboard objectives add bacaped_ignite_tnt dummy
+scoreboard players add @a bacaped_ignite_tnt 0
 
 # Objectives (HARDCORE ADDED)
 scoreboard objectives add bacaped_unlucky_hurt minecraft.custom:minecraft.damage_taken
@@ -21,6 +23,7 @@ scoreboard objectives add bacaped_unlucky dummy
 # Triggers
 scoreboard objectives add bacaped_mob_universe trigger
 scoreboard objectives add bacaped_timers trigger
+scoreboard objectives add bacaped_statistics trigger
 
 # Timers
 function bacaped:1sec_timer

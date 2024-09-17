@@ -7,14 +7,16 @@
       "translate": "Art lover"
     },
     "description": {
-      "translate": "Place 1000 paintings"
+      "translate": "Place 100 paintings",
+      "color": "green"
     },
-    "frame": "challenge",
-    "announce_to_chat": true
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
   },
   "parent": "blazeandcave:building/art_gallery",
   "criteria": {
-    "used_1000_paintings": {
+    "trigger": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "location": [
@@ -29,7 +31,7 @@
                     "type": "minecraft:used",
                     "stat": "minecraft:painting",
                     "value": {
-                      "min": 1000
+                      "min": 99
                     }
                   }
                 ]

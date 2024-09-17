@@ -3,12 +3,6 @@ advancement grant @a[scores={bac_stat_food=25000..}] only bacaped:statistics/cul
 advancement grant @a[scores={bac_stat_loot_chest=2500..}] only bacaped:statistics/chests_aficionado
 
 
-# Big Pig Adventure
-execute as @a[advancements={bacaped:challenges/big_pig_adventure=false}] run execute unless entity @s[nbt={RootVehicle:{Entity:{id:"minecraft:pig"}}}] run advancement revoke @s only bacaped:challenges/big_pig_adventure
-
-# Big End Adventure
-execute as @a[advancements={bacaped:challenges/big_end_adventure=false}] run execute unless entity @s[nbt={RootVehicle:{Entity:{id:"minecraft:strider"}}}] run advancement revoke @s only bacaped:challenges/big_end_adventure
-
 # Unite Storm check
 execute as @a[gamemode=!spectator,advancements={bacaped:biomes/unite_storm=false},predicate=bacaped:unite_storm_check] at @s run function bacaped:mob_collections/unite_storm_check
 

@@ -7,7 +7,7 @@
       "translate": "Jungle Gymnast"
     },
     "description": {
-      "translate": "Climb for 100m"
+      "translate": "Climb 100m"
     },
     "frame": "task",
     "announce_to_chat": true

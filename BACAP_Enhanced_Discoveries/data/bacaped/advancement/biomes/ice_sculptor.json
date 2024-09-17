@@ -10,14 +10,16 @@
       "translate": "Ice Sculptor"
     },
     "description": {
-      "translate": "Place 1000 blocks of blue ice"
+      "translate": "Place 200 blocks of blue ice",
+      "color": "#75E1FF"
     },
-    "frame": "challenge",
-    "announce_to_chat": true
+    "frame": "goal",
+    "announce_to_chat": true,
+    "hidden": false
   },
   "parent": "blazeandcave:biomes/thick_ice",
   "criteria": {
-    "place_1000_blue_ice": {
+    "trigger": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [
@@ -32,7 +34,7 @@
                     "type": "minecraft:used",
                     "stat": "minecraft:blue_ice",
                     "value": {
-                      "min": 999
+                      "min": 199
                     }
                   }
                 ]
