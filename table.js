@@ -289,8 +289,27 @@ function resetState() {
     gridApi.setFilterModel(null)
 }
 
-fetch('data.json')
-    .then(response => response.json())
-    .then((data) => gridApi.setGridOption('rowData', data))
+const params = new URLSearchParams(window.location.search);
+const version = params.get('ver');
+let versionFolder = version ? version.replace(/\./g, '_') : null;
+const defaultDataFile = 'ver/2_3/data.json';
+let dataFile = `ver/${versionFolder}/data.json`;
 
+function fetchData(filePath) {
+    fetch(filePath)
+        .then(response => {
+            return response.json();
+        })
+        .then((data) => {
+            gridApi.setGridOption('rowData', data);
+        })
+        .catch((error) => {
+            fetchData(defaultDataFile);
+        });
+}
+if (versionFolder) {
+    fetchData(dataFile);
+} else {
+    fetchData(defaultDataFile);
+}
 loadState()
