@@ -28,20 +28,20 @@ execute as @a[advancements={bacaped:technical/kill_full_hp_warden=true},scores={
 execute as @a[advancements={bacaped:technical/kill_full_hp_warden=true}] run advancement revoke @s only bacaped:technical/kill_full_hp_warden
 
 # Camel Adventure
-execute as @a[advancements={bacaped:animal/camel_adventure=false}] run execute unless entity @s[nbt={RootVehicle:{Entity:{id:"minecraft:camel"}}}] run advancement revoke @s only bacaped:animal/camel_adventure
+execute as @a[advancements={bacaped:animal/camel_adventure=false}] run execute unless entity @s[predicate=bacaped:is_sitting_on_camel] run advancement revoke @s only bacaped:animal/camel_adventure
 
 # Big Pig Adventure
-execute as @a[advancements={bacaped:challenges/big_pig_adventure=false}] run execute unless entity @s[nbt={RootVehicle:{Entity:{id:"minecraft:pig"}}}] run advancement revoke @s only bacaped:challenges/big_pig_adventure
+execute as @a[advancements={bacaped:challenges/big_pig_adventure=false}] run execute unless entity @s[predicate=bacaped:is_sitting_on_pig] run advancement revoke @s only bacaped:challenges/big_pig_adventure
 
 # Big End Adventure
-execute as @a[advancements={bacaped:challenges/big_end_adventure=false}] run execute unless entity @s[nbt={RootVehicle:{Entity:{id:"minecraft:strider"}}}] run advancement revoke @s only bacaped:challenges/big_end_adventure
+execute as @a[advancements={bacaped:challenges/big_end_adventure=false}] run execute unless entity @s[predicate=bacaped:is_sitting_on_strider] run advancement revoke @s only bacaped:challenges/big_end_adventure
 
 
 # Intergalactic Journey
 execute as @a[advancements={bacaped:end/intergalactic_journey=false}] unless predicate bacaped:in_boat run advancement revoke @s only bacaped:end/intergalactic_journey
 
 # Pooch Purge Pilot
-execute as @a[advancements={bacaped:challenges/pooch_purge_pilot=false}] run execute unless entity @s[nbt={RootVehicle:{Entity:{id:"minecraft:llama"}}}] run advancement revoke @s only bacaped:challenges/pooch_purge_pilot
+execute as @a[advancements={bacaped:challenges/pooch_purge_pilot=false}] run execute unless entity @s[predicate=bacaped:is_sitting_on_llama] run advancement revoke @s only bacaped:challenges/pooch_purge_pilot
 
 # Dead Carnaval
 execute as @a[gamemode=!spectator,advancements={bacaped:challenges/dead_carnaval=false}] run advancement revoke @s only bacaped:challenges/dead_carnaval
