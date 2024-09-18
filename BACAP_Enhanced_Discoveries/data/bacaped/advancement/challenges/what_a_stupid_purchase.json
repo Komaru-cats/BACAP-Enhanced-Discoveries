@@ -17,7 +17,7 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "blazeandcave:challenges/stockbroker",
+  "parent": "blazeandcave:challenges/root",
   "criteria": {
     "buy_pointed_dripstone": {
       "trigger": "minecraft:villager_trade",

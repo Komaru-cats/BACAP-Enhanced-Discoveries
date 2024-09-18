@@ -357,7 +357,7 @@
 "Interspecific Adventure": "Межвидовое Приключение",
 "Bring a Silverfish and an Endermite from the main End island to the End city and look at them through a spyglass": "Приведите Чешуйницу и Эндермита с центрального острова Края в Город Края и посмотрите на них, используя подзорную трубу",
 "Pooch Purge Pilot": "Пилот по Очистке Дворняжек",
-"Kill every type of Wolves in their biomes without dismounting a Llama": "Убейте все типы Волков в их биомах не вставая с Ламы",
+"Kill every type of Wolf in their biomes without dismounting a Llama": "Убейте все типы Волков в их биомах не вставая с Ламы",
 # enchanting
 
 "All the Netherite Tools": "Все Незеритовые Инструменты",
@@ -1178,6 +1178,8 @@
 "Write an issue": "Написать репорт",
 "Open on GitHub": "Открыть на GitHub",
 "Open on Modrinth": "Открыть на Modrinth",
+"Docs": "Документация",
+"Open the advancement documentation": "Открыть документацию по достижениям",
 # menu if BACAP is not installed
 
 " isn't installed": " не установлен",
