@@ -874,7 +874,7 @@
     "color": "#FFFF55",
     "tab": "B&C Advancements",
     "type": "Milestone",
-    "trophy": "Moon Stone",
+    "trophy": "Tiny Moon",
     "reward": "",
     "exp": 3000,
     "req": ""
@@ -1508,7 +1508,7 @@
   },
   {
     "title": "Pooch Purge Pilot",
-    "description": "Kill every type of Wolves in their biomes without dismounting a Llama",
+    "description": "Kill every type of Wolf in their biomes without dismounting a Llama",
     "color": "#FF2A2A",
     "tab": "Super Challenges",
     "type": "Super Challenge",
