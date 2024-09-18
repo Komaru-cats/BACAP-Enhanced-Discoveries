@@ -293,7 +293,7 @@ const params = new URLSearchParams(window.location.search);
 const version = params.get('ver');
 let versionFolder = version ? version.replace(/\./g, '_') : null;
 let defaultDataFile = '';
-fetch('default_data.json')
+fetch('ver/default_data.json')
     .then(response => response.json())
     .then((defaultData) => {
         defaultDataFile = `ver/${defaultData.defaultVersion}/data.json`;
