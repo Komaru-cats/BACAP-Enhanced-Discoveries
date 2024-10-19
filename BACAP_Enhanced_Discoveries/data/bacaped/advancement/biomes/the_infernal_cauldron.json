@@ -18,6 +18,9 @@
           "italic": true
         },
         {
+          "text": "\n"
+        },
+        {
           "text": "/trigger bacaped_timers",
           "color": "gray"
         }

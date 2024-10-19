@@ -175,6 +175,20 @@
 "Bring one of every type of baby animal to one place (have them all within 32 blocks of you)": "Соберите всех детёнышей животных в одном месте (пусть все они будут в предах 32 блоков от вас",
 "Air Balloon": "Воздушный Шар",
 "Leash a Bee while you have the levitation effect": "Возьмите пчелу на поводок, пока на вас есть эффект левитации",
+"Furry Fury": "Лисья Ярость",
+"Take Damage from a Fox": "Получите урон от лисы",
+"Pie-Fox Fest": "Фестиваль Лисных пирогов",
+"Feed a Fox a pumpkin pie": "Покормите лису тыквенным пирогом",
+"The Fox’s Banquet": "Лисий Банкет",
+"Feed a Fox all types of food": "Покормите лису всеми видами еды",
+"Fox Poses": "Лисьи Позы",
+"Look at the Fox in all its poses using a spyglass": "Посмотрите на лису во всех позах, используя подзорную трубу",
+"Blind Friend": "Слепой Друг",
+"Take a blind Fox on a lead": "Возьмите слепую Лису на поводок",
+"Extraordinary Duel": "Экстраординарная Дуэль",
+"Look at the Fox through a spyglass, killing the Wolf that is attacking the player, while holding a Netherite Sword": "Посмотрите на лису, которая держит Незеритовый меч через подзорную трубу, пока она убивает волка, который атакует игрока",
+"TeleFoxing": "ТелеЛисация",
+"Feed a Fox a chorus fruit": "Покормите Лису фруктом хоруса",
 #bacap
 "Enhanced Legend": "Прокачанная легенда",
 "Complete every single advancement in Enhanced Discoveries": "Выполните каждое достижение в Enhanced Discoveries",
@@ -349,7 +363,7 @@
 "Get a Brown Mooshroom by breeding two Red Mooshrooms": "Выведите Коричневую Грибную Корову скрестив две красные Грибные Коровы",
 "My Little Pig": "Моя Маленькая Свинка",
 "Be 10,000 blocks above the world while riding a Pig": "Будьте выше 10,000 блоков над уровне мира сидя на Свинье",
-"Dead Carnaval": "Карнавал Мертвецов",
+"Dead Carnival": "Карнавал Мертвецов",
 "Kill every undead mob with a single firework rocket": "Убейте всю нечисть одним феерверком",
 "The following mobs are not required:": "Следующие мобы не требуются:",
 "Circus Act": "Цирковое Представление",
@@ -518,6 +532,8 @@
 "Give a baby Piglin all kinds of flowers": "Дайте маленьким Пиглинам все виды цветов",
 "High Pitch": "Высокий Отскок",
 "Kill 7 Ghasts in a row with their Fireballs, while not missing the blows from them": "Убейте 7 Гастов подряд, отбив их огненные шары, при этом не пропустив ни одного удара по себе",
+"Firefox": "Firefox",
+"Bring a red Fox in the Nether": "Приведите рыжую Лису в Нижний Мир",
 # potion
 
 "Flashlight": "Вспышка",
@@ -610,12 +626,20 @@
 "Open a shulker box 100,000 times": "Откройте шалкеровый ящик 100,000 раз",
 "Survivor's Hour": "Час Выживания",
 "Avoid dying for 1 hour": "Избегайте смерти на протяжение 1 часа",
+# Hardcore
+"Avoid using totem of undying for 1 hour": "Избегайте использования тотема бессмертия на протяжение 1 часа",
 "Resilient Centenarian": "Жизнерадостный Долгожитель",
 "Avoid dying for 10 hours": "Избегайте смерти на протяжение 10 часов",
+# Hardcore
+"Avoid using totem of undying for 10 hours": "Избегайте использования тотема бессмертия на протяжение 10 часов",
 "Master of Survival": "Мастер Выживания",
 "Avoid dying for 100 hours": "Избегайте смерти на протяжение 100 часов",
+# Hardcore
+"Avoid using totem of undying for 100 hours": "Избегайте использования тотема бессмертия на протяжение 100 часов",
 "Eternal Vanguard": "Бессмертный Страж",
 "Avoid dying for 500 hours": "Избегайте смерти на протяжение 500 часов",
+# Hardcore
+"Avoid using totem of undying for 500 hours": "Избегайте использования тотема бессмертия на протяжение 500 часов",
 "Novice Angler": "Рыбак-Новичок",
 "Catch 5 fish with a fishing rod": "Поймайте 5 рыб с помощью удочки",
 "Intermediate Fisher": "Рыбак-Любитель",
@@ -767,6 +791,10 @@
 "where even the smallest piglet brings big": "где даже самая маленькая свинга приносит большую",
 "smiles and endless charm!": "улыбку и бесконечное счастье!",
 "Salmon's Head": "Голова Лосося",
+"Cake": "Торт",
+"So that you don't go hungry": "Чтобы вы не были голодны",
+"Officer Fox": "Офицер Лиса",
+"Protecting your peace": "На страже вашей безопасности",
 #bacap
 "Enhanced Boots": "Enhanced Boots",
 "Given to those who never miss a step,": "Дается тем, кто не останавливается",
@@ -789,7 +817,7 @@
 "Essence of Knowledge": "Эссенция Знаний",
 "Unlock hidden power with the distilled": "Раскрой скрытую силу с помощью дистиллированной",
 "essence of experience": "эссенции опыта",
-"Moon Stone": "Лунный Камень",
+"Tiny Moon": "Маленькая Луна",
 "A fragment from the moon’s dark side, where": "Фрагмент с тёмной стороны луны, в",
 "shadows reign eternal": "царстве вечной тени",
 "Hay Bale of Plenty": "Изобильный тюк сена",
@@ -815,9 +843,9 @@
 "machinery, showcasing your expertise in": "механизмах, демонстрирующее ваш опыт в",
 "complex contraptions": "сложных хитроумных приспособлениях",
 "Piston Wars": "Поршневая Война",
-"XXXXXVI Century Bestseller": "Бестселлер XXXXXVI века",
+"LVI Century Bestseller": "Бестселлер LVI века",
 "Multi-Crossbow": "Многоствольный арбалет",
-"Contains 50 projectiles...": "Содержит 50 снарядов...",
+"Contains 20 projectiles...": "Содержит 50 снарядов...",
 "Use only in extreme cases": "Использовать только в экстремальных ситуациях",
 # biomes
 
@@ -934,7 +962,7 @@
 "Where was it found?": "Где же он был найден?",
 "Big Rocket": "Большая Ракета",
 "Contains a large supply of gunpowder": "Содержит большой пороховой заряд",
-"Shoked Pig": "Шокированная Свинья",
+"Shocked Pig": "Шокированная Свинья",
 "Your pig is at the time of completing": "Твоя свинья во время выполнения",
 "this advancement": "этого достижения",
 "Atomic TNT": "Атомный ТНТ",
@@ -1191,6 +1219,7 @@
 #Infos
 "To view the statistics, run:": "Для просмотра прогресса статистики, напишите:",
 "To view list of required mobs, run:": "Для просмотра требуемых мобов, напишите:",
+"The following mob is not required:": "Данный моб не требуется",
 # triggers
 "Timer Progress": "Прогресс Таймеров",
 "Statistics Progress": "Прогресс Статистики",

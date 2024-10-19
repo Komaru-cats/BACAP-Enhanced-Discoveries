@@ -35,6 +35,9 @@
           "italic": true
         },
         {
+          "text": "\n"
+        },
+        {
           "text": "/trigger bacaped_mob_universe",
           "color": "gray"
         }

@@ -28,22 +28,22 @@ execute as @a[advancements={bacaped:technical/kill_full_hp_warden=true},scores={
 execute as @a[advancements={bacaped:technical/kill_full_hp_warden=true}] run advancement revoke @s only bacaped:technical/kill_full_hp_warden
 
 # Camel Adventure
-execute as @a[advancements={bacaped:animal/camel_adventure=false}] run execute unless entity @s[nbt={RootVehicle:{Entity:{id:"minecraft:camel"}}}] run advancement revoke @s only bacaped:animal/camel_adventure
+execute as @a[advancements={bacaped:animal/camel_adventure=false}] run execute unless entity @s[predicate=bacaped:is_sitting_on_camel] run advancement revoke @s only bacaped:animal/camel_adventure
 
 # Big Pig Adventure
-execute as @a[advancements={bacaped:challenges/big_pig_adventure=false}] run execute unless entity @s[nbt={RootVehicle:{Entity:{id:"minecraft:pig"}}}] run advancement revoke @s only bacaped:challenges/big_pig_adventure
+execute as @a[advancements={bacaped:challenges/big_pig_adventure=false}] run execute unless entity @s[predicate=bacaped:is_sitting_on_pig] run advancement revoke @s only bacaped:challenges/big_pig_adventure
 
 # Big End Adventure
-execute as @a[advancements={bacaped:challenges/big_end_adventure=false}] run execute unless entity @s[nbt={RootVehicle:{Entity:{id:"minecraft:strider"}}}] run advancement revoke @s only bacaped:challenges/big_end_adventure
+execute as @a[advancements={bacaped:challenges/big_end_adventure=false}] run execute unless entity @s[predicate=bacaped:is_sitting_on_strider] run advancement revoke @s only bacaped:challenges/big_end_adventure
 
 
 # Intergalactic Journey
 execute as @a[advancements={bacaped:end/intergalactic_journey=false}] unless predicate bacaped:in_boat run advancement revoke @s only bacaped:end/intergalactic_journey
 
 # Pooch Purge Pilot
-execute as @a[advancements={bacaped:challenges/pooch_purge_pilot=false}] run execute unless entity @s[nbt={RootVehicle:{Entity:{id:"minecraft:llama"}}}] run advancement revoke @s only bacaped:challenges/pooch_purge_pilot
+execute as @a[advancements={bacaped:challenges/pooch_purge_pilot=false}] run execute unless entity @s[predicate=bacaped:is_sitting_on_llama] run advancement revoke @s only bacaped:challenges/pooch_purge_pilot
 
-# Dead Carnaval
+# Dead Carnival
 execute as @a[gamemode=!spectator,advancements={bacaped:challenges/dead_carnaval=false}] run advancement revoke @s only bacaped:challenges/dead_carnaval
 
 
@@ -58,6 +58,13 @@ execute as @a[advancements={bacaped:mining/distorted_cave_maze=false},gamemode=!
 # Unlucky score (HARDCORE OVERRIDE)
 scoreboard players add @a bacaped_unlucky 1
 execute as @a[gamemode=!spectator,advancements={bacaped:weaponry/unlucky=false},scores={bacaped_unlucky_hurt=1..}] run function bacaped:scores/unlucky
+
+# Time since last totem usage (HARDCORE ADDED)
+scoreboard players add @a bacaped_time_since_last_totem_usage 1
+execute as @a[gamemode=!spectator,advancements={bacaped:statistics/survivors_hour=false},scores={bacaped_time_since_last_totem_usage=3600..}] run advancement grant @s only bacaped:statistics/survivors_hour
+execute as @a[gamemode=!spectator,advancements={bacaped:statistics/resilient_centenarian=false},scores={bacaped_time_since_last_totem_usage=36000..}] run advancement grant @s only bacaped:statistics/resilient_centenarian
+execute as @a[gamemode=!spectator,advancements={bacaped:statistics/master_of_survival=false},scores={bacaped_time_since_last_totem_usage=360000..}] run advancement grant @s only bacaped:statistics/master_of_survival
+execute as @a[gamemode=!spectator,advancements={bacaped:statistics/eternal_vanguard=false},scores={bacaped_time_since_last_totem_usage=1800000..}] run advancement grant @s only bacaped:statistics/eternal_vanguard
 
 # Warden near score
 execute as @a[gamemode=!spectator,advancements={bacaped:monsters/one_minute_wardens_hugs=false}] at @s run function bacaped:scores/warden_near

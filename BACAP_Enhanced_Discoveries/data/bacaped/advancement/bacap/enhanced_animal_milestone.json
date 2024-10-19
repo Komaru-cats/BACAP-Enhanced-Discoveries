@@ -80,6 +80,19 @@
         }
       }
     },
+    "blind_friend": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:animal/blind_friend": true
+            }
+          }
+        }
+      }
+    },
     "buff_axolotl": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -171,6 +184,45 @@
         }
       }
     },
+    "extraordinary_duel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:animal/extraordinary_duel": true
+            }
+          }
+        }
+      }
+    },
+    "fox_poses": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:animal/fox_poses": true
+            }
+          }
+        }
+      }
+    },
+    "furry_fury": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:animal/furry_fury": true
+            }
+          }
+        }
+      }
+    },
     "horse_health_hunter": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -249,6 +301,19 @@
         }
       }
     },
+    "pie-fox_fest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:animal/pie-fox_fest": true
+            }
+          }
+        }
+      }
+    },
     "poisoned_ball": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -296,6 +361,32 @@
             "type": "player",
             "advancements": {
               "bacaped:animal/sniffer-sniff-event": true
+            }
+          }
+        }
+      }
+    },
+    "telefoxing": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:animal/telefoxing": true
+            }
+          }
+        }
+      }
+    },
+    "the_foxs_banquet": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:animal/the_foxs_banquet": true
             }
           }
         }

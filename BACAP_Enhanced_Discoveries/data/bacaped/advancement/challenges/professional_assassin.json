@@ -36,6 +36,14 @@
         {
           "translate": "entity.minecraft.skeleton_horse",
           "color": "gray"
+        },
+        {
+          "text": ", ",
+          "color": "gray"
+        },
+        {
+          "translate": "entity.minecraft.elder_guardian",
+          "color": "gray"
         }
       ]
     },
