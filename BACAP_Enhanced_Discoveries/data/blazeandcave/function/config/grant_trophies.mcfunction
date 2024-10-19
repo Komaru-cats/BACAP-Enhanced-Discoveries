@@ -284,8 +284,10 @@ execute as @s[advancements={bacaped:animal/baby_zoo=true}] run function bc_rewar
 execute as @s[advancements={bacaped:animal/beezlebooster=true}] run function bc_rewards:trophy/animal/beezlebooster
 execute as @s[advancements={bacaped:animal/camel_adventure=true}] run function bc_rewards:trophy/animal/camel_adventure
 execute as @s[advancements={bacaped:animal/crab_should_win=true}] run function bc_rewards:trophy/animal/crab_should_win
+execute as @s[advancements={bacaped:animal/extraordinary_duel=true}] run function bc_rewards:trophy/animal/extraordinary_duel
 execute as @s[advancements={bacaped:animal/i_love_salmons=true}] run function bc_rewards:trophy/animal/i_love_salmons
 execute as @s[advancements={bacaped:animal/sniffer-sniff-event=true}] run function bc_rewards:trophy/animal/sniffer-sniff-event
+execute as @s[advancements={bacaped:animal/the_foxs_banquet=true}] run function bc_rewards:trophy/animal/the_foxs_banquet
 execute as @s[advancements={bacaped:animal/the_invisible_turtle=true}] run function bc_rewards:trophy/animal/the_invisible_turtle
 execute as @s[advancements={bacaped:animal/the_wool_magnate=true}] run function bc_rewards:trophy/animal/the_wool_magnate
 execute as @s[advancements={bacaped:animal/turtle_bowl=true}] run function bc_rewards:trophy/animal/turtle_bowl

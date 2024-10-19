@@ -20,7 +20,7 @@
       }
     },
     "title": {
-      "translate": "Dead Carnaval"
+      "translate": "Dead Carnival"
     },
     "description": {
       "translate": "Kill every undead mob with a single firework rocket",
@@ -30,7 +30,7 @@
           "text": "\n\n"
         },
         {
-          "translate": "The following mobs are not required:",
+          "translate": "The following mob is not required:",
           "color": "dark_gray",
           "italic": true
         },

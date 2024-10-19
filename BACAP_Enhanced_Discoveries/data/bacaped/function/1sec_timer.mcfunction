@@ -43,7 +43,7 @@ execute as @a[advancements={bacaped:end/intergalactic_journey=false}] unless pre
 # Pooch Purge Pilot
 execute as @a[advancements={bacaped:challenges/pooch_purge_pilot=false}] run execute unless entity @s[predicate=bacaped:is_sitting_on_llama] run advancement revoke @s only bacaped:challenges/pooch_purge_pilot
 
-# Dead Carnaval
+# Dead Carnival
 execute as @a[gamemode=!spectator,advancements={bacaped:challenges/dead_carnaval=false}] run advancement revoke @s only bacaped:challenges/dead_carnaval
 
 

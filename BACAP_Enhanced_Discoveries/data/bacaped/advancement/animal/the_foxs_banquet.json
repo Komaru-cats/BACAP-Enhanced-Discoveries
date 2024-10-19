@@ -1,0 +1,474 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_golden_apple"
+    },
+    "title": {
+      "translate": "The Fox\u2019s Banquet"
+    },
+    "description": {
+      "translate": "Feed a Fox all types of food",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bacaped:animal/telefoxing",
+  "criteria": {
+    "apple": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:apple"
+        }
+      }
+    },
+    "golden_apple": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:golden_apple"
+        }
+      }
+    },
+    "enchanted_golden_apple": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:enchanted_golden_apple"
+        }
+      }
+    },
+    "melon_slice": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:melon_slice"
+        }
+      }
+    },
+    "sweet_berries": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:sweet_berries"
+        }
+      }
+    },
+    "glow_berries": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:glow_berries"
+        }
+      }
+    },
+    "chorus_fruit": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:chorus_fruit"
+        }
+      }
+    },
+    "carrot": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:carrot"
+        }
+      }
+    },
+    "golden_carrot": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:golden_carrot"
+        }
+      }
+    },
+    "potato": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:potato"
+        }
+      }
+    },
+    "baked_potato": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:baked_potato"
+        }
+      }
+    },
+    "poisonous_potato": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:poisonous_potato"
+        }
+      }
+    },
+    "beetroot": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:beetroot"
+        }
+      }
+    },
+    "dried_kelp": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:dried_kelp"
+        }
+      }
+    },
+    "beef": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:beef"
+        }
+      }
+    },
+    "cooked_beef": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:cooked_beef"
+        }
+      }
+    },
+    "porkchop": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:porkchop"
+        }
+      }
+    },
+    "cooked_porkchop": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:cooked_porkchop"
+        }
+      }
+    },
+    "mutton": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:mutton"
+        }
+      }
+    },
+    "cooked_mutton": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:cooked_mutton"
+        }
+      }
+    },
+    "chicken": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:chicken"
+        }
+      }
+    },
+    "cooked_chicken": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:cooked_chicken"
+        }
+      }
+    },
+    "rabbit": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:rabbit"
+        }
+      }
+    },
+    "cooked_rabbit": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:cooked_rabbit"
+        }
+      }
+    },
+    "cod": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:cod"
+        }
+      }
+    },
+    "cooked_cod": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:cooked_cod"
+        }
+      }
+    },
+    "salmon": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:salmon"
+        }
+      }
+    },
+    "cooked_salmon": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:cooked_salmon"
+        }
+      }
+    },
+    "tropical_fish": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:tropical_fish"
+        }
+      }
+    },
+    "pufferfish": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:pufferfish"
+        }
+      }
+    },
+    "bread": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:bread"
+        }
+      }
+    },
+    "cookie": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:cookie"
+        }
+      }
+    },
+    "pumpkin_pie": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:pumpkin_pie"
+        }
+      }
+    },
+    "rotten_flesh": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:rotten_flesh"
+        }
+      }
+    },
+    "spider_eye": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:spider_eye"
+        }
+      }
+    },
+    "mushroom_stew": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:mushroom_stew"
+        }
+      }
+    },
+    "beetroot_soup": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:beetroot_soup"
+        }
+      }
+    },
+    "rabbit_stew": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:rabbit_stew"
+        }
+      }
+    },
+    "honey_bottle": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:honey_bottle"
+        }
+      }
+    },
+    "saturation_suspicious_stew": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:suspicious_stew"
+        }
+      }
+    },
+    "ominous_bottle": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:ominous_bottle"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:animal/the_foxs_banquet"
+  }
+}

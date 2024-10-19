@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chorus_fruit"
+    },
+    "title": {
+      "translate": "TeleFoxing"
+    },
+    "description": {
+      "translate": "Feed a Fox a chorus fruit",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:animal/pie-fox_fest",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": "minecraft:chorus_fruit"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:animal/telefoxing"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:suspicious_stew"
+    },
+    "title": {
+      "translate": "Blind Friend"
+    },
+    "description": {
+      "translate": "Take a blind Fox on a lead",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/what_does_the_fox_say",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:lead"
+          ]
+        },
+        "entity": {
+          "type": "minecraft:fox",
+          "effects": {
+            "minecraft:blindness": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:animal/blind_friend"
+  }
+}

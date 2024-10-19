@@ -1,0 +1,89 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spyglass",
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            1671035703,
+            -250330693,
+            -1369778158,
+            -2078722794
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODlhM2E5ZTk0NmIxZGNmODUyNzEwY2VmNjM2MzVjYTJjYjA2ZWI4YTVhYWRkMWJlYjZmOTkwNTQ3NDk2MTc4OCJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "Fox Poses"
+    },
+    "description": {
+      "translate": "Look at the Fox in all its poses using a spyglass",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:animal/blind_friend",
+  "criteria": {
+    "crouching": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type": "minecraft:fox",
+              "nbt": "{Crouching:1b}"
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:spyglass"
+        }
+      }
+    },
+    "sitting": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type": "minecraft:fox",
+              "nbt": "{Sitting:1b}"
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:spyglass"
+        }
+      }
+    },
+    "sleeping": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type": "minecraft:fox",
+              "nbt": "{Sleeping:1b}"
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:spyglass"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:animal/fox_poses"
+  }
+}

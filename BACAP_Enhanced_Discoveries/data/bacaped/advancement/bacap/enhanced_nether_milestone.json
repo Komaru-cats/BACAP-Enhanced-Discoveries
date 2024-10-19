@@ -93,6 +93,19 @@
         }
       }
     },
+    "firefox": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:nether/firefox": true
+            }
+          }
+        }
+      }
+    },
     "give_them_everything_they_want": {
       "trigger": "minecraft:location",
       "conditions": {
