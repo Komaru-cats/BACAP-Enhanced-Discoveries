@@ -38,8 +38,7 @@
           "items": "minecraft:lead"
         },
         "entity": {
-          "type": "minecraft:boat",
-          "nbt": "{Passengers:[{id:\"minecraft:panda\"},{id:\"minecraft:panda\"}]}"
+          "type": "#minecraft:boat"
         }
       }
     },
@@ -52,7 +51,7 @@
             "looking_at": {
               "type": "minecraft:panda",
               "vehicle": {
-                "nbt": "{Passengers:[{id:\"minecraft:panda\"},{id:\"minecraft:panda\"}],leash:{}}"
+                "type": "#minecraft:boat"
               }
             }
           }

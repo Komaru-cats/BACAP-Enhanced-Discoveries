@@ -774,7 +774,7 @@
       "conditions": {
         "player": {
           "location": {
-            "biomes": "minecraft:end_midlands"
+            "biomes": "#bacaped:end_midlands"
           },
           "vehicle": {
             "type": "minecraft:horse"
@@ -787,7 +787,7 @@
       "conditions": {
         "player": {
           "location": {
-            "biomes": "minecraft:end_barrens"
+            "biomes": "#bacaped:end_barrens"
           },
           "vehicle": {
             "type": "minecraft:horse"

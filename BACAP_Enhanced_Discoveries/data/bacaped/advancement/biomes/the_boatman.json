@@ -30,7 +30,7 @@
             }
           },
           "vehicle": {
-            "type": "minecraft:boat"
+            "type": "#blazeandcave:all_boats"
           }
         }
       }

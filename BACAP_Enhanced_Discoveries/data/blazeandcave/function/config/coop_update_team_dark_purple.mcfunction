@@ -1170,7 +1170,7 @@ execute if score blazeandcave:adventure/expedition_of_discovery bac_obtained_dar
 
 # The following advancements were added in version 1.14
 execute if score minecraft:adventure/avoid_vibration bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only minecraft:adventure/avoid_vibration
-execute if score minecraft:adventure/kill_mob_near_sculk_catalyst bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only minecraft:mining/kill_mob_near_sculk_catalyst
+execute if score minecraft:adventure/kill_mob_near_sculk_catalyst bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only minecraft:adventure/kill_mob_near_sculk_catalyst
 execute if score blazeandcave:mining/shriek_forever_after bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only blazeandcave:mining/shriek_forever_after
 execute if score blazeandcave:redstone/the_block_of_eternal_screaming bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only blazeandcave:redstone/the_block_of_eternal_screaming
 execute if score blazeandcave:redstone/cataclyst bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only blazeandcave:redstone/cataclyst
@@ -1294,7 +1294,7 @@ execute if score blazeandcave:nether/piglin_peril bac_obtained_dark_purple match
 
 execute if score blazeandcave:challenges/poglin bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only blazeandcave:challenges/poglin
 
-execute if score blazeandcave:adventure/a_chiptune_relic bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only blazeandcave:challenges/a_chiptune_relic
+execute if score blazeandcave:adventure/a_chiptune_relic bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only blazeandcave:adventure/a_chiptune_relic
 execute if score minecraft:husbandry/feed_snifflet bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only minecraft:husbandry/feed_snifflet
 execute if score minecraft:husbandry/plant_any_sniffer_seed bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only minecraft:husbandry/plant_any_sniffer_seed
 execute if score minecraft:adventure/read_power_of_chiseled_bookshelf bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only minecraft:adventure/read_power_of_chiseled_bookshelf

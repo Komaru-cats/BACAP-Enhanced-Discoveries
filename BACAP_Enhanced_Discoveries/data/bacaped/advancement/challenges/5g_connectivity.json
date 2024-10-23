@@ -19,8 +19,11 @@
   "parent": "blazeandcave:challenges/endergeddon",
   "criteria": {
     "trigger": {
-      "trigger": "minecraft:killed_by_crossbow",
+      "trigger": "minecraft:killed_by_arrow",
       "conditions": {
+        "fired_from_weapon": {
+          "items": "minecraft:crossbow"
+        },
         "victims": [
           {
             "type": "minecraft:glow_squid"

@@ -1632,19 +1632,6 @@
         }
       }
     },
-    "happy_minecraft_year": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:challenges/happy_minecraft_year": true
-            }
-          }
-        }
-      }
-    },
     "how_did_you_end_up_here": {
       "trigger": "minecraft:location",
       "conditions": {

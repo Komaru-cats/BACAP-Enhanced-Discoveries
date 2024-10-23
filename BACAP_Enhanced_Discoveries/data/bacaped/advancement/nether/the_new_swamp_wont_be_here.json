@@ -18,12 +18,15 @@
   "parent": "blazeandcave:nether/astrobrute",
   "criteria": {
     "small_targets": {
-      "trigger": "minecraft:killed_by_crossbow",
+      "trigger": "minecraft:killed_by_arrow",
       "conditions": {
         "player": {
           "location": {
             "biomes": "minecraft:basalt_deltas"
           }
+        },
+        "fired_from_weapon": {
+          "items": "minecraft:crossbow"
         },
         "victims": [
           {
