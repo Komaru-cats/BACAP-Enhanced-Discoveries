@@ -8,10 +8,11 @@
     },
     "description": {
       "translate": "Launch firework on new year's day in minecraft!",
-      "color": "#FF2A2A"
+      "color": "light_purple"
     },
     "frame": "challenge",
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "hidden": true
   },
   "parent": "blazeandcave:challenges/riddle_me_this",
   "criteria": {

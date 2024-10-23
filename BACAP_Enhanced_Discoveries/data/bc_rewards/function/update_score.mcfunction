@@ -1256,7 +1256,8 @@ execute as @a[advancements={blazeandcave:challenges/overwarden=true}] run scoreb
 
 
 
-
+# Updates number format (colours)
+function blazeandcave:config/update_number_format
 
 
 
@@ -1396,7 +1397,6 @@ execute as @a[advancements={bacaped:challenges/dragon_vs_warden_vi=true}] run sc
 execute as @a[advancements={bacaped:challenges/dragon_vs_wither_iv=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:challenges/extincion=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:challenges/happy_anniversary=true}] run scoreboard players add @s bac_advancements 1
-execute as @a[advancements={bacaped:challenges/happy_minecraft_year=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:challenges/how_did_you_end_up_here=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:challenges/interspecific_adventure=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:challenges/magic_kingdom=true}] run scoreboard players add @s bac_advancements 1

@@ -445,7 +445,7 @@
         }
       }
     },
-    "saturation_suspicious_stew": {
+    "suspicious_stew": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {

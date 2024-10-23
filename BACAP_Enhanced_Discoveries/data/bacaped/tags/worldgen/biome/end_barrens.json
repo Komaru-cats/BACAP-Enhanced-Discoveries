@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "nullscape:crystal_peaks",
+      "required": false
+    },
+    {
+      "id": "minecraft:end_barrens",
+      "required": false
+    },
+    {
+      "id": "nullscape:shadowlands",
+      "required": false
+    },
+    {
+      "id": "nullscape:void_barrens",
+      "required": false
+    }
+  ]
+}

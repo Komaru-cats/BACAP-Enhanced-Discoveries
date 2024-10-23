@@ -19,12 +19,15 @@
   "parent": "bacaped:challenges/sandwich",
   "criteria": {
     "exctinction": {
-      "trigger": "minecraft:killed_by_crossbow",
+      "trigger": "minecraft:killed_by_arrow",
       "conditions": {
         "player": {
           "location": {
             "dimension": "minecraft:the_end"
           }
+        },
+        "fired_from_weapon": {
+          "items": "minecraft:crossbow"
         },
         "victims": [
           {

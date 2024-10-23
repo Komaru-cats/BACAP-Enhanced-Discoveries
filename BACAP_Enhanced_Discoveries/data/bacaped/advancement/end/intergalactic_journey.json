@@ -22,10 +22,7 @@
             "dimension": "minecraft:overworld"
           },
           "vehicle": {
-            "type": [
-              "minecraft:boat",
-              "minecraft:chest_boat"
-            ]
+            "type": "#blazeandcave:all_boats"
           }
         }
       }
@@ -38,7 +35,7 @@
             "dimension": "minecraft:the_nether"
           },
           "vehicle": {
-            "type": "minecraft:boat"
+            "type": "#blazeandcave:all_boats"
           }
         }
       }
@@ -51,7 +48,7 @@
             "dimension": "minecraft:the_end"
           },
           "vehicle": {
-            "type": "minecraft:boat"
+            "type": "#blazeandcave:all_boats"
           }
         }
       }

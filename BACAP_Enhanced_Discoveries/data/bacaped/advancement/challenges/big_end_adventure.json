@@ -62,7 +62,7 @@
       "conditions": {
         "player": {
           "location": {
-            "biomes": "minecraft:end_midlands"
+            "biomes": "#bacaped:end_midlands"
           },
           "vehicle": {
             "type": "minecraft:strider"
@@ -88,7 +88,7 @@
       "conditions": {
         "player": {
           "location": {
-            "biomes": "minecraft:end_barrens"
+            "biomes": "#bacaped:end_barrens"
           },
           "vehicle": {
             "type": "minecraft:strider"

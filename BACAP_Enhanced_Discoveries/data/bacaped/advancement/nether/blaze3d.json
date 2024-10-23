@@ -21,8 +21,11 @@
   "parent": "blazeandcave:nether/time_to_fire_back",
   "criteria": {
     "kill_3_blazes": {
-      "trigger": "minecraft:killed_by_crossbow",
+      "trigger": "minecraft:killed_by_arrow",
       "conditions": {
+        "fired_from_weapon": {
+          "items": "minecraft:crossbow"
+        },
         "victims": [
           {
             "type": "minecraft:blaze"

@@ -19,8 +19,11 @@
   "parent": "bacaped:challenges/5_birds_1_stone",
   "criteria": {
     "trigger": {
-      "trigger": "minecraft:killed_by_crossbow",
+      "trigger": "minecraft:killed_by_arrow",
       "conditions": {
+        "fired_from_weapon": {
+          "items": "minecraft:crossbow"
+        },
         "victims": [
           {
             "type": "minecraft:warden"
