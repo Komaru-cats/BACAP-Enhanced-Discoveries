@@ -1256,10 +1256,6 @@ execute as @a[advancements={blazeandcave:challenges/overwarden=true}] run scoreb
 
 
 
-# Updates number format (colours)
-function blazeandcave:config/update_number_format
-
-
 
 
 
@@ -1543,3 +1539,7 @@ execute as @a[advancements={bacaped:weaponry/the_explosive_adventure=true}] run 
 execute as @a[advancements={bacaped:weaponry/unlucky=true}] run scoreboard players add @s bac_advancements 1
 # Updates team scores
 function bc_rewards:team_score
+
+
+# Updates number format (colours)
+function blazeandcave:config/update_number_format
