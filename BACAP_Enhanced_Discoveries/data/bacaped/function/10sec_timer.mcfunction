@@ -30,6 +30,6 @@ execute as @a[gamemode=!spectator,advancements={bacaped:animal/baby_zoo=false}] 
 execute at @a if biome ~ ~ ~ minecraft:the_end run tag @e[predicate=bacaped:interspecific_adventure,distance=..5] add bacaped_interspecific_adventure
 
 # Firefox
-execute as @a[gamemode=!spectator,advancements={bacaped:nether/firefox=false}] in minecraft:the_nether at @s if entity @e[predicate=bacaped:is_red_fox,distance=..16] run advancement grant @s only bacaped:nether/firefox
+execute as @a[gamemode=!spectator,advancements={bacaped:nether/firefox=false}] at @s if dimension minecraft:the_nether if entity @e[predicate=bacaped:is_red_fox,distance=..16]  run advancement grant @s only bacaped:nether/firefox
 
 schedule function bacaped:10sec_timer 10s
