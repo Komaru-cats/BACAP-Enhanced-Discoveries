@@ -14,7 +14,7 @@
   },
   "parent": "bacaped:monsters/phantom_rider",
   "criteria": {
-    "killed_by_phantom_at_y>320": {
+    "trigger": {
       "trigger": "minecraft:entity_killed_player",
       "conditions": {
         "player": {
