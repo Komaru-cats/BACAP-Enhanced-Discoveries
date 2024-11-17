@@ -1,2 +1,2 @@
-give @s minecraft:painting 32
-tellraw @s {"color":"green","text":" +32 ","extra":[{"translate":"item.minecraft.painting"}]}
+give @s painting 2
+tellraw @s {"color":"green","text":" +2 ","extra":[{"translate":"item.minecraft.painting"}]}
