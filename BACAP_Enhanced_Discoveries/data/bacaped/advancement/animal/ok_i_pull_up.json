@@ -7,7 +7,7 @@
       "translate": "Ok I Pull Up"
     },
     "description": {
-      "translate": "Name a Axolotl \"Capybara\"",
+      "translate": "Name an Axolotl \"Capybara\"",
       "color": "green"
     },
     "frame": "task",
@@ -33,6 +33,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/ok_i_pull_up"
+    "function": "bacaped_rewards:animal/ok_i_pull_up"
   }
 }

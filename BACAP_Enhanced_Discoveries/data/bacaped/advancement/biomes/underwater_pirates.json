@@ -46,6 +46,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:biomes/underwater_pirates"
+    "function": "bacaped_rewards:biomes/underwater_pirates"
   }
 }

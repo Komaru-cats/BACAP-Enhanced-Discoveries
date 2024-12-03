@@ -7,7 +7,7 @@
       }
     },
     "title": {
-      "translate": "Your legs are beat"
+      "translate": "Your Legs Are Beat"
     },
     "description": {
       "translate": "Sprint 1000km",
@@ -40,6 +40,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/your_legs_are_beat"
+    "function": "bacaped_rewards:statistics/your_legs_are_beat"
   }
 }

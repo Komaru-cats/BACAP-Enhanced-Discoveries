@@ -50,6 +50,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/komaru"
+    "function": "bacaped_rewards:adventure/komaru"
   }
 }

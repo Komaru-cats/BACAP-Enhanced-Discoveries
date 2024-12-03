@@ -20,6 +20,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/baby_zoo"
+    "function": "bacaped_rewards:animal/baby_zoo"
   }
 }

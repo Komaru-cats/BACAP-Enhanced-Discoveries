@@ -1,0 +1,2 @@
+give @s minecraft:clock[enchantments={levels:{unbreaking:1},show_in_tooltip:false}, custom_name='{italic:false,bold:true,color:"#FFDE00",translate:"Your Clock"}', lore=['{color:"#FFDE00",translate:"Do you know what time it is?"}','{text:" "}','{translate:"Awarded for achieving",color:"gray"}','{translate:"Master of Survival",color:"light_purple",italic:false}'], custom_model_data={"floats": [131]}, hide_additional_tooltip={}, custom_data={Trophy:1}] 1
+tellraw @s {"color": "gold", "text": " +1 ", "extra": [{"translate": "Your Clock"}]}

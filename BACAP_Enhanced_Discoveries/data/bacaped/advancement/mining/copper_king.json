@@ -40,6 +40,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:mining/copper_king"
+    "function": "bacaped_rewards:mining/copper_king"
   }
 }

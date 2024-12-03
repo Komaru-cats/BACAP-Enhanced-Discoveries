@@ -91,6 +91,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/ominous_ocean"
+    "function": "bacaped_rewards:adventure/ominous_ocean"
   }
 }

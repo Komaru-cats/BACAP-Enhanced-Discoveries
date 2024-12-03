@@ -36,6 +36,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:nether/firefox"
+    "function": "bacaped_rewards:nether/firefox"
   }
 }

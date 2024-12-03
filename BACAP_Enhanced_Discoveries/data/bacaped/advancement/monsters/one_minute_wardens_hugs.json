@@ -36,6 +36,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:monsters/one_minute_wardens_hugs"
+    "function": "bacaped_rewards:monsters/one_minute_wardens_hugs"
   }
 }

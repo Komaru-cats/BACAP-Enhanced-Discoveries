@@ -36,6 +36,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/one_in_a_million_steed"
+    "function": "bacaped_rewards:challenges/one_in_a_million_steed"
   }
 }

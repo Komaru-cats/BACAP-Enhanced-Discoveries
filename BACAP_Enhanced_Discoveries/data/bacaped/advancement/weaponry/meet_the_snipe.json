@@ -37,6 +37,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:weaponry/meet_the_snipe"
+    "function": "bacaped_rewards:weaponry/meet_the_snipe"
   }
 }

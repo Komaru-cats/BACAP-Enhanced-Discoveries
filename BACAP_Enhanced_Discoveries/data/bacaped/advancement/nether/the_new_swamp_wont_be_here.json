@@ -58,6 +58,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:nether/the_new_swamp_wont_be_here"
+    "function": "bacaped_rewards:nether/the_new_swamp_wont_be_here"
   }
 }

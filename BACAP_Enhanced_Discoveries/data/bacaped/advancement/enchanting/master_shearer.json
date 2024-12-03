@@ -40,6 +40,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:enchanting/master_shearer"
+    "function": "bacaped_rewards:enchanting/master_shearer"
   }
 }

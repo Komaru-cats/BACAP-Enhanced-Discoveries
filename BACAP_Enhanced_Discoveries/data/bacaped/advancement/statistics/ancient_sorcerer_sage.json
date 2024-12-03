@@ -40,6 +40,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/ancient_sorcerer_sage"
+    "function": "bacaped_rewards:statistics/ancient_sorcerer_sage"
   }
 }

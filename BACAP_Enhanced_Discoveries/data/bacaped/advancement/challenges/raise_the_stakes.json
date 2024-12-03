@@ -20,7 +20,7 @@
       }
     },
     "title": {
-      "translate": "Raise The Stakes"
+      "translate": "Raise the Stakes"
     },
     "description": {
       "translate": "Fill your inventory with golden apples",
@@ -192,6 +192,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/raise_the_stakes"
+    "function": "bacaped_rewards:challenges/raise_the_stakes"
   }
 }

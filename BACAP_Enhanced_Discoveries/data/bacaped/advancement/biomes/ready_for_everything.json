@@ -10,10 +10,10 @@
       }
     },
     "title": {
-      "translate": "Ready For Everything"
+      "translate": "Ready for Everything"
     },
     "description": {
-      "translate": "Wear a turtle shell, a golden chestplate, netherite leggings and leather boots to be ready for everything",
+      "translate": "Wear a turtle shell, an elytra, golden leggings and leather boots to be ready for everything",
       "color": "#75E1FF"
     },
     "frame": "goal",
@@ -30,10 +30,10 @@
               "items": "minecraft:turtle_helmet"
             },
             "chest": {
-              "items": "minecraft:golden_chestplate"
+              "items": "minecraft:elytra"
             },
             "legs": {
-              "items": "minecraft:netherite_leggings"
+              "items": "minecraft:golden_leggings"
             },
             "feet": {
               "items": "minecraft:leather_boots"
@@ -44,6 +44,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:biomes/ready_for_everything"
+    "function": "bacaped_rewards:biomes/ready_for_everything"
   }
 }

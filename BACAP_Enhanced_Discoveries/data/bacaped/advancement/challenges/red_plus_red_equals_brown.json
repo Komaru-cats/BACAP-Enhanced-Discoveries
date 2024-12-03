@@ -43,6 +43,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/red_plus_red_equals_brown"
+    "function": "bacaped_rewards:challenges/red_plus_red_equals_brown"
   }
 }

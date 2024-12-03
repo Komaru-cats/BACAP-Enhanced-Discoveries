@@ -47,6 +47,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/shulker_explorer"
+    "function": "bacaped_rewards:statistics/shulker_explorer"
   }
 }

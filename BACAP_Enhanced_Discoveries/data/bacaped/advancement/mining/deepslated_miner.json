@@ -32,6 +32,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:mining/deepslated_miner"
+    "function": "bacaped_rewards:mining/deepslated_miner"
   }
 }

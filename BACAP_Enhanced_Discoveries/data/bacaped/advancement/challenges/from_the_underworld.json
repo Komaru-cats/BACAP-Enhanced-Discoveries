@@ -35,6 +35,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/from_the_underworld"
+    "function": "bacaped_rewards:challenges/from_the_underworld"
   }
 }

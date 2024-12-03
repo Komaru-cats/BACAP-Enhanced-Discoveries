@@ -35,6 +35,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/raid_resister"
+    "function": "bacaped_rewards:statistics/raid_resister"
   }
 }

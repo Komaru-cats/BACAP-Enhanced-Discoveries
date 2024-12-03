@@ -111,6 +111,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/big_end_adventure"
+    "function": "bacaped_rewards:challenges/big_end_adventure"
   }
 }

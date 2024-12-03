@@ -58,6 +58,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/monstrous_rocket"
+    "function": "bacaped_rewards:challenges/monstrous_rocket"
   }
 }

@@ -84,6 +84,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/fox_poses"
+    "function": "bacaped_rewards:animal/fox_poses"
   }
 }

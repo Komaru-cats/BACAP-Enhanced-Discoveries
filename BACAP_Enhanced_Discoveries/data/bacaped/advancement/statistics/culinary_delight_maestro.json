@@ -35,6 +35,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/culinary_delight_maestro"
+    "function": "bacaped_rewards:statistics/culinary_delight_maestro"
   }
 }

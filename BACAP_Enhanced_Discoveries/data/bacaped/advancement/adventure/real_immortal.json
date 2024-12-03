@@ -67,6 +67,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/real_immortal"
+    "function": "bacaped_rewards:adventure/real_immortal"
   }
 }

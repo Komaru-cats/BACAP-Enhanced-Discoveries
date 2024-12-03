@@ -59,6 +59,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/mob_universe"
+    "function": "bacaped_rewards:challenges/mob_universe"
   }
 }

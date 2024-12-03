@@ -178,6 +178,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:mining/redstoner"
+    "function": "bacaped_rewards:mining/redstoner"
   }
 }

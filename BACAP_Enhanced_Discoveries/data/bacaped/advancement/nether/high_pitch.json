@@ -41,6 +41,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:nether/high_pitch"
+    "function": "bacaped_rewards:nether/high_pitch"
   }
 }

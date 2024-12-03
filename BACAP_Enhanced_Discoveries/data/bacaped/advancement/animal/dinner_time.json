@@ -35,6 +35,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/dinner_time"
+    "function": "bacaped_rewards:animal/dinner_time"
   }
 }

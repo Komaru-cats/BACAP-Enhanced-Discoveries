@@ -40,6 +40,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/bedrock_breaker"
+    "function": "bacaped_rewards:statistics/bedrock_breaker"
   }
 }

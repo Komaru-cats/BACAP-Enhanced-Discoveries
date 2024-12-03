@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:nether/impostor"
+    "function": "bacaped_rewards:nether/impostor"
   }
 }

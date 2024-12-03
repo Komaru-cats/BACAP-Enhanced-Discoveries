@@ -7,7 +7,7 @@
       }
     },
     "title": {
-      "translate": "What are You Doing in My Swamp"
+      "translate": "What Are You Doing in My Swamp"
     },
     "description": {
       "translate": "Arrange a meeting of all your pets with all variants of Frogs in the swamp (have them all within 16 blocks of you)",
@@ -23,6 +23,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/what_are_you_doing_in_my_swamp"
+    "function": "bacaped_rewards:animal/what_are_you_doing_in_my_swamp"
   }
 }

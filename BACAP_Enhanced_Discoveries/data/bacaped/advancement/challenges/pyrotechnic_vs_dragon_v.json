@@ -23,6 +23,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/pyrotechnic_vs_dragon_v"
+    "function": "bacaped_rewards:challenges/pyrotechnic_vs_dragon_v"
   }
 }

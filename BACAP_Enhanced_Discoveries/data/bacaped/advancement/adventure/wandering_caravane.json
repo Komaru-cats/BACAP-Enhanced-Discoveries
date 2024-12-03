@@ -45,6 +45,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/wandering_caravane"
+    "function": "bacaped_rewards:adventure/wandering_caravane"
   }
 }

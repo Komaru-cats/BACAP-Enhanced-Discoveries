@@ -43,6 +43,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/no_water_team"
+    "function": "bacaped_rewards:adventure/no_water_team"
   }
 }

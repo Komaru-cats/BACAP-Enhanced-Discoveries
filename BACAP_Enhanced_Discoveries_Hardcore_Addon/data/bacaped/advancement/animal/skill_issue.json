@@ -28,6 +28,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/skill_issue"
+    "function": "bacaped_rewards:animal/skill_issue"
   }
 }

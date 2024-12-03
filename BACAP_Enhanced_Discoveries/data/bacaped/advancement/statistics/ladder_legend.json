@@ -7,7 +7,7 @@
       "translate": "Ladder Legend"
     },
     "description": {
-      "translate": "Climb 10km"
+      "translate": "Climb 3km"
     },
     "frame": "challenge",
     "announce_to_chat": true
@@ -25,7 +25,7 @@
                 "type": "minecraft:custom",
                 "stat": "minecraft:climb_one_cm",
                 "value": {
-                  "min": 1000000
+                  "min": 300000
                 }
               }
             ]
@@ -35,6 +35,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/ladder_legend"
+    "function": "bacaped_rewards:statistics/ladder_legend"
   }
 }

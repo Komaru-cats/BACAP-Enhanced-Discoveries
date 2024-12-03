@@ -40,6 +40,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/nobody_needs_rockets"
+    "function": "bacaped_rewards:adventure/nobody_needs_rockets"
   }
 }

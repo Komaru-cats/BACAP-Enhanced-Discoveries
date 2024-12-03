@@ -35,6 +35,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/stone_cutter"
+    "function": "bacaped_rewards:statistics/stone_cutter"
   }
 }

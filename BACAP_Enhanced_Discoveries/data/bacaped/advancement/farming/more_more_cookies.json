@@ -67,6 +67,6 @@
     ]
   ],
   "rewards": {
-    "function": "bc_rewards:farming/more_more_cookies"
+    "function": "bacaped_rewards:farming/more_more_cookies"
   }
 }

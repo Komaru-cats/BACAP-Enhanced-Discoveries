@@ -36,6 +36,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/totem_adept"
+    "function": "bacaped_rewards:statistics/totem_adept"
   }
 }

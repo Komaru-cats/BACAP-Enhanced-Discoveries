@@ -40,6 +40,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/duo_dynamo"
+    "function": "bacaped_rewards:statistics/duo_dynamo"
   }
 }

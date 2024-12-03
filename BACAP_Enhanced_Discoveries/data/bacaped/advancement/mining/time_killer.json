@@ -178,6 +178,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:mining/time_killer"
+    "function": "bacaped_rewards:mining/time_killer"
   }
 }

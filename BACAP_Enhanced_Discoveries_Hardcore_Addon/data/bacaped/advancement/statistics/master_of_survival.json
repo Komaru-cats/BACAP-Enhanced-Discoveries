@@ -37,6 +37,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/master_of_survival"
+    "function": "bacaped_rewards:statistics/master_of_survival"
   }
 }

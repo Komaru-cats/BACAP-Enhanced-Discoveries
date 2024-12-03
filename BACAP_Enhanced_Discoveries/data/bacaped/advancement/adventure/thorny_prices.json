@@ -33,6 +33,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/thorny_prices"
+    "function": "bacaped_rewards:adventure/thorny_prices"
   }
 }

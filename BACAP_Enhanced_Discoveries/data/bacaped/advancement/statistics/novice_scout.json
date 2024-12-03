@@ -27,6 +27,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/novice_scout"
+    "function": "bacaped_rewards:statistics/novice_scout"
   }
 }

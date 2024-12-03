@@ -96,6 +96,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:potion/jump_for_joy"
+    "function": "bacaped_rewards:potion/jump_for_joy"
   }
 }

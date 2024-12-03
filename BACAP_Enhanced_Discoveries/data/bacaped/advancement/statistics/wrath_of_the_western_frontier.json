@@ -41,6 +41,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/wrath_of_the_western_frontier"
+    "function": "bacaped_rewards:statistics/wrath_of_the_western_frontier"
   }
 }

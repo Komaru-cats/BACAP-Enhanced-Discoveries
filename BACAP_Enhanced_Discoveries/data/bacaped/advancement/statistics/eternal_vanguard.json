@@ -23,7 +23,7 @@
       "translate": "Eternal Vanguard"
     },
     "description": {
-      "translate": "Avoid dying for 500 hours",
+      "translate": "Avoid dying for 200 hours",
       "color": "light_purple"
     },
     "frame": "challenge",
@@ -43,7 +43,7 @@
                 "type": "minecraft:custom",
                 "stat": "minecraft:time_since_death",
                 "value": {
-                  "min": 36000000
+                  "min": 14400000
                 }
               }
             ]
@@ -53,6 +53,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/eternal_vanguard"
+    "function": "bacaped_rewards:statistics/eternal_vanguard"
   }
 }

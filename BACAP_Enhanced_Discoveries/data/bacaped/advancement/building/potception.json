@@ -239,6 +239,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:building/potception"
+    "function": "bacaped_rewards:building/potception"
   }
 }

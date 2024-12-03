@@ -48,6 +48,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/din_don"
+    "function": "bacaped_rewards:adventure/din_don"
   }
 }

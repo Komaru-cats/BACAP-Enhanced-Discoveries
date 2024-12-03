@@ -23,7 +23,7 @@
       "translate": "Master of Survival"
     },
     "description": {
-      "translate": "Avoid dying for 100 hours",
+      "translate": "Avoid dying for 50 hours",
       "color": "dark_purple"
     },
     "frame": "challenge",
@@ -43,7 +43,7 @@
                 "type": "minecraft:custom",
                 "stat": "minecraft:time_since_death",
                 "value": {
-                  "min": 7200000
+                  "min": 3600000
                 }
               }
             ]
@@ -53,6 +53,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/master_of_survival"
+    "function": "bacaped_rewards:statistics/master_of_survival"
   }
 }

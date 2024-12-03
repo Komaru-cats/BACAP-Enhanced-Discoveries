@@ -120,6 +120,6 @@
     ]
   ],
   "rewards": {
-    "function": "bc_rewards:challenges/astronomer"
+    "function": "bacaped_rewards:challenges/astronomer"
   }
 }

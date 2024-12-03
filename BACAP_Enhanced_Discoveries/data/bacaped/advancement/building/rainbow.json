@@ -29,7 +29,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:building/pane_in_the_glass",
+  "parent": "blazeandcave:nether/light_show",
   "criteria": {
     "black_stained_glass": {
       "trigger": "minecraft:placed_block",
@@ -42,12 +42,25 @@
           },
           {
             "condition": "minecraft:location_check",
-            "offsetX": 0,
             "offsetY": -1,
-            "offsetZ": 0,
             "predicate": {
               "block": {
                 "blocks": "minecraft:beacon"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:beacon"
+                  ],
+                  "nbt": "{Levels:0}"
+                }
               }
             }
           }
@@ -401,6 +414,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:building/rainbow"
+    "function": "bacaped_rewards:building/rainbow"
   }
 }

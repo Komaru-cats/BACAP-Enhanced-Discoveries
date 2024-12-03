@@ -43,6 +43,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:building/pot_on_a_pot"
+    "function": "bacaped_rewards:building/pot_on_a_pot"
   }
 }

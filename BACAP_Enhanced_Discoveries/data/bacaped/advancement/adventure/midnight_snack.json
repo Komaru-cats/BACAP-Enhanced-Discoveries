@@ -37,6 +37,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/midnight_snack"
+    "function": "bacaped_rewards:adventure/midnight_snack"
   }
 }

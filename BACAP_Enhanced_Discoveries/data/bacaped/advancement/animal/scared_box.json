@@ -50,6 +50,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/scared_box"
+    "function": "bacaped_rewards:animal/scared_box"
   }
 }

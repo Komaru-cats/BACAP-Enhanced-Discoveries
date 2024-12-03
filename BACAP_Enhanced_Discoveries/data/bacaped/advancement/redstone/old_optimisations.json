@@ -43,6 +43,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:redstone/old_optimisations"
+    "function": "bacaped_rewards:redstone/old_optimisations"
   }
 }

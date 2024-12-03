@@ -7,7 +7,7 @@
       }
     },
     "title": {
-      "translate": "What about Mooblooms?"
+      "translate": "What About Mooblooms?"
     },
     "description": {
       "translate": "Kill a Glow Squid in a flower forest while holding a dandelion"
@@ -61,6 +61,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/what_about_mooblooms"
+    "function": "bacaped_rewards:animal/what_about_mooblooms"
   }
 }

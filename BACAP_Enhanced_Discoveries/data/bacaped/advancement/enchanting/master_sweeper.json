@@ -39,6 +39,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:enchanting/master_sweeper"
+    "function": "bacaped_rewards:enchanting/master_sweeper"
   }
 }

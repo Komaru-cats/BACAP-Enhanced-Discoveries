@@ -51,6 +51,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/happy_1000_days"
+    "function": "bacaped_rewards:statistics/happy_1000_days"
   }
 }

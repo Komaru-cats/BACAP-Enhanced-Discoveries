@@ -55,6 +55,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/void_being"
+    "function": "bacaped_rewards:challenges/void_being"
   }
 }

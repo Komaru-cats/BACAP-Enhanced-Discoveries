@@ -214,6 +214,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/cheers"
+    "function": "bacaped_rewards:animal/cheers"
   }
 }

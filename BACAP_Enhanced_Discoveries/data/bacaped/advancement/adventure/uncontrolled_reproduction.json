@@ -45,6 +45,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/uncontrolled_reproduction"
+    "function": "bacaped_rewards:adventure/uncontrolled_reproduction"
   }
 }

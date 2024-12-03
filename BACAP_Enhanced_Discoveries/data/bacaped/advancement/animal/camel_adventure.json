@@ -59,6 +59,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/camel_adventure"
+    "function": "bacaped_rewards:animal/camel_adventure"
   }
 }

@@ -1,0 +1,2 @@
+give @s minecraft:obsidian[enchantments={levels:{unbreaking:1},show_in_tooltip:false}, custom_name='{italic:false,bold:true,color:"#1C0039",translate:"Some Rock"}', lore=['{color:"#1C0039",translate:"Nothing in life is as strong as it seems"}','{text:" "}','{translate:"Awarded for achieving",color:"gray"}','{translate:"Time Killer",color:"light_purple",italic:false}'], custom_model_data={"floats": [131]}, hide_additional_tooltip={}, custom_data={Trophy:1}] 1
+tellraw @s {"color": "gold", "text": " +1 ", "extra": [{"translate": "Some Rock"}]}

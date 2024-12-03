@@ -28,6 +28,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/telefoxing"
+    "function": "bacaped_rewards:animal/telefoxing"
   }
 }

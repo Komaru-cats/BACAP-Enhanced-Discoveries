@@ -23,6 +23,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/magic_kingdom"
+    "function": "bacaped_rewards:challenges/magic_kingdom"
   }
 }

@@ -100,6 +100,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:bacap/enhanced_potion_milestone"
+    "function": "bacaped_rewards:bacap/enhanced_potion_milestone"
   }
 }

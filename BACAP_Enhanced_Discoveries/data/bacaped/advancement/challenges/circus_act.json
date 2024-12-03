@@ -54,6 +54,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/circus_act"
+    "function": "bacaped_rewards:challenges/circus_act"
   }
 }

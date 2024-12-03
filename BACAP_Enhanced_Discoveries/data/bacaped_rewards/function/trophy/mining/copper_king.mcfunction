@@ -1,0 +1,2 @@
+give @s minecraft:brush[enchantments={levels:{unbreaking:1},show_in_tooltip:false}, custom_name='{italic:false,bold:true,color:"#FFD1A9",translate:"Brush"}', lore=['{color:"#FFD1A9",translate:"Use it to polish your copper treasures –"}','{color:"#FFD1A9",translate:"darn miner"}','{text:" "}','{translate:"Awarded for achieving",color:"gray"}','{translate:"Copper King",color:"light_purple",italic:false}'], custom_model_data={"floats": [131]}, hide_additional_tooltip={}, custom_data={Trophy:1}] 1
+tellraw @s {"color": "gold", "text": " +1 ", "extra": [{"translate": "Brush"}]}

@@ -45,6 +45,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/sandwich"
+    "function": "bacaped_rewards:challenges/sandwich"
   }
 }

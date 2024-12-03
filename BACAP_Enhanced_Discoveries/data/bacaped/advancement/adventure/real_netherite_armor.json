@@ -1351,6 +1351,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/real_netherite_armor"
+    "function": "bacaped_rewards:adventure/real_netherite_armor"
   }
 }

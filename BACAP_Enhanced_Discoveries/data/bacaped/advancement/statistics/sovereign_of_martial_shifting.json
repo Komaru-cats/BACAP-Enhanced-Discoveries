@@ -53,6 +53,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/sovereign_of_martial_shifting"
+    "function": "bacaped_rewards:statistics/sovereign_of_martial_shifting"
   }
 }

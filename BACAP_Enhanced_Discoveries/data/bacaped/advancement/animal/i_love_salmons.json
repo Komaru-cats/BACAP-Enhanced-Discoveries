@@ -180,6 +180,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/i_love_salmons"
+    "function": "bacaped_rewards:animal/i_love_salmons"
   }
 }

@@ -134,6 +134,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:bacap/enhanced_enchanting_milestone"
+    "function": "bacaped_rewards:bacap/enhanced_enchanting_milestone"
   }
 }

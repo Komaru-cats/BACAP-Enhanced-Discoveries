@@ -33,6 +33,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:monsters/the_inquisition"
+    "function": "bacaped_rewards:monsters/the_inquisition"
   }
 }

@@ -55,6 +55,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:farming/high_risk"
+    "function": "bacaped_rewards:farming/high_risk"
   }
 }

@@ -40,6 +40,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/oh_you_again"
+    "function": "bacaped_rewards:adventure/oh_you_again"
   }
 }

@@ -26,6 +26,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/speed_master"
+    "function": "bacaped_rewards:statistics/speed_master"
   }
 }

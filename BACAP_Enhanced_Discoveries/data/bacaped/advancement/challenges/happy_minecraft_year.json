@@ -41,6 +41,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/happy_minecraft_year"
+    "function": "bacaped_rewards:challenges/happy_minecraft_year"
   }
 }

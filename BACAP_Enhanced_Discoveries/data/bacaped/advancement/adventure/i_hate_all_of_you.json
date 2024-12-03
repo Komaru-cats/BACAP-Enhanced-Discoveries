@@ -54,6 +54,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/i_hate_all_of_you"
+    "function": "bacaped_rewards:adventure/i_hate_all_of_you"
   }
 }

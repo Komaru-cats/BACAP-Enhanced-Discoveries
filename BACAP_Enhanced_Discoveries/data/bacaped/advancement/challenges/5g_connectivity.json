@@ -45,6 +45,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/5g_connectivity"
+    "function": "bacaped_rewards:challenges/5g_connectivity"
   }
 }

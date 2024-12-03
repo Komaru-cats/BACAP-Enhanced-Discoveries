@@ -37,6 +37,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/resilient_centenarian"
+    "function": "bacaped_rewards:statistics/resilient_centenarian"
   }
 }

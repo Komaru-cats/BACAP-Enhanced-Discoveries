@@ -50,6 +50,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:farming/its_midnight_already"
+    "function": "bacaped_rewards:farming/its_midnight_already"
   }
 }

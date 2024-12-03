@@ -179,6 +179,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:farming/apple_addiction"
+    "function": "bacaped_rewards:farming/apple_addiction"
   }
 }

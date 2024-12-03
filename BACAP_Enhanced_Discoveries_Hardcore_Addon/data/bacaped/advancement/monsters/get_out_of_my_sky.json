@@ -41,6 +41,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:monsters/get_out_of_my_sky"
+    "function": "bacaped_rewards:monsters/get_out_of_my_sky"
   }
 }

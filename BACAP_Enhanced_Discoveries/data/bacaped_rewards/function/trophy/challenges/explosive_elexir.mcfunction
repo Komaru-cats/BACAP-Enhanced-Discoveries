@@ -1,0 +1,2 @@
+give @s minecraft:honey_bottle[enchantments={levels:{unbreaking:1},show_in_tooltip:false}, custom_name='{italic:false,bold:true,color:"#FEFF98",translate:"Sweet Darling"}', lore=['{color:"#FEFF98",translate:"Mix with a bucket of milk"}','{text:" "}','{translate:"Awarded for achieving",color:"gray"}','{translate:"Explosive Elixir",color:"#FFAEFF",italic:false}'], custom_model_data={"floats": [131]}, hide_additional_tooltip={}, custom_data={Trophy:1}] 1
+tellraw @s {"color": "gold", "text": " +1 ", "extra": [{"translate": "Sweet Darling"}]}
