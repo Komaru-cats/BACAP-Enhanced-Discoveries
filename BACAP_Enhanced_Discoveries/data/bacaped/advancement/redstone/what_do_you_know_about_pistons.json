@@ -52,6 +52,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:redstone/what_do_you_know_about_pistons"
+    "function": "bacaped_rewards:redstone/what_do_you_know_about_pistons"
   }
 }

@@ -41,6 +41,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/water_team"
+    "function": "bacaped_rewards:adventure/water_team"
   }
 }

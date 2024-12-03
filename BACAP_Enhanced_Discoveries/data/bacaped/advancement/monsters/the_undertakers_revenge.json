@@ -42,6 +42,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:monsters/the_undertakers_revenge"
+    "function": "bacaped_rewards:monsters/the_undertakers_revenge"
   }
 }

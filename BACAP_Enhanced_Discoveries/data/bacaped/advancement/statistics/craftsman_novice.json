@@ -47,6 +47,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/craftsman_novice"
+    "function": "bacaped_rewards:statistics/craftsman_novice"
   }
 }

@@ -37,6 +37,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:mining/distorted_cave_maze"
+    "function": "bacaped_rewards:mining/distorted_cave_maze"
   }
 }

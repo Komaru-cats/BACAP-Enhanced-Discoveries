@@ -35,6 +35,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/diamond_digger"
+    "function": "bacaped_rewards:statistics/diamond_digger"
   }
 }

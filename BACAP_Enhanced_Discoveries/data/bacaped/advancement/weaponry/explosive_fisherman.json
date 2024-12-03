@@ -36,6 +36,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:weaponry/explosive_fisherman"
+    "function": "bacaped_rewards:weaponry/explosive_fisherman"
   }
 }

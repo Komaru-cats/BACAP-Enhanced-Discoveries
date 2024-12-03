@@ -65,6 +65,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/one_more_frog"
+    "function": "bacaped_rewards:animal/one_more_frog"
   }
 }

@@ -50,6 +50,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/master_artificer"
+    "function": "bacaped_rewards:statistics/master_artificer"
   }
 }

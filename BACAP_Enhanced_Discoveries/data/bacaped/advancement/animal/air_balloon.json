@@ -50,6 +50,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/air_balloon"
+    "function": "bacaped_rewards:animal/air_balloon"
   }
 }

@@ -46,6 +46,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/chest_lover"
+    "function": "bacaped_rewards:statistics/chest_lover"
   }
 }

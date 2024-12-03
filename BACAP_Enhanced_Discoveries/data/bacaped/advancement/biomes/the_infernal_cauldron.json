@@ -36,6 +36,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:biomes/the_infernal_cauldron"
+    "function": "bacaped_rewards:biomes/the_infernal_cauldron"
   }
 }

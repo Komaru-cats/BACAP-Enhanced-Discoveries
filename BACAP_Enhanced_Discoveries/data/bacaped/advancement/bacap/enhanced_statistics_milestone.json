@@ -407,6 +407,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:bacap/enhanced_statistics_milestone"
+    "function": "bacaped_rewards:bacap/enhanced_statistics_milestone"
   }
 }

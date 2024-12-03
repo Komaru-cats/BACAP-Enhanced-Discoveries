@@ -40,6 +40,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/intermediate_fisher"
+    "function": "bacaped_rewards:statistics/intermediate_fisher"
   }
 }

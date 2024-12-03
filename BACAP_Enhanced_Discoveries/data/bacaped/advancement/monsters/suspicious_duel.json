@@ -42,6 +42,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:monsters/suspicious_duel"
+    "function": "bacaped_rewards:monsters/suspicious_duel"
   }
 }

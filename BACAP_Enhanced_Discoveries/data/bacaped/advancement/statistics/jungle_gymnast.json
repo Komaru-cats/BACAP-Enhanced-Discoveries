@@ -35,6 +35,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/jungle_gymnast"
+    "function": "bacaped_rewards:statistics/jungle_gymnast"
   }
 }

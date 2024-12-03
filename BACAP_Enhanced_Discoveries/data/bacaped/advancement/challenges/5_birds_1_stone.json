@@ -45,6 +45,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/5_birds_1_stone"
+    "function": "bacaped_rewards:challenges/5_birds_1_stone"
   }
 }

@@ -26,6 +26,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:end/interdimensional_travel"
+    "function": "bacaped_rewards:end/interdimensional_travel"
   }
 }

@@ -50,6 +50,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/my_little_pig"
+    "function": "bacaped_rewards:challenges/my_little_pig"
   }
 }

@@ -32,6 +32,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:potion/flashlight"
+    "function": "bacaped_rewards:potion/flashlight"
   }
 }

@@ -19,6 +19,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/sniffer-sniff-event"
+    "function": "bacaped_rewards:animal/sniffer-sniff-event"
   }
 }

@@ -136,6 +136,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:mining/the_master_of_falls"
+    "function": "bacaped_rewards:mining/the_master_of_falls"
   }
 }

@@ -49,6 +49,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/beezlebooster"
+    "function": "bacaped_rewards:animal/beezlebooster"
   }
 }

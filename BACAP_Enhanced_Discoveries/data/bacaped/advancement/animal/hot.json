@@ -27,6 +27,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/hot"
+    "function": "bacaped_rewards:animal/hot"
   }
 }

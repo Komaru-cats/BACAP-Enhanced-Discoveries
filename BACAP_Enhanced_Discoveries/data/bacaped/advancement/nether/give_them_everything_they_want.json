@@ -354,6 +354,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:nether/give_them_everything_they_want"
+    "function": "bacaped_rewards:nether/give_them_everything_they_want"
   }
 }

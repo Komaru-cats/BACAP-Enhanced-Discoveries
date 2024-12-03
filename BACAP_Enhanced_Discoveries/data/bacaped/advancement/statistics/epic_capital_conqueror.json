@@ -53,6 +53,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/epic_capital_conqueror"
+    "function": "bacaped_rewards:statistics/epic_capital_conqueror"
   }
 }

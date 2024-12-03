@@ -7,7 +7,7 @@
       "translate": "Stop There, You're Tall Enough"
     },
     "description": {
-      "translate": "Stop the growth of kelp, twisted vines and weeping vines",
+      "translate": "Stop the growth of kelp, twisted vines, weeping vines and cave vines",
       "color": "#75E1FF"
     },
     "frame": "goal",
@@ -87,9 +87,28 @@
           }
         ]
       }
+    },
+    "cave_vines": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:cave_vines",
+                "properties": {
+                  "age": "25"
+                }
+              }
+            ]
+          }
+        ]
+      }
     }
   },
   "rewards": {
-    "function": "bc_rewards:biomes/stop_there_youre_tall_enough"
+    "function": "bacaped_rewards:biomes/stop_there_youre_tall_enough"
   }
 }

@@ -55,6 +55,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:end/intergalactic_journey"
+    "function": "bacaped_rewards:end/intergalactic_journey"
   }
 }

@@ -833,9 +833,22 @@
           }
         }
       }
+    },
+    "pale_garden": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:pale_garden"
+          },
+          "vehicle": {
+            "type": "minecraft:horse"
+          }
+        }
+      }
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/big_horse_adventure"
+    "function": "bacaped_rewards:challenges/big_horse_adventure"
   }
 }

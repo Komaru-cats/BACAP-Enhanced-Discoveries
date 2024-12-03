@@ -96,6 +96,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/show_the_nether_to_a_silverfish"
+    "function": "bacaped_rewards:challenges/show_the_nether_to_a_silverfish"
   }
 }

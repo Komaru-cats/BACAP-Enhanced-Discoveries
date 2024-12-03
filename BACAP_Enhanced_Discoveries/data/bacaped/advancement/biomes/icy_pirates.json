@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:biomes/icy_pirates"
+    "function": "bacaped_rewards:biomes/icy_pirates"
   }
 }

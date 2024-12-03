@@ -20,7 +20,7 @@
       }
     },
     "title": {
-      "translate": "\u0410bsolutely \u0410blaze Journey"
+      "translate": "Absolutely Ablaze Journey"
     },
     "description": {
       "translate": "Ride 100km on a Strider",
@@ -53,6 +53,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/absolutely_ablaze_journey"
+    "function": "bacaped_rewards:statistics/absolutely_ablaze_journey"
   }
 }

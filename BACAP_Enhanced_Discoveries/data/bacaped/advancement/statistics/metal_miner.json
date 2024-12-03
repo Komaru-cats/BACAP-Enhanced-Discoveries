@@ -36,6 +36,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/metal_miner"
+    "function": "bacaped_rewards:statistics/metal_miner"
   }
 }

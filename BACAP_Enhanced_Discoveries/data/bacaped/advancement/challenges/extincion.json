@@ -55,6 +55,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/extincion"
+    "function": "bacaped_rewards:challenges/extincion"
   }
 }

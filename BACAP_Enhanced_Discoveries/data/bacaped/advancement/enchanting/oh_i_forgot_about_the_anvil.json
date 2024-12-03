@@ -20,7 +20,7 @@
       }
     },
     "title": {
-      "translate": "Oh, I Forgot about the Anvil"
+      "translate": "Oh, I Forgot About the Anvil"
     },
     "description": {
       "translate": "Take Damage from the anvil",
@@ -73,6 +73,6 @@
     ]
   ],
   "rewards": {
-    "function": "bc_rewards:enchanting/oh_i_forgot_about_the_anvil"
+    "function": "bacaped_rewards:enchanting/oh_i_forgot_about_the_anvil"
   }
 }

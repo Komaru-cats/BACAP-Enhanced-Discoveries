@@ -36,6 +36,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/buff_axolotl"
+    "function": "bacaped_rewards:animal/buff_axolotl"
   }
 }

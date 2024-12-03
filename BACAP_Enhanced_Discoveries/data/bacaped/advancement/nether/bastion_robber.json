@@ -41,6 +41,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:nether/bastion_robber"
+    "function": "bacaped_rewards:nether/bastion_robber"
   }
 }

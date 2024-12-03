@@ -52,6 +52,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/command_work"
+    "function": "bacaped_rewards:challenges/command_work"
   }
 }

@@ -20,7 +20,7 @@
       }
     },
     "title": {
-      "translate": "Save me!"
+      "translate": "Save Me!"
     },
     "description": {
       "translate": "Repair an Iron Golem during the battle with the Warden",
@@ -50,6 +50,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/save_me"
+    "function": "bacaped_rewards:adventure/save_me"
   }
 }

@@ -55,6 +55,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/celestial_protocol"
+    "function": "bacaped_rewards:challenges/celestial_protocol"
   }
 }

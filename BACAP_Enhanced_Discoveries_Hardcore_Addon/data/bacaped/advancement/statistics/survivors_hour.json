@@ -21,6 +21,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/survivors_hour"
+    "function": "bacaped_rewards:statistics/survivors_hour"
   }
 }

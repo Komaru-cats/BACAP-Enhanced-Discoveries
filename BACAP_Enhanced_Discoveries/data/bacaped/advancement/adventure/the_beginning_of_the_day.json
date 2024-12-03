@@ -69,6 +69,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/the_beginning_of_the_day"
+    "function": "bacaped_rewards:adventure/the_beginning_of_the_day"
   }
 }

@@ -20,10 +20,10 @@
       }
     },
     "title": {
-      "translate": "What a Mess This Horse is!"
+      "translate": "What a Mess This Horse Is!"
     },
     "description": {
-      "translate": "Ride a Horse that has less than 20 health points, moves slower than 9 blocks per second and and jumps lower than 3 blocks",
+      "translate": "Ride a Horse that has less than 20 health points, moves slower than 9 blocks per second and jumps lower than 3 blocks",
       "color": "dark_purple"
     },
     "frame": "challenge",
@@ -36,6 +36,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/what_a_mess_this_horse_is"
+    "function": "bacaped_rewards:animal/what_a_mess_this_horse_is"
   }
 }

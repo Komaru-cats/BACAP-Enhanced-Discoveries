@@ -35,6 +35,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/thats_a_new_style"
+    "function": "bacaped_rewards:adventure/thats_a_new_style"
   }
 }

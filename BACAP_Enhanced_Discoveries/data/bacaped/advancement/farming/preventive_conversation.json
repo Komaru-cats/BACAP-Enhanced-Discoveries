@@ -41,6 +41,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:farming/preventive_conversation"
+    "function": "bacaped_rewards:farming/preventive_conversation"
   }
 }

@@ -55,6 +55,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/happy_anniversary"
+    "function": "bacaped_rewards:challenges/happy_anniversary"
   }
 }

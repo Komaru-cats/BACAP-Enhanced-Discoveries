@@ -9,7 +9,7 @@
       }
     },
     "title": {
-      "translate": "You're not the Zillager"
+      "translate": "You're Not the Zillager"
     },
     "description": {
       "translate": "Try to cure yourself from Zombification",
@@ -38,6 +38,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:potion/youre_not_the_zillager"
+    "function": "bacaped_rewards:potion/youre_not_the_zillager"
   }
 }

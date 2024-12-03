@@ -264,6 +264,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:bacap/enhanced_nether_milestone"
+    "function": "bacaped_rewards:bacap/enhanced_nether_milestone"
   }
 }

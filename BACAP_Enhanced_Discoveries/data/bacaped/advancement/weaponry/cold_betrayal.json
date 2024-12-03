@@ -27,6 +27,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:weaponry/cold_betrayal"
+    "function": "bacaped_rewards:weaponry/cold_betrayal"
   }
 }

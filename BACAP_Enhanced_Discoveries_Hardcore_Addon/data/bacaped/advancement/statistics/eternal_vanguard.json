@@ -37,6 +37,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/eternal_vanguard"
+    "function": "bacaped_rewards:statistics/eternal_vanguard"
   }
 }

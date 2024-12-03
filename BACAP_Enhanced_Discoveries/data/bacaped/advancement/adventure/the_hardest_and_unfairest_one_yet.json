@@ -7,7 +7,7 @@
       }
     },
     "title": {
-      "translate": "The Hardest And Unfairest One Yet"
+      "translate": "The Hardest and Unfairest One Yet"
     },
     "description": {
       "translate": "Open the bonus chest",
@@ -27,6 +27,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/the_hardest_and_unfairest_one_yet"
+    "function": "bacaped_rewards:adventure/the_hardest_and_unfairest_one_yet"
   }
 }

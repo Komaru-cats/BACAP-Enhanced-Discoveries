@@ -4,7 +4,7 @@
       "id": "minecraft:elytra"
     },
     "title": {
-      "translate": "What's the best transport?"
+      "translate": "What's the Best Transport?"
     },
     "description": {
       "translate": "Be near every type of transport",
@@ -20,6 +20,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/whats_the_best_transport"
+    "function": "bacaped_rewards:animal/whats_the_best_transport"
   }
 }

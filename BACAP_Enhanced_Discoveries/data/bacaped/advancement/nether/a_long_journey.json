@@ -57,6 +57,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:nether/a_long_journey"
+    "function": "bacaped_rewards:nether/a_long_journey"
   }
 }

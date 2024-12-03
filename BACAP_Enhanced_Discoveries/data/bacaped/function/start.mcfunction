@@ -6,4 +6,4 @@ execute in minecraft:overworld run gamerule maxCommandChainLength 999999999
 execute in minecraft:the_nether run gamerule maxCommandChainLength 999999999
 execute in minecraft:the_end run gamerule maxCommandChainLength 999999999
 schedule function bacaped:start_timers 2s
-schedule function bacaped:check_bacap 15s
+schedule function bacaped:bacap_is_not_installed_msg 15s

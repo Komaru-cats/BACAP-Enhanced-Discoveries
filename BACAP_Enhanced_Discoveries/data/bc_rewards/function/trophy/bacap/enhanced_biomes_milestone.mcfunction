@@ -1,2 +1,0 @@
-give @s filled_map[enchantment_glint_override=false, lore=['{translate:"Reveals the locations of all uncharted lands",color:"#FFD46B"}','{translate:"waiting to be explored",color:"#FFD46B"}','{text:" "}','{translate:"Awarded for achieving",color:"gray"}','{translate:"Enh. Biomes Milestone",color:"yellow",italic:false}'], item_name='{translate:"Mystic Map",color:"#FFD46B",bold:true,italic:false}', custom_model_data=131, hide_additional_tooltip={}, custom_data={Trophy:1}] 1
-tellraw @s {"color": "gold", "text": " +1 ", "extra": [{"translate": "Mystic Map"}]}

@@ -4,7 +4,7 @@
       "id": "minecraft:painting"
     },
     "title": {
-      "translate": "Art lover"
+      "translate": "Art Lover"
     },
     "description": {
       "translate": "Place 100 paintings",
@@ -43,6 +43,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:building/art_lover"
+    "function": "bacaped_rewards:building/art_lover"
   }
 }

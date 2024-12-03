@@ -2182,6 +2182,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:nether/diamond_beacon"
+    "function": "bacaped_rewards:nether/diamond_beacon"
   }
 }

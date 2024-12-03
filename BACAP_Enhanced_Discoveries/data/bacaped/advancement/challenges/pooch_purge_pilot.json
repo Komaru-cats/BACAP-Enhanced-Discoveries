@@ -209,6 +209,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/pooch_purge_pilot"
+    "function": "bacaped_rewards:challenges/pooch_purge_pilot"
   }
 }

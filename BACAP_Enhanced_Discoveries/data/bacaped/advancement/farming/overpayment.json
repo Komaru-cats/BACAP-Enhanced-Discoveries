@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:farming/overpayment"
+    "function": "bacaped_rewards:farming/overpayment"
   }
 }

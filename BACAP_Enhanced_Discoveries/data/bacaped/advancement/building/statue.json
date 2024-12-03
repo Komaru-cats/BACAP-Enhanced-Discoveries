@@ -39,6 +39,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:building/statue"
+    "function": "bacaped_rewards:building/statue"
   }
 }

@@ -4,10 +4,10 @@
       "id": "minecraft:lava_bucket"
     },
     "title": {
-      "translate": "Dragon Vs Wither IV"
+      "translate": "Dragon vs Wither IV"
     },
     "description": {
-      "translate": "To the Underworld - Kill the Wither while in lava while wearing a dragon head and elytra",
+      "translate": "Kill the Wither while in lava while wearing a dragon head and elytra",
       "color": "#FF2A2A"
     },
     "frame": "challenge",
@@ -44,6 +44,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/dragon_vs_wither_iv"
+    "function": "bacaped_rewards:challenges/dragon_vs_wither_iv"
   }
 }

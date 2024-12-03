@@ -36,6 +36,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:mining/reinforced_miner"
+    "function": "bacaped_rewards:mining/reinforced_miner"
   }
 }

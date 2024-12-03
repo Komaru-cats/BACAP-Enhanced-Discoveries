@@ -151,6 +151,24 @@
                     ]
                   }
                 }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "player",
+                    "stats": [
+                      {
+                        "type": "minecraft:used",
+                        "stat": "minecraft:pale_oak_sapling",
+                        "value": {
+                          "min": 99
+                        }
+                      }
+                    ]
+                  }
+                }
               }
             ]
           }
@@ -159,6 +177,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:farming/eco_warrior"
+    "function": "bacaped_rewards:farming/eco_warrior"
   }
 }

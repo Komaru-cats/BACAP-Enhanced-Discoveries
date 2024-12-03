@@ -2183,6 +2183,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:nether/netherite_beacon"
+    "function": "bacaped_rewards:nether/netherite_beacon"
   }
 }

@@ -27,6 +27,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/legend_of_the_races"
+    "function": "bacaped_rewards:statistics/legend_of_the_races"
   }
 }

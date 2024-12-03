@@ -23,6 +23,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/dragon_vs_warden_vi"
+    "function": "bacaped_rewards:challenges/dragon_vs_warden_vi"
   }
 }

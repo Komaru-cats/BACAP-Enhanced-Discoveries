@@ -7,7 +7,7 @@
       }
     },
     "title": {
-      "translate": "I uh... Forgot a Composter"
+      "translate": "I Uh... Forgot a Composter"
     },
     "description": {
       "translate": "Be near 20 Ravagers (have them all within 32 blocks of you)",
@@ -24,6 +24,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:monsters/i_uh_forgot_a_composter"
+    "function": "bacaped_rewards:monsters/i_uh_forgot_a_composter"
   }
 }

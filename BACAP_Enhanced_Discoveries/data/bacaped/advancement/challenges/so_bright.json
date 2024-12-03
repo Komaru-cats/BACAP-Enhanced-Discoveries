@@ -179,6 +179,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/so_bright"
+    "function": "bacaped_rewards:challenges/so_bright"
   }
 }

@@ -61,6 +61,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/mr_chester"
+    "function": "bacaped_rewards:statistics/mr_chester"
   }
 }

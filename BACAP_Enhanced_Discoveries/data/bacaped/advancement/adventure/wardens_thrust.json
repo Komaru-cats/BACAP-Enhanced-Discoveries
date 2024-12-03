@@ -52,6 +52,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/wardens_thrust"
+    "function": "bacaped_rewards:adventure/wardens_thrust"
   }
 }

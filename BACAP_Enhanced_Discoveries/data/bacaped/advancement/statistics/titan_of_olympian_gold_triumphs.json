@@ -40,6 +40,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/titan_of_olympian_gold_triumphs"
+    "function": "bacaped_rewards:statistics/titan_of_olympian_gold_triumphs"
   }
 }

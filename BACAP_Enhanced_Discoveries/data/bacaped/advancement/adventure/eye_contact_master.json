@@ -40,6 +40,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/eye_contact_master"
+    "function": "bacaped_rewards:adventure/eye_contact_master"
   }
 }

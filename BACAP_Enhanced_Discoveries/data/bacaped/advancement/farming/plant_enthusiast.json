@@ -47,6 +47,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:farming/plant_enthusiast"
+    "function": "bacaped_rewards:farming/plant_enthusiast"
   }
 }

@@ -23,7 +23,7 @@
       "translate": "Ascension Ace"
     },
     "description": {
-      "translate": "Climb 100km",
+      "translate": "Climb 10km",
       "color": "light_purple"
     },
     "frame": "challenge",
@@ -43,7 +43,7 @@
                 "type": "minecraft:custom",
                 "stat": "minecraft:climb_one_cm",
                 "value": {
-                  "min": 10000000
+                  "min": 1000000
                 }
               }
             ]
@@ -53,6 +53,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/ascension_ace"
+    "function": "bacaped_rewards:statistics/ascension_ace"
   }
 }

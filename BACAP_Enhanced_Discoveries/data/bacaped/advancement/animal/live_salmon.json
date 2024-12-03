@@ -25,6 +25,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/live_salmon"
+    "function": "bacaped_rewards:animal/live_salmon"
   }
 }

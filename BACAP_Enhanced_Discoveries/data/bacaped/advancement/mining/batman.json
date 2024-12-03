@@ -42,6 +42,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:mining/batman"
+    "function": "bacaped_rewards:mining/batman"
   }
 }

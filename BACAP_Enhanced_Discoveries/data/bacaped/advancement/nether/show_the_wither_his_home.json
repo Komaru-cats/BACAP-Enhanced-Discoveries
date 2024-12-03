@@ -20,7 +20,7 @@
       }
     },
     "title": {
-      "translate": "Show the Wither his Home"
+      "translate": "Show the Wither His Home"
     },
     "description": {
       "translate": "Kill the Wither in all the Nether biomes"
@@ -87,6 +87,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:nether/show_the_wither_his_home"
+    "function": "bacaped_rewards:nether/show_the_wither_his_home"
   }
 }

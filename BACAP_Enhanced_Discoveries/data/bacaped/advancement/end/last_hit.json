@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:end/last_hit"
+    "function": "bacaped_rewards:end/last_hit"
   }
 }

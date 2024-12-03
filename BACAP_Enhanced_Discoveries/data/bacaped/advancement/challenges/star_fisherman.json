@@ -37,6 +37,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/star_fisherman"
+    "function": "bacaped_rewards:challenges/star_fisherman"
   }
 }

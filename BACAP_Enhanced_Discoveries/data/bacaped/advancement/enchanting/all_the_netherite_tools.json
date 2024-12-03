@@ -334,6 +334,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:enchanting/all_the_netherite_tools"
+    "function": "bacaped_rewards:enchanting/all_the_netherite_tools"
   }
 }

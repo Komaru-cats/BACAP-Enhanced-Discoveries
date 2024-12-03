@@ -37,6 +37,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:biomes/the_boatman"
+    "function": "bacaped_rewards:biomes/the_boatman"
   }
 }

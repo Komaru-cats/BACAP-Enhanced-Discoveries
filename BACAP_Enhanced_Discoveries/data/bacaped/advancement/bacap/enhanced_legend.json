@@ -3506,6 +3506,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:bacap/enhanced_legend"
+    "function": "bacaped_rewards:bacap/enhanced_legend"
   }
 }
