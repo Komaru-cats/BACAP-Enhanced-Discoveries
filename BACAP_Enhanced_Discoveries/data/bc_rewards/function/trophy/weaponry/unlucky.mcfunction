@@ -1,3 +1,0 @@
-summon minecraft:item ~ ~ ~ {Invulnerable:true,Item:{id:"minecraft:shield",count:1,components:{lore:['{color:"#F6FFDF",translate:"Use it so you don\'t die"}','{text:" "}','{translate:"Awarded for achieving",color:"gray"}','{translate:"Unlucky",color:"#75E1FF",italic:false}'],custom_name:'{bold:true,color:"#F6FFDF",italic:false,translate:"Loser"}',base_color:"white",hide_additional_tooltip:{},banner_patterns:[{color:"black",pattern:"minecraft:half_vertical"},{color:"black",pattern:"minecraft:stripe_bottom"}],custom_model_data:131,custom_data:{Trophy:1}}}}
-tellraw @s {"color": "gold", "text": " +1 ", "extra": [{"translate": "Loser"}]}
-tellraw @s {"color": "gray", "text": " The trophy appeared at the place of your death"}

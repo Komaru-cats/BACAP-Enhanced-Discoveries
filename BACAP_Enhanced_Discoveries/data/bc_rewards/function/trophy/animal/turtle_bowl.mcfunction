@@ -1,2 +1,0 @@
-give @s minecraft:bowl[enchantment_glint_override=true, custom_name='{italic:false,bold:true,color:"#A77E29",translate:"Bowl"}', lore=['{color:"#A77E29",translate:"Without soup..."}','{text:" "}','{translate:"Awarded for achieving",color:"gray"}','{translate:"Turtle Bowl",color:"light_purple",italic:false}'], custom_model_data=131, hide_additional_tooltip={}, custom_data={Trophy:1}] 1
-tellraw @s {"color": "gold", "text": " +1 ", "extra": [{"translate": "Bowl"}]}
