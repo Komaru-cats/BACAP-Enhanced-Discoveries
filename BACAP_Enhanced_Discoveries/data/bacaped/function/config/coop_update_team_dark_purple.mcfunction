@@ -111,7 +111,6 @@ execute if score bacaped:building/art_lover bac_obtained_dark_purple matches 1..
 execute if score bacaped:building/artificial_forest bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:building/artificial_forest
 execute if score bacaped:building/pot_on_a_pot bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:building/pot_on_a_pot
 execute if score bacaped:building/potception bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:building/potception
-execute if score bacaped:building/rainbow bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:building/rainbow
 execute if score bacaped:building/statue bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:building/statue
 execute if score bacaped:building/stickman bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:building/stickman
 execute if score bacaped:challenges/5_birds_1_stone bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:challenges/5_birds_1_stone
@@ -229,6 +228,7 @@ execute if score bacaped:nether/impostor bac_obtained_dark_purple matches 1.. ru
 execute if score bacaped:nether/iron_beacon bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:nether/iron_beacon
 execute if score bacaped:nether/netherite_beacon bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:nether/netherite_beacon
 execute if score bacaped:nether/never_careful_enough bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:nether/never_careful_enough
+execute if score bacaped:nether/rainbow bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:nether/rainbow
 execute if score bacaped:nether/show_the_wither_his_home bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:nether/show_the_wither_his_home
 execute if score bacaped:nether/the_new_swamp_wont_be_here bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:nether/the_new_swamp_wont_be_here
 execute if score bacaped:nether/withering_depths bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:nether/withering_depths

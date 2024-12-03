@@ -414,6 +414,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:building/rainbow"
+    "function": "bacaped_rewards:nether/rainbow"
   }
 }
