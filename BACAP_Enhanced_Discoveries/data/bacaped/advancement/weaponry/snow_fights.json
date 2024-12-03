@@ -34,6 +34,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:weaponry/snow_fights"
+    "function": "bacaped_rewards:weaponry/snow_fights"
   }
 }

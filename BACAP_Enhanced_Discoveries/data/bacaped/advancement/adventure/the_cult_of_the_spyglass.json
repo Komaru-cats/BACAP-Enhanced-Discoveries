@@ -37,6 +37,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/the_cult_of_the_spyglass"
+    "function": "bacaped_rewards:adventure/the_cult_of_the_spyglass"
   }
 }

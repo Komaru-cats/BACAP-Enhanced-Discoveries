@@ -38,6 +38,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/on_the_wings_of_the_wind"
+    "function": "bacaped_rewards:adventure/on_the_wings_of_the_wind"
   }
 }

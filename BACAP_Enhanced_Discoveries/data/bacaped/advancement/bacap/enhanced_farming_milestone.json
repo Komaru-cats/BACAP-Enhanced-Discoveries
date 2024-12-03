@@ -186,6 +186,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:bacap/enhanced_farming_milestone"
+    "function": "bacaped_rewards:bacap/enhanced_farming_milestone"
   }
 }

@@ -28,6 +28,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/horse_health_hunter"
+    "function": "bacaped_rewards:animal/horse_health_hunter"
   }
 }

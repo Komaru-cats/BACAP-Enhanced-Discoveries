@@ -44,6 +44,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:potion/cowabunga_it_is"
+    "function": "bacaped_rewards:potion/cowabunga_it_is"
   }
 }

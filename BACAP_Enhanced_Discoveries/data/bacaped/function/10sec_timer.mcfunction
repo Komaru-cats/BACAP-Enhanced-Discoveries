@@ -32,4 +32,7 @@ execute at @a if biome ~ ~ ~ minecraft:the_end run tag @e[predicate=bacaped:inte
 # Firefox
 execute as @a[gamemode=!spectator,advancements={bacaped:nether/firefox=false}] at @s if dimension minecraft:the_nether if entity @e[predicate=bacaped:is_red_fox,distance=..16] run advancement grant @s only bacaped:nether/firefox
 
+# Fanpacks Handling
+function #bacaped_fanpacks:10sec_timer
+
 schedule function bacaped:10sec_timer 10s

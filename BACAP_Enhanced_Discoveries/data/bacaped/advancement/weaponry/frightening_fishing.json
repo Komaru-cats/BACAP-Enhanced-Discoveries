@@ -36,6 +36,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:weaponry/frightening_fishing"
+    "function": "bacaped_rewards:weaponry/frightening_fishing"
   }
 }

@@ -36,6 +36,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/what_a_stupid_purchase"
+    "function": "bacaped_rewards:challenges/what_a_stupid_purchase"
   }
 }

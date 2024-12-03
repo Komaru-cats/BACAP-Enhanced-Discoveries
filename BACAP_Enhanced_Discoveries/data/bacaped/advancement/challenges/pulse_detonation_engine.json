@@ -39,6 +39,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/pulse_detonation_engine"
+    "function": "bacaped_rewards:challenges/pulse_detonation_engine"
   }
 }

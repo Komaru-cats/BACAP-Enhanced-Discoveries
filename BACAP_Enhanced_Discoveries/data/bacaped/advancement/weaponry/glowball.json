@@ -54,6 +54,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:weaponry/glowball"
+    "function": "bacaped_rewards:weaponry/glowball"
   }
 }

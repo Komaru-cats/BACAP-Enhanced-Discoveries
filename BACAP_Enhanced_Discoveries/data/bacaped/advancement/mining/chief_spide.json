@@ -178,6 +178,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:mining/chief_spide"
+    "function": "bacaped_rewards:mining/chief_spide"
   }
 }

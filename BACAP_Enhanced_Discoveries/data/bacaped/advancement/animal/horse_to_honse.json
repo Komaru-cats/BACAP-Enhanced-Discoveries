@@ -28,6 +28,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/horse_to_honse"
+    "function": "bacaped_rewards:animal/horse_to_honse"
   }
 }

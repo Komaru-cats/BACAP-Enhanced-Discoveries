@@ -66,6 +66,6 @@
     ]
   ],
   "rewards": {
-    "function": "bc_rewards:biomes/pandas_express"
+    "function": "bacaped_rewards:biomes/pandas_express"
   }
 }

@@ -7,7 +7,7 @@
       }
     },
     "title": {
-      "translate": "End of the World as we Know it"
+      "translate": "End of the World as We Know It"
     },
     "description": {
       "translate": "Reach the world border in all 3 dimensions",
@@ -285,6 +285,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/end_of_the_world_as_we_know_it"
+    "function": "bacaped_rewards:challenges/end_of_the_world_as_we_know_it"
   }
 }

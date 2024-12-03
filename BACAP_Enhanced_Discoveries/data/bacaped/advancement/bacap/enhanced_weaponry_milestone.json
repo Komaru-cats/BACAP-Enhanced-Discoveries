@@ -147,6 +147,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:bacap/enhanced_weaponry_milestone"
+    "function": "bacaped_rewards:bacap/enhanced_weaponry_milestone"
   }
 }

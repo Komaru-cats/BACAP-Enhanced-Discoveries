@@ -28,6 +28,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/pie-fox_fest"
+    "function": "bacaped_rewards:animal/pie-fox_fest"
   }
 }

@@ -80,6 +80,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/copper_armor"
+    "function": "bacaped_rewards:adventure/copper_armor"
   }
 }

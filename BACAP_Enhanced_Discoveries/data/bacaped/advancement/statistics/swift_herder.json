@@ -27,6 +27,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/swift_herder"
+    "function": "bacaped_rewards:statistics/swift_herder"
   }
 }

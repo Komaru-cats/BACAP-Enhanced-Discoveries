@@ -172,6 +172,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/the_wool_magnate"
+    "function": "bacaped_rewards:animal/the_wool_magnate"
   }
 }

@@ -32,6 +32,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/furry_fury"
+    "function": "bacaped_rewards:animal/furry_fury"
   }
 }

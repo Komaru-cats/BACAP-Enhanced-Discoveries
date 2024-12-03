@@ -60,6 +60,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:enchanting/small_targets"
+    "function": "bacaped_rewards:enchanting/small_targets"
   }
 }

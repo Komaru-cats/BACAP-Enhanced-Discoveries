@@ -39,6 +39,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/experienced_angler"
+    "function": "bacaped_rewards:statistics/experienced_angler"
   }
 }

@@ -31,6 +31,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/turtle_bowl"
+    "function": "bacaped_rewards:animal/turtle_bowl"
   }
 }

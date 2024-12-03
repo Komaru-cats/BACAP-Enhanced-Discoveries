@@ -266,6 +266,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/my_personal_slave"
+    "function": "bacaped_rewards:adventure/my_personal_slave"
   }
 }

@@ -67,6 +67,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/sus_miner"
+    "function": "bacaped_rewards:adventure/sus_miner"
   }
 }

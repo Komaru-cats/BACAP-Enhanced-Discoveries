@@ -27,6 +27,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/youre_part_of_a_hive_mind_now"
+    "function": "bacaped_rewards:animal/youre_part_of_a_hive_mind_now"
   }
 }

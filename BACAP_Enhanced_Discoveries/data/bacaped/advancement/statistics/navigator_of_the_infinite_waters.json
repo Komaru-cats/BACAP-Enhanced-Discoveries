@@ -40,6 +40,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/navigator_of_the_infinite_waters"
+    "function": "bacaped_rewards:statistics/navigator_of_the_infinite_waters"
   }
 }

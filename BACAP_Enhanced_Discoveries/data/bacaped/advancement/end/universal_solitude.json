@@ -24,6 +24,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:end/universal_solitude"
+    "function": "bacaped_rewards:end/universal_solitude"
   }
 }

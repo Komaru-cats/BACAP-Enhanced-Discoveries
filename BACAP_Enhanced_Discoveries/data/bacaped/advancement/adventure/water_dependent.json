@@ -55,6 +55,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/water_dependent"
+    "function": "bacaped_rewards:adventure/water_dependent"
   }
 }

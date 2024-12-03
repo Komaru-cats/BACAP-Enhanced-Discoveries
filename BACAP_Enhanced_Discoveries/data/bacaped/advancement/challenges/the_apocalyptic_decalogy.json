@@ -36,6 +36,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/the_apocalyptic_decalogy"
+    "function": "bacaped_rewards:challenges/the_apocalyptic_decalogy"
   }
 }

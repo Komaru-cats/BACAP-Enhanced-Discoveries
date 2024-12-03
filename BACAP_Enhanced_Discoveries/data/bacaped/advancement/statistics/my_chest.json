@@ -45,6 +45,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/my_chest"
+    "function": "bacaped_rewards:statistics/my_chest"
   }
 }

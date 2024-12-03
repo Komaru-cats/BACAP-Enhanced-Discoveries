@@ -36,6 +36,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:end/bee_colonist"
+    "function": "bacaped_rewards:end/bee_colonist"
   }
 }

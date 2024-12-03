@@ -45,6 +45,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/not_profitable_transportation"
+    "function": "bacaped_rewards:adventure/not_profitable_transportation"
   }
 }

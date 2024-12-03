@@ -119,6 +119,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/explosive_elexir"
+    "function": "bacaped_rewards:challenges/explosive_elexir"
   }
 }

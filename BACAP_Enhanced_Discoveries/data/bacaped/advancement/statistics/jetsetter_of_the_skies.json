@@ -40,6 +40,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/jetsetter_of_the_skies"
+    "function": "bacaped_rewards:statistics/jetsetter_of_the_skies"
   }
 }

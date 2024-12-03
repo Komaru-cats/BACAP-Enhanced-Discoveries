@@ -38,6 +38,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/totem_expert"
+    "function": "bacaped_rewards:statistics/totem_expert"
   }
 }

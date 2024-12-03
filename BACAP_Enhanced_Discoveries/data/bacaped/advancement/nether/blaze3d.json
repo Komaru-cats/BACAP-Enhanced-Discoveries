@@ -41,6 +41,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:nether/blaze3d"
+    "function": "bacaped_rewards:nether/blaze3d"
   }
 }

@@ -33,6 +33,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/driven_to_death"
+    "function": "bacaped_rewards:animal/driven_to_death"
   }
 }

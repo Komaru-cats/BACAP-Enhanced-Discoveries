@@ -42,6 +42,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:monsters/more_impossible"
+    "function": "bacaped_rewards:monsters/more_impossible"
   }
 }

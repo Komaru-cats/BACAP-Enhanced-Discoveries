@@ -27,6 +27,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:nether/withering_depths"
+    "function": "bacaped_rewards:nether/withering_depths"
   }
 }

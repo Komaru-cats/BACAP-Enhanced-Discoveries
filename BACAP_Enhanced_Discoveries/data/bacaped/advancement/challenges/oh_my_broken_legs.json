@@ -143,6 +143,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/oh_my_broken_legs"
+    "function": "bacaped_rewards:challenges/oh_my_broken_legs"
   }
 }

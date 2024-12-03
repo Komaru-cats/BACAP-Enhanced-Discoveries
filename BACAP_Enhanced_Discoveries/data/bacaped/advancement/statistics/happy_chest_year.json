@@ -63,6 +63,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/happy_chest_year"
+    "function": "bacaped_rewards:statistics/happy_chest_year"
   }
 }

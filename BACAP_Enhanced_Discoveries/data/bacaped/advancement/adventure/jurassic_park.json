@@ -49,6 +49,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/jurassic_park"
+    "function": "bacaped_rewards:adventure/jurassic_park"
   }
 }

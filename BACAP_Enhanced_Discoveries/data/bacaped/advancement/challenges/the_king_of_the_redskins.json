@@ -179,6 +179,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/the_king_of_the_redskins"
+    "function": "bacaped_rewards:challenges/the_king_of_the_redskins"
   }
 }

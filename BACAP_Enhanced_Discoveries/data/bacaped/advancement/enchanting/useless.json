@@ -35,6 +35,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:enchanting/useless"
+    "function": "bacaped_rewards:enchanting/useless"
   }
 }

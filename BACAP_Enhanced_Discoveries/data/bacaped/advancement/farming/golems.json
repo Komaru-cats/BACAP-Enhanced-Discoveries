@@ -22,6 +22,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:farming/golems"
+    "function": "bacaped_rewards:farming/golems"
   }
 }

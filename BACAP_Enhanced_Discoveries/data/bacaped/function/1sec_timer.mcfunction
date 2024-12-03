@@ -16,10 +16,10 @@ execute as @a[gamemode=!spectator] at @s if entity @e[type=wither,distance=..48]
 execute as @a[gamemode=!spectator] at @s if entity @e[type=warden,distance=..32] run function bacaped:mob_collections/magic_kingdom_check
 
 # Pyrotechnic vs Dragon V
-execute as @a[advancements={bacaped:technical/respawn_dragon=true}] run function bacaped:pyrotechnic_vs_dragon_v/start
+execute as @a[advancements={bacaped:technical/pvd_5_respawn_dragon=true}] run function bacaped:pyrotechnic_vs_dragon_v/start
 execute as @a[scores={bacaped_pvd5=1}] run function bacaped:pyrotechnic_vs_dragon_v/fail_check
-execute as @a[advancements={bacaped:technical/kill_dragon=true},scores={bacaped_pvd5=1}] run advancement grant @s only bacaped:challenges/pyrotechnic_vs_dragon_v
-execute as @a[advancements={bacaped:technical/kill_dragon=true}] run advancement revoke @s only bacaped:technical/kill_dragon
+execute as @a[advancements={bacaped:technical/pvd_5_kill_dragon=true},scores={bacaped_pvd5=1}] run advancement grant @s only bacaped:challenges/pyrotechnic_vs_dragon_v
+execute as @a[advancements={bacaped:technical/pvd_5_kill_dragon=true}] run advancement revoke @s only bacaped:technical/pvd_5_kill_dragon
 
 # Dragon vs Warden VI
 execute as @a[predicate=bacaped:wear_dragon_vs_warden_vi] run execute as @s at @s unless entity @n[type=minecraft:player,distance=0.01..32] run execute at @n[type=minecraft:warden,distance=..6] if entity @e[distance=0,nbt={Health:500.0f}] run function bacaped:dragon_vs_warden_vi/start
@@ -74,5 +74,8 @@ execute as @a if score @s bacaped_statistics matches 1.. run function bacaped:tr
 # Trigger to get info about timers
 scoreboard players enable @a bacaped_timers
 execute as @a if score @s bacaped_timers matches 1.. run function bacaped:triggers_callback/timers_trigger
+
+# Fanpacks Handling
+function #bacaped_fanpacks:1sec_timer
 
 schedule function bacaped:1sec_timer 1s

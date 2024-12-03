@@ -37,6 +37,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/youre_bald"
+    "function": "bacaped_rewards:animal/youre_bald"
   }
 }

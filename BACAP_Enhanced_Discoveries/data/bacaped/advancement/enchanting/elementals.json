@@ -38,6 +38,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:enchanting/elementals"
+    "function": "bacaped_rewards:enchanting/elementals"
   }
 }

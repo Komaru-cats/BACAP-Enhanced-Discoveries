@@ -136,6 +136,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:biomes/my_mountains"
+    "function": "bacaped_rewards:biomes/my_mountains"
   }
 }

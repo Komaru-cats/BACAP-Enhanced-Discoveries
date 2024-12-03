@@ -280,9 +280,37 @@
           "items": "minecraft:sunflower"
         }
       }
+    },
+    "open_eyeblossom": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin",
+          "flags": {
+            "is_baby": true
+          }
+        },
+        "item": {
+          "items": "minecraft:open_eyeblossom"
+        }
+      }
+    },
+    "closed_eyeblossom": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin",
+          "flags": {
+            "is_baby": true
+          }
+        },
+        "item": {
+          "items": "minecraft:closed_eyeblossom"
+        }
+      }
     }
   },
   "rewards": {
-    "function": "bc_rewards:nether/herbarium_to_my_friend"
+    "function": "bacaped_rewards:nether/herbarium_to_my_friend"
   }
 }

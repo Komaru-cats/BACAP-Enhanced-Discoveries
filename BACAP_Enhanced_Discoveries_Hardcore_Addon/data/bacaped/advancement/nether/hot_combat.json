@@ -37,6 +37,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:nether/hot_combat"
+    "function": "bacaped_rewards:nether/hot_combat"
   }
 }

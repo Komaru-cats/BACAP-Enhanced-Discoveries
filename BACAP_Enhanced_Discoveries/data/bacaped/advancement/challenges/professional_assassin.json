@@ -1533,9 +1533,28 @@
           }
         }
       }
+    },
+    "creaking": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:creaking",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/professional_assassin"
+    "function": "bacaped_rewards:challenges/professional_assassin"
   }
 }

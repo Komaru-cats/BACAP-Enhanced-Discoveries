@@ -4,7 +4,7 @@
       "id": "minecraft:mangrove_leaves"
     },
     "title": {
-      "translate": "What are the chances"
+      "translate": "What Are the Chances"
     },
     "description": {
       "translate": "Kill a Phantom that is 92 blocks above the world with a bow enchanted with Flame, Punch 1, Unbreaking 2, and Curse of Vanishing while inside the Mangrove Swamp biome",
@@ -84,6 +84,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/what_are_the_chances"
+    "function": "bacaped_rewards:challenges/what_are_the_chances"
   }
 }

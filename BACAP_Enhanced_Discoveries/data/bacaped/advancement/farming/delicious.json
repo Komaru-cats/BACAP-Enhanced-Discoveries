@@ -30,6 +30,30 @@
         }
       }
     },
+    "open_eyeblossom": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:open_eyeblossom"
+        },
+        "entity": {
+          "type": "minecraft:mooshroom",
+          "nbt": "{stew_effects:[{id:\"minecraft:blindness\"}]}"
+        }
+      }
+    },
+    "closed_eyeblossom": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:closed_eyeblossom"
+        },
+        "entity": {
+          "type": "minecraft:mooshroom",
+          "nbt": "{stew_effects:[{id:\"minecraft:nausea\"}]}"
+        }
+      }
+    },
     "allium": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
@@ -188,6 +212,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:farming/delicious"
+    "function": "bacaped_rewards:farming/delicious"
   }
 }

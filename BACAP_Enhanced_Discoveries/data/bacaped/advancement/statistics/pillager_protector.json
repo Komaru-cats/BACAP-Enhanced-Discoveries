@@ -36,6 +36,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/pillager_protector"
+    "function": "bacaped_rewards:statistics/pillager_protector"
   }
 }

@@ -29,6 +29,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:farming/not_fireflies"
+    "function": "bacaped_rewards:farming/not_fireflies"
   }
 }

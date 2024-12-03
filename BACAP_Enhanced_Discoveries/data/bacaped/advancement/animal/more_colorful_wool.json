@@ -416,6 +416,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/more_colorful_wool"
+    "function": "bacaped_rewards:animal/more_colorful_wool"
   }
 }

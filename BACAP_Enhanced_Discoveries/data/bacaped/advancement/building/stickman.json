@@ -39,6 +39,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:building/stickman"
+    "function": "bacaped_rewards:building/stickman"
   }
 }

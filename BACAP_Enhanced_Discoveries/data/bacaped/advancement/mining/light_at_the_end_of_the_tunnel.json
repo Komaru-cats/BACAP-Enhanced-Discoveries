@@ -43,6 +43,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:mining/light_at_the_end_of_the_tunnel"
+    "function": "bacaped_rewards:mining/light_at_the_end_of_the_tunnel"
   }
 }

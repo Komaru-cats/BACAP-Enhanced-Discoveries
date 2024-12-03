@@ -24,6 +24,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:biomes/unite_storm"
+    "function": "bacaped_rewards:biomes/unite_storm"
   }
 }

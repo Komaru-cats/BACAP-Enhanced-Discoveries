@@ -38,6 +38,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/chests_aficionado"
+    "function": "bacaped_rewards:statistics/chests_aficionado"
   }
 }

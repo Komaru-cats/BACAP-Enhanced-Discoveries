@@ -38,6 +38,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/do_you_see_this"
+    "function": "bacaped_rewards:adventure/do_you_see_this"
   }
 }

@@ -53,6 +53,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:nether/never_careful_enough"
+    "function": "bacaped_rewards:nether/never_careful_enough"
   }
 }

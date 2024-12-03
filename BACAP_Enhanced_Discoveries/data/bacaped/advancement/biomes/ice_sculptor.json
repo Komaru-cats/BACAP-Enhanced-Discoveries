@@ -46,6 +46,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:biomes/ice_sculptor"
+    "function": "bacaped_rewards:biomes/ice_sculptor"
   }
 }

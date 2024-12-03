@@ -37,6 +37,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/totem_immortal"
+    "function": "bacaped_rewards:statistics/totem_immortal"
   }
 }

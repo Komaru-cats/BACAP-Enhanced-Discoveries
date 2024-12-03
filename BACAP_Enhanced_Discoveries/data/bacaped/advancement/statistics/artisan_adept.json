@@ -47,6 +47,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/artisan_adept"
+    "function": "bacaped_rewards:statistics/artisan_adept"
   }
 }

@@ -241,6 +241,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/a_ewe_for_every_hue"
+    "function": "bacaped_rewards:animal/a_ewe_for_every_hue"
   }
 }

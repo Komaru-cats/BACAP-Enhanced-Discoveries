@@ -39,6 +39,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:enchanting/pyromaniac"
+    "function": "bacaped_rewards:enchanting/pyromaniac"
   }
 }

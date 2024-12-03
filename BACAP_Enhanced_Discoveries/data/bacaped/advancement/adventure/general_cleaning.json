@@ -814,6 +814,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/general_cleaning"
+    "function": "bacaped_rewards:adventure/general_cleaning"
   }
 }

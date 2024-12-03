@@ -205,6 +205,6 @@
     ]
   ],
   "rewards": {
-    "function": "bc_rewards:monsters/frozen_heart"
+    "function": "bacaped_rewards:monsters/frozen_heart"
   }
 }

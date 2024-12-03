@@ -46,6 +46,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:end/endergardener"
+    "function": "bacaped_rewards:end/endergardener"
   }
 }

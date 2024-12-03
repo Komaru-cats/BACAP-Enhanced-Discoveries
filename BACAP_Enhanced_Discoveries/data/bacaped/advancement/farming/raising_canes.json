@@ -52,6 +52,27 @@
         ]
       }
     },
+    "pale_moss_block": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:sugar_cane",
+            "properties": {}
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:pale_moss_block"
+              }
+            }
+          }
+        ]
+      }
+    },
     "dirt": {
       "trigger": "minecraft:placed_block",
       "conditions": {
@@ -264,6 +285,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:farming/raising_canes"
+    "function": "bacaped_rewards:farming/raising_canes"
   }
 }

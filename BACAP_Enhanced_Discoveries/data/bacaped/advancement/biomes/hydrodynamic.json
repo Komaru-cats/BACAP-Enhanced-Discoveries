@@ -39,6 +39,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:biomes/hydrodynamic"
+    "function": "bacaped_rewards:biomes/hydrodynamic"
   }
 }

@@ -41,6 +41,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:enchanting/master_shieldman"
+    "function": "bacaped_rewards:enchanting/master_shieldman"
   }
 }

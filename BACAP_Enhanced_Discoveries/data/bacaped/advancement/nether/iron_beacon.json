@@ -2182,6 +2182,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:nether/iron_beacon"
+    "function": "bacaped_rewards:nether/iron_beacon"
   }
 }

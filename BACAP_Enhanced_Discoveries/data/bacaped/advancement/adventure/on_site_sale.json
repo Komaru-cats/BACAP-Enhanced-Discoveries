@@ -32,6 +32,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/on_site_sale"
+    "function": "bacaped_rewards:adventure/on_site_sale"
   }
 }

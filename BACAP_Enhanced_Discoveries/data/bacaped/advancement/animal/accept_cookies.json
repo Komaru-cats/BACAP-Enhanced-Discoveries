@@ -28,6 +28,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/accept_cookies"
+    "function": "bacaped_rewards:animal/accept_cookies"
   }
 }

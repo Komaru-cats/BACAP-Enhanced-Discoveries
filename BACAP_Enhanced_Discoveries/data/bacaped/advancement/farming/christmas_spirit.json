@@ -70,6 +70,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:farming/christmas_spirit"
+    "function": "bacaped_rewards:farming/christmas_spirit"
   }
 }

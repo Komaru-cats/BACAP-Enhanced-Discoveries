@@ -63,6 +63,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/desert_warrior"
+    "function": "bacaped_rewards:animal/desert_warrior"
   }
 }

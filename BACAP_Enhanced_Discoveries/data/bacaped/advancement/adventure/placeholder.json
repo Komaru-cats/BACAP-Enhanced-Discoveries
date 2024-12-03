@@ -33,6 +33,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/placeholder"
+    "function": "bacaped_rewards:adventure/placeholder"
   }
 }

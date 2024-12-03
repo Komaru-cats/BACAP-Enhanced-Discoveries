@@ -469,6 +469,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/the_foxs_banquet"
+    "function": "bacaped_rewards:animal/the_foxs_banquet"
   }
 }

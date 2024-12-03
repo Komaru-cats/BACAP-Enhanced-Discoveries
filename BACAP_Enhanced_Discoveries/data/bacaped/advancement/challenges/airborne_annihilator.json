@@ -134,6 +134,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/airborne_annihilator"
+    "function": "bacaped_rewards:challenges/airborne_annihilator"
   }
 }

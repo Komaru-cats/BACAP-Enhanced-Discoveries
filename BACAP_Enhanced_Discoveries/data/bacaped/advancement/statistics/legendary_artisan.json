@@ -63,6 +63,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/legendary_artisan"
+    "function": "bacaped_rewards:statistics/legendary_artisan"
   }
 }

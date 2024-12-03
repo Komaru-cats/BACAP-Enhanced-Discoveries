@@ -92,6 +92,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:nether/bastion_sweet_bastion"
+    "function": "bacaped_rewards:nether/bastion_sweet_bastion"
   }
 }

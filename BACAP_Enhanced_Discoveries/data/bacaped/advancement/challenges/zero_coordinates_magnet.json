@@ -48,6 +48,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/zero_coordinates_magnet"
+    "function": "bacaped_rewards:challenges/zero_coordinates_magnet"
   }
 }

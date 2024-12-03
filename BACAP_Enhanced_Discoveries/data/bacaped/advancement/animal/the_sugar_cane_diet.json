@@ -26,6 +26,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/the_sugar_cane_diet"
+    "function": "bacaped_rewards:animal/the_sugar_cane_diet"
   }
 }

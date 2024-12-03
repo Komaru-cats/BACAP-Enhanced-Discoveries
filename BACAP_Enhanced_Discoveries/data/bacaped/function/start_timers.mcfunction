@@ -20,6 +20,9 @@ scoreboard objectives add bacaped_mob_universe trigger
 scoreboard objectives add bacaped_timers trigger
 scoreboard objectives add bacaped_statistics trigger
 
+# Fanpacks Handling
+function #bacaped_fanpacks:start_timers
+
 # Timers
 function bacaped:1sec_timer
 function bacaped:10sec_timer
@@ -27,4 +30,4 @@ function bacaped:10sec_timer
 # Install
 execute if score bac_created bac_created matches 1 unless score bacaped bacaped_install matches 1 run function bacaped:install
 execute if score bac_created bac_created matches 1 run scoreboard players set bacaped bacaped_install 1
-execute if score bac_created bac_created matches 1 run schedule clear bacaped:check_bacap
+execute if score bac_created bac_created matches 1 run schedule clear bacaped:bacap_is_not_installed_msg

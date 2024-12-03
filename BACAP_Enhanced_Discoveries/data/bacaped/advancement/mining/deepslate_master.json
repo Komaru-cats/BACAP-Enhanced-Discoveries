@@ -418,6 +418,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:mining/deepslate_master"
+    "function": "bacaped_rewards:mining/deepslate_master"
   }
 }

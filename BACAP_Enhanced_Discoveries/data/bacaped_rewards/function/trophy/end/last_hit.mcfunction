@@ -1,0 +1,2 @@
+give @s minecraft:dragon_head[custom_name='{italic:false,bold:true,color:"#AC6DFF",translate:"Dragon Head"}', lore=['{color:"#AC6DFF",translate:"Armor is for amateurs"}','{text:" "}','{translate:"Awarded for achieving",color:"gray"}','{translate:"Last Hit",color:"light_purple",italic:false}'], custom_model_data={"floats": [131]}, hide_additional_tooltip={}, custom_data={Trophy:1}] 1
+tellraw @s {"color": "gold", "text": " +1 ", "extra": [{"translate": "Dragon Head"}]}

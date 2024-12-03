@@ -40,6 +40,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/ravager_repeller"
+    "function": "bacaped_rewards:statistics/ravager_repeller"
   }
 }

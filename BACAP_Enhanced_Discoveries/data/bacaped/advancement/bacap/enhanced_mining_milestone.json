@@ -160,6 +160,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:bacap/enhanced_mining_milestone"
+    "function": "bacaped_rewards:bacap/enhanced_mining_milestone"
   }
 }

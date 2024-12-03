@@ -56,6 +56,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:bacap/enhanced_redstone_milestone"
+    "function": "bacaped_rewards:bacap/enhanced_redstone_milestone"
   }
 }

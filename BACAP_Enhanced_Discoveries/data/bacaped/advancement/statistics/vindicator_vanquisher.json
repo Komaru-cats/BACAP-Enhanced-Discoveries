@@ -38,6 +38,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/vindicator_vanquisher"
+    "function": "bacaped_rewards:statistics/vindicator_vanquisher"
   }
 }

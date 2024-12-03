@@ -7,7 +7,7 @@
       "translate": "Climb Expert"
     },
     "description": {
-      "translate": "Climb 1km",
+      "translate": "Climb 500m",
       "color": "#75E1FF"
     },
     "frame": "goal",
@@ -26,7 +26,7 @@
                 "type": "minecraft:custom",
                 "stat": "minecraft:climb_one_cm",
                 "value": {
-                  "min": 100000
+                  "min": 50000
                 }
               }
             ]
@@ -36,6 +36,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/climb_expert"
+    "function": "bacaped_rewards:statistics/climb_expert"
   }
 }

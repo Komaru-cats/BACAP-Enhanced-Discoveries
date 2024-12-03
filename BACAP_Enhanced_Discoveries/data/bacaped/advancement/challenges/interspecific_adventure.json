@@ -52,6 +52,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/interspecific_adventure"
+    "function": "bacaped_rewards:challenges/interspecific_adventure"
   }
 }

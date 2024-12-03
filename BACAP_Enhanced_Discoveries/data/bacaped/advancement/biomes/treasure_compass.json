@@ -21,6 +21,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:biomes/treasure_compass"
+    "function": "bacaped_rewards:biomes/treasure_compass"
   }
 }

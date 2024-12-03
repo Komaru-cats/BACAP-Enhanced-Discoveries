@@ -20,7 +20,7 @@
       }
     },
     "title": {
-      "translate": "The World is Actually Ending 2"
+      "translate": "The World Is Actually Ending 2"
     },
     "description": {
       "translate": "Summon 64 Withers at once",
@@ -36,6 +36,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:challenges/the_world_is_actually_ending_2"
+    "function": "bacaped_rewards:challenges/the_world_is_actually_ending_2"
   }
 }

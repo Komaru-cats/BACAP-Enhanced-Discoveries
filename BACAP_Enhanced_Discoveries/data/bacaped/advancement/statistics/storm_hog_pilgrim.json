@@ -53,6 +53,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/storm_hog_pilgrim"
+    "function": "bacaped_rewards:statistics/storm_hog_pilgrim"
   }
 }

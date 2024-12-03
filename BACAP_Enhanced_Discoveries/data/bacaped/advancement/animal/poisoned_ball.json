@@ -27,6 +27,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/poisoned_ball"
+    "function": "bacaped_rewards:animal/poisoned_ball"
   }
 }

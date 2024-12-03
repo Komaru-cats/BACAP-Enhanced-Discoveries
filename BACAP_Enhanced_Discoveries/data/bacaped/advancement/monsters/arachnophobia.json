@@ -67,6 +67,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:monsters/arachnophobia"
+    "function": "bacaped_rewards:monsters/arachnophobia"
   }
 }

@@ -45,6 +45,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/crab_should_win"
+    "function": "bacaped_rewards:animal/crab_should_win"
   }
 }

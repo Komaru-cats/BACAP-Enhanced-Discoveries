@@ -67,6 +67,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/suspicious_miner"
+    "function": "bacaped_rewards:adventure/suspicious_miner"
   }
 }

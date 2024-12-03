@@ -61,6 +61,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:animal/the_invisible_turtle"
+    "function": "bacaped_rewards:animal/the_invisible_turtle"
   }
 }

@@ -772,6 +772,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:adventure/silent_armor"
+    "function": "bacaped_rewards:adventure/silent_armor"
   }
 }

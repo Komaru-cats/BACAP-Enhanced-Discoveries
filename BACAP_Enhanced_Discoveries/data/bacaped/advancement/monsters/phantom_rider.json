@@ -25,6 +25,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:monsters/phantom_rider"
+    "function": "bacaped_rewards:monsters/phantom_rider"
   }
 }

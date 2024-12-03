@@ -10,7 +10,7 @@
       "translate": "Skyward Legs"
     },
     "description": {
-      "translate": "Jump 1,000,000 times",
+      "translate": "Jump 250,000 times",
       "color": "light_purple"
     },
     "frame": "challenge",
@@ -30,7 +30,7 @@
                 "type": "minecraft:custom",
                 "stat": "minecraft:jump",
                 "value": {
-                  "min": 1000000
+                  "min": 250000
                 }
               }
             ]
@@ -40,6 +40,6 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:statistics/skyward_legs"
+    "function": "bacaped_rewards:statistics/skyward_legs"
   }
 }
