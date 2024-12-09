@@ -92,6 +92,24 @@
                           "items": "#minecraft:head_armor",
                           "components": {
                             "minecraft:trim": {
+                              "material": "minecraft:resin",
+                              "pattern": "minecraft:silence"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "type": "minecraft:player",
+                      "equipment": {
+                        "head": {
+                          "items": "#minecraft:head_armor",
+                          "components": {
+                            "minecraft:trim": {
                               "material": "minecraft:emerald",
                               "pattern": "minecraft:silence"
                             }
@@ -277,6 +295,24 @@
                           "items": "#minecraft:chest_armor",
                           "components": {
                             "minecraft:trim": {
+                              "material": "minecraft:diamond",
+                              "pattern": "minecraft:resin"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "type": "minecraft:player",
+                      "equipment": {
+                        "chest": {
+                          "items": "#minecraft:chest_armor",
+                          "components": {
+                            "minecraft:trim": {
                               "material": "minecraft:emerald",
                               "pattern": "minecraft:silence"
                             }
@@ -462,6 +498,24 @@
                           "items": "#minecraft:leg_armor",
                           "components": {
                             "minecraft:trim": {
+                              "material": "minecraft:resin",
+                              "pattern": "minecraft:silence"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "type": "minecraft:player",
+                      "equipment": {
+                        "legs": {
+                          "items": "#minecraft:leg_armor",
+                          "components": {
+                            "minecraft:trim": {
                               "material": "minecraft:emerald",
                               "pattern": "minecraft:silence"
                             }
@@ -630,6 +684,24 @@
                           "components": {
                             "minecraft:trim": {
                               "material": "minecraft:diamond",
+                              "pattern": "minecraft:silence"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "type": "minecraft:player",
+                      "equipment": {
+                        "feet": {
+                          "items": "#minecraft:foot_armor",
+                          "components": {
+                            "minecraft:trim": {
+                              "material": "minecraft:resin",
                               "pattern": "minecraft:silence"
                             }
                           }
