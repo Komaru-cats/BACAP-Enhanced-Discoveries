@@ -18,7 +18,7 @@
   },
   "parent": "bacaped:adventure/emerald_armor",
   "criteria": {
-    "armor_with_silence trims": {
+    "armor_with_silence_trims": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [
@@ -295,8 +295,8 @@
                           "items": "#minecraft:chest_armor",
                           "components": {
                             "minecraft:trim": {
-                              "material": "minecraft:diamond",
-                              "pattern": "minecraft:resin"
+                              "material": "minecraft:resin",
+                              "pattern": "minecraft:silence"
                             }
                           }
                         }
