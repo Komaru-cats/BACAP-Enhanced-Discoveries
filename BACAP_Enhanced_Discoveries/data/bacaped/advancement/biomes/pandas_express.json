@@ -31,40 +31,21 @@
   },
   "parent": "blazeandcave:biomes/zoologist",
   "criteria": {
-    "use_lead": {
+    "trigger": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
           "items": "minecraft:lead"
         },
         "entity": {
-          "type": "#minecraft:boat"
-        }
-      }
-    },
-    "look_panda": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "minecraft:player",
-            "looking_at": {
-              "type": "minecraft:panda",
-              "vehicle": {
-                "type": "#minecraft:boat"
-              }
-            }
+          "type": "#minecraft:boat",
+          "passenger": {
+            "type": "minecraft:panda"
           }
         }
       }
     }
   },
-  "requirements": [
-    [
-      "use_lead",
-      "look_panda"
-    ]
-  ],
   "rewards": {
     "function": "bacaped_rewards:biomes/pandas_express"
   }
