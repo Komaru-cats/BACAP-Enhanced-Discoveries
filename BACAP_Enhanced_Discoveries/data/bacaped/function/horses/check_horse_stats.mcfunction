@@ -1,6 +1,6 @@
-execute store result score @s bacaped_horse_speed run data get entity @s RootVehicle.Entity.attributes[{id:"minecraft:generic.movement_speed"}].base 10000
-execute store result score @s bacaped_horse_health run data get entity @s RootVehicle.Entity.attributes[{id:"minecraft:generic.max_health"}].base
-execute store result score @s bacaped_horse_jump run data get entity @s RootVehicle.Entity.attributes[{id:"minecraft:generic.jump_strength"}].base 10000
+execute store result score @s bacaped_horse_speed on vehicle run attribute @s minecraft:movement_speed get 10000
+execute store result score @s bacaped_horse_health on vehicle run attribute @s minecraft:max_health get
+execute store result score @s bacaped_horse_jump on vehicle run attribute @s minecraft:jump_strength get 10000
 
 # Horse Health Hunter
 execute as @a if entity @s[advancements={bacaped:animal/horse_health_hunter=false}] run function bacaped:horses/check_horse_health_hunter
