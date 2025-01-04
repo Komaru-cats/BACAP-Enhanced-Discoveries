@@ -21,7 +21,7 @@ scoreboard objectives add bacaped_timers trigger
 scoreboard objectives add bacaped_statistics trigger
 
 # Fanpacks Handling
-function #bacaped_fanpacks:start_timers
+function #bacaped_fanpacks:start_timersqq
 
 # Timers
 function bacaped:1sec_timer

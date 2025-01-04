@@ -1,0 +1,1 @@
+execute as @a[gamemode=!spectator,advancements={bacaped:weaponry/unlucky=false},scores={bacaped_unlucky_death=1..}] run function bacaped:scores/unlucky

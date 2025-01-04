@@ -56,7 +56,7 @@ execute as @a[advancements={bacaped:biomes/the_infernal_cauldron=false},gamemode
 execute as @a[advancements={bacaped:mining/distorted_cave_maze=false},gamemode=!spectator] run function bacaped:scores/in_cave
 
 # Unlucky score
-execute as @a[gamemode=!spectator,advancements={bacaped:weaponry/unlucky=false},scores={bacaped_unlucky_death=1..}] run function bacaped:scores/unlucky
+function bacaped:unlucky_check
 
 # Warden near score
 execute as @a[gamemode=!spectator,advancements={bacaped:monsters/one_minute_wardens_hugs=false}] at @s run function bacaped:scores/warden_near
