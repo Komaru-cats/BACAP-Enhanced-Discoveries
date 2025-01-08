@@ -67,19 +67,6 @@
         }
       }
     },
-    "rainbow": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:building/rainbow": true
-            }
-          }
-        }
-      }
-    },
     "statue": {
       "trigger": "minecraft:location",
       "conditions": {
