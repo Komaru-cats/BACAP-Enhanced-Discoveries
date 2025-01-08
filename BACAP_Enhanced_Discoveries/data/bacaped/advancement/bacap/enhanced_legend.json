@@ -1398,19 +1398,6 @@
         }
       }
     },
-    "rainbow": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:building/rainbow": true
-            }
-          }
-        }
-      }
-    },
     "statue": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -2823,6 +2810,19 @@
             "type": "player",
             "advancements": {
               "bacaped:nether/never_careful_enough": true
+            }
+          }
+        }
+      }
+    },
+    "rainbow": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:nether/rainbow": true
             }
           }
         }

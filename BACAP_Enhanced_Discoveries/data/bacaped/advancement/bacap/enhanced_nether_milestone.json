@@ -223,6 +223,19 @@
         }
       }
     },
+    "rainbow": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:nether/rainbow": true
+            }
+          }
+        }
+      }
+    },
     "show_the_wither_his_home": {
       "trigger": "minecraft:location",
       "conditions": {
