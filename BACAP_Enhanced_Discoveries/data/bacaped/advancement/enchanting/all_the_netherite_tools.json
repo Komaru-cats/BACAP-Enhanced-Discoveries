@@ -17,7 +17,7 @@
   },
   "parent": "blazeandcave:enchanting/master_farmer",
   "criteria": {
-    "sharpness netherite_sword": {
+    "sharpness_netherite_sword": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -40,7 +40,7 @@
         ]
       }
     },
-    "bane_of_arthropods netherite_sword": {
+    "bane_of_arthropods_netherite_sword": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -63,7 +63,7 @@
         ]
       }
     },
-    "smite netherite_sword": {
+    "smite_netherite_sword": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -86,7 +86,7 @@
         ]
       }
     },
-    "silk_tounch netherite_pickaxe": {
+    "silk_tounch_netherite_pickaxe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -106,7 +106,7 @@
         ]
       }
     },
-    "fortune netherite_pickaxe": {
+    "fortune_netherite_pickaxe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -126,7 +126,7 @@
         ]
       }
     },
-    "silk_tounch netherite_shovel": {
+    "silk_tounch_netherite_shovel": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -146,7 +146,7 @@
         ]
       }
     },
-    "fortune netherite_shovel": {
+    "fortune_netherite_shovel": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -166,7 +166,7 @@
         ]
       }
     },
-    "silk_tounch netherite_hoe": {
+    "silk_touch_netherite_hoe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -186,7 +186,7 @@
         ]
       }
     },
-    "fortune netherite_hoe": {
+    "fortune_netherite_hoe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -206,7 +206,7 @@
         ]
       }
     },
-    "silk_tounch sharpness netherite_axe": {
+    "silk_touch_sharpness_netherite_axe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -227,7 +227,7 @@
         ]
       }
     },
-    "silk_tounch bane_of_arthropods netherite_axe": {
+    "silk_touch_bane_of_arthropods_netherite_axe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -248,7 +248,7 @@
         ]
       }
     },
-    "silk_tounch smite netherite_axe": {
+    "silk_touch_smite_netherite_axe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -269,7 +269,7 @@
         ]
       }
     },
-    "fortune sharpness netherite_axe": {
+    "fortune_sharpness_netherite_axe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -290,7 +290,7 @@
         ]
       }
     },
-    "fortune bane_of_arthropods netherite_axe": {
+    "fortune_bane_of_arthropods_netherite_axe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -311,7 +311,7 @@
         ]
       }
     },
-    "fortune smite netherite_axe": {
+    "fortune_smite_netherite_axe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
