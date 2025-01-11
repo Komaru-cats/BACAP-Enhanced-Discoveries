@@ -14,7 +14,7 @@
   },
   "parent": "bacaped:nether/herbarium_to_my_friend",
   "criteria": {
-    "Bell": {
+    "bell": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
@@ -27,7 +27,7 @@
         }
       }
     },
-    "Block of Gold": {
+    "block_of_gold": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
@@ -40,7 +40,7 @@
         }
       }
     },
-    "Block of Raw Gold": {
+    "block_of_raw_gold": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
@@ -53,7 +53,7 @@
         }
       }
     },
-    "Clock": {
+    "clock": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
@@ -66,7 +66,7 @@
         }
       }
     },
-    "Deepslate Gold Ore": {
+    "deepslate_gold_ore": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
@@ -79,7 +79,7 @@
         }
       }
     },
-    "Enchanted Golden Apple": {
+    "enchanted_golden_apple": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
@@ -92,7 +92,7 @@
         }
       }
     },
-    "Glistering Melon Slice": {
+    "glistering_melon_slice": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
@@ -105,7 +105,7 @@
         }
       }
     },
-    "Gilded Blackstone": {
+    "gilded_blackstone": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
@@ -118,7 +118,7 @@
         }
       }
     },
-    "Gold Ingot": {
+    "gold_ingot": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
@@ -131,7 +131,7 @@
         }
       }
     },
-    "Gold Ore": {
+    "gold_ore": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
@@ -144,7 +144,7 @@
         }
       }
     },
-    "Golden Apple": {
+    "golden_apple": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
@@ -157,7 +157,7 @@
         }
       }
     },
-    "Golden Axe": {
+    "golden_axe": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
@@ -170,7 +170,7 @@
         }
       }
     },
-    "Golden Boots": {
+    "golden_boots": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
@@ -183,7 +183,7 @@
         }
       }
     },
-    "Golden Carrot": {
+    "golden_carrot": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
@@ -196,7 +196,7 @@
         }
       }
     },
-    "Golden Chestplate": {
+    "golden_chestplate": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
@@ -209,7 +209,7 @@
         }
       }
     },
-    "Golden Helmet": {
+    "golden_helmet": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
@@ -222,7 +222,7 @@
         }
       }
     },
-    "Golden Hoe": {
+    "golden_hoe": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
@@ -235,7 +235,7 @@
         }
       }
     },
-    "Golden Horse Armor": {
+    "golden_horse_armor": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
@@ -248,7 +248,7 @@
         }
       }
     },
-    "Golden Leggings": {
+    "golden_leggings": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
@@ -261,7 +261,7 @@
         }
       }
     },
-    "Gold Pickaxe": {
+    "gold_pickaxe": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
@@ -274,7 +274,7 @@
         }
       }
     },
-    "Golden Shovel": {
+    "golden_shovel": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
@@ -287,7 +287,7 @@
         }
       }
     },
-    "Golden Sword": {
+    "golden_sword": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
@@ -300,7 +300,7 @@
         }
       }
     },
-    "Light Weight Pressure Plate": {
+    "light_weight_pressure_plate": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
@@ -313,7 +313,7 @@
         }
       }
     },
-    "Nether Gold Ore": {
+    "nether_gold_ore": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
@@ -326,7 +326,7 @@
         }
       }
     },
-    "Raw Gold": {
+    "raw_gold": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
@@ -339,7 +339,7 @@
         }
       }
     },
-    "Gold Nugget": {
+    "gold_nugget": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {

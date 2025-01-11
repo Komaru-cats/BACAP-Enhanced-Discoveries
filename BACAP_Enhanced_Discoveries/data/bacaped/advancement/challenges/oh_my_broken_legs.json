@@ -36,10 +36,39 @@
       "conditions": {
         "player": [
           {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "nbt": "{Inventory:[]}"
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "effects": {
+                  "minecraft:absorption": {}
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "fluid": {
+                  "fluids": "#minecraft:water"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "fluid": {
+                  "fluids": "#minecraft:lava"
+                }
+              }
             }
           },
           {
@@ -55,6 +84,13 @@
             }
           },
           {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[]}"
+            }
+          },
+          {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
@@ -62,34 +98,6 @@
               "predicate": {
                 "effects": {
                   "minecraft:slow_falling": {}
-                }
-              }
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "stepping_on": {
-                  "fluid": {
-                    "fluids": "#minecraft:water"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "stepping_on": {
-                  "fluid": {
-                    "fluids": "#minecraft:lava"
-                  }
                 }
               }
             }
