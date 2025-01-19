@@ -28,6 +28,32 @@
         }
       }
     },
+    "compact_base": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:end/compact_base": true
+            }
+          }
+        }
+      }
+    },
+    "dragon_blitz": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:end/dragon_blitz": true
+            }
+          }
+        }
+      }
+    },
     "endergardener": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -36,6 +62,19 @@
             "type": "player",
             "advancements": {
               "bacaped:end/endergardener": true
+            }
+          }
+        }
+      }
+    },
+    "end_at_the_start_of_the_game": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:end/end_at_the_start_of_the_game": true
             }
           }
         }
@@ -75,6 +114,32 @@
             "type": "player",
             "advancements": {
               "bacaped:end/last_hit": true
+            }
+          }
+        }
+      }
+    },
+    "speed_of_light": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:end/speed_of_light": true
+            }
+          }
+        }
+      }
+    },
+    "the_lockbox": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:end/the_lockbox": true
             }
           }
         }

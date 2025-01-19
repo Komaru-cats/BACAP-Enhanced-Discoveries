@@ -15,6 +15,97 @@
   },
   "parent": "bacaped:bacap/enhanced_adventure_milestone",
   "criteria": {
+    "craft_me_all": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:redstone/craft_me_all": true
+            }
+          }
+        }
+      }
+    },
+    "echoes_of_the_deep": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:redstone/echoes_of_the_deep": true
+            }
+          }
+        }
+      }
+    },
+    "farm_basics": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:redstone/farm_basics": true
+            }
+          }
+        }
+      }
+    },
+    "fat_cat": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:redstone/fat_cat": true
+            }
+          }
+        }
+      }
+    },
+    "fully_booked": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:redstone/fully_booked": true
+            }
+          }
+        }
+      }
+    },
+    "heavy_steps": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:redstone/heavy_steps": true
+            }
+          }
+        }
+      }
+    },
+    "light_touch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:redstone/light_touch": true
+            }
+          }
+        }
+      }
+    },
     "more_optimisations": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -28,6 +119,19 @@
         }
       }
     },
+    "night_shift": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:redstone/night_shift": true
+            }
+          }
+        }
+      }
+    },
     "old_optimisations": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -36,6 +140,19 @@
             "type": "player",
             "advancements": {
               "bacaped:redstone/old_optimisations": true
+            }
+          }
+        }
+      }
+    },
+    "say_no_to_campfires": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:redstone/say_no_to_campfires": true
             }
           }
         }

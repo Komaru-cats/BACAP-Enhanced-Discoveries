@@ -57,6 +57,19 @@
         }
       }
     },
+    "dual_reality": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:adventure/dual_reality": true
+            }
+          }
+        }
+      }
+    },
     "emerald_armor": {
       "trigger": "minecraft:location",
       "conditions": {

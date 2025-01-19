@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clock",
+      "components": {}
+    },
+    "title": {
+      "translate": "Night Shift"
+    },
+    "description": {
+      "translate": "Set a daylight detector to night mode",
+      "color": "green"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/solar_power",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:daylight_detector",
+            "properties": {
+              "inverted": "true"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:redstone/night_shift"
+  }
+}

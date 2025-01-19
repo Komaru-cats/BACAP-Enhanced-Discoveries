@@ -184,6 +184,19 @@
         }
       }
     },
+    "echoing_call": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:animal/echoing_call": true
+            }
+          }
+        }
+      }
+    },
     "extraordinary_duel": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -205,6 +218,19 @@
             "type": "player",
             "advancements": {
               "bacaped:animal/fox_poses": true
+            }
+          }
+        }
+      }
+    },
+    "full_catch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:animal/full_catch": true
             }
           }
         }

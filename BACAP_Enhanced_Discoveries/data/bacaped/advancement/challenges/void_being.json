@@ -31,7 +31,7 @@
   },
   "parent": "bacaped:challenges/oh_my_broken_legs",
   "criteria": {
-    "y=-1000": {
+    "trigger": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {

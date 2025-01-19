@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield",
+      "components": {
+        "minecraft:banner_patterns": [
+          {
+            "color": "gray",
+            "pattern": "minecraft:curly_border"
+          },
+          {
+            "color": "gray",
+            "pattern": "minecraft:triangle_bottom"
+          },
+          {
+            "color": "gray",
+            "pattern": "minecraft:triangle_top"
+          },
+          {
+            "color": "gray",
+            "pattern": "minecraft:bricks"
+          }
+        ],
+        "minecraft:base_color": "black"
+      }
+    },
+    "title": {
+      "translate": "Deflector"
+    },
+    "description": {
+      "translate": "Deflect a blow that does at least 40 damage with your shield",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bacaped:weaponry/more_shields",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 40
+          },
+          "blocked": true
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:weaponry/deflector"
+  }
+}

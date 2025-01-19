@@ -1,0 +1,2 @@
+give @s diorite_stairs[enchantment_glint_override=true, lore=['{translate:"Hope you’re not afraid of",color:"#D9CACF"}','{translate:"eight-legged roommates!",color:"#D9CACF"}','{text:" "}','{translate:"Awarded for achieving",color:"gray"}','{translate:"Spider\'s Lair",color:"#FFAEFF",italic:false}'], item_name='{translate:"Arachnid\'s Throne",color:"#D9CACF",bold:true,italic:false}', custom_model_data={floats:[I;131]}, hide_additional_tooltip={}, custom_data={Trophy:1}] 1
+tellraw @s {"color": "gold", "text": " +1 ", "extra": [{"translate": "Arachnid's Throne"}]}

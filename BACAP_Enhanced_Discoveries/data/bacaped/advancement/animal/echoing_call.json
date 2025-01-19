@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_shrieker"
+    },
+    "title": {
+      "translate": "Echoing Call"
+    },
+    "description": {
+      "translate": "Blow a Goat Horn while sneaking to make its sound travel farther than usual",
+      "color": "green"
+    },
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "blazeandcave:animal/ram",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "flags": {
+            "is_sneaking": true
+          }
+        },
+        "item": {
+          "items": "minecraft:goat_horn"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:animal/echoing_call"
+  }
+}

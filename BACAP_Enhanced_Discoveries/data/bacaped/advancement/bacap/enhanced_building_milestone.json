@@ -41,6 +41,19 @@
         }
       }
     },
+    "bee_design": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:building/bee_design": true
+            }
+          }
+        }
+      }
+    },
     "potception": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -62,6 +75,19 @@
             "type": "player",
             "advancements": {
               "bacaped:building/pot_on_a_pot": true
+            }
+          }
+        }
+      }
+    },
+    "smoke_signal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:building/smoke_signal": true
             }
           }
         }

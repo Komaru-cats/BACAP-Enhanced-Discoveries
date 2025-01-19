@@ -1,0 +1,2 @@
+give @s emerald_block[enchantment_glint_override=true, lore=['{translate:"Emeralds everywhere,",color:"#A7F63E"}','{translate:"and no raiders to be found",color:"#A7F63E"}','{text:" "}','{translate:"Awarded for achieving",color:"gray"}','{translate:"Definitely Not Raid Farming",color:"#FF2A2A",italic:false}'], item_name='{translate:"Blockbuster",color:"#A7F63E",bold:true,italic:false}', custom_model_data={floats:[I;131]}, hide_additional_tooltip={}, custom_data={Trophy:1}] 1
+tellraw @s {"color": "gold", "text": " +1 ", "extra": [{"translate": "Blockbuster"}]}

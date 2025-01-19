@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:guster_banner_pattern",
+      "components": {}
+    },
+    "title": {
+      "translate": "Air Battle"
+    },
+    "description": {
+      "translate": "Kill 10 Chickens while both you and the Chickens are in the air, without using elytra, all in a single attempt",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/backfire",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:weaponry/air_battle"
+  }
+}

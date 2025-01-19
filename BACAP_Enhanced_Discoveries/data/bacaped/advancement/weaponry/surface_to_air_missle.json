@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_rocket",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Surface-to-Air Missile"
+    },
+    "description": {
+      "translate": "Give a Charged Creeper the levitation effect and set it on fire while it\u2019s airborne",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/revenge",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:flint_and_steel",
+            "minecraft:fire_charge"
+          ]
+        },
+        "entity": {
+          "type": "minecraft:creeper",
+          "nbt": "{powered: 1b}",
+          "flags": {
+            "is_on_ground": false
+          },
+          "effects": {
+            "minecraft:levitation": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:weaponry/surface_to_air_missle"
+  }
+}

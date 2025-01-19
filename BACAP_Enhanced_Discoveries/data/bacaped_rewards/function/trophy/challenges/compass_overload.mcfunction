@@ -1,0 +1,2 @@
+give @s recovery_compass[enchantment_glint_override=true, lore=['{translate:"Count matters?",color:"#838FF4"}','{text:" "}','{translate:"Awarded for achieving",color:"gray"}','{translate:"Compass Overload",color:"#FF2A2A",italic:false}'], item_name='{translate:"Recovery Compass №65",color:"#838FF4",bold:true,italic:false}', custom_model_data={floats:[I;131]}, hide_additional_tooltip={}, custom_data={Trophy:1}] 1
+tellraw @s {"color": "gold", "text": " +1 ", "extra": [{"translate": "Recovery Compass №65"}]}

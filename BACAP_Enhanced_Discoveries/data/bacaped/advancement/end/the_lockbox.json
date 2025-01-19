@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_block"
+    },
+    "title": {
+      "translate": "The Lockbox"
+    },
+    "description": {
+      "translate": "Put the dragon egg in the ender chest",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:end/dragon_egg",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "slots": {
+            "enderchest.*": {
+              "items": "minecraft:dragon_egg",
+              "count": {
+                "min": 1
+              }
+            }
+          }
+        },
+        "items": []
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:end/the_lockbox"
+  }
+}

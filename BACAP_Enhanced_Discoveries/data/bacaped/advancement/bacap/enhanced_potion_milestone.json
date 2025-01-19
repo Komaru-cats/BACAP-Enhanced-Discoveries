@@ -20,6 +20,19 @@
   },
   "parent": "bacaped:bacap/enhanced_nether_milestone",
   "criteria": {
+    "armor_in_a_bottle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:potion/armor_in_a_bottle": true
+            }
+          }
+        }
+      }
+    },
     "cowabunga_it_is": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -46,6 +59,19 @@
         }
       }
     },
+    "healed_by_hurt": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:potion/healed_by_hurt": true
+            }
+          }
+        }
+      }
+    },
     "jump_for_joy": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -67,6 +93,19 @@
             "type": "player",
             "advancements": {
               "bacaped:potion/master_of_effects": true
+            }
+          }
+        }
+      }
+    },
+    "trial_potions": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:potion/trial_potions": true
             }
           }
         }

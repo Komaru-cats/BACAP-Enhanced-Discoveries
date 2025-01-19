@@ -1,0 +1,113 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spawner"
+    },
+    "title": {
+      "translate": "Born to Spawn"
+    },
+    "description": {
+      "translate": "Stand on all types of naturally generated monster spawners",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/termite_control",
+  "criteria": {
+    "blaze": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": "minecraft:spawner",
+              "nbt": "{SpawnData: {entity: {id: \"minecraft:blaze\"}}}"
+            }
+          }
+        }
+      }
+    },
+    "zombie": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": "minecraft:spawner",
+              "nbt": "{SpawnData: {entity: {id: \"minecraft:zombie\"}}}"
+            }
+          }
+        }
+      }
+    },
+    "skeleton": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": "minecraft:spawner",
+              "nbt": "{SpawnData: {entity: {id: \"minecraft:skeleton\"}}}"
+            }
+          }
+        }
+      }
+    },
+    "spider": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": "minecraft:spawner",
+              "nbt": "{SpawnData: {entity: {id: \"minecraft:spider\"}}}"
+            }
+          }
+        }
+      }
+    },
+    "cave_spider": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": "minecraft:spawner",
+              "nbt": "{SpawnData: {entity: {id: \"minecraft:cave_spider\"}}}"
+            }
+          }
+        }
+      }
+    },
+    "silverfish": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": "minecraft:spawner",
+              "nbt": "{SpawnData: {entity: {id: \"minecraft:silverfish\"}}}"
+            }
+          }
+        }
+      }
+    },
+    "magma_cube": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": "minecraft:spawner",
+              "nbt": "{SpawnData: {entity: {id: \"minecraft:magma_cube\"}}}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:monsters/born_to_spawn"
+  }
+}

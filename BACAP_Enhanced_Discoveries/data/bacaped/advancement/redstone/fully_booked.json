@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": {
+      "translate": "Fully Booked"
+    },
+    "description": {
+      "translate": "Completely fill a chiseled bookshelf with books",
+      "color": "green"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:adventure/read_power_of_chiseled_bookshelf",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:chiseled_bookshelf",
+            "properties": {
+              "slot_0_occupied": "true",
+              "slot_1_occupied": "true",
+              "slot_2_occupied": "true",
+              "slot_3_occupied": "true",
+              "slot_4_occupied": "true",
+              "slot_5_occupied": "true"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:redstone/fully_booked"
+  }
+}

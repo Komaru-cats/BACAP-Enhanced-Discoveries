@@ -41,6 +41,19 @@
         }
       }
     },
+    "heavy_catch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:enchanting/heavy_catch": true
+            }
+          }
+        }
+      }
+    },
     "master_shearer": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -114,6 +127,19 @@
             "type": "player",
             "advancements": {
               "bacaped:enchanting/small_targets": true
+            }
+          }
+        }
+      }
+    },
+    "thin_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:enchanting/thin_line": true
             }
           }
         }

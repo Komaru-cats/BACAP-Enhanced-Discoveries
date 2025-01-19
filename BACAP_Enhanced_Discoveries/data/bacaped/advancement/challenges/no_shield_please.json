@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield",
+      "components": {
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:base_color": "red",
+        "minecraft:banner_patterns": [
+          {
+            "color": "black",
+            "pattern": "minecraft:gradient_up"
+          },
+          {
+            "color": "black",
+            "pattern": "minecraft:mojang"
+          }
+        ]
+      }
+    },
+    "title": {
+      "translate": "No Shield, Please"
+    },
+    "description": {
+      "translate": "Break a fully durable shield by blocking a single blow",
+      "color": "#FF2A2A"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bacaped:challenges/shield_of_achilles",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 337
+          },
+          "blocked": true
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:challenges/no_shield_please"
+  }
+}

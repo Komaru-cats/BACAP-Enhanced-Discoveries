@@ -15,6 +15,19 @@
   },
   "parent": "bacaped:bacap/enhanced_monsters_milestone",
   "criteria": {
+    "air_battle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:weaponry/air_battle": true
+            }
+          }
+        }
+      }
+    },
     "cold_betrayal": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -36,6 +49,19 @@
             "type": "player",
             "advancements": {
               "bacaped:weaponry/dead-eye": true
+            }
+          }
+        }
+      }
+    },
+    "deflector": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:weaponry/deflector": true
             }
           }
         }
@@ -119,6 +145,19 @@
         }
       }
     },
+    "surface_to_air_missle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:weaponry/surface_to_air_missle": true
+            }
+          }
+        }
+      }
+    },
     "the_explosive_adventure": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -140,6 +179,19 @@
             "type": "player",
             "advancements": {
               "bacaped:weaponry/unlucky": true
+            }
+          }
+        }
+      }
+    },
+    "wind_burst_fox": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:weaponry/wind_burst_fox": true
             }
           }
         }
