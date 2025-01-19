@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:large_fern"
+    },
+    "title": {
+      "translate": "Herbalist's Dream"
+    },
+    "description": {
+      "translate": "Gather a stack of Large Ferns or Tall Grass",
+      "color": "light_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "blazeandcave:adventure/prime_specimen",
+  "criteria": {
+    "tall_grass": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "slots": {
+            "container.*": {
+              "items": "minecraft:tall_grass",
+              "count": 64
+            }
+          }
+        }
+      }
+    },
+    "large_fern": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "slots": {
+            "container.*": {
+              "items": "minecraft:large_fern",
+              "count": 64
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "large_fern",
+      "tall_grass"
+    ]
+  ],
+  "rewards": {
+    "function": "bacaped_rewards:adventure/herbalists_dream"
+  }
+}

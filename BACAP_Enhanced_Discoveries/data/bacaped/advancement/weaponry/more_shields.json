@@ -43,7 +43,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "blazeandcave:weaponry/master_shieldsman",
+  "parent": "blazeandcave:weaponry/flying_colors",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:location",

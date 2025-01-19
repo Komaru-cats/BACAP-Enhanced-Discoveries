@@ -1,0 +1,16 @@
+scoreboard players set @s bacaped_in_struct_ancient_city 0
+scoreboard players set @s bacaped_in_struct_bastion 0
+scoreboard players set @s bacaped_in_struct_desert_pyramid 0
+scoreboard players set @s bacaped_in_struct_fortress 0
+scoreboard players set @s bacaped_in_struct_igloo 0
+scoreboard players set @s bacaped_in_struct_mansion 0
+scoreboard players set @s bacaped_in_struct_mineshaft 0
+scoreboard players set @s bacaped_in_struct_monument 0
+scoreboard players set @s bacaped_in_struct_ocean_ruin 0
+scoreboard players set @s bacaped_in_struct_pillager_outpost 0
+scoreboard players set @s bacaped_in_struct_ruined_portal 0
+scoreboard players set @s bacaped_in_struct_stronghold 0
+scoreboard players set @s bacaped_in_struct_swamp_hut 0
+scoreboard players set @s bacaped_in_struct_trail_ruins 0
+scoreboard players set @s bacaped_in_struct_trial_chambers 0
+scoreboard players set @s bacaped_in_struct_village 0

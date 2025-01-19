@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clock"
+    },
+    "title": {
+      "translate": "The Last Deal"
+    },
+    "description": {
+      "translate": "Trade with a Piglin in the Overworld and a Villager in the Nether",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "blazeandcave:nether/we_got_a_live_one",
+  "criteria": {
+    "villager": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    },
+    "piglin": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin",
+          "location": {
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:nether/the_last_deal"
+  }
+}

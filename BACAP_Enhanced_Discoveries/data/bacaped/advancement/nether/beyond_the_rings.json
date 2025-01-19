@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:compass",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Beyond the Rings"
+    },
+    "description": {
+      "translate": "Use an Eye of Ender when you're over 50,000 blocks away from the nearest Stronghold",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:nether/inside_out",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:used_ender_eye",
+      "conditions": {
+        "distance": {
+          "min": 50000
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:nether/beyond_the_rings"
+  }
+}

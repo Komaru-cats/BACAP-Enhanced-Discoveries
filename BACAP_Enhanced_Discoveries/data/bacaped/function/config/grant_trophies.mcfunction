@@ -2,11 +2,13 @@ execute as @s[advancements={bacaped:adventure/advancement_info=true}] run functi
 execute as @s[advancements={bacaped:adventure/din_don=true}] run function bacaped_rewards:trophy/adventure/din_don
 execute as @s[advancements={bacaped:adventure/do_you_see_this=true}] run function bacaped_rewards:trophy/adventure/do_you_see_this
 execute as @s[advancements={bacaped:adventure/general_cleaning=true}] run function bacaped_rewards:trophy/adventure/general_cleaning
+execute as @s[advancements={bacaped:adventure/herbalists_dream=true}] run function bacaped_rewards:trophy/adventure/herbalists_dream
 execute as @s[advancements={bacaped:adventure/i_hate_all_of_you=true}] run function bacaped_rewards:trophy/adventure/i_hate_all_of_you
 execute as @s[advancements={bacaped:adventure/komaru=true}] run function bacaped_rewards:trophy/adventure/komaru
 execute as @s[advancements={bacaped:adventure/midnight_snack=true}] run function bacaped_rewards:trophy/adventure/midnight_snack
 execute as @s[advancements={bacaped:adventure/ominous_ocean=true}] run function bacaped_rewards:trophy/adventure/ominous_ocean
 execute as @s[advancements={bacaped:adventure/on_the_wings_of_the_wind=true}] run function bacaped_rewards:trophy/adventure/on_the_wings_of_the_wind
+execute as @s[advancements={bacaped:adventure/pottery_collector=true}] run function bacaped_rewards:trophy/adventure/pottery_collector
 execute as @s[advancements={bacaped:adventure/real_netherite_armor=true}] run function bacaped_rewards:trophy/adventure/real_netherite_armor
 execute as @s[advancements={bacaped:adventure/restoring_population=true}] run function bacaped_rewards:trophy/adventure/restoring_population
 execute as @s[advancements={bacaped:adventure/silent_armor=true}] run function bacaped_rewards:trophy/adventure/silent_armor
@@ -52,13 +54,16 @@ execute as @s[advancements={bacaped:challenges/5_birds_1_stone=true}] run functi
 execute as @s[advancements={bacaped:challenges/5g_connectivity=true}] run function bacaped_rewards:trophy/challenges/5g_connectivity
 execute as @s[advancements={bacaped:challenges/airborne_annihilator=true}] run function bacaped_rewards:trophy/challenges/airborne_annihilator
 execute as @s[advancements={bacaped:challenges/astronomer=true}] run function bacaped_rewards:trophy/challenges/astronomer
+execute as @s[advancements={bacaped:challenges/baron_munchausen=true}] run function bacaped_rewards:trophy/challenges/baron_munchausen
 execute as @s[advancements={bacaped:challenges/big_end_adventure=true}] run function bacaped_rewards:trophy/challenges/big_end_adventure
 execute as @s[advancements={bacaped:challenges/big_horse_adventure=true}] run function bacaped_rewards:trophy/challenges/big_horse_adventure
 execute as @s[advancements={bacaped:challenges/big_pig_adventure=true}] run function bacaped_rewards:trophy/challenges/big_pig_adventure
 execute as @s[advancements={bacaped:challenges/celestial_protocol=true}] run function bacaped_rewards:trophy/challenges/celestial_protocol
 execute as @s[advancements={bacaped:challenges/circus_act=true}] run function bacaped_rewards:trophy/challenges/circus_act
 execute as @s[advancements={bacaped:challenges/command_work=true}] run function bacaped_rewards:trophy/challenges/command_work
+execute as @s[advancements={bacaped:challenges/compass_overload=true}] run function bacaped_rewards:trophy/challenges/compass_overload
 execute as @s[advancements={bacaped:challenges/dead_carnaval=true}] run function bacaped_rewards:trophy/challenges/dead_carnaval
+execute as @s[advancements={bacaped:challenges/definitely_not_raid_farming=true}] run function bacaped_rewards:trophy/challenges/definitely_not_raid_farming
 execute as @s[advancements={bacaped:challenges/dragon_vs_warden_vi=true}] run function bacaped_rewards:trophy/challenges/dragon_vs_warden_vi
 execute as @s[advancements={bacaped:challenges/dragon_vs_wither_iv=true}] run function bacaped_rewards:trophy/challenges/dragon_vs_wither_iv
 execute as @s[advancements={bacaped:challenges/end_of_the_world_as_we_know_it=true}] run function bacaped_rewards:trophy/challenges/end_of_the_world_as_we_know_it
@@ -73,6 +78,7 @@ execute as @s[advancements={bacaped:challenges/magic_kingdom=true}] run function
 execute as @s[advancements={bacaped:challenges/mob_universe=true}] run function bacaped_rewards:trophy/challenges/mob_universe
 execute as @s[advancements={bacaped:challenges/monstrous_rocket=true}] run function bacaped_rewards:trophy/challenges/monstrous_rocket
 execute as @s[advancements={bacaped:challenges/my_little_pig=true}] run function bacaped_rewards:trophy/challenges/my_little_pig
+execute as @s[advancements={bacaped:challenges/no_shield_please=true}] run function bacaped_rewards:trophy/challenges/no_shield_please
 execute as @s[advancements={bacaped:challenges/oh_my_broken_legs=true}] run function bacaped_rewards:trophy/challenges/oh_my_broken_legs
 execute as @s[advancements={bacaped:challenges/one_in_a_million_steed=true}] run function bacaped_rewards:trophy/challenges/one_in_a_million_steed
 execute as @s[advancements={bacaped:challenges/piggish_poison_tango=true}] run function bacaped_rewards:trophy/challenges/piggish_poison_tango
@@ -83,6 +89,8 @@ execute as @s[advancements={bacaped:challenges/pyrotechnic_vs_dragon_v=true}] ru
 execute as @s[advancements={bacaped:challenges/raise_the_stakes=true}] run function bacaped_rewards:trophy/challenges/raise_the_stakes
 execute as @s[advancements={bacaped:challenges/red_plus_red_equals_brown=true}] run function bacaped_rewards:trophy/challenges/red_plus_red_equals_brown
 execute as @s[advancements={bacaped:challenges/sandwich=true}] run function bacaped_rewards:trophy/challenges/sandwich
+execute as @s[advancements={bacaped:challenges/shield_of_achilles=true}] run function bacaped_rewards:trophy/challenges/shield_of_achilles
+execute as @s[advancements={bacaped:challenges/shopaholic=true}] run function bacaped_rewards:trophy/challenges/shopaholic
 execute as @s[advancements={bacaped:challenges/show_the_nether_to_a_silverfish=true}] run function bacaped_rewards:trophy/challenges/show_the_nether_to_a_silverfish
 execute as @s[advancements={bacaped:challenges/so_bright=true}] run function bacaped_rewards:trophy/challenges/so_bright
 execute as @s[advancements={bacaped:challenges/star_fisherman=true}] run function bacaped_rewards:trophy/challenges/star_fisherman
@@ -92,10 +100,12 @@ execute as @s[advancements={bacaped:challenges/the_world_is_actually_ending_2=tr
 execute as @s[advancements={bacaped:challenges/void_being=true}] run function bacaped_rewards:trophy/challenges/void_being
 execute as @s[advancements={bacaped:challenges/what_a_stupid_purchase=true}] run function bacaped_rewards:trophy/challenges/what_a_stupid_purchase
 execute as @s[advancements={bacaped:challenges/what_are_the_chances=true}] run function bacaped_rewards:trophy/challenges/what_are_the_chances
+execute as @s[advancements={bacaped:challenges/wither_aboard=true}] run function bacaped_rewards:trophy/challenges/wither_aboard
 execute as @s[advancements={bacaped:challenges/yes=true}] run function bacaped_rewards:trophy/challenges/yes
 execute as @s[advancements={bacaped:challenges/zero_coordinates_magnet=true}] run function bacaped_rewards:trophy/challenges/zero_coordinates_magnet
 execute as @s[advancements={bacaped:enchanting/all_the_netherite_tools=true}] run function bacaped_rewards:trophy/enchanting/all_the_netherite_tools
 execute as @s[advancements={bacaped:enchanting/small_targets=true}] run function bacaped_rewards:trophy/enchanting/small_targets
+execute as @s[advancements={bacaped:end/dragon_blitz=true}] run function bacaped_rewards:trophy/end/dragon_blitz
 execute as @s[advancements={bacaped:end/interdimensional_travel=true}] run function bacaped_rewards:trophy/end/interdimensional_travel
 execute as @s[advancements={bacaped:end/last_hit=true}] run function bacaped_rewards:trophy/end/last_hit
 execute as @s[advancements={bacaped:end/universal_solitude=true}] run function bacaped_rewards:trophy/end/universal_solitude
@@ -109,6 +119,7 @@ execute as @s[advancements={bacaped:mining/deepslated_miner=true}] run function 
 execute as @s[advancements={bacaped:mining/time_killer=true}] run function bacaped_rewards:trophy/mining/time_killer
 execute as @s[advancements={bacaped:monsters/i_uh_forgot_a_composter=true}] run function bacaped_rewards:trophy/monsters/i_uh_forgot_a_composter
 execute as @s[advancements={bacaped:monsters/one_minute_wardens_hugs=true}] run function bacaped_rewards:trophy/monsters/one_minute_wardens_hugs
+execute as @s[advancements={bacaped:monsters/spiders_liar=true}] run function bacaped_rewards:trophy/monsters/spiders_liar
 execute as @s[advancements={bacaped:monsters/the_undertakers_revenge=true}] run function bacaped_rewards:trophy/monsters/the_undertakers_revenge
 execute as @s[advancements={bacaped:nether/blaze3d=true}] run function bacaped_rewards:trophy/nether/blaze3d
 execute as @s[advancements={bacaped:nether/diamond_beacon=true}] run function bacaped_rewards:trophy/nether/diamond_beacon
@@ -156,6 +167,7 @@ execute as @s[advancements={bacaped:statistics/totem_immortal=true}] run functio
 execute as @s[advancements={bacaped:statistics/vindicator_vanquisher=true}] run function bacaped_rewards:trophy/statistics/vindicator_vanquisher
 execute as @s[advancements={bacaped:statistics/wrath_of_the_western_frontier=true}] run function bacaped_rewards:trophy/statistics/wrath_of_the_western_frontier
 execute as @s[advancements={bacaped:statistics/your_legs_are_beat=true}] run function bacaped_rewards:trophy/statistics/your_legs_are_beat
+execute as @s[advancements={bacaped:weaponry/air_battle=true}] run function bacaped_rewards:trophy/weaponry/air_battle
 execute as @s[advancements={bacaped:weaponry/dead-eye=true}] run function bacaped_rewards:trophy/weaponry/dead-eye
 execute as @s[advancements={bacaped:weaponry/more_shields=true}] run function bacaped_rewards:trophy/weaponry/more_shields
 execute as @s[advancements={bacaped:weaponry/unlucky=true}] run function bacaped_rewards:trophy/weaponry/unlucky

@@ -36,7 +36,6 @@ execute as @a[advancements={bacaped:challenges/big_pig_adventure=false}] run exe
 # Big End Adventure
 execute as @a[advancements={bacaped:challenges/big_end_adventure=false}] run execute unless entity @s[predicate=bacaped:is_sitting_on_strider] run advancement revoke @s only bacaped:challenges/big_end_adventure
 
-
 # Intergalactic Journey
 execute as @a[advancements={bacaped:end/intergalactic_journey=false}] unless predicate bacaped:in_boat run advancement revoke @s only bacaped:end/intergalactic_journey
 
@@ -46,6 +45,8 @@ execute as @a[advancements={bacaped:challenges/pooch_purge_pilot=false}] run exe
 # Dead Carnival
 execute as @a[gamemode=!spectator,advancements={bacaped:challenges/dead_carnaval=false}] run advancement revoke @s only bacaped:challenges/dead_carnaval
 
+# Flap, Don't Fall
+execute as @a[gamemode=!spectator,advancements={bacaped:nether/flap_dont_fall=false},predicate=bacaped:flap_dont_fall_reset] at @s run function bacaped:flap_dont_fall_reset
 
 # Scores
 
@@ -60,6 +61,16 @@ function bacaped:unlucky_check
 
 # Warden near score
 execute as @a[gamemode=!spectator,advancements={bacaped:monsters/one_minute_wardens_hugs=false}] at @s run function bacaped:scores/warden_near
+
+# Dragon Blitz
+execute as @a[gamemode=!spectator, advancements={bacaped:end/dragon_blitz=false}] at @s if score @s bacaped_dragon1_timer matches 1.. run scoreboard players remove @s bacaped_dragon1_timer 1
+execute as @a[gamemode=!spectator, advancements={bacaped:end/dragon_blitz=false}] at @s if score @s bacaped_dragon1_timer matches 1 run scoreboard players remove @s bacaped_dragon_blitz 1
+
+execute as @a[gamemode=!spectator, advancements={bacaped:end/dragon_blitz=false}] at @s if score @s bacaped_dragon2_timer matches 1.. run scoreboard players remove @s bacaped_dragon2_timer 1
+execute as @a[gamemode=!spectator, advancements={bacaped:end/dragon_blitz=false}] at @s if score @s bacaped_dragon2_timer matches 1 run scoreboard players remove @s bacaped_dragon_blitz 1
+
+# Air Battle
+execute as @a[gamemode=!spectator, advancements={bacaped:weaponry/air_battle=false}] at @s if predicate bacaped:reset_air_battle run scoreboard players set @s bacaped_air_battle 0
 
 # Triggers
 

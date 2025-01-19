@@ -1,0 +1,140 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Flap, Don't Fall"
+    },
+    "description": {
+      "translate": "Visit all the Nether biomes in one flight while staying below the roof of the Nether",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:nether/explore_nether",
+  "criteria": {
+    "basalt_deltas": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "max": 127
+              }
+            },
+            "biomes": "minecraft:basalt_deltas"
+          },
+          "flags": {
+            "is_flying": true
+          },
+          "equipment": {
+            "chest": {
+              "items": "minecraft:elytra"
+            }
+          }
+        }
+      }
+    },
+    "crimson_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "max": 127
+              }
+            },
+            "biomes": "minecraft:crimson_forest"
+          },
+          "flags": {
+            "is_flying": true
+          },
+          "equipment": {
+            "chest": {
+              "items": "minecraft:elytra"
+            }
+          }
+        }
+      }
+    },
+    "nether_wastes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "max": 127
+              }
+            },
+            "biomes": "minecraft:nether_wastes"
+          },
+          "flags": {
+            "is_flying": true
+          },
+          "equipment": {
+            "chest": {
+              "items": "minecraft:elytra"
+            }
+          }
+        }
+      }
+    },
+    "soul_sand_valley": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "max": 127
+              }
+            },
+            "biomes": "minecraft:soul_sand_valley"
+          },
+          "flags": {
+            "is_flying": true
+          },
+          "equipment": {
+            "chest": {
+              "items": "minecraft:elytra"
+            }
+          }
+        }
+      }
+    },
+    "warped_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "max": 127
+              }
+            },
+            "biomes": "minecraft:warped_forest"
+          },
+          "flags": {
+            "is_flying": true
+          },
+          "equipment": {
+            "chest": {
+              "items": "minecraft:elytra"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:nether/flap_dont_fall"
+  }
+}

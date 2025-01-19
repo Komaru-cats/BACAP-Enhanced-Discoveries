@@ -16,7 +16,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:challenges/raise_the_stakes",
+  "parent": "bacaped:challenges/definitely_not_raid_farming",
   "criteria": {
     "full_diamond_inventory": {
       "trigger": "minecraft:location",

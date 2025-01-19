@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mace",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Wind Burst Fox"
+    },
+    "description": {
+      "translate": "Give a Wind Burst 3 Mace to the Fox",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "blazeandcave:weaponry/nice_to_mace_you",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:mace",
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:wind_burst",
+                "levels": 3
+              }
+            ]
+          }
+        },
+        "entity": {
+          "type": "minecraft:fox"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:weaponry/wind_burst_fox"
+  }
+}

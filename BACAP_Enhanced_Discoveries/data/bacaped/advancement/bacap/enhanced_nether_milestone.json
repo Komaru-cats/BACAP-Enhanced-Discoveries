@@ -54,6 +54,19 @@
         }
       }
     },
+    "beyond_the_rings": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:nether/beyond_the_rings": true
+            }
+          }
+        }
+      }
+    },
     "blaze3d": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -101,6 +114,19 @@
             "type": "player",
             "advancements": {
               "bacaped:nether/firefox": true
+            }
+          }
+        }
+      }
+    },
+    "flap_dont_fall": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:nether/flap_dont_fall": true
             }
           }
         }
@@ -197,6 +223,19 @@
         }
       }
     },
+    "inside_out": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:nether/inside_out": true
+            }
+          }
+        }
+      }
+    },
     "iron_beacon": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -244,6 +283,19 @@
             "type": "player",
             "advancements": {
               "bacaped:nether/show_the_wither_his_home": true
+            }
+          }
+        }
+      }
+    },
+    "the_last_deal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:nether/the_last_deal": true
             }
           }
         }

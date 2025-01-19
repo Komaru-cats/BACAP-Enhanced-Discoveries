@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ominous_bottle"
+    },
+    "title": {
+      "translate": "Trial Potions"
+    },
+    "description": {
+      "translate": "Be under the effects of Trial Omen, Oozing, Infested, Wing Charged and Weaving at the same time",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "blazeandcave:potion/final_shout",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "effects": {
+            "minecraft:weaving": {},
+            "minecraft:infested": {},
+            "minecraft:oozing": {},
+            "minecraft:wind_charged": {},
+            "minecraft:trial_omen": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:potion/trial_potions"
+  }
+}

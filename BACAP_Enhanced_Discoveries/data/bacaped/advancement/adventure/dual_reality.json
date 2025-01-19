@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jigsaw"
+    },
+    "title": {
+      "translate": "Dual Reality"
+    },
+    "description": {
+      "translate": "Be inside two different structures at the same time",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/raidin_master",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:adventure/dual_reality"
+  }
+}

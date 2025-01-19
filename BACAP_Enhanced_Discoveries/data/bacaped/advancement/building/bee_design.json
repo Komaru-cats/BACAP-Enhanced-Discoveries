@@ -1,0 +1,129 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beehive",
+      "components": {}
+    },
+    "title": {
+      "translate": "Bee Design"
+    },
+    "description": {
+      "translate": "Make a floor out of Beehives",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/sign_off",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "offsetY": -1,
+            "offsetZ": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:beehive"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "offsetY": -1,
+            "offsetZ": 0,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:beehive"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": -1,
+            "offsetZ": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:beehive"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": -1,
+            "offsetZ": 0,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:beehive"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "offsetY": -1,
+            "offsetZ": 1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:beehive"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "offsetY": -1,
+            "offsetZ": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:beehive"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "offsetY": -1,
+            "offsetZ": 1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:beehive"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "offsetY": -1,
+            "offsetZ": 0,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:beehive"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": -1,
+            "offsetZ": 1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:beehive"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:building/bee_design"
+  }
+}

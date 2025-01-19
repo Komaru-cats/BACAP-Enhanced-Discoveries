@@ -1,0 +1,54 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "bacaped:weaponry/air_battle": false
+                }
+              },
+              "flags": {
+                "is_swimming": false,
+                "is_on_ground": false,
+                "is_flying": false
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "vehicle": {
+                  "type": "#blazeandcave:player_rideables"
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:chicken",
+          "flags": {
+            "is_on_ground": false
+          }
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "type": "#minecraft:arrows"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped:scores/air_battle"
+  }
+}

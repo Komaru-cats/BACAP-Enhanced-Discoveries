@@ -1,0 +1,474 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cactus"
+    },
+    "title": {
+      "translate": "Auto Cactus"
+    },
+    "description": {
+      "translate": "Build a 50-block-tall cactus",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/spikey",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:cactus"
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -2,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -3,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -4,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -5,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -6,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -7,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -8,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -9,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -10,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -11,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -12,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -13,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -14,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -15,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -16,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -17,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -18,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -19,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -20,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -21,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -22,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -23,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -24,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -25,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -26,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -27,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -28,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -29,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -30,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -31,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -32,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -33,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -34,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -35,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -36,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -37,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -38,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -39,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -40,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -41,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -42,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -43,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -44,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -45,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -46,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -47,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -48,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -49,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:cactus"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:farming/auto_cactus"
+  }
+}

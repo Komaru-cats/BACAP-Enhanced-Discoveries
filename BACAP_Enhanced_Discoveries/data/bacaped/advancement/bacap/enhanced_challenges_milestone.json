@@ -67,6 +67,19 @@
         }
       }
     },
+    "baron_munchausen": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/baron_munchausen": true
+            }
+          }
+        }
+      }
+    },
     "big_end_adventure": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -145,6 +158,19 @@
         }
       }
     },
+    "compass_overload": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/compass_overload": true
+            }
+          }
+        }
+      }
+    },
     "dead_carnaval": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -153,6 +179,19 @@
             "type": "player",
             "advancements": {
               "bacaped:challenges/dead_carnaval": true
+            }
+          }
+        }
+      }
+    },
+    "definitely_not_raid_farming": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/definitely_not_raid_farming": true
             }
           }
         }
@@ -288,6 +327,19 @@
         }
       }
     },
+    "no_shield_please": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/no_shield_please": true
+            }
+          }
+        }
+      }
+    },
     "oh_my_broken_legs": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -418,6 +470,32 @@
         }
       }
     },
+    "shield_of_achilles": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/shield_of_achilles": true
+            }
+          }
+        }
+      }
+    },
+    "shopaholic": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/shopaholic": true
+            }
+          }
+        }
+      }
+    },
     "show_the_nether_to_a_silverfish": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -517,6 +595,19 @@
             "type": "player",
             "advancements": {
               "bacaped:challenges/what_are_the_chances": true
+            }
+          }
+        }
+      }
+    },
+    "wither_aboard": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/wither_aboard": true
             }
           }
         }

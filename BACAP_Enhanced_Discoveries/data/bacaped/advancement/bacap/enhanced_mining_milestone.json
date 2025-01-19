@@ -106,6 +106,19 @@
         }
       }
     },
+    "pointy_problems": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:mining/pointy_problems": true
+            }
+          }
+        }
+      }
+    },
     "redstoner": {
       "trigger": "minecraft:location",
       "conditions": {

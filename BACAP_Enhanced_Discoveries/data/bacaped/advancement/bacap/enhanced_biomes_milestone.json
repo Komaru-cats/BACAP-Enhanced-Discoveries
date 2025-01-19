@@ -67,6 +67,19 @@
         }
       }
     },
+    "lost_ruin": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:biomes/lost_ruin": true
+            }
+          }
+        }
+      }
+    },
     "my_mountains": {
       "trigger": "minecraft:location",
       "conditions": {

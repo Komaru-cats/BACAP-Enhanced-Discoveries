@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mossy_stone_bricks"
+    },
+    "title": {
+      "translate": "Inside Out"
+    },
+    "description": {
+      "translate": "Use an Eye of Ender to locate a Stronghold... Inside the Stronghold!",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:story/follow_ender_eye",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:used_ender_eye",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:stronghold"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:nether/inside_out"
+  }
+}

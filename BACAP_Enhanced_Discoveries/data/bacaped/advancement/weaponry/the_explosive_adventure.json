@@ -22,6 +22,9 @@
           "italic": true
         },
         {
+          "text": "\n"
+        },
+        {
           "text": "/trigger bacaped_statistics",
           "color": "gray"
         }

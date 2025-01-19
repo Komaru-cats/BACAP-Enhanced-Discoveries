@@ -1,0 +1,2 @@
+give @s clock[enchantment_glint_override=true, lore=['{translate:"Will help you set a new record!",color:"#FFDF11"}','{text:" "}','{translate:"Awarded for achieving",color:"gray"}','{translate:"Dragon Blitz",color:"light_purple",italic:false}'], item_name='{translate:"Ender Slayer’s Stopwatch",color:"#FFDF11",bold:true,italic:false}', custom_model_data={floats:[I;131]}, hide_additional_tooltip={}, custom_data={Trophy:1}] 1
+tellraw @s {"color": "gold", "text": " +1 ", "extra": [{"translate": "Ender Slayer’s Stopwatch"}]}

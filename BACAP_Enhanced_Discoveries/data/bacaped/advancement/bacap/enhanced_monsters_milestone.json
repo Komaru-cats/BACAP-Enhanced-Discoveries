@@ -28,6 +28,19 @@
         }
       }
     },
+    "born_to_spawn": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:monsters/born_to_spawn": true
+            }
+          }
+        }
+      }
+    },
     "frozen_heart": {
       "trigger": "minecraft:location",
       "conditions": {

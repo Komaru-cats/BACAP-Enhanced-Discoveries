@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heavy_weighted_pressure_plate",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Heavy Steps"
+    },
+    "description": {
+      "translate": "Stand on a Heavy Weighted Pressure Plate with the maximum signal strength",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:redstone/light_touch",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "block": {
+              "blocks": "minecraft:heavy_weighted_pressure_plate",
+              "state": {
+                "power": "15"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:redstone/heavy_steps"
+  }
+}

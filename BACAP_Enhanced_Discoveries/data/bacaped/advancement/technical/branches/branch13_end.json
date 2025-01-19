@@ -1,0 +1,18 @@
+{
+  "parent": "bacaped:challenges/baron_munchausen",
+  "criteria": {
+    "root": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:challenges/root": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

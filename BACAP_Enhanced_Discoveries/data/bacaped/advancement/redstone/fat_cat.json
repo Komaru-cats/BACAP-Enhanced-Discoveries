@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cat_spawn_egg",
+      "components": {}
+    },
+    "title": {
+      "translate": "Fat Cat"
+    },
+    "description": {
+      "translate": "Look at the Cat sitting on the chest and blocking it from being opened through the spyglass",
+      "color": "green"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/troll_chest",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type": "minecraft:cat",
+              "nbt": "{Sitting: 1b}",
+              "stepping_on": {
+                "block": {
+                  "blocks": "minecraft:chest"
+                }
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:spyglass"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:redstone/fat_cat"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "parent": "bacaped:challenges/dead_carnaval",
+  "parent": "bacaped:challenges/wither_aboard",
   "criteria": {
     "root": {
       "trigger": "minecraft:location",

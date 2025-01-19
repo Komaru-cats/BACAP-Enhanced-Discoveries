@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sea_lantern",
+      "components": {}
+    },
+    "title": {
+      "translate": "Lost Ruin"
+    },
+    "description": {
+      "translate": "Loot a Big Underwater Ruin",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/atlantis",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/underwater_ruin_big"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:biomes/lost_ruin"
+  }
+}

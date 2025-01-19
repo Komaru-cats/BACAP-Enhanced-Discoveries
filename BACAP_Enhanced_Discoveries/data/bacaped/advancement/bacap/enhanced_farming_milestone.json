@@ -28,6 +28,19 @@
         }
       }
     },
+    "auto_cactus": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:farming/auto_cactus": true
+            }
+          }
+        }
+      }
+    },
     "christmas_spirit": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -114,6 +127,19 @@
             "type": "player",
             "advancements": {
               "bacaped:farming/more_more_cookies": true
+            }
+          }
+        }
+      }
+    },
+    "mysterious_menu": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:farming/mysterious_menu": true
             }
           }
         }
