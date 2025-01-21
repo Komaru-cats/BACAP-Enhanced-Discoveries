@@ -9,7 +9,7 @@
       }
     },
     "title": {
-      "translate": "Healed by Hurt"
+      "translate": "Healed by Pain"
     },
     "description": {
       "translate": "Take damage from an arrow with a strong healing effect",
@@ -35,6 +35,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:potion/healed_by_hurt"
+    "function": "bacaped_rewards:potion/healed_by_pain"
   }
 }

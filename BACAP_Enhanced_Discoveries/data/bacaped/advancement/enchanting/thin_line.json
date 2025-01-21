@@ -10,7 +10,7 @@
       "translate": "Thin Line"
     },
     "description": {
-      "translate": "Hold an item with the required experience for an anvil repair, just 1 point below the maximum \"Too expensive\" threshold",
+      "translate": "Hold an item that displays the message \"Too Expensive\" when you attempt to use it in an anvil",
       "color": "dark_purple"
     },
     "frame": "challenge",
@@ -25,7 +25,7 @@
           "slots": {
             "weapon.mainhand": {
               "components": {
-                "minecraft:repair_cost": 38
+                "minecraft:repair_cost": 31
               }
             }
           }

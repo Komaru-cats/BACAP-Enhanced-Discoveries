@@ -59,14 +59,14 @@
         }
       }
     },
-    "healed_by_hurt": {
+    "healed_by_pain": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "type_specific": {
             "type": "player",
             "advancements": {
-              "bacaped:potion/healed_by_hurt": true
+              "bacaped:potion/healed_by_pain": true
             }
           }
         }
