@@ -27,8 +27,7 @@
       "color": "green"
     },
     "frame": "task",
-    "announce_to_chat": true,
-    "hidden": true
+    "announce_to_chat": true
   },
   "parent": "blazeandcave:redstone/craftception",
   "criteria": {

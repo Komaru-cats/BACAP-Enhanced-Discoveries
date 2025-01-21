@@ -10,7 +10,7 @@
       "translate": "End at the Start of the Game"
     },
     "description": {
-      "translate": "Look through the Spyglass at the naturally generated End Crystal that was brought to the Overworld from the End",
+      "translate": "Look at a natural End Crystal that was brought from the End to the Overworld through a Spyglass",
       "color": "dark_purple"
     },
     "frame": "challenge",

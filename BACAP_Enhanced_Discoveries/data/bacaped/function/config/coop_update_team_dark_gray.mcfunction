@@ -206,7 +206,6 @@ execute if score bacaped:farming/golems bac_obtained_dark_gray matches 1.. run a
 execute if score bacaped:farming/high_risk bac_obtained_dark_gray matches 1.. run advancement grant @a[team=bac_team_dark_gray] only bacaped:farming/high_risk
 execute if score bacaped:farming/its_midnight_already bac_obtained_dark_gray matches 1.. run advancement grant @a[team=bac_team_dark_gray] only bacaped:farming/its_midnight_already
 execute if score bacaped:farming/more_more_cookies bac_obtained_dark_gray matches 1.. run advancement grant @a[team=bac_team_dark_gray] only bacaped:farming/more_more_cookies
-execute if score bacaped:farming/mysterious_menu bac_obtained_dark_gray matches 1.. run advancement grant @a[team=bac_team_dark_gray] only bacaped:farming/mysterious_menu
 execute if score bacaped:farming/not_fireflies bac_obtained_dark_gray matches 1.. run advancement grant @a[team=bac_team_dark_gray] only bacaped:farming/not_fireflies
 execute if score bacaped:farming/overpayment bac_obtained_dark_gray matches 1.. run advancement grant @a[team=bac_team_dark_gray] only bacaped:farming/overpayment
 execute if score bacaped:farming/plant_enthusiast bac_obtained_dark_gray matches 1.. run advancement grant @a[team=bac_team_dark_gray] only bacaped:farming/plant_enthusiast
@@ -275,7 +274,6 @@ execute if score bacaped:potion/worst_cleric_in_the_world bac_obtained_dark_gray
 execute if score bacaped:potion/youre_not_the_zillager bac_obtained_dark_gray matches 1.. run advancement grant @a[team=bac_team_dark_gray] only bacaped:potion/youre_not_the_zillager
 execute if score bacaped:redstone/craft_me_all bac_obtained_dark_gray matches 1.. run advancement grant @a[team=bac_team_dark_gray] only bacaped:redstone/craft_me_all
 execute if score bacaped:redstone/crafting_lockdown bac_obtained_dark_gray matches 1.. run advancement grant @a[team=bac_team_dark_gray] only bacaped:redstone/crafting_lockdown
-execute if score bacaped:redstone/echoes_of_the_deep bac_obtained_dark_gray matches 1.. run advancement grant @a[team=bac_team_dark_gray] only bacaped:redstone/echoes_of_the_deep
 execute if score bacaped:redstone/farm_basics bac_obtained_dark_gray matches 1.. run advancement grant @a[team=bac_team_dark_gray] only bacaped:redstone/farm_basics
 execute if score bacaped:redstone/fat_cat bac_obtained_dark_gray matches 1.. run advancement grant @a[team=bac_team_dark_gray] only bacaped:redstone/fat_cat
 execute if score bacaped:redstone/fully_booked bac_obtained_dark_gray matches 1.. run advancement grant @a[team=bac_team_dark_gray] only bacaped:redstone/fully_booked
