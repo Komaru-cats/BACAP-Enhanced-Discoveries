@@ -2503,19 +2503,6 @@
         }
       }
     },
-    "mysterious_menu": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:farming/mysterious_menu": true
-            }
-          }
-        }
-      }
-    },
     "not_fireflies": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -3270,14 +3257,14 @@
         }
       }
     },
-    "healed_by_hurt": {
+    "healed_by_pain": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "type_specific": {
             "type": "player",
             "advancements": {
-              "bacaped:potion/healed_by_hurt": true
+              "bacaped:potion/healed_by_pain": true
             }
           }
         }
@@ -3348,6 +3335,19 @@
         }
       }
     },
+    "crafting_lockdown": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:redstone/crafting_lockdown": true
+            }
+          }
+        }
+      }
+    },
     "craft_me_all": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -3356,19 +3356,6 @@
             "type": "player",
             "advancements": {
               "bacaped:redstone/craft_me_all": true
-            }
-          }
-        }
-      }
-    },
-    "echoes_of_the_deep": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:redstone/echoes_of_the_deep": true
             }
           }
         }

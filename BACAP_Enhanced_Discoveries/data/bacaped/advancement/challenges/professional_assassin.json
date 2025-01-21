@@ -17,7 +17,7 @@
           "text": "\n\n"
         },
         {
-          "translate": "The following mobs can be killed in a single instance:",
+          "translate": "The following mobs can be killed once:",
           "color": "dark_gray",
           "italic": true
         },
@@ -367,7 +367,26 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:wandering_trader",
                 "value": {
-                  "min": 1
+                  "min": 0
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "elder_guardian": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:elder_guardian",
+                "value": {
+                  "min": 0
                 }
               }
             ]
@@ -1070,7 +1089,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:skeleton_horse",
                 "value": {
-                  "min": 1
+                  "min": 0
                 }
               }
             ]

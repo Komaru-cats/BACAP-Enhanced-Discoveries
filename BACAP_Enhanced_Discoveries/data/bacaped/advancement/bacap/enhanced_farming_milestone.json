@@ -132,19 +132,6 @@
         }
       }
     },
-    "mysterious_menu": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:farming/mysterious_menu": true
-            }
-          }
-        }
-      }
-    },
     "not_fireflies": {
       "trigger": "minecraft:location",
       "conditions": {

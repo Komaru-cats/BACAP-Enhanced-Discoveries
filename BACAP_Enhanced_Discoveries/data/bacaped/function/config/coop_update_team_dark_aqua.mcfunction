@@ -206,7 +206,6 @@ execute if score bacaped:farming/golems bac_obtained_dark_aqua matches 1.. run a
 execute if score bacaped:farming/high_risk bac_obtained_dark_aqua matches 1.. run advancement grant @a[team=bac_team_dark_aqua] only bacaped:farming/high_risk
 execute if score bacaped:farming/its_midnight_already bac_obtained_dark_aqua matches 1.. run advancement grant @a[team=bac_team_dark_aqua] only bacaped:farming/its_midnight_already
 execute if score bacaped:farming/more_more_cookies bac_obtained_dark_aqua matches 1.. run advancement grant @a[team=bac_team_dark_aqua] only bacaped:farming/more_more_cookies
-execute if score bacaped:farming/mysterious_menu bac_obtained_dark_aqua matches 1.. run advancement grant @a[team=bac_team_dark_aqua] only bacaped:farming/mysterious_menu
 execute if score bacaped:farming/not_fireflies bac_obtained_dark_aqua matches 1.. run advancement grant @a[team=bac_team_dark_aqua] only bacaped:farming/not_fireflies
 execute if score bacaped:farming/overpayment bac_obtained_dark_aqua matches 1.. run advancement grant @a[team=bac_team_dark_aqua] only bacaped:farming/overpayment
 execute if score bacaped:farming/plant_enthusiast bac_obtained_dark_aqua matches 1.. run advancement grant @a[team=bac_team_dark_aqua] only bacaped:farming/plant_enthusiast
@@ -267,7 +266,7 @@ execute if score bacaped:nether/withering_depths bac_obtained_dark_aqua matches 
 execute if score bacaped:potion/armor_in_a_bottle bac_obtained_dark_aqua matches 1.. run advancement grant @a[team=bac_team_dark_aqua] only bacaped:potion/armor_in_a_bottle
 execute if score bacaped:potion/cowabunga_it_is bac_obtained_dark_aqua matches 1.. run advancement grant @a[team=bac_team_dark_aqua] only bacaped:potion/cowabunga_it_is
 execute if score bacaped:potion/flashlight bac_obtained_dark_aqua matches 1.. run advancement grant @a[team=bac_team_dark_aqua] only bacaped:potion/flashlight
-execute if score bacaped:potion/healed_by_hurt bac_obtained_dark_aqua matches 1.. run advancement grant @a[team=bac_team_dark_aqua] only bacaped:potion/healed_by_hurt
+execute if score bacaped:potion/healed_by_pain bac_obtained_dark_aqua matches 1.. run advancement grant @a[team=bac_team_dark_aqua] only bacaped:potion/healed_by_pain
 execute if score bacaped:potion/jump_for_joy bac_obtained_dark_aqua matches 1.. run advancement grant @a[team=bac_team_dark_aqua] only bacaped:potion/jump_for_joy
 execute if score bacaped:potion/master_of_effects bac_obtained_dark_aqua matches 1.. run advancement grant @a[team=bac_team_dark_aqua] only bacaped:potion/master_of_effects
 execute if score bacaped:potion/trial_potions bac_obtained_dark_aqua matches 1.. run advancement grant @a[team=bac_team_dark_aqua] only bacaped:potion/trial_potions
@@ -275,7 +274,6 @@ execute if score bacaped:potion/worst_cleric_in_the_world bac_obtained_dark_aqua
 execute if score bacaped:potion/youre_not_the_zillager bac_obtained_dark_aqua matches 1.. run advancement grant @a[team=bac_team_dark_aqua] only bacaped:potion/youre_not_the_zillager
 execute if score bacaped:redstone/craft_me_all bac_obtained_dark_aqua matches 1.. run advancement grant @a[team=bac_team_dark_aqua] only bacaped:redstone/craft_me_all
 execute if score bacaped:redstone/crafting_lockdown bac_obtained_dark_aqua matches 1.. run advancement grant @a[team=bac_team_dark_aqua] only bacaped:redstone/crafting_lockdown
-execute if score bacaped:redstone/echoes_of_the_deep bac_obtained_dark_aqua matches 1.. run advancement grant @a[team=bac_team_dark_aqua] only bacaped:redstone/echoes_of_the_deep
 execute if score bacaped:redstone/farm_basics bac_obtained_dark_aqua matches 1.. run advancement grant @a[team=bac_team_dark_aqua] only bacaped:redstone/farm_basics
 execute if score bacaped:redstone/fat_cat bac_obtained_dark_aqua matches 1.. run advancement grant @a[team=bac_team_dark_aqua] only bacaped:redstone/fat_cat
 execute if score bacaped:redstone/fully_booked bac_obtained_dark_aqua matches 1.. run advancement grant @a[team=bac_team_dark_aqua] only bacaped:redstone/fully_booked
