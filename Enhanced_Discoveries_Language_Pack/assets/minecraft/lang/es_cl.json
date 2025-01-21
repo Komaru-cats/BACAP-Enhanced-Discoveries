@@ -1192,7 +1192,7 @@
     "Heavy Catch": "Captura Pesada",
     "Catch an Anvil on a fishing rod": "Atrapa un Yunque en tu caña de pescar",
     "Thin Line": "Justo en la Orilla",
-    "Hold an item with the required experience for an anvil repair, just 1 point below the maximum \"Too expensive\" threshold": "Sostén un objeto que es Demasiado Caro para reparar con experiencia en un yunque",
+"Hold an item that displays the message \"Too Expensive\" when you attempt to use it in an anvil": "Sostén un objeto que es Demasiado Caro para reparar con experiencia en un yunque",
     "Compact Base": "Casa Compacta",
     "Have 27 Shulker Boxes stored inside an Ender Chest": "Almacena 27 Cajas de shulker en un Cofre de ender",
     "Dragon Blitz": "Blitzkrieg Dragón",
