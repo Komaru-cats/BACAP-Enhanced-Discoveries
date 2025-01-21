@@ -2036,7 +2036,7 @@
   },
   {
     "title": "Thin Line",
-    "description": "Hold an item that shows the message \"Too Expensive\" when you try to use it in an anvil",
+    "description": "Hold an item that displays the message \"Too Expensive\" when you attempt to use it in an anvil",
     "color": "#AA00AA",
     "tab": "Enchanting",
     "type": "Challenge",
