@@ -1255,7 +1255,8 @@
     "Say NO to Campfires": "Dile NO a las fogatas",
     "Place a dispenser next to a beehive to automate your buzzing buddies’ work": "Pon un dispensador a lado de una colmena para automatizar el trabajo de las abejas",
     "Air Battle": "Batalla Aérea",
-    "Kill 10 Chickens while both you and the Chickens are in the air, without using elytra, all in a single attempt": "Mata a 10 Gallinas mientras tu y ellas esten en el aire, sin usar un Elytra, en un solo intento",
+    # Should be updated,  need to specify that player need to kill them with a bow.
+    #"Kill 10 Chickens while both you and the Chickens are in the air, without using elytra, all in a single attempt, using a bow": "Mata a 10 Gallinas mientras tu y ellas esten en el aire, sin usar un Elytra, en un solo intento",
     "Feathered Frenzy": "Locura de Pluma",
     "Who knew aerial combat could be so... messy?": "¿Quien sabía que las batallas aéreas eran tan... desastrosas?",
     "Deflector": "Deflector",
