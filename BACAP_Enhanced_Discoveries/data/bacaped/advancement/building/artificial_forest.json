@@ -458,44 +458,44 @@
           }
         ]
       }
-    }
-  },
-  "pale_oak_log": {
-    "trigger": "minecraft:inventory_changed",
-    "conditions": {
-      "items": [
-        {
-          "items": "minecraft:pale_oak_log",
-          "count": {
-            "min": 64
-          }
-        }
-      ]
-    }
-  },
-  "pale_oak_leaves": {
-    "trigger": "minecraft:inventory_changed",
-    "conditions": {
-      "items": [
-        {
-          "items": "minecraft:pale_oak_leaves",
-          "count": {
-            "min": 64
-          }
-        }
-      ]
     },
-    "pale_oak_sapling": {
+    "pale_oak_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:pale_oak_sapling",
+            "items": "minecraft:pale_oak_log",
             "count": {
               "min": 64
             }
           }
         ]
+      }
+    },
+    "pale_oak_leaves": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pale_oak_leaves",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      },
+      "pale_oak_sapling": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:pale_oak_sapling",
+              "count": {
+                "min": 64
+              }
+            }
+          ]
+        }
       }
     }
   },

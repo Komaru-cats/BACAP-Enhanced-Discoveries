@@ -25,6 +25,7 @@
           "location": {
             "position": {
               "y": {
+                "min": 0,
                 "max": 127
               }
             },
@@ -48,6 +49,7 @@
           "location": {
             "position": {
               "y": {
+                "min": 0,
                 "max": 127
               }
             },
@@ -71,6 +73,7 @@
           "location": {
             "position": {
               "y": {
+                "min": 0,
                 "max": 127
               }
             },
@@ -94,6 +97,7 @@
           "location": {
             "position": {
               "y": {
+                "min": 0,
                 "max": 127
               }
             },
@@ -117,6 +121,7 @@
           "location": {
             "position": {
               "y": {
+                "min": 0,
                 "max": 127
               }
             },

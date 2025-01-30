@@ -26,6 +26,9 @@
               "type": "minecraft:silverfish",
               "nbt": "{Tags:[\"bacaped_interspecific_adventure\"]}"
             }
+          },
+          "location": {
+            "structures": "minecraft:end_city"
           }
         },
         "item": {
@@ -43,6 +46,9 @@
               "type": "minecraft:endermite",
               "nbt": "{Tags:[\"bacaped_interspecific_adventure\"]}"
             }
+          },
+          "location": {
+            "structures": "minecraft:end_city"
           }
         },
         "item": {

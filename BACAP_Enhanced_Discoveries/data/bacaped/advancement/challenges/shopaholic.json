@@ -536,7 +536,7 @@
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "item": {
-          "items": "minecraft:stone_shovel"
+          "items": "minecraft:diamond_hoe"
         }
       }
     },
