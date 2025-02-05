@@ -359,38 +359,16 @@
     "wandering_trader": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "minecraft:player",
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:wandering_trader",
-                "value": {
-                  "min": 0
-                }
-              }
-            ]
-          }
+        "entity": {
+          "type": "minecraft:wandering_trader"
         }
       }
     },
     "elder_guardian": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "minecraft:player",
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:elder_guardian",
-                "value": {
-                  "min": 0
-                }
-              }
-            ]
-          }
+        "entity": {
+          "type": "minecraft:elder_guardian"
         }
       }
     },
@@ -1081,19 +1059,8 @@
     "skeleton_horse": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "minecraft:player",
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:skeleton_horse",
-                "value": {
-                  "min": 0
-                }
-              }
-            ]
-          }
+        "entity": {
+          "type": "minecraft:skeleton_horse"
         }
       }
     },

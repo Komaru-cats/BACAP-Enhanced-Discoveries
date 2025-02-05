@@ -23,7 +23,7 @@
       "translate": "Circus Act"
     },
     "description": {
-      "translate": "Give an Enderman levitation, then name it \"Circus\" in the End, and finally, kill It in the Overworld using TNT",
+      "translate": "Give an Enderman levitation, then name it \"Circus\" in the End, and finally, kill It in the Overworld using TNT, before the levitation runs out",
       "color": "#FF2A2A"
     },
     "frame": "challenge",

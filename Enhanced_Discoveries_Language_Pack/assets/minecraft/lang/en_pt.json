@@ -346,7 +346,6 @@
     "Kill every undead mob with a single firework rocket": "End the undead parade in one explosive flourish!",
     "The following mobs are not required:": "These stragglers aren’t needed:",
     "Circus Act": "Enderman Acrobatics",
-    "Give an Enderman levitation, then name it \"Circus\" in the End, and finally, kill It in the Overworld using TNT": "Put on a levitatin’ Enderman act, rename it, then blow it sky-high back home!",
     "Interspecific Adventure": "Endermite Escort",
     "Bring a Silverfish and an Endermite from the main End island to the End city and look at them through a spyglass": "Guide those lil’ pests across the End ‘n spy on ‘em in the big city!",
     "Pooch Purge Pilot": "Wolf Hunt Rider",
@@ -1264,4 +1263,5 @@
 //    "Give a Charged Creeper the levitation effect and set it on fire while it’s airborne": "",
 //    "Wind Burst Fox": "",
 //    "Give a Wind Burst 3 Mace to the Fox": ""
+    //"Give an Enderman levitation, then name it \"Circus\" in the End, and finally, kill It in the Overworld using TNT, before the levitation runs out": "Put on a levitatin’ Enderman act, rename it to \"Circus\", then blow it sky-high back home!"
 }

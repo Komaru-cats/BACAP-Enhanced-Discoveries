@@ -258,7 +258,6 @@ execute as @a[advancements={bacaped:redstone/craft_me_all=true}] run scoreboard 
 execute as @a[advancements={bacaped:redstone/crafting_lockdown=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:redstone/farm_basics=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:redstone/fat_cat=true}] run scoreboard players add @s bac_advancements 1
-execute as @a[advancements={bacaped:redstone/fully_booked=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:redstone/heavy_steps=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:redstone/light_touch=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:redstone/more_optimisations=true}] run scoreboard players add @s bac_advancements 1
