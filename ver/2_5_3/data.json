@@ -1453,7 +1453,7 @@
   },
   {
     "title": "Circus Act",
-    "description": "Give an Enderman levitation, then name it \"Circus\" in the End, and finally, kill It in the Overworld using TNT",
+    "description": "Give an Enderman levitation, then name it \"Circus\" in the End, and finally, kill It in the Overworld using TNT, before the levitation runs out",
     "color": "#FF2A2A",
     "tab": "Super Challenges",
     "type": "Super Challenge",
@@ -3055,17 +3055,6 @@
     "trophy": "",
     "reward": "3 Raw Cod",
     "exp": 25,
-    "req": ""
-  },
-  {
-    "title": "Fully Booked",
-    "description": "Completely fill a chiseled bookshelf with books",
-    "color": "#55FF55",
-    "tab": "Redstone",
-    "type": "Task",
-    "trophy": "",
-    "reward": "",
-    "exp": 15,
     "req": ""
   },
   {
