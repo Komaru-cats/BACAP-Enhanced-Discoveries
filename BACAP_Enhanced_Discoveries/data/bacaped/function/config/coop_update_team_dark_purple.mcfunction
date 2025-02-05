@@ -276,7 +276,6 @@ execute if score bacaped:redstone/craft_me_all bac_obtained_dark_purple matches 
 execute if score bacaped:redstone/crafting_lockdown bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:redstone/crafting_lockdown
 execute if score bacaped:redstone/farm_basics bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:redstone/farm_basics
 execute if score bacaped:redstone/fat_cat bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:redstone/fat_cat
-execute if score bacaped:redstone/fully_booked bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:redstone/fully_booked
 execute if score bacaped:redstone/heavy_steps bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:redstone/heavy_steps
 execute if score bacaped:redstone/light_touch bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:redstone/light_touch
 execute if score bacaped:redstone/more_optimisations bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:redstone/more_optimisations

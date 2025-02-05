@@ -19,25 +19,20 @@
       "conditions": {
         "player": [
           {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "#blazeandcave:all_boats"
+              }
+            }
+          },
+          {
             "condition": "minecraft:location_check",
             "offsetY": 1,
             "predicate": {
               "fluid": {
                 "fluids": "minecraft:water"
-              }
-            }
-          },
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "fluid": {
-                  "fluids": "minecraft:water"
-                }
-              },
-              "vehicle": {
-                "type": "#blazeandcave:all_boats"
               }
             }
           }

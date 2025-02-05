@@ -346,7 +346,6 @@
 "Kill every undead mob with a single firework rocket": "Mata a todos los mobs no-muertos con un solo cohete de fuegos artificiales",
 "The following mobs are not required:": "Los siguientes mobs no son necesarios:",
 "Circus Act": "Acto de circo",
-"Give an Enderman levitation, then name it \"Circus\" in the End, and finally, kill It in the Overworld using TNT": "Dale levitación a un Enderman, luego nómbralo \"Circo\" en el End, y finalmente, mátalo en el Overworld usando TNT",
 "Interspecific Adventure": "Aventura interespecífica",
 "Bring a Silverfish and an Endermite from the main End island to the End city and look at them through a spyglass": "Lleva un Pez Plateado y una Endermita desde la isla principal del End a la ciudad del End y obsérvalos a través de un catalejo",
 "Pooch Purge Pilot": "Piloto purga canina",
@@ -1255,8 +1254,6 @@
 "Say NO to Campfires": "Dile NO a las fogatas",
 "Place a dispenser next to a beehive to automate your buzzing buddies’ work": "Pon un dispensador a lado de una colmena para automatizar el trabajo de las abejas",
 "Air Battle": "Batalla Aérea",
-# Should be updated,  need to specify that player need to kill them with a bow.
-    #"Kill 10 Chickens while both you and the Chickens are in the air, without using elytra, all in a single attempt, using a bow": "Mata a 10 Gallinas mientras tu y ellas esten en el aire, sin usar un Elytra, en un solo intento",
 "Feathered Frenzy": "Locura de Pluma",
 "Who knew aerial combat could be so... messy?": "¿Quien sabía que las batallas aéreas eran tan... desastrosas?",
 "Deflector": "Deflector",
@@ -1265,4 +1262,8 @@
 "Give a Charged Creeper the levitation effect and set it on fire while it’s airborne": "Dale el efecto de levitación a un Creeper cargado y enciéndelo mientras esta en el aire",
 "Wind Burst Fox": "Zorro Aeroimpulso",
 "Give a Wind Burst 3 Mace to the Fox": "Dale un Mazo con Aeroimpulso 3 a un Zorro"
+// Should be updated, need to specify that player need to kill them with a bow.
+//"Kill 10 Chickens while both you and the Chickens are in the air, without using elytra, all in a single attempt, using a bow": "Mata a 10 Gallinas mientras tu y ellas esten en el aire, sin usar un Elytra, en un solo intento",
+// Should be updated, need to specify that enderman must be killed before the levitation runs out.
+//"Give an Enderman levitation, then name it \"Circus\" in the End, and finally, kill It in the Overworld using TNT, before the levitation runs out": "Dale levitación a un Enderman, luego nómbralo \"Circus\" en el End, y finalmente, mátalo en el Overworld usando TNT",
 }

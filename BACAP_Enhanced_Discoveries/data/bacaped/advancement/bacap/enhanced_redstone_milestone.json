@@ -67,19 +67,6 @@
         }
       }
     },
-    "fully_booked": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:redstone/fully_booked": true
-            }
-          }
-        }
-      }
-    },
     "heavy_steps": {
       "trigger": "minecraft:location",
       "conditions": {
