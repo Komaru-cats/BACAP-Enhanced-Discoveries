@@ -236,7 +236,7 @@ const gridOptions = {
         flex: 1,
     },
     animateRows: true,
-
+    enableCellTextSelection: true,
 };
 
 const eGridDiv = document.getElementById('AdvancementGrid');
