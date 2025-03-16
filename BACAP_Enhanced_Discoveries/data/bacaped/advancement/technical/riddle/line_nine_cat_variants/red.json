@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "bacaped:technical/riddle/line_nine": false,
+              "bacaped:technical/riddle/line_eight": true
+            }
+          }
+        },
+        "entity": {
+          "type_specific": {
+            "type": "minecraft:cat",
+            "variant": "minecraft:red"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped:riddle/line_nine/red_cat"
+  }
+}

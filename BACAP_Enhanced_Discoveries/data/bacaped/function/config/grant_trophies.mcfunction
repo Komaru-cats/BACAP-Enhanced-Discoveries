@@ -88,6 +88,7 @@ execute as @s[advancements={bacaped:challenges/pulse_detonation_engine=true}] ru
 execute as @s[advancements={bacaped:challenges/pyrotechnic_vs_dragon_v=true}] run function bacaped_rewards:trophy/challenges/pyrotechnic_vs_dragon_v
 execute as @s[advancements={bacaped:challenges/raise_the_stakes=true}] run function bacaped_rewards:trophy/challenges/raise_the_stakes
 execute as @s[advancements={bacaped:challenges/red_plus_red_equals_brown=true}] run function bacaped_rewards:trophy/challenges/red_plus_red_equals_brown
+execute as @s[advancements={bacaped:challenges/riddle_me_that=true}] run function bacaped_rewards:trophy/challenges/riddle_me_that
 execute as @s[advancements={bacaped:challenges/sandwich=true}] run function bacaped_rewards:trophy/challenges/sandwich
 execute as @s[advancements={bacaped:challenges/shield_of_achilles=true}] run function bacaped_rewards:trophy/challenges/shield_of_achilles
 execute as @s[advancements={bacaped:challenges/shopaholic=true}] run function bacaped_rewards:trophy/challenges/shopaholic

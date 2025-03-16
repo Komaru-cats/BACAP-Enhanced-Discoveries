@@ -89,6 +89,33 @@
                 },
                 {
                   "condition": "minecraft:location_check",
+                  "offsetY": -3,
+                  "predicate": {
+                    "fluid": {
+                      "fluids": "#minecraft:water"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "offsetY": -4,
+                  "predicate": {
+                    "fluid": {
+                      "fluids": "#minecraft:water"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "offsetY": -5,
+                  "predicate": {
+                    "fluid": {
+                      "fluids": "#minecraft:water"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
                   "offsetY": -1,
                   "predicate": {
                     "fluid": {

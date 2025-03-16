@@ -147,6 +147,7 @@ execute as @a[advancements={bacaped:challenges/pulse_detonation_engine=true}] ru
 execute as @a[advancements={bacaped:challenges/pyrotechnic_vs_dragon_v=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:challenges/raise_the_stakes=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:challenges/red_plus_red_equals_brown=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={bacaped:challenges/riddle_me_that=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:challenges/sandwich=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:challenges/shield_of_achilles=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:challenges/shopaholic=true}] run scoreboard players add @s bac_advancements 1

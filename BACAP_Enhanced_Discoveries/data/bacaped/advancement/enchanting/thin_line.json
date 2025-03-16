@@ -25,7 +25,7 @@
           "slots": {
             "weapon.mainhand": {
               "components": {
-                "minecraft:repair_cost": 31
+                "minecraft:repair_cost": 63
               }
             }
           }
