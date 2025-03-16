@@ -99,12 +99,15 @@ class DetailsRenderer {
             content.classList.add('details-content');
 
             let strongText = document.createElement('strong');
-            strongText.textContent = "Requirements: ";
-
-            let textNode = document.createTextNode(params.data.req);
+            strongText.textContent = "Requirements:";
 
             content.appendChild(strongText);
-            content.appendChild(textNode);
+
+            params.data.req.split('\n').forEach(line => {
+                let lineElement = document.createElement('div');
+                lineElement.textContent = line;
+                content.appendChild(lineElement);
+            });
 
             details.appendChild(summary);
             details.appendChild(content);
@@ -236,6 +239,7 @@ const gridOptions = {
         flex: 1,
     },
     animateRows: true,
+    suppressCellSelection: false,
     enableCellTextSelection: true,
 };
 
