@@ -457,6 +457,19 @@
         }
       }
     },
+    "riddle_me_that": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/riddle_me_that": true
+            }
+          }
+        }
+      }
+    },
     "sandwich": {
       "trigger": "minecraft:location",
       "conditions": {

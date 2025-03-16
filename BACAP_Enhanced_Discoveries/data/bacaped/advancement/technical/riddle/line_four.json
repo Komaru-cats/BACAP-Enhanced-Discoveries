@@ -1,0 +1,169 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "bacaped:technical/riddle/line_three": true
+            }
+          },
+          "slots": {
+            "inventory.0": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "inventory.1": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "inventory.2": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "inventory.3": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "inventory.4": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "inventory.5": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "inventory.6": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "inventory.7": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "inventory.8": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "inventory.9": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "inventory.10": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "inventory.11": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "inventory.12": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "inventory.13": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "inventory.14": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "inventory.15": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "inventory.16": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "inventory.17": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "inventory.18": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "inventory.19": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "inventory.20": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "inventory.21": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "inventory.22": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "inventory.23": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "inventory.24": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "inventory.25": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "inventory.26": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "hotbar.0": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "hotbar.1": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "hotbar.2": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "hotbar.3": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "hotbar.4": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "hotbar.5": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "hotbar.6": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "hotbar.7": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            },
+            "hotbar.8": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            }
+          },
+          "equipment": {
+            "offhand": {
+              "items": "minecraft:light_gray_stained_glass_pane",
+              "count": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}

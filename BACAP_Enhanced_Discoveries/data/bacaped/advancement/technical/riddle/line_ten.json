@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "bacaped:technical/riddle/line_nine": true
+            }
+          }
+        },
+        "villager": {
+          "vehicle": {
+            "type": "minecraft:chicken"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "bacaped:technical/riddle/line_four": true
+            },
+            "input": {
+              "forward": true,
+              "backward": true,
+              "left": true,
+              "right": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

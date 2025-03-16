@@ -159,6 +159,7 @@ execute if score bacaped:challenges/pulse_detonation_engine bac_obtained_dark_bl
 execute if score bacaped:challenges/pyrotechnic_vs_dragon_v bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_team_dark_blue] only bacaped:challenges/pyrotechnic_vs_dragon_v
 execute if score bacaped:challenges/raise_the_stakes bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_team_dark_blue] only bacaped:challenges/raise_the_stakes
 execute if score bacaped:challenges/red_plus_red_equals_brown bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_team_dark_blue] only bacaped:challenges/red_plus_red_equals_brown
+execute if score bacaped:challenges/riddle_me_that bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_team_dark_blue] only bacaped:challenges/riddle_me_that
 execute if score bacaped:challenges/sandwich bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_team_dark_blue] only bacaped:challenges/sandwich
 execute if score bacaped:challenges/shield_of_achilles bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_team_dark_blue] only bacaped:challenges/shield_of_achilles
 execute if score bacaped:challenges/shopaholic bac_obtained_dark_blue matches 1.. run advancement grant @a[team=bac_team_dark_blue] only bacaped:challenges/shopaholic

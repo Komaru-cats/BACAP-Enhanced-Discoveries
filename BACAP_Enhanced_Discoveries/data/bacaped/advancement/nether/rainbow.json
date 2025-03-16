@@ -36,6 +36,21 @@
       "conditions": {
         "location": [
           {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:beacon"
+                  ],
+                  "nbt": "{Levels:0}"
+                }
+              }
+            }
+          },
+          {
             "condition": "minecraft:block_state_property",
             "block": "minecraft:black_stained_glass",
             "properties": {}
@@ -72,6 +87,21 @@
       "conditions": {
         "location": [
           {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:beacon"
+                  ],
+                  "nbt": "{Levels:0}"
+                }
+              }
+            }
+          },
+          {
             "condition": "minecraft:block_state_property",
             "block": "minecraft:white_stained_glass",
             "properties": {}
@@ -94,6 +124,21 @@
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:beacon"
+                  ],
+                  "nbt": "{Levels:0}"
+                }
+              }
+            }
+          },
           {
             "condition": "minecraft:block_state_property",
             "block": "minecraft:light_gray_stained_glass",
@@ -118,6 +163,21 @@
       "conditions": {
         "location": [
           {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:beacon"
+                  ],
+                  "nbt": "{Levels:0}"
+                }
+              }
+            }
+          },
+          {
             "condition": "minecraft:block_state_property",
             "block": "minecraft:gray_stained_glass",
             "properties": {}
@@ -140,6 +200,21 @@
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:beacon"
+                  ],
+                  "nbt": "{Levels:0}"
+                }
+              }
+            }
+          },
           {
             "condition": "minecraft:block_state_property",
             "block": "minecraft:blue_stained_glass",
@@ -164,6 +239,21 @@
       "conditions": {
         "location": [
           {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:beacon"
+                  ],
+                  "nbt": "{Levels:0}"
+                }
+              }
+            }
+          },
+          {
             "condition": "minecraft:block_state_property",
             "block": "minecraft:red_stained_glass",
             "properties": {}
@@ -186,6 +276,21 @@
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:beacon"
+                  ],
+                  "nbt": "{Levels:0}"
+                }
+              }
+            }
+          },
           {
             "condition": "minecraft:block_state_property",
             "block": "minecraft:green_stained_glass",
@@ -210,6 +315,21 @@
       "conditions": {
         "location": [
           {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:beacon"
+                  ],
+                  "nbt": "{Levels:0}"
+                }
+              }
+            }
+          },
+          {
             "condition": "minecraft:block_state_property",
             "block": "minecraft:lime_stained_glass",
             "properties": {}
@@ -232,6 +352,21 @@
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:beacon"
+                  ],
+                  "nbt": "{Levels:0}"
+                }
+              }
+            }
+          },
           {
             "condition": "minecraft:block_state_property",
             "block": "minecraft:brown_stained_glass",
@@ -256,6 +391,21 @@
       "conditions": {
         "location": [
           {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:beacon"
+                  ],
+                  "nbt": "{Levels:0}"
+                }
+              }
+            }
+          },
+          {
             "condition": "minecraft:block_state_property",
             "block": "minecraft:orange_stained_glass",
             "properties": {}
@@ -278,6 +428,21 @@
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:beacon"
+                  ],
+                  "nbt": "{Levels:0}"
+                }
+              }
+            }
+          },
           {
             "condition": "minecraft:block_state_property",
             "block": "minecraft:yellow_stained_glass",
@@ -302,6 +467,21 @@
       "conditions": {
         "location": [
           {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:beacon"
+                  ],
+                  "nbt": "{Levels:0}"
+                }
+              }
+            }
+          },
+          {
             "condition": "minecraft:block_state_property",
             "block": "minecraft:cyan_stained_glass",
             "properties": {}
@@ -324,6 +504,21 @@
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:beacon"
+                  ],
+                  "nbt": "{Levels:0}"
+                }
+              }
+            }
+          },
           {
             "condition": "minecraft:block_state_property",
             "block": "minecraft:light_blue_stained_glass",
@@ -348,6 +543,21 @@
       "conditions": {
         "location": [
           {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:beacon"
+                  ],
+                  "nbt": "{Levels:0}"
+                }
+              }
+            }
+          },
+          {
             "condition": "minecraft:block_state_property",
             "block": "minecraft:purple_stained_glass",
             "properties": {}
@@ -371,6 +581,21 @@
       "conditions": {
         "location": [
           {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:beacon"
+                  ],
+                  "nbt": "{Levels:0}"
+                }
+              }
+            }
+          },
+          {
             "condition": "minecraft:block_state_property",
             "block": "minecraft:magenta_stained_glass",
             "properties": {}
@@ -393,6 +618,21 @@
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:beacon"
+                  ],
+                  "nbt": "{Levels:0}"
+                }
+              }
+            }
+          },
           {
             "condition": "minecraft:block_state_property",
             "block": "minecraft:pink_stained_glass",

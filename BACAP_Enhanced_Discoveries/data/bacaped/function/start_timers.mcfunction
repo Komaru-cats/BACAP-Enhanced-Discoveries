@@ -17,6 +17,8 @@ scoreboard objectives add bacaped_horse_health dummy
 scoreboard objectives add bacaped_horse_jump dummy
 scoreboard objectives add bacaped_warden_near_seconds dummy
 scoreboard objectives add bacaped_ignite_tnt dummy
+scoreboard objectives add bacaped_riddle_nine_line_cat_var dummy
+scoreboard objectives add bacaped_riddle_nine_line_cat_num dummy
 
 # In Structures
 scoreboard objectives add bacaped_in_struct_ancient_city dummy

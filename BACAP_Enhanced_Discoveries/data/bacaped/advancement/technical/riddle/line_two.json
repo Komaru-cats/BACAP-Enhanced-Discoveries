@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:powder_snow_cauldron"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "bacaped:technical/riddle/line_one": true
+                }
+              },
+              "flags": {
+                "is_on_fire": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

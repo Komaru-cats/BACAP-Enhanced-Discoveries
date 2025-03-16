@@ -1,0 +1,60 @@
+{
+  "criteria": {
+    "on_spider": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "bacaped:technical/riddle/line_seven": true
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:stray",
+          "vehicle": {
+            "type": "minecraft:spider"
+          },
+          "targeted_entity": {
+            "type": "minecraft:stray",
+            "vehicle": {
+              "type": "minecraft:skeleton_horse"
+            }
+          }
+        }
+      }
+    },
+    "on_skeleton_horse": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "bacaped:technical/riddle/line_seven": true
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:stray",
+          "vehicle": {
+            "type": "minecraft:skeleton_horse"
+          },
+          "targeted_entity": {
+            "type": "minecraft:stray",
+            "vehicle": {
+              "type": "minecraft:spider"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "on_skeleton_horse",
+      "on_spider"
+    ]
+  ]
+}

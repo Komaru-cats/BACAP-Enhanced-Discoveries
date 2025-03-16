@@ -7,7 +7,7 @@
       "translate": "Elementals"
     },
     "description": {
-      "translate": "Kill Bogged, Stray, Husk and Drowned with a single piercing arrow shot"
+      "translate": "Kill Bogged, Stray, Husk and Drowned with a single piercing shot"
     },
     "frame": "challenge",
     "announce_to_chat": true

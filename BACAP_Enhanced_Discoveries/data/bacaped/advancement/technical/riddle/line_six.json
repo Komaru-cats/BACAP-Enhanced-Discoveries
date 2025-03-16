@@ -1,0 +1,739 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "container.*": {
+                      "items": "minecraft:firework_rocket",
+                      "predicates": {
+                        "minecraft:fireworks": {
+                          "explosions": {
+                            "contains": [
+                              {
+                                "shape": "creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "container.*": {
+                      "items": "minecraft:firework_star",
+                      "predicates": {
+                        "minecraft:firework_explosion": {
+                          "shape": "creeper"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "container.*": {
+                      "items": "minecraft:creeper_head"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "container.*": {
+                      "items": "minecraft:creeper_banner_pattern"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "#minecraft:banners",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "white",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "#minecraft:banners",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "magenta",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "#minecraft:banners",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "light_blue",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "#minecraft:banners",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "orange",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "#minecraft:banners",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "yellow",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "#minecraft:banners",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "lime",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "#minecraft:banners",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "pink",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "#minecraft:banners",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "gray",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "#minecraft:banners",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "light_gray",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "#minecraft:banners",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "cyan",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "#minecraft:banners",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "purple",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "#minecraft:banners",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "blue",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "#minecraft:banners",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "brown",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "#minecraft:banners",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "green",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "#minecraft:banners",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "red",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "#minecraft:banners",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "black",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "minecraft:shield",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "white",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "minecraft:shield",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "magenta",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "minecraft:shield",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "light_blue",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "minecraft:shield",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "orange",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "minecraft:shield",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "yellow",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "minecraft:shield",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "lime",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "minecraft:shield",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "pink",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "minecraft:shield",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "gray",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "minecraft:shield",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "light_gray",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "minecraft:shield",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "cyan",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "minecraft:shield",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "purple",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "minecraft:shield",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "blue",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "minecraft:shield",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "brown",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "minecraft:shield",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "green",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "minecraft:shield",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "red",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "container.*": {
+                          "items": "minecraft:shield",
+                          "components": {
+                            "minecraft:banner_patterns": [
+                              {
+                                "color": "black",
+                                "pattern": "minecraft:creeper"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "container.*": {
+                      "items": "minecraft:danger_pottery_sherd"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "container.*": {
+                      "items": "minecraft:cyan_glazed_terracotta"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "container.*": {
+                      "items": "minecraft:chiseled_sandstone"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                      "bacaped:technical/riddle/line_five": true
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

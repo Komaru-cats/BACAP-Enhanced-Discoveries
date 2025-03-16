@@ -1,0 +1,226 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map",
+      "components": {
+        "minecraft:map_color": 13187899
+      }
+    },
+    "title": {
+      "translate": "Riddle Me That",
+      "extra": [
+        {
+          "italic": true,
+          "text": "                  "
+        }
+      ]
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "The first is to use igloo technology to speed up curing",
+      "extra": [
+        {
+          "text": "\n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "The second is to melt the frost with your own flame"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "The third is to seal the four elements within a pot"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "The fourth is to fill your inventory, yet keep it empty"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "The fifth is to go everywhere at once"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "The sixth is to collect all the references of the silent \"Shhh...\""
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "The seventh is to maintain the law: sharp below, soft above \u2013 a balance that cannot be overturned"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "The eighth is to end the duel of the frostbitten undead riders, on the grounds of differing legs"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "The ninth is to chase a Cat through its nine lives without losing track"
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "color": "#FF2A2A",
+          "translate": "The tenth is to make a deal with a clucking trader"
+        }
+      ]
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:challenges/the_perfect_run",
+  "criteria": {
+    "first_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:technical/riddle/line_one": true
+            }
+          }
+        }
+      }
+    },
+    "second_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:technical/riddle/line_two": true
+            }
+          }
+        }
+      }
+    },
+    "third_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:technical/riddle/line_three": true
+            }
+          }
+        }
+      }
+    },
+    "fourth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:technical/riddle/line_four": true
+            }
+          }
+        }
+      }
+    },
+    "fifth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:technical/riddle/line_five": true
+            }
+          }
+        }
+      }
+    },
+    "sixth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:technical/riddle/line_six": true
+            }
+          }
+        }
+      }
+    },
+    "seventh_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:technical/riddle/line_seven": true
+            }
+          }
+        }
+      }
+    },
+    "eighth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:technical/riddle/line_eight": true
+            }
+          }
+        }
+      }
+    },
+    "ninth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:technical/riddle/line_nine": true
+            }
+          }
+        }
+      }
+    },
+    "tenth_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:technical/riddle/line_ten": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:challenges/riddle_me_that"
+  }
+}
