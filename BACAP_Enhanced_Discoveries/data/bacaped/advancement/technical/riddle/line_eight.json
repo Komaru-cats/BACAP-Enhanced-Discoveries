@@ -51,6 +51,9 @@
       }
     }
   },
+  "rewards": {
+    "function": "bacaped:riddle/eighth_line"
+  },
   "requirements": [
     [
       "on_skeleton_horse",

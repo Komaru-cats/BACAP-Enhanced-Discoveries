@@ -1387,5 +1387,8 @@
         ]
       }
     }
+  },
+  "rewards": {
+    "function": "bacaped:riddle/first_line"
   }
 }

@@ -735,5 +735,8 @@
         ]
       }
     }
+  },
+  "rewards": {
+    "function": "bacaped:riddle/sixth_line"
   }
 }

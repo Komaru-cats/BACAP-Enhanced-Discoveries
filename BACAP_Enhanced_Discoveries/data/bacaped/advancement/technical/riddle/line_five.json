@@ -19,5 +19,8 @@
         }
       }
     }
+  },
+  "rewards": {
+    "function": "bacaped:riddle/fifth_line"
   }
 }
