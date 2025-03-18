@@ -165,5 +165,8 @@
         }
       }
     }
+  },
+  "rewards": {
+    "function": "bacaped:riddle/fourth_line"
   }
 }
