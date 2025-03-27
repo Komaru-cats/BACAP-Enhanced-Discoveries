@@ -27,10 +27,8 @@
             ],
             "components": {
               "minecraft:enchantments": {
-                "levels": {
-                  "minecraft:mending": 1,
-                  "minecraft:unbreaking": 3
-                }
+                "minecraft:mending": 1,
+                "minecraft:unbreaking": 3
               }
             }
           }

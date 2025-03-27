@@ -22,10 +22,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type_specific": {
-            "type": "minecraft:axolotl",
-            "variant": "blue"
-          },
+          "type": "minecraft:axolotl",
           "location": {
             "position": {
               "x": {
@@ -42,6 +39,9 @@
               }
             },
             "dimension": "minecraft:the_end"
+          },
+          "components": {
+            "minecraft:axolotl/variant": "blue"
           }
         }
       }

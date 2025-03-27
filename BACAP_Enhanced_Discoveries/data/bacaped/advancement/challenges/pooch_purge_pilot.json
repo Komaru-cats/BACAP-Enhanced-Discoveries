@@ -25,12 +25,11 @@
         },
         "entity": {
           "type": "minecraft:wolf",
-          "type_specific": {
-            "type": "minecraft:wolf",
-            "variant": "minecraft:ashen"
-          },
           "location": {
             "biomes": "minecraft:snowy_taiga"
+          },
+          "components": {
+            "minecraft:wolf/variant": "minecraft:ashen"
           }
         }
       }
@@ -45,12 +44,11 @@
         },
         "entity": {
           "type": "minecraft:wolf",
-          "type_specific": {
-            "type": "minecraft:wolf",
-            "variant": "minecraft:black"
-          },
           "location": {
             "biomes": "minecraft:old_growth_pine_taiga"
+          },
+          "components": {
+            "minecraft:wolf/variant": "minecraft:black"
           }
         }
       }
@@ -65,12 +63,11 @@
         },
         "entity": {
           "type": "minecraft:wolf",
-          "type_specific": {
-            "type": "minecraft:wolf",
-            "variant": "minecraft:chestnut"
-          },
           "location": {
             "biomes": "minecraft:old_growth_spruce_taiga"
+          },
+          "components": {
+            "minecraft:wolf/variant": "minecraft:chestnut"
           }
         }
       }
@@ -85,12 +82,11 @@
         },
         "entity": {
           "type": "minecraft:wolf",
-          "type_specific": {
-            "type": "minecraft:wolf",
-            "variant": "minecraft:pale"
-          },
           "location": {
             "biomes": "minecraft:taiga"
+          },
+          "components": {
+            "minecraft:wolf/variant": "minecraft:pale"
           }
         }
       }
@@ -105,16 +101,15 @@
         },
         "entity": {
           "type": "minecraft:wolf",
-          "type_specific": {
-            "type": "minecraft:wolf",
-            "variant": "minecraft:rusty"
-          },
           "location": {
             "biomes": [
               "minecraft:sparse_jungle",
               "minecraft:jungle",
               "minecraft:bamboo_jungle"
             ]
+          },
+          "components": {
+            "minecraft:wolf/variant": "minecraft:rusty"
           }
         }
       }
@@ -129,12 +124,11 @@
         },
         "entity": {
           "type": "minecraft:wolf",
-          "type_specific": {
-            "type": "minecraft:wolf",
-            "variant": "minecraft:snowy"
-          },
           "location": {
             "biomes": "minecraft:grove"
+          },
+          "components": {
+            "minecraft:wolf/variant": "minecraft:snowy"
           }
         }
       }
@@ -149,16 +143,15 @@
         },
         "entity": {
           "type": "minecraft:wolf",
-          "type_specific": {
-            "type": "minecraft:wolf",
-            "variant": "minecraft:spotted"
-          },
           "location": {
             "biomes": [
               "minecraft:savanna_plateau",
               "minecraft:savanna",
               "minecraft:windswept_savanna"
             ]
+          },
+          "components": {
+            "minecraft:wolf/variant": "minecraft:spotted"
           }
         }
       }
@@ -173,16 +166,15 @@
         },
         "entity": {
           "type": "minecraft:wolf",
-          "type_specific": {
-            "type": "minecraft:wolf",
-            "variant": "minecraft:striped"
-          },
           "location": {
             "biomes": [
               "minecraft:wooded_badlands",
               "minecraft:badlands",
               "minecraft:eroded_badlands"
             ]
+          },
+          "components": {
+            "minecraft:wolf/variant": "minecraft:striped"
           }
         }
       }
@@ -197,12 +189,11 @@
         },
         "entity": {
           "type": "minecraft:wolf",
-          "type_specific": {
-            "type": "minecraft:wolf",
-            "variant": "minecraft:woods"
-          },
           "location": {
             "biomes": "minecraft:forest"
+          },
+          "components": {
+            "minecraft:wolf/variant": "minecraft:woods"
           }
         }
       }

@@ -22,21 +22,21 @@
       "trigger": "minecraft:bred_animals",
       "conditions": {
         "parent": {
-          "type_specific": {
-            "type": "minecraft:mooshroom",
-            "variant": "red"
+          "type": "minecraft:mooshroom",
+          "components": {
+            "minecraft:mooshroom/variant": "red"
           }
         },
         "partner": {
-          "type_specific": {
-            "type": "minecraft:mooshroom",
-            "variant": "red"
+          "type": "minecraft:mooshroom",
+          "components": {
+            "minecraft:mooshroom/variant": "red"
           }
         },
         "child": {
-          "type_specific": {
-            "type": "minecraft:mooshroom",
-            "variant": "brown"
+          "type": "minecraft:mooshroom",
+          "components": {
+            "minecraft:mooshroom/variant": "brown"
           }
         }
       }

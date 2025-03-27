@@ -13,9 +13,9 @@
           }
         },
         "entity": {
-          "type_specific": {
-            "type": "minecraft:cat",
-            "variant": "minecraft:red"
+          "type": "minecraft:cat",
+          "components": {
+            "minecraft:cat/variant": "minecraft:red"
           }
         }
       }

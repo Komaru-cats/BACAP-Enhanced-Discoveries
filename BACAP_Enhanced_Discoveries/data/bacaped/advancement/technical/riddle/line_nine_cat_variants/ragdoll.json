@@ -13,9 +13,9 @@
           }
         },
         "entity": {
-          "type_specific": {
-            "type": "minecraft:cat",
-            "variant": "minecraft:ragdoll"
+          "type": "minecraft:cat",
+          "components": {
+            "minecraft:cat/variant": "minecraft:ragdoll"
           }
         }
       }

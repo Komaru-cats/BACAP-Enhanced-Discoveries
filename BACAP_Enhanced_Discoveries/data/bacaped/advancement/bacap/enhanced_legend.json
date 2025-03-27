@@ -3,9 +3,7 @@
     "icon": {
       "id": "minecraft:leather_boots",
       "components": {
-        "minecraft:dyed_color": {
-          "rgb": 7647265
-        }
+        "minecraft:dyed_color": 7647265
       }
     },
     "title": {
