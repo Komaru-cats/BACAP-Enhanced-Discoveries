@@ -1,13 +1,25 @@
 {
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "type_specific": {
-      "type": "minecraft:wolf",
-      "variant": [
-        "minecraft:ashen",
-        "minecraft:snowy"
-      ]
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:wolf",
+        "components": {
+          "minecraft:wolf/variant": "minecraft:ashen"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:wolf",
+        "components": {
+          "minecraft:wolf/variant": "minecraft:snowy"
+        }
+      }
     }
-  }
+  ]
 }

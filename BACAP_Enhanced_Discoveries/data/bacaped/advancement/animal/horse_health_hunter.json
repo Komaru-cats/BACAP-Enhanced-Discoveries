@@ -3,9 +3,7 @@
     "icon": {
       "id": "minecraft:leather_horse_armor",
       "components": {
-        "minecraft:dyed_color": {
-          "rgb": 16083819
-        }
+        "minecraft:dyed_color": 16083819
       }
     },
     "title": {

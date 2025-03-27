@@ -30,7 +30,7 @@
   },
   "parent": "blazeandcave:redstone/moving_parts",
   "criteria": {
-    "10000_pistons": {
+    "trigger": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
         "player": {

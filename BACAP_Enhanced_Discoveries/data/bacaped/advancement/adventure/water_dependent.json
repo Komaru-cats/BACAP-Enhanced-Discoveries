@@ -32,7 +32,10 @@
                   "type_specific": {
                     "type": "minecraft:player",
                     "looking_at": {
-                      "type": "minecraft:potion"
+                      "type": [
+                        "minecraft:lingering_potion",
+                        "minecraft:splash_potion"
+                      ]
                     }
                   }
                 }
