@@ -7,13 +7,10 @@
     }
   },
   {
-    "condition": "minecraft:inverted",
-    "term": {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "nbt": "{TreasurePosX:0,TreasurePosZ:0}"
-      }
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "nbt": "{GotFish:1b}"
     }
   }
 ]

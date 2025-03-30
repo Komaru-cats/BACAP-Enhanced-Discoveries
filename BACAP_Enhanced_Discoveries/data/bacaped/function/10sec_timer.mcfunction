@@ -23,9 +23,6 @@ execute as @a[gamemode=!spectator,advancements={bacaped:animal/what_are_you_doin
 # Best Transport Check
 execute as @a[gamemode=!spectator,advancements={bacaped:animal/whats_the_best_transport=false}] at @s run function bacaped:mob_collections/best_transport_check
 
-# Baby Zoo Check
-execute as @a[gamemode=!spectator,advancements={bacaped:animal/baby_zoo=false}] at @s run function bacaped:mob_collections/baby_zoo_check
-
 # Interspecific Adventure
 execute at @a if biome ~ ~ ~ minecraft:the_end run tag @e[predicate=bacaped:interspecific_adventure,distance=..5] add bacaped_interspecific_adventure
 
@@ -36,9 +33,10 @@ execute as @a[gamemode=!spectator,advancements={bacaped:nether/firefox=false}] a
 execute as @a[gamemode=!spectator,advancements={bacaped:adventure/dual_reality=false}] at @s run function bacaped:dual_reality/clear_all
 execute as @a[gamemode=!spectator,advancements={bacaped:adventure/dual_reality=false}] at @s if dimension minecraft:overworld run function bacaped:dual_reality/overworld_check
 execute as @a[gamemode=!spectator,advancements={bacaped:adventure/dual_reality=false}] at @s if dimension minecraft:the_nether run function bacaped:dual_reality/nether_check
-
 scoreboard players set @a[gamemode=!spectator] bacaped_in_struct_summary 0
 
+# Fix empty scoreboard `bacaped_ignite_tnt`
+execute as @a unless score @s bacaped_ignite_tnt matches 1.. run scoreboard players add @s bacaped_ignite_tnt 0
 
 # Fanpacks Handling
 function #bacaped_fanpacks:10sec_timer

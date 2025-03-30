@@ -14,7 +14,7 @@
   },
   "parent": "blazeandcave:adventure/sponge_miner",
   "criteria": {
-    "water_bucket": {
+    "trigger": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [
