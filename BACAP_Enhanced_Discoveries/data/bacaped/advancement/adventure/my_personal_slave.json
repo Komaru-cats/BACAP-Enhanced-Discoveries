@@ -15,253 +15,113 @@
   "parent": "blazeandcave:adventure/diagon_allay",
   "criteria": {
     "wooden_sword": {
-      "trigger": "minecraft:allay_drop_item_on_block",
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "blocks": [
-                  "minecraft:note_block"
-                ]
-              }
-            }
-          },
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": [
-                "minecraft:wooden_sword"
-              ]
-            }
-          }
-        ]
+        "item": {
+          "items": "minecraft:wooden_sword"
+        },
+        "entity": {
+          "type": "minecraft:allay"
+        }
       }
     },
     "stone_sword": {
-      "trigger": "minecraft:allay_drop_item_on_block",
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "blocks": [
-                  "minecraft:note_block"
-                ]
-              }
-            }
-          },
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": [
-                "minecraft:stone_sword"
-              ]
-            }
-          }
-        ]
+        "item": {
+          "items": "minecraft:stone_sword"
+        },
+        "entity": {
+          "type": "minecraft:allay"
+        }
       }
     },
     "iron_sword": {
-      "trigger": "minecraft:allay_drop_item_on_block",
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "blocks": [
-                  "minecraft:note_block"
-                ]
-              }
-            }
-          },
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": [
-                "minecraft:iron_sword"
-              ]
-            }
-          }
-        ]
+        "item": {
+          "items": "minecraft:iron_sword"
+        },
+        "entity": {
+          "type": "minecraft:allay"
+        }
       }
     },
     "golden_sword": {
-      "trigger": "minecraft:allay_drop_item_on_block",
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "blocks": [
-                  "minecraft:note_block"
-                ]
-              }
-            }
-          },
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": [
-                "minecraft:golden_sword"
-              ]
-            }
-          }
-        ]
+        "item": {
+          "items": "minecraft:golden_sword"
+        },
+        "entity": {
+          "type": "minecraft:allay"
+        }
       }
     },
     "diamond_sword": {
-      "trigger": "minecraft:allay_drop_item_on_block",
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "blocks": [
-                  "minecraft:note_block"
-                ]
-              }
-            }
-          },
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": [
-                "minecraft:diamond_sword"
-              ]
-            }
-          }
-        ]
+        "item": {
+          "items": "minecraft:diamond_sword"
+        },
+        "entity": {
+          "type": "minecraft:allay"
+        }
       }
     },
     "netherite_sword": {
-      "trigger": "minecraft:allay_drop_item_on_block",
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "blocks": [
-                  "minecraft:note_block"
-                ]
-              }
-            }
-          },
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": [
-                "minecraft:netherite_sword"
-              ]
-            }
-          }
-        ]
+        "item": {
+          "items": "minecraft:netherite_sword"
+        },
+        "entity": {
+          "type": "minecraft:allay"
+        }
       }
     },
     "bow": {
-      "trigger": "minecraft:allay_drop_item_on_block",
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "blocks": [
-                  "minecraft:note_block"
-                ]
-              }
-            }
-          },
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": [
-                "minecraft:bow"
-              ]
-            }
-          }
-        ]
+        "item": {
+          "items": "minecraft:bow"
+        },
+        "entity": {
+          "type": "minecraft:allay"
+        }
       }
     },
     "crossbow": {
-      "trigger": "minecraft:allay_drop_item_on_block",
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "blocks": [
-                  "minecraft:note_block"
-                ]
-              }
-            }
-          },
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": [
-                "minecraft:crossbow"
-              ]
-            }
-          }
-        ]
+        "item": {
+          "items": "minecraft:crossbow"
+        },
+        "entity": {
+          "type": "minecraft:allay"
+        }
       }
     },
     "mace": {
-      "trigger": "minecraft:allay_drop_item_on_block",
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "blocks": [
-                  "minecraft:note_block"
-                ]
-              }
-            }
-          },
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": [
-                "minecraft:mace"
-              ]
-            }
-          }
-        ]
+        "item": {
+          "items": "minecraft:mace"
+        },
+        "entity": {
+          "type": "minecraft:allay"
+        }
       }
     },
     "trident": {
-      "trigger": "minecraft:allay_drop_item_on_block",
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "blocks": [
-                  "minecraft:note_block"
-                ]
-              }
-            }
-          },
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": [
-                "minecraft:trident"
-              ]
-            }
-          }
-        ]
+        "item": {
+          "items": "minecraft:trident"
+        },
+        "entity": {
+          "type": "minecraft:allay"
+        }
       }
     }
   },

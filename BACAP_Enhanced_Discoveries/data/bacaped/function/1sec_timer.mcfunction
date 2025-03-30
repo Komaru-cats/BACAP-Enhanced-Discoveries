@@ -12,6 +12,10 @@ execute as @a[gamemode=!spectator] if score @s bac_ten_withers matches 64.. run 
 # The Apocalyptic Decalogy
 execute as @a[gamemode=!spectator] at @s if entity @e[type=wither,distance=..48] run function bacaped:mob_collections/the_apocalyptic_decalogy_check
 
+# Baby Zoo Check
+execute as @a[gamemode=!spectator,advancements={bacaped:animal/baby_zoo=false}] at @s run function bacaped:mob_collections/baby_zoo_check
+
+
 # Magic_kingdom
 execute as @a[gamemode=!spectator] at @s if entity @e[type=warden,distance=..32] run function bacaped:mob_collections/magic_kingdom_check
 
@@ -77,14 +81,6 @@ execute as @a[gamemode=!spectator, advancements={bacaped:weaponry/air_battle=fal
 # Trigger to get a list of mobs for Mob Universe
 scoreboard players enable @a bacaped_mob_universe
 execute as @a if score @s bacaped_mob_universe matches 1.. run function bacaped:triggers_callback/mob_universe_trigger
-
-# Trigger to get info about custom stats
-scoreboard players enable @a bacaped_statistics
-execute as @a if score @s bacaped_statistics matches 1.. run function bacaped:triggers_callback/statistics_trigger
-
-# Trigger to get info about timers
-scoreboard players enable @a bacaped_timers
-execute as @a if score @s bacaped_timers matches 1.. run function bacaped:triggers_callback/timers_trigger
 
 # Fanpacks Handling
 function #bacaped_fanpacks:1sec_timer

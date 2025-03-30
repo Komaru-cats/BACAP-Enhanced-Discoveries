@@ -1,11 +1,10 @@
 {
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:used_totem",
-      "conditions": {}
+      "trigger": "minecraft:used_totem"
     }
   },
   "rewards": {
-    "function": "bacaped:totem_using"
+    "function": "bacaped:used_totem"
   }
 }
