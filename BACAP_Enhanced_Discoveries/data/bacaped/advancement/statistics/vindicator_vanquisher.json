@@ -10,7 +10,7 @@
       "translate": "Vindicator Vanquisher"
     },
     "description": {
-      "translate": "Win 25 Raids"
+      "translate": "Win 100 Raids"
     },
     "frame": "challenge",
     "announce_to_chat": true
@@ -28,7 +28,7 @@
                 "type": "minecraft:custom",
                 "stat": "minecraft:raid_win",
                 "value": {
-                  "min": 25
+                  "min": 100
                 }
               }
             ]

@@ -7,7 +7,7 @@
       "translate": "Raid Resister"
     },
     "description": {
-      "translate": "Win 3 Raids"
+      "translate": "Win 5 Raids"
     },
     "frame": "task",
     "announce_to_chat": true
@@ -25,7 +25,7 @@
                 "type": "minecraft:custom",
                 "stat": "minecraft:raid_win",
                 "value": {
-                  "min": 3
+                  "min": 5
                 }
               }
             ]
