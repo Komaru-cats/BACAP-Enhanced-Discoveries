@@ -23,7 +23,7 @@
             "minecraft:name_tag"
           ],
           "components": {
-            "minecraft:custom_name": "\"Placeholder\""
+            "minecraft:custom_name": "Placeholder"
           }
         },
         "entity": {

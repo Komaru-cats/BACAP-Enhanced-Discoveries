@@ -6,7 +6,7 @@
         "item": {
           "items": "minecraft:name_tag",
           "components": {
-            "minecraft:custom_name": "\"Circus\""
+            "minecraft:custom_name": "Circus"
           }
         }
       }

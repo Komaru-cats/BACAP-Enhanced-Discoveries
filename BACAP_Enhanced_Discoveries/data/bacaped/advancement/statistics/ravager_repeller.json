@@ -10,7 +10,7 @@
       "translate": "Ravager Repeller"
     },
     "description": {
-      "translate": "Win 250 Raids",
+      "translate": "Win 2000 Raids",
       "color": "light_purple"
     },
     "frame": "challenge",
@@ -30,7 +30,7 @@
                 "type": "minecraft:custom",
                 "stat": "minecraft:raid_win",
                 "value": {
-                  "min": 250
+                  "min": 2000
                 }
               }
             ]

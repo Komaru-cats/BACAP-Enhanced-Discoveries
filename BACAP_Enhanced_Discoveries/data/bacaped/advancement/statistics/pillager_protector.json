@@ -7,7 +7,7 @@
       "translate": "Pillager Protector"
     },
     "description": {
-      "translate": "Win 10 Raids",
+      "translate": "Win 20 Raids",
       "color": "#75E1FF"
     },
     "frame": "goal",
@@ -26,7 +26,7 @@
                 "type": "minecraft:custom",
                 "stat": "minecraft:raid_win",
                 "value": {
-                  "min": 10
+                  "min": 20
                 }
               }
             ]

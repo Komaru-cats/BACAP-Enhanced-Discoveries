@@ -40,7 +40,7 @@
             "minecraft:name_tag"
           ],
           "components": {
-            "minecraft:custom_name": "\"Komaru\""
+            "minecraft:custom_name": "Komaru"
           }
         },
         "entity": {
