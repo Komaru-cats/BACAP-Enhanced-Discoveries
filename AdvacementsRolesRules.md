@@ -41,3 +41,24 @@ These things do kind of disrupt the balance but may be allowed by Komaru Cats Ad
 - Have some screenshots of your progress, such as building a farm, or a setup to complete a difficult advancement
 - It will also be good if you make a video where you show what and how you used to get advancements in your world
 - If you are on a server that is publicly joinable (i.e. with no whitelist) you could ask admins if they can join and then you'd show them how you got the more important advancements.
+
+## Other roles rules:
+> All methods of proof are arranged in order from the strongest to the weakest. But this does not mean that you are required to have the strongest proofs, as they can still have different value.
+> A screenshot proving that the advancement was obtained is mandatory (either at the moment of obtaining it or after, in the advancements menu)
+### Netherite Beacon:
+- Screenshots or videos of your method for obtaining Netherite (TNT duper, TNT without a duper, strip mining), for example, tunnels after explosions or mining
+- Screenshots of your mined Netherite, Netherrack statistics etc.
+- Screenshot of advancement obtained
+### End of the World as We Know It
+- Screenshots/Videos of your progress reaching the world borders, especially the End
+  - If you used a pig cannon or similar, screenshots/videos of the mechanism
+- Screenshots with your world's size (if you didn't use a pig cannon or similar)
+- Screenshot/video of the moment the advancement is obtained
+### Yes.
+- Screenshots of your Wither Skeleton kill statistics, beacon crafting etc.
+- Screenshots/Videos of your farm
+- Screenshot of advancement obtained
+### Explosive Elixir
+- Video of you obtaining the advancement
+- Screenshots of your setup
+- Screenshot at the moment of advancement obtained
