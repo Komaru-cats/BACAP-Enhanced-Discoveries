@@ -74,7 +74,6 @@ execute as @a[advancements={bacaped:animal/what_about_mooblooms=true}] run score
 execute as @a[advancements={bacaped:animal/what_are_you_doing_in_my_swamp=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:animal/whats_the_best_transport=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:animal/youre_bald=true}] run scoreboard players add @s bac_advancements 1
-execute as @a[advancements={bacaped:animal/youre_part_of_a_hive_mind_now=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:bacap/enhanced_adventure_milestone=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:bacap/enhanced_animal_milestone=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:bacap/enhanced_biomes_milestone=true}] run scoreboard players add @s bac_advancements 1

@@ -25,11 +25,18 @@
             "items": [
               "minecraft:brush"
             ],
-            "components": {
-              "minecraft:enchantments": {
-                "minecraft:mending": 1,
-                "minecraft:unbreaking": 3
-              }
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:mending"
+                },
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                }
+              ]
             }
           }
         ]

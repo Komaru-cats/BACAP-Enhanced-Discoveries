@@ -36,8 +36,34 @@
         },
         "recipe_id": "minecraft:stick"
       }
+    },
+    "stick_from_bamboo": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:crafted",
+                "stat": "minecraft:stick",
+                "value": {
+                  "min": 9999
+                }
+              }
+            ]
+          }
+        },
+        "recipe_id": "minecraft:stick_from_bamboo_item"
+      }
     }
   },
+  "requirements": [
+    [
+      "stick",
+      "stick_from_bamboo"
+    ]
+  ],
   "rewards": {
     "function": "bacaped_rewards:building/stickman"
   }

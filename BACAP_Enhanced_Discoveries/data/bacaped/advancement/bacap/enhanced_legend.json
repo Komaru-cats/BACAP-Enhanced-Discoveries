@@ -1006,19 +1006,6 @@
         }
       }
     },
-    "youre_part_of_a_hive_mind_now": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:animal/youre_part_of_a_hive_mind_now": true
-            }
-          }
-        }
-      }
-    },
     "enhanced_adventure_milestone": {
       "trigger": "minecraft:location",
       "conditions": {

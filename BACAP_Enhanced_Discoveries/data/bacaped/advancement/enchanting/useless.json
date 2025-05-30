@@ -23,11 +23,15 @@
             "items": [
               "minecraft:enchanted_book"
             ],
-            "components": {
-              "minecraft:stored_enchantments": {
-                "minecraft:binding_curse": 1,
-                "minecraft:vanishing_curse": 1
-              }
+            "predicates": {
+              "minecraft:stored_enchantments": [
+                {
+                  "enchantments": "minecraft:binding_curse"
+                },
+                {
+                  "enchantments": "minecraft:vanishing_curse"
+                }
+              ]
             }
           }
         ]

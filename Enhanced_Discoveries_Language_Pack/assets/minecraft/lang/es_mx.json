@@ -41,7 +41,7 @@
 "On Site Sale": "Venta en el sitio",
 "Buy bricks from a Villager in the river biome": "Compra ladrillos a un aldeano en el bioma de río",
 "Placeholder": "Marcador de posición",
-"Name a Warden \"Placeholder\"": "Nombra a un Warden \"Marcador de posición\"",
+"Name a Warden \"Placeholder\"": "Nombra a un Warden \"Placeholder\"",
 "Real Netherite Armor": "Armadura de netherita real",
 "Wear a full set of netherite armor with any netherite trims": "Equípate con un set completo de armadura de netherita con adornos de netherita",
 "Restoring Population": "Restaurando la población",
@@ -117,7 +117,7 @@
 "The Sugar Cane Diet": "La dieta de la caña de azúcar",
 "Craft sugar from honey": "Fabrica azúcar a partir de miel",
 "That's a New Style": "Ese es un nuevo estilo",
-"Wear a light blue leather tunic named \"Diamond Chestplate\"": "Usa una túnica de cuero azul claro llamada \"Peto de diamante\"",
+"Wear a light blue leather tunic named \"Diamond Chestplate\"": "Usa una túnica de cuero azul claro llamada \"Diamond Chestplate\"",
 "What About Mooblooms?": "¿Y qué hay de los Mooblooms?",
 "Kill a Glow Squid in a flower forest while holding a dandelion": "Mata un calamar brillante en un bosque de flores mientras sostienes un diente de león",
 "Buff Axolotl": "Axolote fortachón",
@@ -251,7 +251,6 @@
 "Ride a Horse that has more than 25 health points, moves faster than 13 blocks per second and jumps more than 4 blocks": "Monta un caballo que tenga más de 25 puntos de salud, se mueva más rápido que 13 bloques por segundo y salte más de 4 bloques",
 "Mob Universe": "Universo de Mobs",
 "Collect all types of mobs from their dimension in each dimension (have them all within 128 blocks of you)": "Recoge todos los tipos de mobs de su dimensión en cada dimensión (tenlos a todos a menos de 128 bloques de ti)",
-"Mob list for every dimension for Mob Universe Advancement": "Lista de mobs por dimensión para el logro Universo de Mobs",
 "Overworld": "Superficie",
 ": Allay, Armadillo, Axolotl, Bat, Camel, Cat, Chicken, Cod, Cow, Donkey, Frog, Glow Squid, Horse, Mooshroom, Mule, Ocelot, Parrot, Pig, Pufferfish, Rabbit, Salmon, Sheep, Skeleton Horse, Sniffer, Snow Golem, Squid, Tadpole, Tropical Fish, Turtle, Villager, Wandering Trader, Bee, Cave Spider, Dolphin, Drowned, Fox, Goat, Iron Golem, Llama, Panda, Polar Bear, Spider, Trader Llama, Wolf, Bogged, Breeze, Creeper, Elder Guardian, Evoker, Guardian, Husk, Phantom, Pillager, Ravager, Silverfish, Skeleton, Slime, Stray, Vex, Vindicator, Warden, Witch, Zombie, Zombie Villager": "Allay, Armadillo, Ajolote, Murciélago, Camello, Gato, Pollo, Bacalao, Vaca, Burro, Rana, Calamar brillante, Caballo, Mooshroom, Mula, Ocelote, Loro, Cerdo, Pez globo, Conejo, Salmón, Oveja, Caballo esqueleto, Sniffer, Gólem de nieve, Calamar, Renacuajo, Pez tropical, Tortuga, Aldeano, Comerciante errante, Abeja, Araña de cueva, Delfín, Ahogado, Zorro, Cabra, Gólem de hierro, Llama, Panda, Oso polar, Araña, Llama comerciante, Lobo, Bogged, Breeze, Creeper, Guardián anciano, Evocador, Guardián, Husco, Fantasma, Pillager, Devastador, Silverfish, Esqueleto, Slime, Stray, Vex, Vindicador, Warden, Bruja, Zombi, Aldeano zombi",
 "Nether": "Nether",
@@ -668,7 +667,7 @@
 "My favorite cat's name is Komaru. She is a": "El nombre de mi gata favorita es Komaru. Es una",
 "playful and mischievous little furball": "pequeña bola de pelo juguetona y traviesa",
 "with a heart full of love. Komaru has": "con un corazón lleno de amor. Komaru tiene",
-"beautiful orange fur with white patches": "hermoso pelaje naranja con manchas blancas",
+"beautiful gray fur with white patches": "hermoso pelaje gris con manchas blancas",
 "on her paws and chest. Her bright green": "en sus patas y pecho. Sus brillantes ojos verdes",
 "eyes sparkle with curiosity and": "brillan con curiosidad e",
 "intelligence. Komaru loves to chase": "inteligencia. A Komaru le encanta perseguir",
@@ -1282,4 +1281,5 @@
 "Now try it without a guide": "Ahora intentalo sin un guia",
 "Warden's Head": "Cabeza del Warden",
 "and ": "y "
+"Mob list for the current dimension of the Mob Universe Advancement": "Lista de mobs para la dimension actual del progreso Universo de Mobs"
 }
