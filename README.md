@@ -1,12 +1,14 @@
 # BACAP-Enhanced-Discoveries
 **"Enhanced discoveries" is an expansion for [BACAP](https://modrinth.com/datapack/blazeandcaves-advancements-pack) with new advancements.**
 
+The aim of this addon is to design side quests that provide engaging challenges for players who seek direction in the world. These challenges, both complex and simple, encourage players to build farms, create mechanisms, strategize, act swiftly, or engage in uncommon activities
+
 # Features
-**Over 280 new Advancements**
+**Over 350 new Advancements**
   
 | Tasks | Goals | Challenges | Super Challenges | Hidden Advancements |
 |:-----:|:-----:|:----------:|:----------------:|:-------------------:|
-|   25  |   79  |     101     |        43        |          38         |
+|   31  |   102  |     130     |        47        |          46         |
 
 **[List with all advancements](https://komaru-cats.github.io/BACAP-Enhanced-Discoveries/)**
 
@@ -41,7 +43,7 @@ Enhanced Discoveries currently supports only English and Russian, but you can he
 ### Hardcore
 [BACAPED Hardcore Addon](https://modrinth.com/project/bacap-enhanced-discoveries-hardcore-addon) is required
 
-### Any other *official* addons are suppored out of the box
+### Any official BACAP addons are supported, all other unofficial addons that use the function tags introduced in BACAP 1.18 should be compatible.
 
 ## How to Install?
 
@@ -65,7 +67,7 @@ Once the datapack is installed, go into the world. A message should pop up sayin
 - Go into your world
 - If you screwed up, go to your backup, make a backup of your backup, then repeat steps 2-6 on the backup.
 
-## Bugs or Imporovements
+## Bugs or Improvements
 
 If you have any questions, bugs, suggestions you can [create an issue on github](https://github.com/Komaru-cats/BACAP-Enhanced-Discoveries/issues) or [join our discord server](https://discord.gg/j9VKsyXPhz)
 
@@ -81,4 +83,4 @@ Not all advancements were completely invented by us, some were taken from these 
 - [Melwin's Mad Pack](https://www.planetminecraft.com/data-pack/melwin-s-mad-pack-1-20-6/)
 - @insertanicknamehere (Discord)
 - @TomGo (Discord)
-- coolgirlomega (Discord)
+- @coolgirlomega (Discord)
