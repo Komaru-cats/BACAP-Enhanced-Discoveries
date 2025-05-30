@@ -17,23 +17,8 @@
   "parent": "bacaped:statistics/totem_expert",
   "criteria": {
     "trigger": {
-      "trigger": "minecraft:used_totem",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "minecraft:player",
-            "stats": [
-              {
-                "type": "minecraft:used",
-                "stat": "minecraft:totem_of_undying",
-                "value": {
-                  "min": 1000
-                }
-              }
-            ]
-          }
-        }
-      }
+      "trigger": "minecraft:impossible",
+      "conditions": {}
     }
   },
   "rewards": {

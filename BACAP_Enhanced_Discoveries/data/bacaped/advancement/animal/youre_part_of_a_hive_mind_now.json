@@ -13,16 +13,45 @@
       "translate": "Fill your inventory with beehives, each with three Bees"
     },
     "frame": "challenge",
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "hidden": true
   },
   "parent": "blazeandcave:animal/nest_quick",
   "criteria": {
     "trigger": {
-      "trigger": "minecraft:location",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": {
-          "nbt": "{Inventory:[{Slot:0b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:1b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:2b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:3b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:4b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:5b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:6b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:7b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:8b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:9b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:10b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:11b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:12b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:13b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:14b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:15b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:16b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:17b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:18b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:19b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:20b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:21b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:22b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:23b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:24b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:25b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:26b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:27b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:28b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:29b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:30b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:31b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:32b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:33b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:34b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:35b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}},{Slot:-106b,id:\"minecraft:beehive\",components:{\"minecraft:bees\":[{},{},{}]}}]}"
-        }
+        "items": [
+          {
+            "items": "minecraft:beehive",
+            "count": 37,
+            "components": {
+              "minecraft:bees": [
+                {
+                  "entity_data": {
+                    "id": "minecraft:bee"
+                  },
+                  "min_ticks_in_hive": 0,
+                  "ticks_in_hive": 0
+                },
+                {
+                  "entity_data": {
+                    "id": "minecraft:bee"
+                  },
+                  "min_ticks_in_hive": 0,
+                  "ticks_in_hive": 0
+                },
+                {
+                  "entity_data": {
+                    "id": "minecraft:bee"
+                  },
+                  "min_ticks_in_hive": 0,
+                  "ticks_in_hive": 0
+                }
+              ]
+            }
+          }
+        ]
       }
     }
   },

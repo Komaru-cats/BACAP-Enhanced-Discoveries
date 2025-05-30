@@ -16,23 +16,8 @@
   "parent": "bacaped:statistics/totem_tinkerer",
   "criteria": {
     "trigger": {
-      "trigger": "minecraft:used_totem",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "minecraft:player",
-            "stats": [
-              {
-                "type": "minecraft:used",
-                "stat": "minecraft:totem_of_undying",
-                "value": {
-                  "min": 25
-                }
-              }
-            ]
-          }
-        }
-      }
+      "trigger": "minecraft:impossible",
+      "conditions": {}
     }
   },
   "rewards": {

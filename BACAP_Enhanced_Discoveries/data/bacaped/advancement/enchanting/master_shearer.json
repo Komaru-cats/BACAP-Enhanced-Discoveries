@@ -25,12 +25,24 @@
             "items": [
               "minecraft:shears"
             ],
-            "components": {
-              "minecraft:enchantments": {
-                "minecraft:efficiency": 5,
-                "minecraft:mending": 1,
-                "minecraft:unbreaking": 3
-              }
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:mending"
+                },
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:efficiency",
+                  "levels": {
+                    "min": 5
+                  }
+                }
+              ]
             }
           }
         ]

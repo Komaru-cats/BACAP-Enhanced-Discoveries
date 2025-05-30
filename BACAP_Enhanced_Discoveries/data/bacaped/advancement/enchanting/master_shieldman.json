@@ -27,11 +27,18 @@
             "items": [
               "minecraft:shield"
             ],
-            "components": {
-              "minecraft:enchantments": {
-                "minecraft:unbreaking": 3,
-                "minecraft:mending": 1
-              }
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:mending"
+                },
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                }
+              ]
             }
           }
         ]

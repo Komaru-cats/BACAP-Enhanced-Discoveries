@@ -25,16 +25,51 @@
             "items": [
               "minecraft:netherite_sword"
             ],
-            "components": {
-              "minecraft:enchantments": {
-                "minecraft:unbreaking": 3,
-                "minecraft:mending": 1,
-                "minecraft:fire_aspect": 2,
-                "minecraft:looting": 3,
-                "minecraft:knockback": 2,
-                "minecraft:sweeping_edge": 3,
-                "minecraft:sharpness": 5
-              }
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:mending",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:fire_aspect",
+                  "levels": {
+                    "min": 2
+                  }
+                },
+                {
+                  "enchantments": "minecraft:looting",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:knockback",
+                  "levels": {
+                    "min": 2
+                  }
+                },
+                {
+                  "enchantments": "minecraft:sweeping_edge",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:sharpness",
+                  "levels": {
+                    "min": 5
+                  }
+                }
+              ]
             }
           }
         ]
@@ -48,16 +83,51 @@
             "items": [
               "minecraft:netherite_sword"
             ],
-            "components": {
-              "minecraft:enchantments": {
-                "minecraft:unbreaking": 3,
-                "minecraft:mending": 1,
-                "minecraft:fire_aspect": 2,
-                "minecraft:looting": 3,
-                "minecraft:knockback": 2,
-                "minecraft:sweeping_edge": 3,
-                "minecraft:bane_of_arthropods": 5
-              }
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:mending",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:fire_aspect",
+                  "levels": {
+                    "min": 2
+                  }
+                },
+                {
+                  "enchantments": "minecraft:looting",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:knockback",
+                  "levels": {
+                    "min": 2
+                  }
+                },
+                {
+                  "enchantments": "minecraft:sweeping_edge",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:bane_of_arthropods",
+                  "levels": {
+                    "min": 5
+                  }
+                }
+              ]
             }
           }
         ]
@@ -71,16 +141,51 @@
             "items": [
               "minecraft:netherite_sword"
             ],
-            "components": {
-              "minecraft:enchantments": {
-                "minecraft:unbreaking": 3,
-                "minecraft:mending": 1,
-                "minecraft:fire_aspect": 2,
-                "minecraft:looting": 3,
-                "minecraft:knockback": 2,
-                "minecraft:sweeping_edge": 3,
-                "minecraft:smite": 5
-              }
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:mending",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:fire_aspect",
+                  "levels": {
+                    "min": 2
+                  }
+                },
+                {
+                  "enchantments": "minecraft:looting",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:knockback",
+                  "levels": {
+                    "min": 2
+                  }
+                },
+                {
+                  "enchantments": "minecraft:sweeping_edge",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:smite",
+                  "levels": {
+                    "min": 5
+                  }
+                }
+              ]
             }
           }
         ]
@@ -94,13 +199,33 @@
             "items": [
               "minecraft:netherite_pickaxe"
             ],
-            "components": {
-              "minecraft:enchantments": {
-                "minecraft:efficiency": 5,
-                "minecraft:unbreaking": 3,
-                "minecraft:mending": 1,
-                "minecraft:silk_touch": 1
-              }
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:efficiency",
+                  "levels": {
+                    "min": 5
+                  }
+                },
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:mending",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:silk_touch",
+                  "levels": {
+                    "min": 1
+                  }
+                }
+              ]
             }
           }
         ]
@@ -114,13 +239,33 @@
             "items": [
               "minecraft:netherite_pickaxe"
             ],
-            "components": {
-              "minecraft:enchantments": {
-                "minecraft:efficiency": 5,
-                "minecraft:unbreaking": 3,
-                "minecraft:mending": 1,
-                "minecraft:fortune": 3
-              }
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:efficiency",
+                  "levels": {
+                    "min": 5
+                  }
+                },
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:mending",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:fortune",
+                  "levels": {
+                    "min": 3
+                  }
+                }
+              ]
             }
           }
         ]
@@ -134,13 +279,33 @@
             "items": [
               "minecraft:netherite_shovel"
             ],
-            "components": {
-              "minecraft:enchantments": {
-                "minecraft:efficiency": 5,
-                "minecraft:unbreaking": 3,
-                "minecraft:mending": 1,
-                "minecraft:silk_touch": 1
-              }
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:efficiency",
+                  "levels": {
+                    "min": 5
+                  }
+                },
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:mending",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:silk_touch",
+                  "levels": {
+                    "min": 1
+                  }
+                }
+              ]
             }
           }
         ]
@@ -154,13 +319,33 @@
             "items": [
               "minecraft:netherite_shovel"
             ],
-            "components": {
-              "minecraft:enchantments": {
-                "minecraft:efficiency": 5,
-                "minecraft:unbreaking": 3,
-                "minecraft:mending": 1,
-                "minecraft:fortune": 3
-              }
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:efficiency",
+                  "levels": {
+                    "min": 5
+                  }
+                },
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:mending",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:fortune",
+                  "levels": {
+                    "min": 3
+                  }
+                }
+              ]
             }
           }
         ]
@@ -174,13 +359,33 @@
             "items": [
               "minecraft:netherite_hoe"
             ],
-            "components": {
-              "minecraft:enchantments": {
-                "minecraft:efficiency": 5,
-                "minecraft:unbreaking": 3,
-                "minecraft:mending": 1,
-                "minecraft:silk_touch": 1
-              }
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:efficiency",
+                  "levels": {
+                    "min": 5
+                  }
+                },
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:mending",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:silk_touch",
+                  "levels": {
+                    "min": 1
+                  }
+                }
+              ]
             }
           }
         ]
@@ -194,13 +399,33 @@
             "items": [
               "minecraft:netherite_hoe"
             ],
-            "components": {
-              "minecraft:enchantments": {
-                "minecraft:efficiency": 5,
-                "minecraft:unbreaking": 3,
-                "minecraft:mending": 1,
-                "minecraft:fortune": 3
-              }
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:efficiency",
+                  "levels": {
+                    "min": 5
+                  }
+                },
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:mending",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:fortune",
+                  "levels": {
+                    "min": 3
+                  }
+                }
+              ]
             }
           }
         ]
@@ -214,14 +439,39 @@
             "items": [
               "minecraft:netherite_axe"
             ],
-            "components": {
-              "minecraft:enchantments": {
-                "minecraft:efficiency": 5,
-                "minecraft:unbreaking": 3,
-                "minecraft:mending": 1,
-                "minecraft:silk_touch": 1,
-                "minecraft:sharpness": 5
-              }
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:efficiency",
+                  "levels": {
+                    "min": 5
+                  }
+                },
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:mending",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:silk_touch",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:sharpness",
+                  "levels": {
+                    "min": 5
+                  }
+                }
+              ]
             }
           }
         ]
@@ -235,14 +485,39 @@
             "items": [
               "minecraft:netherite_axe"
             ],
-            "components": {
-              "minecraft:enchantments": {
-                "minecraft:efficiency": 5,
-                "minecraft:unbreaking": 3,
-                "minecraft:mending": 1,
-                "minecraft:silk_touch": 1,
-                "minecraft:bane_of_arthropods": 5
-              }
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:efficiency",
+                  "levels": {
+                    "min": 5
+                  }
+                },
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:mending",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:silk_touch",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:bane_of_arthropods",
+                  "levels": {
+                    "min": 5
+                  }
+                }
+              ]
             }
           }
         ]
@@ -256,14 +531,39 @@
             "items": [
               "minecraft:netherite_axe"
             ],
-            "components": {
-              "minecraft:enchantments": {
-                "minecraft:efficiency": 5,
-                "minecraft:unbreaking": 3,
-                "minecraft:mending": 1,
-                "minecraft:silk_touch": 1,
-                "minecraft:smite": 5
-              }
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:efficiency",
+                  "levels": {
+                    "min": 5
+                  }
+                },
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:mending",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:silk_touch",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:smite",
+                  "levels": {
+                    "min": 5
+                  }
+                }
+              ]
             }
           }
         ]
@@ -277,14 +577,39 @@
             "items": [
               "minecraft:netherite_axe"
             ],
-            "components": {
-              "minecraft:enchantments": {
-                "minecraft:efficiency": 5,
-                "minecraft:unbreaking": 3,
-                "minecraft:mending": 1,
-                "minecraft:fortune": 3,
-                "minecraft:sharpness": 5
-              }
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:efficiency",
+                  "levels": {
+                    "min": 5
+                  }
+                },
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:mending",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:fortune",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:sharpness",
+                  "levels": {
+                    "min": 5
+                  }
+                }
+              ]
             }
           }
         ]
@@ -298,14 +623,39 @@
             "items": [
               "minecraft:netherite_axe"
             ],
-            "components": {
-              "minecraft:enchantments": {
-                "minecraft:efficiency": 5,
-                "minecraft:unbreaking": 3,
-                "minecraft:mending": 1,
-                "minecraft:fortune": 3,
-                "minecraft:bane_of_arthropods": 5
-              }
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:efficiency",
+                  "levels": {
+                    "min": 5
+                  }
+                },
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:mending",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:fortune",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:bane_of_arthropods",
+                  "levels": {
+                    "min": 5
+                  }
+                }
+              ]
             }
           }
         ]
@@ -319,14 +669,39 @@
             "items": [
               "minecraft:netherite_axe"
             ],
-            "components": {
-              "minecraft:enchantments": {
-                "minecraft:efficiency": 5,
-                "minecraft:unbreaking": 3,
-                "minecraft:mending": 1,
-                "minecraft:fortune": 3,
-                "minecraft:smite": 5
-              }
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:efficiency",
+                  "levels": {
+                    "min": 5
+                  }
+                },
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:mending",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:fortune",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:smite",
+                  "levels": {
+                    "min": 5
+                  }
+                }
+              ]
             }
           }
         ]

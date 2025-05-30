@@ -35,8 +35,9 @@ execute as @a[gamemode=!spectator,advancements={bacaped:adventure/dual_reality=f
 execute as @a[gamemode=!spectator,advancements={bacaped:adventure/dual_reality=false}] at @s if dimension minecraft:the_nether run function bacaped:dual_reality/nether_check
 scoreboard players set @a[gamemode=!spectator] bacaped_in_struct_summary 0
 
-# Fix empty scoreboard `bacaped_ignite_tnt`
+# Fix empty scoreboard `bacaped_ignite_tnt`, `bacaped_totems_used`
 execute as @a unless score @s bacaped_ignite_tnt matches 1.. run scoreboard players add @s bacaped_ignite_tnt 0
+execute as @a unless score @s bacaped_totems_used matches 1.. run scoreboard players add @s bacaped_totems_used 0
 
 # Fanpacks Handling
 function #bacaped_fanpacks:10sec_timer

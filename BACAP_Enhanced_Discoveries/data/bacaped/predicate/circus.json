@@ -3,12 +3,14 @@
   "entity": "this",
   "predicate": {
     "type": "minecraft:enderman",
-    "nbt": "{CustomName:'\"Circus\"'}",
     "location": {
       "dimension": "minecraft:the_end"
     },
     "effects": {
       "minecraft:levitation": {}
+    },
+    "components": {
+      "minecraft:custom_name": "Circus"
     }
   }
 }
