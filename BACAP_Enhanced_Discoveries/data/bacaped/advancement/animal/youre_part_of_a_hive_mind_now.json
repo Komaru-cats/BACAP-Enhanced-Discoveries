@@ -13,45 +13,16 @@
       "translate": "Fill your inventory with beehives, each with three Bees"
     },
     "frame": "challenge",
-    "announce_to_chat": true,
-    "hidden": true
+    "announce_to_chat": true
   },
   "parent": "blazeandcave:animal/nest_quick",
   "criteria": {
     "trigger": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:location",
       "conditions": {
-        "items": [
-          {
-            "items": "minecraft:beehive",
-            "count": 37,
-            "components": {
-              "minecraft:bees": [
-                {
-                  "entity_data": {
-                    "id": "minecraft:bee"
-                  },
-                  "min_ticks_in_hive": 0,
-                  "ticks_in_hive": 0
-                },
-                {
-                  "entity_data": {
-                    "id": "minecraft:bee"
-                  },
-                  "min_ticks_in_hive": 0,
-                  "ticks_in_hive": 0
-                },
-                {
-                  "entity_data": {
-                    "id": "minecraft:bee"
-                  },
-                  "min_ticks_in_hive": 0,
-                  "ticks_in_hive": 0
-                }
-              ]
-            }
-          }
-        ]
+        "player": {
+          "nbt": "{Inventory:[{Slot: 0b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 1b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 2b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 3b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 4b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 5b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 6b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 7b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 8b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 9b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 10b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 11b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 12b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 13b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 14b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 15b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 16b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 17b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 18b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 19b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 20b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 21b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 22b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 23b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 24b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 25b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 26b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 27b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 28b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 29b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 30b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 31b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 32b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 33b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 34b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}, {Slot: 35b, components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}, id: \"minecraft:beehive\"}], equipment:{offhand: {id: \"minecraft:beehive\", components: {\"minecraft:bees\": [{entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}, {entity_data: {id: \"minecraft:bee\"}}]}}}}"
+        }
       }
     }
   },

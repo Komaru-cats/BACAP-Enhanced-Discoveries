@@ -22,15 +22,13 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "stepping_on": {
-            "block": {
-              "blocks": [
-                "minecraft:blue_ice"
-              ]
-            }
-          },
           "vehicle": {
-            "type": "#blazeandcave:all_boats"
+            "type": "#blazeandcave:all_boats",
+            "stepping_on": {
+              "block": {
+                "blocks": "minecraft:blue_ice"
+              }
+            }
           }
         }
       }
