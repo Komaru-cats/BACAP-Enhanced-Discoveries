@@ -72,7 +72,7 @@ execute if score exp bac_settings matches -2 if entity @s[team=bac_team_light_pu
 execute if score exp bac_settings matches -2 if entity @s[team=bac_team_yellow] unless score bacaped:animal/youre_part_of_a_hive_mind_now bac_obtained_yellow matches 1.. run function bacaped_rewards:exp/animal/youre_part_of_a_hive_mind_now
 execute if score exp bac_settings matches -2 if entity @s[team=bac_team_white] unless score bacaped:animal/youre_part_of_a_hive_mind_now bac_obtained_white matches 1.. run function bacaped_rewards:exp/animal/youre_part_of_a_hive_mind_now
 
-#function bacap_rewards:score_add
+function bacap_rewards:score_add
 
 execute unless score bacaped:animal/youre_part_of_a_hive_mind_now bac_obtained matches 1.. run function bacap_rewards:first_score_add
 execute if entity @s[team=bac_team_black] unless score bacaped:animal/youre_part_of_a_hive_mind_now bac_obtained_black matches 1.. run function bacap_rewards:first_team_score_add
