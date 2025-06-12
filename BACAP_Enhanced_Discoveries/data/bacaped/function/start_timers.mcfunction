@@ -3,7 +3,6 @@ scoreboard objectives add bacaped_dragon_blitz dummy
 scoreboard objectives add bacaped_air_battle dummy
 scoreboard objectives add bacaped_dragon1_timer dummy
 scoreboard objectives add bacaped_dragon2_timer dummy
-scoreboard objectives add bacaped_install dummy
 scoreboard objectives add bacaped_in_lava_cauldron dummy
 scoreboard objectives add bacaped_warden_mason dummy
 scoreboard objectives add bacaped_ravager_count dummy
@@ -53,5 +52,4 @@ function bacaped:10sec_timer
 
 # Install
 execute if score bac_created bac_created matches 1 unless score bacaped bacaped_install matches 1 run function bacaped:install
-execute if score bac_created bac_created matches 1 run scoreboard players set bacaped bacaped_install 1
 execute if score bac_created bac_created matches 1 run schedule clear bacaped:bacap_is_not_installed_msg

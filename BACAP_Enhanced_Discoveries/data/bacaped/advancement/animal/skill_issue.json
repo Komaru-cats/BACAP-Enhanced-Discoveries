@@ -19,7 +19,7 @@
       "trigger": "minecraft:entity_killed_player",
       "conditions": {
         "entity": {
-          "type": "minecraft:llama"
+          "type": "#blazeandcave:llamas"
         }
       }
     }
