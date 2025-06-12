@@ -30,7 +30,20 @@
             ],
             "looking_at": {
               "type": "minecraft:villager",
-              "nbt": "{ArmorItems:[{id: \"minecraft:netherite_boots\"}, {id: \"minecraft:netherite_leggings\"}, {id: \"minecraft:netherite_chestplate\"}, {id: \"minecraft:netherite_helmet\"}]}"
+              "slots": {
+                "armor.legs": {
+                  "items": "minecraft:netherite_leggings"
+                },
+                "armor.feet": {
+                  "items": "minecraft:netherite_boots"
+                },
+                "armor.head": {
+                  "items": "minecraft:netherite_helmet"
+                },
+                "armor.chest": {
+                  "items": "minecraft:netherite_chestplate"
+                }
+              }
             }
           }
         }

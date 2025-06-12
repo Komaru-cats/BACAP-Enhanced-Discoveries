@@ -23,7 +23,7 @@
       "translate": "Monstrous Rocket"
     },
     "description": {
-      "translate": "Kill a Warden with an empty inventory while both you and it 500 blocks above the world",
+      "translate": "Kill a Warden with an empty inventory while both you and it are 500 blocks above the world",
       "color": "#FF2A2A"
     },
     "frame": "challenge",

@@ -4,7 +4,7 @@
   "predicate": {
     "type": "minecraft:player",
     "vehicle": {
-      "type": "minecraft:llama"
+      "type": "#blazeandcave:llamas"
     }
   }
 }

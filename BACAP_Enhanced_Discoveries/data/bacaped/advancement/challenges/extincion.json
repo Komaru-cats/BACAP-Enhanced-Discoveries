@@ -31,7 +31,7 @@
         },
         "victims": [
           {
-            "type": "minecraft:llama",
+            "type": "#blazeandcave:llamas",
             "nbt": "{Strength:5}"
           },
           {

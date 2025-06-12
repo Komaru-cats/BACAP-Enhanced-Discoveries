@@ -354,7 +354,7 @@
 "Jump for Joy": "Прыжки от Радости",
 "Kill every jumping mob while both you and it have the jump boost effect": "Убейте всех прыгающих мобов пока он и вы оба имеете эффект Прыгучести",
 "Monstrous Rocket": "Чудовищная Ракета",
-"Kill a Warden with an empty inventory while both you and it 500 blocks above the world": "Убейте Хранителя с пустым инвентарем пока он и вы выше 500 блоков от уровня мира",
+"Kill a Warden with an empty inventory while both you and it are 500 blocks above the world": "Убейте Хранителя с пустым инвентарем пока он и вы выше 500 блоков от уровня мира",
 "Command Work": "Командная Работа",
 "Kill the Ender Dragon with a Ghast's fireball without any items in your inventory and under nausea effect": "Убейте Эндер Дракона Огненным Шаром Гаста с пустым инвентарем и эффектом тошноты",
 "Airborne Annihilator": "Воздушный Уничтожитель",
@@ -635,11 +635,11 @@
 "Master of Survival": "Мастер Выживания",
 "Avoid dying for 50 hours": "Избегайте смерти на протяжение 50 часов",
 # Hardcore
-"Avoid using totem of undying for 100 hours": "Избегайте использования тотема бессмертия на протяжение 100 часов",
+"Avoid using totem of undying for 50 hours": "Избегайте использования тотема бессмертия на протяжение 50 часов",
 "Eternal Vanguard": "Бессмертный Страж",
 "Avoid dying for 200 hours": "Избегайте смерти на протяжение 200 часов",
 # Hardcore
-"Avoid using totem of undying for 500 hours": "Избегайте использования тотема бессмертия на протяжение 500 часов",
+"Avoid using totem of undying for 200 hours": "Избегайте использования тотема бессмертия на протяжение 200 часов",
 "Novice Angler": "Рыбак-Новичок",
 "Catch 5 fish with a fishing rod": "Поймайте 5 рыб с помощью удочки",
 "Intermediate Fisher": "Рыбак-Любитель",
