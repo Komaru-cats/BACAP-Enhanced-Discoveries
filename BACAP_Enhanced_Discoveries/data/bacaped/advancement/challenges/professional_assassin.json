@@ -1273,6 +1273,25 @@
         }
       }
     },
+    "happy_ghast": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:happy_ghast",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
     "strider": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {

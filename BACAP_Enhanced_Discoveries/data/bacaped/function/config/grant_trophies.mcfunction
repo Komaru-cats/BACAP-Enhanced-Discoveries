@@ -142,6 +142,7 @@ execute as @s[advancements={bacaped:statistics/duo_dynamo=true}] run function ba
 execute as @s[advancements={bacaped:statistics/epic_capital_conqueror=true}] run function bacaped_rewards:trophy/statistics/epic_capital_conqueror
 execute as @s[advancements={bacaped:statistics/eternal_vanguard=true}] run function bacaped_rewards:trophy/statistics/eternal_vanguard
 execute as @s[advancements={bacaped:statistics/experienced_angler=true}] run function bacaped_rewards:trophy/statistics/experienced_angler
+execute as @s[advancements={bacaped:statistics/ghastonaut=true}] run function bacaped_rewards:trophy/statistics/ghastonaut
 execute as @s[advancements={bacaped:statistics/happy_1000_days=true}] run function bacaped_rewards:trophy/statistics/happy_1000_days
 execute as @s[advancements={bacaped:statistics/happy_chest_year=true}] run function bacaped_rewards:trophy/statistics/happy_chest_year
 execute as @s[advancements={bacaped:statistics/intercontinental_rail_nexus=true}] run function bacaped_rewards:trophy/statistics/intercontinental_rail_nexus

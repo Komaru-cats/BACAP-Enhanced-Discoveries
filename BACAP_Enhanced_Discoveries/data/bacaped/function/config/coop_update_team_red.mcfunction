@@ -299,6 +299,7 @@ execute if score bacaped:statistics/duo_dynamo bac_obtained_red matches 1.. run 
 execute if score bacaped:statistics/epic_capital_conqueror bac_obtained_red matches 1.. run advancement grant @a[team=bac_team_red] only bacaped:statistics/epic_capital_conqueror
 execute if score bacaped:statistics/eternal_vanguard bac_obtained_red matches 1.. run advancement grant @a[team=bac_team_red] only bacaped:statistics/eternal_vanguard
 execute if score bacaped:statistics/experienced_angler bac_obtained_red matches 1.. run advancement grant @a[team=bac_team_red] only bacaped:statistics/experienced_angler
+execute if score bacaped:statistics/ghastonaut bac_obtained_red matches 1.. run advancement grant @a[team=bac_team_red] only bacaped:statistics/ghastonaut
 execute if score bacaped:statistics/happy_1000_days bac_obtained_red matches 1.. run advancement grant @a[team=bac_team_red] only bacaped:statistics/happy_1000_days
 execute if score bacaped:statistics/happy_chest_year bac_obtained_red matches 1.. run advancement grant @a[team=bac_team_red] only bacaped:statistics/happy_chest_year
 execute if score bacaped:statistics/intercontinental_rail_nexus bac_obtained_red matches 1.. run advancement grant @a[team=bac_team_red] only bacaped:statistics/intercontinental_rail_nexus

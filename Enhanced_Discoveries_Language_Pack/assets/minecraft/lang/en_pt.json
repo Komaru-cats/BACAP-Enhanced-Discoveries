@@ -164,7 +164,7 @@
     "Take Damage from a Fox": "Feel the snap o’ a fox’s bite, ye curious soul!",
     "Pie-Fox Fest": "Pumpkin Fox Feast",
     "Feed a Fox a pumpkin pie": "Treat a fox t’ a sweet slice o’ autumn delight!",
-    "The Fox’s Banquet": "Fox Feast Master",
+    "The Fox's Banquet": "Fox Feast Master",
     "Feed a Fox all types of food": "Spoil yer foxy friend with a grand buffet!",
     "Fox Poses": "Fox Spy",
     "Look at a Fox in all its poses using a spyglass": "Observe the sly critter’s every stance through yer scope!",
@@ -1260,7 +1260,7 @@
 //    "Deflector": "",
 //    "Deflect a blow that does at least 40 damage with your shield": "",
 //    "Surface-to-Air Missile": "",
-//    "Give a Charged Creeper the levitation effect and set it on fire while it’s airborne": "",
+//    "Give a Charged Creeper the levitation effect and set it on fire while it's airborne": "",
 //    "Wind Burst Fox": "",
 //    "Give a Wind Burst 3 Mace to the Fox": ""
 //"Give an Enderman levitation, then name it \"Circus\" in the End, and finally, kill It in the Overworld using TNT, before the levitation runs out": "Put on a levitatin’ Enderman act, rename it to \"Circus\", then blow it sky-high back home!"
@@ -1291,4 +1291,8 @@
 //"Eighth Enhanced line complete…": "",
 //"Ninth Enhanced line complete…": "",
 //"and ": "" // Don't forget space at the end here
+//"Ghastonaut": ""
+//"Ride 50km on a Happy Ghast": ""
+//"Diamond Harness": ""
+//"Tighter, than others": ""
 }
