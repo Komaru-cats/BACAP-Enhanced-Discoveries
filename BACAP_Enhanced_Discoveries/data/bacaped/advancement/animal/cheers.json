@@ -211,6 +211,105 @@
           }
         ]
       }
+    },
+    "horse_horse_armor": {
+      "trigger": "minecraft:player_sheared_equipment",
+      "conditions": {
+        "item": {
+          "items": "#bacaped:horse_armor"
+        },
+        "entity": {
+          "type": "minecraft:horse"
+        }
+      }
+    },
+    "horse_saddle": {
+      "trigger": "minecraft:player_sheared_equipment",
+      "conditions": {
+        "item": {
+          "items": "minecraft:saddle"
+        },
+        "entity": {
+          "type": "minecraft:horse"
+        }
+      }
+    },
+    "mule_saddle": {
+      "trigger": "minecraft:player_sheared_equipment",
+      "conditions": {
+        "item": {
+          "items": "minecraft:saddle"
+        },
+        "entity": {
+          "type": "minecraft:mule"
+        }
+      }
+    },
+    "pig_saddle": {
+      "trigger": "minecraft:player_sheared_equipment",
+      "conditions": {
+        "item": {
+          "items": "minecraft:saddle"
+        },
+        "entity": {
+          "type": "minecraft:pig"
+        }
+      }
+    },
+    "strider_saddle": {
+      "trigger": "minecraft:player_sheared_equipment",
+      "conditions": {
+        "item": {
+          "items": "minecraft:saddle"
+        },
+        "entity": {
+          "type": "minecraft:strider"
+        }
+      }
+    },
+    "camel_saddle": {
+      "trigger": "minecraft:player_sheared_equipment",
+      "conditions": {
+        "item": {
+          "items": "minecraft:saddle"
+        },
+        "entity": {
+          "type": "minecraft:camel"
+        }
+      }
+    },
+    "donkey_saddle": {
+      "trigger": "minecraft:player_sheared_equipment",
+      "conditions": {
+        "item": {
+          "items": "minecraft:saddle"
+        },
+        "entity": {
+          "type": "minecraft:donkey"
+        }
+      }
+    },
+    "llamas_carpet": {
+      "trigger": "minecraft:player_sheared_equipment",
+      "conditions": {
+        "item": {
+          "items": "#minecraft:wool_carpets"
+        },
+        "entity": {
+          "type": "#blazeandcave:llamas"
+        }
+      }
+    },
+    "happy_ghast": {
+      "trigger": "minecraft:player_sheared_equipment",
+      "conditions": {
+        "item": {
+          "items": "#minecraft:harnesses"
+        },
+        "entity": {
+          "type": "minecraft:happy_ghast"
+        }
+      }
     }
   },
   "rewards": {

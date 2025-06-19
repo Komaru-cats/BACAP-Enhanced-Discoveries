@@ -1,9 +1,9 @@
 {
   "pack": {
-    "pack_format": 48,
+    "pack_format": 80,
     "supported_formats": {
-      "min_inclusive": 48,
-      "max_inclusive": 100
+      "min_inclusive": 80,
+      "max_inclusive": 999
     },
     "description": "\"Enhanced discoveries\" is an add-on for BACAP with new advancements"
   }

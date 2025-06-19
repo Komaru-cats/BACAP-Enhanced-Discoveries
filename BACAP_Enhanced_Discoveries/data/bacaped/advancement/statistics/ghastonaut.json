@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magenta_harness"
+    },
+    "title": {
+      "translate": "Ghastonaut"
+    },
+    "description": {
+      "color": "light_purple",
+      "translate": "Ride 50km on a Happy Ghast"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "blazeandcave:statistics/big_blimp_enthusiast",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:happy_ghast_one_cm",
+                "value": {
+                  "min": 5000000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:statistics/ghastonaut"
+  }
+}
