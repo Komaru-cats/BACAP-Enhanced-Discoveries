@@ -15,7 +15,6 @@ execute as @a[gamemode=!spectator] at @s if entity @e[type=wither,distance=..48]
 # Baby Zoo Check
 execute as @a[gamemode=!spectator,advancements={bacaped:animal/baby_zoo=false}] at @s run function bacaped:mob_collections/baby_zoo_check
 
-
 # Magic_kingdom
 execute as @a[gamemode=!spectator] at @s if entity @e[type=warden,distance=..32] run function bacaped:mob_collections/magic_kingdom_check
 
@@ -45,6 +44,9 @@ execute as @a[advancements={bacaped:end/intergalactic_journey=false}] unless pre
 
 # Pooch Purge Pilot
 execute as @a[advancements={bacaped:challenges/pooch_purge_pilot=false}] run execute unless entity @s[predicate=bacaped:is_sitting_on_llama] run advancement revoke @s only bacaped:challenges/pooch_purge_pilot
+
+# Australia
+execute as @a[advancements={bacaped:biomes/australia=false}] at @s if entity @e[type=pig,distance=..8,predicate=bacaped:australia_pig] run advancement grant @s only bacaped:biomes/australia
 
 # Dead Carnival
 execute as @a[gamemode=!spectator,advancements={bacaped:challenges/dead_carnaval=false}] run advancement revoke @s only bacaped:challenges/dead_carnaval

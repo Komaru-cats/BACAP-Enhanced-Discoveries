@@ -93,6 +93,19 @@
         }
       }
     },
+    "flint_and_steal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:mining/flint_and_steal": true
+            }
+          }
+        }
+      }
+    },
     "light_at_the_end_of_the_tunnel": {
       "trigger": "minecraft:location",
       "conditions": {

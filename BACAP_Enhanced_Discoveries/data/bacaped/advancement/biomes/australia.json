@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bush"
+    },
+    "title": {
+      "translate": "Australia"
+    },
+    "description": {
+      "translate": "Flip a warm Pig and stick it on the ceiling of the grass block (stay within 8 blocks of it)",
+      "color": "green"
+    },
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "blazeandcave:biomes/simba",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:biomes/australia"
+  }
+}

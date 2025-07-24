@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_horse_armor",
+      "components": {
+        "minecraft:dyed_color": 8406016
+      }
+    },
+    "title": {
+      "translate": "Ligmifitation"
+    },
+    "description": {
+      "translate": "Ride a Horse that moves 14.22 blocks per second",
+      "color": "light_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "bacaped:statistics/legend_of_the_races",
+  "criteria": {
+    "horse_14_22_bps": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:statistics/ligmifitation"
+  }
+}

@@ -1,6 +1,7 @@
 {
 # Enhanced Discoveries Language File
 
+
 # How to use: Name and descriptions of advancement to left of: and put translation to right of:, inside the speech marks "" like this: "Advancement Description"
 # Some advancement titles make use of puns that would work in English but probably not in other languages. Be creative if you wish if you can find any puns in foreign languages.
 
@@ -1293,4 +1294,37 @@
     "Ride 50km on a Happy Ghast": "骑乘快乐恶魂飞行50公里",
     "Diamond Harness": "钻石挽具",
     "Tighter, than others": "更紧致，更结实"
+    //"We Are Fine, Really": "",
+    //"Find Mansion in the Pale Garden": "",
+    //"Australia": "",
+    //"Flip a warm Pig and stick it on the ceiling of the grass block (stay within 8 blocks of it)": "",
+    //"CoolGrill": "",
+    //"Cook some meat on a campfire while being on an iceberg": "",
+    //"To view progress, run:": "",
+    //"Chromatic Completion": "",
+    //"Craft all dyes in all possible ways": "",
+    //"Mounted Menace": "",
+    //"Have a Witch on a temperate Chicken, a Husk on a cold Chicken, and a Drowned with a trident on a warm Chicken in one place (have them all within 8 blocks of you)": "",
+    //"Poultry Patrol": "",
+    //"Who’s really in charge here?": "",
+    //"Silence Is Loud Here": "",
+    //"Step into the Outer Ring of the End Dimension": "",
+    //"Thousand Lives": "",
+    //"Fill your inventory with yellow shulker boxes full of Totems of Undying": "",
+    //"Fully Charged": "",
+    //"Enchant all items that can be enchanted at the Enchanting Table at least once": "",
+    //"Cookie Eater": "",
+    //"Eat 500 cookies during 1 ingame day": "",
+    //"Complete Orellection": "",
+    //"Mine a stack of raw deepslate emerald ore": "",
+    //"Last Deepslate Emerald Ore in the World": "",
+    //"You could've just traded with a villager": "",
+    //"Flint and Steal": "",
+    //"Let the mob steal your flint": "",
+    //"Ghast Squad": "",
+    //"Ride a Happy Ghast together with 3 other players": "",
+    //"Using a Bow, a Bow, a Bow, a Bow": "",
+    //"Open a Dispenser with a bow inside it while holding a bow in your mainhand and offhand": "",
+    //"Ligmifitation": "",
+    //"Ride a Horse that moves 14.22 blocks per second": ""
 }

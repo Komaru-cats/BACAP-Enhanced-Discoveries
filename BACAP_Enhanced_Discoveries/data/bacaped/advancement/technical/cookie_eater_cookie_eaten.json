@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:cookie"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped:cookie_eater/add"
+  }
+}

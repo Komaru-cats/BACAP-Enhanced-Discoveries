@@ -1,0 +1,2 @@
+give @s saddle[enchantment_glint_override=true, lore=[{translate:"Who’s really in charge here?",color:"#C59A68"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Mounted Menace",color:"#FFAEFF",italic:false}], custom_name={translate:"Poultry Patrol",color:"#C59A68",bold:true,italic:false}, custom_model_data={floats:[I;15501]}, custom_data={Trophy:1}] 1
+tellraw @s {"color": "gold", "text": " +1 ", "extra": [{"translate": "Poultry Patrol"}]}

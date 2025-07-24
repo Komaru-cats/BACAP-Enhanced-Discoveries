@@ -54,6 +54,19 @@
         }
       }
     },
+    "cookie_eater": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:farming/cookie_eater": true
+            }
+          }
+        }
+      }
+    },
     "delicious": {
       "trigger": "minecraft:location",
       "conditions": {

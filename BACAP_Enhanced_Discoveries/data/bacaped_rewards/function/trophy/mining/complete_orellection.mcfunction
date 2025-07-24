@@ -1,0 +1,2 @@
+give @s deepslate_emerald_ore[enchantment_glint_override=true, lore=[{translate:"You could\'ve just traded with a villager",color:"#55C568"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Complete Orellection",color:"#FFAEFF",italic:false}], custom_name={translate:"Last Deepslate Emerald Ore in the World",color:"#55C568",bold:true,italic:false}, custom_model_data={floats:[I;15501]}, custom_data={Trophy:1}] 1
+tellraw @s {"color": "gold", "text": " +1 ", "extra": [{"translate": "Last Deepslate Emerald Ore in the World"}]}

@@ -486,6 +486,19 @@
         }
       }
     },
+    "we_are_fine_really": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:adventure/we_are_fine_really": true
+            }
+          }
+        }
+      }
+    },
     "accept_cookies": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -1214,6 +1227,32 @@
         }
       }
     },
+    "australia": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:biomes/australia": true
+            }
+          }
+        }
+      }
+    },
+    "coolgrill": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:biomes/coolgrill": true
+            }
+          }
+        }
+      }
+    },
     "good_dreams": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -1430,6 +1469,19 @@
             "type": "player",
             "advancements": {
               "bacaped:building/bee_design": true
+            }
+          }
+        }
+      }
+    },
+    "chromatic_completion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:building/chromatic_completion": true
             }
           }
         }
@@ -2007,6 +2059,19 @@
         }
       }
     },
+    "silence_is_loud_here": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/silence_is_loud_here": true
+            }
+          }
+        }
+      }
+    },
     "so_bright": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -2067,6 +2132,19 @@
             "type": "player",
             "advancements": {
               "bacaped:challenges/the_world_is_actually_ending_2": true
+            }
+          }
+        }
+      }
+    },
+    "thousand_lives": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/thousand_lives": true
             }
           }
         }
@@ -2145,6 +2223,19 @@
             "type": "player",
             "advancements": {
               "bacaped:enchanting/elementals": true
+            }
+          }
+        }
+      }
+    },
+    "fully_charged": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:enchanting/fully_charged": true
             }
           }
         }
@@ -2436,6 +2527,19 @@
         }
       }
     },
+    "cookie_eater": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:farming/cookie_eater": true
+            }
+          }
+        }
+      }
+    },
     "delicious": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -2652,6 +2756,19 @@
             "type": "player",
             "advancements": {
               "bacaped:mining/distorted_cave_maze": true
+            }
+          }
+        }
+      }
+    },
+    "flint_and_steal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:mining/flint_and_steal": true
             }
           }
         }
@@ -3471,6 +3588,19 @@
             "type": "player",
             "advancements": {
               "bacaped:redstone/say_no_to_campfires": true
+            }
+          }
+        }
+      }
+    },
+    "using_a_bow_a_bow_a_bow_a_bow": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:redstone/using_a_bow_a_bow_a_bow_a_bow": true
             }
           }
         }

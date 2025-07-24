@@ -1,0 +1,6300 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            -1096624936,
+            700138983,
+            -1741269048,
+            -304118332
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmEzZDNiM2Q2NTVkNGZlOGZiYTdjMWM0ZWE3OTlmYzZiZDJhZWFhMzA2MmJlNjRkZDk2OTcyMzdlNDllNWYxNCJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "Thousand Lives"
+    },
+    "description": {
+      "translate": "Fill your inventory with yellow shulker boxes full of Totems of Undying",
+      "color": "#FF2A2A"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/death_from_all",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "slots": {
+            "weapon.offhand": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "hotbar.0": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "hotbar.1": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "hotbar.2": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "hotbar.3": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "hotbar.4": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "hotbar.5": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "hotbar.6": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "hotbar.7": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "hotbar.8": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "inventory.0": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "inventory.1": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "inventory.2": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "inventory.3": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "inventory.4": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "inventory.5": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "inventory.6": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "inventory.7": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "inventory.8": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "inventory.9": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "inventory.10": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "inventory.11": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "inventory.12": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "inventory.13": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "inventory.14": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "inventory.15": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "inventory.16": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "inventory.17": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "inventory.18": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "inventory.19": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "inventory.20": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "inventory.21": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "inventory.22": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "inventory.23": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "inventory.24": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "inventory.25": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            },
+            "inventory.26": {
+              "items": "minecraft:yellow_shulker_box",
+              "components": {
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:totem_of_undying"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:challenges/thousand_lives"
+  }
+}

@@ -15,6 +15,32 @@
   },
   "parent": "bacaped:bacap/enhanced_weaponry_milestone",
   "criteria": {
+    "australia": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:biomes/australia": true
+            }
+          }
+        }
+      }
+    },
+    "coolgrill": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:biomes/coolgrill": true
+            }
+          }
+        }
+      }
+    },
     "good_dreams": {
       "trigger": "minecraft:location",
       "conditions": {

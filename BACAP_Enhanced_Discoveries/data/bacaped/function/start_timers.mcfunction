@@ -19,6 +19,12 @@ scoreboard objectives add bacaped_ignite_tnt dummy
 scoreboard objectives add bacaped_riddle_nine_line_cat_var dummy
 scoreboard objectives add bacaped_riddle_nine_line_cat_num dummy
 scoreboard objectives add bacaped_totems_used dummy
+scoreboard objectives add bacaped_coord_x dummy
+scoreboard objectives add bacaped_coord_z dummy
+scoreboard objectives add bacaped_distance_from_0_0 dummy
+scoreboard objectives add bacaped_ghast_passenger_count dummy
+scoreboard objectives add bacaped_current_day dummy
+scoreboard objectives add bacaped_cookies_eaten_today dummy
 
 # In Structures
 scoreboard objectives add bacaped_in_struct_ancient_city dummy

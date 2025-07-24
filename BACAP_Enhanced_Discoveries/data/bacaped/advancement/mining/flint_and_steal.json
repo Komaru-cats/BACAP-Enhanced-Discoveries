@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:flint_and_steel"
+    },
+    "title": {
+      "translate": "Flint and Steal"
+    },
+    "description": {
+      "translate": "Let the mob steal your flint",
+      "color": "green"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/strike_a_light",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:flint"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:mining/flint_and_steal"
+  }
+}

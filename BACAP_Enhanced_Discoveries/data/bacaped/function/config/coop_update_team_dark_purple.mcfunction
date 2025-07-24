@@ -40,6 +40,7 @@ execute if score bacaped:adventure/wandering_caravane bac_obtained_dark_purple m
 execute if score bacaped:adventure/wardens_thrust bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:adventure/wardens_thrust
 execute if score bacaped:adventure/water_dependent bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:adventure/water_dependent
 execute if score bacaped:adventure/water_team bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:adventure/water_team
+execute if score bacaped:adventure/we_are_fine_really bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:adventure/we_are_fine_really
 execute if score bacaped:animal/a_ewe_for_every_hue bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:animal/a_ewe_for_every_hue
 execute if score bacaped:animal/accept_cookies bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:animal/accept_cookies
 execute if score bacaped:animal/air_balloon bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:animal/air_balloon
@@ -99,6 +100,8 @@ execute if score bacaped:bacap/enhanced_potion_milestone bac_obtained_dark_purpl
 execute if score bacaped:bacap/enhanced_redstone_milestone bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:bacap/enhanced_redstone_milestone
 execute if score bacaped:bacap/enhanced_statistics_milestone bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:bacap/enhanced_statistics_milestone
 execute if score bacaped:bacap/enhanced_weaponry_milestone bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:bacap/enhanced_weaponry_milestone
+execute if score bacaped:biomes/australia bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:biomes/australia
+execute if score bacaped:biomes/coolgrill bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:biomes/coolgrill
 execute if score bacaped:biomes/good_dreams bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:biomes/good_dreams
 execute if score bacaped:biomes/hydrodynamic bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:biomes/hydrodynamic
 execute if score bacaped:biomes/ice_sculptor bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:biomes/ice_sculptor
@@ -116,6 +119,7 @@ execute if score bacaped:biomes/unite_storm bac_obtained_dark_purple matches 1..
 execute if score bacaped:building/art_lover bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:building/art_lover
 execute if score bacaped:building/artificial_forest bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:building/artificial_forest
 execute if score bacaped:building/bee_design bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:building/bee_design
+execute if score bacaped:building/chromatic_completion bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:building/chromatic_completion
 execute if score bacaped:building/pot_on_a_pot bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:building/pot_on_a_pot
 execute if score bacaped:building/potception bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:building/potception
 execute if score bacaped:building/smoke_signal bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:building/smoke_signal
@@ -148,6 +152,7 @@ execute if score bacaped:challenges/interspecific_adventure bac_obtained_dark_pu
 execute if score bacaped:challenges/magic_kingdom bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:challenges/magic_kingdom
 execute if score bacaped:challenges/mob_universe bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:challenges/mob_universe
 execute if score bacaped:challenges/monstrous_rocket bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:challenges/monstrous_rocket
+execute if score bacaped:challenges/mounted_menace bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:challenges/mounted_menace
 execute if score bacaped:challenges/my_little_pig bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:challenges/my_little_pig
 execute if score bacaped:challenges/no_shield_please bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:challenges/no_shield_please
 execute if score bacaped:challenges/oh_my_broken_legs bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:challenges/oh_my_broken_legs
@@ -164,11 +169,13 @@ execute if score bacaped:challenges/sandwich bac_obtained_dark_purple matches 1.
 execute if score bacaped:challenges/shield_of_achilles bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:challenges/shield_of_achilles
 execute if score bacaped:challenges/shopaholic bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:challenges/shopaholic
 execute if score bacaped:challenges/show_the_nether_to_a_silverfish bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:challenges/show_the_nether_to_a_silverfish
+execute if score bacaped:challenges/silence_is_loud_here bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:challenges/silence_is_loud_here
 execute if score bacaped:challenges/so_bright bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:challenges/so_bright
 execute if score bacaped:challenges/star_fisherman bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:challenges/star_fisherman
 execute if score bacaped:challenges/the_apocalyptic_decalogy bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:challenges/the_apocalyptic_decalogy
 execute if score bacaped:challenges/the_king_of_the_redskins bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:challenges/the_king_of_the_redskins
 execute if score bacaped:challenges/the_world_is_actually_ending_2 bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:challenges/the_world_is_actually_ending_2
+execute if score bacaped:challenges/thousand_lives bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:challenges/thousand_lives
 execute if score bacaped:challenges/void_being bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:challenges/void_being
 execute if score bacaped:challenges/what_a_stupid_purchase bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:challenges/what_a_stupid_purchase
 execute if score bacaped:challenges/what_are_the_chances bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:challenges/what_are_the_chances
@@ -177,6 +184,7 @@ execute if score bacaped:challenges/yes bac_obtained_dark_purple matches 1.. run
 execute if score bacaped:challenges/zero_coordinates_magnet bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:challenges/zero_coordinates_magnet
 execute if score bacaped:enchanting/all_the_netherite_tools bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:enchanting/all_the_netherite_tools
 execute if score bacaped:enchanting/elementals bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:enchanting/elementals
+execute if score bacaped:enchanting/fully_charged bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:enchanting/fully_charged
 execute if score bacaped:enchanting/heavy_catch bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:enchanting/heavy_catch
 execute if score bacaped:enchanting/master_shearer bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:enchanting/master_shearer
 execute if score bacaped:enchanting/master_shieldman bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:enchanting/master_shieldman
@@ -201,6 +209,7 @@ execute if score bacaped:end/universal_solitude bac_obtained_dark_purple matches
 execute if score bacaped:farming/apple_addiction bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:farming/apple_addiction
 execute if score bacaped:farming/auto_cactus bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:farming/auto_cactus
 execute if score bacaped:farming/christmas_spirit bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:farming/christmas_spirit
+execute if score bacaped:farming/cookie_eater bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:farming/cookie_eater
 execute if score bacaped:farming/delicious bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:farming/delicious
 execute if score bacaped:farming/eco_warrior bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:farming/eco_warrior
 execute if score bacaped:farming/golems bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:farming/golems
@@ -214,10 +223,12 @@ execute if score bacaped:farming/preventive_conversation bac_obtained_dark_purpl
 execute if score bacaped:farming/raising_canes bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:farming/raising_canes
 execute if score bacaped:mining/batman bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:mining/batman
 execute if score bacaped:mining/chief_spide bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:mining/chief_spide
+execute if score bacaped:mining/complete_orellection bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:mining/complete_orellection
 execute if score bacaped:mining/copper_king bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:mining/copper_king
 execute if score bacaped:mining/deepslate_master bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:mining/deepslate_master
 execute if score bacaped:mining/deepslated_miner bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:mining/deepslated_miner
 execute if score bacaped:mining/distorted_cave_maze bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:mining/distorted_cave_maze
+execute if score bacaped:mining/flint_and_steal bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:mining/flint_and_steal
 execute if score bacaped:mining/light_at_the_end_of_the_tunnel bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:mining/light_at_the_end_of_the_tunnel
 execute if score bacaped:mining/pointy_problems bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:mining/pointy_problems
 execute if score bacaped:mining/redstoner bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:mining/redstoner
@@ -248,6 +259,7 @@ execute if score bacaped:nether/diamond_beacon bac_obtained_dark_purple matches 
 execute if score bacaped:nether/emerald_beacon bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:nether/emerald_beacon
 execute if score bacaped:nether/firefox bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:nether/firefox
 execute if score bacaped:nether/flap_dont_fall bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:nether/flap_dont_fall
+execute if score bacaped:nether/ghast_squad bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:nether/ghast_squad
 execute if score bacaped:nether/give_them_everything_they_want bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:nether/give_them_everything_they_want
 execute if score bacaped:nether/gold_beacon bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:nether/gold_beacon
 execute if score bacaped:nether/herbarium_to_my_friend bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:nether/herbarium_to_my_friend
@@ -283,6 +295,7 @@ execute if score bacaped:redstone/more_optimisations bac_obtained_dark_purple ma
 execute if score bacaped:redstone/night_shift bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:redstone/night_shift
 execute if score bacaped:redstone/old_optimisations bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:redstone/old_optimisations
 execute if score bacaped:redstone/say_no_to_campfires bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:redstone/say_no_to_campfires
+execute if score bacaped:redstone/using_a_bow_a_bow_a_bow_a_bow bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:redstone/using_a_bow_a_bow_a_bow_a_bow
 execute if score bacaped:redstone/what_do_you_know_about_pistons bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:redstone/what_do_you_know_about_pistons
 execute if score bacaped:statistics/absolutely_ablaze_journey bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:statistics/absolutely_ablaze_journey
 execute if score bacaped:statistics/ancient_sorcerer_sage bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:statistics/ancient_sorcerer_sage
@@ -309,6 +322,7 @@ execute if score bacaped:statistics/jungle_gymnast bac_obtained_dark_purple matc
 execute if score bacaped:statistics/ladder_legend bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:statistics/ladder_legend
 execute if score bacaped:statistics/legend_of_the_races bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:statistics/legend_of_the_races
 execute if score bacaped:statistics/legendary_artisan bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:statistics/legendary_artisan
+execute if score bacaped:statistics/ligmifitation bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:statistics/ligmifitation
 execute if score bacaped:statistics/master_artificer bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:statistics/master_artificer
 execute if score bacaped:statistics/master_fisherman bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:statistics/master_fisherman
 execute if score bacaped:statistics/master_of_survival bac_obtained_dark_purple matches 1.. run advancement grant @a[team=bac_team_dark_purple] only bacaped:statistics/master_of_survival

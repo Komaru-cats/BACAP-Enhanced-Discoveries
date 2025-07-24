@@ -77,6 +77,7 @@ execute as @s[advancements={bacaped:challenges/interspecific_adventure=true}] ru
 execute as @s[advancements={bacaped:challenges/magic_kingdom=true}] run function bacaped_rewards:trophy/challenges/magic_kingdom
 execute as @s[advancements={bacaped:challenges/mob_universe=true}] run function bacaped_rewards:trophy/challenges/mob_universe
 execute as @s[advancements={bacaped:challenges/monstrous_rocket=true}] run function bacaped_rewards:trophy/challenges/monstrous_rocket
+execute as @s[advancements={bacaped:challenges/mounted_menace=true}] run function bacaped_rewards:trophy/challenges/mounted_menace
 execute as @s[advancements={bacaped:challenges/my_little_pig=true}] run function bacaped_rewards:trophy/challenges/my_little_pig
 execute as @s[advancements={bacaped:challenges/no_shield_please=true}] run function bacaped_rewards:trophy/challenges/no_shield_please
 execute as @s[advancements={bacaped:challenges/oh_my_broken_legs=true}] run function bacaped_rewards:trophy/challenges/oh_my_broken_legs
@@ -115,6 +116,7 @@ execute as @s[advancements={bacaped:farming/eco_warrior=true}] run function baca
 execute as @s[advancements={bacaped:farming/its_midnight_already=true}] run function bacaped_rewards:trophy/farming/its_midnight_already
 execute as @s[advancements={bacaped:farming/more_more_cookies=true}] run function bacaped_rewards:trophy/farming/more_more_cookies
 execute as @s[advancements={bacaped:farming/plant_enthusiast=true}] run function bacaped_rewards:trophy/farming/plant_enthusiast
+execute as @s[advancements={bacaped:mining/complete_orellection=true}] run function bacaped_rewards:trophy/mining/complete_orellection
 execute as @s[advancements={bacaped:mining/copper_king=true}] run function bacaped_rewards:trophy/mining/copper_king
 execute as @s[advancements={bacaped:mining/deepslated_miner=true}] run function bacaped_rewards:trophy/mining/deepslated_miner
 execute as @s[advancements={bacaped:mining/time_killer=true}] run function bacaped_rewards:trophy/mining/time_killer

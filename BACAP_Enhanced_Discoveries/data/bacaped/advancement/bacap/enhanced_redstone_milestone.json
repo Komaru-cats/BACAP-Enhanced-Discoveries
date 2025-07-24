@@ -145,6 +145,19 @@
         }
       }
     },
+    "using_a_bow_a_bow_a_bow_a_bow": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:redstone/using_a_bow_a_bow_a_bow_a_bow": true
+            }
+          }
+        }
+      }
+    },
     "what_do_you_know_about_pistons": {
       "trigger": "minecraft:location",
       "conditions": {
