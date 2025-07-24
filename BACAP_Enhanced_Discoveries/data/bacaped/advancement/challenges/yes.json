@@ -17,7 +17,7 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "blazeandcave:challenges/abyss_lord",
+  "parent": "bacaped:challenges/compass_overload",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:location",

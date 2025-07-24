@@ -35,9 +35,25 @@ execute as @a[gamemode=!spectator,advancements={bacaped:adventure/dual_reality=f
 execute as @a[gamemode=!spectator,advancements={bacaped:adventure/dual_reality=false}] at @s if dimension minecraft:the_nether run function bacaped:dual_reality/nether_check
 scoreboard players set @a[gamemode=!spectator] bacaped_in_struct_summary 0
 
-# Fix empty scoreboard `bacaped_ignite_tnt`, `bacaped_totems_used`
+# Silence is loud here
+execute as @a[gamemode=!spectator,advancements={bacaped:challenges/silence_is_loud_here=false}] at @s if dimension minecraft:the_end run function bacaped:silence_is_loud_here
+
+# Ghast Squad
+execute as @a[predicate=bacaped:is_on_happy_ghast] run scoreboard players add @n[type=minecraft:happy_ghast] bacaped_ghast_passenger_count 1
+execute as @a at @s run execute on vehicle if entity @s[type=minecraft:happy_ghast,scores={bacaped_ghast_passenger_count=4..}] run execute as @s on passengers run advancement grant @s only bacaped:nether/ghast_squad
+execute as @a[predicate=bacaped:is_on_happy_ghast] run scoreboard players set @n[type=minecraft:happy_ghast] bacaped_ghast_passenger_count 0
+
+# Mounted Menace
+execute as @a[gamemode=!spectator,advancements={bacaped:challenges/mounted_menace=false}] at @s if entity @e[predicate=bacaped:mounted_menace/is_husk_on_cold_chicken,distance=..8] if entity @e[predicate=bacaped:mounted_menace/is_witch_on_temperate_chicken,distance=..8] if entity @e[predicate=bacaped:mounted_menace/is_drowned_with_trident_on_warm_chicken,distance=..8] run advancement grant @s only bacaped:challenges/mounted_menace
+
+# Cookie Eater
+function bacaped:cookie_eater/reset
+
+
+# Fix empty scoreboard `bacaped_ignite_tnt`, `bacaped_totems_used`, `bacaped_cookie_eaten_today`
 execute as @a unless score @s bacaped_ignite_tnt matches 1.. run scoreboard players add @s bacaped_ignite_tnt 0
 execute as @a unless score @s bacaped_totems_used matches 1.. run scoreboard players add @s bacaped_totems_used 0
+execute as @a unless score @s bacaped_cookies_eaten_today matches 1.. run scoreboard players add @s bacaped_cookies_eaten_today 0
 
 # Fanpacks Handling
 function #bacaped_fanpacks:10sec_timer

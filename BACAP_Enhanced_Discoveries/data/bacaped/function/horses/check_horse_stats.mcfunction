@@ -17,6 +17,10 @@ execute if entity @s[advancements={bacaped:statistics/speed_master=false}] if sc
 # Legend of the Races
 execute if entity @s[advancements={bacaped:statistics/legend_of_the_races=false}] if score @s bacaped_horse_speed matches 3345.. run advancement grant @s only bacaped:statistics/legend_of_the_races
 
+# Ligmifitation
+execute if entity @s[advancements={bacaped:statistics/ligmifitation=false}] if score @s bacaped_horse_speed matches 3373.. run advancement grant @s only bacaped:statistics/ligmifitation
+
+
 # What a Mess This Horse Is
 execute if entity @s[advancements={bacaped:animal/what_a_mess_this_horse_is=false}] if score @s bacaped_horse_health matches ..20 if score @s bacaped_horse_speed matches ..2135 if score @s bacaped_horse_jump matches ..7160 run advancement grant @s only bacaped:animal/what_a_mess_this_horse_is
 

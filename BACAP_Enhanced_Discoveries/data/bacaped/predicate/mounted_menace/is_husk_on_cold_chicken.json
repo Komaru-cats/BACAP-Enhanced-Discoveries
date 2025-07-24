@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:husk",
+    "vehicle": {
+      "type": "minecraft:chicken",
+      "components": {
+        "minecraft:chicken/variant": "cold"
+      }
+    }
+  }
+}

@@ -16,7 +16,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:challenges/hearts_of_the_stack",
+  "parent": "blazeandcave:challenges/abyss_lord",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:location",

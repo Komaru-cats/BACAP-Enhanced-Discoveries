@@ -54,6 +54,19 @@
         }
       }
     },
+    "chromatic_completion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:building/chromatic_completion": true
+            }
+          }
+        }
+      }
+    },
     "potception": {
       "trigger": "minecraft:location",
       "conditions": {

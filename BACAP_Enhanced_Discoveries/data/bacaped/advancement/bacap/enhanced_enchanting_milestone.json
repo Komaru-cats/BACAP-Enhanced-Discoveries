@@ -41,6 +41,19 @@
         }
       }
     },
+    "fully_charged": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:enchanting/fully_charged": true
+            }
+          }
+        }
+      }
+    },
     "heavy_catch": {
       "trigger": "minecraft:location",
       "conditions": {

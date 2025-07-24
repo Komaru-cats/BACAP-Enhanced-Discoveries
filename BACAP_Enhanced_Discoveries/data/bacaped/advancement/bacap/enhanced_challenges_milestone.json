@@ -522,6 +522,19 @@
         }
       }
     },
+    "silence_is_loud_here": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/silence_is_loud_here": true
+            }
+          }
+        }
+      }
+    },
     "so_bright": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -582,6 +595,19 @@
             "type": "player",
             "advancements": {
               "bacaped:challenges/the_world_is_actually_ending_2": true
+            }
+          }
+        }
+      }
+    },
+    "thousand_lives": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:challenges/thousand_lives": true
             }
           }
         }

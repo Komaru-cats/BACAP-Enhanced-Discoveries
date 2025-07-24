@@ -485,6 +485,19 @@
           }
         }
       }
+    },
+    "we_are_fine_really": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:adventure/we_are_fine_really": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

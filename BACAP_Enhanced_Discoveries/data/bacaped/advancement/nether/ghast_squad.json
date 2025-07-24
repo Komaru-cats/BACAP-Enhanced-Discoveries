@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            1723616219,
+            -526038394,
+            -2117790540,
+            -822371637
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmJlZTcyYjQ5NDVlNzY0OWE5MTA3N2QwMzM1MmU0NjUwZmYxNGE0ODc4OGU2Y2JmMjAzNDUwMzZjMDU0ZWQ3In19fQ=="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "Ghast Squad"
+    },
+    "description": {
+      "translate": "Ride a Happy Ghast together with 3 other players",
+      "color": "light_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "blazeandcave:nether/hot_air_balloon",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:nether/ghast_squad"
+  }
+}
