@@ -196,6 +196,17 @@
         }
       }
     },
+    "biome_explorer_map": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "minecraft:filled_map",
+          "components": {
+            "minecraft:map_color": 10066329
+          }
+        }
+      }
+    },
     "item_frame": {
       "trigger": "minecraft:villager_trade",
       "conditions": {
