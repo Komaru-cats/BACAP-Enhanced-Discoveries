@@ -23,7 +23,7 @@
       "translate": "Cookie Eater"
     },
     "description": {
-      "translate": "Eat 500 cookies during 1 ingame day",
+      "translate": "Eat 200 cookies during 1 ingame day",
       "color": "dark_purple"
     },
     "frame": "challenge",
