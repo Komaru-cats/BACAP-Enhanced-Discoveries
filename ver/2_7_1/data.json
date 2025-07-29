@@ -2322,7 +2322,7 @@
   },
   {
     "title": "Cookie Eater",
-    "description": "Eat 500 cookies during 1 ingame day",
+    "description": "Eat 200 cookies during 1 ingame day",
     "color": "#AA00AA",
     "tab": "Farming",
     "type": "Challenge",
