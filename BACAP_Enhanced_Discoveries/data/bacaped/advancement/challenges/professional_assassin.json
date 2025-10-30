@@ -166,6 +166,25 @@
         }
       }
     },
+    "copper_golem": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:copper_golem",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
     "cow": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {

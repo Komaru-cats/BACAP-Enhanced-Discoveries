@@ -7,7 +7,7 @@
       "translate": "Flint and Steal"
     },
     "description": {
-      "translate": "Let the mob steal your flint",
+      "translate": "Let a mob steal your flint",
       "color": "green"
     },
     "frame": "task",
@@ -20,6 +20,13 @@
       "conditions": {
         "item": {
           "items": "minecraft:flint"
+        },
+        "entity": {
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
         }
       }
     }

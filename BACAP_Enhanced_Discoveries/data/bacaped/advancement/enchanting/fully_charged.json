@@ -34,6 +34,14 @@
         }
       }
     },
+    "copper_sword": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:copper_sword"
+        }
+      }
+    },
     "iron_sword": {
       "trigger": "minecraft:enchanted_item",
       "conditions": {
@@ -79,6 +87,14 @@
       "conditions": {
         "item": {
           "items": "minecraft:stone_axe"
+        }
+      }
+    },
+    "copper_axe": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:copper_axe"
         }
       }
     },
@@ -130,6 +146,14 @@
         }
       }
     },
+    "copper_pickaxe": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:copper_pickaxe"
+        }
+      }
+    },
     "iron_pickaxe": {
       "trigger": "minecraft:enchanted_item",
       "conditions": {
@@ -178,6 +202,14 @@
         }
       }
     },
+    "copper_shovel": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:copper_shovel"
+        }
+      }
+    },
     "iron_shovel": {
       "trigger": "minecraft:enchanted_item",
       "conditions": {
@@ -223,6 +255,14 @@
       "conditions": {
         "item": {
           "items": "minecraft:stone_hoe"
+        }
+      }
+    },
+    "copper_hoe": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:copper_hoe"
         }
       }
     },
@@ -290,6 +330,14 @@
         }
       }
     },
+    "copper_helmet": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:copper_helmet"
+        }
+      }
+    },
     "chainmail_helmet": {
       "trigger": "minecraft:enchanted_item",
       "conditions": {
@@ -335,6 +383,14 @@
       "conditions": {
         "item": {
           "items": "minecraft:leather_chestplate"
+        }
+      }
+    },
+    "copper_chestplate": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:copper_chestplate"
         }
       }
     },
@@ -386,6 +442,14 @@
         }
       }
     },
+    "copper_leggings": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:copper_leggings"
+        }
+      }
+    },
     "chainmail_leggings": {
       "trigger": "minecraft:enchanted_item",
       "conditions": {
@@ -431,6 +495,14 @@
       "conditions": {
         "item": {
           "items": "minecraft:leather_boots"
+        }
+      }
+    },
+    "copper_boots": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:copper_boots"
         }
       }
     },

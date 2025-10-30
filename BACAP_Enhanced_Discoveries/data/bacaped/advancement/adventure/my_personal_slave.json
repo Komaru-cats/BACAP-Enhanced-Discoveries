@@ -36,6 +36,17 @@
         }
       }
     },
+    "copper_sword": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": "minecraft:copper_sword"
+        },
+        "entity": {
+          "type": "minecraft:allay"
+        }
+      }
+    },
     "iron_sword": {
       "trigger": "minecraft:thrown_item_picked_up_by_player",
       "conditions": {

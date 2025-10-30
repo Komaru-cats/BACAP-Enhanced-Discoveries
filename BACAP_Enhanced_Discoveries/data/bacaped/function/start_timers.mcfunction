@@ -59,5 +59,3 @@ function bacaped:10sec_timer
 # Install
 execute if score bac_created bac_created matches 1 unless score bacaped bacaped_install matches 1 run function bacaped:install
 execute if score bac_created bac_created matches 1 run schedule clear bacaped:bacap_is_not_installed_msg
-
-scoreboard players set bacaped bacaped_install 1

@@ -10,7 +10,7 @@
       "translate": "Airborne Annihilator"
     },
     "description": {
-      "translate": "Kill the Ender Dragon, Bee, Blaze, Breeze, Vex, Phantom with Wind Charge",
+      "translate": "Kill all airborne mobs with a Wind Charge",
       "color": "#FF2A2A"
     },
     "frame": "challenge",
@@ -27,6 +27,44 @@
             "entity": "this",
             "predicate": {
               "type": "minecraft:ender_dragon"
+            }
+          }
+        ],
+        "killing_blow": {
+          "direct_entity": {
+            "type": "minecraft:wind_charge"
+          }
+        }
+      }
+    },
+    "killed_allay_with_wind_charge": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:allay"
+            }
+          }
+        ],
+        "killing_blow": {
+          "direct_entity": {
+            "type": "minecraft:wind_charge"
+          }
+        }
+      }
+    },
+    "killed_bat_with_wind_charge": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:bat"
             }
           }
         ],
@@ -84,6 +122,63 @@
             "entity": "this",
             "predicate": {
               "type": "minecraft:breeze"
+            }
+          }
+        ],
+        "killing_blow": {
+          "direct_entity": {
+            "type": "minecraft:wind_charge"
+          }
+        }
+      }
+    },
+    "killed_ghast_with_wind_charge": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:ghast"
+            }
+          }
+        ],
+        "killing_blow": {
+          "direct_entity": {
+            "type": "minecraft:wind_charge"
+          }
+        }
+      }
+    },
+    "killed_happy_ghast_with_wind_charge": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:happy_ghast"
+            }
+          }
+        ],
+        "killing_blow": {
+          "direct_entity": {
+            "type": "minecraft:wind_charge"
+          }
+        }
+      }
+    },
+    "killed_parrot_with_wind_charge": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:parrot"
             }
           }
         ],
