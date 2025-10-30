@@ -377,6 +377,18 @@
       "conditions": {
         "recipe_id": "minecraft:crafter"
       }
+    },
+    "copper_chest": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:copper_chest"
+      }
+    },
+    "oak_shelf": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oak_shelf"
+      }
     }
   },
   "requirements": [
@@ -415,6 +427,9 @@
     ],
     [
       "copper_bulb"
+    ],
+    [
+      "copper_chest"
     ],
     [
       "crafter"
@@ -501,6 +516,9 @@
     ],
     [
       "oak_trapdoor"
+    ],
+    [
+      "oak_shelf"
     ],
     [
       "observer"

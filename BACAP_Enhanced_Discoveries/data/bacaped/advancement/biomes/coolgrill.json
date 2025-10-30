@@ -22,6 +22,10 @@
           {
             "condition": "minecraft:location_check",
             "predicate": {
+              "biomes": [
+                "minecraft:deep_frozen_ocean",
+                "minecraft:frozen_ocean"
+              ],
               "block": {
                 "blocks": "#minecraft:campfires"
               }
