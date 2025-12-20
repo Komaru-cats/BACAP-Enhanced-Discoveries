@@ -22,7 +22,6 @@
           "equipment": {
             "mainhand": {
               "items": [
-                "minecraft:shield",
                 "minecraft:copper_sword",
                 "minecraft:diamond_sword",
                 "minecraft:golden_sword",
@@ -34,14 +33,7 @@
             },
             "offhand": {
               "items": [
-                "minecraft:shield",
-                "minecraft:copper_sword",
-                "minecraft:diamond_sword",
-                "minecraft:golden_sword",
-                "minecraft:iron_sword",
-                "minecraft:netherite_sword",
-                "minecraft:stone_sword",
-                "minecraft:wooden_sword"
+                "minecraft:shield"
               ]
             },
             "head": {

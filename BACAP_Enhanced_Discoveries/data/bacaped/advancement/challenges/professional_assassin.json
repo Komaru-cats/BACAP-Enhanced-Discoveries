@@ -36,14 +36,6 @@
         {
           "translate": "entity.minecraft.skeleton_horse",
           "color": "gray"
-        },
-        {
-          "text": ", ",
-          "color": "gray"
-        },
-        {
-          "translate": "entity.minecraft.elder_guardian",
-          "color": "gray"
         }
       ]
     },
@@ -386,8 +378,19 @@
     "elder_guardian": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "entity": {
-          "type": "minecraft:elder_guardian"
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:elder_guardian",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
         }
       }
     },
@@ -686,6 +689,25 @@
               {
                 "type": "minecraft:killed",
                 "stat": "minecraft:magma_cube",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "parched": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:parched",
                 "value": {
                   "min": 24
                 }
@@ -1009,6 +1031,25 @@
               {
                 "type": "minecraft:killed",
                 "stat": "minecraft:horse",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "zombie_horse": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:zombie_horse",
                 "value": {
                   "min": 24
                 }
@@ -1520,6 +1561,25 @@
         }
       }
     },
+    "camel_husk": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:camel_husk",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
     "sniffer": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
@@ -1568,6 +1628,44 @@
               {
                 "type": "minecraft:killed",
                 "stat": "minecraft:creaking",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "nautilus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:nautilus",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "zombie_nautilus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:zombie_nautilus",
                 "value": {
                   "min": 24
                 }

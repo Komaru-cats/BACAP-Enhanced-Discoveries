@@ -298,6 +298,62 @@
         }
       }
     },
+    "wooden_spear": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:wooden_spear"
+        }
+      }
+    },
+    "stone_spear": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:stone_spear"
+        }
+      }
+    },
+    "copper_spear": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:copper_spear"
+        }
+      }
+    },
+    "iron_spear": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:iron_spear"
+        }
+      }
+    },
+    "golden_spear": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_spear"
+        }
+      }
+    },
+    "diamond_spear": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:diamond_spear"
+        }
+      }
+    },
+    "netherite_spear": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:netherite_spear"
+        }
+      }
+    },
     "bow": {
       "trigger": "minecraft:enchanted_item",
       "conditions": {

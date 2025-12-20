@@ -128,6 +128,7 @@ execute as @s[advancements={bacaped:nether/blaze3d=true}] run function bacaped_r
 execute as @s[advancements={bacaped:nether/diamond_beacon=true}] run function bacaped_rewards:trophy/nether/diamond_beacon
 execute as @s[advancements={bacaped:nether/emerald_beacon=true}] run function bacaped_rewards:trophy/nether/emerald_beacon
 execute as @s[advancements={bacaped:nether/give_them_everything_they_want=true}] run function bacaped_rewards:trophy/nether/give_them_everything_they_want
+execute as @s[advancements={bacaped:nether/happy_ghast_silencer=true}] run function bacaped_rewards:trophy/nether/happy_ghast_silencer
 execute as @s[advancements={bacaped:nether/netherite_beacon=true}] run function bacaped_rewards:trophy/nether/netherite_beacon
 execute as @s[advancements={bacaped:nether/show_the_wither_his_home=true}] run function bacaped_rewards:trophy/nether/show_the_wither_his_home
 execute as @s[advancements={bacaped:nether/the_new_swamp_wont_be_here=true}] run function bacaped_rewards:trophy/nether/the_new_swamp_wont_be_here
