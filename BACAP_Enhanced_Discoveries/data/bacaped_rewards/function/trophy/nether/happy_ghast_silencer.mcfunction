@@ -1,0 +1,2 @@
+give @s dried_ghast[enchantment_glint_override=true, lore=[{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Happy Ghast Silencer",color:"light_purple",italic:false}], custom_name={translate:"Wilted Ghast",color:"#FEEFEE",bold:true,italic:false}, custom_model_data={floats:[15500]}, custom_data={Trophy:1b}] 1
+tellraw @s {"color": "gold", "text": " +1 ", "extra": [{"translate": "Wilted Ghast"}]}

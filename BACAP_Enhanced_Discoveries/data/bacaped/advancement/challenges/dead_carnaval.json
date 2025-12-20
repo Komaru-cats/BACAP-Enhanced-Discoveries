@@ -204,6 +204,58 @@
           }
         }
       }
+    },
+    "zombie_horse": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_horse"
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "type": "minecraft:firework_rocket"
+          }
+        }
+      }
+    },
+    "zombie_nautilus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_nautilus"
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "type": "minecraft:firework_rocket"
+          }
+        }
+      }
+    },
+    "camel_husk": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:camel_husk"
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "type": "minecraft:firework_rocket"
+          }
+        }
+      }
+    },
+    "parched": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:parched"
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "type": "minecraft:firework_rocket"
+          }
+        }
+      }
     }
   },
   "requirements": [
@@ -242,6 +294,18 @@
     ],
     [
       "zoglin"
+    ],
+    [
+      "zombie_horse"
+    ],
+    [
+      "zombie_nautilus"
+    ],
+    [
+      "camel_husk"
+    ],
+    [
+      "parched"
     ]
   ],
   "rewards": {

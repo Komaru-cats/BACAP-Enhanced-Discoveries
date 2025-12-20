@@ -15,7 +15,7 @@
   },
   "parent": "blazeandcave:adventure/murderer",
   "criteria": {
-    "villager": {
+    "villager_thorns_hurts_player": {
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
         "damage": {

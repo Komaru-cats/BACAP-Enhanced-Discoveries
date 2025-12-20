@@ -23,7 +23,7 @@
       "translate": "Not That Impossible"
     },
     "description": {
-      "translate": "Be killed by a Husk while riding a Camel",
+      "translate": "Be killed by a Husk that is not riding a Camel Husk while you are riding a Camel",
       "color": "#75E1FF"
     },
     "frame": "goal",
@@ -48,7 +48,8 @@
           }
         ],
         "entity": {
-          "type": "minecraft:husk"
+          "type": "minecraft:husk",
+          "nbt": "{OnGround:1b}"
         }
       }
     }

@@ -706,6 +706,180 @@
           }
         ]
       }
+    },
+    "sharpness_netherite_spear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_spear"
+            ],
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:mending",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:fire_aspect",
+                  "levels": {
+                    "min": 2
+                  }
+                },
+                {
+                  "enchantments": "minecraft:looting",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:knockback",
+                  "levels": {
+                    "min": 2
+                  }
+                },
+                {
+                  "enchantments": "minecraft:lunge",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:sharpness",
+                  "levels": {
+                    "min": 5
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "bane_of_arthropods_netherite_spear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_spear"
+            ],
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:mending",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:fire_aspect",
+                  "levels": {
+                    "min": 2
+                  }
+                },
+                {
+                  "enchantments": "minecraft:looting",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:knockback",
+                  "levels": {
+                    "min": 2
+                  }
+                },
+                {
+                  "enchantments": "minecraft:lunge",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:bane_of_arthropods",
+                  "levels": {
+                    "min": 5
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "smite_netherite_spear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_spear"
+            ],
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:mending",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:fire_aspect",
+                  "levels": {
+                    "min": 2
+                  }
+                },
+                {
+                  "enchantments": "minecraft:looting",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:knockback",
+                  "levels": {
+                    "min": 2
+                  }
+                },
+                {
+                  "enchantments": "minecraft:lunge",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:smite",
+                  "levels": {
+                    "min": 5
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   "rewards": {

@@ -158,6 +158,19 @@
         }
       }
     },
+    "happy_ghast_silencer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bacaped:nether/happy_ghast_silencer": true
+            }
+          }
+        }
+      }
+    },
     "herbarium_to_my_friend": {
       "trigger": "minecraft:location",
       "conditions": {

@@ -242,6 +242,7 @@ execute as @a[advancements={bacaped:nether/firefox=true}] run scoreboard players
 execute as @a[advancements={bacaped:nether/flap_dont_fall=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:nether/give_them_everything_they_want=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:nether/gold_beacon=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={bacaped:nether/happy_ghast_silencer=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:nether/herbarium_to_my_friend=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:nether/high_pitch=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:nether/hot_combat=true}] run scoreboard players add @s bac_advancements 1

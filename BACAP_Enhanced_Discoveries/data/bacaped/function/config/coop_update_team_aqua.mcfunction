@@ -262,6 +262,7 @@ execute if score bacaped:nether/flap_dont_fall bac_obtained_aqua matches 1.. run
 execute if score bacaped:nether/ghast_squad bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only bacaped:nether/ghast_squad
 execute if score bacaped:nether/give_them_everything_they_want bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only bacaped:nether/give_them_everything_they_want
 execute if score bacaped:nether/gold_beacon bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only bacaped:nether/gold_beacon
+execute if score bacaped:nether/happy_ghast_silencer bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only bacaped:nether/happy_ghast_silencer
 execute if score bacaped:nether/herbarium_to_my_friend bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only bacaped:nether/herbarium_to_my_friend
 execute if score bacaped:nether/high_pitch bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only bacaped:nether/high_pitch
 execute if score bacaped:nether/hot_combat bac_obtained_aqua matches 1.. run advancement grant @a[team=bac_team_aqua] only bacaped:nether/hot_combat

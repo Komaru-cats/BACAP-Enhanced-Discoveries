@@ -42,14 +42,27 @@
         }
       }
     },
-    "mooshroom": {
+    "red_mooshroom": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
           "items": "minecraft:shears"
         },
         "entity": {
-          "type": "minecraft:mooshroom"
+          "type": "minecraft:mooshroom",
+          "nbt": "{Type:\"red\"}"
+        }
+      }
+    },
+    "brown_mooshroom": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:shears"
+        },
+        "entity": {
+          "type": "minecraft:mooshroom",
+          "nbt": "{Type:\"brown\"}"
         }
       }
     },
@@ -308,6 +321,94 @@
         },
         "entity": {
           "type": "minecraft:happy_ghast"
+        }
+      }
+    },
+    "skeleton_horse": {
+      "trigger": "minecraft:player_sheared_equipment",
+      "conditions": {
+        "item": {
+          "items": "saddle"
+        },
+        "entity": {
+          "type": "minecraft:skeleton_horse"
+        }
+      }
+    },
+    "zombie_horse_horse_armor": {
+      "trigger": "minecraft:player_sheared_equipment",
+      "conditions": {
+        "item": {
+          "items": "#bacaped:horse_armor"
+        },
+        "entity": {
+          "type": "minecraft:zombie_horse"
+        }
+      }
+    },
+    "zombie_horse_saddle": {
+      "trigger": "minecraft:player_sheared_equipment",
+      "conditions": {
+        "item": {
+          "items": "minecraft:saddle"
+        },
+        "entity": {
+          "type": "minecraft:zombie_horse"
+        }
+      }
+    },
+    "nautilus_nautilus_armor": {
+      "trigger": "minecraft:player_sheared_equipment",
+      "conditions": {
+        "item": {
+          "items": "#bacaped:nautilus_armor"
+        },
+        "entity": {
+          "type": "minecraft:nautilus"
+        }
+      }
+    },
+    "nautilus_saddle": {
+      "trigger": "minecraft:player_sheared_equipment",
+      "conditions": {
+        "item": {
+          "items": "minecraft:saddle"
+        },
+        "entity": {
+          "type": "minecraft:nautilus"
+        }
+      }
+    },
+    "zombie_nautilus_nautilus_armor": {
+      "trigger": "minecraft:player_sheared_equipment",
+      "conditions": {
+        "item": {
+          "items": "#bacaped:nautilus_armor"
+        },
+        "entity": {
+          "type": "minecraft:zombie_nautilus"
+        }
+      }
+    },
+    "zombie_nautilus_saddle": {
+      "trigger": "minecraft:player_sheared_equipment",
+      "conditions": {
+        "item": {
+          "items": "minecraft:saddle"
+        },
+        "entity": {
+          "type": "minecraft:zombie_nautilus"
+        }
+      }
+    },
+    "camel_husk": {
+      "trigger": "minecraft:player_sheared_equipment",
+      "conditions": {
+        "item": {
+          "items": "minecraft:saddle"
+        },
+        "entity": {
+          "type": "minecraft:camel_husk"
         }
       }
     }
