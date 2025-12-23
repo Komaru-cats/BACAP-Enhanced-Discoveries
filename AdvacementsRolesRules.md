@@ -18,7 +18,7 @@ As for the versions, at the moment any version above and including 2.5 is suitab
 - Use QOL mods, shaders, gamma, as well as those mods that do not change the gameplay, greatly facilitating the process of obtaining advancements
   - Examples of allowed mods: Sodium, Lithum, Gamma-Utils, Advancement Info, No Fog, Carpet, Xaero's Minimap, Tweakeroo (excluding freecam)
 - Use datapacks that follow the rules of allowed mods
-- Use TNT, Rail, String, Gravel/Sand/Concrete Powder duping.
+- Use TNT, Rail, String, or Sand duping.
 - Use /function bacap_rewards or bacaped_rewards:trophy/\<internal tab name>/\<internal advancement name> if you lose your trophy
 - If you update to a newer version of the datapack and it causes certain advancements to COMPLETELY reset, you may use commands to give back these advancements.
 
@@ -66,3 +66,4 @@ These things do kind of disrupt the balance but may be allowed by Komaru Cats Ad
 - Screenshots of the mines where you mined
 - Screenshot of the advancement at the moment of completion
 - Screenshot of holding the Deepslate Emerald Ore
+
