@@ -209,6 +209,18 @@
           "nbt": "{stew_effects:[{id:\"minecraft:regeneration\"}]}"
         }
       }
+    },
+    "golden_dandelion": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:mooshroom",
+          "nbt": "{stew_effects:[{id:\"minecraft:saturation\"}]}"
+        }
+      }
     }
   },
   "rewards": {

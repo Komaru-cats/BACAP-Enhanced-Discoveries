@@ -248,6 +248,19 @@
         }
       }
     },
+    "golden_nautilus_armor": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_nautilus_armor"
+          ]
+        }
+      }
+    },
     "golden_leggings": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
@@ -300,6 +313,19 @@
         }
       }
     },
+    "golden_spear": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_spear"
+          ]
+        }
+      }
+    },
     "light_weight_pressure_plate": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
@@ -348,6 +374,19 @@
         "item": {
           "items": [
             "minecraft:gold_nugget"
+          ]
+        }
+      }
+    },
+    "golden_dandelion": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_dandelion"
           ]
         }
       }

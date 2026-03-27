@@ -35,7 +35,6 @@
 "Midnight Snack": "Полуночный Перекус",
 "Wake up a Villager to buy cookies late at night": "Разбудите Жителя поздно ночью, чтобы купить печеньки",
 "My Personal Slave": "Мой Личный Раб",
-"Have an Allay drop you all the swords, trident, bow, crossbow and mace": "Заставьте Эллея кинуть вам все мечи, трезубец, лук, арбалет и булаву",
 
 "No-Water Team": "Команда Против Воды",
 "Place 250 sponges": "Поставьте 250 губок",
@@ -358,7 +357,6 @@
 "Command Work": "Командная Работа",
 "Kill the Ender Dragon with a Ghast's fireball without any items in your inventory and under nausea effect": "Убейте Эндер Дракона Огненным Шаром Гаста с пустым инвентарем и эффектом тошноты",
 "Airborne Annihilator": "Воздушный Уничтожитель",
-"Kill the Ender Dragon, Bee, Blaze, Breeze, Vex, Phantom with Wind Charge": "Убейте Эндер Дракона, Пчелу, Блэйза, Вихря, Векса, Фантома с помощью Заряда Ветра",
 "Red + Red = Brown": "Красный + Красный = Коричневый",
 "Get a Brown Mooshroom by breeding two Red Mooshrooms": "Выведите Коричневую Грибную Корову скрестив две красные Грибные Коровы",
 "My Little Pig": "Моя Маленькая Свинка",
@@ -391,7 +389,6 @@
 "Elementals": "Элементали",
 "Kill Bogged, Stray, Husk and Drowned with a single piercing shot": "Убейте Болотника, Зимогора, Кадавра и Утопленника одним выстрелом пронзающей стрелы",
 "Small Targets": "Маленькие Цели",
-"Kill a baby Turtle, a baby Chicken, a baby Rabbit, a baby Cat, a baby Axolotl with a single piercing shot": "Убейте детенышей Черепахи, Курицы, Кролика, Кошки и Аксолотля выстрелом одной пронзающей стрелы",
 # end
 
 "Bee Colonist": "Пчелиный Колонизатор",
@@ -1389,7 +1386,6 @@
 "Diamond Harness": "Алмазная Упряжь",
 "Tighter, than others": "Крепче, чем прочие",
 "We Are Fine, Really": "Мы в порядке, правда",
-"Find Mansion in the Pale Garden": "Найдите Особняк в Бледном Саде",
 "Australia": "Австралия",
 "Flip a warm Pig and stick it on the ceiling of the grass block (stay within 8 blocks of it)": "Переверните теплую Свинью, и прикрепите его к нижней стороне блока травы (оставайся в радиусе 8 блоков)",
 "CoolGrill": "Хорошая Гриль",
@@ -1407,17 +1403,29 @@
 "Fully Charged": "Полностью Заряженный",
 "Enchant all items that can be enchanted at the Enchanting Table at least once": "Зачаруйте все предметы которые могут быть зачарованы на столе зачарований хотя бы единожды",
 "Cookie Eater": "Печенешный Едок",
-"Eat 500 cookies during 1 ingame day": "Съешьте 500 печенек за 1 игровой день",
 "Complete Orellection": "Полная Рудоколлекция",
 "Mine a stack of raw deepslate emerald ore": "Соберите стак Изумрудносного Глубинного Сланца",
 "Last Deepslate Emerald Ore in the World": "Последняя Изумрудносный Глубинный Сланец в Мире",
 "You could've just traded with a villager": "Вы могли просто поторговаться с жителями",
 "Flint and Steal": "Кремень и Кража",
-"Let the mob steal your flint": "Дайте мобу украсть ваш кремень",
+"Let a mob steal your flint": "Дайте мобу украсть ваш кремень",
 "Ghast Squad": "Отряд Гаста",
 "Ride a Happy Ghast together with 3 other players": "Оседлайте Счастливого Гаста с тремя другими игроками",
 "Using a Bow, a Bow, a Bow, a Bow": "Используя лук, лук, лук, лук",
 "Open a Dispenser with a bow inside it while holding a bow in your mainhand and offhand": "Откройте Раздатчик с луком внутри держа луки в обоих руках",
 "Ligmifitation": "Лигмификация",
-"Ride a Horse that moves 14.22 blocks per second": "Оседлайте Лошадь которая перемещается 14.22 блока в секунду"
+"Ride a Horse that moves 14.22 blocks per second": "Оседлайте Лошадь которая перемещается 14.22 блока в секунду",
+
+"Fake Copper Armor": "Ложная медная броня",
+"Have an Allay deliver you all the Swords, Spears and Axes, as well as a Trident, Bow, Crossbow and Mace": "Заставьте Эллея кинуть вам все мечи, копье и топор, а также трезубец, лук, арбалет и булаву",
+"Find a Woodland Mansion in the Pale Garden": "Найдите Особняк в Бледном Саде",
+"Kill all airborne mobs with a Wind Charge": "Убейте всех летающих мобов с помощью заряда вихря",
+"Kill a baby Turtle, small Salmon, baby Rabbit, baby Cat, and a baby Axolotl with a single piercing shot": "Убейте детенышей Черепахи, Курицы, Кролика, Кошки и Аксолотля выстрелом одной пронзающей стрелы",
+"Eat 200 cookies during 1 ingame day": "Съешьте 200 печенек за 1 игровой день",
+"Be killed by a Husk that is not riding a Camel Husk while you are riding a Camel": "Умрите от Кадавра, который не едет на верблюде, пока вы сами едете на верблюде",
+"Be damaged by a Husk that is not riding a Camel Husk while you are riding a Camel": "Получите урон от Кадавра, который не едет на верблюде, пока вы сами едете на верблюде"
+"Happy Ghast Silencer": "Усмиритель Счастливого Гаста",
+"Kill 100 Happy Ghasts": "Убейте 100 Счастливых Гастов",
+"Wilted Ghast": "Увядший Гаст",
+"mountaineer, you've climbed 10km with a": "альпинист, ты поднялся на 10 км с"
 }

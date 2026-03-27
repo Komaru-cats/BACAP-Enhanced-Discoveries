@@ -411,6 +411,17 @@
           "type": "minecraft:camel_husk"
         }
       }
+    },
+    "copper_golem": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:shears"
+        },
+        "entity": {
+          "type": "minecraft:copper_golem"
+        }
+      }
     }
   },
   "rewards": {

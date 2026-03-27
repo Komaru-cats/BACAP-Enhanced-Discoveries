@@ -10,7 +10,7 @@
       "translate": "Small Targets"
     },
     "description": {
-      "translate": "Kill a baby Turtle, a baby Chicken, a baby Rabbit, a baby Cat, a baby Axolotl with a single piercing shot",
+      "translate": "Kill a baby Turtle, small Salmon, baby Rabbit, baby Cat, and a baby Axolotl with a single piercing shot",
       "color": "dark_purple"
     },
     "frame": "challenge",
@@ -38,9 +38,9 @@
             }
           },
           {
-            "type": "minecraft:chicken",
-            "flags": {
-              "is_baby": true
+            "type": "minecraft:salmon",
+            "components": {
+              "minecraft:salmon/size": "small"
             }
           },
           {
