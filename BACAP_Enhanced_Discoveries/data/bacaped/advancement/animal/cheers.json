@@ -225,24 +225,6 @@
         ]
       }
     },
-    "sweet_berry_bush": {
-      "trigger": "minecraft:item_used_on_block",
-      "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:block_state_property",
-            "block": "minecraft:sweet_berry_bush",
-            "properties": {}
-          },
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": "minecraft:shears"
-            }
-          }
-        ]
-      }
-    },
     "horse_horse_armor": {
       "trigger": "minecraft:player_sheared_equipment",
       "conditions": {
