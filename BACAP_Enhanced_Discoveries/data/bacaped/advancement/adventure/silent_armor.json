@@ -32,7 +32,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "head": {
                           "items": "#minecraft:head_armor",
@@ -50,7 +50,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "head": {
                           "items": "#minecraft:head_armor",
@@ -68,7 +68,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "head": {
                           "items": "#minecraft:head_armor",
@@ -86,7 +86,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "head": {
                           "items": "#minecraft:head_armor",
@@ -104,7 +104,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "head": {
                           "items": "#minecraft:head_armor",
@@ -122,7 +122,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "head": {
                           "items": "#minecraft:head_armor",
@@ -140,7 +140,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "head": {
                           "items": "#minecraft:head_armor",
@@ -158,7 +158,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "head": {
                           "items": "#minecraft:head_armor",
@@ -176,7 +176,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "head": {
                           "items": "#minecraft:head_armor",
@@ -194,7 +194,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "head": {
                           "items": "#minecraft:head_armor",
@@ -212,7 +212,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "head": {
                           "items": "#minecraft:head_armor",
@@ -235,7 +235,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "chest": {
                           "items": "#minecraft:chest_armor",
@@ -253,7 +253,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "chest": {
                           "items": "#minecraft:chest_armor",
@@ -271,7 +271,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "chest": {
                           "items": "#minecraft:chest_armor",
@@ -289,7 +289,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "chest": {
                           "items": "#minecraft:chest_armor",
@@ -307,7 +307,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "chest": {
                           "items": "#minecraft:chest_armor",
@@ -325,7 +325,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "chest": {
                           "items": "#minecraft:chest_armor",
@@ -343,7 +343,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "chest": {
                           "items": "#minecraft:chest_armor",
@@ -361,7 +361,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "chest": {
                           "items": "#minecraft:chest_armor",
@@ -379,7 +379,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "chest": {
                           "items": "#minecraft:chest_armor",
@@ -397,7 +397,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "chest": {
                           "items": "#minecraft:chest_armor",
@@ -415,7 +415,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "chest": {
                           "items": "#minecraft:chest_armor",
@@ -438,7 +438,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "legs": {
                           "items": "#minecraft:leg_armor",
@@ -456,7 +456,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "legs": {
                           "items": "#minecraft:leg_armor",
@@ -474,7 +474,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "legs": {
                           "items": "#minecraft:leg_armor",
@@ -492,7 +492,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "legs": {
                           "items": "#minecraft:leg_armor",
@@ -510,7 +510,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "legs": {
                           "items": "#minecraft:leg_armor",
@@ -528,7 +528,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "legs": {
                           "items": "#minecraft:leg_armor",
@@ -546,7 +546,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "legs": {
                           "items": "#minecraft:leg_armor",
@@ -564,7 +564,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "legs": {
                           "items": "#minecraft:leg_armor",
@@ -582,7 +582,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "legs": {
                           "items": "#minecraft:leg_armor",
@@ -600,7 +600,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "legs": {
                           "items": "#minecraft:leg_armor",
@@ -618,7 +618,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "legs": {
                           "items": "#minecraft:leg_armor",
@@ -641,7 +641,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "feet": {
                           "items": "#minecraft:foot_armor",
@@ -659,7 +659,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "feet": {
                           "items": "#minecraft:foot_armor",
@@ -677,7 +677,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "feet": {
                           "items": "#minecraft:foot_armor",
@@ -695,7 +695,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "feet": {
                           "items": "#minecraft:foot_armor",
@@ -713,7 +713,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "feet": {
                           "items": "#minecraft:foot_armor",
@@ -731,7 +731,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "feet": {
                           "items": "#minecraft:foot_armor",
@@ -749,7 +749,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "feet": {
                           "items": "#minecraft:foot_armor",
@@ -767,7 +767,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "feet": {
                           "items": "#minecraft:foot_armor",
@@ -785,7 +785,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "feet": {
                           "items": "#minecraft:foot_armor",
@@ -803,7 +803,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "feet": {
                           "items": "#minecraft:foot_armor",
@@ -821,7 +821,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "type": "minecraft:player",
+                      "entity_type": "minecraft:player",
                       "equipment": {
                         "feet": {
                           "items": "#minecraft:foot_armor",

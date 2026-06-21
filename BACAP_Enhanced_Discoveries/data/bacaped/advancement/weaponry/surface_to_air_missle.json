@@ -28,7 +28,7 @@
           ]
         },
         "entity": {
-          "type": "minecraft:creeper",
+          "entity_type": "minecraft:creeper",
           "nbt": "{powered: 1b}",
           "flags": {
             "is_on_ground": false

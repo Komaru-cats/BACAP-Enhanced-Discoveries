@@ -20,7 +20,7 @@
       "conditions": {
         "damage": {
           "source_entity": {
-            "type": "minecraft:villager"
+            "minecraft:entity_type": "minecraft:villager"
           },
           "type": {
             "tags": [

@@ -22,16 +22,16 @@
         },
         "victims": [
           {
-            "type": "minecraft:bogged"
+            "entity_type": "minecraft:bogged"
           },
           {
-            "type": "minecraft:husk"
+            "entity_type": "minecraft:husk"
           },
           {
-            "type": "minecraft:stray"
+            "entity_type": "minecraft:stray"
           },
           {
-            "type": "minecraft:drowned"
+            "entity_type": "minecraft:drowned"
           }
         ]
       }

@@ -28,13 +28,13 @@
         },
         "victims": [
           {
-            "type": "minecraft:blaze"
+            "entity_type": "minecraft:blaze"
           },
           {
-            "type": "minecraft:blaze"
+            "entity_type": "minecraft:blaze"
           },
           {
-            "type": "minecraft:blaze"
+            "entity_type": "minecraft:blaze"
           }
         ]
       }

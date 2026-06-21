@@ -21,7 +21,7 @@
         "player": [],
         "damage": {
           "source_entity": {
-            "type": "minecraft:llama"
+            "minecraft:entity_type": "minecraft:llama"
           }
         }
       }

@@ -39,7 +39,7 @@
           }
         },
         "damage": {
-          "type": {
+          "entity_type": {
             "tags": [
               {
                 "id": "bacaped:is_sonic_boom",

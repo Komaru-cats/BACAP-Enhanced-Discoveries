@@ -15,118 +15,13 @@
   },
   "parent": "bacaped:bacap/enhanced_adventure_milestone",
   "criteria": {
-    "crafting_lockdown": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:redstone/crafting_lockdown": true
-            }
-          }
-        }
-      }
-    },
-    "craft_me_all": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:redstone/craft_me_all": true
-            }
-          }
-        }
-      }
-    },
-    "farm_basics": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:redstone/farm_basics": true
-            }
-          }
-        }
-      }
-    },
-    "fat_cat": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:redstone/fat_cat": true
-            }
-          }
-        }
-      }
-    },
-    "heavy_steps": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:redstone/heavy_steps": true
-            }
-          }
-        }
-      }
-    },
-    "light_touch": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:redstone/light_touch": true
-            }
-          }
-        }
-      }
-    },
-    "more_optimisations": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:redstone/more_optimisations": true
-            }
-          }
-        }
-      }
-    },
     "night_shift": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:redstone/night_shift": true
-            }
-          }
-        }
-      }
-    },
-    "old_optimisations": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:redstone/old_optimisations": true
             }
           }
         }
@@ -136,8 +31,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:redstone/say_no_to_campfires": true
             }
@@ -149,10 +43,45 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:redstone/using_a_bow_a_bow_a_bow_a_bow": true
+            }
+          }
+        }
+      }
+    },
+    "crafting_lockdown": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:redstone/crafting_lockdown": true
+            }
+          }
+        }
+      }
+    },
+    "farm_basics": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:redstone/farm_basics": true
+            }
+          }
+        }
+      }
+    },
+    "old_optimisations": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:redstone/old_optimisations": true
             }
           }
         }
@@ -162,10 +91,81 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:redstone/what_do_you_know_about_pistons": true
+            }
+          }
+        }
+      }
+    },
+    "oppositional_position": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:redstone/oppositional_position": true
+            }
+          }
+        }
+      }
+    },
+    "heavy_steps": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:redstone/heavy_steps": true
+            }
+          }
+        }
+      }
+    },
+    "light_touch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:redstone/light_touch": true
+            }
+          }
+        }
+      }
+    },
+    "craft_me_all": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:redstone/craft_me_all": true
+            }
+          }
+        }
+      }
+    },
+    "fat_cat": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:redstone/fat_cat": true
+            }
+          }
+        }
+      }
+    },
+    "more_optimisations": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:redstone/more_optimisations": true
             }
           }
         }

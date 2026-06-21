@@ -44,7 +44,7 @@
           "items": "minecraft:lead"
         },
         "entity": {
-          "type": "minecraft:bee"
+          "entity_type": "minecraft:bee"
         }
       }
     }

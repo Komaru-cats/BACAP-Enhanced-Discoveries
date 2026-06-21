@@ -19,7 +19,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "witch"
+          "entity_type": "witch"
         },
         "killing_blow": {
           "tags": [

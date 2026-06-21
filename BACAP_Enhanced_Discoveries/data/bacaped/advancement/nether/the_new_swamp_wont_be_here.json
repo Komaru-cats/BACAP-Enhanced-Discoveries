@@ -30,28 +30,28 @@
         },
         "victims": [
           {
-            "type": "minecraft:bogged"
+            "entity_type": "minecraft:bogged"
           },
           {
-            "type": "minecraft:frog",
+            "entity_type": "minecraft:frog",
             "components": {
               "minecraft:frog/variant": "minecraft:cold"
             }
           },
           {
-            "type": "minecraft:frog",
+            "entity_type": "minecraft:frog",
             "components": {
               "minecraft:frog/variant": "minecraft:temperate"
             }
           },
           {
-            "type": "minecraft:frog",
+            "entity_type": "minecraft:frog",
             "components": {
               "minecraft:frog/variant": "minecraft:warm"
             }
           },
           {
-            "type": "minecraft:slime"
+            "entity_type": "minecraft:slime"
           }
         ]
       }

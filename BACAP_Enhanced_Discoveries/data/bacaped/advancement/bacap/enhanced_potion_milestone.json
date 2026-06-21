@@ -20,40 +20,13 @@
   },
   "parent": "bacaped:bacap/enhanced_nether_milestone",
   "criteria": {
-    "armor_in_a_bottle": {
+    "worst_cleric_in_the_world": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:potion/armor_in_a_bottle": true
-            }
-          }
-        }
-      }
-    },
-    "cowabunga_it_is": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:potion/cowabunga_it_is": true
-            }
-          }
-        }
-      }
-    },
-    "flashlight": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:potion/flashlight": true
+              "bacaped:potion/worst_cleric_in_the_world": true
             }
           }
         }
@@ -63,8 +36,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:potion/healed_by_pain": true
             }
@@ -72,14 +44,13 @@
         }
       }
     },
-    "jump_for_joy": {
+    "cowabunga_it_is": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:potion/jump_for_joy": true
+              "bacaped:potion/cowabunga_it_is": true
             }
           }
         }
@@ -89,10 +60,45 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:potion/master_of_effects": true
+            }
+          }
+        }
+      }
+    },
+    "jump_for_joy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:potion/jump_for_joy": true
+            }
+          }
+        }
+      }
+    },
+    "flashlight": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:potion/flashlight": true
+            }
+          }
+        }
+      }
+    },
+    "armor_in_a_bottle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:potion/armor_in_a_bottle": true
             }
           }
         }
@@ -102,23 +108,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:potion/trial_potions": true
-            }
-          }
-        }
-      }
-    },
-    "worst_cleric_in_the_world": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:potion/worst_cleric_in_the_world": true
             }
           }
         }
@@ -128,8 +120,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:potion/youre_not_the_zillager": true
             }

@@ -35,8 +35,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -49,7 +48,7 @@
           }
         },
         "entity": {
-          "type": "minecraft:wither"
+          "entity_type": "minecraft:wither"
         }
       }
     }

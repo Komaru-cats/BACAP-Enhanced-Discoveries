@@ -21,8 +21,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:mined",
@@ -40,8 +39,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:mined",
@@ -59,8 +57,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:mined",
@@ -78,8 +75,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:mined",
@@ -97,8 +93,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:mined",
@@ -116,8 +111,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:mined",
@@ -135,8 +129,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:mined",
@@ -154,8 +147,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:mined",
@@ -173,8 +165,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:mined",
@@ -192,8 +183,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:mined",
@@ -211,8 +201,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:mined",
@@ -230,8 +219,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:mined",
@@ -249,8 +237,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:mined",
@@ -268,8 +255,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:mined",
@@ -287,8 +273,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:mined",
@@ -306,8 +291,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:mined",
@@ -325,8 +309,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:mined",
@@ -344,8 +327,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:mined",
@@ -363,8 +345,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:mined",
@@ -382,8 +363,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:mined",
@@ -401,8 +381,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:mined",

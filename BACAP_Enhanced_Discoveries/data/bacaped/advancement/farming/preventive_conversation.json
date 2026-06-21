@@ -33,7 +33,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:rabbit"
+              "entity_type": "minecraft:rabbit"
             }
           }
         ]

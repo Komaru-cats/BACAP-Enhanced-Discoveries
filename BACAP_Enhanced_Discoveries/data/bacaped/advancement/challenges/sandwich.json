@@ -26,19 +26,19 @@
         },
         "victims": [
           {
-            "type": "minecraft:warden"
+            "entity_type": "minecraft:warden"
           },
           {
-            "type": "minecraft:warden"
+            "entity_type": "minecraft:warden"
           },
           {
-            "type": "minecraft:warden"
+            "entity_type": "minecraft:warden"
           },
           {
-            "type": "minecraft:warden"
+            "entity_type": "minecraft:warden"
           },
           {
-            "type": "minecraft:warden"
+            "entity_type": "minecraft:warden"
           }
         ]
       }

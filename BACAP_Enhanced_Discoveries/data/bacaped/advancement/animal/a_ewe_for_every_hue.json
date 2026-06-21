@@ -24,7 +24,7 @@
           ]
         },
         "entity": {
-          "type": "minecraft:sheep",
+          "entity_type": "minecraft:sheep",
           "nbt": "{Color:0b}"
         }
       }
@@ -38,7 +38,7 @@
           ]
         },
         "entity": {
-          "type": "minecraft:sheep",
+          "entity_type": "minecraft:sheep",
           "nbt": "{Color:1b}"
         }
       }
@@ -52,7 +52,7 @@
           ]
         },
         "entity": {
-          "type": "minecraft:sheep",
+          "entity_type": "minecraft:sheep",
           "nbt": "{Color:2b}"
         }
       }
@@ -66,7 +66,7 @@
           ]
         },
         "entity": {
-          "type": "minecraft:sheep",
+          "entity_type": "minecraft:sheep",
           "nbt": "{Color:3b}"
         }
       }
@@ -80,7 +80,7 @@
           ]
         },
         "entity": {
-          "type": "minecraft:sheep",
+          "entity_type": "minecraft:sheep",
           "nbt": "{Color:4b}"
         }
       }
@@ -94,7 +94,7 @@
           ]
         },
         "entity": {
-          "type": "minecraft:sheep",
+          "entity_type": "minecraft:sheep",
           "nbt": "{Color:5b}"
         }
       }
@@ -108,7 +108,7 @@
           ]
         },
         "entity": {
-          "type": "minecraft:sheep",
+          "entity_type": "minecraft:sheep",
           "nbt": "{Color:6b}"
         }
       }
@@ -122,7 +122,7 @@
           ]
         },
         "entity": {
-          "type": "minecraft:sheep",
+          "entity_type": "minecraft:sheep",
           "nbt": "{Color:7b}"
         }
       }
@@ -136,7 +136,7 @@
           ]
         },
         "entity": {
-          "type": "minecraft:sheep",
+          "entity_type": "minecraft:sheep",
           "nbt": "{Color:8b}"
         }
       }
@@ -150,7 +150,7 @@
           ]
         },
         "entity": {
-          "type": "minecraft:sheep",
+          "entity_type": "minecraft:sheep",
           "nbt": "{Color:9b}"
         }
       }
@@ -164,7 +164,7 @@
           ]
         },
         "entity": {
-          "type": "minecraft:sheep",
+          "entity_type": "minecraft:sheep",
           "nbt": "{Color:10b}"
         }
       }
@@ -178,7 +178,7 @@
           ]
         },
         "entity": {
-          "type": "minecraft:sheep",
+          "entity_type": "minecraft:sheep",
           "nbt": "{Color:11b}"
         }
       }
@@ -192,7 +192,7 @@
           ]
         },
         "entity": {
-          "type": "minecraft:sheep",
+          "entity_type": "minecraft:sheep",
           "nbt": "{Color:12b}"
         }
       }
@@ -206,7 +206,7 @@
           ]
         },
         "entity": {
-          "type": "minecraft:sheep",
+          "entity_type": "minecraft:sheep",
           "nbt": "{Color:13b}"
         }
       }
@@ -220,7 +220,7 @@
           ]
         },
         "entity": {
-          "type": "minecraft:sheep",
+          "entity_type": "minecraft:sheep",
           "nbt": "{Color:14b}"
         }
       }
@@ -234,7 +234,7 @@
           ]
         },
         "entity": {
-          "type": "minecraft:sheep",
+          "entity_type": "minecraft:sheep",
           "nbt": "{Color:15b}"
         }
       }

@@ -20,7 +20,7 @@
       "conditions": {
         "player": {
           "vehicle": {
-            "type": "minecraft:pig",
+            "entity_type": "minecraft:pig",
             "location": {
               "dimension": "minecraft:the_nether"
             }

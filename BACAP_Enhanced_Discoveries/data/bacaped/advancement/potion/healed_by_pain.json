@@ -24,9 +24,9 @@
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
         "damage": {
-          "type": {
+          "entity_type": {
             "direct_entity": {
-              "type": "minecraft:arrow",
+              "entity_type": "minecraft:arrow",
               "nbt": "{item: {components: {\"minecraft:potion_contents\": {potion: \"minecraft:strong_healing\"}}}}"
             }
           }

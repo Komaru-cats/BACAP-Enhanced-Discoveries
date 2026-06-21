@@ -40,15 +40,15 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:player",
+              "entity_type": "minecraft:player",
               "vehicle": {
-                "type": "minecraft:camel"
+                "entity_type": "minecraft:camel"
               }
             }
           }
         ],
         "entity": {
-          "type": "minecraft:husk",
+          "entity_type": "minecraft:husk",
           "nbt": "{OnGround:1b}"
         }
       }

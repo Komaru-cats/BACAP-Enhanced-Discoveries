@@ -19,10 +19,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "looking_at": {
-              "type": [
+              "entity_type": [
                 "minecraft:piglin",
                 "minecraft:piglin_brute"
               ]
@@ -38,10 +37,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "looking_at": {
-              "type": [
+              "entity_type": [
                 "minecraft:piglin",
                 "minecraft:piglin_brute"
               ]

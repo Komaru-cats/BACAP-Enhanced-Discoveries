@@ -4,7 +4,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:warden",
+          "entity_type": "minecraft:warden",
           "nbt": "{Tags:[\"bacaped_full_hp_warden\"]}"
         }
       }

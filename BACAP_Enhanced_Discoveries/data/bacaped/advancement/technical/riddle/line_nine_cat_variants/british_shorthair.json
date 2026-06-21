@@ -4,8 +4,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:technical/riddle/line_nine": false,
               "bacaped:technical/riddle/line_eight": true
@@ -13,7 +12,7 @@
           }
         },
         "entity": {
-          "type": "minecraft:cat",
+          "entity_type": "minecraft:cat",
           "components": {
             "minecraft:cat/variant": "minecraft:british_shorthair"
           }

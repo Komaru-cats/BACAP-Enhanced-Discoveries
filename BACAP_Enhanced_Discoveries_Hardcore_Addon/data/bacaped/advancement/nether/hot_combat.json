@@ -30,7 +30,7 @@
         },
         "damage": {
           "source_entity": {
-            "type": "minecraft:blaze"
+            "minecraft:entity_type": "minecraft:blaze"
           }
         }
       }

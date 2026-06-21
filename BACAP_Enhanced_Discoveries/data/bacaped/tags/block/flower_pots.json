@@ -35,6 +35,7 @@
     "minecraft:potted_cherry_sapling",
     "minecraft:potted_torchflower",
     "minecraft:potted_open_eyeblossom",
-    "minecraft:potted_closed_eyeblossom"
+    "minecraft:potted_closed_eyeblossom",
+	"minecraft:potted_golden_dandelion"
   ]
 }

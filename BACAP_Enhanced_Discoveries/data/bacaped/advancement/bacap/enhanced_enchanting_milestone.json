@@ -15,14 +15,13 @@
   },
   "parent": "bacaped:bacap/enhanced_redstone_milestone",
   "criteria": {
-    "all_the_netherite_tools": {
+    "fully_charged": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:enchanting/all_the_netherite_tools": true
+              "bacaped:enchanting/fully_charged": true
             }
           }
         }
@@ -32,36 +31,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:enchanting/elementals": true
-            }
-          }
-        }
-      }
-    },
-    "fully_charged": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:enchanting/fully_charged": true
-            }
-          }
-        }
-      }
-    },
-    "heavy_catch": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:enchanting/heavy_catch": true
             }
           }
         }
@@ -71,88 +43,9 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:enchanting/master_shearer": true
-            }
-          }
-        }
-      }
-    },
-    "master_shieldman": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:enchanting/master_shieldman": true
-            }
-          }
-        }
-      }
-    },
-    "master_sweeper": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:enchanting/master_sweeper": true
-            }
-          }
-        }
-      }
-    },
-    "oh_i_forgot_about_the_anvil": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:enchanting/oh_i_forgot_about_the_anvil": true
-            }
-          }
-        }
-      }
-    },
-    "pyromaniac": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:enchanting/pyromaniac": true
-            }
-          }
-        }
-      }
-    },
-    "small_targets": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:enchanting/small_targets": true
-            }
-          }
-        }
-      }
-    },
-    "thin_line": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:enchanting/thin_line": true
             }
           }
         }
@@ -162,10 +55,105 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:enchanting/useless": true
+            }
+          }
+        }
+      }
+    },
+    "small_targets": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:enchanting/small_targets": true
+            }
+          }
+        }
+      }
+    },
+    "all_the_netherite_tools": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:enchanting/all_the_netherite_tools": true
+            }
+          }
+        }
+      }
+    },
+    "heavy_catch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:enchanting/heavy_catch": true
+            }
+          }
+        }
+      }
+    },
+    "oh_i_forgot_about_the_anvil": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:enchanting/oh_i_forgot_about_the_anvil": true
+            }
+          }
+        }
+      }
+    },
+    "thin_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:enchanting/thin_line": true
+            }
+          }
+        }
+      }
+    },
+    "master_sweeper": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:enchanting/master_sweeper": true
+            }
+          }
+        }
+      }
+    },
+    "pyromaniac": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:enchanting/pyromaniac": true
+            }
+          }
+        }
+      }
+    },
+    "master_shieldman": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:enchanting/master_shieldman": true
             }
           }
         }

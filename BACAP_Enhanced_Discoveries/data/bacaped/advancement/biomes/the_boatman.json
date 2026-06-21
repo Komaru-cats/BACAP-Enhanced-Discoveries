@@ -23,7 +23,7 @@
       "conditions": {
         "player": {
           "vehicle": {
-            "type": "#blazeandcave:all_boats",
+            "entity_type": "#blazeandcave:all_boats",
             "stepping_on": {
               "block": {
                 "blocks": "minecraft:blue_ice"

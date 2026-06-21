@@ -43,7 +43,7 @@
             }
           },
           "vehicle": {
-            "type": "minecraft:pig"
+            "entity_type": "minecraft:pig"
           }
         }
       }

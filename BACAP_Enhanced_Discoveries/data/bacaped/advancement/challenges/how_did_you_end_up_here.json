@@ -35,7 +35,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:bat",
+          "entity_type": "minecraft:bat",
           "location": {
             "position": {
               "y": {

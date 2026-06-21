@@ -28,7 +28,7 @@
           }
         },
         "entity": {
-          "type": "minecraft:snow_golem"
+          "entity_type": "minecraft:snow_golem"
         }
       }
     }

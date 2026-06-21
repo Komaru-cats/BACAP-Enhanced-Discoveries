@@ -50,7 +50,7 @@
           }
         ],
         "entity": {
-          "type": "minecraft:wither",
+          "entity_type": "minecraft:wither",
           "location": {
             "structures": "#minecraft:shipwreck"
           }

@@ -23,7 +23,7 @@
             "biomes": "minecraft:nether_wastes"
           },
           "vehicle": {
-            "type": "minecraft:pig"
+            "entity_type": "minecraft:pig"
           }
         }
       }
@@ -36,7 +36,7 @@
             "biomes": "minecraft:warped_forest"
           },
           "vehicle": {
-            "type": "minecraft:pig"
+            "entity_type": "minecraft:pig"
           }
         }
       }
@@ -49,7 +49,7 @@
             "biomes": "minecraft:basalt_deltas"
           },
           "vehicle": {
-            "type": "minecraft:pig"
+            "entity_type": "minecraft:pig"
           }
         }
       }
@@ -62,7 +62,7 @@
             "biomes": "minecraft:crimson_forest"
           },
           "vehicle": {
-            "type": "minecraft:pig"
+            "entity_type": "minecraft:pig"
           }
         }
       }
@@ -75,7 +75,7 @@
             "biomes": "minecraft:soul_sand_valley"
           },
           "vehicle": {
-            "type": "minecraft:pig"
+            "entity_type": "minecraft:pig"
           }
         }
       }
@@ -88,7 +88,7 @@
             "structures": "minecraft:ruined_portal_nether"
           },
           "vehicle": {
-            "type": "minecraft:pig"
+            "entity_type": "minecraft:pig"
           }
         }
       }
@@ -101,7 +101,7 @@
             "structures": "minecraft:fortress"
           },
           "vehicle": {
-            "type": "minecraft:pig"
+            "entity_type": "minecraft:pig"
           }
         }
       }
@@ -114,7 +114,7 @@
             "structures": "minecraft:bastion_remnant"
           },
           "vehicle": {
-            "type": "minecraft:pig"
+            "entity_type": "minecraft:pig"
           }
         }
       }

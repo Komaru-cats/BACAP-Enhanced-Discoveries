@@ -38,9 +38,9 @@
           "items": "minecraft:lead"
         },
         "entity": {
-          "type": "#minecraft:boat",
+          "entity_type": "#minecraft:boat",
           "passenger": {
-            "type": "minecraft:panda"
+            "entity_type": "minecraft:panda"
           }
         }
       }

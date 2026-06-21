@@ -20,10 +20,9 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "looking_at": {
-              "type": "minecraft:silverfish",
+              "entity_type": "minecraft:silverfish",
               "nbt": "{Tags:[\"bacaped_interspecific_adventure\"]}"
             }
           },
@@ -40,10 +39,9 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "looking_at": {
-              "type": "minecraft:endermite",
+              "entity_type": "minecraft:endermite",
               "nbt": "{Tags:[\"bacaped_interspecific_adventure\"]}"
             }
           },

@@ -36,7 +36,7 @@
       "conditions": {
         "damage": {
           "source_entity": {
-            "type": "minecraft:falling_block",
+            "entity_type": "minecraft:falling_block",
             "nbt": "{BlockState:{Name:\"minecraft:anvil\"}}"
           }
         }
@@ -47,7 +47,7 @@
       "conditions": {
         "damage": {
           "source_entity": {
-            "type": "minecraft:falling_block",
+            "entity_type": "minecraft:falling_block",
             "nbt": "{BlockState:{Name:\"minecraft:chipped_anvil\"}}"
           }
         }
@@ -58,7 +58,7 @@
       "conditions": {
         "damage": {
           "source_entity": {
-            "type": "minecraft:falling_block",
+            "entity_type": "minecraft:falling_block",
             "nbt": "{BlockState:{Name:\"minecraft:damaged_anvil\"}}"
           }
         }

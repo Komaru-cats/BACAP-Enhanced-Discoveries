@@ -2,9 +2,9 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "type": "minecraft:drowned",
+    "entity_type": "minecraft:drowned",
     "vehicle": {
-      "type": "minecraft:chicken",
+      "entity_type": "minecraft:chicken",
       "components": {
         "minecraft:chicken/variant": "warm"
       }

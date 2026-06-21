@@ -22,7 +22,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type": "minecraft:player",
+          "entity_type": "minecraft:player",
           "nbt": "{Inventory:[]}",
           "effects": {
             "minecraft:nausea": {}
@@ -33,7 +33,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:ender_dragon"
+              "entity_type": "minecraft:ender_dragon"
             }
           }
         ],
@@ -45,7 +45,7 @@
             }
           ],
           "direct_entity": {
-            "type": "minecraft:fireball"
+            "entity_type": "minecraft:fireball"
           }
         }
       }

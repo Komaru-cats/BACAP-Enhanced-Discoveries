@@ -38,7 +38,7 @@
           "items": "minecraft:shears"
         },
         "entity": {
-          "type": "minecraft:sheep"
+          "entity_type": "minecraft:sheep"
         }
       }
     },
@@ -49,7 +49,7 @@
           "items": "minecraft:shears"
         },
         "entity": {
-          "type": "minecraft:mooshroom",
+          "entity_type": "minecraft:mooshroom",
           "nbt": "{Type:\"red\"}"
         }
       }
@@ -61,7 +61,7 @@
           "items": "minecraft:shears"
         },
         "entity": {
-          "type": "minecraft:mooshroom",
+          "entity_type": "minecraft:mooshroom",
           "nbt": "{Type:\"brown\"}"
         }
       }
@@ -73,7 +73,7 @@
           "items": "minecraft:shears"
         },
         "entity": {
-          "type": "minecraft:snow_golem"
+          "entity_type": "minecraft:snow_golem"
         }
       }
     },
@@ -84,7 +84,7 @@
           "items": "minecraft:shears"
         },
         "entity": {
-          "type": "minecraft:bogged"
+          "entity_type": "minecraft:bogged"
         }
       }
     },
@@ -95,7 +95,7 @@
           "items": "minecraft:shears"
         },
         "entity": {
-          "type": "minecraft:wolf"
+          "entity_type": "minecraft:wolf"
         }
       }
     },
@@ -225,6 +225,24 @@
         ]
       }
     },
+    "sweet_berry_bush": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:sweet_berry_bush",
+            "properties": {}
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:shears"
+            }
+          }
+        ]
+      }
+    },
     "horse_horse_armor": {
       "trigger": "minecraft:player_sheared_equipment",
       "conditions": {
@@ -232,7 +250,7 @@
           "items": "#bacaped:horse_armor"
         },
         "entity": {
-          "type": "minecraft:horse"
+          "entity_type": "minecraft:horse"
         }
       }
     },
@@ -243,7 +261,7 @@
           "items": "minecraft:saddle"
         },
         "entity": {
-          "type": "minecraft:horse"
+          "entity_type": "minecraft:horse"
         }
       }
     },
@@ -254,7 +272,7 @@
           "items": "minecraft:saddle"
         },
         "entity": {
-          "type": "minecraft:mule"
+          "entity_type": "minecraft:mule"
         }
       }
     },
@@ -265,7 +283,7 @@
           "items": "minecraft:saddle"
         },
         "entity": {
-          "type": "minecraft:pig"
+          "entity_type": "minecraft:pig"
         }
       }
     },
@@ -276,7 +294,7 @@
           "items": "minecraft:saddle"
         },
         "entity": {
-          "type": "minecraft:strider"
+          "entity_type": "minecraft:strider"
         }
       }
     },
@@ -287,7 +305,7 @@
           "items": "minecraft:saddle"
         },
         "entity": {
-          "type": "minecraft:camel"
+          "entity_type": "minecraft:camel"
         }
       }
     },
@@ -298,7 +316,7 @@
           "items": "minecraft:saddle"
         },
         "entity": {
-          "type": "minecraft:donkey"
+          "entity_type": "minecraft:donkey"
         }
       }
     },
@@ -309,7 +327,7 @@
           "items": "#minecraft:wool_carpets"
         },
         "entity": {
-          "type": "#blazeandcave:llamas"
+          "entity_type": "#blazeandcave:llamas"
         }
       }
     },
@@ -320,7 +338,7 @@
           "items": "#minecraft:harnesses"
         },
         "entity": {
-          "type": "minecraft:happy_ghast"
+          "entity_type": "minecraft:happy_ghast"
         }
       }
     },
@@ -331,7 +349,7 @@
           "items": "saddle"
         },
         "entity": {
-          "type": "minecraft:skeleton_horse"
+          "entity_type": "minecraft:skeleton_horse"
         }
       }
     },
@@ -342,7 +360,7 @@
           "items": "#bacaped:horse_armor"
         },
         "entity": {
-          "type": "minecraft:zombie_horse"
+          "entity_type": "minecraft:zombie_horse"
         }
       }
     },
@@ -353,7 +371,7 @@
           "items": "minecraft:saddle"
         },
         "entity": {
-          "type": "minecraft:zombie_horse"
+          "entity_type": "minecraft:zombie_horse"
         }
       }
     },
@@ -364,7 +382,7 @@
           "items": "#bacaped:nautilus_armor"
         },
         "entity": {
-          "type": "minecraft:nautilus"
+          "entity_type": "minecraft:nautilus"
         }
       }
     },
@@ -375,7 +393,7 @@
           "items": "minecraft:saddle"
         },
         "entity": {
-          "type": "minecraft:nautilus"
+          "entity_type": "minecraft:nautilus"
         }
       }
     },
@@ -386,7 +404,7 @@
           "items": "#bacaped:nautilus_armor"
         },
         "entity": {
-          "type": "minecraft:zombie_nautilus"
+          "entity_type": "minecraft:zombie_nautilus"
         }
       }
     },
@@ -397,7 +415,7 @@
           "items": "minecraft:saddle"
         },
         "entity": {
-          "type": "minecraft:zombie_nautilus"
+          "entity_type": "minecraft:zombie_nautilus"
         }
       }
     },
@@ -408,7 +426,18 @@
           "items": "minecraft:saddle"
         },
         "entity": {
-          "type": "minecraft:camel_husk"
+          "entity_type": "minecraft:camel_husk"
+        }
+      }
+    },
+    "copper_golem": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:shears"
+        },
+        "entity": {
+          "entity_type": "minecraft:copper_golem"
         }
       }
     }

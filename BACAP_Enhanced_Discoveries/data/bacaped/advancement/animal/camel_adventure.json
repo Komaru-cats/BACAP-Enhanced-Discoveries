@@ -25,7 +25,7 @@
             "structures": "minecraft:desert_pyramid"
           },
           "vehicle": {
-            "type": "minecraft:camel"
+            "entity_type": "minecraft:camel"
           }
         }
       }
@@ -38,7 +38,7 @@
             "structures": "minecraft:village_desert"
           },
           "vehicle": {
-            "type": "minecraft:camel"
+            "entity_type": "minecraft:camel"
           }
         }
       }
@@ -52,7 +52,7 @@
             "structures": "pillager_outpost"
           },
           "vehicle": {
-            "type": "minecraft:camel"
+            "entity_type": "minecraft:camel"
           }
         }
       }

@@ -39,25 +39,25 @@
         },
         "victims": [
           {
-            "type": "minecraft:spider",
+            "entity_type": "minecraft:spider",
             "effects": {
               "minecraft:invisibility": {}
             }
           },
           {
-            "type": "minecraft:spider",
+            "entity_type": "minecraft:spider",
             "effects": {
               "minecraft:regeneration": {}
             }
           },
           {
-            "type": "minecraft:spider",
+            "entity_type": "minecraft:spider",
             "effects": {
               "minecraft:strength": {}
             }
           },
           {
-            "type": "minecraft:spider",
+            "entity_type": "minecraft:spider",
             "effects": {
               "minecraft:speed": {}
             }

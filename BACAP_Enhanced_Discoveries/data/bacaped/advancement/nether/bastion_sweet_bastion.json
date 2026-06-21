@@ -86,7 +86,7 @@
           }
         ],
         "entity": {
-          "type": "minecraft:piglin"
+          "entity_type": "minecraft:piglin"
         }
       }
     }

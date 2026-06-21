@@ -26,7 +26,7 @@
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                  "type": "minecraft:falling_block",
+                  "entity_type": "minecraft:falling_block",
                   "nbt": "{BlockState:{Name:\"minecraft:anvil\"}}"
                 }
               },
@@ -34,7 +34,7 @@
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                  "type": "minecraft:falling_block",
+                  "entity_type": "minecraft:falling_block",
                   "nbt": "{BlockState:{Name:\"minecraft:chipped_anvil\"}}"
                 }
               },
@@ -42,7 +42,7 @@
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                  "type": "minecraft:falling_block",
+                  "entity_type": "minecraft:falling_block",
                   "nbt": "{BlockState:{Name:\"minecraft:damaged_anvil\"}}"
                 }
               }

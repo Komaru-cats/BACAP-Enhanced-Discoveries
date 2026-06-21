@@ -22,10 +22,9 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "looking_at": {
-              "type": "minecraft:goat",
+              "entity_type": "minecraft:goat",
               "nbt": "{HasLeftHorn:0b, HasRightHorn:0b}"
             }
           }

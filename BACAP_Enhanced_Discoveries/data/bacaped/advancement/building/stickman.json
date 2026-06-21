@@ -21,8 +21,7 @@
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -41,8 +40,7 @@
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",

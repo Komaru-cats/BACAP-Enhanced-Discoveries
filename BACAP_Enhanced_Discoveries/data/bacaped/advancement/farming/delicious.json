@@ -25,7 +25,7 @@
           "items": "minecraft:azure_bluet"
         },
         "entity": {
-          "type": "minecraft:mooshroom",
+          "entity_type": "minecraft:mooshroom",
           "nbt": "{stew_effects:[{id:\"minecraft:blindness\"}]}"
         }
       }
@@ -37,7 +37,7 @@
           "items": "minecraft:open_eyeblossom"
         },
         "entity": {
-          "type": "minecraft:mooshroom",
+          "entity_type": "minecraft:mooshroom",
           "nbt": "{stew_effects:[{id:\"minecraft:blindness\"}]}"
         }
       }
@@ -49,7 +49,7 @@
           "items": "minecraft:closed_eyeblossom"
         },
         "entity": {
-          "type": "minecraft:mooshroom",
+          "entity_type": "minecraft:mooshroom",
           "nbt": "{stew_effects:[{id:\"minecraft:nausea\"}]}"
         }
       }
@@ -61,7 +61,7 @@
           "items": "minecraft:allium"
         },
         "entity": {
-          "type": "minecraft:mooshroom",
+          "entity_type": "minecraft:mooshroom",
           "nbt": "{stew_effects:[{id:\"minecraft:fire_resistance\"}]}"
         }
       }
@@ -73,7 +73,7 @@
           "items": "minecraft:blue_orchid"
         },
         "entity": {
-          "type": "minecraft:mooshroom",
+          "entity_type": "minecraft:mooshroom",
           "nbt": "{stew_effects:[{id:\"minecraft:saturation\"}]}"
         }
       }
@@ -85,7 +85,7 @@
           "items": "minecraft:dandelion"
         },
         "entity": {
-          "type": "minecraft:mooshroom",
+          "entity_type": "minecraft:mooshroom",
           "nbt": "{stew_effects:[{id:\"minecraft:saturation\"}]}"
         }
       }
@@ -97,7 +97,7 @@
           "items": "minecraft:lily_of_the_valley"
         },
         "entity": {
-          "type": "minecraft:mooshroom",
+          "entity_type": "minecraft:mooshroom",
           "nbt": "{stew_effects:[{id:\"minecraft:poison\"}]}"
         }
       }
@@ -109,7 +109,7 @@
           "items": "minecraft:cornflower"
         },
         "entity": {
-          "type": "minecraft:mooshroom",
+          "entity_type": "minecraft:mooshroom",
           "nbt": "{stew_effects:[{id:\"minecraft:jump_boost\"}]}"
         }
       }
@@ -121,7 +121,7 @@
           "items": "minecraft:red_tulip"
         },
         "entity": {
-          "type": "minecraft:mooshroom",
+          "entity_type": "minecraft:mooshroom",
           "nbt": "{stew_effects:[{id:\"minecraft:weakness\"}]}"
         }
       }
@@ -133,7 +133,7 @@
           "items": "minecraft:orange_tulip"
         },
         "entity": {
-          "type": "minecraft:mooshroom",
+          "entity_type": "minecraft:mooshroom",
           "nbt": "{stew_effects:[{id:\"minecraft:weakness\"}]}"
         }
       }
@@ -145,7 +145,7 @@
           "items": "minecraft:white_tulip"
         },
         "entity": {
-          "type": "minecraft:mooshroom",
+          "entity_type": "minecraft:mooshroom",
           "nbt": "{stew_effects:[{id:\"minecraft:weakness\"}]}"
         }
       }
@@ -157,7 +157,7 @@
           "items": "minecraft:pink_tulip"
         },
         "entity": {
-          "type": "minecraft:mooshroom",
+          "entity_type": "minecraft:mooshroom",
           "nbt": "{stew_effects:[{id:\"minecraft:weakness\"}]}"
         }
       }
@@ -169,7 +169,7 @@
           "items": "minecraft:poppy"
         },
         "entity": {
-          "type": "minecraft:mooshroom",
+          "entity_type": "minecraft:mooshroom",
           "nbt": "{stew_effects:[{id:\"minecraft:night_vision\"}]}"
         }
       }
@@ -181,7 +181,7 @@
           "items": "minecraft:torchflower"
         },
         "entity": {
-          "type": "minecraft:mooshroom",
+          "entity_type": "minecraft:mooshroom",
           "nbt": "{stew_effects:[{id:\"minecraft:night_vision\"}]}"
         }
       }
@@ -193,7 +193,7 @@
           "items": "minecraft:wither_rose"
         },
         "entity": {
-          "type": "minecraft:mooshroom",
+          "entity_type": "minecraft:mooshroom",
           "nbt": "{stew_effects:[{id:\"minecraft:wither\"}]}"
         }
       }
@@ -205,8 +205,20 @@
           "items": "minecraft:oxeye_daisy"
         },
         "entity": {
-          "type": "minecraft:mooshroom",
+          "entity_type": "minecraft:mooshroom",
           "nbt": "{stew_effects:[{id:\"minecraft:regeneration\"}]}"
+        }
+      }
+    },
+    "golden_dandelion": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "entity_type": "minecraft:mooshroom",
+          "nbt": "{stew_effects:[{id:\"minecraft:saturation\"}]}"
         }
       }
     }

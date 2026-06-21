@@ -2,9 +2,9 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "type": "minecraft:husk",
+    "entity_type": "minecraft:husk",
     "vehicle": {
-      "type": "minecraft:chicken",
+      "entity_type": "minecraft:chicken",
       "components": {
         "minecraft:chicken/variant": "cold"
       }

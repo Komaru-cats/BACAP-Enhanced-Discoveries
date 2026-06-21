@@ -22,10 +22,9 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "looking_at": {
-              "type": "minecraft:item",
+              "entity_type": "minecraft:item",
               "nbt": "{Item: {id: \"minecraft:spyglass\"}}"
             }
           }

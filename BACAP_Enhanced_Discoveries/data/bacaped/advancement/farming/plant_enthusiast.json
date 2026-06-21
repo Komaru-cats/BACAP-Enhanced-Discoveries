@@ -23,8 +23,7 @@
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:used",

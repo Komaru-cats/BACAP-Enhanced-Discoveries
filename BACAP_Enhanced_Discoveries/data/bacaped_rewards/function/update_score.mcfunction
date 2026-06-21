@@ -36,7 +36,6 @@ execute as @a[advancements={bacaped:adventure/water_dependent=true}] run scorebo
 execute as @a[advancements={bacaped:adventure/water_team=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:adventure/we_are_fine_really=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:animal/a_ewe_for_every_hue=true}] run scoreboard players add @s bac_advancements 1
-execute as @a[advancements={bacaped:animal/accept_cookies=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:animal/air_balloon=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:animal/baby_zoo=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:animal/beezlebooster=true}] run scoreboard players add @s bac_advancements 1
@@ -92,6 +91,7 @@ execute as @a[advancements={bacaped:bacap/enhanced_potion_milestone=true}] run s
 execute as @a[advancements={bacaped:bacap/enhanced_redstone_milestone=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:bacap/enhanced_statistics_milestone=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:bacap/enhanced_weaponry_milestone=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={bacaped:biomes/accept_cookies=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:biomes/australia=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:biomes/coolgrill=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:biomes/good_dreams=true}] run scoreboard players add @s bac_advancements 1
@@ -274,6 +274,7 @@ execute as @a[advancements={bacaped:redstone/light_touch=true}] run scoreboard p
 execute as @a[advancements={bacaped:redstone/more_optimisations=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:redstone/night_shift=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:redstone/old_optimisations=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={bacaped:redstone/oppositional_position=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:redstone/say_no_to_campfires=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:redstone/using_a_bow_a_bow_a_bow_a_bow=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:redstone/what_do_you_know_about_pistons=true}] run scoreboard players add @s bac_advancements 1

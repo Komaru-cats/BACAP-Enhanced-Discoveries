@@ -19,19 +19,18 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "looking_at": {
-              "type": "minecraft:fox",
+              "entity_type": "minecraft:fox",
               "equipment": {
                 "mainhand": {
                   "items": "minecraft:netherite_sword"
                 }
               },
               "targeted_entity": {
-                "type": "minecraft:wolf",
+                "entity_type": "minecraft:wolf",
                 "targeted_entity": {
-                  "type": "minecraft:player"
+                  "entity_type": "minecraft:player"
                 }
               }
             }

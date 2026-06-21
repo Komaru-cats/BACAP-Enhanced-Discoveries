@@ -23,7 +23,7 @@
           }
         },
         "entity": {
-          "type": "minecraft:rabbit",
+          "entity_type": "minecraft:rabbit",
           "effects": {
             "minecraft:jump_boost": {}
           }
@@ -39,7 +39,7 @@
           }
         },
         "entity": {
-          "type": "minecraft:slime",
+          "entity_type": "minecraft:slime",
           "effects": {
             "minecraft:jump_boost": {}
           }
@@ -55,7 +55,7 @@
           }
         },
         "entity": {
-          "type": "minecraft:magma_cube",
+          "entity_type": "minecraft:magma_cube",
           "effects": {
             "minecraft:jump_boost": {}
           }
@@ -71,7 +71,7 @@
           }
         },
         "entity": {
-          "type": "minecraft:frog",
+          "entity_type": "minecraft:frog",
           "effects": {
             "minecraft:jump_boost": {}
           }
@@ -87,7 +87,7 @@
           }
         },
         "entity": {
-          "type": "minecraft:goat",
+          "entity_type": "minecraft:goat",
           "effects": {
             "minecraft:jump_boost": {}
           }

@@ -19,7 +19,7 @@
       "trigger": "minecraft:entity_killed_player",
       "conditions": {
         "entity": {
-          "type": "minecraft:villager"
+          "entity_type": "minecraft:villager"
         },
         "killing_blow": {
           "tags": [

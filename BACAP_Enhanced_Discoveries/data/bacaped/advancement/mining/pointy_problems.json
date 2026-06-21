@@ -22,9 +22,9 @@
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
         "damage": {
-          "type": {
+          "entity_type": {
             "direct_entity": {
-              "type": "minecraft:falling_block",
+              "entity_type": "minecraft:falling_block",
               "nbt": "{BlockState: {Name: \"minecraft:pointed_dripstone\"}}"
             }
           }

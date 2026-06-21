@@ -35,10 +35,9 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "looking_at": {
-              "type": "minecraft:armadillo",
+              "entity_type": "minecraft:armadillo",
               "nbt": "{state: \"scared\"}"
             }
           }

@@ -15,131 +15,13 @@
   },
   "parent": "blazeandcave:bacap/time_to_farm",
   "criteria": {
-    "batman": {
+    "time_killer": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:mining/batman": true
-            }
-          }
-        }
-      }
-    },
-    "chief_spide": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:mining/chief_spide": true
-            }
-          }
-        }
-      }
-    },
-    "copper_king": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:mining/copper_king": true
-            }
-          }
-        }
-      }
-    },
-    "deepslated_miner": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:mining/deepslated_miner": true
-            }
-          }
-        }
-      }
-    },
-    "deepslate_master": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:mining/deepslate_master": true
-            }
-          }
-        }
-      }
-    },
-    "distorted_cave_maze": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:mining/distorted_cave_maze": true
-            }
-          }
-        }
-      }
-    },
-    "flint_and_steal": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:mining/flint_and_steal": true
-            }
-          }
-        }
-      }
-    },
-    "light_at_the_end_of_the_tunnel": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:mining/light_at_the_end_of_the_tunnel": true
-            }
-          }
-        }
-      }
-    },
-    "pointy_problems": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:mining/pointy_problems": true
-            }
-          }
-        }
-      }
-    },
-    "redstoner": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bacaped:mining/redstoner": true
+              "bacaped:mining/time_killer": true
             }
           }
         }
@@ -149,8 +31,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:mining/reinforced_miner": true
             }
@@ -162,8 +43,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:mining/the_master_of_falls": true
             }
@@ -171,14 +51,121 @@
         }
       }
     },
-    "time_killer": {
+    "deepslate_master": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:mining/time_killer": true
+              "bacaped:mining/deepslate_master": true
+            }
+          }
+        }
+      }
+    },
+    "redstoner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:mining/redstoner": true
+            }
+          }
+        }
+      }
+    },
+    "chief_spide": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:mining/chief_spide": true
+            }
+          }
+        }
+      }
+    },
+    "distorted_cave_maze": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:mining/distorted_cave_maze": true
+            }
+          }
+        }
+      }
+    },
+    "copper_king": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:mining/copper_king": true
+            }
+          }
+        }
+      }
+    },
+    "deepslated_miner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:mining/deepslated_miner": true
+            }
+          }
+        }
+      }
+    },
+    "batman": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:mining/batman": true
+            }
+          }
+        }
+      }
+    },
+    "pointy_problems": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:mining/pointy_problems": true
+            }
+          }
+        }
+      }
+    },
+    "flint_and_steal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:mining/flint_and_steal": true
+            }
+          }
+        }
+      }
+    },
+    "light_at_the_end_of_the_tunnel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:mining/light_at_the_end_of_the_tunnel": true
             }
           }
         }

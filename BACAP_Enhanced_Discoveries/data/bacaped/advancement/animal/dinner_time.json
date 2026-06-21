@@ -18,12 +18,11 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "looking_at": {
-              "type": "minecraft:wolf",
+              "entity_type": "minecraft:wolf",
               "targeted_entity": {
-                "type": "minecraft:skeleton"
+                "entity_type": "minecraft:skeleton"
               }
             }
           }

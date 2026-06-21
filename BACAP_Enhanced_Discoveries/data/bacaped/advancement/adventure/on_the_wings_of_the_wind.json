@@ -30,7 +30,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:wind_charge"
+              "entity_type": "minecraft:wind_charge"
             }
           }
         ]

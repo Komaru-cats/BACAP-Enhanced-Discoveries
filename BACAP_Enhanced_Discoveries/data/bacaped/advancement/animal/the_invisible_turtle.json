@@ -35,10 +35,9 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "player",
+          "minecraft:type_specific/player": {
             "looking_at": {
-              "type": "minecraft:turtle",
+              "entity_type": "minecraft:turtle",
               "location": {
                 "block": {
                   "blocks": [

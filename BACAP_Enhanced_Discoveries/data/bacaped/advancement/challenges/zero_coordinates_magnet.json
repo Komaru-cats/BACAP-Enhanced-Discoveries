@@ -22,7 +22,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:axolotl",
+          "entity_type": "minecraft:axolotl",
           "location": {
             "position": {
               "x": {
