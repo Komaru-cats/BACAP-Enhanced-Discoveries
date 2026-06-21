@@ -50,7 +50,7 @@
         ],
         "damage": {
           "source_entity": {
-            "type": "minecraft:bee"
+            "minecraft:entity_type": "minecraft:bee"
           }
         }
       }

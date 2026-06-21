@@ -25,7 +25,7 @@
       "trigger": "minecraft:effects_changed",
       "conditions": {
         "player": {
-          "type": "minecraft:player",
+          "entity_type": "minecraft:player",
           "effects": {
             "minecraft:weakness": {},
             "minecraft:absorption": {},

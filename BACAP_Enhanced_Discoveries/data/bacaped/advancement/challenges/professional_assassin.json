@@ -48,8 +48,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -67,8 +66,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -86,8 +84,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -105,8 +102,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -124,8 +120,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -143,8 +138,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -162,8 +156,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -181,8 +174,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -200,8 +192,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -219,8 +210,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -238,8 +228,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -257,8 +246,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -276,8 +264,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -295,8 +282,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -314,8 +300,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -333,8 +318,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -352,8 +336,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -371,7 +354,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:wandering_trader"
+          "entity_type": "minecraft:wandering_trader"
         }
       }
     },
@@ -379,8 +362,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -398,8 +380,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -417,8 +398,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -436,8 +416,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -455,8 +434,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -474,8 +452,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -493,8 +470,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -512,8 +488,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -531,8 +506,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -550,8 +524,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -569,8 +542,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -588,8 +560,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -607,8 +578,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -626,8 +596,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -645,8 +614,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -664,8 +632,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -683,8 +650,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -702,8 +668,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -721,8 +686,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -740,8 +704,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -759,8 +722,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -778,8 +740,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -797,8 +758,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -816,8 +776,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -835,8 +794,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -854,8 +812,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -873,8 +830,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -892,8 +848,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -911,8 +866,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -930,8 +884,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -949,8 +902,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -968,8 +920,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -987,8 +938,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1006,8 +956,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1025,8 +974,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1044,8 +992,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1063,8 +1010,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1082,8 +1028,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1101,8 +1046,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1120,7 +1064,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:skeleton_horse"
+          "entity_type": "minecraft:skeleton_horse"
         }
       }
     },
@@ -1128,8 +1072,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1147,8 +1090,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1166,8 +1108,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1185,8 +1126,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1204,8 +1144,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1223,8 +1162,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1242,8 +1180,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1261,8 +1198,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1280,8 +1216,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1299,8 +1234,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1318,8 +1252,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1337,8 +1270,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1356,8 +1288,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1375,8 +1306,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1394,8 +1324,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1413,8 +1342,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1432,8 +1360,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1451,8 +1378,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1470,8 +1396,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1489,8 +1414,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1508,8 +1432,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1527,8 +1450,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1546,8 +1468,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1565,8 +1486,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1584,8 +1504,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1603,8 +1522,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1622,8 +1540,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1641,8 +1558,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",
@@ -1660,8 +1576,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:killed",

@@ -338,6 +338,14 @@
         }
       }
     },
+    "breath_of_the_nautilus": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:breath_of_the_nautilus": {}
+        }
+      }
+    },
     "raid_omen": {
       "trigger": "minecraft:effects_changed",
       "conditions": {

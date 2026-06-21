@@ -45,7 +45,7 @@
           }
         },
         "entity": {
-          "type": "minecraft:warden",
+          "entity_type": "minecraft:warden",
           "location": {
             "position": {
               "y": {

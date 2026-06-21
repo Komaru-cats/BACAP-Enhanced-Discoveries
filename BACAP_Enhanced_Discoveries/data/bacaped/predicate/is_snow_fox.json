@@ -2,7 +2,7 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "type": "minecraft:fox",
+    "entity_type": "minecraft:fox",
     "components": {
       "minecraft:fox/variant": "snow"
     }

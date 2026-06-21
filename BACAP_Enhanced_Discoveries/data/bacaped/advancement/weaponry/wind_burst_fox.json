@@ -34,7 +34,7 @@
           }
         },
         "entity": {
-          "type": "minecraft:fox"
+          "entity_type": "minecraft:fox"
         }
       }
     }

@@ -26,19 +26,19 @@
         },
         "victims": [
           {
-            "type": "minecraft:vex"
+            "entity_type": "minecraft:vex"
           },
           {
-            "type": "minecraft:vex"
+            "entity_type": "minecraft:vex"
           },
           {
-            "type": "minecraft:vex"
+            "entity_type": "minecraft:vex"
           },
           {
-            "type": "minecraft:vex"
+            "entity_type": "minecraft:vex"
           },
           {
-            "type": "minecraft:vex"
+            "entity_type": "minecraft:vex"
           }
         ]
       }

@@ -18,9 +18,9 @@
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "damage": {
-          "type": {
+          "entity_type": {
             "direct_entity": {
-              "type": "minecraft:snowball"
+              "entity_type": "minecraft:snowball"
             }
           }
         },
@@ -29,7 +29,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:glow_squid",
+              "entity_type": "minecraft:glow_squid",
               "flags": {
                 "is_on_ground": false
               }

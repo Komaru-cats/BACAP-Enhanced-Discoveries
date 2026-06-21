@@ -23,7 +23,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:axolotl",
+              "entity_type": "minecraft:axolotl",
               "effects": {
                 "minecraft:strength": {},
                 "minecraft:resistance": {},

@@ -4,20 +4,19 @@
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:nether/high_pitch": false
             }
           }
         },
         "damage": {
-          "type": {
+          "entity_type": {
             "source_entity": {
-              "type": "minecraft:ghast"
+              "entity_type": "minecraft:ghast"
             },
             "direct_entity": {
-              "type": "minecraft:fireball"
+              "entity_type": "minecraft:fireball"
             }
           }
         }

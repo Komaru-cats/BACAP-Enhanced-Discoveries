@@ -30,7 +30,7 @@
       "trigger": "minecraft:thrown_item_picked_up_by_player",
       "conditions": {
         "entity": {
-          "type": "minecraft:piglin",
+          "entity_type": "minecraft:piglin",
           "location": {
             "dimension": "minecraft:overworld"
           }

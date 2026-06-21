@@ -21,15 +21,14 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "gamemode": [
               "survival",
               "creative",
               "adventure"
             ],
             "looking_at": {
-              "type": "minecraft:villager",
+              "entity_type": "minecraft:villager",
               "slots": {
                 "armor.legs": {
                   "items": "minecraft:netherite_leggings"

@@ -2,7 +2,7 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "type": [
+    "entity_type": [
       "minecraft:endermite",
       "minecraft:silverfish"
     ],

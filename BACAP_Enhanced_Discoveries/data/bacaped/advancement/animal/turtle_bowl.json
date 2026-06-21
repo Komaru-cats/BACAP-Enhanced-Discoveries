@@ -24,7 +24,7 @@
       "conditions": {
         "victims": [
           {
-            "type": "minecraft:turtle"
+            "entity_type": "minecraft:turtle"
           }
         ]
       }

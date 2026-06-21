@@ -23,11 +23,11 @@
       "conditions": {
         "player": {
           "vehicle": {
-            "type": "minecraft:strider"
+            "entity_type": "minecraft:strider"
           }
         },
         "entity": {
-          "type": "minecraft:ender_dragon"
+          "entity_type": "minecraft:ender_dragon"
         }
       }
     },
@@ -39,7 +39,7 @@
             "biomes": "minecraft:the_end"
           },
           "vehicle": {
-            "type": "minecraft:strider"
+            "entity_type": "minecraft:strider"
           }
         }
       }
@@ -52,7 +52,7 @@
             "biomes": "minecraft:small_end_islands"
           },
           "vehicle": {
-            "type": "minecraft:strider"
+            "entity_type": "minecraft:strider"
           }
         }
       }
@@ -65,7 +65,7 @@
             "biomes": "#bacaped:end_midlands"
           },
           "vehicle": {
-            "type": "minecraft:strider"
+            "entity_type": "minecraft:strider"
           }
         }
       }
@@ -78,7 +78,7 @@
             "biomes": "minecraft:end_highlands"
           },
           "vehicle": {
-            "type": "minecraft:strider"
+            "entity_type": "minecraft:strider"
           }
         }
       }
@@ -91,7 +91,7 @@
             "biomes": "#bacaped:end_barrens"
           },
           "vehicle": {
-            "type": "minecraft:strider"
+            "entity_type": "minecraft:strider"
           }
         }
       }
@@ -104,7 +104,7 @@
             "structures": "minecraft:end_city"
           },
           "vehicle": {
-            "type": "minecraft:strider"
+            "entity_type": "minecraft:strider"
           }
         }
       }

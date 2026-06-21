@@ -23,7 +23,7 @@
             "biomes": "minecraft:river"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -36,7 +36,7 @@
             "biomes": "minecraft:swamp"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -49,7 +49,7 @@
             "biomes": "minecraft:desert"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -62,7 +62,7 @@
             "biomes": "minecraft:snowy_taiga"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -75,7 +75,7 @@
             "biomes": "minecraft:badlands"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -88,7 +88,7 @@
             "biomes": "minecraft:forest"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -101,7 +101,7 @@
             "biomes": "minecraft:stony_shore"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -114,7 +114,7 @@
             "biomes": "minecraft:snowy_plains"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -127,7 +127,7 @@
             "biomes": "minecraft:wooded_badlands"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -140,7 +140,7 @@
             "biomes": "minecraft:savanna"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -153,7 +153,7 @@
             "biomes": "minecraft:plains"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -166,7 +166,7 @@
             "biomes": "minecraft:frozen_river"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -179,7 +179,7 @@
             "biomes": "minecraft:old_growth_pine_taiga"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -192,7 +192,7 @@
             "biomes": "minecraft:snowy_beach"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -205,7 +205,7 @@
             "biomes": "minecraft:deep_ocean"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -218,7 +218,7 @@
             "biomes": "minecraft:sparse_jungle"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -231,7 +231,7 @@
             "biomes": "minecraft:ocean"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -244,7 +244,7 @@
             "biomes": "minecraft:windswept_hills"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -257,7 +257,7 @@
             "biomes": "minecraft:jungle"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -270,7 +270,7 @@
             "biomes": "minecraft:beach"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -283,7 +283,7 @@
             "biomes": "minecraft:savanna_plateau"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -296,7 +296,7 @@
             "biomes": "minecraft:dark_forest"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -309,7 +309,7 @@
             "biomes": "minecraft:taiga"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -322,7 +322,7 @@
             "biomes": "minecraft:birch_forest"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -335,7 +335,7 @@
             "biomes": "minecraft:mushroom_fields"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -348,7 +348,7 @@
             "biomes": "minecraft:windswept_forest"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -361,7 +361,7 @@
             "biomes": "minecraft:cold_ocean"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -374,7 +374,7 @@
             "biomes": "minecraft:warm_ocean"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -387,7 +387,7 @@
             "biomes": "minecraft:lukewarm_ocean"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -400,7 +400,7 @@
             "biomes": "minecraft:frozen_ocean"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -413,7 +413,7 @@
             "biomes": "minecraft:deep_frozen_ocean"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -426,7 +426,7 @@
             "biomes": "minecraft:deep_lukewarm_ocean"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -439,7 +439,7 @@
             "biomes": "minecraft:deep_cold_ocean"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -452,7 +452,7 @@
             "biomes": "minecraft:bamboo_jungle"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -465,7 +465,7 @@
             "biomes": "minecraft:sunflower_plains"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -478,7 +478,7 @@
             "biomes": "minecraft:windswept_gravelly_hills"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -491,7 +491,7 @@
             "biomes": "minecraft:flower_forest"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -504,7 +504,7 @@
             "biomes": "minecraft:ice_spikes"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -517,7 +517,7 @@
             "biomes": "minecraft:old_growth_birch_forest"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -530,7 +530,7 @@
             "biomes": "minecraft:old_growth_spruce_taiga"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -543,7 +543,7 @@
             "biomes": "minecraft:windswept_savanna"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -556,7 +556,7 @@
             "biomes": "minecraft:eroded_badlands"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -569,7 +569,7 @@
             "biomes": "minecraft:meadow"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -582,7 +582,7 @@
             "biomes": "minecraft:grove"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -595,7 +595,7 @@
             "biomes": "minecraft:snowy_slopes"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -608,7 +608,7 @@
             "biomes": "minecraft:frozen_peaks"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -621,7 +621,7 @@
             "biomes": "minecraft:jagged_peaks"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -634,7 +634,7 @@
             "biomes": "minecraft:stony_peaks"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -647,7 +647,7 @@
             "biomes": "minecraft:lush_caves"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -660,7 +660,7 @@
             "biomes": "minecraft:dripstone_caves"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -673,7 +673,7 @@
             "biomes": "minecraft:nether_wastes"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -686,7 +686,7 @@
             "biomes": "minecraft:crimson_forest"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -699,7 +699,7 @@
             "biomes": "minecraft:warped_forest"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -712,7 +712,7 @@
             "biomes": "minecraft:soul_sand_valley"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -725,7 +725,7 @@
             "biomes": "minecraft:basalt_deltas"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -738,7 +738,7 @@
             "biomes": "minecraft:the_end"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -751,7 +751,7 @@
             "biomes": "minecraft:small_end_islands"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -764,7 +764,7 @@
             "biomes": "minecraft:end_highlands"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -777,7 +777,7 @@
             "biomes": "#bacaped:end_midlands"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -790,7 +790,7 @@
             "biomes": "#bacaped:end_barrens"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -803,7 +803,7 @@
             "biomes": "minecraft:mangrove_swamp"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -816,7 +816,7 @@
             "biomes": "minecraft:deep_dark"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -829,7 +829,7 @@
             "biomes": "minecraft:cherry_grove"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }
@@ -842,7 +842,7 @@
             "biomes": "minecraft:pale_garden"
           },
           "vehicle": {
-            "type": "minecraft:horse"
+            "entity_type": "minecraft:horse"
           }
         }
       }

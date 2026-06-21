@@ -4,22 +4,21 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:technical/riddle/line_seven": true
             }
           }
         },
         "entity": {
-          "type": "minecraft:stray",
+          "entity_type": "minecraft:stray",
           "vehicle": {
-            "type": "minecraft:spider"
+            "entity_type": "minecraft:spider"
           },
           "targeted_entity": {
-            "type": "minecraft:stray",
+            "entity_type": "minecraft:stray",
             "vehicle": {
-              "type": "minecraft:skeleton_horse"
+              "entity_type": "minecraft:skeleton_horse"
             }
           }
         }
@@ -29,22 +28,21 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:technical/riddle/line_seven": true
             }
           }
         },
         "entity": {
-          "type": "minecraft:stray",
+          "entity_type": "minecraft:stray",
           "vehicle": {
-            "type": "minecraft:skeleton_horse"
+            "entity_type": "minecraft:skeleton_horse"
           },
           "targeted_entity": {
-            "type": "minecraft:stray",
+            "entity_type": "minecraft:stray",
             "vehicle": {
-              "type": "minecraft:spider"
+              "entity_type": "minecraft:spider"
             }
           }
         }

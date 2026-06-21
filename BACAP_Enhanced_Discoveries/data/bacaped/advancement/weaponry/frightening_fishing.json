@@ -28,7 +28,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:warden"
+              "entity_type": "minecraft:warden"
             }
           }
         ]

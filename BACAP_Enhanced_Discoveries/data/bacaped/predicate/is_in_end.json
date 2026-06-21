@@ -2,7 +2,7 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "type": "minecraft:player",
+    "entity_type": "minecraft:player",
     "location": {
       "dimension": "minecraft:the_end"
     }

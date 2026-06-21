@@ -43,7 +43,7 @@
                 "dimension": "minecraft:the_end"
               },
               "vehicle": {
-                "type": "minecraft:strider"
+                "entity_type": "minecraft:strider"
               }
             }
           }

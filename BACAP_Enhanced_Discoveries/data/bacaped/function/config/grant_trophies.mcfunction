@@ -169,10 +169,12 @@ execute as @s[advancements={bacaped:statistics/survival_saga=true}] run function
 execute as @s[advancements={bacaped:statistics/titan_of_olympian_gold_triumphs=true}] run function bacaped_rewards:trophy/statistics/titan_of_olympian_gold_triumphs
 execute as @s[advancements={bacaped:statistics/totem_expert=true}] run function bacaped_rewards:trophy/statistics/totem_expert
 execute as @s[advancements={bacaped:statistics/totem_immortal=true}] run function bacaped_rewards:trophy/statistics/totem_immortal
+execute as @s[advancements={bacaped:statistics/true_submarine=true}] run function bacaped_rewards:trophy/statistics/true_submarine
 execute as @s[advancements={bacaped:statistics/vindicator_vanquisher=true}] run function bacaped_rewards:trophy/statistics/vindicator_vanquisher
 execute as @s[advancements={bacaped:statistics/wrath_of_the_western_frontier=true}] run function bacaped_rewards:trophy/statistics/wrath_of_the_western_frontier
 execute as @s[advancements={bacaped:statistics/your_legs_are_beat=true}] run function bacaped_rewards:trophy/statistics/your_legs_are_beat
 execute as @s[advancements={bacaped:weaponry/air_battle=true}] run function bacaped_rewards:trophy/weaponry/air_battle
 execute as @s[advancements={bacaped:weaponry/dead-eye=true}] run function bacaped_rewards:trophy/weaponry/dead-eye
 execute as @s[advancements={bacaped:weaponry/more_shields=true}] run function bacaped_rewards:trophy/weaponry/more_shields
+execute as @s[advancements={bacaped:weaponry/renowned_armament=true}] run function bacaped_rewards:trophy/weaponry/renowned_armament
 execute as @s[advancements={bacaped:weaponry/unlucky=true}] run function bacaped_rewards:trophy/weaponry/unlucky

@@ -5,7 +5,7 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "type": "minecraft:wolf",
+        "entity_type": "minecraft:wolf",
         "components": {
           "minecraft:wolf/variant": "minecraft:ashen"
         }
@@ -15,7 +15,7 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "type": "minecraft:wolf",
+        "entity_type": "minecraft:wolf",
         "components": {
           "minecraft:wolf/variant": "minecraft:snowy"
         }

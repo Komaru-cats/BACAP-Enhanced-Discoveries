@@ -20,10 +20,9 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "looking_at": {
-              "type": "minecraft:cat",
+              "entity_type": "minecraft:cat",
               "nbt": "{Sitting: 1b}",
               "stepping_on": {
                 "block": {

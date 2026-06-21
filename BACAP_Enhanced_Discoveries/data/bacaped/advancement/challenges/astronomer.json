@@ -23,10 +23,9 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type_specific": {
-                "type": "minecraft:player",
+              "minecraft:type_specific/player": {
                 "looking_at": {
-                  "type": "minecraft:falling_block",
+                  "entity_type": "minecraft:falling_block",
                   "nbt": "{BlockState:{Name:\"minecraft:anvil\"}}",
                   "location": {
                     "position": {
@@ -55,10 +54,9 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type_specific": {
-                "type": "minecraft:player",
+              "minecraft:type_specific/player": {
                 "looking_at": {
-                  "type": "minecraft:falling_block",
+                  "entity_type": "minecraft:falling_block",
                   "nbt": "{BlockState:{Name:\"minecraft:chipped_anvil\"}}",
                   "location": {
                     "position": {
@@ -87,10 +85,9 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type_specific": {
-                "type": "minecraft:player",
+              "minecraft:type_specific/player": {
                 "looking_at": {
-                  "type": "minecraft:falling_block",
+                  "entity_type": "minecraft:falling_block",
                   "nbt": "{BlockState:{Name:\"minecraft:damaged_anvil\"}}",
                   "location": {
                     "position": {

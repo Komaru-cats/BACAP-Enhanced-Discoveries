@@ -17,14 +17,13 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "blazeandcave:statistics/two_by_two",
+  "parent": "blazeandcave:statistics/overpopulation",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:bred_animals",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:custom",

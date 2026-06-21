@@ -1,10 +1,7 @@
 {
   "pack": {
-    "pack_format": 63,
-    "supported_formats": {
-		"min_inclusive": 63,
-		"max_inclusive": 64
-	},
-    "description": "§b§oTranslates Blaze and Cave's Enhanced Discoveries"
+        "min_format": [84.0],
+        "max_format": [84.0],
+		"description": "§b§oTranslates Blaze and Cave's Enhanced Discoveries"
   }
 }

@@ -53,11 +53,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:bogged"
+          "entity_type": "minecraft:bogged"
         },
         "killing_blow": {
           "direct_entity": {
-            "type": "minecraft:firework_rocket"
+            "entity_type": "minecraft:firework_rocket"
           }
         }
       }
@@ -66,11 +66,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:zombie"
+          "entity_type": "minecraft:zombie"
         },
         "killing_blow": {
           "direct_entity": {
-            "type": "minecraft:firework_rocket"
+            "entity_type": "minecraft:firework_rocket"
           }
         }
       }
@@ -79,11 +79,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:drowned"
+          "entity_type": "minecraft:drowned"
         },
         "killing_blow": {
           "direct_entity": {
-            "type": "minecraft:firework_rocket"
+            "entity_type": "minecraft:firework_rocket"
           }
         }
       }
@@ -92,11 +92,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:husk"
+          "entity_type": "minecraft:husk"
         },
         "killing_blow": {
           "direct_entity": {
-            "type": "minecraft:firework_rocket"
+            "entity_type": "minecraft:firework_rocket"
           }
         }
       }
@@ -105,11 +105,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:phantom"
+          "entity_type": "minecraft:phantom"
         },
         "killing_blow": {
           "direct_entity": {
-            "type": "minecraft:firework_rocket"
+            "entity_type": "minecraft:firework_rocket"
           }
         }
       }
@@ -118,11 +118,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:skeleton"
+          "entity_type": "minecraft:skeleton"
         },
         "killing_blow": {
           "direct_entity": {
-            "type": "minecraft:firework_rocket"
+            "entity_type": "minecraft:firework_rocket"
           }
         }
       }
@@ -131,11 +131,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:skeleton_horse"
+          "entity_type": "minecraft:skeleton_horse"
         },
         "killing_blow": {
           "direct_entity": {
-            "type": "minecraft:firework_rocket"
+            "entity_type": "minecraft:firework_rocket"
           }
         }
       }
@@ -144,11 +144,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:stray"
+          "entity_type": "minecraft:stray"
         },
         "killing_blow": {
           "direct_entity": {
-            "type": "minecraft:firework_rocket"
+            "entity_type": "minecraft:firework_rocket"
           }
         }
       }
@@ -157,11 +157,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:wither_skeleton"
+          "entity_type": "minecraft:wither_skeleton"
         },
         "killing_blow": {
           "direct_entity": {
-            "type": "minecraft:firework_rocket"
+            "entity_type": "minecraft:firework_rocket"
           }
         }
       }
@@ -170,11 +170,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:zombie_villager"
+          "entity_type": "minecraft:zombie_villager"
         },
         "killing_blow": {
           "direct_entity": {
-            "type": "minecraft:firework_rocket"
+            "entity_type": "minecraft:firework_rocket"
           }
         }
       }
@@ -183,11 +183,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:zombified_piglin"
+          "entity_type": "minecraft:zombified_piglin"
         },
         "killing_blow": {
           "direct_entity": {
-            "type": "minecraft:firework_rocket"
+            "entity_type": "minecraft:firework_rocket"
           }
         }
       }
@@ -196,11 +196,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:zoglin"
+          "entity_type": "minecraft:zoglin"
         },
         "killing_blow": {
           "direct_entity": {
-            "type": "minecraft:firework_rocket"
+            "entity_type": "minecraft:firework_rocket"
           }
         }
       }
@@ -209,11 +209,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:zombie_horse"
+          "entity_type": "minecraft:zombie_horse"
         },
         "killing_blow": {
           "direct_entity": {
-            "type": "minecraft:firework_rocket"
+            "entity_type": "minecraft:firework_rocket"
           }
         }
       }
@@ -222,11 +222,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:zombie_nautilus"
+          "entity_type": "minecraft:zombie_nautilus"
         },
         "killing_blow": {
           "direct_entity": {
-            "type": "minecraft:firework_rocket"
+            "entity_type": "minecraft:firework_rocket"
           }
         }
       }
@@ -235,11 +235,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:camel_husk"
+          "entity_type": "minecraft:camel_husk"
         },
         "killing_blow": {
           "direct_entity": {
-            "type": "minecraft:firework_rocket"
+            "entity_type": "minecraft:firework_rocket"
           }
         }
       }
@@ -248,11 +248,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:parched"
+          "entity_type": "minecraft:parched"
         },
         "killing_blow": {
           "direct_entity": {
-            "type": "minecraft:firework_rocket"
+            "entity_type": "minecraft:firework_rocket"
           }
         }
       }

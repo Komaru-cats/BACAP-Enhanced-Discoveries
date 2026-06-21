@@ -22,7 +22,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "type": "minecraft:player",
+          "entity_type": "minecraft:player",
           "location": {
             "position": {
               "y": {
@@ -36,7 +36,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:turtle",
+              "entity_type": "minecraft:turtle",
               "location": {
                 "position": {
                   "y": {

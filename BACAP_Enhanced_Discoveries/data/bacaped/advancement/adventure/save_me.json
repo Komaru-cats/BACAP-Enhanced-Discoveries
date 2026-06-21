@@ -38,11 +38,11 @@
           "items": "minecraft:iron_ingot"
         },
         "entity": {
-          "type": "minecraft:iron_golem",
+          "entity_type": "minecraft:iron_golem",
           "targeted_entity": {
-            "type": "minecraft:warden",
+            "entity_type": "minecraft:warden",
             "targeted_entity": {
-              "type": "minecraft:iron_golem"
+              "entity_type": "minecraft:iron_golem"
             }
           }
         }

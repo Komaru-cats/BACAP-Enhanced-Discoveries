@@ -5,7 +5,7 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "type": "minecraft:rabbit",
+        "entity_type": "minecraft:rabbit",
         "components": {
           "minecraft:rabbit/variant": "white"
         }
@@ -15,7 +15,7 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "type": "minecraft:rabbit",
+        "entity_type": "minecraft:rabbit",
         "components": {
           "minecraft:rabbit/variant": "white_splotched"
         }

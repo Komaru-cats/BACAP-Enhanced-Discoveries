@@ -8,7 +8,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "type": "minecraft:pig",
+            "entity_type": "minecraft:pig",
             "components": {
               "minecraft:pig/variant": "minecraft:warm",
               "minecraft:custom_name": "Grumm"
@@ -35,7 +35,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "type": "minecraft:pig",
+            "entity_type": "minecraft:pig",
             "components": {
               "minecraft:pig/variant": "minecraft:warm",
               "minecraft:custom_name": "Dinnerbone"

@@ -4,8 +4,7 @@
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:technical/riddle/line_nine": true
             }
@@ -13,7 +12,7 @@
         },
         "villager": {
           "vehicle": {
-            "type": "minecraft:chicken"
+            "entity_type": "minecraft:chicken"
           }
         }
       }

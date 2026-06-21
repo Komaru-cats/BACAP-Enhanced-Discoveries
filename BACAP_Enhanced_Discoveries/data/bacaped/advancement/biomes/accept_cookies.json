@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:animal/chatterbox",
+  "parent": "blazeandcave:biomes/chatterbox",
   "criteria": {
     "use_cookie_on_parrot": {
       "trigger": "minecraft:player_interacted_with_entity",
@@ -22,12 +22,12 @@
           "items": "minecraft:cookie"
         },
         "entity": {
-          "type": "minecraft:parrot"
+          "entity_type": "minecraft:parrot"
         }
       }
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:animal/accept_cookies"
+    "function": "bacaped_rewards:biomes/accept_cookies"
   }
 }

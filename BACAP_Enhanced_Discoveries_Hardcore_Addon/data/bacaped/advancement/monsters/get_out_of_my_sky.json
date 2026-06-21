@@ -34,7 +34,7 @@
         ],
         "damage": {
           "source_entity": {
-            "type": "minecraft:phantom"
+            "minecraft:entity_type": "minecraft:phantom"
           }
         }
       }

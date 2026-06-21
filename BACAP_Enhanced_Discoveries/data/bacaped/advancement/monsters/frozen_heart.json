@@ -76,11 +76,11 @@
           }
         ],
         "entity": {
-          "type": "minecraft:stray"
+          "entity_type": "minecraft:stray"
         },
         "killing_blow": {
           "direct_entity": {
-            "type": "minecraft:arrow",
+            "entity_type": "minecraft:arrow",
             "nbt": "{item: {components: {\"minecraft:potion_contents\": {potion: \"minecraft:slowness\"}}}}"
           }
         }
@@ -131,11 +131,11 @@
           }
         ],
         "entity": {
-          "type": "minecraft:stray"
+          "entity_type": "minecraft:stray"
         },
         "killing_blow": {
           "direct_entity": {
-            "type": "minecraft:arrow",
+            "entity_type": "minecraft:arrow",
             "nbt": "{item: {components: {\"minecraft:potion_contents\": {potion: \"minecraft:strong_slowness\"}}}}"
           }
         }
@@ -186,11 +186,11 @@
           }
         ],
         "entity": {
-          "type": "minecraft:stray"
+          "entity_type": "minecraft:stray"
         },
         "killing_blow": {
           "direct_entity": {
-            "type": "minecraft:arrow",
+            "entity_type": "minecraft:arrow",
             "nbt": "{item: {components: {\"minecraft:potion_contents\": {potion: \"minecraft:long_slowness\"}}}}"
           }
         }

@@ -31,23 +31,23 @@
         },
         "victims": [
           {
-            "type": "#blazeandcave:llamas",
+            "entity_type": "#blazeandcave:llamas",
             "nbt": "{Strength:5}"
           },
           {
-            "type": "minecraft:rabbit",
+            "entity_type": "minecraft:rabbit",
             "nbt": "{RabbitType:2}"
           },
           {
-            "type": "minecraft:panda",
+            "entity_type": "minecraft:panda",
             "nbt": "{MainGene:\"brown\",HiddenGene:\"brown\"}"
           },
           {
-            "type": "minecraft:axolotl",
+            "entity_type": "minecraft:axolotl",
             "nbt": "{Variant:4}"
           },
           {
-            "type": "minecraft:villager",
+            "entity_type": "minecraft:villager",
             "nbt": "{VillagerData:{profession:\"minecraft:nitwit\",type:\"minecraft:jungle\"}}"
           }
         ]

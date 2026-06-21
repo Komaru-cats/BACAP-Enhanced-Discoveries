@@ -19,10 +19,9 @@
       "trigger": "minecraft:default_block_use",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "looking_at": {
-              "type": "minecraft:wandering_trader"
+              "entity_type": "minecraft:wandering_trader"
             }
           }
         },

@@ -19,7 +19,7 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:piglin",
+          "entity_type": "minecraft:piglin",
           "flags": {
             "is_baby": true
           }
@@ -33,7 +33,7 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:piglin",
+          "entity_type": "minecraft:piglin",
           "flags": {
             "is_baby": true
           }
@@ -47,7 +47,7 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:piglin",
+          "entity_type": "minecraft:piglin",
           "flags": {
             "is_baby": true
           }
@@ -61,7 +61,7 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:piglin",
+          "entity_type": "minecraft:piglin",
           "flags": {
             "is_baby": true
           }
@@ -75,7 +75,7 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:piglin",
+          "entity_type": "minecraft:piglin",
           "flags": {
             "is_baby": true
           }
@@ -89,7 +89,7 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:piglin",
+          "entity_type": "minecraft:piglin",
           "flags": {
             "is_baby": true
           }
@@ -103,7 +103,7 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:piglin",
+          "entity_type": "minecraft:piglin",
           "flags": {
             "is_baby": true
           }
@@ -117,7 +117,7 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:piglin",
+          "entity_type": "minecraft:piglin",
           "flags": {
             "is_baby": true
           }
@@ -131,7 +131,7 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:piglin",
+          "entity_type": "minecraft:piglin",
           "flags": {
             "is_baby": true
           }
@@ -145,7 +145,7 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:piglin",
+          "entity_type": "minecraft:piglin",
           "flags": {
             "is_baby": true
           }
@@ -159,7 +159,7 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:piglin",
+          "entity_type": "minecraft:piglin",
           "flags": {
             "is_baby": true
           }
@@ -173,7 +173,7 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:piglin",
+          "entity_type": "minecraft:piglin",
           "flags": {
             "is_baby": true
           }
@@ -187,7 +187,7 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:piglin",
+          "entity_type": "minecraft:piglin",
           "flags": {
             "is_baby": true
           }
@@ -201,7 +201,7 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:piglin",
+          "entity_type": "minecraft:piglin",
           "flags": {
             "is_baby": true
           }
@@ -215,7 +215,7 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:piglin",
+          "entity_type": "minecraft:piglin",
           "flags": {
             "is_baby": true
           }
@@ -229,7 +229,7 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:piglin",
+          "entity_type": "minecraft:piglin",
           "flags": {
             "is_baby": true
           }
@@ -243,7 +243,7 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:piglin",
+          "entity_type": "minecraft:piglin",
           "flags": {
             "is_baby": true
           }
@@ -257,7 +257,7 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:piglin",
+          "entity_type": "minecraft:piglin",
           "flags": {
             "is_baby": true
           }
@@ -271,7 +271,7 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:piglin",
+          "entity_type": "minecraft:piglin",
           "flags": {
             "is_baby": true
           }
@@ -285,7 +285,7 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:piglin",
+          "entity_type": "minecraft:piglin",
           "flags": {
             "is_baby": true
           }
@@ -299,13 +299,27 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:piglin",
+          "entity_type": "minecraft:piglin",
           "flags": {
             "is_baby": true
           }
         },
         "item": {
           "items": "minecraft:closed_eyeblossom"
+        }
+      }
+    },
+    "golden_dandelion": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:piglin",
+          "flags": {
+            "is_baby": true
+          }
+        },
+        "item": {
+          "items": "minecraft:golden_dandelion"
         }
       }
     }

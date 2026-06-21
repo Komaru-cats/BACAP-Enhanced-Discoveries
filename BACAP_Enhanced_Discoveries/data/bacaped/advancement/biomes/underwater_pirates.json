@@ -23,7 +23,7 @@
             "entity": "this",
             "predicate": {
               "vehicle": {
-                "type": "#blazeandcave:all_boats"
+                "entity_type": "#blazeandcave:all_boats"
               }
             }
           },

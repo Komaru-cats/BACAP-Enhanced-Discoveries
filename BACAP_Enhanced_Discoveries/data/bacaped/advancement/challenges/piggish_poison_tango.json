@@ -24,7 +24,7 @@
         "player": {
           "nbt": "{Inventory:[]}",
           "vehicle": {
-            "type": "minecraft:pig"
+            "entity_type": "minecraft:pig"
           },
           "effects": {
             "minecraft:poison": {},
@@ -33,7 +33,7 @@
           }
         },
         "entity": {
-          "type": "minecraft:warden"
+          "entity_type": "minecraft:warden"
         },
         "killing_blow": {
           "tags": [

@@ -20,11 +20,11 @@
       "conditions": {
         "player": {
           "vehicle": {
-            "type": "#blazeandcave:llamas"
+            "entity_type": "#blazeandcave:llamas"
           }
         },
         "entity": {
-          "type": "minecraft:wolf",
+          "entity_type": "minecraft:wolf",
           "location": {
             "biomes": "minecraft:snowy_taiga"
           },
@@ -39,11 +39,11 @@
       "conditions": {
         "player": {
           "vehicle": {
-            "type": "#blazeandcave:llamas"
+            "entity_type": "#blazeandcave:llamas"
           }
         },
         "entity": {
-          "type": "minecraft:wolf",
+          "entity_type": "minecraft:wolf",
           "location": {
             "biomes": "minecraft:old_growth_pine_taiga"
           },
@@ -58,11 +58,11 @@
       "conditions": {
         "player": {
           "vehicle": {
-            "type": "#blazeandcave:llamas"
+            "entity_type": "#blazeandcave:llamas"
           }
         },
         "entity": {
-          "type": "minecraft:wolf",
+          "entity_type": "minecraft:wolf",
           "location": {
             "biomes": "minecraft:old_growth_spruce_taiga"
           },
@@ -77,11 +77,11 @@
       "conditions": {
         "player": {
           "vehicle": {
-            "type": "#blazeandcave:llamas"
+            "entity_type": "#blazeandcave:llamas"
           }
         },
         "entity": {
-          "type": "minecraft:wolf",
+          "entity_type": "minecraft:wolf",
           "location": {
             "biomes": "minecraft:taiga"
           },
@@ -96,11 +96,11 @@
       "conditions": {
         "player": {
           "vehicle": {
-            "type": "#blazeandcave:llamas"
+            "entity_type": "#blazeandcave:llamas"
           }
         },
         "entity": {
-          "type": "minecraft:wolf",
+          "entity_type": "minecraft:wolf",
           "location": {
             "biomes": [
               "minecraft:sparse_jungle",
@@ -119,11 +119,11 @@
       "conditions": {
         "player": {
           "vehicle": {
-            "type": "#blazeandcave:llamas"
+            "entity_type": "#blazeandcave:llamas"
           }
         },
         "entity": {
-          "type": "minecraft:wolf",
+          "entity_type": "minecraft:wolf",
           "location": {
             "biomes": "minecraft:grove"
           },
@@ -138,11 +138,11 @@
       "conditions": {
         "player": {
           "vehicle": {
-            "type": "#blazeandcave:llamas"
+            "entity_type": "#blazeandcave:llamas"
           }
         },
         "entity": {
-          "type": "minecraft:wolf",
+          "entity_type": "minecraft:wolf",
           "location": {
             "biomes": [
               "minecraft:savanna_plateau",
@@ -161,11 +161,11 @@
       "conditions": {
         "player": {
           "vehicle": {
-            "type": "#blazeandcave:llamas"
+            "entity_type": "#blazeandcave:llamas"
           }
         },
         "entity": {
-          "type": "minecraft:wolf",
+          "entity_type": "minecraft:wolf",
           "location": {
             "biomes": [
               "minecraft:wooded_badlands",
@@ -184,11 +184,11 @@
       "conditions": {
         "player": {
           "vehicle": {
-            "type": "#blazeandcave:llamas"
+            "entity_type": "#blazeandcave:llamas"
           }
         },
         "entity": {
-          "type": "minecraft:wolf",
+          "entity_type": "minecraft:wolf",
           "location": {
             "biomes": "minecraft:forest"
           },

@@ -42,7 +42,6 @@ execute if score bacaped:adventure/water_dependent bac_obtained_gray matches 1..
 execute if score bacaped:adventure/water_team bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:adventure/water_team
 execute if score bacaped:adventure/we_are_fine_really bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:adventure/we_are_fine_really
 execute if score bacaped:animal/a_ewe_for_every_hue bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:animal/a_ewe_for_every_hue
-execute if score bacaped:animal/accept_cookies bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:animal/accept_cookies
 execute if score bacaped:animal/air_balloon bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:animal/air_balloon
 execute if score bacaped:animal/baby_zoo bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:animal/baby_zoo
 execute if score bacaped:animal/beezlebooster bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:animal/beezlebooster
@@ -100,6 +99,7 @@ execute if score bacaped:bacap/enhanced_potion_milestone bac_obtained_gray match
 execute if score bacaped:bacap/enhanced_redstone_milestone bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:bacap/enhanced_redstone_milestone
 execute if score bacaped:bacap/enhanced_statistics_milestone bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:bacap/enhanced_statistics_milestone
 execute if score bacaped:bacap/enhanced_weaponry_milestone bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:bacap/enhanced_weaponry_milestone
+execute if score bacaped:biomes/accept_cookies bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:biomes/accept_cookies
 execute if score bacaped:biomes/australia bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:biomes/australia
 execute if score bacaped:biomes/coolgrill bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:biomes/coolgrill
 execute if score bacaped:biomes/good_dreams bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:biomes/good_dreams
@@ -295,6 +295,7 @@ execute if score bacaped:redstone/light_touch bac_obtained_gray matches 1.. run 
 execute if score bacaped:redstone/more_optimisations bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:redstone/more_optimisations
 execute if score bacaped:redstone/night_shift bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:redstone/night_shift
 execute if score bacaped:redstone/old_optimisations bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:redstone/old_optimisations
+execute if score bacaped:redstone/oppositional_position bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:redstone/oppositional_position
 execute if score bacaped:redstone/say_no_to_campfires bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:redstone/say_no_to_campfires
 execute if score bacaped:redstone/using_a_bow_a_bow_a_bow_a_bow bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:redstone/using_a_bow_a_bow_a_bow_a_bow
 execute if score bacaped:redstone/what_do_you_know_about_pistons bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:redstone/what_do_you_know_about_pistons
@@ -354,6 +355,7 @@ execute if score bacaped:statistics/totem_adept bac_obtained_gray matches 1.. ru
 execute if score bacaped:statistics/totem_expert bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:statistics/totem_expert
 execute if score bacaped:statistics/totem_immortal bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:statistics/totem_immortal
 execute if score bacaped:statistics/totem_tinkerer bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:statistics/totem_tinkerer
+execute if score bacaped:statistics/true_submarine bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:statistics/true_submarine
 execute if score bacaped:statistics/vindicator_vanquisher bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:statistics/vindicator_vanquisher
 execute if score bacaped:statistics/wrath_of_the_western_frontier bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:statistics/wrath_of_the_western_frontier
 execute if score bacaped:statistics/your_legs_are_beat bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:statistics/your_legs_are_beat
@@ -366,6 +368,7 @@ execute if score bacaped:weaponry/frightening_fishing bac_obtained_gray matches 
 execute if score bacaped:weaponry/glowball bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:weaponry/glowball
 execute if score bacaped:weaponry/meet_the_snipe bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:weaponry/meet_the_snipe
 execute if score bacaped:weaponry/more_shields bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:weaponry/more_shields
+execute if score bacaped:weaponry/renowned_armament bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:weaponry/renowned_armament
 execute if score bacaped:weaponry/snow_fights bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:weaponry/snow_fights
 execute if score bacaped:weaponry/surface_to_air_missle bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:weaponry/surface_to_air_missle
 execute if score bacaped:weaponry/the_explosive_adventure bac_obtained_gray matches 1.. run advancement grant @a[team=bac_team_gray] only bacaped:weaponry/the_explosive_adventure

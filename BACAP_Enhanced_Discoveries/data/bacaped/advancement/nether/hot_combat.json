@@ -29,7 +29,7 @@
           }
         },
         "entity": {
-          "type": "minecraft:blaze"
+          "entity_type": "minecraft:blaze"
         }
       }
     }

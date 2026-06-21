@@ -27,7 +27,7 @@
           }
         },
         "entity": {
-          "type": "minecraft:axolotl"
+          "entity_type": "minecraft:axolotl"
         }
       }
     }

@@ -20,7 +20,7 @@
       "conditions": {
         "player": {
           "vehicle": {
-            "type": "minecraft:horse",
+            "entity_type": "minecraft:horse",
             "nbt": "{Temper:100}"
           }
         }

@@ -21,7 +21,7 @@
       "trigger": "minecraft:entity_killed_player",
       "conditions": {
         "entity": {
-          "type": "minecraft:snow_golem"
+          "entity_type": "minecraft:snow_golem"
         }
       }
     }

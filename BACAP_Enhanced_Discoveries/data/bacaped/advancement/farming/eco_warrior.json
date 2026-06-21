@@ -30,8 +30,7 @@
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                  "type_specific": {
-                    "type": "player",
+                  "minecraft:type_specific/player": {
                     "stats": [
                       {
                         "type": "minecraft:used",
@@ -48,8 +47,7 @@
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                  "type_specific": {
-                    "type": "player",
+                  "minecraft:type_specific/player": {
                     "stats": [
                       {
                         "type": "minecraft:used",
@@ -66,8 +64,7 @@
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                  "type_specific": {
-                    "type": "player",
+                  "minecraft:type_specific/player": {
                     "stats": [
                       {
                         "type": "minecraft:used",
@@ -84,8 +81,7 @@
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                  "type_specific": {
-                    "type": "player",
+                  "minecraft:type_specific/player": {
                     "stats": [
                       {
                         "type": "minecraft:used",
@@ -102,8 +98,7 @@
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                  "type_specific": {
-                    "type": "player",
+                  "minecraft:type_specific/player": {
                     "stats": [
                       {
                         "type": "minecraft:used",
@@ -120,8 +115,7 @@
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                  "type_specific": {
-                    "type": "player",
+                  "minecraft:type_specific/player": {
                     "stats": [
                       {
                         "type": "minecraft:used",
@@ -138,8 +132,7 @@
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                  "type_specific": {
-                    "type": "player",
+                  "minecraft:type_specific/player": {
                     "stats": [
                       {
                         "type": "minecraft:used",
@@ -156,8 +149,7 @@
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                  "type_specific": {
-                    "type": "player",
+                  "minecraft:type_specific/player": {
                     "stats": [
                       {
                         "type": "minecraft:used",

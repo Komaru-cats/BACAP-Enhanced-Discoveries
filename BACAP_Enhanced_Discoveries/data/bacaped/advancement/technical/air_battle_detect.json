@@ -8,8 +8,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type_specific": {
-                "type": "minecraft:player",
+              "minecraft:type_specific/player": {
                 "advancements": {
                   "bacaped:weaponry/air_battle": false
                 }
@@ -28,21 +27,21 @@
               "entity": "this",
               "predicate": {
                 "vehicle": {
-                  "type": "#blazeandcave:player_rideables"
+                  "entity_type": "#blazeandcave:player_rideables"
                 }
               }
             }
           }
         ],
         "entity": {
-          "type": "minecraft:chicken",
+          "entity_type": "minecraft:chicken",
           "flags": {
             "is_on_ground": false
           }
         },
         "killing_blow": {
           "direct_entity": {
-            "type": "#minecraft:arrows"
+            "entity_type": "#minecraft:arrows"
           }
         }
       }

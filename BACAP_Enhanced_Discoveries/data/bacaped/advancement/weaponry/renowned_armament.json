@@ -1,0 +1,181 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_sword"
+    },
+    "title": {
+      "translate": "Renowned Armament"
+    },
+    "description": {
+      "translate": "Slay a mob using a legendary weapon",
+      "color": "light_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "blazeandcave:weaponry/rock_paper_shears",
+  "criteria": {
+    "the_vex_slayer": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:iron_sword"
+              ],
+              "components": {
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    15500
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "wardens_plate": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:ward_armor_trim_smithing_template"
+              ],
+              "components": {
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    15500
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "broken": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:golden_sword"
+              ],
+              "components": {
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    15500
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "useful_instrument": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:golden_hoe"
+              ],
+              "components": {
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    15500
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "the_undertakers_shovel": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:iron_shovel"
+              ],
+              "components": {
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    15500
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "katana": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:iron_sword"
+              ],
+              "components": {
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    15501
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "iron_ax": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:iron_axe"
+              ],
+              "components": {
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    15500
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "the_vex_slayer",
+      "wardens_plate",
+      "broken",
+      "useful_instrument",
+      "the_undertakers_shovel",
+      "katana",
+      "iron_ax"
+    ]
+  ],
+  "rewards": {
+    "function": "bacaped_rewards:weaponry/renowned_armament"
+  }
+}

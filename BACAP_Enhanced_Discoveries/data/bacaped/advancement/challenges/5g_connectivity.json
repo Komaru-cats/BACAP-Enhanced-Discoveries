@@ -26,19 +26,19 @@
         },
         "victims": [
           {
-            "type": "minecraft:glow_squid"
+            "entity_type": "minecraft:glow_squid"
           },
           {
-            "type": "minecraft:glow_squid"
+            "entity_type": "minecraft:glow_squid"
           },
           {
-            "type": "minecraft:glow_squid"
+            "entity_type": "minecraft:glow_squid"
           },
           {
-            "type": "minecraft:glow_squid"
+            "entity_type": "minecraft:glow_squid"
           },
           {
-            "type": "minecraft:glow_squid"
+            "entity_type": "minecraft:glow_squid"
           }
         ]
       }
