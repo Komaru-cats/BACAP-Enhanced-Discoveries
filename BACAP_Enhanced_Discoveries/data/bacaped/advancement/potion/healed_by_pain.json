@@ -4,7 +4,7 @@
       "id": "minecraft:tipped_arrow",
       "components": {
         "minecraft:potion_contents": {
-          "potion": "minecraft:healing"
+          "potion": "minecraft:strong_healing"
         }
       }
     },
@@ -24,10 +24,10 @@
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
         "damage": {
-          "entity_type": {
+          "type": {
             "direct_entity": {
               "entity_type": "minecraft:arrow",
-              "nbt": "{item: {components: {\"minecraft:potion_contents\": {potion: \"minecraft:strong_healing\"}}}}"
+              "nbt": "{item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:strong_healing\"}}}}"
             }
           }
         }

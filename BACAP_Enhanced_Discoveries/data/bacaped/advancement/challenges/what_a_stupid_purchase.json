@@ -28,13 +28,30 @@
           }
         },
         "item": {
-          "items": [
-            "minecraft:pointed_dripstone"
-          ]
+          "items": "minecraft:pointed_dripstone"
+        }
+      }
+    },
+    "buy_sulfur_spike": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "minecraft:location": {
+            "biomes": "minecraft:sulfur_caves"
+          }
+        },
+        "item": {
+          "items": "minecraft:sulfur_spike"
         }
       }
     }
   },
+  "requirements": [
+    [
+      "buy_pointed_dripstone",
+      "buy_sulfur_spike"
+    ]
+  ],
   "rewards": {
     "function": "bacaped_rewards:challenges/what_a_stupid_purchase"
   }

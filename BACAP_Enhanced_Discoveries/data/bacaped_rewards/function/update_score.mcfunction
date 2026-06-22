@@ -174,7 +174,6 @@ execute as @a[advancements={bacaped:enchanting/heavy_catch=true}] run scoreboard
 execute as @a[advancements={bacaped:enchanting/master_shearer=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:enchanting/master_shieldman=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:enchanting/master_sweeper=true}] run scoreboard players add @s bac_advancements 1
-execute as @a[advancements={bacaped:enchanting/oh_i_forgot_about_the_anvil=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:enchanting/pyromaniac=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:enchanting/small_targets=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:enchanting/thin_line=true}] run scoreboard players add @s bac_advancements 1

@@ -1589,6 +1589,24 @@
           }
         }
       }
+    },
+    "sulfur_cube": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:sulfur_cube",
+                "value": {
+                  "min": 24
+                }
+              }
+            ]
+          }
+        }
+      }
     }
   },
   "rewards": {
