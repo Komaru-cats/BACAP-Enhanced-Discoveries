@@ -99,18 +99,6 @@
         }
       }
     },
-    "oh_i_forgot_about_the_anvil": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:enchanting/oh_i_forgot_about_the_anvil": true
-            }
-          }
-        }
-      }
-    },
     "thin_line": {
       "trigger": "minecraft:location",
       "conditions": {

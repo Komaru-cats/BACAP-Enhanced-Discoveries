@@ -22,16 +22,29 @@
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
         "damage": {
-          "entity_type": {
-            "direct_entity": {
-              "entity_type": "minecraft:falling_block",
-              "nbt": "{BlockState: {Name: \"minecraft:pointed_dripstone\"}}"
-            }
+          "source_entity": {
+            "minecraft:nbt": "{BlockState: {Name: \"minecraft:pointed_dripstone\"}}"
+          }
+        }
+      }
+    },
+    "sulfur_spike_trigger": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "minecraft:nbt": "{BlockState: {Name: \"minecraft:sulfur_spike\"}}"
           }
         }
       }
     }
   },
+  "requirements": [
+    [
+      "trigger",
+      "sulfur_spike_trigger"
+    ]
+  ],
   "rewards": {
     "function": "bacaped_rewards:mining/pointy_problems"
   }

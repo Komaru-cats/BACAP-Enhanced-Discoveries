@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "bacaped:enchanting/oh_i_forgot_about_the_anvil",
+  "parent": "blazeandcave:enchanting/classic_cartoon_comedy",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:fishing_rod_hooked",

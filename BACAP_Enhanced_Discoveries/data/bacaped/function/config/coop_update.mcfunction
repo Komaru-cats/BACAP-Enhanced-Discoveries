@@ -189,7 +189,6 @@ execute if score bacaped:enchanting/heavy_catch bac_obtained matches 1.. run adv
 execute if score bacaped:enchanting/master_shearer bac_obtained matches 1.. run advancement grant @a only bacaped:enchanting/master_shearer
 execute if score bacaped:enchanting/master_shieldman bac_obtained matches 1.. run advancement grant @a only bacaped:enchanting/master_shieldman
 execute if score bacaped:enchanting/master_sweeper bac_obtained matches 1.. run advancement grant @a only bacaped:enchanting/master_sweeper
-execute if score bacaped:enchanting/oh_i_forgot_about_the_anvil bac_obtained matches 1.. run advancement grant @a only bacaped:enchanting/oh_i_forgot_about_the_anvil
 execute if score bacaped:enchanting/pyromaniac bac_obtained matches 1.. run advancement grant @a only bacaped:enchanting/pyromaniac
 execute if score bacaped:enchanting/small_targets bac_obtained matches 1.. run advancement grant @a only bacaped:enchanting/small_targets
 execute if score bacaped:enchanting/thin_line bac_obtained matches 1.. run advancement grant @a only bacaped:enchanting/thin_line
