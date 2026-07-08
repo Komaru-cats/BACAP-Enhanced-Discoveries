@@ -15,13 +15,49 @@
   },
   "parent": "bacaped:bacap/enhanced_animal_milestone",
   "criteria": {
-    "i_uh_forgot_a_composter": {
+    "arachnophobia": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:monsters/i_uh_forgot_a_composter": true
+              "bacaped:monsters/arachnophobia": true
+            }
+          }
+        }
+      }
+    },
+    "born_to_spawn": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:monsters/born_to_spawn": true
+            }
+          }
+        }
+      }
+    },
+    "frozen_heart": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:monsters/frozen_heart": true
+            }
+          }
+        }
+      }
+    },
+    "get_out_of_my_sky": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:monsters/get_out_of_my_sky": true
             }
           }
         }
@@ -34,6 +70,18 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:monsters/high_explosives": true
+            }
+          }
+        }
+      }
+    },
+    "i_uh_forgot_a_composter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:monsters/i_uh_forgot_a_composter": true
             }
           }
         }
@@ -63,13 +111,13 @@
         }
       }
     },
-    "frozen_heart": {
+    "not_that_impossible": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:monsters/frozen_heart": true
+              "bacaped:monsters/not_that_impossible": true
             }
           }
         }
@@ -82,6 +130,18 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:monsters/one_minute_wardens_hugs": true
+            }
+          }
+        }
+      }
+    },
+    "phantom_rider": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:monsters/phantom_rider": true
             }
           }
         }
@@ -111,42 +171,6 @@
         }
       }
     },
-    "phantom_rider": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:monsters/phantom_rider": true
-            }
-          }
-        }
-      }
-    },
-    "born_to_spawn": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:monsters/born_to_spawn": true
-            }
-          }
-        }
-      }
-    },
-    "get_out_of_my_sky": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:monsters/get_out_of_my_sky": true
-            }
-          }
-        }
-      }
-    },
     "the_undertakers_revenge": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -154,30 +178,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:monsters/the_undertakers_revenge": true
-            }
-          }
-        }
-      }
-    },
-    "arachnophobia": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:monsters/arachnophobia": true
-            }
-          }
-        }
-      }
-    },
-    "not_that_impossible": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:monsters/not_that_impossible": true
             }
           }
         }

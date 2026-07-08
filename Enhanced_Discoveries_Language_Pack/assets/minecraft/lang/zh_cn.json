@@ -216,7 +216,7 @@
     "The Boatman": "摆渡人",
     "Take a boat ride on blue ice": "在蓝冰上乘船航行",
     "The Infernal Cauldron": "九幽之釜",
-    "Spend a day in lava a cauldron": "在装有熔岩的炼药锅内呆一整天",
+    "Spend a day in a lava cauldron": "在装有熔岩的炼药锅内呆一整天",
     "Underwater Pirates": "潜水大盗",
     "Travel on a sunken boat": "乘坐沉入水底的船航行",
     "Ready for Everything": "万事俱备",
@@ -531,7 +531,7 @@
     "Your Legs Are Beat": "你的腿肯定不听使唤了",
     "Sprint 1000km": "跑1000公里",
     "Navigator of the Infinite Waters": "孤帆远影碧空尽",
-    "Sail 500km in a boat": "划船500公里",
+    "Sail 250km in a boat": "划船250公里",
     "Jetsetter of the Skies": "逆风方能搏击长空",
     "Fly 10,000km with elytra": "使用鞘翅飞行10000公里",
     "Epic Capital Conqueror": "金戈铁马",
@@ -625,7 +625,7 @@
     "Vindicator Vanquisher": "卫道士征服者",
     "Win 100 Raids": "赢下100场袭击",
     "Ravager Repeller": "劫掠兽的绝唱",
-    "Win 2000 Raids": "赢下2000场袭击",
+    "Win 1000 Raids": "1000",
     "Novice Scout": "初露锋芒",
     "Ride a Horse that moves faster than 9 blocks per second": "骑上速度大于9的马",
     "Swift Herder": "御风牧人",
@@ -633,7 +633,7 @@
     "Speed Master": "做追风马，行万里路",
     "Ride a Horse that moves faster than 13 blocks per second": "骑上速度大于13的马",
     "Legend of the Races": "东海帝王",
-    "Ride a Horse that moves faster than 14.1 blocks per second": "骑上速度大于14.1的马",
+    "Ride a Horse that moves faster than 14.4 blocks per second": "骑上速度大于14.4的马",
     "More Shields!": "更多盾牌",
     "Fill your inventory with shields": "将你的物品栏装满盾牌",
     "Snow Fights!": "打雪仗！",
@@ -1323,7 +1323,7 @@
     "Using a Bow, a Bow, a Bow, a Bow": "弜弜",
     "Open a Dispenser with a bow inside it while holding a bow in your mainhand and offhand": "双手持弓，打开内含弓的发射器",
     "Ligmifitation": "解不开的纽结",
-    "Ride a Horse that moves 14.22 blocks per second": "骑上速度大于14.22的马"
+    "Ride a Horse that moves 14.56 blocks per second": "骑上速度大于14.56的马"
 	
 // All of them have to be updated!
 //"Fake Copper Armor": "",

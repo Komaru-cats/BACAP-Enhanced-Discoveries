@@ -15,42 +15,6 @@
   },
   "parent": "bacaped:bacap/enhanced_adventure_milestone",
   "criteria": {
-    "night_shift": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:redstone/night_shift": true
-            }
-          }
-        }
-      }
-    },
-    "say_no_to_campfires": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:redstone/say_no_to_campfires": true
-            }
-          }
-        }
-      }
-    },
-    "using_a_bow_a_bow_a_bow_a_bow": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:redstone/using_a_bow_a_bow_a_bow_a_bow": true
-            }
-          }
-        }
-      }
-    },
     "crafting_lockdown": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -58,6 +22,18 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:redstone/crafting_lockdown": true
+            }
+          }
+        }
+      }
+    },
+    "craft_me_all": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:redstone/craft_me_all": true
             }
           }
         }
@@ -75,37 +51,13 @@
         }
       }
     },
-    "old_optimisations": {
+    "fat_cat": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:redstone/old_optimisations": true
-            }
-          }
-        }
-      }
-    },
-    "what_do_you_know_about_pistons": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:redstone/what_do_you_know_about_pistons": true
-            }
-          }
-        }
-      }
-    },
-    "oppositional_position": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:redstone/oppositional_position": true
+              "bacaped:redstone/fat_cat": true
             }
           }
         }
@@ -135,30 +87,6 @@
         }
       }
     },
-    "craft_me_all": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:redstone/craft_me_all": true
-            }
-          }
-        }
-      }
-    },
-    "fat_cat": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:redstone/fat_cat": true
-            }
-          }
-        }
-      }
-    },
     "more_optimisations": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -166,6 +94,78 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:redstone/more_optimisations": true
+            }
+          }
+        }
+      }
+    },
+    "night_shift": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:redstone/night_shift": true
+            }
+          }
+        }
+      }
+    },
+    "old_optimisations": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:redstone/old_optimisations": true
+            }
+          }
+        }
+      }
+    },
+    "oppositional_position": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:redstone/oppositional_position": true
+            }
+          }
+        }
+      }
+    },
+    "say_no_to_campfires": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:redstone/say_no_to_campfires": true
+            }
+          }
+        }
+      }
+    },
+    "using_a_bow_a_bow_a_bow_a_bow": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:redstone/using_a_bow_a_bow_a_bow_a_bow": true
+            }
+          }
+        }
+      }
+    },
+    "what_do_you_know_about_pistons": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:redstone/what_do_you_know_about_pistons": true
             }
           }
         }

@@ -15,18 +15,6 @@
   },
   "parent": "bacaped:bacap/enhanced_weaponry_milestone",
   "criteria": {
-    "the_boatman": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:biomes/the_boatman": true
-            }
-          }
-        }
-      }
-    },
     "accept_cookies": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -39,121 +27,13 @@
         }
       }
     },
-    "ice_sculptor": {
+    "australia": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:biomes/ice_sculptor": true
-            }
-          }
-        }
-      }
-    },
-    "the_infernal_cauldron": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:biomes/the_infernal_cauldron": true
-            }
-          }
-        }
-      }
-    },
-    "lost_ruin": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:biomes/lost_ruin": true
-            }
-          }
-        }
-      }
-    },
-    "stop_there_youre_tall_enough": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:biomes/stop_there_youre_tall_enough": true
-            }
-          }
-        }
-      }
-    },
-    "good_dreams": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:biomes/good_dreams": true
-            }
-          }
-        }
-      }
-    },
-    "pandas_express": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:biomes/pandas_express": true
-            }
-          }
-        }
-      }
-    },
-    "treasure_compass": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:biomes/treasure_compass": true
-            }
-          }
-        }
-      }
-    },
-    "ready_for_everything": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:biomes/ready_for_everything": true
-            }
-          }
-        }
-      }
-    },
-    "hydrodynamic": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:biomes/hydrodynamic": true
-            }
-          }
-        }
-      }
-    },
-    "icy_pirates": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:biomes/icy_pirates": true
+              "bacaped:biomes/australia": true
             }
           }
         }
@@ -171,6 +51,66 @@
         }
       }
     },
+    "good_dreams": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:biomes/good_dreams": true
+            }
+          }
+        }
+      }
+    },
+    "hydrodynamic": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:biomes/hydrodynamic": true
+            }
+          }
+        }
+      }
+    },
+    "ice_sculptor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:biomes/ice_sculptor": true
+            }
+          }
+        }
+      }
+    },
+    "icy_pirates": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:biomes/icy_pirates": true
+            }
+          }
+        }
+      }
+    },
+    "lost_ruin": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:biomes/lost_ruin": true
+            }
+          }
+        }
+      }
+    },
     "my_mountains": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -183,13 +123,73 @@
         }
       }
     },
-    "australia": {
+    "pandas_express": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:biomes/australia": true
+              "bacaped:biomes/pandas_express": true
+            }
+          }
+        }
+      }
+    },
+    "ready_for_everything": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:biomes/ready_for_everything": true
+            }
+          }
+        }
+      }
+    },
+    "stop_there_youre_tall_enough": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:biomes/stop_there_youre_tall_enough": true
+            }
+          }
+        }
+      }
+    },
+    "the_boatman": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:biomes/the_boatman": true
+            }
+          }
+        }
+      }
+    },
+    "the_infernal_cauldron": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:biomes/the_infernal_cauldron": true
+            }
+          }
+        }
+      }
+    },
+    "treasure_compass": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:biomes/treasure_compass": true
             }
           }
         }

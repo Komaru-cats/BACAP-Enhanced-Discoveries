@@ -19,7 +19,7 @@
   "parent": "bacaped:animal/what_about_mooblooms",
   "criteria": {
     "trigger": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
@@ -32,7 +32,7 @@
                     "type": "minecraft:killed",
                     "stat": "minecraft:armadillo",
                     "value": {
-                      "min": 99
+                      "min": 100
                     }
                   }
                 ]

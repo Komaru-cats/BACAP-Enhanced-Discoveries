@@ -422,6 +422,22 @@
           "entity_type": "minecraft:copper_golem"
         }
       }
+    },
+    "sulfur_cube": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:shears"
+        },
+        "entity": {
+          "minecraft:entity_type": "minecraft:sulfur_cube",
+          "minecraft:equipment": {
+            "body": {
+              "count": 0
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

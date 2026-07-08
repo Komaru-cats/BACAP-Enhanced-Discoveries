@@ -15,61 +15,13 @@
   },
   "parent": "blazeandcave:bacap/time_to_farm",
   "criteria": {
-    "time_killer": {
+    "batman": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:mining/time_killer": true
-            }
-          }
-        }
-      }
-    },
-    "reinforced_miner": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:mining/reinforced_miner": true
-            }
-          }
-        }
-      }
-    },
-    "the_master_of_falls": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:mining/the_master_of_falls": true
-            }
-          }
-        }
-      }
-    },
-    "deepslate_master": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:mining/deepslate_master": true
-            }
-          }
-        }
-      }
-    },
-    "redstoner": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:mining/redstoner": true
+              "bacaped:mining/batman": true
             }
           }
         }
@@ -82,18 +34,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:mining/chief_spide": true
-            }
-          }
-        }
-      }
-    },
-    "distorted_cave_maze": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:mining/distorted_cave_maze": true
             }
           }
         }
@@ -123,25 +63,25 @@
         }
       }
     },
-    "batman": {
+    "deepslate_master": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:mining/batman": true
+              "bacaped:mining/deepslate_master": true
             }
           }
         }
       }
     },
-    "pointy_problems": {
+    "distorted_cave_maze": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:mining/pointy_problems": true
+              "bacaped:mining/distorted_cave_maze": true
             }
           }
         }
@@ -166,6 +106,66 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:mining/light_at_the_end_of_the_tunnel": true
+            }
+          }
+        }
+      }
+    },
+    "pointy_problems": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:mining/pointy_problems": true
+            }
+          }
+        }
+      }
+    },
+    "redstoner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:mining/redstoner": true
+            }
+          }
+        }
+      }
+    },
+    "reinforced_miner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:mining/reinforced_miner": true
+            }
+          }
+        }
+      }
+    },
+    "the_master_of_falls": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:mining/the_master_of_falls": true
+            }
+          }
+        }
+      }
+    },
+    "time_killer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:mining/time_killer": true
             }
           }
         }

@@ -17,7 +17,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "blazeandcave:enchanting/master_armorer",
+  "parent": "blazeandcave:enchanting/unbreakable",
   "criteria": {
     "unb3_mend_1": {
       "trigger": "minecraft:inventory_changed",
