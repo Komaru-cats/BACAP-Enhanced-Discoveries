@@ -15,13 +15,13 @@
   },
   "parent": "bacaped:bacap/enhanced_redstone_milestone",
   "criteria": {
-    "fully_charged": {
+    "all_the_netherite_tools": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:enchanting/fully_charged": true
+              "bacaped:enchanting/all_the_netherite_tools": true
             }
           }
         }
@@ -39,49 +39,13 @@
         }
       }
     },
-    "master_shearer": {
+    "fully_charged": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:enchanting/master_shearer": true
-            }
-          }
-        }
-      }
-    },
-    "useless": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:enchanting/useless": true
-            }
-          }
-        }
-      }
-    },
-    "small_targets": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:enchanting/small_targets": true
-            }
-          }
-        }
-      }
-    },
-    "all_the_netherite_tools": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:enchanting/all_the_netherite_tools": true
+              "bacaped:enchanting/fully_charged": true
             }
           }
         }
@@ -99,13 +63,25 @@
         }
       }
     },
-    "thin_line": {
+    "master_shearer": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:enchanting/thin_line": true
+              "bacaped:enchanting/master_shearer": true
+            }
+          }
+        }
+      }
+    },
+    "master_shieldman": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:enchanting/master_shieldman": true
             }
           }
         }
@@ -135,13 +111,37 @@
         }
       }
     },
-    "master_shieldman": {
+    "small_targets": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:enchanting/master_shieldman": true
+              "bacaped:enchanting/small_targets": true
+            }
+          }
+        }
+      }
+    },
+    "thin_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:enchanting/thin_line": true
+            }
+          }
+        }
+      }
+    },
+    "useless": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:enchanting/useless": true
             }
           }
         }

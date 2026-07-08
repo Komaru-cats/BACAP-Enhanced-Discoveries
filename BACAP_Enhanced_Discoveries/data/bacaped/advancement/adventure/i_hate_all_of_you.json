@@ -31,7 +31,7 @@
   "parent": "bacaped:adventure/thorny_prices",
   "criteria": {
     "trigger": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -40,7 +40,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:villager",
                 "value": {
-                  "min": 99
+                  "min": 100
                 }
               }
             ]

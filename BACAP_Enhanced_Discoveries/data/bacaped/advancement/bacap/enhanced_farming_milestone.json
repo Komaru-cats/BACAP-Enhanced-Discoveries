@@ -15,30 +15,6 @@
   },
   "parent": "bacaped:bacap/enhanced_building_milestone",
   "criteria": {
-    "overpayment": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:farming/overpayment": true
-            }
-          }
-        }
-      }
-    },
-    "not_fireflies": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:farming/not_fireflies": true
-            }
-          }
-        }
-      }
-    },
     "apple_addiction": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -46,6 +22,18 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:farming/apple_addiction": true
+            }
+          }
+        }
+      }
+    },
+    "auto_cactus": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:farming/auto_cactus": true
             }
           }
         }
@@ -63,25 +51,25 @@
         }
       }
     },
-    "raising_canes": {
+    "cookie_eater": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:farming/raising_canes": true
+              "bacaped:farming/cookie_eater": true
             }
           }
         }
       }
     },
-    "its_midnight_already": {
+    "delicious": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:farming/its_midnight_already": true
+              "bacaped:farming/delicious": true
             }
           }
         }
@@ -111,18 +99,6 @@
         }
       }
     },
-    "more_more_cookies": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:farming/more_more_cookies": true
-            }
-          }
-        }
-      }
-    },
     "high_risk": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -135,37 +111,49 @@
         }
       }
     },
-    "auto_cactus": {
+    "its_midnight_already": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:farming/auto_cactus": true
+              "bacaped:farming/its_midnight_already": true
             }
           }
         }
       }
     },
-    "cookie_eater": {
+    "more_more_cookies": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:farming/cookie_eater": true
+              "bacaped:farming/more_more_cookies": true
             }
           }
         }
       }
     },
-    "preventive_conversation": {
+    "not_fireflies": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:farming/preventive_conversation": true
+              "bacaped:farming/not_fireflies": true
+            }
+          }
+        }
+      }
+    },
+    "overpayment": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:farming/overpayment": true
             }
           }
         }
@@ -183,13 +171,25 @@
         }
       }
     },
-    "delicious": {
+    "preventive_conversation": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:farming/delicious": true
+              "bacaped:farming/preventive_conversation": true
+            }
+          }
+        }
+      }
+    },
+    "raising_canes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:farming/raising_canes": true
             }
           }
         }

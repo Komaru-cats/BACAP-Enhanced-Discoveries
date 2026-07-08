@@ -15,7 +15,7 @@
   "parent": "blazeandcave:nether/collateral_damage",
   "criteria": {
     "trigger": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
@@ -28,7 +28,7 @@
                     "type": "minecraft:killed",
                     "stat": "minecraft:happy_ghast",
                     "value": {
-                      "min": 99
+                      "min": 100
                     }
                   }
                 ]

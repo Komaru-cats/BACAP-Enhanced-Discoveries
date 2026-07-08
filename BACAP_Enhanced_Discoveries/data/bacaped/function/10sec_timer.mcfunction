@@ -36,7 +36,7 @@ execute as @a[gamemode=!spectator,advancements={bacaped:adventure/dual_reality=f
 scoreboard players set @a[gamemode=!spectator] bacaped_in_struct_summary 0
 
 # Silence is loud here
-execute as @a[gamemode=!spectator,advancements={bacaped:challenges/silence_is_loud_here=false}] at @s if dimension minecraft:the_end run function bacaped:silence_is_loud_here
+execute in minecraft:the_end positioned 0 ~ 0 run advancement grant @a[distance=370720.., advancements={bacaped:challenges/silence_is_loud_here=false}] only bacaped:challenges/silence_is_loud_here
 
 # Ghast Squad
 execute as @a[predicate=bacaped:is_on_happy_ghast] run scoreboard players add @n[type=minecraft:happy_ghast] bacaped_ghast_passenger_count 1

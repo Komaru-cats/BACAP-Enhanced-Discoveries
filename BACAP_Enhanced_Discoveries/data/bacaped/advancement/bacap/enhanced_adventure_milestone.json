@@ -18,109 +18,13 @@
   },
   "parent": "bacaped:bacap/enhanced_biomes_milestone",
   "criteria": {
-    "oh_you_again": {
+    "copper_armor": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:adventure/oh_you_again": true
-            }
-          }
-        }
-      }
-    },
-    "emerald_armor": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:adventure/emerald_armor": true
-            }
-          }
-        }
-      }
-    },
-    "suspicious_miner": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:adventure/suspicious_miner": true
-            }
-          }
-        }
-      }
-    },
-    "eye_contact_master": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:adventure/eye_contact_master": true
-            }
-          }
-        }
-      }
-    },
-    "sus_miner": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:adventure/sus_miner": true
-            }
-          }
-        }
-      }
-    },
-    "my_personal_slave": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:adventure/my_personal_slave": true
-            }
-          }
-        }
-      }
-    },
-    "silent_armor": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:adventure/silent_armor": true
-            }
-          }
-        }
-      }
-    },
-    "restoring_population": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:adventure/restoring_population": true
-            }
-          }
-        }
-      }
-    },
-    "the_cult_of_the_spyglass": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:adventure/the_cult_of_the_spyglass": true
+              "bacaped:adventure/copper_armor": true
             }
           }
         }
@@ -138,30 +42,6 @@
         }
       }
     },
-    "not_profitable_transportation": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:adventure/not_profitable_transportation": true
-            }
-          }
-        }
-      }
-    },
-    "jurassic_park": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:adventure/jurassic_park": true
-            }
-          }
-        }
-      }
-    },
     "do_you_see_this": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -169,42 +49,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:adventure/do_you_see_this": true
-            }
-          }
-        }
-      }
-    },
-    "midnight_snack": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:adventure/midnight_snack": true
-            }
-          }
-        }
-      }
-    },
-    "no_water_team": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:adventure/no_water_team": true
-            }
-          }
-        }
-      }
-    },
-    "fake_netherite_armor": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:adventure/fake_netherite_armor": true
             }
           }
         }
@@ -222,6 +66,42 @@
         }
       }
     },
+    "emerald_armor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:adventure/emerald_armor": true
+            }
+          }
+        }
+      }
+    },
+    "eye_contact_master": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:adventure/eye_contact_master": true
+            }
+          }
+        }
+      }
+    },
+    "fake_netherite_armor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:adventure/fake_netherite_armor": true
+            }
+          }
+        }
+      }
+    },
     "general_cleaning": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -229,6 +109,54 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:adventure/general_cleaning": true
+            }
+          }
+        }
+      }
+    },
+    "i_hate_all_of_you": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:adventure/i_hate_all_of_you": true
+            }
+          }
+        }
+      }
+    },
+    "jurassic_park": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:adventure/jurassic_park": true
+            }
+          }
+        }
+      }
+    },
+    "midnight_snack": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:adventure/midnight_snack": true
+            }
+          }
+        }
+      }
+    },
+    "my_personal_slave": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:adventure/my_personal_slave": true
             }
           }
         }
@@ -246,25 +174,73 @@
         }
       }
     },
-    "we_are_fine_really": {
+    "not_profitable_transportation": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:adventure/we_are_fine_really": true
+              "bacaped:adventure/not_profitable_transportation": true
             }
           }
         }
       }
     },
-    "save_me": {
+    "no_water_team": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:adventure/save_me": true
+              "bacaped:adventure/no_water_team": true
+            }
+          }
+        }
+      }
+    },
+    "oh_you_again": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:adventure/oh_you_again": true
+            }
+          }
+        }
+      }
+    },
+    "on_site_sale": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:adventure/on_site_sale": true
+            }
+          }
+        }
+      }
+    },
+    "on_the_wings_of_the_wind": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:adventure/on_the_wings_of_the_wind": true
+            }
+          }
+        }
+      }
+    },
+    "placeholder": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:adventure/placeholder": true
             }
           }
         }
@@ -294,97 +270,37 @@
         }
       }
     },
-    "on_the_wings_of_the_wind": {
+    "restoring_population": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:adventure/on_the_wings_of_the_wind": true
+              "bacaped:adventure/restoring_population": true
             }
           }
         }
       }
     },
-    "thats_a_new_style": {
+    "save_me": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:adventure/thats_a_new_style": true
+              "bacaped:adventure/save_me": true
             }
           }
         }
       }
     },
-    "wardens_thrust": {
+    "silent_armor": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:adventure/wardens_thrust": true
-            }
-          }
-        }
-      }
-    },
-    "on_site_sale": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:adventure/on_site_sale": true
-            }
-          }
-        }
-      }
-    },
-    "placeholder": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:adventure/placeholder": true
-            }
-          }
-        }
-      }
-    },
-    "wandering_caravane": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:adventure/wandering_caravane": true
-            }
-          }
-        }
-      }
-    },
-    "water_dependent": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:adventure/water_dependent": true
-            }
-          }
-        }
-      }
-    },
-    "uncontrolled_reproduction": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:adventure/uncontrolled_reproduction": true
+              "bacaped:adventure/silent_armor": true
             }
           }
         }
@@ -402,37 +318,37 @@
         }
       }
     },
-    "copper_armor": {
+    "suspicious_miner": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:adventure/copper_armor": true
+              "bacaped:adventure/suspicious_miner": true
             }
           }
         }
       }
     },
-    "water_team": {
+    "sus_miner": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:adventure/water_team": true
+              "bacaped:adventure/sus_miner": true
             }
           }
         }
       }
     },
-    "thorny_prices": {
+    "thats_a_new_style": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:adventure/thorny_prices": true
+              "bacaped:adventure/thats_a_new_style": true
             }
           }
         }
@@ -450,13 +366,97 @@
         }
       }
     },
-    "i_hate_all_of_you": {
+    "the_cult_of_the_spyglass": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:adventure/i_hate_all_of_you": true
+              "bacaped:adventure/the_cult_of_the_spyglass": true
+            }
+          }
+        }
+      }
+    },
+    "thorny_prices": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:adventure/thorny_prices": true
+            }
+          }
+        }
+      }
+    },
+    "uncontrolled_reproduction": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:adventure/uncontrolled_reproduction": true
+            }
+          }
+        }
+      }
+    },
+    "wandering_caravane": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:adventure/wandering_caravane": true
+            }
+          }
+        }
+      }
+    },
+    "wardens_thrust": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:adventure/wardens_thrust": true
+            }
+          }
+        }
+      }
+    },
+    "water_dependent": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:adventure/water_dependent": true
+            }
+          }
+        }
+      }
+    },
+    "water_team": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:adventure/water_team": true
+            }
+          }
+        }
+      }
+    },
+    "we_are_fine_really": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:adventure/we_are_fine_really": true
             }
           }
         }

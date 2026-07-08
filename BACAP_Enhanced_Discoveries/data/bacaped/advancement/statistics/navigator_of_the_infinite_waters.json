@@ -10,7 +10,7 @@
       "translate": "Navigator of the Infinite Waters"
     },
     "description": {
-      "translate": "Sail 500km in a boat",
+      "translate": "Sail 250km in a boat",
       "color": "light_purple"
     },
     "frame": "challenge",
@@ -29,7 +29,7 @@
                 "type": "minecraft:custom",
                 "stat": "minecraft:boat_one_cm",
                 "value": {
-                  "min": 50000000
+                  "min": 25000000
                 }
               }
             ]

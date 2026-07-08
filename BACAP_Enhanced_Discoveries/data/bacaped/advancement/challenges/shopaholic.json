@@ -735,11 +735,19 @@
         }
       }
     },
-    "name_tag": {
+    "red_candle": {
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "item": {
-          "items": "minecraft:name_tag"
+          "items": "minecraft:red_candle"
+        }
+      }
+    },
+    "yellow_candle": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "minecraft:yellow_candle"
         }
       }
     }

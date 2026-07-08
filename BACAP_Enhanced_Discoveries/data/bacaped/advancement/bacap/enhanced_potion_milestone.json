@@ -20,25 +20,13 @@
   },
   "parent": "bacaped:bacap/enhanced_nether_milestone",
   "criteria": {
-    "worst_cleric_in_the_world": {
+    "armor_in_a_bottle": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:potion/worst_cleric_in_the_world": true
-            }
-          }
-        }
-      }
-    },
-    "healed_by_pain": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:potion/healed_by_pain": true
+              "bacaped:potion/armor_in_a_bottle": true
             }
           }
         }
@@ -56,13 +44,25 @@
         }
       }
     },
-    "master_of_effects": {
+    "flashlight": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:potion/master_of_effects": true
+              "bacaped:potion/flashlight": true
+            }
+          }
+        }
+      }
+    },
+    "healed_by_pain": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:potion/healed_by_pain": true
             }
           }
         }
@@ -80,25 +80,13 @@
         }
       }
     },
-    "flashlight": {
+    "master_of_effects": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaped:potion/flashlight": true
-            }
-          }
-        }
-      }
-    },
-    "armor_in_a_bottle": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:potion/armor_in_a_bottle": true
+              "bacaped:potion/master_of_effects": true
             }
           }
         }
@@ -111,6 +99,18 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:potion/trial_potions": true
+            }
+          }
+        }
+      }
+    },
+    "worst_cleric_in_the_world": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:potion/worst_cleric_in_the_world": true
             }
           }
         }

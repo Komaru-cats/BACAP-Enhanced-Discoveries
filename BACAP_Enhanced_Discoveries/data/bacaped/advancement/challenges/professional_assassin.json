@@ -45,7 +45,7 @@
   "parent": "bacaped:challenges/airborne_annihilator",
   "criteria": {
     "bat": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -54,7 +54,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:bat",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -63,7 +63,7 @@
       }
     },
     "breeze": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -72,7 +72,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:breeze",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -81,7 +81,7 @@
       }
     },
     "bogged": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -90,7 +90,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:bogged",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -99,7 +99,7 @@
       }
     },
     "armadillo": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -108,7 +108,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:armadillo",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -117,7 +117,7 @@
       }
     },
     "chicken": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -126,7 +126,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:chicken",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -135,7 +135,7 @@
       }
     },
     "cod": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -144,7 +144,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:cod",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -153,7 +153,7 @@
       }
     },
     "copper_golem": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -162,7 +162,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:copper_golem",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -171,7 +171,7 @@
       }
     },
     "cow": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -180,7 +180,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:cow",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -189,7 +189,7 @@
       }
     },
     "mooshroom": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -198,7 +198,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:mooshroom",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -207,7 +207,7 @@
       }
     },
     "pig": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -216,7 +216,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:pig",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -225,7 +225,7 @@
       }
     },
     "rabbit": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -234,7 +234,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:rabbit",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -243,7 +243,7 @@
       }
     },
     "salmon": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -252,7 +252,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:salmon",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -261,7 +261,7 @@
       }
     },
     "sheep": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -270,7 +270,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:sheep",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -279,7 +279,7 @@
       }
     },
     "squid": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -288,7 +288,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:squid",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -297,7 +297,7 @@
       }
     },
     "tropical_fish": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -306,7 +306,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:tropical_fish",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -315,7 +315,7 @@
       }
     },
     "turtle": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -324,7 +324,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:turtle",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -333,7 +333,7 @@
       }
     },
     "villager": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -342,7 +342,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:villager",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -351,7 +351,7 @@
       }
     },
     "wandering_trader": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "entity": {
           "entity_type": "minecraft:wandering_trader"
@@ -359,7 +359,7 @@
       }
     },
     "elder_guardian": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -368,7 +368,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:elder_guardian",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -377,7 +377,7 @@
       }
     },
     "pufferfish": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -386,7 +386,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:pufferfish",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -395,7 +395,7 @@
       }
     },
     "cave_spider": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -404,7 +404,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:cave_spider",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -413,7 +413,7 @@
       }
     },
     "enderman": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -422,7 +422,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:enderman",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -431,7 +431,7 @@
       }
     },
     "panda": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -440,7 +440,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:panda",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -449,7 +449,7 @@
       }
     },
     "polar_bear": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -458,7 +458,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:polar_bear",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -467,7 +467,7 @@
       }
     },
     "spider": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -476,7 +476,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:spider",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -485,7 +485,7 @@
       }
     },
     "zombified_piglin": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -494,7 +494,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:zombified_piglin",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -503,7 +503,7 @@
       }
     },
     "blaze": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -512,7 +512,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:blaze",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -521,7 +521,7 @@
       }
     },
     "creeper": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -530,7 +530,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:creeper",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -539,7 +539,7 @@
       }
     },
     "drowned": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -548,7 +548,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:drowned",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -557,7 +557,7 @@
       }
     },
     "endermite": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -566,7 +566,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:endermite",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -575,7 +575,7 @@
       }
     },
     "evoker": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -584,7 +584,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:evoker",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -593,7 +593,7 @@
       }
     },
     "ghast": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -602,7 +602,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:ghast",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -611,7 +611,7 @@
       }
     },
     "guardian": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -620,7 +620,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:guardian",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -629,7 +629,7 @@
       }
     },
     "husk": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -638,7 +638,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:husk",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -647,7 +647,7 @@
       }
     },
     "magma_cube": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -656,7 +656,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:magma_cube",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -665,7 +665,7 @@
       }
     },
     "parched": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -674,7 +674,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:parched",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -683,7 +683,7 @@
       }
     },
     "phantom": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -692,7 +692,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:phantom",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -701,7 +701,7 @@
       }
     },
     "pillager": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -710,7 +710,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:pillager",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -719,7 +719,7 @@
       }
     },
     "ravager": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -728,7 +728,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:ravager",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -737,7 +737,7 @@
       }
     },
     "shulker": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -746,7 +746,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:shulker",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -755,7 +755,7 @@
       }
     },
     "silverfish": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -764,7 +764,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:silverfish",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -773,7 +773,7 @@
       }
     },
     "skeleton": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -782,7 +782,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:skeleton",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -791,7 +791,7 @@
       }
     },
     "slime": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -800,7 +800,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:slime",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -809,7 +809,7 @@
       }
     },
     "stray": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -818,7 +818,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:stray",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -827,7 +827,7 @@
       }
     },
     "vex": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -836,7 +836,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:vex",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -845,7 +845,7 @@
       }
     },
     "vindicator": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -854,7 +854,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:vindicator",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -863,7 +863,7 @@
       }
     },
     "witch": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -872,7 +872,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:witch",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -881,7 +881,7 @@
       }
     },
     "wither_skeleton": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -890,7 +890,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:wither_skeleton",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -899,7 +899,7 @@
       }
     },
     "zombie_villager": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -908,7 +908,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:zombie_villager",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -917,7 +917,7 @@
       }
     },
     "zombie": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -926,7 +926,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:zombie",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -935,7 +935,7 @@
       }
     },
     "cat": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -944,7 +944,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:cat",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -953,7 +953,7 @@
       }
     },
     "donkey": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -962,7 +962,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:donkey",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -971,7 +971,7 @@
       }
     },
     "horse": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -980,7 +980,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:horse",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -989,7 +989,7 @@
       }
     },
     "zombie_horse": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -998,7 +998,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:zombie_horse",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1007,7 +1007,7 @@
       }
     },
     "llama": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1016,7 +1016,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:llama",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1025,7 +1025,7 @@
       }
     },
     "mule": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1034,7 +1034,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:mule",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1043,7 +1043,7 @@
       }
     },
     "parrot": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1052,7 +1052,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:parrot",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1061,7 +1061,7 @@
       }
     },
     "skeleton_horse": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "entity": {
           "entity_type": "minecraft:skeleton_horse"
@@ -1069,7 +1069,7 @@
       }
     },
     "trader_llama": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1078,7 +1078,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:trader_llama",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1087,7 +1087,7 @@
       }
     },
     "wolf": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1096,7 +1096,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:wolf",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1105,7 +1105,7 @@
       }
     },
     "dolphin": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1114,7 +1114,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:dolphin",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1123,7 +1123,7 @@
       }
     },
     "fox": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1132,7 +1132,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:fox",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1141,7 +1141,7 @@
       }
     },
     "ocelot": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1150,7 +1150,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:ocelot",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1159,7 +1159,7 @@
       }
     },
     "iron_golem": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1168,7 +1168,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:iron_golem",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1177,7 +1177,7 @@
       }
     },
     "snow_golem": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1186,7 +1186,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:snow_golem",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1195,7 +1195,7 @@
       }
     },
     "wither": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1204,7 +1204,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:wither",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1213,7 +1213,7 @@
       }
     },
     "bee": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1222,7 +1222,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:bee",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1231,7 +1231,7 @@
       }
     },
     "piglin": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1240,7 +1240,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:piglin",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1249,7 +1249,7 @@
       }
     },
     "hoglin": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1258,7 +1258,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:hoglin",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1267,7 +1267,7 @@
       }
     },
     "happy_ghast": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1276,7 +1276,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:happy_ghast",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1285,7 +1285,7 @@
       }
     },
     "strider": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1294,7 +1294,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:strider",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1303,7 +1303,7 @@
       }
     },
     "zoglin": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1312,7 +1312,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:zoglin",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1321,7 +1321,7 @@
       }
     },
     "piglin_brute": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1330,7 +1330,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:piglin_brute",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1339,7 +1339,7 @@
       }
     },
     "axolotl": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1348,7 +1348,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:axolotl",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1357,7 +1357,7 @@
       }
     },
     "glow_squid": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1366,7 +1366,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:glow_squid",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1375,7 +1375,7 @@
       }
     },
     "goat": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1384,7 +1384,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:goat",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1393,7 +1393,7 @@
       }
     },
     "frog": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1402,7 +1402,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:frog",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1411,7 +1411,7 @@
       }
     },
     "tadpole": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1420,7 +1420,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:tadpole",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1429,7 +1429,7 @@
       }
     },
     "allay": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1438,7 +1438,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:allay",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1447,7 +1447,7 @@
       }
     },
     "warden": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1456,7 +1456,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:warden",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1465,7 +1465,7 @@
       }
     },
     "camel": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1474,7 +1474,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:camel",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1483,7 +1483,7 @@
       }
     },
     "camel_husk": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1492,7 +1492,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:camel_husk",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1501,7 +1501,7 @@
       }
     },
     "sniffer": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1510,7 +1510,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:sniffer",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1519,7 +1519,7 @@
       }
     },
     "ender_dragon": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1528,7 +1528,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:ender_dragon",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1537,7 +1537,7 @@
       }
     },
     "creaking": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1546,7 +1546,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:creaking",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1555,7 +1555,7 @@
       }
     },
     "nautilus": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1564,7 +1564,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:nautilus",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1573,7 +1573,7 @@
       }
     },
     "zombie_nautilus": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1582,7 +1582,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:zombie_nautilus",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]
@@ -1591,7 +1591,7 @@
       }
     },
     "sulfur_cube": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -1600,7 +1600,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:sulfur_cube",
                 "value": {
-                  "min": 24
+                  "min": 25
                 }
               }
             ]

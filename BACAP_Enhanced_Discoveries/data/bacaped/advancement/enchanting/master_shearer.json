@@ -15,7 +15,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:enchanting/master_macerator",
+  "parent": "bacaped:enchanting/master_shieldman",
   "criteria": {
     "shears": {
       "trigger": "minecraft:inventory_changed",

@@ -32,7 +32,7 @@
   "parent": "bacaped:challenges/the_world_is_actually_ending_2",
   "criteria": {
     "kill_300_withers": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
@@ -41,7 +41,7 @@
                 "type": "minecraft:killed",
                 "stat": "minecraft:wither",
                 "value": {
-                  "min": 299
+                  "min": 300
                 }
               }
             ]
