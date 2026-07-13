@@ -18,9 +18,9 @@
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "damage": {
-          "entity_type": {
+          "type": {
             "direct_entity": {
-              "entity_type": "minecraft:snowball"
+              "minecraft:entity_type": "minecraft:snowball"
             }
           }
         },

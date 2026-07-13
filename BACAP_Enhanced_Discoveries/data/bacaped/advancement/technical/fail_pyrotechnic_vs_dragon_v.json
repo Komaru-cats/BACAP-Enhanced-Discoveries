@@ -9,7 +9,7 @@
             "entity": "this",
             "predicate": {
               "vehicle": {
-                "entity_type": "#blazeandcave:player_rideables"
+                "minecraft:entity_type": "#blazeandcave:player_rideables"
               }
             }
           }
@@ -36,7 +36,7 @@
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "damage": {
-          "entity_type": {
+          "type": {
             "tags": [
               {
                 "id": "bacaped:is_fireworks",
