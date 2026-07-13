@@ -11,12 +11,12 @@
           }
         },
         "damage": {
-          "entity_type": {
+          "type": {
             "source_entity": {
-              "entity_type": "minecraft:ghast"
+              "minecraft:entity_type": "minecraft:ghast"
             },
             "direct_entity": {
-              "entity_type": "minecraft:fireball"
+              "minecraft:entity_type": "minecraft:fireball"
             }
           }
         }
