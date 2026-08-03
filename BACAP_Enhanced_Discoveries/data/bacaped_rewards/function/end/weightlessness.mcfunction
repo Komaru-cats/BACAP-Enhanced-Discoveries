@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:end/weightlessness",reward_id:"end/weightlessness",tier:"goal"}

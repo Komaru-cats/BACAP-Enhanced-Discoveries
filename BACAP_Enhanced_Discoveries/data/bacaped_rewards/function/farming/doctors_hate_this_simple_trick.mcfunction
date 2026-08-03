@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:farming/doctors_hate_this_simple_trick",reward_id:"farming/doctors_hate_this_simple_trick",tier:"challenge"}

@@ -3,6 +3,13 @@
     "trigger": {
       "trigger": "minecraft:cured_zombie_villager",
       "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "blazeandcave:challenges/root": true
+            }
+          }
+        },
         "villager": [
           {
             "condition": "minecraft:any_of",

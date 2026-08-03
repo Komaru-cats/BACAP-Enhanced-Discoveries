@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:goat_spawn_egg"
+    },
+    "title": {
+      "translate": "You Goat Me to an End"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Get damage in the End void after getting rammed by a Goat"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/the_void_frogs",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:end/you_goat_me_to_an_end"
+  }
+}

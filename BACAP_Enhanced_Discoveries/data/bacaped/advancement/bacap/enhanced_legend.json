@@ -186,6 +186,18 @@
         }
       }
     },
+    "no_luck_for_the_next_guy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:adventure/no_luck_for_the_next_guy": true
+            }
+          }
+        }
+      }
+    },
     "no_water_team": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -205,6 +217,30 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:adventure/oh_you_again": true
+            }
+          }
+        }
+      }
+    },
+    "ominous_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:adventure/ominous_ocean": true
+            }
+          }
+        }
+      }
+    },
+    "ominous_vault_hunter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:adventure/ominous_vault_hunter": true
             }
           }
         }
@@ -457,6 +493,18 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:adventure/we_are_fine_really": true
+            }
+          }
+        }
+      }
+    },
+    "advanced_horse_transport": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:animal/advanced_horse_transport": true
             }
           }
         }
@@ -2262,6 +2310,18 @@
         }
       }
     },
+    "one_small_step_for_man": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:end/one_small_step_for_man": true
+            }
+          }
+        }
+      }
+    },
     "speed_of_light": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -2281,6 +2341,30 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:end/the_lockbox": true
+            }
+          }
+        }
+      }
+    },
+    "weightlessness": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:end/weightlessness": true
+            }
+          }
+        }
+      }
+    },
+    "you_goat_me_to_an_end": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:end/you_goat_me_to_an_end": true
             }
           }
         }
@@ -2346,6 +2430,18 @@
         }
       }
     },
+    "doctors_hate_this_simple_trick": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:farming/doctors_hate_this_simple_trick": true
+            }
+          }
+        }
+      }
+    },
     "eco_warrior": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -2353,6 +2449,30 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:farming/eco_warrior": true
+            }
+          }
+        }
+      }
+    },
+    "exemplary_worker": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:farming/exemplary_worker": true
+            }
+          }
+        }
+      }
+    },
+    "failed_successfully": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:farming/failed_successfully": true
             }
           }
         }
@@ -3366,6 +3486,18 @@
         }
       }
     },
+    "avid_trader": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:statistics/avid_trader": true
+            }
+          }
+        }
+      }
+    },
     "chest_lover": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -3414,6 +3546,18 @@
         }
       }
     },
+    "did_you_get_mending_yet": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:statistics/did_you_get_mending_yet": true
+            }
+          }
+        }
+      }
+    },
     "experienced_angler": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -3421,6 +3565,18 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:statistics/experienced_angler": true
+            }
+          }
+        }
+      }
+    },
+    "frustrated_trader": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:statistics/frustrated_trader": true
             }
           }
         }

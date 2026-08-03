@@ -111,6 +111,18 @@
         }
       }
     },
+    "one_small_step_for_man": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:end/one_small_step_for_man": true
+            }
+          }
+        }
+      }
+    },
     "speed_of_light": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -130,6 +142,30 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:end/the_lockbox": true
+            }
+          }
+        }
+      }
+    },
+    "weightlessness": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:end/weightlessness": true
+            }
+          }
+        }
+      }
+    },
+    "you_goat_me_to_an_end": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:end/you_goat_me_to_an_end": true
             }
           }
         }

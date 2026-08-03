@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/ominous_vault_hunter",reward_id:"adventure/ominous_vault_hunter",tier:"challenge"}

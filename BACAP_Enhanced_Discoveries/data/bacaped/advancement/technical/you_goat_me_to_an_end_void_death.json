@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "minecraft:location": {
+            "position": {
+              "y": {
+                "max": -64
+              }
+            },
+            "dimension": "minecraft:the_end"
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:always_most_significant_fall",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped:you_goat_me_to_an_end/void_hit"
+  }
+}

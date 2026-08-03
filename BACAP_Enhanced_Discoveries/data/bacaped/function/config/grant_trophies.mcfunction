@@ -6,6 +6,7 @@ execute as @s[advancements={bacaped:adventure/herbalists_dream=true}] run functi
 execute as @s[advancements={bacaped:adventure/i_hate_all_of_you=true}] run function bacaped_rewards:trophy/adventure/i_hate_all_of_you
 execute as @s[advancements={bacaped:adventure/komaru=true}] run function bacaped_rewards:trophy/adventure/komaru
 execute as @s[advancements={bacaped:adventure/midnight_snack=true}] run function bacaped_rewards:trophy/adventure/midnight_snack
+execute as @s[advancements={bacaped:adventure/no_luck_for_the_next_guy=true}] run function bacaped_rewards:trophy/adventure/no_luck_for_the_next_guy
 execute as @s[advancements={bacaped:adventure/ominous_ocean=true}] run function bacaped_rewards:trophy/adventure/ominous_ocean
 execute as @s[advancements={bacaped:adventure/on_the_wings_of_the_wind=true}] run function bacaped_rewards:trophy/adventure/on_the_wings_of_the_wind
 execute as @s[advancements={bacaped:adventure/pottery_collector=true}] run function bacaped_rewards:trophy/adventure/pottery_collector
@@ -110,6 +111,7 @@ execute as @s[advancements={bacaped:enchanting/small_targets=true}] run function
 execute as @s[advancements={bacaped:end/dragon_blitz=true}] run function bacaped_rewards:trophy/end/dragon_blitz
 execute as @s[advancements={bacaped:end/interdimensional_travel=true}] run function bacaped_rewards:trophy/end/interdimensional_travel
 execute as @s[advancements={bacaped:end/last_hit=true}] run function bacaped_rewards:trophy/end/last_hit
+execute as @s[advancements={bacaped:end/one_small_step_for_man=true}] run function bacaped_rewards:trophy/end/one_small_step_for_man
 execute as @s[advancements={bacaped:end/universal_solitude=true}] run function bacaped_rewards:trophy/end/universal_solitude
 execute as @s[advancements={bacaped:farming/apple_addiction=true}] run function bacaped_rewards:trophy/farming/apple_addiction
 execute as @s[advancements={bacaped:farming/eco_warrior=true}] run function bacaped_rewards:trophy/farming/eco_warrior

@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:farming/failed_successfully",reward_id:"farming/failed_successfully",tier:"task"}

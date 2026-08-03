@@ -87,7 +87,7 @@
     "announce_to_chat": true,
     "frame": "challenge"
   },
-  "parent": "blazeandcave:challenges/the_perfect_run",
+  "parent": "blazeandcave:challenges/riddle_me_this",
   "criteria": {
     "first_line": {
       "trigger": "minecraft:location",

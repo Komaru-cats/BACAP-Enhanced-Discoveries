@@ -114,7 +114,8 @@
               "min": 4
             }
           },
-          "minecraft:trial_omen": {}
+          "minecraft:trial_omen": {},
+          "minecraft:saturation": {}
         }
       }
     }

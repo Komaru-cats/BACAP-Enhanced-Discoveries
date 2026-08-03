@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bee_spawn_egg"
+    },
+    "title": {
+      "translate": "Exemplary Worker"
+    },
+    "description": {
+      "translate": "Be near a Bee with 10 successful pollinations in a single journey"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:farming/eco_warrior",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:farming/exemplary_worker"
+  }
+}

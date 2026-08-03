@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/frustrated_trader",reward_id:"statistics/frustrated_trader",tier:"goal"}

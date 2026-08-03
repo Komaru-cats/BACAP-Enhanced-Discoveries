@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/did_you_get_mending_yet",reward_id:"statistics/did_you_get_mending_yet",tier:"challenge"}

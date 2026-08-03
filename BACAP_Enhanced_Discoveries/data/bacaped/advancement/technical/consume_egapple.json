@@ -1,0 +1,17 @@
+{
+  "rewards": {
+    "function": "bacaped:consume_egapple"
+  },
+  "criteria": {
+    "consume_egapple": {
+      "trigger": "consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_golden_apple"
+          ]
+        }
+      }
+    }
+  }
+}

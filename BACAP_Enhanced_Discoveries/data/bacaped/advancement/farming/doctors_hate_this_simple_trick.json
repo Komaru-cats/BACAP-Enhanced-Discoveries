@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_golden_apple"
+    },
+    "title": {
+      "translate": "Doctors Hate This Simple Trick"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Eat an Enchanted Golden Apple every day for 30 in-game days",
+      "extra": [
+        {
+          "text": "\n\n"
+        },
+        {
+          "italic": true,
+          "color": "dark_gray",
+          "translate": "To view progress, run:"
+        },
+        {
+          "color": "gray",
+          "text": "\n/trigger bacaped_egapple_a_day"
+        }
+      ]
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:farming/an_apple_a_day",
+  "criteria": {
+    "an_egapple_a_day": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:farming/doctors_hate_this_simple_trick"
+  }
+}
