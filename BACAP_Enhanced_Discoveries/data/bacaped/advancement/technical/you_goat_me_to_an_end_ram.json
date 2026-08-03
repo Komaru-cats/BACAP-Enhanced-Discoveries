@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "minecraft:location": {
+            "dimension": "minecraft:the_end"
+          }
+        },
+        "damage": {
+          "source_entity": {
+            "minecraft:entity_type": "minecraft:goat"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped:you_goat_me_to_an_end/rammed"
+  }
+}

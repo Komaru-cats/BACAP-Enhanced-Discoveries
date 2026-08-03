@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:farming/exemplary_worker",reward_id:"farming/exemplary_worker",tier:"challenge"}

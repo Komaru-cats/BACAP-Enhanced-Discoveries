@@ -62,6 +62,22 @@
         }
       }
     },
+    "sulfur_cube": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "effects": {
+            "minecraft:jump_boost": {}
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:sulfur_cube",
+          "effects": {
+            "minecraft:jump_boost": {}
+          }
+        }
+      }
+    },
     "frog": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:horse_spawn_egg"
+    },
+    "title": {
+      "translate": "Advanced Horse Transport"
+    },
+    "description": {
+      "translate": "Swim in an ocean with 3 or more Horses on a lead under the Dolphins grace effect",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/dolphin_dasher",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:animal/advanced_horse_transport"
+  }
+}

@@ -26,9 +26,9 @@ execute as @a[advancements={bacaped:technical/pvd_5_kill_dragon=true}] run advan
 
 # Dragon vs Warden VI
 execute as @a[predicate=bacaped:wear_dragon_vs_warden_vi] run execute as @s at @s unless entity @n[type=minecraft:player,distance=0.01..32] run execute at @n[type=minecraft:warden,distance=..6] if entity @e[distance=0,nbt={Health:500.0f}] run function bacaped:dragon_vs_warden_vi/start
-execute as @a[scores={bacaped_dvw6=1}] run function bacaped:dragon_vs_warden_vi/fail_check
 execute as @a[advancements={bacaped:technical/kill_full_hp_warden=true},scores={bacaped_dvw6=1}] run advancement grant @s only bacaped:challenges/dragon_vs_warden_vi
 execute as @a[advancements={bacaped:technical/kill_full_hp_warden=true}] run advancement revoke @s only bacaped:technical/kill_full_hp_warden
+execute as @a[scores={bacaped_dvw6=1}] run function bacaped:dragon_vs_warden_vi/fail_check
 
 # Camel Adventure
 execute as @a[advancements={bacaped:animal/camel_adventure=false}] run execute unless entity @s[predicate=bacaped:is_sitting_on_camel] run advancement revoke @s only bacaped:animal/camel_adventure
@@ -78,11 +78,25 @@ execute as @a[gamemode=!spectator, advancements={bacaped:end/dragon_blitz=false}
 # Air Battle
 execute as @a[gamemode=!spectator, advancements={bacaped:weaponry/air_battle=false}] at @s if predicate bacaped:reset_air_battle run scoreboard players set @s bacaped_air_battle 0
 
+# Exemplary_worker
+execute as @a[gamemode=!spectator, advancements={bacaped:farming/exemplary_worker=false}] at @s if entity @e[type=minecraft:bee,distance=..16,nbt={CropsGrownSincePollination:10}] run advancement grant @s only bacaped:farming/exemplary_worker
+
+# One Small Step for Man
+execute as @a[gamemode=!spectator, advancements={bacaped:end/one_small_step_for_man=false}] at @s if predicate bacaped:min_y_350 positioned ~-0.5 ~-0.1 ~-0.5 if entity @e[type=shulker,dx=0,dy=0,dz=0] run advancement grant @s only bacaped:end/one_small_step_for_man
+
 # Triggers
 
 # Trigger to get a list of mobs for Mob Universe
 scoreboard players enable @a bacaped_mob_universe
 execute as @a if score @s bacaped_mob_universe matches 1.. run function bacaped:triggers_callback/mob_universe_trigger
+
+# Trigger to get a list of mobs for Baby Zoo
+scoreboard players enable @a bacaped_baby_zoo
+execute as @a if score @s bacaped_baby_zoo matches 1.. run function bacaped:triggers_callback/baby_zoo_trigger
+
+# Trigger to get an info about "Doctors Hate This Simple Trick" advancement
+scoreboard players enable @a bacaped_egapple_a_day
+execute as @a if score @s bacaped_egapple_a_day matches 1.. run function bacaped:triggers_callback/egapple_a_day
 
 # Fanpacks Handling
 function #bacaped_fanpacks:1sec_timer

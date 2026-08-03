@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:end/one_small_step_for_man",reward_id:"end/one_small_step_for_man",tier:"challenge"}

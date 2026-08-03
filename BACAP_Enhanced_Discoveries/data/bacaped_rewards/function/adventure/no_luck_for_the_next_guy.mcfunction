@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/no_luck_for_the_next_guy",reward_id:"adventure/no_luck_for_the_next_guy",tier:"goal"}

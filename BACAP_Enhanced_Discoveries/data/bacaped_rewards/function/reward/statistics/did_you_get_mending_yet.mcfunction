@@ -1,0 +1,2 @@
+give @s diamond_axe[tooltip_display={hidden_components:[]}, enchantments={efficiency:2,unbreaking:1}, enchantment_glint_override=true] 1
+tellraw @s {"color":"green","text":" +1 ","extra":[{"translate":"item.minecraft.diamond_axe"}]}

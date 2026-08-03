@@ -27,6 +27,18 @@
         }
       }
     },
+    "avid_trader": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:statistics/avid_trader": true
+            }
+          }
+        }
+      }
+    },
     "chest_lover": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -75,6 +87,18 @@
         }
       }
     },
+    "did_you_get_mending_yet": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:statistics/did_you_get_mending_yet": true
+            }
+          }
+        }
+      }
+    },
     "experienced_angler": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -82,6 +106,18 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:statistics/experienced_angler": true
+            }
+          }
+        }
+      }
+    },
+    "frustrated_trader": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:statistics/frustrated_trader": true
             }
           }
         }

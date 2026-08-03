@@ -29,7 +29,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:challenges/death_from_all",
+  "parent": "blazeandcave:challenges/immortal",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:location",

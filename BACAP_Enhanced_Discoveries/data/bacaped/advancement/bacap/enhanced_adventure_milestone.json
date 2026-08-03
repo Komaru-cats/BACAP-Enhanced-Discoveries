@@ -186,6 +186,18 @@
         }
       }
     },
+    "no_luck_for_the_next_guy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:adventure/no_luck_for_the_next_guy": true
+            }
+          }
+        }
+      }
+    },
     "no_water_team": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -205,6 +217,30 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:adventure/oh_you_again": true
+            }
+          }
+        }
+      }
+    },
+    "ominous_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:adventure/ominous_ocean": true
+            }
+          }
+        }
+      }
+    },
+    "ominous_vault_hunter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:adventure/ominous_vault_hunter": true
             }
           }
         }

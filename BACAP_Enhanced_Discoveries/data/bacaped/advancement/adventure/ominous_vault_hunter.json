@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:vault",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Ominous Vault Hunter"
+    },
+    "description": {
+      "translate": "Unlock 100 Ominous Vaults across Trial Chambers"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:adventure/vault_hunter",
+  "rewards": {
+    "function": "bacaped_rewards:adventure/ominous_vault_hunter"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:ominous_trial_key",
+                "value": {
+                  "min": 100
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

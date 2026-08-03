@@ -1,0 +1,2 @@
+give @s trial_spawner[enchantment_glint_override=true, lore=[{translate:"Proof of your selfishness",color:"#17C362"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"No Luck for the Next Guy",color:"#75E1FF",italic:false}], custom_name={translate:"Broken Trial Spawner",color:"#17C362",bold:true,italic:false}, custom_model_data={floats:[15501]}, custom_data={Trophy:1}] 1
+tellraw @s {"color": "gold", "text": " +1 ", "extra": [{"translate": "Broken Trial Spawner"}]}

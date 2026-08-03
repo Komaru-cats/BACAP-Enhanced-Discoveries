@@ -75,6 +75,18 @@
         }
       }
     },
+    "doctors_hate_this_simple_trick": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:farming/doctors_hate_this_simple_trick": true
+            }
+          }
+        }
+      }
+    },
     "eco_warrior": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -82,6 +94,30 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:farming/eco_warrior": true
+            }
+          }
+        }
+      }
+    },
+    "exemplary_worker": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:farming/exemplary_worker": true
+            }
+          }
+        }
+      }
+    },
+    "failed_successfully": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:farming/failed_successfully": true
             }
           }
         }

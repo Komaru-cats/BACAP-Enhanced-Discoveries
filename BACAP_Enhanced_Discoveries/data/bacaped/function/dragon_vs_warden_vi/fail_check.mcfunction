@@ -1,2 +1,3 @@
 execute at @s as @s if entity @s[predicate=!bacaped:wear_dragon_vs_warden_vi] run function bacaped:dragon_vs_warden_vi/fail
 execute at @s as @s if entity @n[type=minecraft:player,distance=0.01..32] run function bacaped:dragon_vs_warden_vi/fail
+execute at @s as @s unless entity @e[type=minecraft:warden,tag=bacaped_full_hp_warden,distance=..64] run function bacaped:dragon_vs_warden_vi/fail

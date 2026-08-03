@@ -1,0 +1,1 @@
+execute as @a[gamemode=!spectator, advancements={bacaped:end/you_goat_me_to_an_end=false}, scores={bacaped_you_goat_me_to_an_end_timer=1..}] run scoreboard players remove @s bacaped_you_goat_me_to_an_end_timer 1

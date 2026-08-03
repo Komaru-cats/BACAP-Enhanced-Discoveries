@@ -22,6 +22,25 @@ scoreboard objectives add bacaped_totems_used dummy
 scoreboard objectives add bacaped_ghast_passenger_count dummy
 scoreboard objectives add bacaped_current_day dummy
 scoreboard objectives add bacaped_cookies_eaten_today dummy
+scoreboard objectives add bacaped_egapple_days dummy
+scoreboard objectives add bacaped_you_goat_me_to_an_end_timer dummy
+scoreboard objectives add bacaped_leashed_horses dummy
+
+# Workstations statistics
+scoreboard objectives add bacaped_barrel_mined minecraft.mined:minecraft.barrel
+scoreboard objectives add bacaped_blast_furnace_mined minecraft.mined:minecraft.blast_furnace
+scoreboard objectives add bacaped_brewing_stand_mined minecraft.mined:minecraft.brewing_stand
+scoreboard objectives add bacaped_cartography_table_mined minecraft.mined:minecraft.cartography_table
+scoreboard objectives add bacaped_cauldron_mined minecraft.mined:minecraft.cauldron
+scoreboard objectives add bacaped_composter_mined minecraft.mined:minecraft.composter
+scoreboard objectives add bacaped_fletching_table_mined minecraft.mined:minecraft.fletching_table
+scoreboard objectives add bacaped_grindstone_mined minecraft.mined:minecraft.grindstone
+scoreboard objectives add bacaped_lectern_mined minecraft.mined:minecraft.lectern
+scoreboard objectives add bacaped_loom_mined minecraft.mined:minecraft.loom
+scoreboard objectives add bacaped_smithing_table_mined minecraft.mined:minecraft.smithing_table
+scoreboard objectives add bacaped_stonecutter_mined minecraft.mined:minecraft.stonecutter
+scoreboard objectives add bacaped_villager_profession_blocks_mined dummy
+
 
 # In Structures
 scoreboard objectives add bacaped_in_struct_ancient_city dummy
@@ -45,6 +64,8 @@ scoreboard objectives add bacaped_in_struct_summary dummy
 
 # Triggers
 scoreboard objectives add bacaped_mob_universe trigger
+scoreboard objectives add bacaped_baby_zoo trigger
+scoreboard objectives add bacaped_egapple_a_day trigger
 
 # Fanpacks Handling
 function #bacaped_fanpacks:start_timers

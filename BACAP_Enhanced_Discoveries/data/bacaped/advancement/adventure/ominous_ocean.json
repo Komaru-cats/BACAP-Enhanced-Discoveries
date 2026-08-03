@@ -11,11 +11,11 @@
     },
     "description": {
       "translate": "Collect 64 ominous bottles of each level",
-      "color": "light_purple"
+      "color": "dark_purple"
     },
     "frame": "challenge",
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
   "parent": "blazeandcave:adventure/omniscient",
   "criteria": {

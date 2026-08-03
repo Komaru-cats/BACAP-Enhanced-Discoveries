@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "blazeandcave:challenges/riddle_me_this",
+  "parent": "bacaped:challenges/from_the_underworld",
   "criteria": {
     "new_year": {
       "trigger": "minecraft:item_used_on_block",

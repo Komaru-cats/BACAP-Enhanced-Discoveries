@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wind_charge"
+    },
+    "title": {
+      "translate": "Weightlessness"
+    },
+    "description": {
+      "translate": "Glide with an Elytra under the Slow Falling effect through a cobweb to fall at the slowest possible speed",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:end/elytra",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:flags": {
+            "is_flying": true
+          },
+          "minecraft:effects": {
+            "minecraft:slow_falling": {}
+          },
+          "minecraft:equipment": {
+            "chest": {
+              "items": "minecraft:elytra"
+            }
+          },
+          "minecraft:location": {
+            "block": {
+              "blocks": "minecraft:cobweb"
+            }
+          },
+          "minecraft:movement": {
+            "vertical_speed": {
+              "max": 0.003
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:end/weightlessness"
+  }
+}
