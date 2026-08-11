@@ -498,18 +498,6 @@
         }
       }
     },
-    "advanced_horse_transport": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:animal/advanced_horse_transport": true
-            }
-          }
-        }
-      }
-    },
     "air_balloon": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -1177,6 +1165,18 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaped:biomes/accept_cookies": true
+            }
+          }
+        }
+      }
+    },
+    "advanced_horse_transport": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:biomes/advanced_horse_transport": true
             }
           }
         }

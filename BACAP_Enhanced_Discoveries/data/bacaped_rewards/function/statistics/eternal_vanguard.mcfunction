@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/eternal_vanguard",reward_id:"statistics/eternal_vanguard",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/eternal_vanguard",reward_id:"statistics/eternal_vanguard",tier:"hidden"}

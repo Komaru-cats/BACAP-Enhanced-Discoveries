@@ -20,6 +20,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped_rewards:animal/advanced_horse_transport"
+    "function": "bacaped_rewards:biomes/advanced_horse_transport"
   }
 }

@@ -39,7 +39,6 @@ execute as @a[advancements={bacaped:adventure/water_dependent=true}] run scorebo
 execute as @a[advancements={bacaped:adventure/water_team=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:adventure/we_are_fine_really=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:animal/a_ewe_for_every_hue=true}] run scoreboard players add @s bac_advancements 1
-execute as @a[advancements={bacaped:animal/advanced_horse_transport=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:animal/air_balloon=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:animal/baby_zoo=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:animal/beezlebooster=true}] run scoreboard players add @s bac_advancements 1
@@ -96,6 +95,7 @@ execute as @a[advancements={bacaped:bacap/enhanced_redstone_milestone=true}] run
 execute as @a[advancements={bacaped:bacap/enhanced_statistics_milestone=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:bacap/enhanced_weaponry_milestone=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:biomes/accept_cookies=true}] run scoreboard players add @s bac_advancements 1
+execute as @a[advancements={bacaped:biomes/advanced_horse_transport=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:biomes/australia=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:biomes/coolgrill=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:biomes/good_dreams=true}] run scoreboard players add @s bac_advancements 1

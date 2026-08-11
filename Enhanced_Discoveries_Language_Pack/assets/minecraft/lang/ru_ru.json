@@ -1209,7 +1209,6 @@
 
 "Version:": "Версия:",
 #Infos
-"To view the statistics, run:": "Для просмотра прогресса статистики, напишите:",
 "To view list of required mobs, run:": "Для просмотра требуемых мобов, напишите:",
 "The following mob is not required:": "Данный моб не требуется",
 # triggers
@@ -1464,10 +1463,15 @@
 "Use bone meal on Dry Grass": "Используйте костную муку на сухой траве",
 "Avid Trader": "Заядлый Торговец",
 "Break workstation blocks 50 times": "Сломайте блоки рабочих мест 50 раз",
-"Did You Get Mending, Yet?": "Ну Что, Выбил Починку?",
+"Did You Get Mending Yet?": "Ну Что, Выбил Починку?",
 "Break workstation blocks 1000 times": "Сломайте блоки рабочих мест 1000 раз",
 "Frustrated Trader": "Разочарованный Торговец",
 "Break workstation blocks 250 times": "Сломайте блоки рабочих мест 250 раз",
 "HR Manager of the Year": "HR-Менеджер Года",
-"Break workstation blocks 5000 times": "Сломайте блоки рабочих мест 5000 раз"
+"Break workstation blocks 5000 times": "Сломайте блоки рабочих мест 5000 раз",
+"Workstations broken": "Блоков рабочих мест сломано",
+"You have eaten an Enchanted Golden Apple every day for": "Вы ели Зачарованное Золотое Яблоко каждый день в течении",
+"You have eaten an Enchanted Golden Apple today.": "Вы съели Зачарованное Золотое Яблоко сегодня",
+"You have not eaten an Enchanted Golden Apple today.": "Вы не съели Зачарованное Золотое Яблоко сегодня",
+"If you have just slept, and it says you have eaten an enchanted golden apple when you actually haven't yet, try running this trigger again in 10 seconds.": "Если вы только что поспали, и он говорит, что вы съели Зачарованное Золотое Яблоко, хотя на самом деле вы его еще не съели, попробуйте запустить этот триггер снова через 10 секунд."
 }

@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:nether/ghast_squad",reward_id:"nether/ghast_squad",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:nether/ghast_squad",reward_id:"nether/ghast_squad",tier:"hidden"}

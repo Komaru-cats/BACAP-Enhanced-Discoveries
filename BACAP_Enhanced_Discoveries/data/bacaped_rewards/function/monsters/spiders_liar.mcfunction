@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:monsters/spiders_liar",reward_id:"monsters/spiders_liar",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:monsters/spiders_liar",reward_id:"monsters/spiders_liar",tier:"hidden"}

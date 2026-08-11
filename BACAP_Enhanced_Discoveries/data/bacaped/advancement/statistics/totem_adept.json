@@ -8,7 +8,24 @@
     },
     "description": {
       "translate": "Spend 25 totems of undying",
-      "color": "#75E1FF"
+      "color": "#75E1FF",
+      "extra": [
+        {
+          "text": "\n\n"
+        },
+        {
+          "translate": "To view progress, run:",
+          "color": "dark_gray",
+          "italic": true
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "text": "/trigger bac_statistics",
+          "color": "gray"
+        }
+      ]
     },
     "frame": "goal",
     "announce_to_chat": true

@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/titan_of_olympian_gold_triumphs",reward_id:"statistics/titan_of_olympian_gold_triumphs",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/titan_of_olympian_gold_triumphs",reward_id:"statistics/titan_of_olympian_gold_triumphs",tier:"hidden"}

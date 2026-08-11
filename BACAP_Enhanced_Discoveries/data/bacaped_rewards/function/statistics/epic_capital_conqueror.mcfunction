@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/epic_capital_conqueror",reward_id:"statistics/epic_capital_conqueror",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/epic_capital_conqueror",reward_id:"statistics/epic_capital_conqueror",tier:"hidden"}

@@ -4,11 +4,28 @@
       "id": "minecraft:lectern"
     },
     "title": {
-      "translate": "Did You Get Mending, Yet?"
+      "translate": "Did You Get Mending Yet?"
     },
     "description": {
       "translate": "Break workstation blocks 1000 times",
-      "color": "dark_purple"
+      "color": "dark_purple",
+      "extra": [
+        {
+          "text": "\n\n"
+        },
+        {
+          "translate": "To view progress, run:",
+          "color": "dark_gray",
+          "italic": true
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "text": "/trigger bac_statistics",
+          "color": "gray"
+        }
+      ]
     },
     "frame": "challenge",
     "announce_to_chat": true

@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/yes",reward_id:"challenges/yes",tier:"super_challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/yes",reward_id:"challenges/yes",tier:"hidden"}

@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/what_a_stupid_purchase",reward_id:"challenges/what_a_stupid_purchase",tier:"super_challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/what_a_stupid_purchase",reward_id:"challenges/what_a_stupid_purchase",tier:"hidden"}

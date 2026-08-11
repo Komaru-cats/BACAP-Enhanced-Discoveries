@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/ligmifitation",reward_id:"statistics/ligmifitation",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/ligmifitation",reward_id:"statistics/ligmifitation",tier:"hidden"}

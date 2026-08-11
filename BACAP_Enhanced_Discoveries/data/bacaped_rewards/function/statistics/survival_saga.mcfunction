@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/survival_saga",reward_id:"statistics/survival_saga",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/survival_saga",reward_id:"statistics/survival_saga",tier:"hidden"}

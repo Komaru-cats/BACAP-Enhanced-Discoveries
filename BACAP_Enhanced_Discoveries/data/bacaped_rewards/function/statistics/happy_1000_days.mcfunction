@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/happy_1000_days",reward_id:"statistics/happy_1000_days",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/happy_1000_days",reward_id:"statistics/happy_1000_days",tier:"hidden"}

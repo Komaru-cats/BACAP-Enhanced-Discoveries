@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/bedrock_breaker",reward_id:"statistics/bedrock_breaker",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/bedrock_breaker",reward_id:"statistics/bedrock_breaker",tier:"hidden"}

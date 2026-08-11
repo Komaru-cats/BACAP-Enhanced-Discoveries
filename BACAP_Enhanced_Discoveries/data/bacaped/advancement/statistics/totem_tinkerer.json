@@ -7,7 +7,24 @@
       "translate": "Totem Tinkerer"
     },
     "description": {
-      "translate": "Spend 5 totems of undying"
+      "translate": "Spend 5 totems of undying",
+      "extra": [
+        {
+          "text": "\n\n"
+        },
+        {
+          "translate": "To view progress, run:",
+          "color": "dark_gray",
+          "italic": true
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "text": "/trigger bac_statistics",
+          "color": "gray"
+        }
+      ]
     },
     "frame": "task",
     "announce_to_chat": true

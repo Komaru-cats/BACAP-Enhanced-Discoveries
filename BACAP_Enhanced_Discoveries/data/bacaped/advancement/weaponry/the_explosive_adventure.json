@@ -17,7 +17,7 @@
           "text": "\n\n"
         },
         {
-          "translate": "To view the statistics, run:",
+          "translate": "To view progress, run:",
           "color": "dark_gray",
           "italic": true
         },
@@ -25,7 +25,7 @@
           "text": "\n"
         },
         {
-          "text": "/trigger bacaped_statistics",
+          "text": "/trigger bac_statistics",
           "color": "gray"
         }
       ]

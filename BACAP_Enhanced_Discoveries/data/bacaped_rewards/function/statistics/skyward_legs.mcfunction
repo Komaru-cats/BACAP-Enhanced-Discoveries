@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/skyward_legs",reward_id:"statistics/skyward_legs",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/skyward_legs",reward_id:"statistics/skyward_legs",tier:"hidden"}

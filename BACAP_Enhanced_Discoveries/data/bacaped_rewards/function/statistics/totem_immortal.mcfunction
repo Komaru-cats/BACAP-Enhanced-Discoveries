@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/totem_immortal",reward_id:"statistics/totem_immortal",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/totem_immortal",reward_id:"statistics/totem_immortal",tier:"hidden"}

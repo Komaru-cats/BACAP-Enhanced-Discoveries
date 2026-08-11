@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/shulker_maestro",reward_id:"statistics/shulker_maestro",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/shulker_maestro",reward_id:"statistics/shulker_maestro",tier:"hidden"}

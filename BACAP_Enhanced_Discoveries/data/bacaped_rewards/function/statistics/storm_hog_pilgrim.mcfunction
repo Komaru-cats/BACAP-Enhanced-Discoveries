@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/storm_hog_pilgrim",reward_id:"statistics/storm_hog_pilgrim",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/storm_hog_pilgrim",reward_id:"statistics/storm_hog_pilgrim",tier:"hidden"}

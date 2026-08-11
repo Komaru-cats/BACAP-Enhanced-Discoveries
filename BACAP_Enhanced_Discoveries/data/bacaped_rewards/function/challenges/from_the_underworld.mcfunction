@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/from_the_underworld",reward_id:"challenges/from_the_underworld",tier:"super_challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/from_the_underworld",reward_id:"challenges/from_the_underworld",tier:"hidden"}

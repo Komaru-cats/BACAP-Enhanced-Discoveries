@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/jetsetter_of_the_skies",reward_id:"statistics/jetsetter_of_the_skies",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/jetsetter_of_the_skies",reward_id:"statistics/jetsetter_of_the_skies",tier:"hidden"}

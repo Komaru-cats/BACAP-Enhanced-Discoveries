@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/herbalists_dream",reward_id:"adventure/herbalists_dream",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/herbalists_dream",reward_id:"adventure/herbalists_dream",tier:"hidden"}
