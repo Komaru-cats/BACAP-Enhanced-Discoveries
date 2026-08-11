@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/the_hardest_and_unfairest_one_yet",reward_id:"adventure/the_hardest_and_unfairest_one_yet",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/the_hardest_and_unfairest_one_yet",reward_id:"adventure/the_hardest_and_unfairest_one_yet",tier:"hidden"}

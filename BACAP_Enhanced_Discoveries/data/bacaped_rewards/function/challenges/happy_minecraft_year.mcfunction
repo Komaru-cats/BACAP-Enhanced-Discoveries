@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/happy_minecraft_year",reward_id:"challenges/happy_minecraft_year",tier:"super_challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/happy_minecraft_year",reward_id:"challenges/happy_minecraft_year",tier:"hidden"}

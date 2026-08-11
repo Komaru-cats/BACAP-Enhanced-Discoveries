@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/intercontinental_rail_nexus",reward_id:"statistics/intercontinental_rail_nexus",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/intercontinental_rail_nexus",reward_id:"statistics/intercontinental_rail_nexus",tier:"hidden"}

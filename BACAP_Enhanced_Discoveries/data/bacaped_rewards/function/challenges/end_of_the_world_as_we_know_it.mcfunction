@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/end_of_the_world_as_we_know_it",reward_id:"challenges/end_of_the_world_as_we_know_it",tier:"super_challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/end_of_the_world_as_we_know_it",reward_id:"challenges/end_of_the_world_as_we_know_it",tier:"hidden"}

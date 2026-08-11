@@ -1,1 +1,0 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/advanced_horse_transport",reward_id:"animal/advanced_horse_transport",tier:"challenge"}

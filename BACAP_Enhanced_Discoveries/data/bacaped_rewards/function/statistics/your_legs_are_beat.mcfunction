@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/your_legs_are_beat",reward_id:"statistics/your_legs_are_beat",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/your_legs_are_beat",reward_id:"statistics/your_legs_are_beat",tier:"hidden"}

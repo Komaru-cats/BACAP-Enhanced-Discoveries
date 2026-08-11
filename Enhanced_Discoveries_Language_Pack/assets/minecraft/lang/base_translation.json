@@ -1123,7 +1123,6 @@
     "[!] Download ": "",
     "BACAP first": "",
     "Version:": "",
-    "To view the statistics, run:": "",
     "To view list of required mobs, run:": "",
     "The following mob is not required:": "",
     "Timer Progress": "",
@@ -1373,10 +1372,15 @@
     "Use bone meal on Dry Grass": "",
     "Avid Trader": "",
     "Break workstation blocks 50 times": "",
-    "Did You Get Mending, Yet?": "",
+    "Did You Get Mending Yet?": "",
     "Break workstation blocks 1000 times": "",
     "Frustrated Trader": "",
     "Break workstation blocks 250 times": "",
     "HR Manager of the Year": "",
-    "Break workstation blocks 5000 times": ""
+    "Break workstation blocks 5000 times": "",
+    "Workstations broken": "",
+    "You have eaten an Enchanted Golden Apple every day for": "",
+    "You have eaten an Enchanted Golden Apple today.": "",
+    "You have not eaten an Enchanted Golden Apple today.": "",
+    "If you have just slept, and it says you have eaten an enchanted golden apple when you actually haven't yet, try running this trigger again in 10 seconds.": ""
 }

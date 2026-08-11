@@ -29,7 +29,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:nether/diamond_beacon",
+  "parent": "bacaped:nether/gold_beacon",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:placed_block",

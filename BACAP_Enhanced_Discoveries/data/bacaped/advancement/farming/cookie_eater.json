@@ -24,7 +24,24 @@
     },
     "description": {
       "translate": "Eat 200 cookies during 1 ingame day",
-      "color": "dark_purple"
+      "color": "dark_purple",
+      "extra": [
+        {
+          "text": "\n\n"
+        },
+        {
+          "translate": "To view progress, run:",
+          "color": "dark_gray",
+          "italic": true
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "text": "/trigger bac_progress",
+          "color": "gray"
+        }
+      ]
     },
     "frame": "challenge",
     "announce_to_chat": true

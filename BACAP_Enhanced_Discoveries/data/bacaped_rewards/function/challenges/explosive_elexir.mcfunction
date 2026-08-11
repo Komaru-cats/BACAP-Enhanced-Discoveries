@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/explosive_elexir",reward_id:"challenges/explosive_elexir",tier:"super_challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/explosive_elexir",reward_id:"challenges/explosive_elexir",tier:"hidden"}

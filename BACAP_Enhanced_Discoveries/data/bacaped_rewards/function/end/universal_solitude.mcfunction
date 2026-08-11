@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:end/universal_solitude",reward_id:"end/universal_solitude",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:end/universal_solitude",reward_id:"end/universal_solitude",tier:"hidden"}

@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/sovereign_of_martial_shifting",reward_id:"statistics/sovereign_of_martial_shifting",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/sovereign_of_martial_shifting",reward_id:"statistics/sovereign_of_martial_shifting",tier:"hidden"}

@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/navigator_of_the_infinite_waters",reward_id:"statistics/navigator_of_the_infinite_waters",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/navigator_of_the_infinite_waters",reward_id:"statistics/navigator_of_the_infinite_waters",tier:"hidden"}

@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:mining/complete_orellection",reward_id:"mining/complete_orellection",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:mining/complete_orellection",reward_id:"mining/complete_orellection",tier:"hidden"}

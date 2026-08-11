@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/duo_dynamo",reward_id:"statistics/duo_dynamo",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/duo_dynamo",reward_id:"statistics/duo_dynamo",tier:"hidden"}

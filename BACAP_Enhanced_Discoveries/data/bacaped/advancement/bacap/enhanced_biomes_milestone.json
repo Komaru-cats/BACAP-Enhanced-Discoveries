@@ -27,6 +27,18 @@
         }
       }
     },
+    "advanced_horse_transport": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaped:biomes/advanced_horse_transport": true
+            }
+          }
+        }
+      }
+    },
     "australia": {
       "trigger": "minecraft:location",
       "conditions": {

@@ -15,18 +15,6 @@
   },
   "parent": "bacaped:bacap/enhanced_farming_milestone",
   "criteria": {
-    "advanced_horse_transport": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:animal/advanced_horse_transport": true
-            }
-          }
-        }
-      }
-    },
     "air_balloon": {
       "trigger": "minecraft:location",
       "conditions": {

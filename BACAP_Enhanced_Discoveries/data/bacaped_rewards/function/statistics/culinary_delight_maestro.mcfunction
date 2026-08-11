@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/culinary_delight_maestro",reward_id:"statistics/culinary_delight_maestro",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/culinary_delight_maestro",reward_id:"statistics/culinary_delight_maestro",tier:"hidden"}

@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/hr_manager_of_the_year",reward_id:"statistics/hr_manager_of_the_year",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/hr_manager_of_the_year",reward_id:"statistics/hr_manager_of_the_year",tier:"hidden"}

@@ -44,7 +44,6 @@ execute if score bacaped:adventure/water_dependent bac_obtained_green matches 1.
 execute if score bacaped:adventure/water_team bac_obtained_green matches 1.. run advancement grant @a[team=bac_team_green] only bacaped:adventure/water_team
 execute if score bacaped:adventure/we_are_fine_really bac_obtained_green matches 1.. run advancement grant @a[team=bac_team_green] only bacaped:adventure/we_are_fine_really
 execute if score bacaped:animal/a_ewe_for_every_hue bac_obtained_green matches 1.. run advancement grant @a[team=bac_team_green] only bacaped:animal/a_ewe_for_every_hue
-execute if score bacaped:animal/advanced_horse_transport bac_obtained_green matches 1.. run advancement grant @a[team=bac_team_green] only bacaped:animal/advanced_horse_transport
 execute if score bacaped:animal/air_balloon bac_obtained_green matches 1.. run advancement grant @a[team=bac_team_green] only bacaped:animal/air_balloon
 execute if score bacaped:animal/baby_zoo bac_obtained_green matches 1.. run advancement grant @a[team=bac_team_green] only bacaped:animal/baby_zoo
 execute if score bacaped:animal/beezlebooster bac_obtained_green matches 1.. run advancement grant @a[team=bac_team_green] only bacaped:animal/beezlebooster
@@ -103,6 +102,7 @@ execute if score bacaped:bacap/enhanced_redstone_milestone bac_obtained_green ma
 execute if score bacaped:bacap/enhanced_statistics_milestone bac_obtained_green matches 1.. run advancement grant @a[team=bac_team_green] only bacaped:bacap/enhanced_statistics_milestone
 execute if score bacaped:bacap/enhanced_weaponry_milestone bac_obtained_green matches 1.. run advancement grant @a[team=bac_team_green] only bacaped:bacap/enhanced_weaponry_milestone
 execute if score bacaped:biomes/accept_cookies bac_obtained_green matches 1.. run advancement grant @a[team=bac_team_green] only bacaped:biomes/accept_cookies
+execute if score bacaped:biomes/advanced_horse_transport bac_obtained_green matches 1.. run advancement grant @a[team=bac_team_green] only bacaped:biomes/advanced_horse_transport
 execute if score bacaped:biomes/australia bac_obtained_green matches 1.. run advancement grant @a[team=bac_team_green] only bacaped:biomes/australia
 execute if score bacaped:biomes/coolgrill bac_obtained_green matches 1.. run advancement grant @a[team=bac_team_green] only bacaped:biomes/coolgrill
 execute if score bacaped:biomes/good_dreams bac_obtained_green matches 1.. run advancement grant @a[team=bac_team_green] only bacaped:biomes/good_dreams

@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/ghastonaut",reward_id:"statistics/ghastonaut",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/ghastonaut",reward_id:"statistics/ghastonaut",tier:"hidden"}

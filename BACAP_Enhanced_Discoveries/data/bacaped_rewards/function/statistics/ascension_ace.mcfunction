@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/ascension_ace",reward_id:"statistics/ascension_ace",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/ascension_ace",reward_id:"statistics/ascension_ace",tier:"hidden"}

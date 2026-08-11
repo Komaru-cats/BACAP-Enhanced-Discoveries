@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/happy_chest_year",reward_id:"statistics/happy_chest_year",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/happy_chest_year",reward_id:"statistics/happy_chest_year",tier:"hidden"}

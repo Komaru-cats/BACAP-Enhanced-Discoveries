@@ -7,7 +7,24 @@
       "translate": "Avid Trader"
     },
     "description": {
-      "translate": "Break workstation blocks 50 times"
+      "translate": "Break workstation blocks 50 times",
+      "extra": [
+        {
+          "text": "\n\n"
+        },
+        {
+          "translate": "To view progress, run:",
+          "color": "dark_gray",
+          "italic": true
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "text": "/trigger bac_statistics",
+          "color": "gray"
+        }
+      ]
     },
     "frame": "task",
     "announce_to_chat": true

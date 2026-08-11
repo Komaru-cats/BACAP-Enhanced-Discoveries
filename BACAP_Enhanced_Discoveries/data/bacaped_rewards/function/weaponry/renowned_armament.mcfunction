@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:weaponry/renowned_armament",reward_id:"weaponry/renowned_armament",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:weaponry/renowned_armament",reward_id:"weaponry/renowned_armament",tier:"hidden"}

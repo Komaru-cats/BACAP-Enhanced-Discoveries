@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/i_love_salmons",reward_id:"animal/i_love_salmons",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/i_love_salmons",reward_id:"animal/i_love_salmons",tier:"hidden"}

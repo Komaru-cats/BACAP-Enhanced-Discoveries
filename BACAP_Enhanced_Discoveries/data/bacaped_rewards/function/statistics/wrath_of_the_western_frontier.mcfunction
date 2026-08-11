@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/wrath_of_the_western_frontier",reward_id:"statistics/wrath_of_the_western_frontier",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/wrath_of_the_western_frontier",reward_id:"statistics/wrath_of_the_western_frontier",tier:"hidden"}
