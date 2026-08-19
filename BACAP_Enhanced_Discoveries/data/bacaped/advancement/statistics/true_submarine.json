@@ -7,7 +7,7 @@
       "translate": "True Submarine"
     },
     "description": {
-      "translate": "Ride 50km on a Nautilus",
+      "translate": "Ride 125km on a Nautilus",
       "color": "light_purple"
     },
     "frame": "challenge",
@@ -26,7 +26,7 @@
                 "type": "minecraft:custom",
                 "stat": "minecraft:nautilus_one_cm",
                 "value": {
-                  "min": 5000000
+                  "min": 12500000
                 }
               }
             ]

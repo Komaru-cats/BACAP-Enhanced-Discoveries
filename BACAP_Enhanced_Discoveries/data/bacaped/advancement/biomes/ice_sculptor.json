@@ -20,27 +20,21 @@
   "parent": "blazeandcave:biomes/thick_ice",
   "criteria": {
     "trigger": {
-      "trigger": "minecraft:placed_block",
+      "trigger": "minecraft:location",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:type_specific/player": {
-                "stats": [
-                  {
-                    "type": "minecraft:used",
-                    "stat": "minecraft:blue_ice",
-                    "value": {
-                      "min": 199
-                    }
-                  }
-                ]
+        "player": {
+          "minecraft:type_specific/player": {
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:blue_ice",
+                "value": {
+                  "min": 200
+                }
               }
-            }
+            ]
           }
-        ]
+        }
       }
     }
   },

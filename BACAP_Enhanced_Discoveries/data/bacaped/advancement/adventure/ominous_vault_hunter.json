@@ -21,22 +21,7 @@
   },
   "criteria": {
     "trigger": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:used",
-                "stat": "minecraft:ominous_trial_key",
-                "value": {
-                  "min": 100
-                }
-              }
-            ]
-          }
-        }
-      }
+      "trigger": "minecraft:impossible"
     }
   }
 }
