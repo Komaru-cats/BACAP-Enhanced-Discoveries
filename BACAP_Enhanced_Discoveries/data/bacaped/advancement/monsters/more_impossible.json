@@ -39,8 +39,27 @@
           "entity_type": "minecraft:wither"
         }
       }
+    },
+    "kill_wither_with_arrow_entity": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "minecraft:entity_type": "minecraft:wither"
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "minecraft:entity_type": "#minecraft:arrows"
+          }
+        }
+      }
     }
   },
+  "requirements": [
+    [
+      "kill_wither_with_arrow",
+      "kill_wither_with_arrow_entity"
+    ]
+  ],
   "rewards": {
     "function": "bacaped_rewards:monsters/more_impossible"
   }

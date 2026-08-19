@@ -19,25 +19,19 @@
     "water_bucket": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:type_specific/player": {
-                "stats": [
-                  {
-                    "type": "minecraft:used",
-                    "stat": "minecraft:sponge",
-                    "value": {
-                      "min": 249
-                    }
-                  }
-                ]
+        "player": {
+          "minecraft:type_specific/player": {
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:sponge",
+                "value": {
+                  "min": 250
+                }
               }
-            }
+            ]
           }
-        ]
+        }
       }
     }
   },

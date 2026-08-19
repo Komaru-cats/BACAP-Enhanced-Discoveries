@@ -25,6 +25,7 @@ scoreboard objectives add bacaped_cookies_eaten_today dummy
 scoreboard objectives add bacaped_egapple_days dummy
 scoreboard objectives add bacaped_you_goat_me_to_an_end_timer dummy
 scoreboard objectives add bacaped_leashed_horses dummy
+scoreboard objectives add bacaped_current_day dummy
 
 # Workstations statistics
 scoreboard objectives add bacaped_barrel_mined minecraft.mined:minecraft.barrel
@@ -60,7 +61,18 @@ scoreboard objectives add bacaped_in_struct_trail_ruins dummy
 scoreboard objectives add bacaped_in_struct_trial_chambers dummy
 scoreboard objectives add bacaped_in_struct_village dummy
 scoreboard objectives add bacaped_in_struct_summary dummy
+scoreboard objectives add bacaped_ominous_vault_hunter_count dummy
 
+# Display Scoreboards
+scoreboard objectives add bacaped_advancements dummy {"translate":"ED Advancements","color":"white"}
+scoreboard objectives add bacaped_all_advancements dummy {"translate":"All ED Advancements","color":"white"}
+scoreboard objectives add bacaped_advancements_only_hiddens dummy {"translate":"Hidden ED Advancements","color":"white"}
+scoreboard objectives modify bacaped_advancements numberformat styled {"color":"green"}
+scoreboard objectives modify bacaped_all_advancements numberformat styled {"color":"green"}
+scoreboard objectives modify bacaped_advancements_only_hiddens numberformat styled {"color":"green"}
+# For eq. check in advancement_made_macro
+scoreboard objectives add bacaped_is_hidden dummy
+scoreboard players set hidden bacaped_is_hidden 1
 
 # Triggers
 scoreboard objectives add bacaped_mob_universe trigger

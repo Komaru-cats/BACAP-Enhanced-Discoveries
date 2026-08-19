@@ -50,18 +50,22 @@ execute as @a[gamemode=!spectator,advancements={bacaped:challenges/mounted_menac
 function bacaped:cookie_eater/reset
 
 # Advanced Horse Transport
-scoreboard players set @a[gamemode=!spectator, advancements={bacaped:animal/advanced_horse_transport=false}] bacaped_leashed_horses 0
+scoreboard players set @a[gamemode=!spectator, advancements={bacaped:biomes/advanced_horse_transport=false}] bacaped_leashed_horses 0
 execute as @e[type=horse] on leasher run scoreboard players add @s bacaped_leashed_horses 1
-execute as @a[gamemode=!spectator, advancements={bacaped:animal/advanced_horse_transport=false}, scores={bacaped_leashed_horses=3..}] at @s if biome ~ ~ ~ #minecraft:is_ocean if predicate bacaped:has_dolphins_grace run advancement grant @s only bacaped:animal/advanced_horse_transport
+execute as @a[gamemode=!spectator, advancements={bacaped:biomes/advanced_horse_transport=false}, scores={bacaped_leashed_horses=3..}] at @s if biome ~ ~ ~ #minecraft:is_ocean if predicate bacaped:has_dolphins_grace run advancement grant @s only bacaped:biomes/advanced_horse_transport
 
 # Day count is increased by 1 at each sunrise
-execute if score time bac_current_time matches 0..200 run function bacaped:increase_day
+execute store result score #bacaped_game_day bacaped_current_day run time query day repetition
+execute unless score #bacaped_saved_day bacaped_current_day = #bacaped_game_day bacaped_current_day run function bacaped:increase_day
+execute unless score #bacaped_saved_day bacaped_current_day = #bacaped_game_day bacaped_current_day run scoreboard players operation #bacaped_saved_day bacaped_current_day = #bacaped_game_day bacaped_current_day
 
-# Fix empty scoreboard `bacaped_ignite_tnt`, `bacaped_totems_used`, `bacaped_cookie_eaten_today`
+# Fix empty scoreboard `bacaped_ignite_tnt`, `bacaped_totems_used`, `bacaped_cookie_eaten_today`, etc
 execute as @a unless score @s bacaped_ignite_tnt matches 1.. run scoreboard players add @s bacaped_ignite_tnt 0
 execute as @a unless score @s bacaped_totems_used matches 1.. run scoreboard players add @s bacaped_totems_used 0
 execute as @a unless score @s bacaped_cookies_eaten_today matches 1.. run scoreboard players add @s bacaped_cookies_eaten_today 0
 execute as @a unless score @s bacaped_egapple_days matches 1.. run scoreboard players add @s bacaped_egapple_days 0
+execute as @a unless score @s bacaped_ominous_vault_hunter_count matches 1.. run scoreboard players add @s bacaped_cookies_eaten_today 0
+
 
 # Workstations statistics
 execute as @a run scoreboard players set @s bacaped_villager_profession_blocks_mined 0
