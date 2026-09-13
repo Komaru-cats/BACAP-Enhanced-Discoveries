@@ -22,18 +22,18 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
-          "stepping_on": {
-            "block": {
-              "blocks": [
-                "minecraft:chiseled_quartz_block"
-              ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "stepping_on": {
+              "block": {
+                "blocks": "minecraft:chiseled_quartz_block"
+              }
             }
           }
         },
         "item": {
-          "items": [
-            "minecraft:spyglass"
-          ]
+          "items": "minecraft:spyglass"
         }
       }
     }

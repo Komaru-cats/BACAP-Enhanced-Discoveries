@@ -18,11 +18,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "dimension": "minecraft:overworld"
-          },
-          "vehicle": {
-            "entity_type": "#blazeandcave:all_boats"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "dimension": "minecraft:overworld"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "#blazeandcave:all_boats"
+            }
           }
         }
       }
@@ -31,11 +35,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "dimension": "minecraft:the_nether"
-          },
-          "vehicle": {
-            "entity_type": "#blazeandcave:all_boats"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "dimension": "minecraft:the_nether"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "#blazeandcave:all_boats"
+            }
           }
         }
       }
@@ -44,11 +52,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "dimension": "minecraft:the_end"
-          },
-          "vehicle": {
-            "entity_type": "#blazeandcave:all_boats"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "dimension": "minecraft:the_end"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "#blazeandcave:all_boats"
+            }
           }
         }
       }

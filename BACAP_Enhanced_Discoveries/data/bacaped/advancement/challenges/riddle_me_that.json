@@ -1,10 +1,8 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:filled_map",
-      "components": {
-        "minecraft:map_color": 13187899
-      }
+      "id": "minecraft:buried_treasure_map",
+      "components": {}
     },
     "title": {
       "translate": "Riddle Me That",
@@ -93,9 +91,13 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:technical/riddle/line_one": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:technical/riddle/line_one": true
+              }
             }
           }
         }
@@ -105,9 +107,13 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:technical/riddle/line_two": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:technical/riddle/line_two": true
+              }
             }
           }
         }
@@ -117,9 +123,13 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:technical/riddle/line_three": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:technical/riddle/line_three": true
+              }
             }
           }
         }
@@ -129,9 +139,13 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:technical/riddle/line_four": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:technical/riddle/line_four": true
+              }
             }
           }
         }
@@ -141,9 +155,13 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:technical/riddle/line_five": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:technical/riddle/line_five": true
+              }
             }
           }
         }
@@ -153,9 +171,13 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:technical/riddle/line_six": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:technical/riddle/line_six": true
+              }
             }
           }
         }
@@ -165,9 +187,13 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:technical/riddle/line_seven": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:technical/riddle/line_seven": true
+              }
             }
           }
         }
@@ -177,9 +203,13 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:technical/riddle/line_eight": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:technical/riddle/line_eight": true
+              }
             }
           }
         }
@@ -189,9 +219,13 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:technical/riddle/line_nine": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:technical/riddle/line_nine": true
+              }
             }
           }
         }
@@ -201,9 +235,13 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:technical/riddle/line_ten": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:technical/riddle/line_ten": true
+              }
             }
           }
         }

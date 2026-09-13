@@ -20,12 +20,16 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "effects": {
-            "minecraft:weaving": {},
-            "minecraft:infested": {},
-            "minecraft:oozing": {},
-            "minecraft:wind_charged": {},
-            "minecraft:trial_omen": {}
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "minecraft:weaving": {},
+              "minecraft:infested": {},
+              "minecraft:oozing": {},
+              "minecraft:wind_charged": {},
+              "minecraft:trial_omen": {}
+            }
           }
         }
       }

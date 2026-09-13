@@ -19,26 +19,30 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "location": {
-            "fluid": {
-              "fluids": "#minecraft:lava"
-            }
-          },
-          "equipment": {
-            "head": {
-              "items": [
-                "minecraft:dragon_head"
-              ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "fluid": {
+                "fluids": "#minecraft:lava"
+              }
             },
-            "chest": {
-              "items": [
-                "minecraft:elytra"
-              ]
+            "equipment": {
+              "head": {
+                "items": "minecraft:dragon_head"
+              },
+              "chest": {
+                "items": "minecraft:elytra"
+              }
             }
           }
         },
         "entity": {
-          "entity_type": "minecraft:wither"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:wither"
+          }
         }
       }
     }

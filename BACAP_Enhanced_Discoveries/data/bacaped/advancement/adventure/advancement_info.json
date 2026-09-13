@@ -23,38 +23,42 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "stepping_on": {
-            "block": {
-              "blocks": [
-                "minecraft:cobblestone_stairs"
-              ]
-            }
-          },
-          "equipment": {
-            "mainhand": {
-              "items": [
-                "minecraft:diamond_sword"
-              ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "stepping_on": {
+              "block": {
+                "blocks": [
+                  "minecraft:cobblestone_stairs"
+                ]
+              }
             },
-            "head": {
-              "items": [
-                "minecraft:diamond_helmet"
-              ]
-            },
-            "chest": {
-              "items": [
-                "minecraft:diamond_chestplate"
-              ]
-            },
-            "legs": {
-              "items": [
-                "minecraft:diamond_leggings"
-              ]
-            },
-            "feet": {
-              "items": [
-                "minecraft:diamond_boots"
-              ]
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:diamond_sword"
+                ]
+              },
+              "head": {
+                "items": [
+                  "minecraft:diamond_helmet"
+                ]
+              },
+              "chest": {
+                "items": [
+                  "minecraft:diamond_chestplate"
+                ]
+              },
+              "legs": {
+                "items": [
+                  "minecraft:diamond_leggings"
+                ]
+              },
+              "feet": {
+                "items": [
+                  "minecraft:diamond_boots"
+                ]
+              }
             }
           }
         }

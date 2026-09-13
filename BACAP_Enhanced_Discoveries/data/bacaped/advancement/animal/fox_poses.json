@@ -35,10 +35,14 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "looking_at": {
-              "entity_type": "minecraft:fox",
-              "nbt": "{Crouching:1b}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "looking_at": {
+                "entity_type": "minecraft:fox",
+                "minecraft:nbt": "{Crouching:1b}"
+              }
             }
           }
         },
@@ -51,10 +55,14 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "looking_at": {
-              "entity_type": "minecraft:fox",
-              "nbt": "{Sitting:1b}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "looking_at": {
+                "entity_type": "minecraft:fox",
+                "minecraft:nbt": "{Sitting:1b}"
+              }
             }
           }
         },
@@ -67,10 +75,14 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "looking_at": {
-              "entity_type": "minecraft:fox",
-              "nbt": "{Sleeping:1b}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "looking_at": {
+                "entity_type": "minecraft:fox",
+                "minecraft:nbt": "{Sleeping:1b}"
+              }
             }
           }
         },

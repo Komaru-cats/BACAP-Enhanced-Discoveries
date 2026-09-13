@@ -34,12 +34,14 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "stepping_on": {
-            "block": {
-              "blocks": [
-                "minecraft:barrel"
-              ],
-              "nbt": "{Items: [{count: 64, Slot: 0b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 1b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 2b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 3b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 4b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 5b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 6b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 7b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 8b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 9b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 10b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 11b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 12b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 13b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 14b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 15b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 16b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 17b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 18b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 19b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 20b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 21b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 22b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 23b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 24b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 25b, id: \"minecraft:gunpowder\"}, {count: 64, Slot: 26b, id: \"minecraft:gunpowder\"}]}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "stepping_on": {
+              "block": {
+                "blocks": "minecraft:barrel",
+                "minecraft:nbt": "{Items:[{Slot:0b,count:64,id:\"minecraft:gunpowder\"},{Slot:1b,count:64,id:\"minecraft:gunpowder\"},{Slot:2b,count:64,id:\"minecraft:gunpowder\"},{Slot:3b,count:64,id:\"minecraft:gunpowder\"},{Slot:4b,count:64,id:\"minecraft:gunpowder\"},{Slot:5b,count:64,id:\"minecraft:gunpowder\"},{Slot:6b,count:64,id:\"minecraft:gunpowder\"},{Slot:7b,count:64,id:\"minecraft:gunpowder\"},{Slot:8b,count:64,id:\"minecraft:gunpowder\"},{Slot:9b,count:64,id:\"minecraft:gunpowder\"},{Slot:10b,count:64,id:\"minecraft:gunpowder\"},{Slot:11b,count:64,id:\"minecraft:gunpowder\"},{Slot:12b,count:64,id:\"minecraft:gunpowder\"},{Slot:13b,count:64,id:\"minecraft:gunpowder\"},{Slot:14b,count:64,id:\"minecraft:gunpowder\"},{Slot:15b,count:64,id:\"minecraft:gunpowder\"},{Slot:16b,count:64,id:\"minecraft:gunpowder\"},{Slot:17b,count:64,id:\"minecraft:gunpowder\"},{Slot:18b,count:64,id:\"minecraft:gunpowder\"},{Slot:19b,count:64,id:\"minecraft:gunpowder\"},{Slot:20b,count:64,id:\"minecraft:gunpowder\"},{Slot:21b,count:64,id:\"minecraft:gunpowder\"},{Slot:22b,count:64,id:\"minecraft:gunpowder\"},{Slot:23b,count:64,id:\"minecraft:gunpowder\"},{Slot:24b,count:64,id:\"minecraft:gunpowder\"},{Slot:25b,count:64,id:\"minecraft:gunpowder\"},{Slot:26b,count:64,id:\"minecraft:gunpowder\"}]}"
+              }
             }
           }
         }

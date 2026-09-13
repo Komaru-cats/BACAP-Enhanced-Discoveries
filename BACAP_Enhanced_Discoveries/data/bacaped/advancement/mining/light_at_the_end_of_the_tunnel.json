@@ -19,26 +19,21 @@
       "trigger": "minecraft:placed_block",
       "conditions": {
         "player": {
-          "location": {
-            "light": {
-              "light": 0
-            }
-          },
-          "equipment": {
-            "mainhand": {
-              "items": [
-                "minecraft:lantern"
-              ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "light": {
+                "light": 0
+              }
+            },
+            "equipment": {
+              "mainhand": {
+                "items": "minecraft:lantern"
+              }
             }
           }
-        },
-        "location": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {}
-          }
-        ]
+        }
       }
     }
   },

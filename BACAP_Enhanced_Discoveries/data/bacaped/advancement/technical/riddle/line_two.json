@@ -3,31 +3,34 @@
     "trigger": {
       "trigger": "minecraft:tick",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:location_check",
-            "offsetY": -1,
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:powder_snow_cauldron"
-              }
-            }
-          },
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:type_specific/player": {
-                "advancements": {
-                  "bacaped:technical/riddle/line_one": true
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:powder_snow_cauldron"
                 }
-              },
-              "flags": {
-                "is_on_fire": true
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "advancements": {
+                    "bacaped:technical/riddle/line_one": true
+                  }
+                },
+                "flags": {
+                  "is_on_fire": true
+                }
               }
             }
-          }
-        ]
+          ]
+        }
       }
     }
   },

@@ -1,9 +1,9 @@
 {
-  "condition": "minecraft:entity_properties",
+  "type": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "vehicle": {
-      "entity_type": [
+    "minecraft:vehicle": {
+      "minecraft:entity_type": [
         "minecraft:acacia_boat",
         "minecraft:acacia_chest_boat",
         "minecraft:birch_boat",
@@ -23,9 +23,7 @@
         "minecraft:pale_oak_boat",
         "minecraft:pale_oak_chest_boat",
         "minecraft:bamboo_raft",
-        "minecraft:bamboo_chest_raft",
-        "minecraft:pale_oak_boat",
-        "minecraft:pale_oak_chest_boat"
+        "minecraft:bamboo_chest_raft"
       ]
     }
   }

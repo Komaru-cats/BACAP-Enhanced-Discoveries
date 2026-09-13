@@ -34,253 +34,325 @@
     "grass_block": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:block_state_property",
-            "block": "minecraft:sugar_cane",
-            "properties": {}
-          },
-          {
-            "condition": "minecraft:location_check",
-            "offsetY": -1,
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:grass_block"
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:sugar_cane"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:grass_block"
+                }
               }
             }
-          }
-        ]
+          ]
+        }
       }
     },
     "pale_moss_block": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:block_state_property",
-            "block": "minecraft:sugar_cane",
-            "properties": {}
-          },
-          {
-            "condition": "minecraft:location_check",
-            "offsetY": -1,
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:pale_moss_block"
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:sugar_cane"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:pale_moss_block"
+                }
               }
             }
-          }
-        ]
+          ]
+        }
       }
     },
     "dirt": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:block_state_property",
-            "block": "minecraft:sugar_cane",
-            "properties": {}
-          },
-          {
-            "condition": "minecraft:location_check",
-            "offsetY": -1,
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:dirt"
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:sugar_cane"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:dirt"
+                }
               }
             }
-          }
-        ]
+          ]
+        }
       }
     },
     "coarse_dirt": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:block_state_property",
-            "block": "minecraft:sugar_cane",
-            "properties": {}
-          },
-          {
-            "condition": "minecraft:location_check",
-            "offsetY": -1,
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:coarse_dirt"
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:sugar_cane"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:coarse_dirt"
+                }
               }
             }
-          }
-        ]
+          ]
+        }
       }
     },
     "rooted_dirt": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:block_state_property",
-            "block": "minecraft:sugar_cane",
-            "properties": {}
-          },
-          {
-            "condition": "minecraft:location_check",
-            "offsetY": -1,
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:rooted_dirt"
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:sugar_cane"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:rooted_dirt"
+                }
               }
             }
-          }
-        ]
+          ]
+        }
       }
     },
     "podzol": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:block_state_property",
-            "block": "minecraft:sugar_cane",
-            "properties": {}
-          },
-          {
-            "condition": "minecraft:location_check",
-            "offsetY": -1,
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:podzol"
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:sugar_cane"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:podzol"
+                }
               }
             }
-          }
-        ]
+          ]
+        }
       }
     },
     "mycelium": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:block_state_property",
-            "block": "minecraft:sugar_cane",
-            "properties": {}
-          },
-          {
-            "condition": "minecraft:location_check",
-            "offsetY": -1,
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:mycelium"
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:sugar_cane"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:mycelium"
+                }
               }
             }
-          }
-        ]
+          ]
+        }
       }
     },
     "sand": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:block_state_property",
-            "block": "minecraft:sugar_cane",
-            "properties": {}
-          },
-          {
-            "condition": "minecraft:location_check",
-            "offsetY": -1,
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:sand"
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:sugar_cane"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:sand"
+                }
               }
             }
-          }
-        ]
+          ]
+        }
       }
     },
     "red_sand": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:block_state_property",
-            "block": "minecraft:sugar_cane",
-            "properties": {}
-          },
-          {
-            "condition": "minecraft:location_check",
-            "offsetY": -1,
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:red_sand"
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:sugar_cane"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:red_sand"
+                }
               }
             }
-          }
-        ]
+          ]
+        }
       }
     },
     "suspicious_sand": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:block_state_property",
-            "block": "minecraft:sugar_cane",
-            "properties": {}
-          },
-          {
-            "condition": "minecraft:location_check",
-            "offsetY": -1,
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:suspicious_sand"
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:sugar_cane"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:suspicious_sand"
+                }
               }
             }
-          }
-        ]
+          ]
+        }
       }
     },
     "moss_block": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:block_state_property",
-            "block": "minecraft:sugar_cane",
-            "properties": {}
-          },
-          {
-            "condition": "minecraft:location_check",
-            "offsetY": -1,
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:moss_block"
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:sugar_cane"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:moss_block"
+                }
               }
             }
-          }
-        ]
+          ]
+        }
       }
     },
     "mud": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:block_state_property",
-            "block": "minecraft:sugar_cane",
-            "properties": {}
-          },
-          {
-            "condition": "minecraft:location_check",
-            "offsetY": -1,
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:mud"
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:sugar_cane"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:mud"
+                }
               }
             }
-          }
-        ]
+          ]
+        }
       }
     }
   },

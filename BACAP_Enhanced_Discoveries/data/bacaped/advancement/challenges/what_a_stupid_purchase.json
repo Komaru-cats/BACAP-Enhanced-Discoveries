@@ -23,8 +23,12 @@
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "villager": {
-          "location": {
-            "biomes": "minecraft:dripstone_caves"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:dripstone_caves"
+            }
           }
         },
         "item": {
@@ -36,8 +40,12 @@
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "villager": {
-          "minecraft:location": {
-            "biomes": "minecraft:sulfur_caves"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:sulfur_caves"
+            }
           }
         },
         "item": {

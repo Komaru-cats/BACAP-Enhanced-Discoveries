@@ -35,21 +35,29 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "nbt": "{Inventory:[]}",
-          "location": {
-            "position": {
-              "y": {
-                "min": 500
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Inventory:[]}",
+            "location": {
+              "position": {
+                "y": {
+                  "min": 500
+                }
               }
             }
           }
         },
         "entity": {
-          "entity_type": "minecraft:warden",
-          "location": {
-            "position": {
-              "y": {
-                "min": 500
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:warden",
+            "location": {
+              "position": {
+                "y": {
+                  "min": 500
+                }
               }
             }
           }

@@ -497,6 +497,71 @@
           }
         ]
       }
+    },
+    "poplar_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poplar_log",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+    "red_poplar_leaves": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:red_poplar_leaves",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+    "orange_poplar_leaves": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:orange_poplar_leaves",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+    "yellow_poplar_leaves": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:yellow_poplar_leaves",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    },
+    "poplar_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poplar_sapling",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
     }
   },
   "rewards": {

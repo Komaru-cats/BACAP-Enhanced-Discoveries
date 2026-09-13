@@ -21,7 +21,11 @@
           "items": "minecraft:wooden_sword"
         },
         "entity": {
-          "entity_type": "minecraft:allay"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:allay"
+          }
         }
       }
     },
@@ -32,7 +36,11 @@
           "items": "minecraft:stone_sword"
         },
         "entity": {
-          "entity_type": "minecraft:allay"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:allay"
+          }
         }
       }
     },
@@ -43,7 +51,11 @@
           "items": "minecraft:copper_sword"
         },
         "entity": {
-          "entity_type": "minecraft:allay"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:allay"
+          }
         }
       }
     },
@@ -54,7 +66,11 @@
           "items": "minecraft:iron_sword"
         },
         "entity": {
-          "entity_type": "minecraft:allay"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:allay"
+          }
         }
       }
     },
@@ -65,7 +81,11 @@
           "items": "minecraft:golden_sword"
         },
         "entity": {
-          "entity_type": "minecraft:allay"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:allay"
+          }
         }
       }
     },
@@ -76,7 +96,11 @@
           "items": "minecraft:diamond_sword"
         },
         "entity": {
-          "entity_type": "minecraft:allay"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:allay"
+          }
         }
       }
     },
@@ -87,7 +111,11 @@
           "items": "minecraft:netherite_sword"
         },
         "entity": {
-          "entity_type": "minecraft:allay"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:allay"
+          }
         }
       }
     },
@@ -98,7 +126,11 @@
           "items": "minecraft:wooden_spear"
         },
         "entity": {
-          "entity_type": "minecraft:allay"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:allay"
+          }
         }
       }
     },
@@ -109,7 +141,11 @@
           "items": "minecraft:stone_spear"
         },
         "entity": {
-          "entity_type": "minecraft:allay"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:allay"
+          }
         }
       }
     },
@@ -120,7 +156,11 @@
           "items": "minecraft:copper_spear"
         },
         "entity": {
-          "entity_type": "minecraft:allay"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:allay"
+          }
         }
       }
     },
@@ -131,7 +171,11 @@
           "items": "minecraft:iron_spear"
         },
         "entity": {
-          "entity_type": "minecraft:allay"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:allay"
+          }
         }
       }
     },
@@ -142,7 +186,11 @@
           "items": "minecraft:golden_spear"
         },
         "entity": {
-          "entity_type": "minecraft:allay"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:allay"
+          }
         }
       }
     },
@@ -153,7 +201,11 @@
           "items": "minecraft:diamond_spear"
         },
         "entity": {
-          "entity_type": "minecraft:allay"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:allay"
+          }
         }
       }
     },
@@ -164,7 +216,11 @@
           "items": "minecraft:netherite_spear"
         },
         "entity": {
-          "entity_type": "minecraft:allay"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:allay"
+          }
         }
       }
     },
@@ -175,7 +231,11 @@
           "items": "minecraft:wooden_axe"
         },
         "entity": {
-          "entity_type": "minecraft:allay"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:allay"
+          }
         }
       }
     },
@@ -186,7 +246,11 @@
           "items": "minecraft:stone_axe"
         },
         "entity": {
-          "entity_type": "minecraft:allay"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:allay"
+          }
         }
       }
     },
@@ -197,7 +261,11 @@
           "items": "minecraft:copper_axe"
         },
         "entity": {
-          "entity_type": "minecraft:allay"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:allay"
+          }
         }
       }
     },
@@ -208,7 +276,11 @@
           "items": "minecraft:iron_axe"
         },
         "entity": {
-          "entity_type": "minecraft:allay"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:allay"
+          }
         }
       }
     },
@@ -219,7 +291,11 @@
           "items": "minecraft:golden_axe"
         },
         "entity": {
-          "entity_type": "minecraft:allay"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:allay"
+          }
         }
       }
     },
@@ -230,7 +306,11 @@
           "items": "minecraft:diamond_axe"
         },
         "entity": {
-          "entity_type": "minecraft:allay"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:allay"
+          }
         }
       }
     },
@@ -241,7 +321,11 @@
           "items": "minecraft:netherite_axe"
         },
         "entity": {
-          "entity_type": "minecraft:allay"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:allay"
+          }
         }
       }
     },
@@ -252,7 +336,11 @@
           "items": "minecraft:bow"
         },
         "entity": {
-          "entity_type": "minecraft:allay"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:allay"
+          }
         }
       }
     },
@@ -263,7 +351,11 @@
           "items": "minecraft:crossbow"
         },
         "entity": {
-          "entity_type": "minecraft:allay"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:allay"
+          }
         }
       }
     },
@@ -274,7 +366,11 @@
           "items": "minecraft:mace"
         },
         "entity": {
-          "entity_type": "minecraft:allay"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:allay"
+          }
         }
       }
     },
@@ -285,7 +381,11 @@
           "items": "minecraft:trident"
         },
         "entity": {
-          "entity_type": "minecraft:allay"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:allay"
+          }
         }
       }
     }

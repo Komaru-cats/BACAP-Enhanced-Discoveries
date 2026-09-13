@@ -22,10 +22,14 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "slots": {
-            "container.*": {
-              "items": "minecraft:recovery_compass",
-              "count": 64
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "container.*": {
+                "items": "minecraft:recovery_compass",
+                "count": 64
+              }
             }
           }
         }

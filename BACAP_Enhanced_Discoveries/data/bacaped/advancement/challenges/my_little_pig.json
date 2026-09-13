@@ -35,15 +35,19 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "position": {
-              "y": {
-                "min": 10000
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "position": {
+                "y": {
+                  "min": 10000
+                }
               }
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:pig"
             }
-          },
-          "vehicle": {
-            "entity_type": "minecraft:pig"
           }
         }
       }

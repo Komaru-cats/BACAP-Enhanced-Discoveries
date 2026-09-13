@@ -35,26 +35,26 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "looking_at": {
-              "entity_type": "minecraft:turtle",
-              "location": {
-                "block": {
-                  "blocks": [
-                    "minecraft:snow"
-                  ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "looking_at": {
+                "entity_type": "minecraft:turtle",
+                "location": {
+                  "block": {
+                    "blocks": "minecraft:snow"
+                  }
+                },
+                "flags": {
+                  "is_baby": true
                 }
-              },
-              "flags": {
-                "is_baby": true
               }
             }
           }
         },
         "item": {
-          "items": [
-            "minecraft:spyglass"
-          ]
+          "items": "minecraft:spyglass"
         }
       }
     }

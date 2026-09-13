@@ -160,7 +160,6 @@ execute as @a[advancements={bacaped:challenges/sandwich=true}] run scoreboard pl
 execute as @a[advancements={bacaped:challenges/shield_of_achilles=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:challenges/shopaholic=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:challenges/show_the_nether_to_a_silverfish=true}] run scoreboard players add @s bac_advancements 1
-execute as @a[advancements={bacaped:challenges/silence_is_loud_here=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:challenges/so_bright=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:challenges/star_fisherman=true}] run scoreboard players add @s bac_advancements 1
 execute as @a[advancements={bacaped:challenges/the_apocalyptic_decalogy=true}] run scoreboard players add @s bac_advancements 1

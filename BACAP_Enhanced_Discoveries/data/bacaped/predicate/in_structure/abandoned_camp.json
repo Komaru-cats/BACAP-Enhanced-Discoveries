@@ -1,6 +1,6 @@
 {
   "type": "minecraft:location_check",
   "predicate": {
-    "structures": "minecraft:jungle_pyramid"
+    "structures": "#minecraft:abandoned_camp"
   }
 }

@@ -20,13 +20,17 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "looking_at": {
-              "entity_type": "minecraft:cat",
-              "nbt": "{Sitting: 1b}",
-              "stepping_on": {
-                "block": {
-                  "blocks": "minecraft:chest"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "looking_at": {
+                "minecraft:entity_type": "minecraft:cat",
+                "minecraft:nbt": "{Sitting: 1b}",
+                "stepping_on": {
+                  "block": {
+                    "blocks": "minecraft:chest"
+                  }
                 }
               }
             }

@@ -22,9 +22,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:netherite_sword"
-            ],
+            "items": "minecraft:netherite_sword",
             "predicates": {
               "minecraft:enchantments": [
                 {
@@ -80,9 +78,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:netherite_sword"
-            ],
+            "items": "minecraft:netherite_sword",
             "predicates": {
               "minecraft:enchantments": [
                 {
@@ -138,9 +134,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:netherite_sword"
-            ],
+            "items": "minecraft:netherite_sword",
             "predicates": {
               "minecraft:enchantments": [
                 {
@@ -196,9 +190,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:netherite_pickaxe"
-            ],
+            "items": "minecraft:netherite_pickaxe",
             "predicates": {
               "minecraft:enchantments": [
                 {
@@ -236,9 +228,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:netherite_pickaxe"
-            ],
+            "items": "minecraft:netherite_pickaxe",
             "predicates": {
               "minecraft:enchantments": [
                 {
@@ -276,9 +266,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:netherite_shovel"
-            ],
+            "items": "minecraft:netherite_shovel",
             "predicates": {
               "minecraft:enchantments": [
                 {
@@ -316,9 +304,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:netherite_shovel"
-            ],
+            "items": "minecraft:netherite_shovel",
             "predicates": {
               "minecraft:enchantments": [
                 {
@@ -356,9 +342,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:netherite_hoe"
-            ],
+            "items": "minecraft:netherite_hoe",
             "predicates": {
               "minecraft:enchantments": [
                 {
@@ -396,9 +380,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:netherite_hoe"
-            ],
+            "items": "minecraft:netherite_hoe",
             "predicates": {
               "minecraft:enchantments": [
                 {
@@ -436,9 +418,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:netherite_axe"
-            ],
+            "items": "minecraft:netherite_axe",
             "predicates": {
               "minecraft:enchantments": [
                 {
@@ -482,9 +462,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:netherite_axe"
-            ],
+            "items": "minecraft:netherite_axe",
             "predicates": {
               "minecraft:enchantments": [
                 {
@@ -528,9 +506,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:netherite_axe"
-            ],
+            "items": "minecraft:netherite_axe",
             "predicates": {
               "minecraft:enchantments": [
                 {
@@ -574,9 +550,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:netherite_axe"
-            ],
+            "items": "minecraft:netherite_axe",
             "predicates": {
               "minecraft:enchantments": [
                 {
@@ -620,9 +594,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:netherite_axe"
-            ],
+            "items": "minecraft:netherite_axe",
             "predicates": {
               "minecraft:enchantments": [
                 {
@@ -666,9 +638,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:netherite_axe"
-            ],
+            "items": "minecraft:netherite_axe",
             "predicates": {
               "minecraft:enchantments": [
                 {
@@ -712,9 +682,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:netherite_spear"
-            ],
+            "items": "minecraft:netherite_spear",
             "predicates": {
               "minecraft:enchantments": [
                 {
@@ -770,9 +738,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:netherite_spear"
-            ],
+            "items": "minecraft:netherite_spear",
             "predicates": {
               "minecraft:enchantments": [
                 {
@@ -828,9 +794,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:netherite_spear"
-            ],
+            "items": "minecraft:netherite_spear",
             "predicates": {
               "minecraft:enchantments": [
                 {

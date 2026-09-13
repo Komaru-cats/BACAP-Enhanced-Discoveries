@@ -21,373 +21,373 @@
     "activator_rail": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:activator_rail"
+        "recipes": "minecraft:activator_rail"
       }
     },
     "redstone_torch": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:redstone_torch"
+        "recipes": "minecraft:redstone_torch"
       }
     },
     "redstone": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:redstone"
+        "recipes": "minecraft:redstone"
       }
     },
     "redstone_block": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:redstone_block"
+        "recipes": "minecraft:redstone_block"
       }
     },
     "repeater": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:repeater"
+        "recipes": "minecraft:repeater"
       }
     },
     "comparator": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:comparator"
+        "recipes": "minecraft:comparator"
       }
     },
     "target": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:target"
+        "recipes": "minecraft:target"
       }
     },
     "lever": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:lever"
+        "recipes": "minecraft:lever"
       }
     },
     "oak_button": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:oak_button"
+        "recipes": "minecraft:oak_button"
       }
     },
     "stone_button": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:stone_button"
+        "recipes": "minecraft:stone_button"
       }
     },
     "oak_pressure_plate": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:oak_pressure_plate"
+        "recipes": "minecraft:oak_pressure_plate"
       }
     },
     "stone_pressure_plate": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:stone_pressure_plate"
+        "recipes": "minecraft:stone_pressure_plate"
       }
     },
     "light_weighted_pressure_plate": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:light_weighted_pressure_plate"
+        "recipes": "minecraft:light_weighted_pressure_plate"
       }
     },
     "heavy_weighted_pressure_plate": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:heavy_weighted_pressure_plate"
+        "recipes": "minecraft:heavy_weighted_pressure_plate"
       }
     },
     "calibrated_sculk_sensor": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:calibrated_sculk_sensor"
+        "recipes": "minecraft:calibrated_sculk_sensor"
       }
     },
     "amethyst_block": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:amethyst_block"
+        "recipes": "minecraft:amethyst_block"
       }
     },
     "dye_white_wool": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:dye_white_wool"
+        "recipes": "minecraft:dye_white_wool"
       }
     },
     "white_wool_from_string": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:white_wool_from_string"
+        "recipes": "minecraft:white_wool_from_string"
       }
     },
     "tripwire_hook": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:tripwire_hook"
+        "recipes": "minecraft:tripwire_hook"
       }
     },
     "lectern": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:lectern"
+        "recipes": "minecraft:lectern"
       }
     },
     "daylight_detector": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:daylight_detector"
+        "recipes": "minecraft:daylight_detector"
       }
     },
     "lightning_rod": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:lightning_rod"
+        "recipes": "minecraft:lightning_rod"
       }
     },
     "piston": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:piston"
+        "recipes": "minecraft:piston"
       }
     },
     "sticky_piston": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:sticky_piston"
+        "recipes": "minecraft:sticky_piston"
       }
     },
     "slime_block": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:slime_block"
+        "recipes": "minecraft:slime_block"
       }
     },
     "honey_block": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:honey_block"
+        "recipes": "minecraft:honey_block"
       }
     },
     "dispenser": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:dispenser"
+        "recipes": "minecraft:dispenser"
       }
     },
     "hopper": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:hopper"
+        "recipes": "minecraft:hopper"
       }
     },
     "dropper": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:dropper"
+        "recipes": "minecraft:dropper"
       }
     },
     "chest": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:chest"
+        "recipes": "minecraft:chest"
       }
     },
     "barrel": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:barrel"
+        "recipes": "minecraft:barrel"
       }
     },
     "chiseled_bookshelf": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:chiseled_bookshelf"
+        "recipes": "minecraft:chiseled_bookshelf"
       }
     },
     "furnace": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:furnace"
+        "recipes": "minecraft:furnace"
       }
     },
     "trapped_chest": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:trapped_chest"
+        "recipes": "minecraft:trapped_chest"
       }
     },
     "observer": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:observer"
+        "recipes": "minecraft:observer"
       }
     },
     "jukebox": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:jukebox"
+        "recipes": "minecraft:jukebox"
       }
     },
     "note_block": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:note_block"
+        "recipes": "minecraft:note_block"
       }
     },
     "composter": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:composter"
+        "recipes": "minecraft:composter"
       }
     },
     "rail": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:rail"
+        "recipes": "minecraft:rail"
       }
     },
     "powered_rail": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:powered_rail"
+        "recipes": "minecraft:powered_rail"
       }
     },
     "detector_rail": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:detector_rail"
+        "recipes": "minecraft:detector_rail"
       }
     },
     "minecart": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:minecart"
+        "recipes": "minecraft:minecart"
       }
     },
     "hopper_minecart": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:hopper_minecart"
+        "recipes": "minecraft:hopper_minecart"
       }
     },
     "chest_minecart": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:chest_minecart"
+        "recipes": "minecraft:chest_minecart"
       }
     },
     "furnace_minecart": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:furnace_minecart"
+        "recipes": "minecraft:furnace_minecart"
       }
     },
     "tnt_minecart": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:tnt_minecart"
+        "recipes": "minecraft:tnt_minecart"
       }
     },
     "oak_chest_boat": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:oak_chest_boat"
+        "recipes": "minecraft:oak_chest_boat"
       }
     },
     "bamboo_chest_raft": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:bamboo_chest_raft"
+        "recipes": "minecraft:bamboo_chest_raft"
       }
     },
     "oak_door": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:oak_door"
+        "recipes": "minecraft:oak_door"
       }
     },
     "iron_door": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:iron_door"
+        "recipes": "minecraft:iron_door"
       }
     },
     "oak_fence_gate": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:oak_fence_gate"
+        "recipes": "minecraft:oak_fence_gate"
       }
     },
     "oak_trapdoor": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:oak_trapdoor"
+        "recipes": "minecraft:oak_trapdoor"
       }
     },
     "iron_trapdoor": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:iron_trapdoor"
+        "recipes": "minecraft:iron_trapdoor"
       }
     },
     "tnt": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:tnt"
+        "recipes": "minecraft:tnt"
       }
     },
     "redstone_lamp": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:redstone_lamp"
+        "recipes": "minecraft:redstone_lamp"
       }
     },
     "armor_stand": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:armor_stand"
+        "recipes": "minecraft:armor_stand"
       }
     },
     "decorated_pot": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:decorated_pot"
+        "recipes": "minecraft:decorated_pot"
       }
     },
     "decorated_pot_simple": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:decorated_pot_simple"
+        "recipes": "minecraft:decorated_pot_simple"
       }
     },
     "copper_bulb": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:copper_bulb"
+        "recipes": "minecraft:copper_bulb"
       }
     },
     "crafter": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:crafter"
+        "recipes": "minecraft:crafter"
       }
     },
     "copper_chest": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:copper_chest"
+        "recipes": "minecraft:copper_chest"
       }
     },
     "oak_shelf": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:oak_shelf"
+        "recipes": "minecraft:oak_shelf"
       }
     }
   },

@@ -20,13 +20,17 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "position": {
-              "y": {
-                "max": -64
-              }
-            },
-            "dimension": "minecraft:overworld"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "position": {
+                "y": {
+                  "max": -64
+                }
+              },
+              "dimension": "minecraft:overworld"
+            }
           }
         }
       }
@@ -35,13 +39,17 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "position": {
-              "y": {
-                "max": 0
-              }
-            },
-            "dimension": "minecraft:the_nether"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "position": {
+                "y": {
+                  "max": 0
+                }
+              },
+              "dimension": "minecraft:the_nether"
+            }
           }
         }
       }

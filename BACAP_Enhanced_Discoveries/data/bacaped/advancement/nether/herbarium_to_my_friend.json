@@ -19,9 +19,13 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:piglin",
-          "flags": {
-            "is_baby": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin",
+            "flags": {
+              "is_baby": true
+            }
           }
         },
         "item": {
@@ -33,9 +37,13 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:piglin",
-          "flags": {
-            "is_baby": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin",
+            "flags": {
+              "is_baby": true
+            }
           }
         },
         "item": {
@@ -47,9 +55,13 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:piglin",
-          "flags": {
-            "is_baby": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin",
+            "flags": {
+              "is_baby": true
+            }
           }
         },
         "item": {
@@ -61,9 +73,13 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:piglin",
-          "flags": {
-            "is_baby": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin",
+            "flags": {
+              "is_baby": true
+            }
           }
         },
         "item": {
@@ -75,9 +91,13 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:piglin",
-          "flags": {
-            "is_baby": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin",
+            "flags": {
+              "is_baby": true
+            }
           }
         },
         "item": {
@@ -89,9 +109,13 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:piglin",
-          "flags": {
-            "is_baby": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin",
+            "flags": {
+              "is_baby": true
+            }
           }
         },
         "item": {
@@ -103,9 +127,13 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:piglin",
-          "flags": {
-            "is_baby": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin",
+            "flags": {
+              "is_baby": true
+            }
           }
         },
         "item": {
@@ -117,9 +145,13 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:piglin",
-          "flags": {
-            "is_baby": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin",
+            "flags": {
+              "is_baby": true
+            }
           }
         },
         "item": {
@@ -131,9 +163,13 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:piglin",
-          "flags": {
-            "is_baby": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin",
+            "flags": {
+              "is_baby": true
+            }
           }
         },
         "item": {
@@ -145,9 +181,13 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:piglin",
-          "flags": {
-            "is_baby": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin",
+            "flags": {
+              "is_baby": true
+            }
           }
         },
         "item": {
@@ -159,9 +199,13 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:piglin",
-          "flags": {
-            "is_baby": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin",
+            "flags": {
+              "is_baby": true
+            }
           }
         },
         "item": {
@@ -173,9 +217,13 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:piglin",
-          "flags": {
-            "is_baby": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin",
+            "flags": {
+              "is_baby": true
+            }
           }
         },
         "item": {
@@ -187,9 +235,13 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:piglin",
-          "flags": {
-            "is_baby": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin",
+            "flags": {
+              "is_baby": true
+            }
           }
         },
         "item": {
@@ -201,9 +253,13 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:piglin",
-          "flags": {
-            "is_baby": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin",
+            "flags": {
+              "is_baby": true
+            }
           }
         },
         "item": {
@@ -215,9 +271,13 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:piglin",
-          "flags": {
-            "is_baby": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin",
+            "flags": {
+              "is_baby": true
+            }
           }
         },
         "item": {
@@ -229,9 +289,13 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:piglin",
-          "flags": {
-            "is_baby": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin",
+            "flags": {
+              "is_baby": true
+            }
           }
         },
         "item": {
@@ -243,9 +307,13 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:piglin",
-          "flags": {
-            "is_baby": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin",
+            "flags": {
+              "is_baby": true
+            }
           }
         },
         "item": {
@@ -257,9 +325,13 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:piglin",
-          "flags": {
-            "is_baby": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin",
+            "flags": {
+              "is_baby": true
+            }
           }
         },
         "item": {
@@ -271,9 +343,13 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:piglin",
-          "flags": {
-            "is_baby": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin",
+            "flags": {
+              "is_baby": true
+            }
           }
         },
         "item": {
@@ -285,9 +361,13 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:piglin",
-          "flags": {
-            "is_baby": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin",
+            "flags": {
+              "is_baby": true
+            }
           }
         },
         "item": {
@@ -299,9 +379,13 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:piglin",
-          "flags": {
-            "is_baby": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin",
+            "flags": {
+              "is_baby": true
+            }
           }
         },
         "item": {
@@ -313,9 +397,13 @@
       "trigger": "minecraft:thrown_item_picked_up_by_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:piglin",
-          "flags": {
-            "is_baby": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin",
+            "flags": {
+              "is_baby": true
+            }
           }
         },
         "item": {

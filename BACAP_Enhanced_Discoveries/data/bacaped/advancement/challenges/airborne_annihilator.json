@@ -21,15 +21,13 @@
     "killed_dragon_with_wind_charge": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "entity_type": "minecraft:ender_dragon"
-            }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:ender_dragon"
           }
-        ],
+        },
         "killing_blow": {
           "direct_entity": {
             "entity_type": "minecraft:wind_charge"
@@ -40,15 +38,13 @@
     "killed_bat_with_wind_charge": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "entity_type": "minecraft:bat"
-            }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:bat"
           }
-        ],
+        },
         "killing_blow": {
           "direct_entity": {
             "entity_type": "minecraft:wind_charge"
@@ -59,15 +55,13 @@
     "killed_bee_with_wind_charge": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "entity_type": "minecraft:bee"
-            }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:bee"
           }
-        ],
+        },
         "killing_blow": {
           "direct_entity": {
             "entity_type": "minecraft:wind_charge"
@@ -78,15 +72,13 @@
     "killed_blaze_with_wind_charge": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "entity_type": "minecraft:blaze"
-            }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:blaze"
           }
-        ],
+        },
         "killing_blow": {
           "direct_entity": {
             "entity_type": "minecraft:wind_charge"
@@ -97,15 +89,13 @@
     "killed_breeze_with_wind_charge": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "entity_type": "minecraft:breeze"
-            }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:breeze"
           }
-        ],
+        },
         "killing_blow": {
           "direct_entity": {
             "entity_type": "minecraft:wind_charge"
@@ -116,15 +106,13 @@
     "killed_ghast_with_wind_charge": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "entity_type": "minecraft:ghast"
-            }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:ghast"
           }
-        ],
+        },
         "killing_blow": {
           "direct_entity": {
             "entity_type": "minecraft:wind_charge"
@@ -135,15 +123,13 @@
     "killed_happy_ghast_with_wind_charge": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "entity_type": "minecraft:happy_ghast"
-            }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:happy_ghast"
           }
-        ],
+        },
         "killing_blow": {
           "direct_entity": {
             "entity_type": "minecraft:wind_charge"
@@ -154,15 +140,13 @@
     "killed_parrot_with_wind_charge": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "entity_type": "minecraft:parrot"
-            }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:parrot"
           }
-        ],
+        },
         "killing_blow": {
           "direct_entity": {
             "entity_type": "minecraft:wind_charge"
@@ -173,15 +157,13 @@
     "killed_vex_with_wind_charge": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "entity_type": "minecraft:vex"
-            }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:vex"
           }
-        ],
+        },
         "killing_blow": {
           "direct_entity": {
             "entity_type": "minecraft:wind_charge"
@@ -192,15 +174,13 @@
     "killed_phantom_with_wind_charge": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "entity_type": "minecraft:phantom"
-            }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:phantom"
           }
-        ],
+        },
         "killing_blow": {
           "direct_entity": {
             "entity_type": "minecraft:wind_charge"

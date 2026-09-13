@@ -14,5 +14,6 @@ execute if predicate bacaped:in_structure/trail_ruins run scoreboard players add
 execute if predicate bacaped:in_structure/trial_chambers run scoreboard players add @s bacaped_in_struct_summary 1
 execute if predicate bacaped:in_structure/village run scoreboard players add @s bacaped_in_struct_summary 1
 execute if predicate bacaped:in_structure/shipwreck run scoreboard players add @s bacaped_in_struct_summary 1
+execute if predicate bacaped:in_structure/abandoned_camp run scoreboard players add @s bacaped_in_struct_summary 1
 
 execute if score @s bacaped_in_struct_summary matches 2.. run advancement grant @s only bacaped:adventure/dual_reality

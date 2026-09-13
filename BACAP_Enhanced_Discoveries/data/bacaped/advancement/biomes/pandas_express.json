@@ -38,9 +38,13 @@
           "items": "minecraft:lead"
         },
         "entity": {
-          "entity_type": "#minecraft:boat",
-          "passenger": {
-            "entity_type": "minecraft:panda"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "#minecraft:boat",
+            "passenger": {
+              "entity_type": "minecraft:panda"
+            }
           }
         }
       }

@@ -4,13 +4,17 @@
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:technical/riddle/line_two": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:technical/riddle/line_two": true
+              }
             }
           }
         },
-        "recipe_id": "minecraft:decorated_pot",
+        "recipes": "minecraft:decorated_pot",
         "ingredients": [
           {
             "items": "minecraft:burn_pottery_sherd"

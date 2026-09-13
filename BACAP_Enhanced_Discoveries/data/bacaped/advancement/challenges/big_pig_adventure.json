@@ -19,11 +19,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:nether_wastes"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:pig"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:nether_wastes"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:pig"
+            }
           }
         }
       }
@@ -32,11 +36,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:warped_forest"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:pig"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:warped_forest"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:pig"
+            }
           }
         }
       }
@@ -45,11 +53,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:basalt_deltas"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:pig"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:basalt_deltas"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:pig"
+            }
           }
         }
       }
@@ -58,11 +70,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:crimson_forest"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:pig"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:crimson_forest"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:pig"
+            }
           }
         }
       }
@@ -71,11 +87,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:soul_sand_valley"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:pig"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:soul_sand_valley"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:pig"
+            }
           }
         }
       }
@@ -84,11 +104,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "structures": "minecraft:ruined_portal_nether"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:pig"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "minecraft:ruined_portal_nether"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:pig"
+            }
           }
         }
       }
@@ -97,11 +121,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "structures": "minecraft:fortress"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:pig"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "minecraft:fortress"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:pig"
+            }
           }
         }
       }
@@ -110,11 +138,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "structures": "minecraft:bastion_remnant"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:pig"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "minecraft:bastion_remnant"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:pig"
+            }
           }
         }
       }

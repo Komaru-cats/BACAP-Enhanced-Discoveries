@@ -21,38 +21,36 @@
     "trigger": {
       "trigger": "minecraft:tick",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:all_of",
-            "terms": [
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "minecraft:type_specific/player": {
-                    "looking_at": {
-                      "entity_type": [
-                        "minecraft:lingering_potion",
-                        "minecraft:splash_potion"
-                      ]
-                    }
-                  }
-                }
-              },
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "stepping_on": {
-                    "block": {
-                      "blocks": "#bacaped:flower_pots"
-                    }
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "looking_at": {
+                    "entity_type": [
+                      "minecraft:lingering_potion",
+                      "minecraft:splash_potion"
+                    ]
                   }
                 }
               }
-            ]
-          }
-        ]
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "stepping_on": {
+                  "block": {
+                    "blocks": "#bacaped:flower_pots"
+                  }
+                }
+              }
+            }
+          ]
+        }
       }
     }
   },

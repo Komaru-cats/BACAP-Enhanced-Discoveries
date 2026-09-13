@@ -20,7 +20,7 @@
     "golden_carrot": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:golden_carrot",
+        "recipes": "minecraft:golden_carrot",
         "ingredients": [
           {
             "items": "minecraft:gold_nugget"

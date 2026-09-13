@@ -1,8 +1,8 @@
 {
-  "condition": "minecraft:entity_properties",
+  "type": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "vehicle": {
+    "minecraft:vehicle": {
       "entity_type": "minecraft:happy_ghast"
     }
   }

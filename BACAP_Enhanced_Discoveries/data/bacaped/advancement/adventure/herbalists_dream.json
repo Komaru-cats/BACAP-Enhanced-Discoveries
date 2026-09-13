@@ -20,10 +20,14 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "slots": {
-            "container.*": {
-              "items": "minecraft:tall_grass",
-              "count": 64
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "container.*": {
+                "items": "minecraft:tall_grass",
+                "count": 64
+              }
             }
           }
         }
@@ -33,10 +37,14 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "slots": {
-            "container.*": {
-              "items": "minecraft:large_fern",
-              "count": 64
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "container.*": {
+                "items": "minecraft:large_fern",
+                "count": 64
+              }
             }
           }
         }

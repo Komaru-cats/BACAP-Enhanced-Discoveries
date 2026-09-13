@@ -24,488 +24,566 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "slots": {
-            "inventory.0": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "inventory.0": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "inventory.1": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "inventory.2": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "inventory.3": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "inventory.4": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "inventory.5": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "inventory.6": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "inventory.7": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "inventory.8": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "inventory.9": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "inventory.10": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "inventory.11": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "inventory.12": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "inventory.13": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "inventory.14": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "inventory.15": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "inventory.16": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "inventory.17": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "inventory.18": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "inventory.19": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "inventory.20": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "inventory.21": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "inventory.22": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "inventory.23": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "inventory.24": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "inventory.25": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "inventory.26": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "hotbar.0": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "hotbar.1": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "hotbar.2": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "hotbar.3": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "hotbar.4": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "hotbar.5": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "hotbar.6": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "hotbar.7": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "hotbar.8": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
               }
             },
-            "inventory.1": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "inventory.2": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "inventory.3": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "inventory.4": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "inventory.5": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "inventory.6": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "inventory.7": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "inventory.8": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "inventory.9": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "inventory.10": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "inventory.11": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "inventory.12": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "inventory.13": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "inventory.14": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "inventory.15": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "inventory.16": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "inventory.17": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "inventory.18": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "inventory.19": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "inventory.20": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "inventory.21": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "inventory.22": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "inventory.23": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "inventory.24": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "inventory.25": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "inventory.26": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "hotbar.0": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "hotbar.1": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "hotbar.2": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "hotbar.3": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "hotbar.4": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "hotbar.5": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "hotbar.6": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "hotbar.7": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            },
-            "hotbar.8": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
-              }
-            }
-          },
-          "equipment": {
-            "offhand": {
-              "items": [
-                "minecraft:potion",
-                "minecraft:splash_potion",
-                "minecraft:lingering_potion"
-              ],
-              "predicates": {
-                "minecraft:potion_contents": [
-                  "minecraft:mundane",
-                  "minecraft:thick"
-                ]
+            "equipment": {
+              "offhand": {
+                "items": [
+                  "minecraft:potion",
+                  "minecraft:splash_potion",
+                  "minecraft:lingering_potion"
+                ],
+                "predicates": {
+                  "minecraft:potion_contents": {
+                    "potions": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
               }
             }
           }

@@ -21,8 +21,12 @@
       "trigger": "minecraft:killed_by_arrow",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:basalt_deltas"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:basalt_deltas"
+            }
           }
         },
         "fired_from_weapon": {
@@ -30,28 +34,48 @@
         },
         "victims": [
           {
-            "entity_type": "minecraft:bogged"
-          },
-          {
-            "entity_type": "minecraft:frog",
-            "components": {
-              "minecraft:frog/variant": "minecraft:cold"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:bogged"
             }
           },
           {
-            "entity_type": "minecraft:frog",
-            "components": {
-              "minecraft:frog/variant": "minecraft:temperate"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:frog",
+              "components": {
+                "minecraft:frog/variant": "minecraft:cold"
+              }
             }
           },
           {
-            "entity_type": "minecraft:frog",
-            "components": {
-              "minecraft:frog/variant": "minecraft:warm"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:frog",
+              "components": {
+                "minecraft:frog/variant": "minecraft:temperate"
+              }
             }
           },
           {
-            "entity_type": "minecraft:slime"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:frog",
+              "components": {
+                "minecraft:frog/variant": "minecraft:warm"
+              }
+            }
+          },
+          {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:slime"
+            }
           }
         ]
       }

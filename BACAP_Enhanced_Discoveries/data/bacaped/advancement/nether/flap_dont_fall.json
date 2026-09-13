@@ -22,21 +22,25 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "position": {
-              "y": {
-                "min": 0,
-                "max": 127
-              }
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "position": {
+                "y": {
+                  "min": 0,
+                  "max": 127
+                }
+              },
+              "biomes": "minecraft:basalt_deltas"
             },
-            "biomes": "minecraft:basalt_deltas"
-          },
-          "flags": {
-            "is_flying": true
-          },
-          "equipment": {
-            "chest": {
-              "items": "minecraft:elytra"
+            "flags": {
+              "is_flying": true
+            },
+            "equipment": {
+              "chest": {
+                "items": "minecraft:elytra"
+              }
             }
           }
         }
@@ -46,21 +50,25 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "position": {
-              "y": {
-                "min": 0,
-                "max": 127
-              }
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "position": {
+                "y": {
+                  "min": 0,
+                  "max": 127
+                }
+              },
+              "biomes": "minecraft:crimson_forest"
             },
-            "biomes": "minecraft:crimson_forest"
-          },
-          "flags": {
-            "is_flying": true
-          },
-          "equipment": {
-            "chest": {
-              "items": "minecraft:elytra"
+            "flags": {
+              "is_flying": true
+            },
+            "equipment": {
+              "chest": {
+                "items": "minecraft:elytra"
+              }
             }
           }
         }
@@ -70,21 +78,25 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "position": {
-              "y": {
-                "min": 0,
-                "max": 127
-              }
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "position": {
+                "y": {
+                  "min": 0,
+                  "max": 127
+                }
+              },
+              "biomes": "minecraft:nether_wastes"
             },
-            "biomes": "minecraft:nether_wastes"
-          },
-          "flags": {
-            "is_flying": true
-          },
-          "equipment": {
-            "chest": {
-              "items": "minecraft:elytra"
+            "flags": {
+              "is_flying": true
+            },
+            "equipment": {
+              "chest": {
+                "items": "minecraft:elytra"
+              }
             }
           }
         }
@@ -94,21 +106,25 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "position": {
-              "y": {
-                "min": 0,
-                "max": 127
-              }
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "position": {
+                "y": {
+                  "min": 0,
+                  "max": 127
+                }
+              },
+              "biomes": "minecraft:soul_sand_valley"
             },
-            "biomes": "minecraft:soul_sand_valley"
-          },
-          "flags": {
-            "is_flying": true
-          },
-          "equipment": {
-            "chest": {
-              "items": "minecraft:elytra"
+            "flags": {
+              "is_flying": true
+            },
+            "equipment": {
+              "chest": {
+                "items": "minecraft:elytra"
+              }
             }
           }
         }
@@ -118,21 +134,25 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "position": {
-              "y": {
-                "min": 0,
-                "max": 127
-              }
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "position": {
+                "y": {
+                  "min": 0,
+                  "max": 127
+                }
+              },
+              "biomes": "minecraft:warped_forest"
             },
-            "biomes": "minecraft:warped_forest"
-          },
-          "flags": {
-            "is_flying": true
-          },
-          "equipment": {
-            "chest": {
-              "items": "minecraft:elytra"
+            "flags": {
+              "is_flying": true
+            },
+            "equipment": {
+              "chest": {
+                "items": "minecraft:elytra"
+              }
             }
           }
         }

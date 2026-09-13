@@ -26,19 +26,39 @@
         },
         "victims": [
           {
-            "entity_type": "minecraft:glow_squid"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:glow_squid"
+            }
           },
           {
-            "entity_type": "minecraft:glow_squid"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:glow_squid"
+            }
           },
           {
-            "entity_type": "minecraft:glow_squid"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:glow_squid"
+            }
           },
           {
-            "entity_type": "minecraft:glow_squid"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:glow_squid"
+            }
           },
           {
-            "entity_type": "minecraft:glow_squid"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:glow_squid"
+            }
           }
         ]
       }

@@ -34,16 +34,24 @@
       "trigger": "minecraft:entity_killed_player",
       "conditions": {
         "player": {
-          "location": {
-            "position": {
-              "y": {
-                "min": 350
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "position": {
+                "y": {
+                  "min": 350
+                }
               }
             }
           }
         },
         "entity": {
-          "entity_type": "minecraft:bee"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:bee"
+          }
         }
       }
     }

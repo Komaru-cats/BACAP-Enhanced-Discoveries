@@ -22,12 +22,16 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "looking_at": {
-              "entity_type": "minecraft:end_crystal",
-              "nbt": "{ShowBottom: 1b}",
-              "location": {
-                "dimension": "minecraft:overworld"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "looking_at": {
+                "entity_type": "minecraft:end_crystal",
+                "minecraft:nbt": "{ShowBottom: 1b}",
+                "location": {
+                  "dimension": "minecraft:overworld"
+                }
               }
             }
           }

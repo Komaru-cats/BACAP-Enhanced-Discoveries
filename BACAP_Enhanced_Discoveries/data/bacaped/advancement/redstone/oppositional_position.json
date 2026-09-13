@@ -21,7 +21,7 @@
     "subtractor": {
       "trigger": "minecraft:enter_block",
       "conditions": {
-        "block": "minecraft:comparator",
+        "blocks": "minecraft:comparator",
         "state": {
           "mode": "subtract"
         }

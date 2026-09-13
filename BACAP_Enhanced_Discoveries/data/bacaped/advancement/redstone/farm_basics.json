@@ -18,138 +18,156 @@
     "trigger": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:any_of",
-            "terms": [
-              {
-                "condition": "minecraft:all_of",
-                "terms": [
-                  {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:observer",
-                    "properties": {
-                      "facing": "west"
-                    }
-                  },
-                  {
-                    "condition": "minecraft:location_check",
-                    "offsetX": -1,
-                    "predicate": {
-                      "block": {
-                        "blocks": [
-                          "minecraft:sugar_cane",
-                          "minecraft:bamboo",
-                          "minecraft:bamboo_sapling"
-                        ]
+        "location": {
+          "type": "minecraft:any_of",
+          "terms": [
+            {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:observer",
+                      "state": {
+                        "facing": "west"
                       }
                     }
                   }
-                ]
-              },
-              {
-                "condition": "minecraft:all_of",
-                "terms": [
-                  {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:observer",
-                    "properties": {
-                      "facing": "south"
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetX": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": [
+                        "minecraft:sugar_cane",
+                        "minecraft:bamboo",
+                        "minecraft:bamboo_sapling"
+                      ]
                     }
-                  },
-                  {
-                    "condition": "minecraft:location_check",
-                    "offsetZ": 1,
-                    "predicate": {
-                      "block": {
-                        "blocks": [
-                          "minecraft:sugar_cane",
-                          "minecraft:bamboo",
-                          "minecraft:bamboo_sapling"
-                        ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:observer",
+                      "state": {
+                        "facing": "south"
                       }
                     }
                   }
-                ]
-              },
-              {
-                "condition": "minecraft:all_of",
-                "terms": [
-                  {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:observer",
-                    "properties": {
-                      "facing": "east"
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetZ": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": [
+                        "minecraft:sugar_cane",
+                        "minecraft:bamboo",
+                        "minecraft:bamboo_sapling"
+                      ]
                     }
-                  },
-                  {
-                    "condition": "minecraft:location_check",
-                    "offsetX": 1,
-                    "predicate": {
-                      "block": {
-                        "blocks": [
-                          "minecraft:sugar_cane",
-                          "minecraft:bamboo",
-                          "minecraft:bamboo_sapling"
-                        ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:observer",
+                      "state": {
+                        "facing": "east"
                       }
                     }
                   }
-                ]
-              },
-              {
-                "condition": "minecraft:all_of",
-                "terms": [
-                  {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:observer",
-                    "properties": {
-                      "facing": "north"
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetX": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": [
+                        "minecraft:sugar_cane",
+                        "minecraft:bamboo",
+                        "minecraft:bamboo_sapling"
+                      ]
                     }
-                  },
-                  {
-                    "condition": "minecraft:location_check",
-                    "offsetZ": -1,
-                    "predicate": {
-                      "block": {
-                        "blocks": [
-                          "minecraft:sugar_cane",
-                          "minecraft:bamboo",
-                          "minecraft:bamboo_sapling"
-                        ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:observer",
+                      "state": {
+                        "facing": "north"
                       }
                     }
                   }
-                ]
-              },
-              {
-                "condition": "minecraft:all_of",
-                "terms": [
-                  {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:observer",
-                    "properties": {
-                      "facing": "down"
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetZ": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": [
+                        "minecraft:sugar_cane",
+                        "minecraft:bamboo",
+                        "minecraft:bamboo_sapling"
+                      ]
                     }
-                  },
-                  {
-                    "condition": "minecraft:location_check",
-                    "offsetY": -1,
-                    "predicate": {
-                      "block": {
-                        "blocks": [
-                          "minecraft:sugar_cane",
-                          "minecraft:bamboo",
-                          "minecraft:bamboo_sapling"
-                        ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:observer",
+                      "state": {
+                        "facing": "down"
                       }
                     }
                   }
-                ]
-              }
-            ]
-          }
-        ]
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetY": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": [
+                        "minecraft:sugar_cane",
+                        "minecraft:bamboo",
+                        "minecraft:bamboo_sapling"
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
       }
     }
   },

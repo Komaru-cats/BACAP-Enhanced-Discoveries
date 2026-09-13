@@ -4,18 +4,26 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:nether/high_pitch": false
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/high_pitch": false
+              }
             }
           }
         },
         "entity": {
-          "entity_type": "minecraft:ghast"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:ghast"
+          }
         },
         "killing_blow": {
           "direct_entity": {
-            "entity_type": "minecraft:fireball"
+            "minecraft:entity_type": "minecraft:fireball"
           }
         }
       }

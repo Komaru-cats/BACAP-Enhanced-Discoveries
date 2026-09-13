@@ -4,9 +4,13 @@
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:nether/high_pitch": false
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/high_pitch": false
+              }
             }
           }
         },

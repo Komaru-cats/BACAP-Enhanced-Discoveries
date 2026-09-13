@@ -22,38 +22,40 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "entity_type": "minecraft:player",
-          "location": {
-            "position": {
-              "y": {
-                "min": 300
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:player",
+            "location": {
+              "position": {
+                "y": {
+                  "min": 300
+                }
               }
             }
           }
         },
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "entity_type": "minecraft:turtle",
-              "location": {
-                "position": {
-                  "y": {
-                    "max": 64
-                  }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:turtle",
+            "location": {
+              "position": {
+                "y": {
+                  "max": 64
                 }
-              },
-              "flags": {
-                "is_baby": true
               }
+            },
+            "flags": {
+              "is_baby": true
             }
           }
-        ],
+        },
         "killing_blow": {
           "tags": [
             {
-              "id": "bacaped:is_trident",
+              "id": "#bacaped:is_trident",
               "expected": true
             }
           ]

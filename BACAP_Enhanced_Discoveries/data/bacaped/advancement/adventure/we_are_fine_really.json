@@ -19,9 +19,13 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:pale_garden",
-            "structures": "minecraft:mansion"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:pale_garden",
+              "structures": "minecraft:mansion"
+            }
           }
         }
       }

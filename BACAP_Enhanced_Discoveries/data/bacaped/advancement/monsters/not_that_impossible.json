@@ -35,21 +35,23 @@
     "be_killed_by_husk_on_camel": {
       "trigger": "minecraft:entity_killed_player",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "entity_type": "minecraft:player",
-              "vehicle": {
-                "entity_type": "minecraft:camel"
-              }
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:player",
+            "minecraft:vehicle": {
+              "minecraft:entity_type": "minecraft:camel"
             }
           }
-        ],
+        },
         "entity": {
-          "entity_type": "minecraft:husk",
-          "nbt": "{OnGround:1b}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:husk",
+            "minecraft:nbt": "{OnGround:1b}"
+          }
         }
       }
     }

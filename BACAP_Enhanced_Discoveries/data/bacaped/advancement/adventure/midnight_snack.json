@@ -18,21 +18,17 @@
     "trigger": {
       "trigger": "minecraft:villager_trade",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:time_check",
-            "clock": "minecraft:overworld",
-            "value": {
-              "min": 21000,
-              "max": 22000
-            },
-            "period": 24000
-          }
-        ],
+        "player": {
+          "type": "minecraft:time_check",
+          "clock": "minecraft:overworld",
+          "value": {
+            "min": 21000,
+            "max": 22000
+          },
+          "period": 24000
+        },
         "item": {
-          "items": [
-            "minecraft:cookie"
-          ]
+          "items": "minecraft:cookie"
         }
       }
     }

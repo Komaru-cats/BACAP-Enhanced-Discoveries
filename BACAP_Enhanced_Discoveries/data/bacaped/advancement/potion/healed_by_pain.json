@@ -26,8 +26,8 @@
         "damage": {
           "type": {
             "direct_entity": {
-              "entity_type": "minecraft:arrow",
-              "nbt": "{item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:strong_healing\"}}}}"
+              "minecraft:entity_type": "minecraft:arrow",
+              "minecraft:nbt": "{item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:strong_healing\"}}}}"
             }
           }
         }

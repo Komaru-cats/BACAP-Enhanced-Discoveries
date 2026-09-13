@@ -19,25 +19,23 @@
     "trigger": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:type_specific/player": {
-                "stats": [
-                  {
-                    "type": "minecraft:used",
-                    "stat": "minecraft:painting",
-                    "value": {
-                      "min": 99
-                    }
+        "location": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:used",
+                  "stat": "minecraft:painting",
+                  "value": {
+                    "min": 99
                   }
-                ]
-              }
+                }
+              ]
             }
           }
-        ]
+        }
       }
     }
   },

@@ -19,15 +19,19 @@
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
         "player": {
-          "location": {
-            "fluid": {
-              "fluids": "#minecraft:water"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "fluid": {
+                "fluids": "#minecraft:water"
+              }
             }
           }
         },
         "damage": {
           "source_entity": {
-            "entity_type": "minecraft:polar_bear",
+            "minecraft:entity_type": "minecraft:polar_bear",
             "location": {
               "fluid": {
                 "fluids": "#minecraft:water"

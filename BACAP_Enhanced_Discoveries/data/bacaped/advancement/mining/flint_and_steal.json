@@ -22,9 +22,13 @@
           "items": "minecraft:flint"
         },
         "entity": {
-          "distance": {
-            "absolute": {
-              "min": 1
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
             }
           }
         }

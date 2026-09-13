@@ -19,7 +19,11 @@
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:salmon"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:salmon"
+          }
         }
       }
     }

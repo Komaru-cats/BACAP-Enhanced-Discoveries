@@ -48,16 +48,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:bat",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:bat",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -66,16 +70,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:breeze",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:breeze",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -84,16 +92,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:bogged",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:bogged",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -102,16 +114,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:armadillo",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:armadillo",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -120,16 +136,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:chicken",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:chicken",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -138,16 +158,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:cod",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:cod",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -156,16 +180,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:copper_golem",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:copper_golem",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -174,16 +202,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:cow",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:cow",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -192,16 +224,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:mooshroom",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:mooshroom",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -210,16 +246,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:pig",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:pig",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -228,16 +268,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:rabbit",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:rabbit",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -246,16 +290,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:salmon",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:salmon",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -264,16 +312,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:sheep",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:sheep",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -282,16 +334,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:squid",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:squid",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -300,16 +356,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:tropical_fish",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:tropical_fish",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -318,16 +378,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:turtle",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:turtle",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -336,16 +400,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:villager",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:villager",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -354,7 +422,11 @@
       "trigger": "minecraft:location",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:wandering_trader"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:wandering_trader"
+          }
         }
       }
     },
@@ -362,16 +434,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:elder_guardian",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:elder_guardian",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -380,16 +456,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:pufferfish",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:pufferfish",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -398,16 +478,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:cave_spider",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:cave_spider",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -416,16 +500,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:enderman",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:enderman",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -434,16 +522,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:panda",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:panda",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -452,16 +544,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:polar_bear",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:polar_bear",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -470,16 +566,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:spider",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:spider",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -488,16 +588,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:zombified_piglin",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:zombified_piglin",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -506,16 +610,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:blaze",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:blaze",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -524,16 +632,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:creeper",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:creeper",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -542,16 +654,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:drowned",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:drowned",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -560,16 +676,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:endermite",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:endermite",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -578,16 +698,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:evoker",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:evoker",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -596,16 +720,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:ghast",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:ghast",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -614,16 +742,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:guardian",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:guardian",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -632,16 +764,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:husk",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:husk",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -650,16 +786,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:magma_cube",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:magma_cube",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -668,16 +808,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:parched",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:parched",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -686,16 +830,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:phantom",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:phantom",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -704,16 +852,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:pillager",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:pillager",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -722,16 +874,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:ravager",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:ravager",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -740,16 +896,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:shulker",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:shulker",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -758,16 +918,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:silverfish",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:silverfish",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -776,16 +940,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:skeleton",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:skeleton",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -794,16 +962,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:slime",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:slime",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -812,16 +984,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:stray",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:stray",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -830,16 +1006,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:vex",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:vex",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -848,16 +1028,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:vindicator",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:vindicator",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -866,16 +1050,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:witch",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:witch",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -884,16 +1072,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:wither_skeleton",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:wither_skeleton",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -902,16 +1094,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:zombie_villager",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:zombie_villager",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -920,16 +1116,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:zombie",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:zombie",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -938,16 +1138,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:cat",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:cat",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -956,16 +1160,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:donkey",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:donkey",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -974,16 +1182,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:horse",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:horse",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -992,16 +1204,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:zombie_horse",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:zombie_horse",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1010,16 +1226,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:llama",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:llama",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1028,16 +1248,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:mule",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:mule",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1046,16 +1270,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:parrot",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:parrot",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1064,7 +1292,11 @@
       "trigger": "minecraft:location",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:skeleton_horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:skeleton_horse"
+          }
         }
       }
     },
@@ -1072,16 +1304,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:trader_llama",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:trader_llama",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1090,16 +1326,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:wolf",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:wolf",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1108,16 +1348,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:dolphin",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:dolphin",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1126,16 +1370,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:fox",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:fox",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1144,16 +1392,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:ocelot",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:ocelot",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1162,16 +1414,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:iron_golem",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:iron_golem",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1180,16 +1436,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:snow_golem",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:snow_golem",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1198,16 +1458,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:wither",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:wither",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1216,16 +1480,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:bee",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:bee",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1234,16 +1502,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:piglin",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:piglin",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1252,16 +1524,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:hoglin",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:hoglin",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1270,16 +1546,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:happy_ghast",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:happy_ghast",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1288,16 +1568,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:strider",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:strider",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1306,16 +1590,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:zoglin",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:zoglin",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1324,16 +1612,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:piglin_brute",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:piglin_brute",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1342,16 +1634,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:axolotl",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:axolotl",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1360,16 +1656,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:glow_squid",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:glow_squid",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1378,16 +1678,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:goat",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:goat",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1396,16 +1700,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:frog",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:frog",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1414,16 +1722,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:tadpole",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:tadpole",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1432,16 +1744,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:allay",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:allay",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1450,16 +1766,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:warden",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:warden",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1468,16 +1788,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:camel",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:camel",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1486,16 +1810,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:camel_husk",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:camel_husk",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1504,16 +1832,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:sniffer",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:sniffer",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1522,16 +1854,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:ender_dragon",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:ender_dragon",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1540,16 +1876,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:creaking",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:creaking",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1558,16 +1898,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:nautilus",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:nautilus",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1576,16 +1920,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:zombie_nautilus",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:zombie_nautilus",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -1594,16 +1942,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:killed",
-                "stat": "minecraft:sulfur_cube",
-                "value": {
-                  "min": 25
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:sulfur_cube",
+                  "value": {
+                    "min": 25
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }

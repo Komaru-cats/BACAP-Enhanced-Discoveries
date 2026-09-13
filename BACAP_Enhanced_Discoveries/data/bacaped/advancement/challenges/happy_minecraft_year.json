@@ -19,25 +19,21 @@
     "new_year": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:time_check",
-            "clock": "minecraft:overworld",
-            "value": {
-              "min": 0,
-              "max": 24000
-            },
-            "period": 8760000
+        "player": {
+          "type": "minecraft:time_check",
+          "clock": "minecraft:overworld",
+          "value": {
+            "min": 0,
+            "max": 24000
+          },
+          "period": 8760000
+        },
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": "minecraft:firework_rocket"
           }
-        ],
-        "location": [
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": "minecraft:firework_rocket"
-            }
-          }
-        ]
+        }
       }
     }
   },

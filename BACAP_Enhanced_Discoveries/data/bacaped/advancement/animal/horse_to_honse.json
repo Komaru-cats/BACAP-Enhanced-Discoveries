@@ -19,9 +19,13 @@
       "trigger": "minecraft:started_riding",
       "conditions": {
         "player": {
-          "vehicle": {
-            "entity_type": "minecraft:horse",
-            "nbt": "{Temper:100}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse",
+              "minecraft:nbt": "{Temper:100}"
+            }
           }
         }
       }

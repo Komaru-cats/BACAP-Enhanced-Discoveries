@@ -3,45 +3,52 @@
     "trigger": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:type_specific/player": {
-                "advancements": {
-                  "bacaped:weaponry/air_battle": false
-                }
-              },
-              "flags": {
-                "is_swimming": false,
-                "is_on_ground": false,
-                "is_flying": false
-              }
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "vehicle": {
-                  "entity_type": "#blazeandcave:player_rideables"
+                "minecraft:type_specific/player": {
+                  "advancements": {
+                    "bacaped:weaponry/air_battle": false
+                  }
+                },
+                "flags": {
+                  "is_swimming": false,
+                  "is_on_ground": false,
+                  "is_flying": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:vehicle": {
+                    "minecraft:entity_type": "#blazeandcave:player_rideables"
+                  }
                 }
               }
             }
-          }
-        ],
+          ]
+        },
         "entity": {
-          "entity_type": "minecraft:chicken",
-          "flags": {
-            "is_on_ground": false
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:chicken",
+            "flags": {
+              "is_on_ground": false
+            }
           }
         },
         "killing_blow": {
           "direct_entity": {
-            "entity_type": "#minecraft:arrows"
+            "minecraft:entity_type": "#minecraft:arrows"
           }
         }
       }

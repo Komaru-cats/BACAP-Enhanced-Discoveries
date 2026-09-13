@@ -19,19 +19,21 @@
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "player": {
-          "location": {
-            "position": {
-              "y": {
-                "min": 261
-              }
-            },
-            "dimension": "minecraft:the_end"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "position": {
+                "y": {
+                  "min": 261
+                }
+              },
+              "dimension": "minecraft:the_end"
+            }
           }
         },
         "item": {
-          "items": [
-            "minecraft:nautilus_shell"
-          ]
+          "items": "minecraft:nautilus_shell"
         }
       }
     }

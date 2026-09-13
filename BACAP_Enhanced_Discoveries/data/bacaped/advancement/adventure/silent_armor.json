@@ -21,825 +21,823 @@
     "armor_with_silence_trims": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:all_of",
-            "terms": [
-              {
-                "condition": "minecraft:any_of",
-                "terms": [
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "head": {
-                          "items": "#minecraft:head_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:amethyst",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "head": {
-                          "items": "#minecraft:head_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:copper",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "head": {
-                          "items": "#minecraft:head_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:diamond",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "head": {
-                          "items": "#minecraft:head_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:resin",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "head": {
-                          "items": "#minecraft:head_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:emerald",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "head": {
-                          "items": "#minecraft:head_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:gold",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "head": {
-                          "items": "#minecraft:head_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:iron",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "head": {
-                          "items": "#minecraft:head_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:lapis",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "head": {
-                          "items": "#minecraft:head_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:netherite",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "head": {
-                          "items": "#minecraft:head_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:quartz",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "head": {
-                          "items": "#minecraft:head_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:redstone",
-                              "pattern": "minecraft:silence"
-                            }
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:any_of",
+              "terms": [
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "head": {
+                        "items": "#minecraft:head_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:amethyst",
+                            "pattern": "minecraft:silence"
                           }
                         }
                       }
                     }
                   }
-                ]
-              },
-              {
-                "condition": "minecraft:any_of",
-                "terms": [
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "chest": {
-                          "items": "#minecraft:chest_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:amethyst",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "chest": {
-                          "items": "#minecraft:chest_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:copper",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "chest": {
-                          "items": "#minecraft:chest_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:diamond",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "chest": {
-                          "items": "#minecraft:chest_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:resin",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "chest": {
-                          "items": "#minecraft:chest_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:emerald",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "chest": {
-                          "items": "#minecraft:chest_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:gold",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "chest": {
-                          "items": "#minecraft:chest_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:iron",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "chest": {
-                          "items": "#minecraft:chest_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:lapis",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "chest": {
-                          "items": "#minecraft:chest_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:netherite",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "chest": {
-                          "items": "#minecraft:chest_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:quartz",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "chest": {
-                          "items": "#minecraft:chest_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:redstone",
-                              "pattern": "minecraft:silence"
-                            }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "head": {
+                        "items": "#minecraft:head_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:copper",
+                            "pattern": "minecraft:silence"
                           }
                         }
                       }
                     }
                   }
-                ]
-              },
-              {
-                "condition": "minecraft:any_of",
-                "terms": [
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "legs": {
-                          "items": "#minecraft:leg_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:amethyst",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "legs": {
-                          "items": "#minecraft:leg_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:copper",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "legs": {
-                          "items": "#minecraft:leg_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:diamond",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "legs": {
-                          "items": "#minecraft:leg_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:resin",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "legs": {
-                          "items": "#minecraft:leg_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:emerald",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "legs": {
-                          "items": "#minecraft:leg_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:gold",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "legs": {
-                          "items": "#minecraft:leg_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:iron",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "legs": {
-                          "items": "#minecraft:leg_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:lapis",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "legs": {
-                          "items": "#minecraft:leg_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:netherite",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "legs": {
-                          "items": "#minecraft:leg_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:quartz",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "legs": {
-                          "items": "#minecraft:leg_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:redstone",
-                              "pattern": "minecraft:silence"
-                            }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "head": {
+                        "items": "#minecraft:head_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:diamond",
+                            "pattern": "minecraft:silence"
                           }
                         }
                       }
                     }
                   }
-                ]
-              },
-              {
-                "condition": "minecraft:any_of",
-                "terms": [
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "feet": {
-                          "items": "#minecraft:foot_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:amethyst",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "feet": {
-                          "items": "#minecraft:foot_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:copper",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "feet": {
-                          "items": "#minecraft:foot_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:diamond",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "feet": {
-                          "items": "#minecraft:foot_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:resin",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "feet": {
-                          "items": "#minecraft:foot_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:emerald",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "feet": {
-                          "items": "#minecraft:foot_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:gold",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "feet": {
-                          "items": "#minecraft:foot_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:iron",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "feet": {
-                          "items": "#minecraft:foot_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:lapis",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "feet": {
-                          "items": "#minecraft:foot_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:netherite",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "feet": {
-                          "items": "#minecraft:foot_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:quartz",
-                              "pattern": "minecraft:silence"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "entity_type": "minecraft:player",
-                      "equipment": {
-                        "feet": {
-                          "items": "#minecraft:foot_armor",
-                          "components": {
-                            "minecraft:trim": {
-                              "material": "minecraft:redstone",
-                              "pattern": "minecraft:silence"
-                            }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "head": {
+                        "items": "#minecraft:head_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:resin",
+                            "pattern": "minecraft:silence"
                           }
                         }
                       }
                     }
                   }
-                ]
-              }
-            ]
-          }
-        ]
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "head": {
+                        "items": "#minecraft:head_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:emerald",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "head": {
+                        "items": "#minecraft:head_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:gold",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "head": {
+                        "items": "#minecraft:head_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:iron",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "head": {
+                        "items": "#minecraft:head_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:lapis",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "head": {
+                        "items": "#minecraft:head_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "head": {
+                        "items": "#minecraft:head_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:quartz",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "head": {
+                        "items": "#minecraft:head_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:redstone",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:any_of",
+              "terms": [
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "chest": {
+                        "items": "#minecraft:chest_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:amethyst",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "chest": {
+                        "items": "#minecraft:chest_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:copper",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "chest": {
+                        "items": "#minecraft:chest_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:diamond",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "chest": {
+                        "items": "#minecraft:chest_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:resin",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "chest": {
+                        "items": "#minecraft:chest_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:emerald",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "chest": {
+                        "items": "#minecraft:chest_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:gold",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "chest": {
+                        "items": "#minecraft:chest_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:iron",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "chest": {
+                        "items": "#minecraft:chest_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:lapis",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "chest": {
+                        "items": "#minecraft:chest_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "chest": {
+                        "items": "#minecraft:chest_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:quartz",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "chest": {
+                        "items": "#minecraft:chest_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:redstone",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:any_of",
+              "terms": [
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "legs": {
+                        "items": "#minecraft:leg_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:amethyst",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "legs": {
+                        "items": "#minecraft:leg_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:copper",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "legs": {
+                        "items": "#minecraft:leg_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:diamond",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "legs": {
+                        "items": "#minecraft:leg_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:resin",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "legs": {
+                        "items": "#minecraft:leg_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:emerald",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "legs": {
+                        "items": "#minecraft:leg_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:gold",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "legs": {
+                        "items": "#minecraft:leg_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:iron",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "legs": {
+                        "items": "#minecraft:leg_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:lapis",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "legs": {
+                        "items": "#minecraft:leg_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "legs": {
+                        "items": "#minecraft:leg_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:quartz",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "legs": {
+                        "items": "#minecraft:leg_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:redstone",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:any_of",
+              "terms": [
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "feet": {
+                        "items": "#minecraft:foot_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:amethyst",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "feet": {
+                        "items": "#minecraft:foot_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:copper",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "feet": {
+                        "items": "#minecraft:foot_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:diamond",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "feet": {
+                        "items": "#minecraft:foot_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:resin",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "feet": {
+                        "items": "#minecraft:foot_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:emerald",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "feet": {
+                        "items": "#minecraft:foot_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:gold",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "feet": {
+                        "items": "#minecraft:foot_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:iron",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "feet": {
+                        "items": "#minecraft:foot_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:lapis",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "feet": {
+                        "items": "#minecraft:foot_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:netherite",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "feet": {
+                        "items": "#minecraft:foot_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:quartz",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "entity_type": "minecraft:player",
+                    "equipment": {
+                      "feet": {
+                        "items": "#minecraft:foot_armor",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:redstone",
+                            "pattern": "minecraft:silence"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
       }
     }
   },

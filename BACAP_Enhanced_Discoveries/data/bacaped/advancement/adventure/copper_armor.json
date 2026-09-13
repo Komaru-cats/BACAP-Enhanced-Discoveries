@@ -25,57 +25,54 @@
     "bonus_chest": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "entity_type": "minecraft:player",
-              "equipment": {
-                "head": {
-                  "items": "minecraft:leather_helmet",
-                  "components": {
-                    "minecraft:trim": {
-                      "material": "minecraft:copper",
-                      "pattern": "minecraft:bolt"
-                    },
-                    "minecraft:dyed_color": 16351261
-                  }
-                },
-                "chest": {
-                  "items": "minecraft:leather_chestplate",
-                  "components": {
-                    "minecraft:trim": {
-                      "material": "minecraft:copper",
-                      "pattern": "minecraft:bolt"
-                    },
-                    "minecraft:dyed_color": 16351261
-                  }
-                },
-                "legs": {
-                  "items": "minecraft:leather_leggings",
-                  "components": {
-                    "minecraft:trim": {
-                      "material": "minecraft:copper",
-                      "pattern": "minecraft:bolt"
-                    },
-                    "minecraft:dyed_color": 16351261
-                  }
-                },
-                "feet": {
-                  "items": "minecraft:leather_boots",
-                  "components": {
-                    "minecraft:trim": {
-                      "material": "minecraft:copper",
-                      "pattern": "minecraft:bolt"
-                    },
-                    "minecraft:dyed_color": 16351261
-                  }
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "head": {
+                "items": "minecraft:leather_helmet",
+                "components": {
+                  "minecraft:trim": {
+                    "material": "minecraft:copper",
+                    "pattern": "minecraft:bolt"
+                  },
+                  "minecraft:dyed_color": 16351261
+                }
+              },
+              "chest": {
+                "items": "minecraft:leather_chestplate",
+                "components": {
+                  "minecraft:trim": {
+                    "material": "minecraft:copper",
+                    "pattern": "minecraft:bolt"
+                  },
+                  "minecraft:dyed_color": 16351261
+                }
+              },
+              "legs": {
+                "items": "minecraft:leather_leggings",
+                "components": {
+                  "minecraft:trim": {
+                    "material": "minecraft:copper",
+                    "pattern": "minecraft:bolt"
+                  },
+                  "minecraft:dyed_color": 16351261
+                }
+              },
+              "feet": {
+                "items": "minecraft:leather_boots",
+                "components": {
+                  "minecraft:trim": {
+                    "material": "minecraft:copper",
+                    "pattern": "minecraft:bolt"
+                  },
+                  "minecraft:dyed_color": 16351261
                 }
               }
             }
           }
-        ]
+        }
       }
     }
   },

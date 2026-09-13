@@ -18,9 +18,13 @@
       "trigger": "minecraft:fall_from_height",
       "conditions": {
         "player": {
-          "location": {
-            "block": {
-              "blocks": "minecraft:sweet_berry_bush"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "block": {
+                "blocks": "minecraft:sweet_berry_bush"
+              }
             }
           }
         }
@@ -30,9 +34,13 @@
       "trigger": "minecraft:fall_from_height",
       "conditions": {
         "player": {
-          "stepping_on": {
-            "fluid": {
-              "fluids": "#minecraft:water"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "stepping_on": {
+              "fluid": {
+                "fluids": "#minecraft:water"
+              }
             }
           }
         }
@@ -42,9 +50,13 @@
       "trigger": "minecraft:fall_from_height",
       "conditions": {
         "player": {
-          "location": {
-            "block": {
-              "blocks": "minecraft:cobweb"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "block": {
+                "blocks": "minecraft:cobweb"
+              }
             }
           }
         }
@@ -54,9 +66,13 @@
       "trigger": "minecraft:fall_from_height",
       "conditions": {
         "player": {
-          "location": {
-            "fluid": {
-              "fluids": "#minecraft:lava"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "fluid": {
+                "fluids": "#minecraft:lava"
+              }
             }
           }
         }
@@ -66,9 +82,29 @@
       "trigger": "minecraft:fall_from_height",
       "conditions": {
         "player": {
-          "stepping_on": {
-            "block": {
-              "blocks": "minecraft:slime_block"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "stepping_on": {
+              "block": {
+                "blocks": "minecraft:slime_block"
+              }
+            }
+          }
+        }
+      }
+    },
+    "shelf_mushroom": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "stepping_on": {
+              "block": {
+                "blocks": "minecraft:shelf_mushroom"
+              }
             }
           }
         }
@@ -78,9 +114,13 @@
       "trigger": "minecraft:fall_from_height",
       "conditions": {
         "player": {
-          "stepping_on": {
-            "block": {
-              "blocks": "minecraft:hay_block"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "stepping_on": {
+              "block": {
+                "blocks": "minecraft:hay_block"
+              }
             }
           }
         }
@@ -90,9 +130,13 @@
       "trigger": "minecraft:fall_from_height",
       "conditions": {
         "player": {
-          "stepping_on": {
-            "block": {
-              "blocks": "minecraft:honey_block"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "stepping_on": {
+              "block": {
+                "blocks": "minecraft:honey_block"
+              }
             }
           }
         }
@@ -102,9 +146,13 @@
       "trigger": "minecraft:fall_from_height",
       "conditions": {
         "player": {
-          "stepping_on": {
-            "block": {
-              "blocks": "#minecraft:beds"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "stepping_on": {
+              "block": {
+                "blocks": "#minecraft:beds"
+              }
             }
           }
         }
@@ -114,9 +162,13 @@
       "trigger": "minecraft:fall_from_height",
       "conditions": {
         "player": {
-          "stepping_on": {
-            "block": {
-              "blocks": "minecraft:scaffolding"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "stepping_on": {
+              "block": {
+                "blocks": "minecraft:scaffolding"
+              }
             }
           }
         }
@@ -126,9 +178,13 @@
       "trigger": "minecraft:fall_from_height",
       "conditions": {
         "player": {
-          "location": {
-            "block": {
-              "blocks": "minecraft:powder_snow"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "block": {
+                "blocks": "minecraft:powder_snow"
+              }
             }
           }
         }

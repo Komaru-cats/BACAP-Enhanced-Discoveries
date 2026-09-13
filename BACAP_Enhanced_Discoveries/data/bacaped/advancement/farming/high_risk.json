@@ -19,12 +19,13 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "looking_at": {
-              "entity_type": [
-                "minecraft:piglin",
-                "minecraft:piglin_brute"
-              ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific/player": {
+              "looking_at": {
+                "minecraft:entity_type": "minecraft:piglin"
+              }
             }
           }
         },
@@ -37,12 +38,13 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "looking_at": {
-              "entity_type": [
-                "minecraft:piglin",
-                "minecraft:piglin_brute"
-              ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific/player": {
+              "looking_at": {
+                "minecraft:entity_type": "minecraft:piglin"
+              }
             }
           }
         },

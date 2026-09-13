@@ -36,15 +36,23 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "player": {
-          "effects": {
-            "minecraft:levitation": {}
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "minecraft:levitation": {}
+            }
           }
         },
         "item": {
           "items": "minecraft:lead"
         },
         "entity": {
-          "entity_type": "minecraft:bee"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:bee"
+          }
         }
       }
     }

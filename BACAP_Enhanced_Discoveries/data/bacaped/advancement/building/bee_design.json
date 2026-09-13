@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:beehive",
-      "components": {}
+      "id": "minecraft:beehive"
     },
     "title": {
       "translate": "Bee Design"
@@ -19,107 +18,110 @@
     "trigger": {
       "trigger": "minecraft:location",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:location_check",
-            "offsetX": -1,
-            "offsetY": -1,
-            "offsetZ": -1,
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:beehive"
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "offsetX": -1,
+              "offsetY": -1,
+              "offsetZ": -1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:beehive"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetX": -1,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:beehive"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": -1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:beehive"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:beehive"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetX": -1,
+              "offsetY": -1,
+              "offsetZ": 1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:beehive"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetX": 1,
+              "offsetY": -1,
+              "offsetZ": -1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:beehive"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetX": 1,
+              "offsetY": -1,
+              "offsetZ": 1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:beehive"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetX": 1,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:beehive"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:beehive"
+                }
               }
             }
-          },
-          {
-            "condition": "minecraft:location_check",
-            "offsetX": -1,
-            "offsetY": -1,
-            "offsetZ": 0,
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:beehive"
-              }
-            }
-          },
-          {
-            "condition": "minecraft:location_check",
-            "offsetX": 0,
-            "offsetY": -1,
-            "offsetZ": -1,
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:beehive"
-              }
-            }
-          },
-          {
-            "condition": "minecraft:location_check",
-            "offsetX": 0,
-            "offsetY": -1,
-            "offsetZ": 0,
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:beehive"
-              }
-            }
-          },
-          {
-            "condition": "minecraft:location_check",
-            "offsetX": -1,
-            "offsetY": -1,
-            "offsetZ": 1,
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:beehive"
-              }
-            }
-          },
-          {
-            "condition": "minecraft:location_check",
-            "offsetX": 1,
-            "offsetY": -1,
-            "offsetZ": -1,
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:beehive"
-              }
-            }
-          },
-          {
-            "condition": "minecraft:location_check",
-            "offsetX": 1,
-            "offsetY": -1,
-            "offsetZ": 1,
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:beehive"
-              }
-            }
-          },
-          {
-            "condition": "minecraft:location_check",
-            "offsetX": 1,
-            "offsetY": -1,
-            "offsetZ": 0,
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:beehive"
-              }
-            }
-          },
-          {
-            "condition": "minecraft:location_check",
-            "offsetX": 0,
-            "offsetY": -1,
-            "offsetZ": 1,
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:beehive"
-              }
-            }
-          }
-        ]
+          ]
+        }
       }
     }
   },

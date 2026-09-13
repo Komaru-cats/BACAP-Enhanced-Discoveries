@@ -18,93 +18,117 @@
     "kelp": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:all_of",
-            "terms": [
-              {
-                "condition": "minecraft:match_tool",
-                "predicate": {
-                  "items": [
-                    "minecraft:shears"
-                  ]
-                }
-              },
-              {
-                "condition": "minecraft:block_state_property",
-                "block": "minecraft:kelp",
-                "properties": {
-                  "age": "25"
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": "minecraft:shears"
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:kelp",
+                  "state": {
+                    "age": {
+                      "min": "25"
+                    }
+                  }
                 }
               }
-            ]
-          }
-        ]
+            }
+          ]
+        }
       }
     },
     "weeping_vines": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:all_of",
-            "terms": [
-              {
-                "condition": "minecraft:match_tool",
-                "predicate": {
-                  "items": [
-                    "minecraft:shears"
-                  ]
-                }
-              },
-              {
-                "condition": "minecraft:block_state_property",
-                "block": "minecraft:weeping_vines",
-                "properties": {
-                  "age": "25"
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": "minecraft:shears"
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:weeping_vines",
+                  "state": {
+                    "age": {
+                      "min": "25"
+                    }
+                  }
                 }
               }
-            ]
-          }
-        ]
+            }
+          ]
+        }
       }
     },
     "twisting_vines": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:all_of",
-            "terms": [
-              {
-                "condition": "minecraft:block_state_property",
-                "block": "minecraft:twisting_vines",
-                "properties": {
-                  "age": "25"
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": "minecraft:shears"
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:twisting_vines",
+                  "state": {
+                    "age": {
+                      "min": "25"
+                    }
+                  }
                 }
               }
-            ]
-          }
-        ]
+            }
+          ]
+        }
       }
     },
     "cave_vines": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:all_of",
-            "terms": [
-              {
-                "condition": "minecraft:block_state_property",
-                "block": "minecraft:cave_vines",
-                "properties": {
-                  "age": "25"
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": "minecraft:shears"
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:cave_vines",
+                  "state": {
+                    "age": {
+                      "min": "25"
+                    }
+                  }
                 }
               }
-            ]
-          }
-        ]
+            }
+          ]
+        }
       }
     }
   },

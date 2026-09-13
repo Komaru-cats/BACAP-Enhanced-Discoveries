@@ -19,15 +19,17 @@
     "trigger": {
       "trigger": "minecraft:default_block_use",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:block_state_property",
-            "block": "minecraft:daylight_detector",
-            "properties": {
-              "inverted": "true"
+        "location": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": "minecraft:daylight_detector",
+              "state": {
+                "inverted": "true"
+              }
             }
           }
-        ]
+        }
       }
     }
   },

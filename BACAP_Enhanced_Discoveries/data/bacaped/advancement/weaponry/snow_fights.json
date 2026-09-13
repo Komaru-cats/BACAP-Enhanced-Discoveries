@@ -19,16 +19,22 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "equipment": {
-            "mainhand": {
-              "items": [
-                "minecraft:snowball"
-              ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "items": "minecraft:snowball"
+              }
             }
           }
         },
         "entity": {
-          "entity_type": "minecraft:snow_golem"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:snow_golem"
+          }
         }
       }
     }

@@ -22,12 +22,20 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "vehicle": {
-            "entity_type": "minecraft:strider"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:strider"
+            }
           }
         },
         "entity": {
-          "entity_type": "minecraft:ender_dragon"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:ender_dragon"
+          }
         }
       }
     },
@@ -35,11 +43,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:the_end"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:strider"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:the_end"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:strider"
+            }
           }
         }
       }
@@ -48,11 +60,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:small_end_islands"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:strider"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:small_end_islands"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:strider"
+            }
           }
         }
       }
@@ -61,11 +77,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "#bacaped:end_midlands"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:strider"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "#bacaped:end_midlands"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:strider"
+            }
           }
         }
       }
@@ -74,11 +94,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:end_highlands"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:strider"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:end_highlands"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:strider"
+            }
           }
         }
       }
@@ -87,11 +111,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "#bacaped:end_barrens"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:strider"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "#bacaped:end_barrens"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:strider"
+            }
           }
         }
       }
@@ -100,11 +128,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "structures": "minecraft:end_city"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:strider"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "minecraft:end_city"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:strider"
+            }
           }
         }
       }

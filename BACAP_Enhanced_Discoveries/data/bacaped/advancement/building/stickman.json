@@ -21,38 +21,46 @@
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:crafted",
-                "stat": "minecraft:stick",
-                "value": {
-                  "min": 9999
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:crafted",
+                  "stat": "minecraft:stick",
+                  "value": {
+                    "min": 9999
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         },
-        "recipe_id": "minecraft:stick"
+        "recipes": "minecraft:stick"
       }
     },
     "stick_from_bamboo": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:crafted",
-                "stat": "minecraft:stick",
-                "value": {
-                  "min": 9999
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:crafted",
+                  "stat": "minecraft:stick",
+                  "value": {
+                    "min": 9999
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         },
-        "recipe_id": "minecraft:stick_from_bamboo_item"
+        "recipes": "minecraft:stick_from_bamboo_item"
       }
     }
   },

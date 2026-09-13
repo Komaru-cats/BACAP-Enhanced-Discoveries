@@ -35,19 +35,21 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "looking_at": {
-              "entity_type": "minecraft:silverfish",
-              "location": {
-                "structures": "minecraft:ruined_portal_nether"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "looking_at": {
+                "entity_type": "minecraft:silverfish",
+                "location": {
+                  "structures": "minecraft:ruined_portal_nether"
+                }
               }
             }
           }
         },
         "item": {
-          "items": [
-            "minecraft:spyglass"
-          ]
+          "items": "minecraft:spyglass"
         }
       }
     },
@@ -55,19 +57,21 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "looking_at": {
-              "entity_type": "minecraft:silverfish",
-              "location": {
-                "structures": "minecraft:fortress"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "looking_at": {
+                "entity_type": "minecraft:silverfish",
+                "location": {
+                  "structures": "minecraft:fortress"
+                }
               }
             }
           }
         },
         "item": {
-          "items": [
-            "minecraft:spyglass"
-          ]
+          "items": "minecraft:spyglass"
         }
       }
     },
@@ -75,19 +79,21 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "looking_at": {
-              "entity_type": "minecraft:silverfish",
-              "location": {
-                "structures": "minecraft:bastion_remnant"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "looking_at": {
+                "entity_type": "minecraft:silverfish",
+                "location": {
+                  "structures": "minecraft:bastion_remnant"
+                }
               }
             }
           }
         },
         "item": {
-          "items": [
-            "minecraft:spyglass"
-          ]
+          "items": "minecraft:spyglass"
         }
       }
     }

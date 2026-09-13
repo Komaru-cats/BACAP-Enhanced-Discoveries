@@ -34,38 +34,25 @@
     "trigger": {
       "trigger": "minecraft:default_block_use",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:all_of",
-            "terms": [
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {}
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:time_check",
+              "clock": "minecraft:overworld",
+              "value": {
+                "min": 0,
+                "max": 500
               },
-              {
-                "condition": "minecraft:time_check",
-                "clock": "minecraft:overworld",
-                "value": {
-                  "min": 0,
-                  "max": 500
-                },
-                "period": 24000
-              },
-              {
-                "condition": "minecraft:reference",
-                "name": "blazeandcave:at_world_height"
-              }
-            ]
-          }
-        ],
-        "location": [
-          {
-            "condition": "minecraft:block_state_property",
-            "block": "minecraft:bell",
-            "properties": {}
-          }
-        ]
+              "period": 24000
+            },
+            "blazeandcave:at_world_height"
+          ]
+        },
+        "location": {
+          "type": "minecraft:match_block",
+          "blocks": "minecraft:bell"
+        }
       }
     }
   },

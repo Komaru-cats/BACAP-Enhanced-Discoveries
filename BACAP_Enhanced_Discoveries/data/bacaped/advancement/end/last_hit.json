@@ -21,10 +21,18 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "nbt": "{Inventory:[]}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Inventory:[]}"
+          }
         },
         "entity": {
-          "entity_type": "minecraft:ender_dragon"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:ender_dragon"
+          }
         }
       }
     }

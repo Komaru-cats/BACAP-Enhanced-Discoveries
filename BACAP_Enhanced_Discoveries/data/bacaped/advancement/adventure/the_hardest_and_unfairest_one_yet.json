@@ -22,7 +22,7 @@
     "bonus_chest": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
-        "loot_table": "minecraft:chests/spawn_bonus_chest"
+        "loot_tables": "minecraft:chests/spawn_bonus_chest"
       }
     }
   },

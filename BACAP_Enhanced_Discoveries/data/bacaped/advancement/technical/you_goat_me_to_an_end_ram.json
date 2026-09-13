@@ -4,13 +4,19 @@
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
         "player": {
-          "minecraft:location": {
-            "dimension": "minecraft:the_end"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "dimension": "minecraft:the_end"
+            }
           }
         },
         "damage": {
-          "source_entity": {
-            "minecraft:entity_type": "minecraft:goat"
+          "type": {
+            "source_entity": {
+              "minecraft:entity_type": "minecraft:goat"
+            }
           }
         }
       }

@@ -18,31 +18,25 @@
   "parent": "bacaped:adventure/the_beginning_of_the_day",
   "criteria": {
     "din_don": {
-      "trigger": "minecraft:default_block_use",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:custom",
-                "stat": "minecraft:bell_ring",
-                "value": {
-                  "min": 10000
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "minecraft:bell_ring",
+                  "value": {
+                    "min": 10000
+                  }
                 }
-              }
-            ]
-          }
-        },
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:bell"
-              }
+              ]
             }
           }
-        ]
+        }
       }
     }
   },

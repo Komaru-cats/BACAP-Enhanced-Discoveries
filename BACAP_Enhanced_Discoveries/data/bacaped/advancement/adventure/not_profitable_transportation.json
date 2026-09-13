@@ -18,26 +18,24 @@
     "buy_terracotta": {
       "trigger": "minecraft:villager_trade",
       "conditions": {
-        "villager": [
-          {
-            "condition": "minecraft:any_of",
-            "terms": [
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "location": {
-                    "biomes": [
-                      "minecraft:badlands",
-                      "minecraft:wooded_badlands",
-                      "minecraft:eroded_badlands"
-                    ]
-                  }
+        "villager": {
+          "type": "minecraft:any_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biomes": [
+                    "minecraft:badlands",
+                    "minecraft:wooded_badlands",
+                    "minecraft:eroded_badlands"
+                  ]
                 }
               }
-            ]
-          }
-        ],
+            }
+          ]
+        },
         "item": {
           "items": "#minecraft:terracotta"
         }

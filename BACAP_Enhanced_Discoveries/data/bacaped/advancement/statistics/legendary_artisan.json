@@ -36,28 +36,30 @@
       "trigger": "minecraft:default_block_use",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:custom",
-                "stat": "minecraft:interact_with_crafting_table",
-                "value": {
-                  "min": 2500
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "minecraft:interact_with_crafting_table",
+                  "value": {
+                    "min": 2500
+                  }
                 }
-              }
-            ]
-          }
-        },
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:crafting_table"
-              }
+              ]
             }
           }
-        ]
+        },
+        "location": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": "minecraft:crafting_table"
+            }
+          }
+        }
       }
     }
   },

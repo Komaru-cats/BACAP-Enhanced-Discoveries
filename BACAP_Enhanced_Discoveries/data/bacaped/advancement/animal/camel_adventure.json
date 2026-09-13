@@ -21,11 +21,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "structures": "minecraft:desert_pyramid"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:camel"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "minecraft:desert_pyramid"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:camel"
+            }
           }
         }
       }
@@ -34,11 +38,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "structures": "minecraft:village_desert"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:camel"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "minecraft:village_desert"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:camel"
+            }
           }
         }
       }
@@ -47,12 +55,16 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:desert",
-            "structures": "pillager_outpost"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:camel"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:desert",
+              "structures": "minecraft:pillager_outpost"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:camel"
+            }
           }
         }
       }

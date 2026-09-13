@@ -22,7 +22,11 @@
           "items": "minecraft:cookie"
         },
         "entity": {
-          "entity_type": "minecraft:parrot"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:parrot"
+          }
         }
       }
     }

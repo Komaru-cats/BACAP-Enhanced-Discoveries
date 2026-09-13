@@ -10,7 +10,24 @@
       "translate": "Ominous Vault Hunter"
     },
     "description": {
-      "translate": "Unlock 100 Ominous Vaults across Trial Chambers"
+      "translate": "Unlock 100 Ominous Vaults across Trial Chambers",
+      "extra": [
+        {
+          "text": "\n\n"
+        },
+        {
+          "translate": "To view progress, run:",
+          "color": "dark_gray",
+          "italic": true
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "text": "/trigger bac_progress",
+          "color": "gray"
+        }
+      ]
     },
     "announce_to_chat": true,
     "frame": "challenge"

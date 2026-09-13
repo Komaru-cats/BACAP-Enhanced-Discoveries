@@ -19,26 +19,28 @@
     "requirement": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:block_state_property",
-            "block": "minecraft:redstone_block",
-            "properties": {}
-          },
-          {
-            "condition": "minecraft:location_check",
-            "offsetX": 0,
-            "offsetY": -1,
-            "offsetZ": 0,
-            "predicate": {
-              "block": {
-                "blocks": [
-                  "minecraft:hopper"
-                ]
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:redstone_block"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:hopper"
+                }
               }
             }
-          }
-        ]
+          ]
+        }
       }
     }
   },

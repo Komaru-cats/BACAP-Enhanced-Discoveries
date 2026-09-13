@@ -25,12 +25,16 @@
       "trigger": "minecraft:effects_changed",
       "conditions": {
         "player": {
-          "entity_type": "minecraft:player",
-          "effects": {
-            "minecraft:weakness": {},
-            "minecraft:absorption": {},
-            "minecraft:regeneration": {
-              "amplifier": 1
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:player",
+            "effects": {
+              "minecraft:weakness": {},
+              "minecraft:absorption": {},
+              "minecraft:regeneration": {
+                "amplifier": 1
+              }
             }
           }
         }

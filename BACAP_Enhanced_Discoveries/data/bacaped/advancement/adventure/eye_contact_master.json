@@ -19,12 +19,16 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "looking_at": {
-              "entity_type": "minecraft:enderman",
-              "distance": {
-                "absolute": {
-                  "max": 1
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "looking_at": {
+                "entity_type": "minecraft:enderman",
+                "distance": {
+                  "absolute": {
+                    "max": 1
+                  }
                 }
               }
             }

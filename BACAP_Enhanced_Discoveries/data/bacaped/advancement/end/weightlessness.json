@@ -20,25 +20,29 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:flags": {
-            "is_flying": true
-          },
-          "minecraft:effects": {
-            "minecraft:slow_falling": {}
-          },
-          "minecraft:equipment": {
-            "chest": {
-              "items": "minecraft:elytra"
-            }
-          },
-          "minecraft:location": {
-            "block": {
-              "blocks": "minecraft:cobweb"
-            }
-          },
-          "minecraft:movement": {
-            "vertical_speed": {
-              "max": 0.003
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "flags": {
+              "is_flying": true
+            },
+            "effects": {
+              "minecraft:slow_falling": {}
+            },
+            "equipment": {
+              "chest": {
+                "items": "minecraft:elytra"
+              }
+            },
+            "location": {
+              "block": {
+                "blocks": "minecraft:cobweb"
+              }
+            },
+            "movement": {
+              "vertical_speed": {
+                "max": 0.003
+              }
             }
           }
         }

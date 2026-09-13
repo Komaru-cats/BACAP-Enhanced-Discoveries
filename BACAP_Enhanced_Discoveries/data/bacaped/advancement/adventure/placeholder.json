@@ -19,15 +19,17 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:name_tag"
-          ],
+          "items": "minecraft:name_tag",
           "components": {
             "minecraft:custom_name": "Placeholder"
           }
         },
         "entity": {
-          "entity_type": "minecraft:warden"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:warden"
+          }
         }
       }
     }

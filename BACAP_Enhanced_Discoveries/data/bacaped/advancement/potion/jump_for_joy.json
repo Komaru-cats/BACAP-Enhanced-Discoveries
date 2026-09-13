@@ -18,14 +18,22 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "effects": {
-            "minecraft:jump_boost": {}
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "minecraft:jump_boost": {}
+            }
           }
         },
         "entity": {
-          "entity_type": "minecraft:rabbit",
-          "effects": {
-            "minecraft:jump_boost": {}
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:rabbit",
+            "effects": {
+              "minecraft:jump_boost": {}
+            }
           }
         }
       }
@@ -34,14 +42,22 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "effects": {
-            "minecraft:jump_boost": {}
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "minecraft:jump_boost": {}
+            }
           }
         },
         "entity": {
-          "entity_type": "minecraft:slime",
-          "effects": {
-            "minecraft:jump_boost": {}
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:slime",
+            "effects": {
+              "minecraft:jump_boost": {}
+            }
           }
         }
       }
@@ -50,14 +66,22 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "effects": {
-            "minecraft:jump_boost": {}
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "minecraft:jump_boost": {}
+            }
           }
         },
         "entity": {
-          "entity_type": "minecraft:magma_cube",
-          "effects": {
-            "minecraft:jump_boost": {}
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:magma_cube",
+            "effects": {
+              "minecraft:jump_boost": {}
+            }
           }
         }
       }
@@ -66,14 +90,22 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "effects": {
-            "minecraft:jump_boost": {}
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "minecraft:jump_boost": {}
+            }
           }
         },
         "entity": {
-          "entity_type": "minecraft:sulfur_cube",
-          "effects": {
-            "minecraft:jump_boost": {}
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:sulfur_cube",
+            "effects": {
+              "minecraft:jump_boost": {}
+            }
           }
         }
       }
@@ -82,14 +114,22 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "effects": {
-            "minecraft:jump_boost": {}
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "minecraft:jump_boost": {}
+            }
           }
         },
         "entity": {
-          "entity_type": "minecraft:frog",
-          "effects": {
-            "minecraft:jump_boost": {}
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:frog",
+            "effects": {
+              "minecraft:jump_boost": {}
+            }
           }
         }
       }
@@ -98,14 +138,22 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "effects": {
-            "minecraft:jump_boost": {}
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "minecraft:jump_boost": {}
+            }
           }
         },
         "entity": {
-          "entity_type": "minecraft:goat",
-          "effects": {
-            "minecraft:jump_boost": {}
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:goat",
+            "effects": {
+              "minecraft:jump_boost": {}
+            }
           }
         }
       }

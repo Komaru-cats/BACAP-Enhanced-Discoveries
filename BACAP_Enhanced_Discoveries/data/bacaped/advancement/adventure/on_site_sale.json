@@ -19,14 +19,16 @@
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "villager": {
-          "location": {
-            "biomes": "minecraft:river"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:river"
+            }
           }
         },
         "item": {
-          "items": [
-            "minecraft:brick"
-          ]
+          "items": "minecraft:brick"
         }
       }
     }

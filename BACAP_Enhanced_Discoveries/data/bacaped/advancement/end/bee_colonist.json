@@ -18,20 +18,16 @@
     "trigger": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "dimension": "minecraft:the_end",
-              "block": {
-                "blocks": [
-                  "minecraft:bee_nest"
-                ],
-                "nbt": "{bees:[{},{},{}]}"
-              }
+        "location": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "dimension": "minecraft:the_end",
+            "block": {
+              "blocks": "minecraft:bee_nest",
+              "minecraft:nbt": "{Bees:[{},{},{}]}"
             }
           }
-        ]
+        }
       }
     }
   },

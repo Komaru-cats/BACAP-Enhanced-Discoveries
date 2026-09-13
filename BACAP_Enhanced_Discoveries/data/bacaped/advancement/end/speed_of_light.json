@@ -25,9 +25,13 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "movement": {
-            "horizontal_speed": {
-              "min": 120
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 120
+              }
             }
           }
         }

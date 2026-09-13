@@ -24,32 +24,35 @@
             }
           }
         },
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "entity_type": "minecraft:glow_squid",
-              "flags": {
-                "is_on_ground": false
-              }
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
+        "entity": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "location": {
-                  "fluid": {
-                    "fluids": "#minecraft:water"
+                "minecraft:entity_type": "minecraft:glow_squid",
+                "flags": {
+                  "is_on_ground": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "fluid": {
+                      "fluids": "#minecraft:water"
+                    }
                   }
                 }
               }
             }
-          }
-        ]
+          ]
+        }
       }
     }
   },

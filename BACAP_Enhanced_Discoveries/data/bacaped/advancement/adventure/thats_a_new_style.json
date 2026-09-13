@@ -21,12 +21,16 @@
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
-          "equipment": {
-            "chest": {
-              "items": "minecraft:leather_chestplate",
-              "components": {
-                "minecraft:dyed_color": 3847130,
-                "minecraft:custom_name": "Diamond Chestplate"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "chest": {
+                "items": "minecraft:leather_chestplate",
+                "components": {
+                  "minecraft:dyed_color": 3847130,
+                  "minecraft:custom_name": "Diamond Chestplate"
+                }
               }
             }
           }
