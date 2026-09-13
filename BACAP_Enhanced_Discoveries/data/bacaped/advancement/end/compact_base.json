@@ -23,87 +23,91 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "slots": {
-            "enderchest.0": {
-              "items": "#minecraft:shulker_boxes"
-            },
-            "enderchest.1": {
-              "items": "#minecraft:shulker_boxes"
-            },
-            "enderchest.2": {
-              "items": "#minecraft:shulker_boxes"
-            },
-            "enderchest.3": {
-              "items": "#minecraft:shulker_boxes"
-            },
-            "enderchest.4": {
-              "items": "#minecraft:shulker_boxes"
-            },
-            "enderchest.5": {
-              "items": "#minecraft:shulker_boxes"
-            },
-            "enderchest.6": {
-              "items": "#minecraft:shulker_boxes"
-            },
-            "enderchest.7": {
-              "items": "#minecraft:shulker_boxes"
-            },
-            "enderchest.8": {
-              "items": "#minecraft:shulker_boxes"
-            },
-            "enderchest.9": {
-              "items": "#minecraft:shulker_boxes"
-            },
-            "enderchest.10": {
-              "items": "#minecraft:shulker_boxes"
-            },
-            "enderchest.11": {
-              "items": "#minecraft:shulker_boxes"
-            },
-            "enderchest.12": {
-              "items": "#minecraft:shulker_boxes"
-            },
-            "enderchest.13": {
-              "items": "#minecraft:shulker_boxes"
-            },
-            "enderchest.14": {
-              "items": "#minecraft:shulker_boxes"
-            },
-            "enderchest.15": {
-              "items": "#minecraft:shulker_boxes"
-            },
-            "enderchest.16": {
-              "items": "#minecraft:shulker_boxes"
-            },
-            "enderchest.17": {
-              "items": "#minecraft:shulker_boxes"
-            },
-            "enderchest.18": {
-              "items": "#minecraft:shulker_boxes"
-            },
-            "enderchest.19": {
-              "items": "#minecraft:shulker_boxes"
-            },
-            "enderchest.20": {
-              "items": "#minecraft:shulker_boxes"
-            },
-            "enderchest.21": {
-              "items": "#minecraft:shulker_boxes"
-            },
-            "enderchest.22": {
-              "items": "#minecraft:shulker_boxes"
-            },
-            "enderchest.23": {
-              "items": "#minecraft:shulker_boxes"
-            },
-            "enderchest.24": {
-              "items": "#minecraft:shulker_boxes"
-            },
-            "enderchest.25": {
-              "items": "#minecraft:shulker_boxes"
-            },
-            "enderchest.26": {
-              "items": "#minecraft:shulker_boxes"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "enderchest.0": {
+                "items": "#minecraft:shulker_boxes"
+              },
+              "enderchest.1": {
+                "items": "#minecraft:shulker_boxes"
+              },
+              "enderchest.2": {
+                "items": "#minecraft:shulker_boxes"
+              },
+              "enderchest.3": {
+                "items": "#minecraft:shulker_boxes"
+              },
+              "enderchest.4": {
+                "items": "#minecraft:shulker_boxes"
+              },
+              "enderchest.5": {
+                "items": "#minecraft:shulker_boxes"
+              },
+              "enderchest.6": {
+                "items": "#minecraft:shulker_boxes"
+              },
+              "enderchest.7": {
+                "items": "#minecraft:shulker_boxes"
+              },
+              "enderchest.8": {
+                "items": "#minecraft:shulker_boxes"
+              },
+              "enderchest.9": {
+                "items": "#minecraft:shulker_boxes"
+              },
+              "enderchest.10": {
+                "items": "#minecraft:shulker_boxes"
+              },
+              "enderchest.11": {
+                "items": "#minecraft:shulker_boxes"
+              },
+              "enderchest.12": {
+                "items": "#minecraft:shulker_boxes"
+              },
+              "enderchest.13": {
+                "items": "#minecraft:shulker_boxes"
+              },
+              "enderchest.14": {
+                "items": "#minecraft:shulker_boxes"
+              },
+              "enderchest.15": {
+                "items": "#minecraft:shulker_boxes"
+              },
+              "enderchest.16": {
+                "items": "#minecraft:shulker_boxes"
+              },
+              "enderchest.17": {
+                "items": "#minecraft:shulker_boxes"
+              },
+              "enderchest.18": {
+                "items": "#minecraft:shulker_boxes"
+              },
+              "enderchest.19": {
+                "items": "#minecraft:shulker_boxes"
+              },
+              "enderchest.20": {
+                "items": "#minecraft:shulker_boxes"
+              },
+              "enderchest.21": {
+                "items": "#minecraft:shulker_boxes"
+              },
+              "enderchest.22": {
+                "items": "#minecraft:shulker_boxes"
+              },
+              "enderchest.23": {
+                "items": "#minecraft:shulker_boxes"
+              },
+              "enderchest.24": {
+                "items": "#minecraft:shulker_boxes"
+              },
+              "enderchest.25": {
+                "items": "#minecraft:shulker_boxes"
+              },
+              "enderchest.26": {
+                "items": "#minecraft:shulker_boxes"
+              }
             }
           }
         }

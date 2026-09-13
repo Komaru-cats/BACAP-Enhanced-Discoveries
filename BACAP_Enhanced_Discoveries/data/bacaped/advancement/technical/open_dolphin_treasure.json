@@ -3,13 +3,13 @@
     "buried_treasure": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
-        "loot_table": "minecraft:chests/buried_treasure"
+        "loot_tables": "minecraft:chests/buried_treasure"
       }
     },
     "shipwreck_treasure": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
-        "loot_table": "minecraft:chests/shipwreck_treasure"
+        "loot_tables": "minecraft:chests/shipwreck_treasure"
       }
     }
   },

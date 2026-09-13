@@ -26,33 +26,53 @@
         },
         "victims": [
           {
-            "entity_type": "minecraft:axolotl",
-            "flags": {
-              "is_baby": true
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:axolotl",
+              "flags": {
+                "is_baby": true
+              }
             }
           },
           {
-            "entity_type": "minecraft:turtle",
-            "flags": {
-              "is_baby": true
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:turtle",
+              "flags": {
+                "is_baby": true
+              }
             }
           },
           {
-            "entity_type": "minecraft:salmon",
-            "components": {
-              "minecraft:salmon/size": "small"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:salmon",
+              "components": {
+                "minecraft:salmon/size": "small"
+              }
             }
           },
           {
-            "entity_type": "minecraft:rabbit",
-            "flags": {
-              "is_baby": true
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:rabbit",
+              "flags": {
+                "is_baby": true
+              }
             }
           },
           {
-            "entity_type": "minecraft:cat",
-            "flags": {
-              "is_baby": true
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:cat",
+              "flags": {
+                "is_baby": true
+              }
             }
           }
         ]

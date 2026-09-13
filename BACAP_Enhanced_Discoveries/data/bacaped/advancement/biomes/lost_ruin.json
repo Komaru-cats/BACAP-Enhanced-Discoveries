@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:sea_lantern",
-      "components": {}
+      "id": "minecraft:sea_lantern"
     },
     "title": {
       "translate": "Lost Ruin"
@@ -19,7 +18,7 @@
     "trigger": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
-        "loot_table": "minecraft:chests/underwater_ruin_big"
+        "loot_tables": "minecraft:chests/underwater_ruin_big"
       }
     }
   },

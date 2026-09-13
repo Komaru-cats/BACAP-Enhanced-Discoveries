@@ -22,23 +22,31 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "nbt": "{Inventory:[]}",
-          "vehicle": {
-            "entity_type": "minecraft:pig"
-          },
-          "effects": {
-            "minecraft:poison": {},
-            "minecraft:nausea": {},
-            "minecraft:hunger": {}
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Inventory:[]}",
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:pig"
+            },
+            "effects": {
+              "minecraft:poison": {},
+              "minecraft:nausea": {},
+              "minecraft:hunger": {}
+            }
           }
         },
         "entity": {
-          "entity_type": "minecraft:warden"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:warden"
+          }
         },
         "killing_blow": {
           "tags": [
             {
-              "id": "minecraft:is_projectile",
+              "id": "#minecraft:is_projectile",
               "expected": false
             }
           ]

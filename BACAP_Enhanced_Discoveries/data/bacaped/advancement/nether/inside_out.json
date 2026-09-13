@@ -19,8 +19,12 @@
       "trigger": "minecraft:used_ender_eye",
       "conditions": {
         "player": {
-          "location": {
-            "structures": "minecraft:stronghold"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structures": "minecraft:stronghold"
+            }
           }
         }
       }

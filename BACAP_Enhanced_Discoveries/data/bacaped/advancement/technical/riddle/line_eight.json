@@ -4,21 +4,29 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:technical/riddle/line_seven": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:technical/riddle/line_seven": true
+              }
             }
           }
         },
         "entity": {
-          "entity_type": "minecraft:stray",
-          "vehicle": {
-            "entity_type": "minecraft:spider"
-          },
-          "targeted_entity": {
-            "entity_type": "minecraft:stray",
-            "vehicle": {
-              "entity_type": "minecraft:skeleton_horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:stray",
+            "minecraft:vehicle": {
+              "minecraft:entity_type": "minecraft:spider"
+            },
+            "targeted_entity": {
+              "minecraft:entity_type": "minecraft:stray",
+              "minecraft:vehicle": {
+                "minecraft:entity_type": "minecraft:skeleton_horse"
+              }
             }
           }
         }
@@ -28,21 +36,29 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaped:technical/riddle/line_seven": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:technical/riddle/line_seven": true
+              }
             }
           }
         },
         "entity": {
-          "entity_type": "minecraft:stray",
-          "vehicle": {
-            "entity_type": "minecraft:skeleton_horse"
-          },
-          "targeted_entity": {
-            "entity_type": "minecraft:stray",
-            "vehicle": {
-              "entity_type": "minecraft:spider"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:stray",
+            "minecraft:vehicle": {
+              "minecraft:entity_type": "minecraft:skeleton_horse"
+            },
+            "targeted_entity": {
+              "minecraft:entity_type": "minecraft:stray",
+              "minecraft:vehicle": {
+                "minecraft:entity_type": "minecraft:spider"
+              }
             }
           }
         }

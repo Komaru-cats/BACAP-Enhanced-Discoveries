@@ -24,12 +24,20 @@
       "trigger": "minecraft:entity_killed_player",
       "conditions": {
         "player": {
-          "effects": {
-            "minecraft:fire_resistance": {}
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "minecraft:fire_resistance": {}
+            }
           }
         },
         "entity": {
-          "entity_type": "minecraft:blaze"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:blaze"
+          }
         }
       }
     }

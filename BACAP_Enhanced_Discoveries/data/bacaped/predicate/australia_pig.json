@@ -1,55 +1,51 @@
 {
-  "condition": "minecraft:any_of",
+  "type": "minecraft:any_of",
   "terms": [
     {
-      "condition": "minecraft:all_of",
+      "type": "minecraft:all_of",
       "terms": [
         {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
+          "type": "minecraft:location_check",
+          "offsetY": 1,
           "predicate": {
-            "entity_type": "minecraft:pig",
-            "components": {
-              "minecraft:pig/variant": "minecraft:warm",
-              "minecraft:custom_name": "Grumm"
+            "block": {
+              "blocks": "minecraft:grass_block"
             }
           }
         },
         {
-          "condition": "minecraft:location_check",
-          "offsetX": 0,
-          "offsetY": 1,
-          "offsetZ": 0,
+          "type": "minecraft:entity_properties",
+          "entity": "this",
           "predicate": {
-            "block": {
-              "blocks": "minecraft:grass_block"
+            "minecraft:entity_type": "minecraft:pig",
+            "minecraft:components": {
+              "minecraft:pig/variant": "minecraft:warm",
+              "minecraft:custom_name": "Grumm"
             }
           }
         }
       ]
     },
     {
-      "condition": "minecraft:all_of",
+      "type": "minecraft:all_of",
       "terms": [
         {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
+          "type": "minecraft:location_check",
+          "offsetY": 1,
           "predicate": {
-            "entity_type": "minecraft:pig",
-            "components": {
-              "minecraft:pig/variant": "minecraft:warm",
-              "minecraft:custom_name": "Dinnerbone"
+            "block": {
+              "blocks": "minecraft:grass_block"
             }
           }
         },
         {
-          "condition": "minecraft:location_check",
-          "offsetX": 0,
-          "offsetY": 1,
-          "offsetZ": 0,
+          "type": "minecraft:entity_properties",
+          "entity": "this",
           "predicate": {
-            "block": {
-              "blocks": "minecraft:grass_block"
+            "minecraft:entity_type": "minecraft:pig",
+            "minecraft:components": {
+              "minecraft:pig/variant": "minecraft:warm",
+              "minecraft:custom_name": "Dinnerbone"
             }
           }
         }

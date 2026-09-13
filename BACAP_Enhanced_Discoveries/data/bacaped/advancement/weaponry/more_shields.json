@@ -49,119 +49,123 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "slots": {
-            "inventory.0": {
-              "items": "minecraft:shield"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "inventory.0": {
+                "items": "minecraft:shield"
+              },
+              "inventory.1": {
+                "items": "minecraft:shield"
+              },
+              "inventory.2": {
+                "items": "minecraft:shield"
+              },
+              "inventory.3": {
+                "items": "minecraft:shield"
+              },
+              "inventory.4": {
+                "items": "minecraft:shield"
+              },
+              "inventory.5": {
+                "items": "minecraft:shield"
+              },
+              "inventory.6": {
+                "items": "minecraft:shield"
+              },
+              "inventory.7": {
+                "items": "minecraft:shield"
+              },
+              "inventory.8": {
+                "items": "minecraft:shield"
+              },
+              "inventory.9": {
+                "items": "minecraft:shield"
+              },
+              "inventory.10": {
+                "items": "minecraft:shield"
+              },
+              "inventory.11": {
+                "items": "minecraft:shield"
+              },
+              "inventory.12": {
+                "items": "minecraft:shield"
+              },
+              "inventory.13": {
+                "items": "minecraft:shield"
+              },
+              "inventory.14": {
+                "items": "minecraft:shield"
+              },
+              "inventory.15": {
+                "items": "minecraft:shield"
+              },
+              "inventory.16": {
+                "items": "minecraft:shield"
+              },
+              "inventory.17": {
+                "items": "minecraft:shield"
+              },
+              "inventory.18": {
+                "items": "minecraft:shield"
+              },
+              "inventory.19": {
+                "items": "minecraft:shield"
+              },
+              "inventory.20": {
+                "items": "minecraft:shield"
+              },
+              "inventory.21": {
+                "items": "minecraft:shield"
+              },
+              "inventory.22": {
+                "items": "minecraft:shield"
+              },
+              "inventory.23": {
+                "items": "minecraft:shield"
+              },
+              "inventory.24": {
+                "items": "minecraft:shield"
+              },
+              "inventory.25": {
+                "items": "minecraft:shield"
+              },
+              "inventory.26": {
+                "items": "minecraft:shield"
+              },
+              "hotbar.0": {
+                "items": "minecraft:shield"
+              },
+              "hotbar.1": {
+                "items": "minecraft:shield"
+              },
+              "hotbar.2": {
+                "items": "minecraft:shield"
+              },
+              "hotbar.3": {
+                "items": "minecraft:shield"
+              },
+              "hotbar.4": {
+                "items": "minecraft:shield"
+              },
+              "hotbar.5": {
+                "items": "minecraft:shield"
+              },
+              "hotbar.6": {
+                "items": "minecraft:shield"
+              },
+              "hotbar.7": {
+                "items": "minecraft:shield"
+              },
+              "hotbar.8": {
+                "items": "minecraft:shield"
+              }
             },
-            "inventory.1": {
-              "items": "minecraft:shield"
-            },
-            "inventory.2": {
-              "items": "minecraft:shield"
-            },
-            "inventory.3": {
-              "items": "minecraft:shield"
-            },
-            "inventory.4": {
-              "items": "minecraft:shield"
-            },
-            "inventory.5": {
-              "items": "minecraft:shield"
-            },
-            "inventory.6": {
-              "items": "minecraft:shield"
-            },
-            "inventory.7": {
-              "items": "minecraft:shield"
-            },
-            "inventory.8": {
-              "items": "minecraft:shield"
-            },
-            "inventory.9": {
-              "items": "minecraft:shield"
-            },
-            "inventory.10": {
-              "items": "minecraft:shield"
-            },
-            "inventory.11": {
-              "items": "minecraft:shield"
-            },
-            "inventory.12": {
-              "items": "minecraft:shield"
-            },
-            "inventory.13": {
-              "items": "minecraft:shield"
-            },
-            "inventory.14": {
-              "items": "minecraft:shield"
-            },
-            "inventory.15": {
-              "items": "minecraft:shield"
-            },
-            "inventory.16": {
-              "items": "minecraft:shield"
-            },
-            "inventory.17": {
-              "items": "minecraft:shield"
-            },
-            "inventory.18": {
-              "items": "minecraft:shield"
-            },
-            "inventory.19": {
-              "items": "minecraft:shield"
-            },
-            "inventory.20": {
-              "items": "minecraft:shield"
-            },
-            "inventory.21": {
-              "items": "minecraft:shield"
-            },
-            "inventory.22": {
-              "items": "minecraft:shield"
-            },
-            "inventory.23": {
-              "items": "minecraft:shield"
-            },
-            "inventory.24": {
-              "items": "minecraft:shield"
-            },
-            "inventory.25": {
-              "items": "minecraft:shield"
-            },
-            "inventory.26": {
-              "items": "minecraft:shield"
-            },
-            "hotbar.0": {
-              "items": "minecraft:shield"
-            },
-            "hotbar.1": {
-              "items": "minecraft:shield"
-            },
-            "hotbar.2": {
-              "items": "minecraft:shield"
-            },
-            "hotbar.3": {
-              "items": "minecraft:shield"
-            },
-            "hotbar.4": {
-              "items": "minecraft:shield"
-            },
-            "hotbar.5": {
-              "items": "minecraft:shield"
-            },
-            "hotbar.6": {
-              "items": "minecraft:shield"
-            },
-            "hotbar.7": {
-              "items": "minecraft:shield"
-            },
-            "hotbar.8": {
-              "items": "minecraft:shield"
-            }
-          },
-          "equipment": {
-            "offhand": {
-              "items": "minecraft:shield"
+            "equipment": {
+              "offhand": {
+                "items": "minecraft:shield"
+              }
             }
           }
         }

@@ -26,19 +26,39 @@
         },
         "victims": [
           {
-            "entity_type": "minecraft:warden"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:warden"
+            }
           },
           {
-            "entity_type": "minecraft:warden"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:warden"
+            }
           },
           {
-            "entity_type": "minecraft:warden"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:warden"
+            }
           },
           {
-            "entity_type": "minecraft:warden"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:warden"
+            }
           },
           {
-            "entity_type": "minecraft:warden"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:warden"
+            }
           }
         ]
       }

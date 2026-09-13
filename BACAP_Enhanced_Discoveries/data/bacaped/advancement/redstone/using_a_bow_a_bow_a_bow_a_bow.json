@@ -19,26 +19,28 @@
       "trigger": "minecraft:default_block_use",
       "conditions": {
         "player": {
-          "equipment": {
-            "mainhand": {
-              "items": "minecraft:bow"
-            },
-            "offhand": {
-              "items": "minecraft:bow"
-            }
-          }
-        },
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:dispenser",
-                "nbt": "{Items: [{id: \"minecraft:bow\"}]}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "items": "minecraft:bow"
+              },
+              "offhand": {
+                "items": "minecraft:bow"
               }
             }
           }
-        ]
+        },
+        "location": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": "minecraft:dispenser",
+              "nbt": "{Items: [{id: \"minecraft:bow\"}]}"
+            }
+          }
+        }
       }
     }
   },

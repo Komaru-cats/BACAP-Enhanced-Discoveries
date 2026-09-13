@@ -28,13 +28,25 @@
         },
         "victims": [
           {
-            "entity_type": "minecraft:blaze"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:blaze"
+            }
           },
           {
-            "entity_type": "minecraft:blaze"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:blaze"
+            }
           },
           {
-            "entity_type": "minecraft:blaze"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:blaze"
+            }
           }
         ]
       }

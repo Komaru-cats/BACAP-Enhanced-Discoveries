@@ -19,38 +19,40 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "equipment": {
-            "mainhand": {
-              "items": [
-                "minecraft:copper_sword",
-                "minecraft:diamond_sword",
-                "minecraft:golden_sword",
-                "minecraft:iron_sword",
-                "minecraft:netherite_sword",
-                "minecraft:stone_sword",
-                "minecraft:wooden_sword"
-              ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:copper_sword",
+                  "minecraft:diamond_sword",
+                  "minecraft:golden_sword",
+                  "minecraft:iron_sword",
+                  "minecraft:netherite_sword",
+                  "minecraft:stone_sword",
+                  "minecraft:wooden_sword"
+                ]
+              },
+              "offhand": {
+                "items": "minecraft:shield"
+              },
+              "head": {
+                "items": "minecraft:leather_helmet"
+              },
+              "chest": {
+                "items": "minecraft:leather_chestplate"
+              },
+              "legs": {
+                "items": "minecraft:leather_leggings"
+              },
+              "feet": {
+                "items": "minecraft:leather_boots"
+              }
             },
-            "offhand": {
-              "items": [
-                "minecraft:shield"
-              ]
-            },
-            "head": {
-              "items": "minecraft:leather_helmet"
-            },
-            "chest": {
-              "items": "minecraft:leather_chestplate"
-            },
-            "legs": {
-              "items": "minecraft:leather_leggings"
-            },
-            "feet": {
-              "items": "minecraft:leather_boots"
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:camel"
             }
-          },
-          "vehicle": {
-            "entity_type": "minecraft:camel"
           }
         }
       }

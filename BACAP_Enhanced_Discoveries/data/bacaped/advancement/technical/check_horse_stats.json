@@ -4,10 +4,12 @@
       "trigger": "minecraft:started_riding",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:vehicle": {
+              "minecraft:entity_type": "minecraft:horse"
+            }
           }
         }
       }

@@ -22,10 +22,14 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "slots": {
-            "weapon.mainhand": {
-              "components": {
-                "minecraft:repair_cost": 63
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "weapon.mainhand": {
+                "components": {
+                  "minecraft:repair_cost": 63
+                }
               }
             }
           }

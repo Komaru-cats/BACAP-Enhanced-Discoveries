@@ -23,16 +23,20 @@
       "trigger": "minecraft:enchanted_item",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:custom",
-                "stat": "minecraft:enchant_item",
-                "value": {
-                  "min": 1000
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "minecraft:enchant_item",
+                  "value": {
+                    "min": 1000
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }

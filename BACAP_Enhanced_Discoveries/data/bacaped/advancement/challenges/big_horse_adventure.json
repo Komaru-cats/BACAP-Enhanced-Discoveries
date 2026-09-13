@@ -19,11 +19,32 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:river"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:river"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
+          }
+        }
+      }
+    },
+    "dappled_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:dappled_forest"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -32,11 +53,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:swamp"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:swamp"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -45,11 +70,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:desert"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:desert"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -58,11 +87,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:snowy_taiga"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:snowy_taiga"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -71,11 +104,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:badlands"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:badlands"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -84,11 +121,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:forest"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:forest"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -97,11 +138,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:stony_shore"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:stony_shore"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -110,11 +155,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:snowy_plains"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:snowy_plains"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -123,11 +172,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:wooded_badlands"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:wooded_badlands"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -136,11 +189,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:savanna"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:savanna"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -149,11 +206,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:plains"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:plains"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -162,11 +223,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:frozen_river"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:frozen_river"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -175,11 +240,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:old_growth_pine_taiga"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:old_growth_pine_taiga"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -188,11 +257,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:snowy_beach"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:snowy_beach"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -201,11 +274,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:deep_ocean"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:deep_ocean"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -214,11 +291,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:sparse_jungle"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:sparse_jungle"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -227,11 +308,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:ocean"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:ocean"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -240,11 +325,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:windswept_hills"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:windswept_hills"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -253,11 +342,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:jungle"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:jungle"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -266,11 +359,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:beach"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:beach"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -279,11 +376,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:savanna_plateau"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:savanna_plateau"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -292,11 +393,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:dark_forest"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:dark_forest"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -305,11 +410,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:taiga"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:taiga"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -318,11 +427,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:birch_forest"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:birch_forest"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -331,11 +444,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:mushroom_fields"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:mushroom_fields"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -344,11 +461,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:windswept_forest"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:windswept_forest"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -357,11 +478,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:cold_ocean"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:cold_ocean"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -370,11 +495,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:warm_ocean"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:warm_ocean"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -383,11 +512,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:lukewarm_ocean"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:lukewarm_ocean"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -396,11 +529,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:frozen_ocean"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:frozen_ocean"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -409,11 +546,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:deep_frozen_ocean"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:deep_frozen_ocean"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -422,11 +563,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:deep_lukewarm_ocean"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:deep_lukewarm_ocean"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -435,11 +580,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:deep_cold_ocean"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:deep_cold_ocean"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -448,11 +597,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:bamboo_jungle"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:bamboo_jungle"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -461,11 +614,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:sunflower_plains"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:sunflower_plains"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -474,11 +631,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:windswept_gravelly_hills"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:windswept_gravelly_hills"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -487,11 +648,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:flower_forest"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:flower_forest"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -500,11 +665,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:ice_spikes"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:ice_spikes"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -513,11 +682,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:old_growth_birch_forest"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:old_growth_birch_forest"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -526,11 +699,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:old_growth_spruce_taiga"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:old_growth_spruce_taiga"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -539,11 +716,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:windswept_savanna"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:windswept_savanna"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -552,11 +733,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:eroded_badlands"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:eroded_badlands"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -565,11 +750,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:meadow"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:meadow"
+            },
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -578,11 +767,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:grove"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:grove"
+            },
+            "vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -591,11 +784,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:snowy_slopes"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:snowy_slopes"
+            },
+            "vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -604,11 +801,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:frozen_peaks"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:frozen_peaks"
+            },
+            "vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -617,11 +818,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:jagged_peaks"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:jagged_peaks"
+            },
+            "vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -630,11 +835,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:stony_peaks"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:stony_peaks"
+            },
+            "vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -643,11 +852,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:lush_caves"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:lush_caves"
+            },
+            "vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -656,11 +869,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:dripstone_caves"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:dripstone_caves"
+            },
+            "vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -669,11 +886,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:nether_wastes"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:nether_wastes"
+            },
+            "vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -682,11 +903,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:crimson_forest"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:crimson_forest"
+            },
+            "vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -695,11 +920,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:warped_forest"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:warped_forest"
+            },
+            "vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -708,11 +937,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:soul_sand_valley"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:soul_sand_valley"
+            },
+            "vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -721,11 +954,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:basalt_deltas"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:basalt_deltas"
+            },
+            "vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -734,11 +971,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:the_end"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:the_end"
+            },
+            "vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -747,11 +988,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:small_end_islands"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:small_end_islands"
+            },
+            "vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -760,11 +1005,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:end_highlands"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:end_highlands"
+            },
+            "vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -773,11 +1022,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "#bacaped:end_midlands"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "#bacaped:end_midlands"
+            },
+            "vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -786,11 +1039,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "#bacaped:end_barrens"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "#bacaped:end_barrens"
+            },
+            "vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -799,11 +1056,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:mangrove_swamp"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:mangrove_swamp"
+            },
+            "vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -812,11 +1073,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:deep_dark"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:deep_dark"
+            },
+            "vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -825,11 +1090,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:cherry_grove"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:cherry_grove"
+            },
+            "vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }
@@ -838,11 +1107,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:pale_garden"
-          },
-          "vehicle": {
-            "entity_type": "minecraft:horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:pale_garden"
+            },
+            "vehicle": {
+              "entity_type": "minecraft:horse"
+            }
           }
         }
       }

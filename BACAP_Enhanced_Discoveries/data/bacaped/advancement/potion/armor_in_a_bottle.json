@@ -25,12 +25,16 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "slots": {
-            "container.*": {
-              "items": "minecraft:lingering_potion",
-              "components": {
-                "minecraft:potion_contents": {
-                  "potion": "minecraft:strong_turtle_master"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "container.*": {
+                "items": "minecraft:lingering_potion",
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:strong_turtle_master"
+                  }
                 }
               }
             }

@@ -34,19 +34,23 @@
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:crafted",
-                "stat": "minecraft:piston",
-                "value": {
-                  "min": 1000
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:crafted",
+                  "stat": "minecraft:piston",
+                  "value": {
+                    "min": 1000
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         },
-        "recipe_id": "minecraft:piston"
+        "recipes": "minecraft:piston"
       }
     }
   },

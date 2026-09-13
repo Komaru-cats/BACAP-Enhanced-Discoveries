@@ -20,8 +20,12 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
-          "flags": {
-            "is_sneaking": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "flags": {
+              "is_sneaking": true
+            }
           }
         },
         "item": {

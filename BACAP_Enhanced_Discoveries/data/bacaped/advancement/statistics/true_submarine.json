@@ -20,16 +20,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:custom",
-                "stat": "minecraft:nautilus_one_cm",
-                "value": {
-                  "min": 12500000
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "minecraft:nautilus_one_cm",
+                  "value": {
+                    "min": 12500000
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }

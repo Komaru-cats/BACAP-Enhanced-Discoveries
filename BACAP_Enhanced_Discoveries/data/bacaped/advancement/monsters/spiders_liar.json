@@ -23,11 +23,15 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "stepping_on": {
-            "structures": "minecraft:mansion",
-            "block": {
-              "blocks": "minecraft:spawner",
-              "nbt": "{SpawnData: {entity: {id: \"minecraft:spider\"}}}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "stepping_on": {
+              "structures": "minecraft:mansion",
+              "block": {
+                "blocks": "minecraft:spawner",
+                "minecraft:nbt": "{SpawnData:{entity:{id:\"minecraft:spider\"}}}"
+              }
             }
           }
         }

@@ -22,114 +22,110 @@
     "my_mountains": {
       "trigger": "minecraft:using_item",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:all_of",
-            "terms": [
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "minecraft:type_specific/player": {
-                    "looking_at": {
-                      "entity_type": "minecraft:goat"
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "looking_at": {
+                    "entity_type": "minecraft:goat"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:any_of",
+              "terms": [
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:location": {
+                      "biomes": "minecraft:frozen_peaks"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:location": {
+                      "biomes": "minecraft:grove"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:location": {
+                      "biomes": "minecraft:jagged_peaks"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:location": {
+                      "biomes": "minecraft:meadow"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:location": {
+                      "biomes": "minecraft:snowy_slopes"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:location": {
+                      "biomes": "minecraft:stony_peaks"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:location": {
+                      "biomes": "minecraft:windswept_forest"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:location": {
+                      "biomes": "minecraft:windswept_gravelly_hills"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:location": {
+                      "biomes": "minecraft:windswept_hills"
                     }
                   }
                 }
-              },
-              {
-                "condition": "minecraft:any_of",
-                "terms": [
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "location": {
-                        "biome": "minecraft:frozen_peaks"
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "location": {
-                        "biome": "minecraft:grove"
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "location": {
-                        "biome": "minecraft:jagged_peaks"
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "location": {
-                        "biome": "minecraft:meadow"
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "location": {
-                        "biome": "minecraft:snowy_slopes"
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "location": {
-                        "biome": "minecraft:stony_peaks"
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "location": {
-                        "biome": "minecraft:windswept_forest"
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "location": {
-                        "biome": "minecraft:windswept_gravelly_hills"
-                      }
-                    }
-                  },
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "location": {
-                        "biome": "minecraft:windswept_hills"
-                      }
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "item": {
-          "items": [
-            "minecraft:milk_bucket"
+              ]
+            }
           ]
+        },
+        "item": {
+          "items": "minecraft:milk_bucket"
         }
       }
     }

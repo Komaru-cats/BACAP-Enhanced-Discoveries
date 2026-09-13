@@ -163,47 +163,83 @@
         }
       }
     },
-    "ocean_explorer_map": {
+    "ocean_monument_map": {
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "item": {
-          "items": "minecraft:filled_map",
-          "components": {
-            "minecraft:map_color": 3830373
-          }
+          "items": "minecraft:ocean_monument_map"
         }
       }
     },
-    "trial_explorer_map": {
+    "buried_trial_chambers_map": {
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "item": {
-          "items": "minecraft:filled_map",
-          "components": {
-            "minecraft:map_color": 12741452
-          }
+          "items": "minecraft:buried_trial_chambers_map"
         }
       }
     },
-    "woodland_explorer_map": {
+    "woodland_mansion_map": {
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "item": {
-          "items": "minecraft:filled_map",
-          "components": {
-            "minecraft:map_color": 5393476
-          }
+          "items": "minecraft:woodland_mansion_map"
         }
       }
     },
-    "biome_explorer_map": {
+    "desert_village_map": {
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "item": {
-          "items": "minecraft:filled_map",
-          "components": {
-            "minecraft:map_color": 10066329
-          }
+          "items": "minecraft:desert_village_map"
+        }
+      }
+    },
+    "plains_village_map": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "minecraft:plains_village_map"
+        }
+      }
+    },
+    "savanna_village_map": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "minecraft:savanna_village_map"
+        }
+      }
+    },
+    "snowy_village_map": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "minecraft:snowy_village_map"
+        }
+      }
+    },
+    "taiga_village_map": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "minecraft:taiga_village_map"
+        }
+      }
+    },
+    "jungle_pyramid_map": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "minecraft:jungle_pyramid_map"
+        }
+      }
+    },
+    "swamp_hut_map": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "minecraft:swamp_hut_map"
         }
       }
     },

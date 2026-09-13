@@ -34,167 +34,170 @@
     "trigger": {
       "trigger": "minecraft:fall_from_height",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "effects": {
-                  "minecraft:absorption": {}
-                }
-              }
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:any_of",
-              "terms": [
-                {
-                  "condition": "minecraft:location_check",
-                  "offsetY": -2,
-                  "predicate": {
-                    "fluid": {
-                      "fluids": "#minecraft:lava"
-                    }
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "offsetY": -1,
-                  "predicate": {
-                    "fluid": {
-                      "fluids": "#minecraft:lava"
-                    }
-                  }
-                }
-              ]
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:any_of",
-              "terms": [
-                {
-                  "condition": "minecraft:location_check",
-                  "offsetY": -2,
-                  "predicate": {
-                    "fluid": {
-                      "fluids": "#minecraft:water"
-                    }
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "offsetY": -3,
-                  "predicate": {
-                    "fluid": {
-                      "fluids": "#minecraft:water"
-                    }
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "offsetY": -4,
-                  "predicate": {
-                    "fluid": {
-                      "fluids": "#minecraft:water"
-                    }
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "offsetY": -5,
-                  "predicate": {
-                    "fluid": {
-                      "fluids": "#minecraft:water"
-                    }
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "offsetY": -1,
-                  "predicate": {
-                    "fluid": {
-                      "fluids": "#minecraft:water"
-                    }
-                  }
-                }
-              ]
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "effects": {
-                  "minecraft:resistance": {}
-                }
-              }
-            }
-          },
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "nbt": "{Inventory:[]}"
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "effects": {
-                  "minecraft:slow_falling": {}
-                }
-              }
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "stepping_on": {
-                  "block": {
-                    "blocks": "#minecraft:beds"
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "effects": {
+                    "minecraft:absorption": {}
                   }
                 }
               }
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:any_of",
+                "terms": [
+                  {
+                    "type": "minecraft:location_check",
+                    "offsetY": -2,
+                    "predicate": {
+                      "fluid": {
+                        "fluids": "#minecraft:lava"
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:location_check",
+                    "offsetY": -1,
+                    "predicate": {
+                      "fluid": {
+                        "fluids": "#minecraft:lava"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:any_of",
+                "terms": [
+                  {
+                    "type": "minecraft:location_check",
+                    "offsetY": -2,
+                    "predicate": {
+                      "fluid": {
+                        "fluids": "#minecraft:water"
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:location_check",
+                    "offsetY": -3,
+                    "predicate": {
+                      "fluid": {
+                        "fluids": "#minecraft:water"
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:location_check",
+                    "offsetY": -4,
+                    "predicate": {
+                      "fluid": {
+                        "fluids": "#minecraft:water"
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:location_check",
+                    "offsetY": -5,
+                    "predicate": {
+                      "fluid": {
+                        "fluids": "#minecraft:water"
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:location_check",
+                    "offsetY": -1,
+                    "predicate": {
+                      "fluid": {
+                        "fluids": "#minecraft:water"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "effects": {
+                    "minecraft:resistance": {}
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "stepping_on": {
-                  "block": {
-                    "blocks": [
-                      "minecraft:water",
-                      "minecraft:slime_block",
-                      "minecraft:honey_block",
-                      "minecraft:hay_block",
-                      "minecraft:lava",
-                      "minecraft:cobweb",
-                      "minecraft:scaffolding",
-                      "minecraft:powder_snow"
-                    ]
+                "minecraft:nbt": "{Inventory:[]}"
+              }
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "effects": {
+                    "minecraft:slow_falling": {}
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "stepping_on": {
+                    "block": {
+                      "blocks": "#minecraft:beds"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "stepping_on": {
+                    "block": {
+                      "blocks": [
+                        "minecraft:water",
+                        "minecraft:slime_block",
+                        "minecraft:honey_block",
+                        "minecraft:hay_block",
+                        "minecraft:lava",
+                        "minecraft:cobweb",
+                        "minecraft:scaffolding",
+                        "minecraft:powder_snow"
+                      ]
+                    }
                   }
                 }
               }
             }
-          }
-        ],
+          ]
+        },
         "start_position": {
           "position": {
             "y": {

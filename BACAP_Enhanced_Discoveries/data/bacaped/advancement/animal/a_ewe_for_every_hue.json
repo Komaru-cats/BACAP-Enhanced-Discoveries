@@ -19,13 +19,15 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:lead"
-          ]
+          "items": "minecraft:lead"
         },
         "entity": {
-          "entity_type": "minecraft:sheep",
-          "nbt": "{Color:0b}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:sheep",
+            "minecraft:nbt": "{Color:0b}"
+          }
         }
       }
     },
@@ -33,13 +35,15 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:lead"
-          ]
+          "items": "minecraft:lead"
         },
         "entity": {
-          "entity_type": "minecraft:sheep",
-          "nbt": "{Color:1b}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:sheep",
+            "minecraft:nbt": "{Color:1b}"
+          }
         }
       }
     },
@@ -47,13 +51,15 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:lead"
-          ]
+          "items": "minecraft:lead"
         },
         "entity": {
-          "entity_type": "minecraft:sheep",
-          "nbt": "{Color:2b}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:sheep",
+            "minecraft:nbt": "{Color:2b}"
+          }
         }
       }
     },
@@ -61,13 +67,15 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:lead"
-          ]
+          "items": "minecraft:lead"
         },
         "entity": {
-          "entity_type": "minecraft:sheep",
-          "nbt": "{Color:3b}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:sheep",
+            "minecraft:nbt": "{Color:3b}"
+          }
         }
       }
     },
@@ -75,13 +83,15 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:lead"
-          ]
+          "items": "minecraft:lead"
         },
         "entity": {
-          "entity_type": "minecraft:sheep",
-          "nbt": "{Color:4b}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:sheep",
+            "minecraft:nbt": "{Color:4b}"
+          }
         }
       }
     },
@@ -89,13 +99,15 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:lead"
-          ]
+          "items": "minecraft:lead"
         },
         "entity": {
-          "entity_type": "minecraft:sheep",
-          "nbt": "{Color:5b}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:sheep",
+            "minecraft:nbt": "{Color:5b}"
+          }
         }
       }
     },
@@ -103,13 +115,15 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:lead"
-          ]
+          "items": "minecraft:lead"
         },
         "entity": {
-          "entity_type": "minecraft:sheep",
-          "nbt": "{Color:6b}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:sheep",
+            "minecraft:nbt": "{Color:6b}"
+          }
         }
       }
     },
@@ -117,13 +131,15 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:lead"
-          ]
+          "items": "minecraft:lead"
         },
         "entity": {
-          "entity_type": "minecraft:sheep",
-          "nbt": "{Color:7b}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:sheep",
+            "minecraft:nbt": "{Color:7b}"
+          }
         }
       }
     },
@@ -131,13 +147,15 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:lead"
-          ]
+          "items": "minecraft:lead"
         },
         "entity": {
-          "entity_type": "minecraft:sheep",
-          "nbt": "{Color:8b}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:sheep",
+            "minecraft:nbt": "{Color:8b}"
+          }
         }
       }
     },
@@ -145,13 +163,15 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:lead"
-          ]
+          "items": "minecraft:lead"
         },
         "entity": {
-          "entity_type": "minecraft:sheep",
-          "nbt": "{Color:9b}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:sheep",
+            "minecraft:nbt": "{Color:9b}"
+          }
         }
       }
     },
@@ -159,13 +179,15 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:lead"
-          ]
+          "items": "minecraft:lead"
         },
         "entity": {
-          "entity_type": "minecraft:sheep",
-          "nbt": "{Color:10b}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:sheep",
+            "minecraft:nbt": "{Color:10b}"
+          }
         }
       }
     },
@@ -173,13 +195,15 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:lead"
-          ]
+          "items": "minecraft:lead"
         },
         "entity": {
-          "entity_type": "minecraft:sheep",
-          "nbt": "{Color:11b}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:sheep",
+            "minecraft:nbt": "{Color:11b}"
+          }
         }
       }
     },
@@ -187,13 +211,15 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:lead"
-          ]
+          "items": "minecraft:lead"
         },
         "entity": {
-          "entity_type": "minecraft:sheep",
-          "nbt": "{Color:12b}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:sheep",
+            "minecraft:nbt": "{Color:12b}"
+          }
         }
       }
     },
@@ -201,13 +227,15 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:lead"
-          ]
+          "items": "minecraft:lead"
         },
         "entity": {
-          "entity_type": "minecraft:sheep",
-          "nbt": "{Color:13b}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:sheep",
+            "minecraft:nbt": "{Color:13b}"
+          }
         }
       }
     },
@@ -215,13 +243,15 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:lead"
-          ]
+          "items": "minecraft:lead"
         },
         "entity": {
-          "entity_type": "minecraft:sheep",
-          "nbt": "{Color:14b}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:sheep",
+            "minecraft:nbt": "{Color:14b}"
+          }
         }
       }
     },
@@ -229,13 +259,15 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:lead"
-          ]
+          "items": "minecraft:lead"
         },
         "entity": {
-          "entity_type": "minecraft:sheep",
-          "nbt": "{Color:15b}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:sheep",
+            "minecraft:nbt": "{Color:15b}"
+          }
         }
       }
     }

@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:enchanted_book",
       "components": {
-        "minecraft:enchantments": {
+        "minecraft:stored_enchantments": {
           "minecraft:thorns": 3
         }
       }

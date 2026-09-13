@@ -4,7 +4,11 @@
 			"trigger": "minecraft:summoned_entity",
 			"conditions": {
 				"entity": {
-					"entity_type": "ender_dragon"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:entity_type": "minecraft:ender_dragon"
+					}
 				}
 			}
 		}

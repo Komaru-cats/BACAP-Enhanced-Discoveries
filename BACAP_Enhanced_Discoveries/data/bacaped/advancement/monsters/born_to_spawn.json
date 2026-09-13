@@ -19,10 +19,14 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "stepping_on": {
-            "block": {
-              "blocks": "minecraft:spawner",
-              "nbt": "{SpawnData: {entity: {id: \"minecraft:blaze\"}}}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "stepping_on": {
+              "block": {
+                "blocks": "minecraft:spawner",
+                "nbt": "{SpawnData:{entity:{id:\"minecraft:blaze\"}}}"
+              }
             }
           }
         }
@@ -32,10 +36,14 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "stepping_on": {
-            "block": {
-              "blocks": "minecraft:spawner",
-              "nbt": "{SpawnData: {entity: {id: \"minecraft:zombie\"}}}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "stepping_on": {
+              "block": {
+                "blocks": "minecraft:spawner",
+                "nbt": "{SpawnData:{entity:{id:\"minecraft:zombie\"}}}"
+              }
             }
           }
         }
@@ -45,10 +53,14 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "stepping_on": {
-            "block": {
-              "blocks": "minecraft:spawner",
-              "nbt": "{SpawnData: {entity: {id: \"minecraft:skeleton\"}}}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "stepping_on": {
+              "block": {
+                "blocks": "minecraft:spawner",
+                "nbt": "{SpawnData:{entity:{id:\"minecraft:skeleton\"}}}"
+              }
             }
           }
         }
@@ -58,10 +70,14 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "stepping_on": {
-            "block": {
-              "blocks": "minecraft:spawner",
-              "nbt": "{SpawnData: {entity: {id: \"minecraft:spider\"}}}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "stepping_on": {
+              "block": {
+                "blocks": "minecraft:spawner",
+                "nbt": "{SpawnData:{entity:{id:\"minecraft:spider\"}}}"
+              }
             }
           }
         }
@@ -71,10 +87,14 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "stepping_on": {
-            "block": {
-              "blocks": "minecraft:spawner",
-              "nbt": "{SpawnData: {entity: {id: \"minecraft:cave_spider\"}}}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "stepping_on": {
+              "block": {
+                "blocks": "minecraft:spawner",
+                "nbt": "{SpawnData:{entity:{id:\"minecraft:cave_spider\"}}}"
+              }
             }
           }
         }
@@ -84,10 +104,14 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "stepping_on": {
-            "block": {
-              "blocks": "minecraft:spawner",
-              "nbt": "{SpawnData: {entity: {id: \"minecraft:silverfish\"}}}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "stepping_on": {
+              "block": {
+                "blocks": "minecraft:spawner",
+                "nbt": "{SpawnData:{entity:{id:\"minecraft:silverfish\"}}}"
+              }
             }
           }
         }
@@ -97,10 +121,14 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "stepping_on": {
-            "block": {
-              "blocks": "minecraft:spawner",
-              "nbt": "{SpawnData: {entity: {id: \"minecraft:magma_cube\"}}}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "stepping_on": {
+              "block": {
+                "blocks": "minecraft:spawner",
+                "nbt": "{SpawnData:{entity:{id:\"minecraft:magma_cube\"}}}"
+              }
             }
           }
         }

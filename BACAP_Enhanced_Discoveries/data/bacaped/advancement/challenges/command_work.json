@@ -22,25 +22,27 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "entity_type": "minecraft:player",
-          "nbt": "{Inventory:[]}",
-          "effects": {
-            "minecraft:nausea": {}
-          }
-        },
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "entity_type": "minecraft:ender_dragon"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:player",
+            "minecraft:nbt": "{Inventory:[]}",
+            "effects": {
+              "minecraft:nausea": {}
             }
           }
-        ],
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:ender_dragon"
+          }
+        },
         "killing_blow": {
           "tags": [
             {
-              "id": "minecraft:is_explosion",
+              "id": "#minecraft:is_explosion",
               "expected": true
             }
           ],

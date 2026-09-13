@@ -22,25 +22,23 @@
     "trigger": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:type_specific/player": {
-                "stats": [
-                  {
-                    "type": "minecraft:used",
-                    "stat": "minecraft:chorus_flower",
-                    "value": {
-                      "min": 99
-                    }
+        "location": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:used",
+                  "stat": "minecraft:chorus_flower",
+                  "value": {
+                    "min": 99
                   }
-                ]
-              }
+                }
+              ]
             }
           }
-        ]
+        }
       }
     }
   },

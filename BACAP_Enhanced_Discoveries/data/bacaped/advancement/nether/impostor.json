@@ -19,10 +19,14 @@
       "trigger": "minecraft:started_riding",
       "conditions": {
         "player": {
-          "vehicle": {
-            "entity_type": "minecraft:pig",
-            "location": {
-              "dimension": "minecraft:the_nether"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:vehicle": {
+              "minecraft:entity_type": "minecraft:pig",
+              "location": {
+                "dimension": "minecraft:the_nether"
+              }
             }
           }
         }

@@ -26,19 +26,39 @@
         },
         "victims": [
           {
-            "entity_type": "minecraft:vex"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:vex"
+            }
           },
           {
-            "entity_type": "minecraft:vex"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:vex"
+            }
           },
           {
-            "entity_type": "minecraft:vex"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:vex"
+            }
           },
           {
-            "entity_type": "minecraft:vex"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:vex"
+            }
           },
           {
-            "entity_type": "minecraft:vex"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:vex"
+            }
           }
         ]
       }

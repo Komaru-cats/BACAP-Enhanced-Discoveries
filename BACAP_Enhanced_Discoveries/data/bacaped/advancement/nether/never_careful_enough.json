@@ -22,31 +22,34 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "stepping_on": {
-            "block": {
-              "blocks": [
-                "minecraft:magma_block"
-              ]
-            }
-          },
-          "equipment": {
-            "feet": {
-              "components": {},
-              "predicates": {
-                "minecraft:enchantments": [
-                  {
-                    "enchantments": "minecraft:frost_walker",
-                    "levels": {
-                      "min": 1,
-                      "max": 2
-                    }
-                  }
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "stepping_on": {
+              "block": {
+                "blocks": [
+                  "minecraft:magma_block"
                 ]
               }
+            },
+            "equipment": {
+              "feet": {
+                "components": {},
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "minecraft:frost_walker",
+                      "levels": {
+                        "min": 1
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "effects": {
+              "minecraft:fire_resistance": {}
             }
-          },
-          "effects": {
-            "minecraft:fire_resistance": {}
           }
         }
       }

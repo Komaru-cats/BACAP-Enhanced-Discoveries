@@ -34,15 +34,19 @@
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
         "player": {
-          "flags": {
-            "is_flying": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "flags": {
+              "is_flying": true
+            }
           }
         },
         "damage": {
           "type": {
             "tags": [
               {
-                "id": "bacaped:is_sonic_boom",
+                "id": "#bacaped:is_sonic_boom",
                 "expected": true
               }
             ]

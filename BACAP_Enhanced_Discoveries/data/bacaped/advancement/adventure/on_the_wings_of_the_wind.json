@@ -25,15 +25,13 @@
             "min": 150
           }
         },
-        "cause": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "entity_type": "minecraft:wind_charge"
-            }
+        "cause": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:wind_charge"
           }
-        ]
+        }
       }
     }
   },

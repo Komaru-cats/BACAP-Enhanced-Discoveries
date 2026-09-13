@@ -22,13 +22,17 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "looking_at": {
-              "entity_type": "minecraft:skeleton",
-              "targeted_entity": {
-                "entity_type": "minecraft:skeleton",
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "looking_at": {
+                "minecraft:entity_type": "minecraft:skeleton",
                 "targeted_entity": {
-                  "entity_type": "minecraft:skeleton"
+                  "minecraft:entity_type": "minecraft:skeleton",
+                  "targeted_entity": {
+                    "minecraft:entity_type": "minecraft:skeleton"
+                  }
                 }
               }
             }

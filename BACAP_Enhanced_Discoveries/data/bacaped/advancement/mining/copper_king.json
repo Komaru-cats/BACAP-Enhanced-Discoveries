@@ -20,22 +20,18 @@
     "stand_on_chest_full_copper_blocks": {
       "trigger": "minecraft:location",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "stepping_on": {
-                "block": {
-                  "blocks": [
-                    "minecraft:chest"
-                  ],
-                  "nbt": "{Items: [{count: 64, Slot: 0b, id: \"minecraft:copper_block\"}, {count: 64, Slot: 1b, id: \"minecraft:copper_block\"}, {count: 64, Slot: 2b, id: \"minecraft:copper_block\"}, {count: 64, Slot: 3b, id: \"minecraft:copper_block\"}, {count: 64, Slot: 4b, id: \"minecraft:copper_block\"}, {count: 64, Slot: 5b, id: \"minecraft:copper_block\"}, {count: 64, Slot: 6b, id: \"minecraft:copper_block\"}, {count: 64, Slot: 7b, id: \"minecraft:copper_block\"}, {count: 64, Slot: 8b, id: \"minecraft:copper_block\"}, {count: 64, Slot: 9b, id: \"minecraft:copper_block\"}, {count: 64, Slot: 10b, id: \"minecraft:copper_block\"}, {count: 64, Slot: 11b, id: \"minecraft:copper_block\"}, {count: 64, Slot: 12b, id: \"minecraft:copper_block\"}, {count: 64, Slot: 13b, id: \"minecraft:copper_block\"}, {count: 64, Slot: 14b, id: \"minecraft:copper_block\"}, {count: 64, Slot: 15b, id: \"minecraft:copper_block\"}, {count: 64, Slot: 16b, id: \"minecraft:copper_block\"}, {count: 64, Slot: 17b, id: \"minecraft:copper_block\"}, {count: 64, Slot: 18b, id: \"minecraft:copper_block\"}, {count: 64, Slot: 19b, id: \"minecraft:copper_block\"}, {count: 64, Slot: 20b, id: \"minecraft:copper_block\"}, {count: 64, Slot: 21b, id: \"minecraft:copper_block\"}, {count: 64, Slot: 22b, id: \"minecraft:copper_block\"}, {count: 64, Slot: 23b, id: \"minecraft:copper_block\"}, {count: 64, Slot: 24b, id: \"minecraft:copper_block\"}, {count: 64, Slot: 25b, id: \"minecraft:copper_block\"}, {count: 64, Slot: 26b, id: \"minecraft:copper_block\"}]}"
-                }
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "stepping_on": {
+              "block": {
+                "blocks": "minecraft:chest",
+                "minecraft:nbt": "{Items:[{Slot:0b,count:64,id:\"minecraft:copper_block\"},{Slot:1b,count:64,id:\"minecraft:copper_block\"},{Slot:2b,count:64,id:\"minecraft:copper_block\"},{Slot:3b,count:64,id:\"minecraft:copper_block\"},{Slot:4b,count:64,id:\"minecraft:copper_block\"},{Slot:5b,count:64,id:\"minecraft:copper_block\"},{Slot:6b,count:64,id:\"minecraft:copper_block\"},{Slot:7b,count:64,id:\"minecraft:copper_block\"},{Slot:8b,count:64,id:\"minecraft:copper_block\"},{Slot:9b,count:64,id:\"minecraft:copper_block\"},{Slot:10b,count:64,id:\"minecraft:copper_block\"},{Slot:11b,count:64,id:\"minecraft:copper_block\"},{Slot:12b,count:64,id:\"minecraft:copper_block\"},{Slot:13b,count:64,id:\"minecraft:copper_block\"},{Slot:14b,count:64,id:\"minecraft:copper_block\"},{Slot:15b,count:64,id:\"minecraft:copper_block\"},{Slot:16b,count:64,id:\"minecraft:copper_block\"},{Slot:17b,count:64,id:\"minecraft:copper_block\"},{Slot:18b,count:64,id:\"minecraft:copper_block\"},{Slot:19b,count:64,id:\"minecraft:copper_block\"},{Slot:20b,count:64,id:\"minecraft:copper_block\"},{Slot:21b,count:64,id:\"minecraft:copper_block\"},{Slot:22b,count:64,id:\"minecraft:copper_block\"},{Slot:23b,count:64,id:\"minecraft:copper_block\"},{Slot:24b,count:64,id:\"minecraft:copper_block\"},{Slot:25b,count:64,id:\"minecraft:copper_block\"},{Slot:26b,count:64,id:\"minecraft:copper_block\"}]}"
               }
             }
           }
-        ]
+        }
       }
     }
   },

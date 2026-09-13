@@ -34,20 +34,18 @@
     "ride_entity_distance": {
       "trigger": "minecraft:ride_entity_in_lava",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "dimension": "minecraft:the_end"
-              },
-              "vehicle": {
-                "entity_type": "minecraft:strider"
-              }
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "dimension": "minecraft:the_end"
+            },
+            "minecraft:vehicle": {
+              "minecraft:entity_type": "minecraft:strider"
             }
           }
-        ],
+        },
         "distance": {
           "horizontal": {
             "min": 300

@@ -23,16 +23,20 @@
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:custom",
-                "stat": "minecraft:fish_caught",
-                "value": {
-                  "min": 24
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "minecraft:fish_caught",
+                  "value": {
+                    "min": 24
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }

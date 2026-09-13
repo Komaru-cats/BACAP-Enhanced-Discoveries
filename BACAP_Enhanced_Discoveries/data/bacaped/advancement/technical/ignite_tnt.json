@@ -3,31 +3,27 @@
     "trigger": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:type_specific/player": {
-                "looking_at": {
-                  "entity_type": "minecraft:tnt",
-                  "nbt": "{fuse: 80s}"
-                }
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "looking_at": {
+                "minecraft:entity_type": "minecraft:tnt",
+                "minecraft:nbt": "{fuse: 80s}"
               }
             }
           }
-        ],
-        "location": [
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": [
-                "minecraft:flint_and_steel",
-                "minecraft:fire_charge"
-              ]
-            }
+        },
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:flint_and_steel",
+              "minecraft:fire_charge"
+            ]
           }
-        ]
+        }
       }
     }
   },

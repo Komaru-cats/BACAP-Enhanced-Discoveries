@@ -23,25 +23,22 @@
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:used",
-                "stat": "minecraft:potato",
-                "value": {
-                  "min": 799
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:used",
+                  "stat": "minecraft:potato",
+                  "value": {
+                    "min": 799
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
-        },
-        "location": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {}
-          }
-        ]
+        }
       }
     }
   },

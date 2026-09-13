@@ -22,16 +22,32 @@
         },
         "victims": [
           {
-            "entity_type": "minecraft:bogged"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:bogged"
+            }
           },
           {
-            "entity_type": "minecraft:husk"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:husk"
+            }
           },
           {
-            "entity_type": "minecraft:stray"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:stray"
+            }
           },
           {
-            "entity_type": "minecraft:drowned"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:drowned"
+            }
           }
         ]
       }

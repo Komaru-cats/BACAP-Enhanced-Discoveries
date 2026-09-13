@@ -21,25 +21,23 @@
     "trigger": {
       "trigger": "minecraft:location",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:type_specific/player": {
-                "stats": [
-                  {
-                    "type": "minecraft:killed",
-                    "stat": "minecraft:armadillo",
-                    "value": {
-                      "min": 100
-                    }
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:armadillo",
+                  "value": {
+                    "min": 100
                   }
-                ]
-              }
+                }
+              ]
             }
           }
-        ]
+        }
       }
     }
   },

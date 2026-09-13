@@ -36,30 +36,38 @@
       "trigger": "minecraft:bred_animals",
       "conditions": {
         "player": {
-          "equipment": {
-            "head": {
-              "items": "minecraft:player_head",
-              "components": {
-                "minecraft:profile": {
-                  "id": [
-                    -278056039,
-                    -737522707,
-                    -1252972649,
-                    -611505375
-                  ],
-                  "properties": [
-                    {
-                      "name": "textures",
-                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzE3ODE4OWVmOGZhN2E1YjcyNGZiOTFkZjlhNDQ3ODRmZDg1NjQ4ZWQzZTNhY2Y2ZDBkZWQ3YjhjYWEzMGYwNyJ9fX0="
-                    }
-                  ]
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "head": {
+                "items": "minecraft:player_head",
+                "components": {
+                  "minecraft:profile": {
+                    "id": [
+                      -278056039,
+                      -737522707,
+                      -1252972649,
+                      -611505375
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzE3ODE4OWVmOGZhN2E1YjcyNGZiOTFkZjlhNDQ3ODRmZDg1NjQ4ZWQzZTNhY2Y2ZDBkZWQ3YjhjYWEzMGYwNyJ9fX0="
+                      }
+                    ]
+                  }
                 }
               }
             }
           }
         },
         "parent": {
-          "entity_type": "minecraft:frog"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:frog"
+          }
         }
       }
     }

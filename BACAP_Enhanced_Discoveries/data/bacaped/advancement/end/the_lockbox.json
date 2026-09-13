@@ -20,16 +20,19 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "slots": {
-            "enderchest.*": {
-              "items": "minecraft:dragon_egg",
-              "count": {
-                "min": 1
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "enderchest.*": {
+                "items": "minecraft:dragon_egg",
+                "count": {
+                  "min": 1
+                }
               }
             }
           }
-        },
-        "items": []
+        }
       }
     }
   },

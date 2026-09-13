@@ -20,16 +20,20 @@
       "trigger": "minecraft:placed_block",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:used",
-                "stat": "minecraft:sponge",
-                "value": {
-                  "min": 250
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:used",
+                  "stat": "minecraft:sponge",
+                  "value": {
+                    "min": 250
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }

@@ -25,18 +25,22 @@
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
-          "equipment": {
-            "head": {
-              "items": "minecraft:turtle_helmet"
-            },
-            "chest": {
-              "items": "minecraft:elytra"
-            },
-            "legs": {
-              "items": "minecraft:golden_leggings"
-            },
-            "feet": {
-              "items": "minecraft:leather_boots"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:equipment": {
+              "head": {
+                "items": "minecraft:turtle_helmet"
+              },
+              "chest": {
+                "items": "minecraft:elytra"
+              },
+              "legs": {
+                "items": "minecraft:golden_leggings"
+              },
+              "feet": {
+                "items": "minecraft:leather_boots"
+              }
             }
           }
         }

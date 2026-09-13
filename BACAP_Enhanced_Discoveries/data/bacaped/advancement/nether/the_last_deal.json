@@ -20,8 +20,12 @@
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "villager": {
-          "location": {
-            "dimension": "minecraft:the_nether"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "dimension": "minecraft:the_nether"
+            }
           }
         }
       }
@@ -30,9 +34,13 @@
       "trigger": "minecraft:thrown_item_picked_up_by_player",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:piglin",
-          "location": {
-            "dimension": "minecraft:overworld"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin",
+            "location": {
+              "dimension": "minecraft:overworld"
+            }
           }
         }
       }

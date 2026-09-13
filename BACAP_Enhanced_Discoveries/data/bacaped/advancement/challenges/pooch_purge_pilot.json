@@ -19,17 +19,25 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "vehicle": {
-            "entity_type": "#blazeandcave:llamas"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:vehicle": {
+              "entity_type": "#blazeandcave:llamas"
+            }
           }
         },
         "entity": {
-          "entity_type": "minecraft:wolf",
-          "location": {
-            "biomes": "minecraft:snowy_taiga"
-          },
-          "components": {
-            "minecraft:wolf/variant": "minecraft:ashen"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:wolf",
+            "location": {
+              "biomes": "minecraft:snowy_taiga"
+            },
+            "components": {
+              "minecraft:wolf/variant": "minecraft:ashen"
+            }
           }
         }
       }
@@ -38,17 +46,25 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "vehicle": {
-            "entity_type": "#blazeandcave:llamas"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:vehicle": {
+              "entity_type": "#blazeandcave:llamas"
+            }
           }
         },
         "entity": {
-          "entity_type": "minecraft:wolf",
-          "location": {
-            "biomes": "minecraft:old_growth_pine_taiga"
-          },
-          "components": {
-            "minecraft:wolf/variant": "minecraft:black"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:wolf",
+            "location": {
+              "biomes": "minecraft:old_growth_pine_taiga"
+            },
+            "components": {
+              "minecraft:wolf/variant": "minecraft:black"
+            }
           }
         }
       }
@@ -57,17 +73,25 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "vehicle": {
-            "entity_type": "#blazeandcave:llamas"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:vehicle": {
+              "entity_type": "#blazeandcave:llamas"
+            }
           }
         },
         "entity": {
-          "entity_type": "minecraft:wolf",
-          "location": {
-            "biomes": "minecraft:old_growth_spruce_taiga"
-          },
-          "components": {
-            "minecraft:wolf/variant": "minecraft:chestnut"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:wolf",
+            "location": {
+              "biomes": "minecraft:old_growth_spruce_taiga"
+            },
+            "components": {
+              "minecraft:wolf/variant": "minecraft:chestnut"
+            }
           }
         }
       }
@@ -76,17 +100,25 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "vehicle": {
-            "entity_type": "#blazeandcave:llamas"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:vehicle": {
+              "entity_type": "#blazeandcave:llamas"
+            }
           }
         },
         "entity": {
-          "entity_type": "minecraft:wolf",
-          "location": {
-            "biomes": "minecraft:taiga"
-          },
-          "components": {
-            "minecraft:wolf/variant": "minecraft:pale"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:wolf",
+            "location": {
+              "biomes": "minecraft:taiga"
+            },
+            "components": {
+              "minecraft:wolf/variant": "minecraft:pale"
+            }
           }
         }
       }
@@ -95,21 +127,29 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "vehicle": {
-            "entity_type": "#blazeandcave:llamas"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:vehicle": {
+              "entity_type": "#blazeandcave:llamas"
+            }
           }
         },
         "entity": {
-          "entity_type": "minecraft:wolf",
-          "location": {
-            "biomes": [
-              "minecraft:sparse_jungle",
-              "minecraft:jungle",
-              "minecraft:bamboo_jungle"
-            ]
-          },
-          "components": {
-            "minecraft:wolf/variant": "minecraft:rusty"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:wolf",
+            "location": {
+              "biomes": [
+                "minecraft:sparse_jungle",
+                "minecraft:jungle",
+                "minecraft:bamboo_jungle"
+              ]
+            },
+            "components": {
+              "minecraft:wolf/variant": "minecraft:rusty"
+            }
           }
         }
       }
@@ -118,17 +158,25 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "vehicle": {
-            "entity_type": "#blazeandcave:llamas"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:vehicle": {
+              "entity_type": "#blazeandcave:llamas"
+            }
           }
         },
         "entity": {
-          "entity_type": "minecraft:wolf",
-          "location": {
-            "biomes": "minecraft:grove"
-          },
-          "components": {
-            "minecraft:wolf/variant": "minecraft:snowy"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:wolf",
+            "location": {
+              "biomes": "minecraft:grove"
+            },
+            "components": {
+              "minecraft:wolf/variant": "minecraft:snowy"
+            }
           }
         }
       }
@@ -137,21 +185,29 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "vehicle": {
-            "entity_type": "#blazeandcave:llamas"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:vehicle": {
+              "entity_type": "#blazeandcave:llamas"
+            }
           }
         },
         "entity": {
-          "entity_type": "minecraft:wolf",
-          "location": {
-            "biomes": [
-              "minecraft:savanna_plateau",
-              "minecraft:savanna",
-              "minecraft:windswept_savanna"
-            ]
-          },
-          "components": {
-            "minecraft:wolf/variant": "minecraft:spotted"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:wolf",
+            "location": {
+              "biomes": [
+                "minecraft:savanna_plateau",
+                "minecraft:savanna",
+                "minecraft:windswept_savanna"
+              ]
+            },
+            "components": {
+              "minecraft:wolf/variant": "minecraft:spotted"
+            }
           }
         }
       }
@@ -160,21 +216,29 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "vehicle": {
-            "entity_type": "#blazeandcave:llamas"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:vehicle": {
+              "entity_type": "#blazeandcave:llamas"
+            }
           }
         },
         "entity": {
-          "entity_type": "minecraft:wolf",
-          "location": {
-            "biomes": [
-              "minecraft:wooded_badlands",
-              "minecraft:badlands",
-              "minecraft:eroded_badlands"
-            ]
-          },
-          "components": {
-            "minecraft:wolf/variant": "minecraft:striped"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:wolf",
+            "location": {
+              "biomes": [
+                "minecraft:wooded_badlands",
+                "minecraft:badlands",
+                "minecraft:eroded_badlands"
+              ]
+            },
+            "components": {
+              "minecraft:wolf/variant": "minecraft:striped"
+            }
           }
         }
       }
@@ -183,17 +247,25 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "vehicle": {
-            "entity_type": "#blazeandcave:llamas"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:vehicle": {
+              "entity_type": "#blazeandcave:llamas"
+            }
           }
         },
         "entity": {
-          "entity_type": "minecraft:wolf",
-          "location": {
-            "biomes": "minecraft:forest"
-          },
-          "components": {
-            "minecraft:wolf/variant": "minecraft:woods"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:wolf",
+            "location": {
+              "biomes": "minecraft:forest"
+            },
+            "components": {
+              "minecraft:wolf/variant": "minecraft:woods"
+            }
           }
         }
       }

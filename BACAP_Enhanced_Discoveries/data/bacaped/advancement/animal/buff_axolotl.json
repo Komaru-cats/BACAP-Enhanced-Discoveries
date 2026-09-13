@@ -18,20 +18,18 @@
     "trigger": {
       "trigger": "minecraft:effects_changed",
       "conditions": {
-        "source": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "entity_type": "minecraft:axolotl",
-              "effects": {
-                "minecraft:strength": {},
-                "minecraft:resistance": {},
-                "minecraft:regeneration": {}
-              }
+        "source": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:axolotl",
+            "effects": {
+              "minecraft:strength": {},
+              "minecraft:resistance": {},
+              "minecraft:regeneration": {}
             }
           }
-        ]
+        }
       }
     }
   },

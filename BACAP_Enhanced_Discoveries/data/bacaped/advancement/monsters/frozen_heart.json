@@ -34,54 +34,61 @@
     "kill_stray_with_slowness": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:any_of",
-            "terms": [
-              {
-                "condition": "minecraft:weather_check",
-                "raining": true
-              },
-              {
-                "condition": "minecraft:weather_check",
-                "thundering": true
-              }
-            ]
-          },
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "nbt": "{TicksFrozen:140}",
-              "location": {
-                "biomes": [
-                  "minecraft:snowy_beach",
-                  "minecraft:snowy_plains",
-                  "minecraft:snowy_slopes",
-                  "minecraft:snowy_taiga",
-                  "minecraft:grove",
-                  "minecraft:ice_spikes",
-                  "minecraft:frozen_peaks",
-                  "minecraft:frozen_river",
-                  "minecraft:deep_frozen_ocean",
-                  "minecraft:frozen_ocean",
-                  "minecraft:jagged_peaks"
-                ]
-              },
-              "effects": {
-                "minecraft:hunger": {},
-                "minecraft:slowness": {}
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:any_of",
+              "terms": [
+                {
+                  "type": "minecraft:weather_check",
+                  "raining": true
+                },
+                {
+                  "type": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:nbt": "{TicksFrozen:140}",
+                "location": {
+                  "biomes": [
+                    "minecraft:snowy_beach",
+                    "minecraft:snowy_plains",
+                    "minecraft:snowy_slopes",
+                    "minecraft:snowy_taiga",
+                    "minecraft:grove",
+                    "minecraft:ice_spikes",
+                    "minecraft:frozen_peaks",
+                    "minecraft:frozen_river",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:jagged_peaks"
+                  ]
+                },
+                "effects": {
+                  "minecraft:hunger": {},
+                  "minecraft:slowness": {}
+                }
               }
             }
-          }
-        ],
+          ]
+        },
         "entity": {
-          "entity_type": "minecraft:stray"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:stray"
+          }
         },
         "killing_blow": {
           "direct_entity": {
-            "entity_type": "minecraft:arrow",
-            "nbt": "{item: {components: {\"minecraft:potion_contents\": {potion: \"minecraft:slowness\"}}}}"
+            "minecraft:entity_type": "minecraft:arrow",
+            "minecraft:nbt": "{item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:slowness\"}}}}"
           }
         }
       }
@@ -89,54 +96,61 @@
     "kill_stray_with_strong_slowness": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:any_of",
-            "terms": [
-              {
-                "condition": "minecraft:weather_check",
-                "raining": true
-              },
-              {
-                "condition": "minecraft:weather_check",
-                "thundering": true
-              }
-            ]
-          },
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "nbt": "{TicksFrozen:140}",
-              "location": {
-                "biomes": [
-                  "minecraft:snowy_beach",
-                  "minecraft:snowy_plains",
-                  "minecraft:snowy_slopes",
-                  "minecraft:snowy_taiga",
-                  "minecraft:grove",
-                  "minecraft:ice_spikes",
-                  "minecraft:frozen_peaks",
-                  "minecraft:frozen_river",
-                  "minecraft:deep_frozen_ocean",
-                  "minecraft:frozen_ocean",
-                  "minecraft:jagged_peaks"
-                ]
-              },
-              "effects": {
-                "minecraft:hunger": {},
-                "minecraft:slowness": {}
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:any_of",
+              "terms": [
+                {
+                  "type": "minecraft:weather_check",
+                  "raining": true
+                },
+                {
+                  "type": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:nbt": "{TicksFrozen:140}",
+                "location": {
+                  "biomes": [
+                    "minecraft:snowy_beach",
+                    "minecraft:snowy_plains",
+                    "minecraft:snowy_slopes",
+                    "minecraft:snowy_taiga",
+                    "minecraft:grove",
+                    "minecraft:ice_spikes",
+                    "minecraft:frozen_peaks",
+                    "minecraft:frozen_river",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:jagged_peaks"
+                  ]
+                },
+                "effects": {
+                  "minecraft:hunger": {},
+                  "minecraft:slowness": {}
+                }
               }
             }
-          }
-        ],
+          ]
+        },
         "entity": {
-          "entity_type": "minecraft:stray"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:stray"
+          }
         },
         "killing_blow": {
           "direct_entity": {
-            "entity_type": "minecraft:arrow",
-            "nbt": "{item: {components: {\"minecraft:potion_contents\": {potion: \"minecraft:strong_slowness\"}}}}"
+            "minecraft:entity_type": "minecraft:arrow",
+            "minecraft:nbt": "{item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:strong_slowness\"}}}}"
           }
         }
       }
@@ -144,54 +158,61 @@
     "kill_stray_with_long_slowness": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:any_of",
-            "terms": [
-              {
-                "condition": "minecraft:weather_check",
-                "raining": true
-              },
-              {
-                "condition": "minecraft:weather_check",
-                "thundering": true
-              }
-            ]
-          },
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "nbt": "{TicksFrozen:140}",
-              "location": {
-                "biomes": [
-                  "minecraft:snowy_beach",
-                  "minecraft:snowy_plains",
-                  "minecraft:snowy_slopes",
-                  "minecraft:snowy_taiga",
-                  "minecraft:grove",
-                  "minecraft:ice_spikes",
-                  "minecraft:frozen_peaks",
-                  "minecraft:frozen_river",
-                  "minecraft:deep_frozen_ocean",
-                  "minecraft:frozen_ocean",
-                  "minecraft:jagged_peaks"
-                ]
-              },
-              "effects": {
-                "minecraft:hunger": {},
-                "minecraft:slowness": {}
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:any_of",
+              "terms": [
+                {
+                  "type": "minecraft:weather_check",
+                  "raining": true
+                },
+                {
+                  "type": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:nbt": "{TicksFrozen:140}",
+                "location": {
+                  "biomes": [
+                    "minecraft:snowy_beach",
+                    "minecraft:snowy_plains",
+                    "minecraft:snowy_slopes",
+                    "minecraft:snowy_taiga",
+                    "minecraft:grove",
+                    "minecraft:ice_spikes",
+                    "minecraft:frozen_peaks",
+                    "minecraft:frozen_river",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:jagged_peaks"
+                  ]
+                },
+                "effects": {
+                  "minecraft:hunger": {},
+                  "minecraft:slowness": {}
+                }
               }
             }
-          }
-        ],
+          ]
+        },
         "entity": {
-          "entity_type": "minecraft:stray"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:stray"
+          }
         },
         "killing_blow": {
           "direct_entity": {
-            "entity_type": "minecraft:arrow",
-            "nbt": "{item: {components: {\"minecraft:potion_contents\": {potion: \"minecraft:long_slowness\"}}}}"
+            "minecraft:entity_type": "minecraft:arrow",
+            "minecraft:nbt": "{item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:long_slowness\"}}}}"
           }
         }
       }

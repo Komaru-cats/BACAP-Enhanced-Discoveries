@@ -19,16 +19,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:used",
-                "stat": "minecraft:diamond_pickaxe",
-                "value": {
-                  "min": 2500
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:used",
+                  "stat": "minecraft:diamond_pickaxe",
+                  "value": {
+                    "min": 2500
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }

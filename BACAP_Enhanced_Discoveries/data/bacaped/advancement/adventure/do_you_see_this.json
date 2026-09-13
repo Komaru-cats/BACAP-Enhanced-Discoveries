@@ -21,26 +21,30 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "gamemode": [
-              "survival",
-              "creative",
-              "adventure"
-            ],
-            "looking_at": {
-              "entity_type": "minecraft:villager",
-              "slots": {
-                "armor.legs": {
-                  "items": "minecraft:netherite_leggings"
-                },
-                "armor.feet": {
-                  "items": "minecraft:netherite_boots"
-                },
-                "armor.head": {
-                  "items": "minecraft:netherite_helmet"
-                },
-                "armor.chest": {
-                  "items": "minecraft:netherite_chestplate"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "gamemode": [
+                "survival",
+                "creative",
+                "adventure"
+              ],
+              "looking_at": {
+                "entity_type": "minecraft:villager",
+                "slots": {
+                  "armor.legs": {
+                    "items": "minecraft:netherite_leggings"
+                  },
+                  "armor.feet": {
+                    "items": "minecraft:netherite_boots"
+                  },
+                  "armor.head": {
+                    "items": "minecraft:netherite_helmet"
+                  },
+                  "armor.chest": {
+                    "items": "minecraft:netherite_chestplate"
+                  }
                 }
               }
             }

@@ -23,16 +23,20 @@
       "trigger": "minecraft:bred_animals",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:custom",
-                "stat": "minecraft:animals_bred",
-                "value": {
-                  "min": 10000
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "minecraft:animals_bred",
+                  "value": {
+                    "min": 10000
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }

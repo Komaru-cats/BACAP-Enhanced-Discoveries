@@ -19,7 +19,11 @@
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:phantom"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:phantom"
+          }
         }
       }
     }

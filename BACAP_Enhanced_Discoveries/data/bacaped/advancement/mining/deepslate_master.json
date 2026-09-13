@@ -21,16 +21,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:mined",
-                "stat": "minecraft:reinforced_deepslate",
-                "value": {
-                  "min": 16
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:mined",
+                  "stat": "minecraft:reinforced_deepslate",
+                  "value": {
+                    "min": 16
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -39,16 +43,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:mined",
-                "stat": "minecraft:deepslate",
-                "value": {
-                  "min": 16
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:mined",
+                  "stat": "minecraft:deepslate",
+                  "value": {
+                    "min": 16
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -57,16 +65,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:mined",
-                "stat": "minecraft:cobbled_deepslate",
-                "value": {
-                  "min": 16
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:mined",
+                  "stat": "minecraft:cobbled_deepslate",
+                  "value": {
+                    "min": 16
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -75,16 +87,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:mined",
-                "stat": "minecraft:cobbled_deepslate_wall",
-                "value": {
-                  "min": 16
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:mined",
+                  "stat": "minecraft:cobbled_deepslate_wall",
+                  "value": {
+                    "min": 16
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -93,16 +109,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:mined",
-                "stat": "minecraft:chiseled_deepslate",
-                "value": {
-                  "min": 16
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:mined",
+                  "stat": "minecraft:chiseled_deepslate",
+                  "value": {
+                    "min": 16
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -111,16 +131,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:mined",
-                "stat": "minecraft:cobbled_deepslate_stairs",
-                "value": {
-                  "min": 16
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:mined",
+                  "stat": "minecraft:cobbled_deepslate_stairs",
+                  "value": {
+                    "min": 16
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -129,16 +153,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:mined",
-                "stat": "minecraft:cobbled_deepslate_slab",
-                "value": {
-                  "min": 16
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:mined",
+                  "stat": "minecraft:cobbled_deepslate_slab",
+                  "value": {
+                    "min": 16
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -147,16 +175,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:mined",
-                "stat": "minecraft:polished_deepslate",
-                "value": {
-                  "min": 16
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:mined",
+                  "stat": "minecraft:polished_deepslate",
+                  "value": {
+                    "min": 16
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -165,16 +197,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:mined",
-                "stat": "minecraft:polished_deepslate_stairs",
-                "value": {
-                  "min": 16
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:mined",
+                  "stat": "minecraft:polished_deepslate_stairs",
+                  "value": {
+                    "min": 16
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -183,16 +219,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:mined",
-                "stat": "minecraft:polished_deepslate_slab",
-                "value": {
-                  "min": 16
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:mined",
+                  "stat": "minecraft:polished_deepslate_slab",
+                  "value": {
+                    "min": 16
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -201,16 +241,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:mined",
-                "stat": "minecraft:polished_deepslate_wall",
-                "value": {
-                  "min": 16
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:mined",
+                  "stat": "minecraft:polished_deepslate_wall",
+                  "value": {
+                    "min": 16
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -219,16 +263,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:mined",
-                "stat": "minecraft:deepslate_bricks",
-                "value": {
-                  "min": 16
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:mined",
+                  "stat": "minecraft:deepslate_bricks",
+                  "value": {
+                    "min": 16
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -237,16 +285,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:mined",
-                "stat": "minecraft:cracked_deepslate_bricks",
-                "value": {
-                  "min": 16
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:mined",
+                  "stat": "minecraft:cracked_deepslate_bricks",
+                  "value": {
+                    "min": 16
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -255,16 +307,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:mined",
-                "stat": "minecraft:deepslate_brick_stairs",
-                "value": {
-                  "min": 16
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:mined",
+                  "stat": "minecraft:deepslate_brick_stairs",
+                  "value": {
+                    "min": 16
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -273,16 +329,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:mined",
-                "stat": "minecraft:deepslate_brick_slab",
-                "value": {
-                  "min": 16
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:mined",
+                  "stat": "minecraft:deepslate_brick_slab",
+                  "value": {
+                    "min": 16
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -291,16 +351,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:mined",
-                "stat": "minecraft:deepslate_brick_wall",
-                "value": {
-                  "min": 16
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:mined",
+                  "stat": "minecraft:deepslate_brick_wall",
+                  "value": {
+                    "min": 16
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -309,16 +373,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:mined",
-                "stat": "minecraft:deepslate_tiles",
-                "value": {
-                  "min": 16
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:mined",
+                  "stat": "minecraft:deepslate_tiles",
+                  "value": {
+                    "min": 16
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -327,16 +395,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:mined",
-                "stat": "minecraft:cracked_deepslate_tiles",
-                "value": {
-                  "min": 16
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:mined",
+                  "stat": "minecraft:cracked_deepslate_tiles",
+                  "value": {
+                    "min": 16
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -345,16 +417,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:mined",
-                "stat": "minecraft:deepslate_tile_stairs",
-                "value": {
-                  "min": 16
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:mined",
+                  "stat": "minecraft:deepslate_tile_stairs",
+                  "value": {
+                    "min": 16
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -363,16 +439,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:mined",
-                "stat": "minecraft:deepslate_tile_slab",
-                "value": {
-                  "min": 16
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:mined",
+                  "stat": "minecraft:deepslate_tile_slab",
+                  "value": {
+                    "min": 16
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }
@@ -381,16 +461,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:mined",
-                "stat": "minecraft:deepslate_tile_wall",
-                "value": {
-                  "min": 16
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:mined",
+                  "stat": "minecraft:deepslate_tile_wall",
+                  "value": {
+                    "min": 16
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }

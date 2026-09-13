@@ -35,9 +35,6 @@ execute as @a[gamemode=!spectator,advancements={bacaped:adventure/dual_reality=f
 execute as @a[gamemode=!spectator,advancements={bacaped:adventure/dual_reality=false}] at @s if dimension minecraft:the_nether run function bacaped:dual_reality/nether_check
 scoreboard players set @a[gamemode=!spectator] bacaped_in_struct_summary 0
 
-# Silence is loud here
-execute in minecraft:the_end positioned 0 ~ 0 run advancement grant @a[distance=370720.., advancements={bacaped:challenges/silence_is_loud_here=false}] only bacaped:challenges/silence_is_loud_here
-
 # Ghast Squad
 execute as @a[predicate=bacaped:is_on_happy_ghast] run scoreboard players add @n[type=minecraft:happy_ghast] bacaped_ghast_passenger_count 1
 execute as @a at @s run execute on vehicle if entity @s[type=minecraft:happy_ghast,scores={bacaped_ghast_passenger_count=4..}] run execute as @s on passengers run advancement grant @s only bacaped:nether/ghast_squad

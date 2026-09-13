@@ -18,16 +18,20 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:custom",
-                "stat": "minecraft:climb_one_cm",
-                "value": {
-                  "min": 300000
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "minecraft:climb_one_cm",
+                  "value": {
+                    "min": 300000
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }

@@ -22,11 +22,17 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "location": {
-            "block": {
-              "blocks": "minecraft:heavy_weighted_pressure_plate",
-              "state": {
-                "power": "15"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "block": {
+                "blocks": "minecraft:heavy_weighted_pressure_plate",
+                "state": {
+                  "power": {
+                    "min": "15"
+                  }
+                }
               }
             }
           }

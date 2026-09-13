@@ -17,26 +17,31 @@
     "sit_in_boat_under_water": {
       "trigger": "minecraft:location",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "vehicle": {
-                "entity_type": "#blazeandcave:all_boats"
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:vehicle": {
+                  "entity_type": "#blazeandcave:all_boats"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": 1,
+              "offsetZ": 0,
+              "predicate": {
+                "fluid": {
+                  "fluids": "minecraft:water"
+                }
               }
             }
-          },
-          {
-            "condition": "minecraft:location_check",
-            "offsetY": 1,
-            "predicate": {
-              "fluid": {
-                "fluids": "minecraft:water"
-              }
-            }
-          }
-        ]
+          ]
+        }
       }
     }
   },

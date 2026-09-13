@@ -1,16 +1,8 @@
-[
-  {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "entity_type": "minecraft:dolphin"
-    }
-  },
-  {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "nbt": "{GotFish:1b}"
-    }
+{
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:entity_type": "minecraft:dolphin",
+    "minecraft:nbt": "{GotFish:1b}"
   }
-]
+}

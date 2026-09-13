@@ -53,7 +53,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:bogged"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:bogged"
+          }
         },
         "killing_blow": {
           "direct_entity": {
@@ -66,7 +70,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:zombie"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:zombie"
+          }
         },
         "killing_blow": {
           "direct_entity": {
@@ -79,7 +87,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:drowned"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:drowned"
+          }
         },
         "killing_blow": {
           "direct_entity": {
@@ -92,7 +104,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:husk"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:husk"
+          }
         },
         "killing_blow": {
           "direct_entity": {
@@ -105,7 +121,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:phantom"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:phantom"
+          }
         },
         "killing_blow": {
           "direct_entity": {
@@ -118,7 +138,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:skeleton"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:skeleton"
+          }
         },
         "killing_blow": {
           "direct_entity": {
@@ -131,7 +155,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:skeleton_horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:skeleton_horse"
+          }
         },
         "killing_blow": {
           "direct_entity": {
@@ -144,7 +172,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:stray"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:stray"
+          }
         },
         "killing_blow": {
           "direct_entity": {
@@ -157,7 +189,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:wither_skeleton"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:wither_skeleton"
+          }
         },
         "killing_blow": {
           "direct_entity": {
@@ -170,7 +206,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:zombie_villager"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:zombie_villager"
+          }
         },
         "killing_blow": {
           "direct_entity": {
@@ -183,7 +223,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:zombified_piglin"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:zombified_piglin"
+          }
         },
         "killing_blow": {
           "direct_entity": {
@@ -196,7 +240,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:zoglin"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:zoglin"
+          }
         },
         "killing_blow": {
           "direct_entity": {
@@ -209,7 +257,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:zombie_horse"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:zombie_horse"
+          }
         },
         "killing_blow": {
           "direct_entity": {
@@ -222,7 +274,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:zombie_nautilus"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:zombie_nautilus"
+          }
         },
         "killing_blow": {
           "direct_entity": {
@@ -235,7 +291,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:camel_husk"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:camel_husk"
+          }
         },
         "killing_blow": {
           "direct_entity": {
@@ -248,7 +308,11 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "entity_type": "minecraft:parched"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:parched"
+          }
         },
         "killing_blow": {
           "direct_entity": {

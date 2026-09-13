@@ -38,8 +38,12 @@
           "items": "minecraft:lead"
         },
         "entity": {
-          "entity_type": "#minecraft:boat",
-          "nbt": "{Passengers:[{id:\"minecraft:trader_llama\"},{id:\"minecraft:wandering_trader\"}]}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "#minecraft:boat",
+            "nbt": "{Passengers:[{id:\"minecraft:trader_llama\"},{id:\"minecraft:wandering_trader\"}]}"
+          }
         }
       }
     }

@@ -22,18 +22,26 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "equipment": {
-            "mainhand": {
-              "items": "minecraft:iron_shovel"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "items": "minecraft:iron_shovel"
+              }
             }
           }
         },
         "entity": {
-          "entity_type": "minecraft:phantom",
-          "location": {
-            "position": {
-              "y": {
-                "max": -60
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:phantom",
+            "location": {
+              "position": {
+                "y": {
+                  "max": -60
+                }
               }
             }
           }

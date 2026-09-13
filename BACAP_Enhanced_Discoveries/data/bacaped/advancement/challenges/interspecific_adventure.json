@@ -20,14 +20,18 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "looking_at": {
-              "entity_type": "minecraft:silverfish",
-              "nbt": "{Tags:[\"bacaped_interspecific_adventure\"]}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "looking_at": {
+                "entity_type": "minecraft:silverfish",
+                "minecraft:nbt": "{Tags:[\"bacaped_interspecific_adventure\"]}"
+              }
+            },
+            "location": {
+              "structures": "minecraft:end_city"
             }
-          },
-          "location": {
-            "structures": "minecraft:end_city"
           }
         },
         "item": {
@@ -39,14 +43,18 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "looking_at": {
-              "entity_type": "minecraft:endermite",
-              "nbt": "{Tags:[\"bacaped_interspecific_adventure\"]}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "looking_at": {
+                "entity_type": "minecraft:endermite",
+                "minecraft:nbt": "{Tags:[\"bacaped_interspecific_adventure\"]}"
+              }
+            },
+            "location": {
+              "structures": "minecraft:end_city"
             }
-          },
-          "location": {
-            "structures": "minecraft:end_city"
           }
         },
         "item": {

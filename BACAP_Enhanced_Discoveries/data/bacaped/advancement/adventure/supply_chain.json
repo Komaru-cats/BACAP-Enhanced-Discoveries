@@ -18,14 +18,16 @@
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "villager": {
-          "location": {
-            "biomes": "minecraft:dripstone_caves"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "biomes": "minecraft:dripstone_caves"
+            }
           }
         },
         "item": {
-          "items": [
-            "minecraft:dripstone_block"
-          ]
+          "items": "minecraft:dripstone_block"
         }
       }
     }

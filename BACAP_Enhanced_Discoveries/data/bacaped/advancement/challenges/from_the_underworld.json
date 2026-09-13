@@ -23,9 +23,13 @@
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "villager": {
-          "entity_type": "minecraft:wandering_trader",
-          "location": {
-            "dimension": "minecraft:the_nether"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:wandering_trader",
+            "location": {
+              "dimension": "minecraft:the_nether"
+            }
           }
         },
         "item": {

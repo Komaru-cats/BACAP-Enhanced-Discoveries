@@ -36,16 +36,20 @@
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "stats": [
-              {
-                "type": "minecraft:custom",
-                "stat": "minecraft:traded_with_villager",
-                "value": {
-                  "min": 9999
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "minecraft:traded_with_villager",
+                  "value": {
+                    "min": 9999
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         }
       }

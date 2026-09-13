@@ -25,9 +25,13 @@
           "items": "minecraft:water_bucket"
         },
         "entity": {
-          "entity_type": "minecraft:salmon",
-          "components": {
-            "minecraft:salmon/size": "small"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:salmon",
+            "components": {
+              "minecraft:salmon/size": "small"
+            }
           }
         }
       }
@@ -39,9 +43,13 @@
           "items": "minecraft:water_bucket"
         },
         "entity": {
-          "entity_type": "minecraft:salmon",
-          "components": {
-            "minecraft:salmon/size": "medium"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:salmon",
+            "components": {
+              "minecraft:salmon/size": "medium"
+            }
           }
         }
       }
@@ -53,9 +61,13 @@
           "items": "minecraft:water_bucket"
         },
         "entity": {
-          "entity_type": "minecraft:salmon",
-          "components": {
-            "minecraft:salmon/size": "large"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:salmon",
+            "components": {
+              "minecraft:salmon/size": "large"
+            }
           }
         }
       }

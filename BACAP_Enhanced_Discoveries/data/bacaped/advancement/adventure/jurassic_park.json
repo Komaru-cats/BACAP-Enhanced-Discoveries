@@ -22,9 +22,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:torchflower"
-            ],
+            "items": "minecraft:torchflower",
             "count": {
               "min": 64
             }
@@ -37,9 +35,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:pitcher_plant"
-            ],
+            "items": "minecraft:pitcher_plant",
             "count": {
               "min": 64
             }

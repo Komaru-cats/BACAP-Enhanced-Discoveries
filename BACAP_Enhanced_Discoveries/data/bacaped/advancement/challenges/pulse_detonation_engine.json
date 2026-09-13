@@ -26,15 +26,13 @@
             "min": 1000
           }
         },
-        "cause": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "entity_type": "minecraft:tnt"
-            }
+        "cause": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:tnt"
           }
-        ]
+        }
       }
     }
   },

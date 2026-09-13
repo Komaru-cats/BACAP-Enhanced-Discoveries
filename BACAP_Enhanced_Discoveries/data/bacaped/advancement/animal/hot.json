@@ -19,8 +19,12 @@
       "trigger": "minecraft:ride_entity_in_lava",
       "conditions": {
         "player": {
-          "vehicle": {
-            "entity_type": "minecraft:pig"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:vehicle": {
+              "entity_type": "minecraft:pig"
+            }
           }
         }
       }

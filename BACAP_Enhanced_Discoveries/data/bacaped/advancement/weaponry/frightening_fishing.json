@@ -22,16 +22,13 @@
     "catch_warden": {
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
-        "player": [],
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "entity_type": "minecraft:warden"
-            }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:warden"
           }
-        ]
+        }
       }
     }
   },

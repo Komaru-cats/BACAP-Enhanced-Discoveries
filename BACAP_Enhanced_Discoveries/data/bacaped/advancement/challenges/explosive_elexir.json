@@ -19,7 +19,6 @@
     "all_effects": {
       "trigger": "minecraft:effects_changed",
       "conditions": {
-        "player": [],
         "effects": {
           "minecraft:speed": {
             "amplifier": {

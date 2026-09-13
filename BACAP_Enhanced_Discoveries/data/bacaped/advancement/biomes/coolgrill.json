@@ -18,26 +18,29 @@
     "trigger": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "minecraft:deep_frozen_ocean",
-                "minecraft:frozen_ocean"
-              ],
-              "block": {
-                "blocks": "#minecraft:campfires"
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:frozen_ocean"
+                ],
+                "block": {
+                  "blocks": "#minecraft:campfires"
+                }
+              }
+            },
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": "#bacaped:raw_meat"
               }
             }
-          },
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": "#bacaped:raw_meat"
-            }
-          }
-        ]
+          ]
+        }
       }
     }
   },

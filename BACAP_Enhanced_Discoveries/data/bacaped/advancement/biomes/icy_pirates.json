@@ -21,11 +21,15 @@
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
         "player": {
-          "location": {
-            "biomes": "minecraft:snowy_beach"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "biomes": "minecraft:snowy_beach"
+            }
           }
         },
-        "loot_table": "minecraft:chests/buried_treasure"
+        "loot_tables": "minecraft:chests/buried_treasure"
       }
     }
   },

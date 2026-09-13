@@ -20,14 +20,16 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:lead"
-          ]
+          "items": "minecraft:lead"
         },
         "entity": {
-          "entity_type": "minecraft:fox",
-          "effects": {
-            "minecraft:blindness": {}
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:fox",
+            "effects": {
+              "minecraft:blindness": {}
+            }
           }
         }
       }

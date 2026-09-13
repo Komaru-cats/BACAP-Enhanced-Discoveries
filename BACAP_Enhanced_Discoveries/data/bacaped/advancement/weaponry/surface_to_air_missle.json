@@ -28,13 +28,17 @@
           ]
         },
         "entity": {
-          "entity_type": "minecraft:creeper",
-          "nbt": "{powered: 1b}",
-          "flags": {
-            "is_on_ground": false
-          },
-          "effects": {
-            "minecraft:levitation": {}
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:creeper",
+            "minecraft:nbt": "{powered: 1b}",
+            "flags": {
+              "is_on_ground": false
+            },
+            "effects": {
+              "minecraft:levitation": {}
+            }
           }
         }
       }
