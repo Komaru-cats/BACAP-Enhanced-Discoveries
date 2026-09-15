@@ -10,7 +10,7 @@
       "translate": "What a Stupid Purchase"
     },
     "description": {
-      "translate": "Buy pointed dripstone from a Wandering Trader in dripstone caves",
+      "translate": "Buy pointed dripstone or sulfur spike from a Wandering Trader in its native caves",
       "color": "light_purple"
     },
     "frame": "challenge",

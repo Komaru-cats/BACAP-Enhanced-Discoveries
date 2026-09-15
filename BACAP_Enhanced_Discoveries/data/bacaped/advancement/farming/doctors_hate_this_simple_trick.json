@@ -19,8 +19,11 @@
           "translate": "To view progress, run:"
         },
         {
+          "text": "\n"
+        },
+        {
           "color": "gray",
-          "text": "\n/trigger bacaped_egapple_a_day"
+          "text": "/trigger bacaped_egapple_a_day"
         }
       ]
     },

@@ -306,7 +306,6 @@
 "Void Being": "Entidad del vacío",
 "Be 1000 blocks under the world": "Estar a 1000 bloques por debajo del mundo",
 "What a Stupid Purchase": "Qué compra más estúpida",
-"Buy pointed dripstone from a Wandering Trader in dripstone caves": "Compra piedra de goteo puntiaguda a un comerciante errante en cuevas de piedra de goteo",
 "What Are the Chances": "¿Cuáles son las probabilidades?",
 "Kill a Phantom that is 92 blocks above the world with a bow enchanted with Flame, Punch 1, Unbreaking 2, and Curse of Vanishing while inside the Mangrove Swamp biome": "Mata a un Fantasma que esté a 92 bloques sobre el mundo con un arco encantado con Llama, Golpeo 1, Irrompible 2 y Maldición de Desaparición mientras estás en el bioma de Pantano de Manglares",
 "Yes": "Sí",
@@ -1378,5 +1377,6 @@
 //"Ride 125km on a Nautilus": "",
 //"Lost Ancient Technology": "",
 //"You ignored the simplest and most reliable": "",
-//"watercraft just to float around on a... shell": ""
+//"watercraft just to float around on a... shell": "",
+// "Buy pointed dripstone or sulfur spike from a Wandering Trader in its native caves": ""
 }
