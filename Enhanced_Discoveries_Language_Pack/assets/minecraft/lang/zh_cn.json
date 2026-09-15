@@ -306,7 +306,6 @@
     "Void Being": "无为有处有还无",
     "Be 1000 blocks under the world": "抵达世界y<-1000处",
     "What a Stupid Purchase": "智商税",
-    "Buy pointed dripstone from a Wandering Trader in dripstone caves": "在溶洞向流浪商人购买滴水石锥",
     "What Are the Chances": "这得多巧啊",
     "Kill a Phantom that is 92 blocks above the world with a bow enchanted with Flame, Punch 1, Unbreaking 2, and Curse of Vanishing while inside the Mangrove Swamp biome": "红树林沼泽内，用含火矢、冲击1、耐久2、消失诅咒的弓击杀y=92的幻翼",
     "Yes": "对",
@@ -1382,5 +1381,7 @@
     "Frustrated Trader": "失意商人",
     "Break workstation blocks 250 times": "破坏250个村民工作方块",
     "HR Manager of the Year": "HR就是你吗？",
-    "Break workstation blocks 5000 times": "破坏5000个村民工作方块"
+    "Break workstation blocks 5000 times": "破坏5000个村民工作方块" // <---  dont forget ","
+    // Missing translations:
+    // "Buy pointed dripstone or sulfur spike from a Wandering Trader in its native caves": ""
 }
