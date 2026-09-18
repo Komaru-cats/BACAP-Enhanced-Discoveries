@@ -40,12 +40,16 @@
           "entity": "this",
           "predicate": {
             "entity_type": "minecraft:enderman",
-            "minecraft:nbt": "{Tags:[\"bacaped_circus\"]}",
             "location": {
               "dimension": "minecraft:overworld"
             },
             "effects": {
               "minecraft:levitation": {}
+            },
+            "minecraft:entity_tags": {
+              "all_of": [
+                "bacaped_circus"
+              ]
             }
           }
         },
