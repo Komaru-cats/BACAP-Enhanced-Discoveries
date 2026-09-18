@@ -8,7 +8,11 @@
           "entity": "this",
           "predicate": {
             "minecraft:entity_type": "minecraft:warden",
-            "minecraft:nbt": "{Tags:[\"bacaped_full_hp_warden\"]}"
+            "minecraft:entity_tags": {
+              "all_of": [
+                "bacaped_full_hp_warden"
+              ]
+            }
           }
         }
       }

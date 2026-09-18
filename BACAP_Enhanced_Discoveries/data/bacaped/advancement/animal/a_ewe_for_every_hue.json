@@ -25,8 +25,10 @@
           "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "entity_type": "minecraft:sheep",
-            "minecraft:nbt": "{Color:0b}"
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "white"
+            }
           }
         }
       }
@@ -41,8 +43,10 @@
           "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "entity_type": "minecraft:sheep",
-            "minecraft:nbt": "{Color:1b}"
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "orange"
+            }
           }
         }
       }
@@ -57,8 +61,10 @@
           "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "entity_type": "minecraft:sheep",
-            "minecraft:nbt": "{Color:2b}"
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "magenta"
+            }
           }
         }
       }
@@ -73,8 +79,10 @@
           "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "entity_type": "minecraft:sheep",
-            "minecraft:nbt": "{Color:3b}"
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "light_blue"
+            }
           }
         }
       }
@@ -89,8 +97,10 @@
           "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "entity_type": "minecraft:sheep",
-            "minecraft:nbt": "{Color:4b}"
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "yellow"
+            }
           }
         }
       }
@@ -105,8 +115,10 @@
           "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "entity_type": "minecraft:sheep",
-            "minecraft:nbt": "{Color:5b}"
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "lime"
+            }
           }
         }
       }
@@ -121,8 +133,10 @@
           "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "entity_type": "minecraft:sheep",
-            "minecraft:nbt": "{Color:6b}"
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "pink"
+            }
           }
         }
       }
@@ -137,8 +151,10 @@
           "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "entity_type": "minecraft:sheep",
-            "minecraft:nbt": "{Color:7b}"
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "gray"
+            }
           }
         }
       }
@@ -153,8 +169,10 @@
           "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "entity_type": "minecraft:sheep",
-            "minecraft:nbt": "{Color:8b}"
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "light_gray"
+            }
           }
         }
       }
@@ -169,8 +187,10 @@
           "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "entity_type": "minecraft:sheep",
-            "minecraft:nbt": "{Color:9b}"
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "cyan"
+            }
           }
         }
       }
@@ -185,8 +205,10 @@
           "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "entity_type": "minecraft:sheep",
-            "minecraft:nbt": "{Color:10b}"
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "purple"
+            }
           }
         }
       }
@@ -201,8 +223,10 @@
           "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "entity_type": "minecraft:sheep",
-            "minecraft:nbt": "{Color:11b}"
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "blue"
+            }
           }
         }
       }
@@ -217,8 +241,10 @@
           "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "entity_type": "minecraft:sheep",
-            "minecraft:nbt": "{Color:12b}"
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "brown"
+            }
           }
         }
       }
@@ -233,8 +259,10 @@
           "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "entity_type": "minecraft:sheep",
-            "minecraft:nbt": "{Color:13b}"
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "green"
+            }
           }
         }
       }
@@ -249,8 +277,10 @@
           "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "entity_type": "minecraft:sheep",
-            "minecraft:nbt": "{Color:14b}"
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "red"
+            }
           }
         }
       }
@@ -265,8 +295,10 @@
           "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "entity_type": "minecraft:sheep",
-            "minecraft:nbt": "{Color:15b}"
+            "minecraft:entity_type": "minecraft:sheep",
+            "minecraft:components": {
+              "minecraft:sheep/color": "black"
+            }
           }
         }
       }

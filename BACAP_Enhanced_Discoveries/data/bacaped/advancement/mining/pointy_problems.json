@@ -23,7 +23,7 @@
       "conditions": {
         "damage": {
           "source_entity": {
-            "minecraft:nbt": "{BlockState:{Name:\"minecraft:pointed_dripstone\"}}"
+            "minecraft:nbt": "{BlockState:{id:\"minecraft:pointed_dripstone\"}}"
           }
         }
       }
@@ -33,7 +33,7 @@
       "conditions": {
         "damage": {
           "source_entity": {
-            "minecraft:nbt": "{BlockState:{Name:\"minecraft:sulfur_spike\"}}"
+            "minecraft:nbt": "{BlockState:{id:\"minecraft:sulfur_spike\"}}"
           }
         }
       }

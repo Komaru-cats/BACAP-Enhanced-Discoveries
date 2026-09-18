@@ -26,7 +26,11 @@
             "minecraft:type_specific/player": {
               "looking_at": {
                 "entity_type": "minecraft:silverfish",
-                "minecraft:nbt": "{Tags:[\"bacaped_interspecific_adventure\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "bacaped_interspecific_adventure"
+                  ]
+                }
               }
             },
             "location": {
@@ -49,7 +53,11 @@
             "minecraft:type_specific/player": {
               "looking_at": {
                 "entity_type": "minecraft:endermite",
-                "minecraft:nbt": "{Tags:[\"bacaped_interspecific_adventure\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "bacaped_interspecific_adventure"
+                  ]
+                }
               }
             },
             "location": {

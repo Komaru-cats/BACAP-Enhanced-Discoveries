@@ -47,7 +47,7 @@
                     "blocks": [
                       "minecraft:beacon"
                     ],
-                    "minecraft:nbt": "{Levels:0}"
+                    "nbt": "{Levels:0}"
                   }
                 }
               }
@@ -89,7 +89,7 @@
                     "blocks": [
                       "minecraft:beacon"
                     ],
-                    "minecraft:nbt": "{Levels:0}"
+                    "nbt": "{Levels:0}"
                   }
                 }
               }
@@ -133,7 +133,7 @@
                     "blocks": [
                       "minecraft:beacon"
                     ],
-                    "minecraft:nbt": "{Levels:0}"
+                    "nbt": "{Levels:0}"
                   }
                 }
               }
@@ -177,7 +177,7 @@
                     "blocks": [
                       "minecraft:beacon"
                     ],
-                    "minecraft:nbt": "{Levels:0}"
+                    "nbt": "{Levels:0}"
                   }
                 }
               }
@@ -221,7 +221,7 @@
                     "blocks": [
                       "minecraft:beacon"
                     ],
-                    "minecraft:nbt": "{Levels:0}"
+                    "nbt": "{Levels:0}"
                   }
                 }
               }
@@ -265,7 +265,7 @@
                     "blocks": [
                       "minecraft:beacon"
                     ],
-                    "minecraft:nbt": "{Levels:0}"
+                    "nbt": "{Levels:0}"
                   }
                 }
               }
@@ -309,7 +309,7 @@
                     "blocks": [
                       "minecraft:beacon"
                     ],
-                    "minecraft:nbt": "{Levels:0}"
+                    "nbt": "{Levels:0}"
                   }
                 }
               }
@@ -353,7 +353,7 @@
                     "blocks": [
                       "minecraft:beacon"
                     ],
-                    "minecraft:nbt": "{Levels:0}"
+                    "nbt": "{Levels:0}"
                   }
                 }
               }
@@ -397,7 +397,7 @@
                     "blocks": [
                       "minecraft:beacon"
                     ],
-                    "minecraft:nbt": "{Levels:0}"
+                    "nbt": "{Levels:0}"
                   }
                 }
               }
@@ -441,7 +441,7 @@
                     "blocks": [
                       "minecraft:beacon"
                     ],
-                    "minecraft:nbt": "{Levels:0}"
+                    "nbt": "{Levels:0}"
                   }
                 }
               }
@@ -485,7 +485,7 @@
                     "blocks": [
                       "minecraft:beacon"
                     ],
-                    "minecraft:nbt": "{Levels:0}"
+                    "nbt": "{Levels:0}"
                   }
                 }
               }
@@ -529,7 +529,7 @@
                     "blocks": [
                       "minecraft:beacon"
                     ],
-                    "minecraft:nbt": "{Levels:0}"
+                    "nbt": "{Levels:0}"
                   }
                 }
               }
@@ -573,7 +573,7 @@
                     "blocks": [
                       "minecraft:beacon"
                     ],
-                    "minecraft:nbt": "{Levels:0}"
+                    "nbt": "{Levels:0}"
                   }
                 }
               }
@@ -617,7 +617,7 @@
                     "blocks": [
                       "minecraft:beacon"
                     ],
-                    "minecraft:nbt": "{Levels:0}"
+                    "nbt": "{Levels:0}"
                   }
                 }
               }
@@ -661,7 +661,7 @@
                     "blocks": [
                       "minecraft:beacon"
                     ],
-                    "minecraft:nbt": "{Levels:0}"
+                    "nbt": "{Levels:0}"
                   }
                 }
               }

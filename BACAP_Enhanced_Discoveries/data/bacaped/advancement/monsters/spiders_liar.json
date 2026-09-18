@@ -30,7 +30,7 @@
               "structures": "minecraft:mansion",
               "block": {
                 "blocks": "minecraft:spawner",
-                "minecraft:nbt": "{SpawnData:{entity:{id:\"minecraft:spider\"}}}"
+                "nbt": "{SpawnData:{entity:{id:\"minecraft:spider\"}}}"
               }
             }
           }

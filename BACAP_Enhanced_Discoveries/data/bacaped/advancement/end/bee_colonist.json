@@ -24,7 +24,7 @@
             "dimension": "minecraft:the_end",
             "block": {
               "blocks": "minecraft:bee_nest",
-              "minecraft:nbt": "{Bees:[{},{},{}]}"
+              "nbt": "{bees:[{},{},{}]}"
             }
           }
         }
