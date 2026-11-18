@@ -23,12 +23,11 @@
       "translate": "Resilient Centenarian"
     },
     "description": {
-      "translate": "Avoid using totem of undying for 10 hours",
+      "translate": "Avoid using Totem of Undying for 10 hours",
       "color": "#75E1FF"
     },
     "frame": "goal",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "parent": "bacaped:statistics/survivors_hour",
   "criteria": {

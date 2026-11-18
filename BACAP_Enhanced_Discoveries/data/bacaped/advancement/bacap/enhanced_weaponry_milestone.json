@@ -159,6 +159,22 @@
         }
       }
     },
+    "shield_of_achilles": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:weaponry/shield_of_achilles": true
+              }
+            }
+          }
+        }
+      }
+    },
     "snow_fights": {
       "trigger": "minecraft:location",
       "conditions": {

@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/selenology",reward_id:"adventure/selenology",tier:"challenge"}

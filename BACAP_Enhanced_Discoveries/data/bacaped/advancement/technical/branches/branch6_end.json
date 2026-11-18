@@ -1,5 +1,5 @@
 {
-  "parent": "bacaped:challenges/show_the_nether_to_a_silverfish",
+  "parent": "bacaped:challenges/mob_universe",
   "criteria": {
     "root": {
       "trigger": "minecraft:location",

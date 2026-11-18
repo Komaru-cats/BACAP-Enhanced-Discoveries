@@ -1,1 +1,0 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/no_water_team",reward_id:"adventure/no_water_team",tier:"goal"}

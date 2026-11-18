@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/third_escape_velocity",reward_id:"challenges/third_escape_velocity",tier:"super_challenge"}

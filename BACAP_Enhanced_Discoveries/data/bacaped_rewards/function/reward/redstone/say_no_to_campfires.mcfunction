@@ -1,2 +1,2 @@
-give @s honeycomb 4
-tellraw @s {"color":"green","text":" +4 ","extra":[{"translate":"item.minecraft.honeycomb"}]}
+give @s honeycomb 2
+tellraw @s {text:" +2 ",color:"green",extra:[{translate:"item.minecraft.honeycomb"}]}

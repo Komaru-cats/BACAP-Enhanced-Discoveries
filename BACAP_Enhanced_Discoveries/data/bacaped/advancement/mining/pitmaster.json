@@ -1,0 +1,76 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_beef"
+    },
+    "title": {
+      "translate": "Pitmaster"
+    },
+    "description": {
+      "translate": "Cook every Smoker recipe",
+      "color": "green"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/smokin_hot",
+  "criteria": {
+    "baked_potato": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:baked_potato_from_smoking"
+      }
+    },
+    "cooked_beef": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:cooked_beef_from_smoking"
+      }
+    },
+    "cooked_chicken": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:cooked_chicken_from_smoking"
+      }
+    },
+    "cooked_cod": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:cooked_cod_from_smoking"
+      }
+    },
+    "cooked_mutton": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:cooked_mutton_from_smoking"
+      }
+    },
+    "cooked_porkchop": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:cooked_porkchop_from_smoking"
+      }
+    },
+    "cooked_rabbit": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:cooked_rabbit_from_smoking"
+      }
+    },
+    "cooked_salmon": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:cooked_salmon_from_smoking"
+      }
+    },
+    "dried_kelp": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:dried_kelp_from_smoking"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:mining/pitmaster"
+  }
+}

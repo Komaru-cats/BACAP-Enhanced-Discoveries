@@ -29,7 +29,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:challenges/the_world_is_actually_ending_2",
+  "parent": "bacaped:challenges/the_world_is_actually_ending",
   "criteria": {
     "kill_300_withers": {
       "trigger": "minecraft:location",

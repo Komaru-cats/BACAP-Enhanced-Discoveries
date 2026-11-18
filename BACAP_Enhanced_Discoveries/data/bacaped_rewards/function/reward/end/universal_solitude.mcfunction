@@ -1,2 +1,2 @@
-give @s minecraft:sculk_sensor 24
-tellraw @s {"color":"green","text":" +24 ","extra":[{"translate":"block.minecraft.sculk_sensor"}]}
+give @s sculk_sensor 42
+tellraw @s {text:" +42 ",color:"green",extra:[{translate:"block.minecraft.sculk_sensor"}]}

@@ -1,2 +1,3 @@
 execute store result score @s bacaped_warden_mason run execute if dimension minecraft:the_end if entity @e[type=warden,distance=..100,name="Mason"]
 execute if score @s bacaped_warden_mason matches 42.. run advancement grant @s only bacaped:end/universal_solitude
+execute if score @s bacaped_warden_mason matches 42.. run scoreboard players set @s bacaped_warden_mason 0	

@@ -1,1 +1,0 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/piggish_poison_tango",reward_id:"challenges/piggish_poison_tango",tier:"super_challenge"}

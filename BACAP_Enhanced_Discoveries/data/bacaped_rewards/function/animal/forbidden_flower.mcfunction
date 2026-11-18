@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/forbidden_flower",reward_id:"animal/forbidden_flower",tier:"goal"}

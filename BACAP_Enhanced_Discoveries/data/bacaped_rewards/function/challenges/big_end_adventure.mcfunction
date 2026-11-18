@@ -1,1 +1,0 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/big_end_adventure",reward_id:"challenges/big_end_adventure",tier:"super_challenge"}

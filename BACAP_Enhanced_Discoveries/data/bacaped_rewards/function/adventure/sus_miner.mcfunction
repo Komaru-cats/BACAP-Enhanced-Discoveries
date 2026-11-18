@@ -1,1 +1,0 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/sus_miner",reward_id:"adventure/sus_miner",tier:"task"}

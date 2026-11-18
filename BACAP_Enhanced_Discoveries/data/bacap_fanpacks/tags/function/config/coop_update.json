@@ -1,6 +1,6 @@
 {
-    "replace": false,
-    "values": [
-        "bacaped:config/coop_update"
-    ]
+  "replace": false,
+  "values": [
+    "bacaped:config/coop_update"
+  ]
 }

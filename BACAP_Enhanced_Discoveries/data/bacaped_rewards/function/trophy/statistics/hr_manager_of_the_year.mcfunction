@@ -1,2 +1,3 @@
 
-
+give @s minecraft:lectern[minecraft:custom_data={Trophy:true}, minecraft:custom_name={translate:"Executive Desk",color:"#FFCD98",bold:true,italic:false}, minecraft:custom_model_data={strings:["bacaped:executive_desk"]}, minecraft:lore=[{translate:"You are clearly driving the economy forward",color:"#FFCD98"},{translate:"by creating so many jobs. But what are the",color:"#FFCD98"},{translate:"conditions like for these workers...?",color:"#FFCD98"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"HR Manager of the Year",color:"light_purple",italic:false}]]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Executive Desk"}]}

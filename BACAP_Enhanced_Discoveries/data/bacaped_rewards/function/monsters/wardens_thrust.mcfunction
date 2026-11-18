@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:monsters/wardens_thrust",reward_id:"monsters/wardens_thrust",tier:"goal"}

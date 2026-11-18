@@ -1,0 +1,81 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:any_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "nbt": "{LootTable: \"minecraft:archaeology/trail_ruins_common\"}"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "nbt": "{LootTable: \"minecraft:archaeology/desert_pyramid\"}"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "nbt": "{LootTable: \"minecraft:archaeology/desert_well\"}"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "nbt": "{LootTable: \"minecraft:archaeology/ocean_ruin_cold\"}"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "nbt": "{LootTable: \"minecraft:archaeology/ocean_ruin_warm\"}"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "nbt": "{LootTable: \"minecraft:archaeology/trail_ruins_rare\"}"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "minecraft:suspicious_gravel",
+                    "minecraft:suspicious_sand"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped:scores/archeology_stats"
+  }
+}

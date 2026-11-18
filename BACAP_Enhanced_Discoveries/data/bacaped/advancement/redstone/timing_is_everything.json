@@ -1,0 +1,81 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clock"
+    },
+    "title": {
+      "translate": "Timing Is Everything"
+    },
+    "description": {
+      "translate": "Adjust a Redstone Repeater to all four delay settings"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/repeating_repeater",
+  "criteria": {
+    "delay_1": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "state": {
+                "delay": "1"
+              }
+            }
+          }
+        }
+      }
+    },
+    "delay_2": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "state": {
+                "delay": "2"
+              }
+            }
+          }
+        }
+      }
+    },
+    "delay_3": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "state": {
+                "delay": "3"
+              }
+            }
+          }
+        }
+      }
+    },
+    "delay_4": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "state": {
+                "delay": "4"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:redstone/timing_is_everything"
+  }
+}

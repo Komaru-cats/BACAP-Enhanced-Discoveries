@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:barrier"
+    },
+    "title": {
+      "translate": "Where Did the WORLD GO?"
+    },
+    "description": {
+      "translate": "Mine out every block in a single chunk in the Overworld, including the Bedrock",
+      "color": "light_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "bacaped:mining/where_did_the_ground_go",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:mining/where_did_the_world_go"
+  }
+}

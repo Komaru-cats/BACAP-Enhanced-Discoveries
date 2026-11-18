@@ -1,0 +1,195 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wind_charge",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Airborne Annihilator"
+    },
+    "description": {
+      "translate": "Kill all airborne mobs with a Wind Charge",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:adventure/blowback",
+  "criteria": {
+    "dragon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:ender_dragon"
+          }
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:wind_charge"
+          }
+        }
+      }
+    },
+    "bat": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:bat"
+          }
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:wind_charge"
+          }
+        }
+      }
+    },
+    "bee": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:bee"
+          }
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:wind_charge"
+          }
+        }
+      }
+    },
+    "blaze": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:blaze"
+          }
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:wind_charge"
+          }
+        }
+      }
+    },
+    "breeze": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:breeze"
+          }
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:wind_charge"
+          }
+        }
+      }
+    },
+    "ghast": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:ghast"
+          }
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:wind_charge"
+          }
+        }
+      }
+    },
+    "happy_ghast": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:happy_ghast"
+          }
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:wind_charge"
+          }
+        }
+      }
+    },
+    "parrot": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:parrot"
+          }
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:wind_charge"
+          }
+        }
+      }
+    },
+    "vex": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:vex"
+          }
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:wind_charge"
+          }
+        }
+      }
+    },
+    "phantom": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:phantom"
+          }
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:wind_charge"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:adventure/airborne_annihilator"
+  }
+}

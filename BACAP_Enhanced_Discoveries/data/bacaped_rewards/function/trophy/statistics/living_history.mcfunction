@@ -1,0 +1,2 @@
+give @s minecraft:sniffer_egg[minecraft:custom_data={Trophy:true}, minecraft:custom_name={translate:"An Egg From a Lost Era",color:"#6DAF5B",bold:true,italic:false}, minecraft:custom_model_data={strings:["bacaped:an_egg_from_a_lost_era"]}, minecraft:lore=[{translate:"It seems... this doesn't look like a mammoth",color:"#6DAF5B"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Living History",color:"dark_purple",italic:false}]]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"An Egg From a Lost Era"}]}

@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:eye_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "Lord of the Rings"
+    },
+    "description": {
+      "translate": "Visit a Stronghold in every ring around the world's center",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:nether/inside_out",
+  "criteria": {
+    "ring_1280-2816": {
+      "trigger": "minecraft:impossible"
+    },
+    "ring_4352-5888": {
+      "trigger": "minecraft:impossible"
+    },
+    "ring_7424-8960": {
+      "trigger": "minecraft:impossible"
+    },
+    "ring_10496-12032": {
+      "trigger": "minecraft:impossible"
+    },
+    "ring_13568-15104": {
+      "trigger": "minecraft:impossible"
+    },
+    "ring_16640-18176": {
+      "trigger": "minecraft:impossible"
+    },
+    "ring_19712-21248": {
+      "trigger": "minecraft:impossible"
+    },
+    "ring_22784-24320": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:nether/lord_of_the_rings"
+  }
+}

@@ -1,0 +1,3 @@
+
+give @s minecraft:fishing_rod[minecraft:custom_data={Trophy:true}, minecraft:custom_name={translate:"Phishing Attack",color:"#33E0FF",bold:true,italic:false}, minecraft:custom_model_data={strings:["bacaped:phishing_attack"]}, minecraft:lore=[{translate:"Wrong Dimension. Right Fish.",color:"#33E0FF"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"A Diverting Misconception",color:"dark_purple",italic:false}]]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Phishing Attack"}]}

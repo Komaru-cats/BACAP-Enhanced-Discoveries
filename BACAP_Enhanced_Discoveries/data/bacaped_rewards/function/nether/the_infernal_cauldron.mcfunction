@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:nether/the_infernal_cauldron",reward_id:"nether/the_infernal_cauldron",tier:"goal"}

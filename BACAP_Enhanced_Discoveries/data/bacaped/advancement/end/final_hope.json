@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "translate": "Final Hope"
+    },
+    "description": {
+      "translate": "Get hit by a Shulker Bullet near the void in the End",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:end/one_small_step_for_man",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "position": {
+                "y": {
+                  "max": -62
+                }
+              }
+            }
+          }
+        },
+        "damage": {
+          "blocked": false,
+          "source_entity": {
+            "minecraft:entity_type": "minecraft:shulker"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:end/final_hope"
+  }
+}

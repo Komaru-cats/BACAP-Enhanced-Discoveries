@@ -7,7 +7,7 @@
       "translate": "Midnight Snack"
     },
     "description": {
-      "translate": "Wake up a Villager to buy cookies late at night",
+      "translate": "Wake up a Villager to buy Cookies late at night",
       "color": "#75E1FF"
     },
     "frame": "goal",
@@ -22,8 +22,8 @@
           "type": "minecraft:time_check",
           "clock": "minecraft:overworld",
           "value": {
-            "min": 21000,
-            "max": 22000
+            "min": 18000,
+            "max": 19000
           },
           "period": 24000
         },

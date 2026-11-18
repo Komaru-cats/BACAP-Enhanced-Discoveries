@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:weaponry/the_explosive_adventure",reward_id:"weaponry/the_explosive_adventure",tier:"goal"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:weaponry/the_explosive_adventure",reward_id:"weaponry/the_explosive_adventure",tier:"challenge"}

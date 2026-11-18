@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:building/secret_passage",reward_id:"building/secret_passage",tier:"task"}

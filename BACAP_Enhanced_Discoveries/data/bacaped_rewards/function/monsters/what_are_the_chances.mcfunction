@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:monsters/what_are_the_chances",reward_id:"monsters/what_are_the_chances",tier:"challenge"}

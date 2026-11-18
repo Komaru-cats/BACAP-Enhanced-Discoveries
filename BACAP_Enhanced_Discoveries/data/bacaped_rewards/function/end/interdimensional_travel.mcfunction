@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:end/interdimensional_travel",reward_id:"end/interdimensional_travel",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:end/interdimensional_travel",reward_id:"end/interdimensional_travel",tier:"goal"}

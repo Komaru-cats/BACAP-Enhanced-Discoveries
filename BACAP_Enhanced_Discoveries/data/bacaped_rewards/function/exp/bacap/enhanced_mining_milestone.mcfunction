@@ -1,2 +1,2 @@
 xp add @s 500
-tellraw @s {"color":"blue","text":" +500 ","extra":[{"translate":"Experience"}]}
+tellraw @s {text:" +500 ",color:"blue",extra:[{translate:"Experience"}]}

@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dandelion"
+    },
+    "title": {
+      "translate": "Neverland Lost"
+    },
+    "description": {
+      "translate": "Use a Golden Dandelion a second time on the same mob to resume its aging",
+      "color": "green"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/welcome_to_neverland",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "flags": {
+              "is_baby": true
+            },
+            "nbt": "{AgeLocked:0b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:biomes/neverland_lost"
+  }
+}

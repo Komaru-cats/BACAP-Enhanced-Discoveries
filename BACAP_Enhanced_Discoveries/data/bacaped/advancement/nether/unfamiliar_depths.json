@@ -1,0 +1,104 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            -1778533635,
+            804798724,
+            -1543799613,
+            1307497347
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTg4YzA4YTMwNTUzMjVkMTNlZGRlMzhhNTMyZjIxODFlMmE1OGZiMjZmZGY3OTg3ZmIzZjIyODg4NGUzZDI1ZSJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "Unfamiliar Depths"
+    },
+    "description": {
+      "translate": "Look at a Silverfish in a Bastion, Fortress and a Ruined Portal in the Nether using Spyglass",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:nether/flap_dont_fall",
+  "criteria": {
+    "ruined_portal": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "looking_at": {
+                "entity_type": "minecraft:silverfish",
+                "location": {
+                  "structures": "minecraft:ruined_portal_nether"
+                }
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:spyglass"
+        }
+      }
+    },
+    "fortress": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "looking_at": {
+                "entity_type": "minecraft:silverfish",
+                "location": {
+                  "structures": "minecraft:fortress"
+                }
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:spyglass"
+        }
+      }
+    },
+    "bastion": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "looking_at": {
+                "entity_type": "minecraft:silverfish",
+                "location": {
+                  "structures": "minecraft:bastion_remnant"
+                }
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:spyglass"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:nether/unfamiliar_depths"
+  }
+}

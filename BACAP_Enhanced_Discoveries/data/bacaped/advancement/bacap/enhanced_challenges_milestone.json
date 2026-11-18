@@ -15,22 +15,6 @@
   },
   "parent": "bacaped:bacap/enhanced_end_milestone",
   "criteria": {
-    "5g_connectivity": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:challenges/5g_connectivity": true
-              }
-            }
-          }
-        }
-      }
-    },
     "5_birds_1_stone": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -41,38 +25,6 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:challenges/5_birds_1_stone": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "airborne_annihilator": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:challenges/airborne_annihilator": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "astronomer": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:challenges/astronomer": true
               }
             }
           }
@@ -95,22 +47,6 @@
         }
       }
     },
-    "big_end_adventure": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:challenges/big_end_adventure": true
-              }
-            }
-          }
-        }
-      }
-    },
     "big_horse_adventure": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -127,22 +63,6 @@
         }
       }
     },
-    "big_pig_adventure": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:challenges/big_pig_adventure": true
-              }
-            }
-          }
-        }
-      }
-    },
     "celestial_protocol": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -153,22 +73,6 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:challenges/celestial_protocol": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "circus_act": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:challenges/circus_act": true
               }
             }
           }
@@ -207,7 +111,7 @@
         }
       }
     },
-    "dead_carnaval": {
+    "dead_carnival": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -216,7 +120,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:challenges/dead_carnaval": true
+                "bacaped:challenges/dead_carnival": true
               }
             }
           }
@@ -271,7 +175,7 @@
         }
       }
     },
-    "extincion": {
+    "extinction": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -280,7 +184,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:challenges/extincion": true
+                "bacaped:challenges/extinction": true
               }
             }
           }
@@ -297,38 +201,6 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:challenges/happy_anniversary": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "how_did_you_end_up_here": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:challenges/how_did_you_end_up_here": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "interspecific_adventure": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:challenges/interspecific_adventure": true
               }
             }
           }
@@ -399,70 +271,6 @@
         }
       }
     },
-    "no_shield_please": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:challenges/no_shield_please": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "oh_my_broken_legs": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:challenges/oh_my_broken_legs": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "one_in_a_million_steed": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:challenges/one_in_a_million_steed": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "piggish_poison_tango": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:challenges/piggish_poison_tango": true
-              }
-            }
-          }
-        }
-      }
-    },
     "pooch_purge_pilot": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -473,6 +281,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:challenges/pooch_purge_pilot": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "pottery_collector": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:challenges/pottery_collector": true
               }
             }
           }
@@ -543,22 +367,6 @@
         }
       }
     },
-    "red_plus_red_equals_brown": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:challenges/red_plus_red_equals_brown": true
-              }
-            }
-          }
-        }
-      }
-    },
     "riddle_me_that": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -569,38 +377,6 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:challenges/riddle_me_that": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "sandwich": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:challenges/sandwich": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "shield_of_achilles": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:challenges/shield_of_achilles": true
               }
             }
           }
@@ -623,22 +399,6 @@
         }
       }
     },
-    "show_the_nether_to_a_silverfish": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:challenges/show_the_nether_to_a_silverfish": true
-              }
-            }
-          }
-        }
-      }
-    },
     "so_bright": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -655,7 +415,7 @@
         }
       }
     },
-    "star_fisherman": {
+    "stoppable_force": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -664,7 +424,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:challenges/star_fisherman": true
+                "bacaped:challenges/stoppable_force": true
               }
             }
           }
@@ -703,7 +463,7 @@
         }
       }
     },
-    "the_world_is_actually_ending_2": {
+    "the_world_is_actually_ending": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -712,7 +472,23 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:challenges/the_world_is_actually_ending_2": true
+                "bacaped:challenges/the_world_is_actually_ending": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "third_escape_velocity": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:challenges/third_escape_velocity": true
               }
             }
           }
@@ -735,7 +511,7 @@
         }
       }
     },
-    "void_being": {
+    "what_a_stupid_purchase": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -744,23 +520,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:challenges/void_being": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "what_are_the_chances": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:challenges/what_are_the_chances": true
+                "bacaped:challenges/what_a_stupid_purchase": true
               }
             }
           }
@@ -777,22 +537,6 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:challenges/wither_aboard": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "zero_coordinates_magnet": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:challenges/zero_coordinates_magnet": true
               }
             }
           }

@@ -1,2 +1,2 @@
-give @s iron_helmet 1
-tellraw @s {"color":"green","text":" +1 ","extra":[{"translate":"item.minecraft.iron_helmet"}]}
+give @s iron_helmet
+tellraw @s {text:" +1 ",color:"green",extra:[{translate:"item.minecraft.iron_helmet"}]}

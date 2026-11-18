@@ -1,1 +1,0 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/star_fisherman",reward_id:"challenges/star_fisherman",tier:"super_challenge"}

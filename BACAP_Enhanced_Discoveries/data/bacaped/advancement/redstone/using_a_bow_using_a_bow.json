@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
+    },
+    "title": {
+      "translate": "Using a Bow, Using a Bow"
+    },
+    "description": {
+      "translate": "Open a Dispenser with a Bow inside it while holding a Bow in your main hand and off-hand",
+      "color": "green"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/dispense_with_this",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "items": "minecraft:bow"
+              },
+              "offhand": {
+                "items": "minecraft:bow"
+              }
+            }
+          }
+        },
+        "location": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": "minecraft:dispenser",
+              "nbt": "{Items: [{id: \"minecraft:bow\"}]}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:redstone/using_a_bow_using_a_bow"
+  }
+}

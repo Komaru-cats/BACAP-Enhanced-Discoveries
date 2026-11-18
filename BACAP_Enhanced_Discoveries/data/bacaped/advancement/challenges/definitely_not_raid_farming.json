@@ -10,13 +10,13 @@
       "translate": "Definitely Not Raid Farming"
     },
     "description": {
-      "translate": "Fill your inventory with emerald blocks",
+      "translate": "Fill your inventory with Emerald Blocks",
       "color": "#FF2A2A"
     },
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:challenges/raise_the_stakes",
+  "parent": "bacaped:challenges/thousand_lives",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:location",

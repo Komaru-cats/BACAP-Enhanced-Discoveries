@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:weaponry/happy_minecraft_year",reward_id:"weaponry/happy_minecraft_year",tier:"hidden"}

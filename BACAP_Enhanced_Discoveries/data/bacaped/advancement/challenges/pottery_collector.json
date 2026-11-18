@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:arms_up_pottery_sherd"
+    },
+    "title": {
+      "translate": "Pottery Collector"
+    },
+    "description": {
+      "translate": "Collect a stack of any Pottery Sherd",
+      "color": "#FF2A2A"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/abyss_lord",
+  "criteria": {
+    "any_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:angler_pottery_sherd",
+              "minecraft:archer_pottery_sherd",
+              "minecraft:arms_up_pottery_sherd",
+              "minecraft:blade_pottery_sherd",
+              "minecraft:burn_pottery_sherd",
+              "minecraft:brewer_pottery_sherd",
+              "minecraft:danger_pottery_sherd",
+              "minecraft:explorer_pottery_sherd",
+              "minecraft:friend_pottery_sherd",
+              "minecraft:flow_pottery_sherd",
+              "minecraft:guster_pottery_sherd",
+              "minecraft:heart_pottery_sherd",
+              "minecraft:heartbreak_pottery_sherd",
+              "minecraft:howl_pottery_sherd",
+              "minecraft:miner_pottery_sherd",
+              "minecraft:mourner_pottery_sherd",
+              "minecraft:plenty_pottery_sherd",
+              "minecraft:prize_pottery_sherd",
+              "minecraft:scrape_pottery_sherd",
+              "minecraft:snort_pottery_sherd",
+              "minecraft:skull_pottery_sherd",
+              "minecraft:sheaf_pottery_sherd",
+              "minecraft:shelter_pottery_sherd"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:challenges/pottery_collector"
+  }
+}

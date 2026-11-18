@@ -29,16 +29,16 @@
         }
       ]
     },
-    "announce_to_chat": true,
-    "frame": "challenge"
+    "frame": "challenge",
+    "announce_to_chat": true
   },
   "parent": "blazeandcave:adventure/vault_hunter",
-  "rewards": {
-    "function": "bacaped_rewards:adventure/ominous_vault_hunter"
-  },
   "criteria": {
     "trigger": {
       "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:adventure/ominous_vault_hunter"
   }
 }

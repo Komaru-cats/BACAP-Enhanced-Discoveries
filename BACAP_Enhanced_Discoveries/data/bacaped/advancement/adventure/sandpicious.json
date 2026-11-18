@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_sand"
+    },
+    "title": {
+      "translate": "Sandpicious"
+    },
+    "description": {
+      "translate": "Name a stack of Sand 'Suspicious Sand'",
+      "color": "green"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:adventure/craft_decorated_pot_using_only_sherds",
+  "criteria": {
+    "sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sand"
+            ],
+            "count": 64,
+            "components": {
+              "minecraft:custom_name": "Suspicious Sand"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:adventure/sandpicious"
+  }
+}

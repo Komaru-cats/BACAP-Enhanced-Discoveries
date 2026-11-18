@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/fake_copper_armor",reward_id:"adventure/fake_copper_armor",tier:"goal"}

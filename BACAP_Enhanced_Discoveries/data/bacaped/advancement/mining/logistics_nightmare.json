@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rail"
+    },
+    "title": {
+      "translate": "Logistics Nightmare"
+    },
+    "description": {
+      "translate": "Move a Mineshaft chest minecart from another biome into Sulfur Caves to try to get the Bounce Music Disc",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/bouncy_beats",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "looking_at": {
+                "minecraft:entity_type": "minecraft:chest_minecart",
+                "minecraft:nbt": "{LootTable: \"minecraft:chests/abandoned_mineshaft\"}",
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "bacaped_not_generated_in_sulfur_caves"
+                  ]
+                },
+                "minecraft:location": {
+                  "biomes": "minecraft:sulfur_caves"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:mining/logistics_nightmare"
+  }
+}

@@ -16,7 +16,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:challenges/void_being",
+  "parent": "bacaped:challenges/celestial_protocol",
   "criteria": {
     "we_have_liftoff": {
       "trigger": "minecraft:fall_after_explosion",

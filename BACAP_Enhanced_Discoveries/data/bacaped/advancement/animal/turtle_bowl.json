@@ -14,8 +14,7 @@
       "color": "dark_purple"
     },
     "frame": "challenge",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "parent": "blazeandcave:animal/turtle_army",
   "criteria": {

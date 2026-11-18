@@ -13,8 +13,7 @@
       "translate": "Catch 100 fish with a fishing rod"
     },
     "frame": "challenge",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "parent": "bacaped:statistics/intermediate_fisher",
   "criteria": {

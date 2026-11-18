@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "killed_elder_guardian": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:inverted",
+          "term": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "advancements": {
+                  "bacaped:adventure/monumental_speedrun": true
+                },
+                "gamemode": [
+                  "spectator"
+                ]
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:elder_guardian"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped:scores/monumental_speedrun"
+  }
+}

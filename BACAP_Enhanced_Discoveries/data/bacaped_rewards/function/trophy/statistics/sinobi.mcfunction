@@ -1,0 +1,2 @@
+give @s minecraft:iron_sword[minecraft:enchantment_glint_override=true, minecraft:custom_name={translate:"Katana",color:"#E6FDFF",bold:true,italic:false}, minecraft:lore=[{translate:"Mastery does not tolerate haste",color:"#E6FDFF"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Sinobi",color:"light_purple",italic:false}], minecraft:custom_model_data={strings:["bacaped:katana"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}, minecraft:unbreakable={}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Katana"}]}

@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:monsters/eye_contact_master",reward_id:"monsters/eye_contact_master",tier:"goal"}

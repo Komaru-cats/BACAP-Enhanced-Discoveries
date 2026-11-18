@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/archmage",reward_id:"statistics/archmage",tier:"hidden"}

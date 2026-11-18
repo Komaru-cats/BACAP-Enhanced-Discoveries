@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/michael_phelps",reward_id:"statistics/michael_phelps",tier:"hidden"}

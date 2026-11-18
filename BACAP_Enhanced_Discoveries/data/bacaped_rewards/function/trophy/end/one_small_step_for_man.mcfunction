@@ -1,2 +1,2 @@
-give @s end_stone[enchantment_glint_override=false, lore=[{translate:"382 kg.",color:"#857D70"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"One Small Step for Man",color:"light_purple",italic:false}], custom_name={translate:"Lunar Regolith",color:"#857D70",bold:true,italic:false}, custom_model_data={floats:[15502]}, custom_data={Trophy:1}] 1
-tellraw @s {"color": "gold", "text": " +1 ", "extra": [{"translate": "Lunar Regolith"}]}
+give @s end_stone[minecraft:enchantment_glint_override=false, minecraft:lore=[{translate:"382 kg.",color:"#857D70"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"One Small Step for Man",color:"dark_purple",italic:false}], minecraft:custom_name={translate:"Lunar Regolith",color:"#857D70",bold:true,italic:false}, minecraft:custom_model_data={strings:["bacaped:lunar_regolith"]}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Lunar Regolith"}]}

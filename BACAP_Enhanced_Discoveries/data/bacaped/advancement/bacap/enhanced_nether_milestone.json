@@ -79,6 +79,22 @@
         }
       }
     },
+    "big_pig_adventure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/big_pig_adventure": true
+              }
+            }
+          }
+        }
+      }
+    },
     "blaze3d": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -319,6 +335,22 @@
         }
       }
     },
+    "lord_of_the_rings": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/lord_of_the_rings": true
+              }
+            }
+          }
+        }
+      }
+    },
     "never_careful_enough": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -329,6 +361,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:nether/never_careful_enough": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "primitive_excavation": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/primitive_excavation": true
               }
             }
           }
@@ -367,6 +415,22 @@
         }
       }
     },
+    "the_infernal_cauldron": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/the_infernal_cauldron": true
+              }
+            }
+          }
+        }
+      }
+    },
     "the_last_deal": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -393,6 +457,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:nether/the_new_swamp_wont_be_here": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "unfamiliar_depths": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:nether/unfamiliar_depths": true
               }
             }
           }

@@ -3,16 +3,14 @@
     "icon": {
       "id": "minecraft:lingering_potion",
       "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:mundane"
-        }
+        "minecraft:potion_contents": "minecraft:mundane"
       }
     },
     "title": {
       "translate": "Worst Cleric in the World"
     },
     "description": {
-      "translate": "Fill your entire inventory with corrupted potions",
+      "translate": "Fill your entire inventory with corrupted Potions",
       "color": "#75E1FF"
     },
     "frame": "goal",

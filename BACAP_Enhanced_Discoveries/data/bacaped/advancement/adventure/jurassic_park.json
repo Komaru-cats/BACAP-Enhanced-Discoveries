@@ -1,21 +1,18 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:pitcher_plant",
-      "components": {
-        "minecraft:enchantment_glint_override": true
-      }
+      "id": "minecraft:pitcher_plant"
     },
     "title": {
       "translate": "Jurassic Park"
     },
     "description": {
-      "translate": "Get 64 torchflowers and 64 pitcher plants"
+      "translate": "Obtain 64 Torchflowers and 64 Pitcher Plants"
     },
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:adventure/water_dependent",
+  "parent": "minecraft:husbandry/plant_any_sniffer_seed",
   "criteria": {
     "torchflowers": {
       "trigger": "minecraft:inventory_changed",

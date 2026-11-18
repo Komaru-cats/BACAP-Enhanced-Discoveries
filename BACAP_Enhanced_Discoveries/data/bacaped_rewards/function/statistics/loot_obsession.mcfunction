@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/loot_obsession",reward_id:"statistics/loot_obsession",tier:"hidden"}

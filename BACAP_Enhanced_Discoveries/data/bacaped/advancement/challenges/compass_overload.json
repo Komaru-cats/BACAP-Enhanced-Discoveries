@@ -16,7 +16,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:challenges/abyss_lord",
+  "parent": "bacaped:challenges/pottery_collector",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:location",

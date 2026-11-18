@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:mining/the_cult_of_the_spyglass",reward_id:"mining/the_cult_of_the_spyglass",tier:"goal"}

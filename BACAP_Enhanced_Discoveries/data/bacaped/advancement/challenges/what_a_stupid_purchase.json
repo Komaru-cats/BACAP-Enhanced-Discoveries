@@ -10,14 +10,13 @@
       "translate": "What a Stupid Purchase"
     },
     "description": {
-      "translate": "Buy pointed dripstone or sulfur spike from a Wandering Trader in its native caves",
+      "translate": "Buy Pointed Dripstone or Sulfur Spike from a Wandering Trader in its native caves",
       "color": "light_purple"
     },
     "frame": "challenge",
-    "announce_to_chat": true,
-    "hidden": true
+    "announce_to_chat": true
   },
-  "parent": "blazeandcave:challenges/root",
+  "parent": "bacaped:challenges/shopaholic",
   "criteria": {
     "buy_pointed_dripstone": {
       "trigger": "minecraft:villager_trade",

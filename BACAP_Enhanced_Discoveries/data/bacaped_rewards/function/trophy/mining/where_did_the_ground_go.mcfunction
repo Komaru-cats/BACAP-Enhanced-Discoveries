@@ -1,0 +1,3 @@
+
+give @s minecraft:cobbled_deepslate[minecraft:custom_data={Trophy:true}, minecraft:custom_name={translate:"The Final Slate",color:"#BBBB00",bold:true,italic:false}, minecraft:custom_model_data={strings:["bacaped:the_final_slate"]}, minecraft:lore=[{translate:"Finally, the bedrock can see the sky and",color:"#BBBB00"},{translate:"catch some fresh air",color:"#BBBB00"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Where Did the Ground Go?",color:"dark_purple",italic:false}]]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"The Final Slate"}]}

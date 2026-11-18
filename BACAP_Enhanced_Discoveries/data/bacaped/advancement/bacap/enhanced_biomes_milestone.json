@@ -47,22 +47,6 @@
         }
       }
     },
-    "australia": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:biomes/australia": true
-              }
-            }
-          }
-        }
-      }
-    },
     "coolgrill": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -73,6 +57,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:biomes/coolgrill": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "death_fell_accident_water": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:biomes/death_fell_accident_water": true
               }
             }
           }
@@ -105,6 +105,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:biomes/hydrodynamic": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "ice_cubed": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:biomes/ice_cubed": true
               }
             }
           }
@@ -175,6 +191,22 @@
         }
       }
     },
+    "neverland_lost": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:biomes/neverland_lost": true
+              }
+            }
+          }
+        }
+      }
+    },
     "pandas_express": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -223,6 +255,22 @@
         }
       }
     },
+    "team_water": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:biomes/team_water": true
+              }
+            }
+          }
+        }
+      }
+    },
     "the_boatman": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -239,7 +287,7 @@
         }
       }
     },
-    "the_infernal_cauldron": {
+    "tokyo_drift": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -248,7 +296,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:biomes/the_infernal_cauldron": true
+                "bacaped:biomes/tokyo_drift": true
               }
             }
           }

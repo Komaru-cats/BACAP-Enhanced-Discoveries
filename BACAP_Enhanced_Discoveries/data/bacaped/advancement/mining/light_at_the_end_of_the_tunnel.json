@@ -7,7 +7,7 @@
       "translate": "Light at the End of the Tunnel"
     },
     "description": {
-      "translate": "Place the lantern in a dark place in the cave",
+      "translate": "Place a Lantern in a dark cave",
       "color": "#75E1FF"
     },
     "frame": "goal",
@@ -29,7 +29,18 @@
             },
             "equipment": {
               "mainhand": {
-                "items": "minecraft:lantern"
+                "items": [
+                  "minecraft:lantern",
+                  "minecraft:copper_lantern",
+                  "minecraft:exposed_copper_lantern",
+                  "minecraft:oxidized_copper_lantern",
+                  "minecraft:weathered_copper_lantern",
+                  "minecraft:waxed_weathered_copper_lantern",
+                  "minecraft:waxed_oxidized_copper_lantern",
+                  "minecraft:waxed_exposed_copper_lantern",
+                  "minecraft:waxed_copper_lantern",
+                  "minecraft:soul_lantern"
+                ]
               }
             }
           }

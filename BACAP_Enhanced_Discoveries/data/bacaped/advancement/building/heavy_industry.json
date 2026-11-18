@@ -1,0 +1,183 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_iron_ore"
+    },
+    "title": {
+      "translate": "Heavy Industry"
+    },
+    "description": {
+      "translate": "Smelt every Blast Furnace recipe",
+      "color": "#75E1FF",
+      "extra": [
+        {
+          "text": "\n\n"
+        },
+        {
+          "translate": "Smelting the following items is not required:",
+          "color": "dark_gray",
+          "italic": true
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "block.minecraft.deepslate_emerald_ore",
+          "color": "gray"
+        }
+      ]
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/blast_it",
+  "criteria": {
+    "coal_from_coal_ore": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:coal_from_blasting_coal_ore"
+      }
+    },
+    "coal_from_deepslate_coal_ore": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:coal_from_blasting_deepslate_coal_ore"
+      }
+    },
+    "copper_from_copper_ore": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:copper_ingot_from_blasting_copper_ore"
+      }
+    },
+    "copper_from_deepslate_copper_ore": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:copper_ingot_from_blasting_deepslate_copper_ore"
+      }
+    },
+    "copper_from_raw_copper": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:copper_ingot_from_blasting_raw_copper"
+      }
+    },
+    "copper_nugget_from_blasting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:copper_nugget_from_blasting"
+      }
+    },
+    "diamond_from_diamond_ore": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:diamond_from_blasting_diamond_ore"
+      }
+    },
+    "diamond_from_deepslate_diamond_ore": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:diamond_from_blasting_deepslate_diamond_ore"
+      }
+    },
+    "emerald_from_emerald_ore": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:emerald_from_blasting_emerald_ore"
+      }
+    },
+    "gold_from_deepslate_gold_ore": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:gold_ingot_from_blasting_deepslate_gold_ore"
+      }
+    },
+    "gold_from_gold_ore": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:gold_ingot_from_blasting_gold_ore"
+      }
+    },
+    "gold_from_nether_gold_ore": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:gold_ingot_from_blasting_nether_gold_ore"
+      }
+    },
+    "gold_from_raw_gold": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:gold_ingot_from_blasting_raw_gold"
+      }
+    },
+    "gold_nugget_from_blasting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:gold_nugget_from_blasting"
+      }
+    },
+    "iron_from_deepslate_iron_ore": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:iron_ingot_from_blasting_deepslate_iron_ore"
+      }
+    },
+    "iron_from_iron_ore": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:iron_ingot_from_blasting_iron_ore"
+      }
+    },
+    "iron_from_raw_iron": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:iron_ingot_from_blasting_raw_iron"
+      }
+    },
+    "iron_nugget_from_blasting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:iron_nugget_from_blasting"
+      }
+    },
+    "lapis_from_deepslate_lapis_ore": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:lapis_lazuli_from_blasting_deepslate_lapis_ore"
+      }
+    },
+    "lapis_from_lapis_ore": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:lapis_lazuli_from_blasting_lapis_ore"
+      }
+    },
+    "netherite_scrap": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:netherite_scrap_from_blasting"
+      }
+    },
+    "quartz": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:quartz_from_blasting"
+      }
+    },
+    "redstone_from_deepslate_redstone_ore": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:redstone_from_blasting_deepslate_redstone_ore"
+      }
+    },
+    "redstone_from_redstone_ore": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:redstone_from_blasting_redstone_ore"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:building/heavy_industry"
+  }
+}

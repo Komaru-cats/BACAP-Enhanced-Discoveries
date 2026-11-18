@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:monsters/between_betweenkill",reward_id:"monsters/between_betweenkill",tier:"challenge"}

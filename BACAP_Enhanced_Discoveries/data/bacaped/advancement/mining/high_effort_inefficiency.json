@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lapis_ore"
+    },
+    "title": {
+      "translate": "High-Effort Inefficiency"
+    },
+    "description": {
+      "translate": "Smelt Lapis Ore",
+      "color": "green"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/diam_oh_wait_no",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": [
+          "minecraft:lapis_lazuli_from_blasting_deepslate_lapis_ore",
+          "minecraft:lapis_lazuli_from_blasting_lapis_ore",
+          "minecraft:lapis_lazuli_from_smelting_deepslate_lapis_ore",
+          "minecraft:lapis_lazuli_from_smelting_lapis_ore"
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:mining/high_effort_inefficiency"
+  }
+}

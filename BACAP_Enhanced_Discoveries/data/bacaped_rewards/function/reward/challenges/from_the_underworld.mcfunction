@@ -1,2 +1,2 @@
 give @s minecraft:glowstone 16
-tellraw @s {"color":"green","text":" +16 ","extra":[{"translate":"block.minecraft.glowstone"}]}
+tellraw @s {text:" +16 ",color:"green",extra:[{translate:"block.minecraft.glowstone"}]}

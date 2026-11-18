@@ -7,7 +7,7 @@
       "translate": "Heavy Catch"
     },
     "description": {
-      "translate": "Catch an Anvil on a fishing rod",
+      "translate": "Catch an Anvil on a Fishing Rod",
       "color": "#75E1FF"
     },
     "frame": "goal",
@@ -26,7 +26,7 @@
               "entity": "this",
               "predicate": {
                 "entity_type": "minecraft:falling_block",
-                "nbt": "{BlockState:{Name:\"minecraft:anvil\"}}"
+                "minecraft:nbt": "{BlockState:{id:\"minecraft:anvil\"}}"
               }
             },
             {
@@ -34,7 +34,7 @@
               "entity": "this",
               "predicate": {
                 "entity_type": "minecraft:falling_block",
-                "nbt": "{BlockState:{Name:\"minecraft:chipped_anvil\"}}"
+                "minecraft:nbt": "{BlockState:{id:\"minecraft:chipped_anvil\"}}"
               }
             },
             {
@@ -42,7 +42,7 @@
               "entity": "this",
               "predicate": {
                 "entity_type": "minecraft:falling_block",
-                "nbt": "{BlockState:{Name:\"minecraft:damaged_anvil\"}}"
+                "minecraft:nbt": "{BlockState:{id:\"minecraft:damaged_anvil\"}}"
               }
             }
           ]

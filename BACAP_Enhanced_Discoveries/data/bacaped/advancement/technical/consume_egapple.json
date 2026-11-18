@@ -1,7 +1,4 @@
 {
-  "rewards": {
-    "function": "bacaped:consume_egapple"
-  },
   "criteria": {
     "consume_egapple": {
       "trigger": "consume_item",
@@ -13,5 +10,8 @@
         }
       }
     }
+  },
+  "rewards": {
+    "function": "bacaped:consume_egapple"
   }
 }

@@ -7,10 +7,10 @@
       "translate": "Farm Basics"
     },
     "description": {
-      "translate": "Place an observer facing sugarcane or bamboo",
-      "color": "#75E1FF"
+      "translate": "Place an Observer facing Sugarcane or Bamboo",
+      "color": "green"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:redstone/observer_buddy",

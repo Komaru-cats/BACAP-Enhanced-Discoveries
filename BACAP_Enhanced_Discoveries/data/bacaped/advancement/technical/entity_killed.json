@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:inverted",
+          "term": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "advancements": {
+                  "bacaped:monsters/betweenkill": true,
+                  "bacaped:monsters/between_betweenkill": true
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped:scores/on_kill"
+  }
+}

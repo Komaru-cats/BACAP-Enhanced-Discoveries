@@ -1,0 +1,2 @@
+give @s brown_mushroom[minecraft:enchantment_glint_override=true, minecraft:lore=[{translate:"It is the Brown Mushroom",color:"#a77f65"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Red + Red = Brown",color:"dark_purple",italic:false}], minecraft:custom_name={translate:"Brown Mushroom",color:"#a77f65",bold:true,italic:false}, minecraft:custom_model_data={strings:["bacaped:brown_mushroom"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Brown Mushroom"}]}

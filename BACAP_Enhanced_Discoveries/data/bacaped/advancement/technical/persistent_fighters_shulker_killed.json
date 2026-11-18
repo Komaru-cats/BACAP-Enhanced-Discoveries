@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "killed_shulker": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:effects": {
+              "minecraft:levitation": {}
+            },
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:end/persistent_fighters": false
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:shulker"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped:scores/persistent_fighters"
+  }
+}

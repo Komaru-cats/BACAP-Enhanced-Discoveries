@@ -7,12 +7,11 @@
       "translate": "Art Lover"
     },
     "description": {
-      "translate": "Place 100 paintings",
+      "translate": "Place 100 Paintings",
       "color": "green"
     },
     "frame": "task",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "parent": "blazeandcave:building/art_gallery",
   "criteria": {

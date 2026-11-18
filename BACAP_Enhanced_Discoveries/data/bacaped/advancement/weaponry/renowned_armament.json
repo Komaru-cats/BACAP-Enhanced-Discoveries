@@ -27,11 +27,10 @@
               "mainhand": {
                 "items": "minecraft:iron_sword",
                 "components": {
-                  "minecraft:custom_data": {
-                    "Trophy": 1
-                  },
-                  "minecraft:custom_name": {
-                    "translate": "The Vex Slayer"
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "bacaped:the_vex_slayer"
+                    ]
                   }
                 }
               }
@@ -51,11 +50,10 @@
               "mainhand": {
                 "items": "minecraft:ward_armor_trim_smithing_template",
                 "components": {
-                  "minecraft:custom_data": {
-                    "Trophy": 1
-                  },
-                  "minecraft:custom_name": {
-                    "translate": "Warden's Plate"
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "bacaped:wardens_plate"
+                    ]
                   }
                 }
               }
@@ -75,11 +73,10 @@
               "mainhand": {
                 "items": "minecraft:golden_sword",
                 "components": {
-                  "minecraft:custom_data": {
-                    "Trophy": 1
-                  },
-                  "minecraft:custom_name": {
-                    "translate": "Broken"
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "bacaped:broken"
+                    ]
                   }
                 }
               }
@@ -99,11 +96,10 @@
               "mainhand": {
                 "items": "minecraft:golden_hoe",
                 "components": {
-                  "minecraft:custom_data": {
-                    "Trophy": 1
-                  },
-                  "minecraft:custom_name": {
-                    "translate": "Useful Instrument"
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "bacaped:useful_instrument"
+                    ]
                   }
                 }
               }
@@ -123,11 +119,10 @@
               "mainhand": {
                 "items": "minecraft:iron_shovel",
                 "components": {
-                  "minecraft:custom_data": {
-                    "Trophy": 1
-                  },
-                  "minecraft:custom_name": {
-                    "translate": "The Undertaker's Shovel"
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "bacaped:the_undertakers_shovel"
+                    ]
                   }
                 }
               }
@@ -147,11 +142,10 @@
               "mainhand": {
                 "items": "minecraft:iron_sword",
                 "components": {
-                  "minecraft:custom_data": {
-                    "Trophy": 1
-                  },
-                  "minecraft:custom_name": {
-                    "translate": "Katana"
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "bacaped:katana"
+                    ]
                   }
                 }
               }
@@ -171,11 +165,10 @@
               "mainhand": {
                 "items": "minecraft:iron_axe",
                 "components": {
-                  "minecraft:custom_data": {
-                    "Trophy": 1
-                  },
-                  "minecraft:custom_name": {
-                    "translate": "Iron Ax"
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "bacaped:iron_ax"
+                    ]
                   }
                 }
               }

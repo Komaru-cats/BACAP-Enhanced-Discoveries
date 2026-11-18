@@ -1,2 +1,3 @@
-
-
+give @s echo_shard[minecraft:enchantment_glint_override=true, minecraft:lore=[{translate:"All of your exploits to destroy Bedrock have",color:"#2F2F38"},{translate:"yielded only a single fragment",color:"#2F2F38"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"The V O I D",color:"#FFAEFF",italic:false}], minecraft:custom_name={translate:"Bedrock Shard",color:"#2F2F38",bold:true,italic:false}, minecraft:custom_model_data={floats:[15500f]}, minecraft:custom_data={Trophy:true}]
+tellraw @s {text:" +1 ",color:"green",extra:[{translate:"item.minecraft.echo_shard"}]}
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Bedrock Shard"}]}

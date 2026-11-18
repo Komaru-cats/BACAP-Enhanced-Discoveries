@@ -1,5 +1,5 @@
 {
-  "parent": "bacaped:challenges/professional_assassin",
+  "parent": "bacaped:challenges/dead_carnival",
   "criteria": {
     "root": {
       "trigger": "minecraft:location",

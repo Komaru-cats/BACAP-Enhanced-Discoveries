@@ -1,19 +1,20 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:netherite_chestplate",
+      "id": "minecraft:netherite_helmet",
       "components": {
         "minecraft:trim": {
           "material": "minecraft:netherite",
           "pattern": "minecraft:silence"
-        }
+        },
+        "minecraft:enchantment_glint_override": true
       }
     },
     "title": {
       "translate": "Real Netherite Armor"
     },
     "description": {
-      "translate": "Wear a full set of netherite armor with any netherite trims",
+      "translate": "Wear a full set of Netherite Armor with any Netherite Trims",
       "color": "dark_purple"
     },
     "frame": "challenge",

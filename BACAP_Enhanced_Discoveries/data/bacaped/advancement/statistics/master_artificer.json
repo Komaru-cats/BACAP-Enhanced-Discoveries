@@ -10,12 +10,11 @@
       "translate": "Master Artificer"
     },
     "description": {
-      "translate": "Open a crafting table 500 times",
+      "translate": "Open a Crafting Table 500 times",
       "color": "dark_purple"
     },
     "frame": "challenge",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "parent": "bacaped:statistics/artisan_adept",
   "criteria": {

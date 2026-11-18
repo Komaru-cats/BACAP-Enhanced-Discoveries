@@ -1,2 +1,3 @@
-
-
+give @s iron_block[minecraft:enchantment_glint_override=true, minecraft:lore=[{translate:"Wolfram, one of the densest elements,",color:"#847B7B"},{translate:"weighing more than most other metals",color:"#847B7B"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Heavy Steps",color:"light_purple",italic:false}], minecraft:custom_name={translate:"Tungsten Cube",color:"#847B7B",bold:true,italic:false}, minecraft:custom_model_data={floats:[15500f]}, minecraft:custom_data={Trophy:true}]
+tellraw @s {text:" +1 ",color:"green",extra:[{translate:"block.minecraft.iron_block"}]}
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Tungsten Cube"}]}

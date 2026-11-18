@@ -1,1 +1,0 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/the_world_is_actually_ending_2",reward_id:"challenges/the_world_is_actually_ending_2",tier:"super_challenge"}

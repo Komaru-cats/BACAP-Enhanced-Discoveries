@@ -1,0 +1,70 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tipped_arrow",
+      "components": {
+        "minecraft:potion_contents": "minecraft:water"
+      }
+    },
+    "title": {
+      "translate": "5G Connectivity"
+    },
+    "description": {
+      "translate": "Kill 5 Glow Squids with a single piercing shot",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/iceologer_shouldve_won",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:killed_by_arrow",
+      "conditions": {
+        "fired_from_weapon": {
+          "items": "minecraft:crossbow"
+        },
+        "victims": [
+          {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:glow_squid"
+            }
+          },
+          {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:glow_squid"
+            }
+          },
+          {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:glow_squid"
+            }
+          },
+          {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:glow_squid"
+            }
+          },
+          {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:glow_squid"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:animal/5g_connectivity"
+  }
+}

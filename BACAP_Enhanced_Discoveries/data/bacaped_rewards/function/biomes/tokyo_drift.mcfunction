@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:biomes/tokyo_drift",reward_id:"biomes/tokyo_drift",tier:"challenge"}

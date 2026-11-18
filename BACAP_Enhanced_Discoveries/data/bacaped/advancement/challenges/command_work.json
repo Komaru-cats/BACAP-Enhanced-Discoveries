@@ -16,7 +16,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:challenges/piggish_poison_tango",
+  "parent": "blazeandcave:challenges/the_perfect_run",
   "criteria": {
     "killed_dragon_with_fireball": {
       "trigger": "minecraft:player_killed_entity",

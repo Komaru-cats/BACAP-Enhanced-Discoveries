@@ -3,9 +3,7 @@
     "icon": {
       "id": "minecraft:splash_potion",
       "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:weakness"
-        }
+        "minecraft:potion_contents": "minecraft:weakness"
       }
     },
     "title": {
@@ -16,8 +14,7 @@
       "color": "#75E1FF"
     },
     "frame": "goal",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "parent": "minecraft:story/cure_zombie_villager",
   "criteria": {

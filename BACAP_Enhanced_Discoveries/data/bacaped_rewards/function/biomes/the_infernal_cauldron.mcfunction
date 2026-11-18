@@ -1,1 +1,0 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:biomes/the_infernal_cauldron",reward_id:"biomes/the_infernal_cauldron",tier:"challenge"}

@@ -14,8 +14,7 @@
       "color": "green"
     },
     "frame": "task",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "parent": "blazeandcave:technical/you_are_a_big_cheater",
   "criteria": {

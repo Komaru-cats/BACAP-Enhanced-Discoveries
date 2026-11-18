@@ -27,8 +27,7 @@
       "color": "dark_purple"
     },
     "frame": "challenge",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "parent": "bacaped:statistics/resilient_centenarian",
   "criteria": {

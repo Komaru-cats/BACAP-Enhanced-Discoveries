@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/ashes_to_ashes",reward_id:"adventure/ashes_to_ashes",tier:"challenge"}

@@ -29,7 +29,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:challenges/pulse_detonation_engine",
+  "parent": "bacaped:challenges/third_escape_velocity",
   "criteria": {
     "pig_above_10000": {
       "trigger": "minecraft:location",

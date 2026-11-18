@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lingering_potion",
+      "components": {
+        "minecraft:potion_contents": "minecraft:long_slow_falling"
+      }
+    },
+    "title": {
+      "translate": "Persistent Fighters"
+    },
+    "description": {
+      "translate": "Kill 5 Shulkers without losing the levitation effect",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/for_mother_clarence",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:end/persistent_fighters"
+  }
+}

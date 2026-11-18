@@ -3,16 +3,14 @@
     "icon": {
       "id": "minecraft:tipped_arrow",
       "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:strong_healing"
-        }
+        "minecraft:potion_contents": "minecraft:strong_healing"
       }
     },
     "title": {
       "translate": "Healed by Pain"
     },
     "description": {
-      "translate": "Take damage from an arrow with a strong healing effect",
+      "translate": "Take damage from an Arrow with a strong healing effect",
       "color": "#75E1FF"
     },
     "frame": "goal",

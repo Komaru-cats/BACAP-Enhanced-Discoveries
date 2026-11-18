@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:danger_pottery_sherd"
+    },
+    "title": {
+      "translate": "Careful Excavator"
+    },
+    "description": {
+      "translate": "Brush 50 Suspicious blocks",
+      "color": "#75E1FF",
+      "extra": [
+        {
+          "text": "\n\n"
+        },
+        {
+          "translate": "To view progress, run:",
+          "color": "dark_gray",
+          "italic": true
+        },
+        {
+          "text": "\n/trigger bac_statistics",
+          "color": "gray"
+        }
+      ]
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:statistics/a_delicate_touch",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:statistics/careful_excavator"
+  }
+}

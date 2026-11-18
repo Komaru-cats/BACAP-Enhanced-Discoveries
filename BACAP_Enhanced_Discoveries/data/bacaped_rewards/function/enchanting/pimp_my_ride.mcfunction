@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:enchanting/pimp_my_ride",reward_id:"enchanting/pimp_my_ride",tier:"challenge"}

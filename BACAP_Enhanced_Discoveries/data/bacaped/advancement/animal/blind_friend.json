@@ -11,7 +11,6 @@
       "color": "#75E1FF"
     },
     "frame": "goal",
-    "hidden": false,
     "announce_to_chat": true
   },
   "parent": "blazeandcave:animal/what_does_the_fox_say",

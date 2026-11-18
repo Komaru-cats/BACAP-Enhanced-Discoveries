@@ -1,6 +1,9 @@
 {
-    "replace": false,
-    "values": [
-        "bacaped_rewards:update_score"
-    ]
+  "replace": false,
+  "values": [
+    "bacaped_rewards:update_score",
+    "bacaped_rewards:update_bacaped_score_all",
+    "bacaped_rewards:update_bacaped_score",
+    "bacaped_rewards:update_bacaped_score_only_hidden"
+  ]
 }

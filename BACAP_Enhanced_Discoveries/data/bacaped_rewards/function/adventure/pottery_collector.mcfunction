@@ -1,1 +1,0 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/pottery_collector",reward_id:"adventure/pottery_collector",tier:"hidden"}

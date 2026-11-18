@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:nether/big_pig_adventure",reward_id:"nether/big_pig_adventure",tier:"challenge"}

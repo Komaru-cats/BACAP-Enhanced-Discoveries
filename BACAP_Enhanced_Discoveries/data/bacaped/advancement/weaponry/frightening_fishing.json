@@ -10,12 +10,11 @@
       "translate": "Frightening Fishing"
     },
     "description": {
-      "translate": "Use a fishing rod to hook a Warden",
+      "translate": "Use a Fishing Rod to hook a Warden",
       "color": "#75E1FF"
     },
     "frame": "goal",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "parent": "bacaped:weaponry/explosive_fisherman",
   "criteria": {

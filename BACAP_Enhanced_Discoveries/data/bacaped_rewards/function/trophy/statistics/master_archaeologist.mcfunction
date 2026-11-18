@@ -1,0 +1,2 @@
+give @s minecraft:music_disc_relic[minecraft:custom_data={Trophy:true}, minecraft:custom_name={translate:"Old World Melody",color:"#BF9397",bold:true,italic:false}, minecraft:custom_model_data={strings:["bacaped:old_world_melody"]}, minecraft:lore=[{translate:"The melody of a lost civilization",color:"#BF9397"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Master Archaeologist",color:"dark_purple",italic:false}]]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Old World Melody"}]}

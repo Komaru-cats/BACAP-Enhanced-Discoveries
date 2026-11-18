@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:leather_chestplate",
+      "id": "minecraft:leather_leggings",
       "components": {
         "minecraft:trim": {
           "material": "minecraft:emerald",
@@ -14,7 +14,7 @@
       "translate": "Emerald Armor?"
     },
     "description": {
-      "translate": "Wear a full set of lime leather armor with any emerald trims",
+      "translate": "Wear a full set of lime Leather Armor with any Emerald Trims",
       "color": "#75E1FF"
     },
     "frame": "goal",

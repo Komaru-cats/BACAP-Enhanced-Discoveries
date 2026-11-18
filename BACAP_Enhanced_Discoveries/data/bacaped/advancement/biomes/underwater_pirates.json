@@ -7,7 +7,7 @@
       "translate": "Underwater Pirates"
     },
     "description": {
-      "translate": "Travel on a sunken boat"
+      "translate": "Travel on a sunken Boat"
     },
     "frame": "task",
     "announce_to_chat": true

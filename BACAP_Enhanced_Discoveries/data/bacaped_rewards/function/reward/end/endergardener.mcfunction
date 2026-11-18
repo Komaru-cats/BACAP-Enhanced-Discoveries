@@ -1,2 +1,2 @@
-give @s minecraft:chorus_flower 16
-tellraw @s {"color":"green","text":" +16 ","extra":[{"translate":"block.minecraft.chorus_flower"}]}
+give @s chorus_flower 4
+tellraw @s {text:" +4 ",color:"green",extra:[{translate:"block.minecraft.chorus_flower"}]}

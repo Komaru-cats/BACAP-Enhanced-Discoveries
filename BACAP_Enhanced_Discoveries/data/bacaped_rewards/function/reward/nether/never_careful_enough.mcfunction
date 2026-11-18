@@ -1,2 +1,2 @@
 give @s minecraft:magma_block 8
-tellraw @s {"color":"green","text":" +8 ","extra":[{"translate":"block.minecraft.magma_block"}]}
+tellraw @s {text:" +8 ",color:"green",extra:[{translate:"block.minecraft.magma_block"}]}

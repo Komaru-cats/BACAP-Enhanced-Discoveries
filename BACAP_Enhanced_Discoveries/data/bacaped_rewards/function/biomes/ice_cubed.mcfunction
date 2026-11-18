@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:biomes/ice_cubed",reward_id:"biomes/ice_cubed",tier:"challenge"}

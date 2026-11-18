@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/bottomless_pit",reward_id:"statistics/bottomless_pit",tier:"hidden"}

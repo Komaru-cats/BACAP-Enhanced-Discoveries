@@ -63,6 +63,22 @@
         }
       }
     },
+    "closed_loop_economy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:farming/closed_loop_economy": true
+              }
+            }
+          }
+        }
+      }
+    },
     "cookie_eater": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -127,22 +143,6 @@
         }
       }
     },
-    "exemplary_worker": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:farming/exemplary_worker": true
-              }
-            }
-          }
-        }
-      }
-    },
     "failed_successfully": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -185,6 +185,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:farming/high_risk": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "i_am_on_diet": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:farming/i_am_on_diet": true
               }
             }
           }

@@ -23,7 +23,7 @@
       "translate": "Crafting Lockdown"
     },
     "description": {
-      "translate": "Open a crafter with all slots disabled",
+      "translate": "Open a Crafter with all slots disabled",
       "color": "green"
     },
     "frame": "task",

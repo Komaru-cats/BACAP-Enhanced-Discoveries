@@ -1,2 +1,2 @@
 give @s minecraft:book 2
-tellraw @s {"color":"green","text":" +2 ","extra":[{"translate":"item.minecraft.book"}]}
+tellraw @s {text:" +2 ",color:"green",extra:[{translate:"item.minecraft.book"}]}

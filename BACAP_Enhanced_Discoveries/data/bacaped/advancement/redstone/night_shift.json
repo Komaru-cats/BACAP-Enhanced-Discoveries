@@ -1,14 +1,13 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:clock",
-      "components": {}
+      "id": "minecraft:clock"
     },
     "title": {
       "translate": "Night Shift"
     },
     "description": {
-      "translate": "Set a daylight detector to night mode",
+      "translate": "Set a Daylight Detector to night mode",
       "color": "green"
     },
     "frame": "task",

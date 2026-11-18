@@ -10,12 +10,11 @@
       "translate": "Ice Sculptor"
     },
     "description": {
-      "translate": "Place 200 blocks of blue ice",
+      "translate": "Place 200 blocks of Blue Ice",
       "color": "#75E1FF"
     },
     "frame": "goal",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "parent": "blazeandcave:biomes/thick_ice",
   "criteria": {

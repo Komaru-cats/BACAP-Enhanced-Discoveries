@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/ghost_rider",reward_id:"statistics/ghost_rider",tier:"hidden"}

@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:mining/the_gravity_of_the_situation",reward_id:"mining/the_gravity_of_the_situation",tier:"challenge"}

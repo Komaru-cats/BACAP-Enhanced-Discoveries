@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:challenges/big_pig_adventure",
+  "parent": "bacaped:challenges/big_horse_adventure",
   "criteria": {
     "ashen_snowy_taiga": {
       "trigger": "minecraft:player_killed_entity",
@@ -141,11 +141,7 @@
           "predicate": {
             "entity_type": "minecraft:wolf",
             "location": {
-              "biomes": [
-                "minecraft:sparse_jungle",
-                "minecraft:jungle",
-                "minecraft:bamboo_jungle"
-              ]
+              "biomes": "#minecraft:is_jungle"
             },
             "components": {
               "minecraft:wolf/variant": "minecraft:rusty"
@@ -199,11 +195,7 @@
           "predicate": {
             "entity_type": "minecraft:wolf",
             "location": {
-              "biomes": [
-                "minecraft:savanna_plateau",
-                "minecraft:savanna",
-                "minecraft:windswept_savanna"
-              ]
+              "biomes": "#minecraft:is_savanna"
             },
             "components": {
               "minecraft:wolf/variant": "minecraft:spotted"
@@ -230,11 +222,7 @@
           "predicate": {
             "entity_type": "minecraft:wolf",
             "location": {
-              "biomes": [
-                "minecraft:wooded_badlands",
-                "minecraft:badlands",
-                "minecraft:eroded_badlands"
-              ]
+              "biomes": "#minecraft:is_badlands"
             },
             "components": {
               "minecraft:wolf/variant": "minecraft:striped"

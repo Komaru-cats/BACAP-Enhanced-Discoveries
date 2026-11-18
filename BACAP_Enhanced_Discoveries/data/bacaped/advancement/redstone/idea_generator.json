@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_bulb"
+    },
+    "title": {
+      "translate": "Idea Generator"
+    },
+    "description": {
+      "translate": "Light a Copper Bulb on top of your head",
+      "color": "green"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:redstone/night_shift",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:location_check",
+          "offsetY": 2,
+          "predicate": {
+            "block": {
+              "blocks": [
+                "minecraft:copper_bulb",
+                "minecraft:exposed_copper_bulb",
+                "minecraft:oxidized_copper_bulb",
+                "minecraft:waxed_copper_bulb",
+                "minecraft:waxed_exposed_copper_bulb",
+                "minecraft:waxed_oxidized_copper_bulb",
+                "minecraft:waxed_weathered_copper_bulb",
+                "minecraft:weathered_copper_bulb"
+              ],
+              "state": {
+                "lit": "true"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:redstone/idea_generator"
+  }
+}

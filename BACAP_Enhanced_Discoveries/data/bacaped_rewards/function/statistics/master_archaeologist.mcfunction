@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/master_archaeologist",reward_id:"statistics/master_archaeologist",tier:"challenge"}

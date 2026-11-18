@@ -1,6 +1,6 @@
 {
-    "replace": false,
-    "values": [
-        "bacaped:config/coop_update_team_white"
-    ]
+  "replace": false,
+  "values": [
+    "bacaped:config/coop_update_team_white"
+  ]
 }

@@ -1,2 +1,2 @@
-give @s minecraft:stick[enchantment_glint_override=true, custom_name={italic:false,bold:true,color:"#BB7A2A",translate:"Stick"}, lore=[{color:"#BB7A2A",translate:"№10001"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Stickman",color:"light_purple",italic:false}], custom_model_data={floats:[15500]}, tooltip_display={}, custom_data={Trophy:1}] 1
-tellraw @s {"color": "gold", "text": " +1 ", "extra": [{"translate": "Stick"}]}
+give @s minecraft:stick[minecraft:enchantment_glint_override=true, minecraft:custom_name={translate:"Stick",color:"#BB7A2A",bold:true,italic:false}, minecraft:lore=[{translate:"№10001",color:"#BB7A2A"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Stickman",color:"dark_purple",italic:false}], minecraft:custom_model_data={strings:["bacaped:stick"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Stick"}]}

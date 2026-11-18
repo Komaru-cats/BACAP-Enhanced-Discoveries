@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:minecart"
+    },
+    "title": {
+      "translate": "death.fell.accident.water"
+    },
+    "description": {
+      "translate": "Get the \"death.fell.accident.water\" death message"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/just_keep_swimming",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Health:0f}",
+            "minecraft:location": {
+              "fluid": {
+                "fluids": "#minecraft:water"
+              }
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "#minecraft:is_fall",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:biomes/death_fell_accident_water"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oxeye_daisy"
+    },
+    "title": {
+      "translate": "Alpine Settlement"
+    },
+    "description": {
+      "translate": "Locate a Village situated in a Meadow",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/traveller",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "biomes": "minecraft:meadow",
+              "structures": "#minecraft:village"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:adventure/alpine_settlement"
+  }
+}

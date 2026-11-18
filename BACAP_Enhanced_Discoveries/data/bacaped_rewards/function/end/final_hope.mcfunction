@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:end/final_hope",reward_id:"end/final_hope",tier:"challenge"}

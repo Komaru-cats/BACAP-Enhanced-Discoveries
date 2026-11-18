@@ -10,14 +10,14 @@
       "translate": "Yes"
     },
     "description": {
-      "translate": "Stand on a chest filled with beacons",
+      "translate": "Stand on a Chest filled with Beacons",
       "color": "light_purple"
     },
     "frame": "challenge",
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "bacaped:challenges/compass_overload",
+  "parent": "bacaped:challenges/so_bright",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:location",

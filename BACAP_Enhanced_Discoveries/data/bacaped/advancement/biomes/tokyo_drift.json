@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mangrove_boat",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Tokyo Drift"
+    },
+    "description": {
+      "translate": "Reach a horizontal speed of over 70 blocks per second on Blue Ice in a Boat",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:biomes/the_boatman",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 70
+              }
+            },
+            "minecraft:vehicle": {
+              "minecraft:entity_type": "#blazeandcave:all_boats",
+              "minecraft:stepping_on": {
+                "block": {
+                  "blocks": "minecraft:blue_ice"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:biomes/tokyo_drift"
+  }
+}

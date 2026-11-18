@@ -1,2 +1,2 @@
 give @s cactus 10
-tellraw @s {"color":"green","text":" +10 ","extra":[{"translate":"block.minecraft.cactus"}]}
+tellraw @s {text:" +10 ",color:"green",extra:[{translate:"block.minecraft.cactus"}]}

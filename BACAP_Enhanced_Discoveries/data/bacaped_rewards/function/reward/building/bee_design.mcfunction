@@ -1,2 +1,2 @@
-give @s beehive 1
-tellraw @s {"color":"green","text":" +1 ","extra":[{"translate":"block.minecraft.beehive"}]}
+give @s beehive
+tellraw @s {text:" +1 ",color:"green",extra:[{translate:"block.minecraft.beehive"}]}

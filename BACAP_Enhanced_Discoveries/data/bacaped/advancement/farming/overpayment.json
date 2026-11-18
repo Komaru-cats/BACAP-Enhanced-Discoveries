@@ -10,7 +10,7 @@
       "translate": "Overpayment"
     },
     "description": {
-      "translate": "Craft golden carrot from carrot and golden nuggets"
+      "translate": "Craft Golden Carrot from Carrot and Golden Nuggets"
     },
     "frame": "task",
     "announce_to_chat": true

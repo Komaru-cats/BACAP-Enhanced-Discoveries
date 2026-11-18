@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/i_am_a_train",reward_id:"animal/i_am_a_train",tier:"goal"}

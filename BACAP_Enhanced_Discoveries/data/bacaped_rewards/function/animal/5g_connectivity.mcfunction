@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/5g_connectivity",reward_id:"animal/5g_connectivity",tier:"challenge"}

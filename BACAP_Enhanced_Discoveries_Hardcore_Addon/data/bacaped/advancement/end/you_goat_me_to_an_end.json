@@ -7,8 +7,8 @@
       "translate": "You Goat Me to an End"
     },
     "description": {
-      "color": "dark_purple",
-      "translate": "Get damage in the End void after getting rammed by a Goat"
+      "translate": "Get damage in the End void after getting rammed by a Goat",
+      "color": "dark_purple"
     },
     "frame": "challenge",
     "announce_to_chat": true

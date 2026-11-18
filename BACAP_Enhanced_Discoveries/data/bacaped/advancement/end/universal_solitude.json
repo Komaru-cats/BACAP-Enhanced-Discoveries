@@ -34,7 +34,7 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "bacaped:end/last_hit",
+  "parent": "bacaped:end/circus_act",
   "criteria": {
     "mason": {
       "trigger": "minecraft:impossible"

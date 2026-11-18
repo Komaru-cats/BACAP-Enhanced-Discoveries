@@ -1,1 +1,0 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/sandwich",reward_id:"challenges/sandwich",tier:"super_challenge"}

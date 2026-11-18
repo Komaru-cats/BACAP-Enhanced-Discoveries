@@ -1,2 +1,2 @@
-give @s minecraft:decorated_pot[custom_name={italic:false,bold:true,color:"#E59967",translate:"The Potted Pot"}, lore=[{color:"#E59967",translate:"Chic Ceramic Pot"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Potception",color:"light_purple",italic:false}], custom_model_data={floats:[15500]}, tooltip_display={}, custom_data={Trophy:1}] 1
-tellraw @s {"color": "gold", "text": " +1 ", "extra": [{"translate": "The Potted Pot"}]}
+give @s minecraft:decorated_pot[minecraft:custom_name={translate:"The Potted Pot",color:"#E59967",bold:true,italic:false}, minecraft:lore=[{translate:"Chic Ceramic Pot",color:"#E59967"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Potception",color:"dark_purple",italic:false}], minecraft:custom_model_data={strings:["bacaped:the_potted_pot"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"The Potted Pot"}]}

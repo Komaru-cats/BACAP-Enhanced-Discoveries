@@ -23,12 +23,12 @@
       "translate": "Netherite Beacon!"
     },
     "description": {
-      "translate": "Create a full power beacon that consists entirely of netherite blocks",
+      "translate": "Create a full power Beacon that consists entirely of Netherite Blocks",
       "color": "light_purple"
     },
     "frame": "challenge",
-    "hidden": true,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "hidden": true
   },
   "parent": "bacaped:nether/diamond_beacon",
   "criteria": {

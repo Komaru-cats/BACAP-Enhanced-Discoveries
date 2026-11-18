@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/supply_chain",reward_id:"adventure/supply_chain",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/supply_chain",reward_id:"adventure/supply_chain",tier:"goal"}

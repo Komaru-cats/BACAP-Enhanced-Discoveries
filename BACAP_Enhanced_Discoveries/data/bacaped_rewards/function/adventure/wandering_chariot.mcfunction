@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/wandering_chariot",reward_id:"adventure/wandering_chariot",tier:"goal"}

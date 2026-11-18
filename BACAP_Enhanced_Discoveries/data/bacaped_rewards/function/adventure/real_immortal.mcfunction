@@ -1,1 +1,0 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/real_immortal",reward_id:"adventure/real_immortal",tier:"challenge"}

@@ -7,12 +7,11 @@
       "translate": "Shulker Explorer"
     },
     "description": {
-      "translate": "Open a shulker box 1000 times",
+      "translate": "Open a Shulker Box 1000 times",
       "color": "#75E1FF"
     },
     "frame": "goal",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "parent": "bacaped:statistics/shulker_seeker",
   "criteria": {

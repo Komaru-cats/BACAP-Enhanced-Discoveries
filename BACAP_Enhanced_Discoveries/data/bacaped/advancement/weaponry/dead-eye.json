@@ -13,8 +13,7 @@
       "translate": "Kill a baby Turtle that is below sea level while you are more than 300 blocks above the world by using Trident"
     },
     "frame": "challenge",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "parent": "blazeandcave:weaponry/king_of_the_sea",
   "criteria": {

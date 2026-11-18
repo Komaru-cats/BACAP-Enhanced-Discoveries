@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:mining/where_did_the_world_go",reward_id:"mining/where_did_the_world_go",tier:"hidden"}

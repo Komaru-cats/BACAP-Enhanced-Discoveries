@@ -7,12 +7,11 @@
       "translate": "Artisan Adept"
     },
     "description": {
-      "translate": "Open a crafting table 100 times",
+      "translate": "Open a Crafting Table 100 times",
       "color": "#75E1FF"
     },
     "frame": "goal",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "parent": "bacaped:statistics/craftsman_novice",
   "criteria": {

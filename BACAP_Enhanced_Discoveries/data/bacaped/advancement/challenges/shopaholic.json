@@ -14,8 +14,7 @@
       "color": "#FF2A2A"
     },
     "frame": "challenge",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "parent": "blazeandcave:challenges/stockbroker",
   "criteria": {

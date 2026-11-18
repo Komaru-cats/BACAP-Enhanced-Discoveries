@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/pottery_collector",reward_id:"challenges/pottery_collector",tier:"super_challenge"}

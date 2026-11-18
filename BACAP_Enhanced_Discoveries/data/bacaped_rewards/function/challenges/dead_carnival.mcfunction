@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/dead_carnival",reward_id:"challenges/dead_carnival",tier:"super_challenge"}

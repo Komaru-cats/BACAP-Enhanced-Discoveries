@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:mining/logistics_nightmare",reward_id:"mining/logistics_nightmare",tier:"challenge"}

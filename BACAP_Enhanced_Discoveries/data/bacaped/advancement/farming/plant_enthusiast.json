@@ -10,12 +10,11 @@
       "translate": "Plant Enthusiast"
     },
     "description": {
-      "translate": "Plant 800 potatoes",
+      "translate": "Plant 800 Potatoes",
       "color": "#75E1FF"
     },
     "frame": "goal",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "parent": "blazeandcave:farming/not_today",
   "criteria": {

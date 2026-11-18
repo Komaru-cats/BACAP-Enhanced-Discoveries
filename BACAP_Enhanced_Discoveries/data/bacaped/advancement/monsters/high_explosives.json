@@ -23,7 +23,7 @@
       "translate": "High Explosives"
     },
     "description": {
-      "translate": "Stand on a barrel filled with gunpowder"
+      "translate": "Stand on a Barrel filled with Gunpowder"
     },
     "frame": "challenge",
     "announce_to_chat": true

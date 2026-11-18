@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWRmYjRhNTJlMGU2N2VjYmU4YTQwNTQ0MzMxNTc4MDY3YmZlMGNmZWFlMzY0MWQ1NGUxYjYyMjJhZjFmN2ExYiJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "I Am a Train"
+    },
+    "description": {
+      "translate": "Ride a Boat that is connected in a chain with 4 other leashed Boats",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/swine_sailing",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:animal/i_am_a_train"
+  }
+}

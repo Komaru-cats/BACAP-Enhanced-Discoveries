@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/under_the_blossoms",reward_id:"adventure/under_the_blossoms",tier:"challenge"}

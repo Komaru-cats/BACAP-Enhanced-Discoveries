@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/oops",reward_id:"adventure/oops",tier:"task"}

@@ -1,0 +1,214 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            1794114484,
+            -1643427532,
+            -1151239384,
+            967931759
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBjMTNiOWE3MDQ5ZDE5MTUwOGJhNjc1OGMwOWE5MWQ5MjNjNGI5OTcyMDUyYzM1NjAyYWY1NGYwYzRiYjU1YSJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "Oh, My Broken Legs"
+    },
+    "description": {
+      "translate": "Survive a fall from 1000 blocks above the world without landing on any blocks that soften the fall, with an empty inventory, and without any effects",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:adventure/fall_from_world_height",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "effects": {
+                    "minecraft:absorption": {}
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:any_of",
+                "terms": [
+                  {
+                    "type": "minecraft:location_check",
+                    "offsetY": -2,
+                    "predicate": {
+                      "fluid": {
+                        "fluids": "#minecraft:lava"
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:location_check",
+                    "offsetY": -1,
+                    "predicate": {
+                      "fluid": {
+                        "fluids": "#minecraft:lava"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:any_of",
+                "terms": [
+                  {
+                    "type": "minecraft:location_check",
+                    "offsetY": -2,
+                    "predicate": {
+                      "fluid": {
+                        "fluids": "#minecraft:water"
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:location_check",
+                    "offsetY": -3,
+                    "predicate": {
+                      "fluid": {
+                        "fluids": "#minecraft:water"
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:location_check",
+                    "offsetY": -4,
+                    "predicate": {
+                      "fluid": {
+                        "fluids": "#minecraft:water"
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:location_check",
+                    "offsetY": -5,
+                    "predicate": {
+                      "fluid": {
+                        "fluids": "#minecraft:water"
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:location_check",
+                    "offsetY": -1,
+                    "predicate": {
+                      "fluid": {
+                        "fluids": "#minecraft:water"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "effects": {
+                    "minecraft:resistance": {}
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:nbt": "{Inventory:[]}"
+              }
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "effects": {
+                    "minecraft:slow_falling": {}
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "stepping_on": {
+                    "block": {
+                      "blocks": "#minecraft:beds"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "stepping_on": {
+                    "block": {
+                      "blocks": [
+                        "minecraft:water",
+                        "minecraft:slime_block",
+                        "minecraft:honey_block",
+                        "minecraft:hay_block",
+                        "minecraft:lava",
+                        "minecraft:cobweb",
+                        "minecraft:scaffolding",
+                        "minecraft:powder_snow"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "start_position": {
+          "position": {
+            "y": {
+              "min": 1000
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:mining/oh_my_broken_legs"
+  }
+}

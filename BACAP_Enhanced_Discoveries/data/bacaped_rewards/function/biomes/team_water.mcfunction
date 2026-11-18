@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:biomes/team_water",reward_id:"biomes/team_water",tier:"goal"}

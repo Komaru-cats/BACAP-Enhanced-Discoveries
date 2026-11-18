@@ -7,12 +7,13 @@
       "translate": "Supply Chain"
     },
     "description": {
-      "translate": "Buy dripstone blocks from a Villager in dripstone caves"
+      "translate": "Buy Dripstone Blocks from a Villager in a Dripstone Caves biome",
+      "color": "#75E1FF"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "bacaped:adventure/not_profitable_transportation",
+  "parent": "bacaped:adventure/unprofitable_transportation",
   "criteria": {
     "buy_dripstone": {
       "trigger": "minecraft:villager_trade",

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leaf_litter"
+    },
+    "title": {
+      "translate": "Closed-Loop Economy"
+    },
+    "description": {
+      "translate": "Smelt Leaves into Leaf Litter... only to use it as fuel!",
+      "color": "green"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/trimming_the_treetops",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:leaf_litter"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:farming/closed_loop_economy"
+  }
+}

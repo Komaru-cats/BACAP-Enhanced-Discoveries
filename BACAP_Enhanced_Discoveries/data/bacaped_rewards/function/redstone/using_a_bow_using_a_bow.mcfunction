@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:redstone/using_a_bow_using_a_bow",reward_id:"redstone/using_a_bow_using_a_bow",tier:"task"}

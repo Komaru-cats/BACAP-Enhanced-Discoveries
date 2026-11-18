@@ -1,2 +1,2 @@
-give @s minecraft:golden_sword 1
-tellraw @s {"color":"green","text":" +1 ","extra":[{"translate":"item.minecraft.golden_sword"}]}
+give @s minecraft:golden_sword
+tellraw @s {text:" +1 ",color:"green",extra:[{translate:"item.minecraft.golden_sword"}]}

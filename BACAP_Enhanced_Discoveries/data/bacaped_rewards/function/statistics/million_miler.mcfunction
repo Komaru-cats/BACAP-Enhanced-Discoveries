@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/million_miler",reward_id:"statistics/million_miler",tier:"hidden"}

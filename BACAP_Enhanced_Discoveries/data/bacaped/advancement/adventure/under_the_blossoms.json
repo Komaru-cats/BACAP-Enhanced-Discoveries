@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pink_petals"
+    },
+    "title": {
+      "translate": "Under the Blossoms"
+    },
+    "description": {
+      "translate": "Locate a Village situated in a Cherry Grove",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:adventure/alpine_settlement",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "biomes": "minecraft:cherry_grove",
+              "structures": "#minecraft:village"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:adventure/under_the_blossoms"
+  }
+}

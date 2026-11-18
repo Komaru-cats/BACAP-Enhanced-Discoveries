@@ -1,1 +1,0 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/circus_act",reward_id:"challenges/circus_act",tier:"super_challenge"}

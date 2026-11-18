@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobbled_deepslate"
+    },
+    "title": {
+      "translate": "Where Did the Ground Go?"
+    },
+    "description": {
+      "translate": "Mine out every block in a single chunk in the Overworld, down to the Bedrock layer",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/bulldozer",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:mining/where_did_the_ground_go"
+  }
+}

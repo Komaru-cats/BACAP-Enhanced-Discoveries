@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dark_oak_boat"
+    },
+    "title": {
+      "translate": "Seasick"
+    },
+    "description": {
+      "translate": "Have nausea while riding a Boat",
+      "color": "green"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/a_weak_brew",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:effects": {
+              "minecraft:nausea": {}
+            },
+            "minecraft:vehicle": {
+              "minecraft:entity_type": "#blazeandcave:all_boats"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:potion/seasick"
+  }
+}

@@ -7,12 +7,11 @@
       "translate": "Novice Angler"
     },
     "description": {
-      "translate": "Catch 5 fish with a fishing rod",
+      "translate": "Catch 5 fish with a Fishing Rod",
       "color": "green"
     },
     "frame": "task",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "parent": "blazeandcave:technical/you_are_a_big_cheater",
   "criteria": {

@@ -1,0 +1,200 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:observer"
+    },
+    "title": {
+      "translate": "Staring Contest"
+    },
+    "description": {
+      "translate": "Create a Redstone clock by placing two Observers facing each other",
+      "color": "green"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:redstone/farm_basics",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:any_of",
+          "terms": [
+            {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:observer",
+                      "state": {
+                        "facing": "west"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetX": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:observer",
+                      "state": {
+                        "facing": "east"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:observer",
+                      "state": {
+                        "facing": "east"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetX": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:observer",
+                      "state": {
+                        "facing": "west"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:observer",
+                      "state": {
+                        "facing": "north"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetZ": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:observer",
+                      "state": {
+                        "facing": "south"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:observer",
+                      "state": {
+                        "facing": "south"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetZ": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:observer",
+                      "state": {
+                        "facing": "north"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:observer",
+                      "state": {
+                        "facing": "up"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetY": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:observer",
+                      "state": {
+                        "facing": "down"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:observer",
+                      "state": {
+                        "facing": "down"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetY": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:observer",
+                      "state": {
+                        "facing": "up"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:redstone/staring_contest"
+  }
+}

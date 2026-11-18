@@ -1,6 +1,6 @@
 advancement grant @a[scores={bac_day_count=1000..}] only bacaped:statistics/happy_1000_days
-advancement grant @a[scores={bac_stat_food=25000..}] only bacaped:statistics/culinary_delight_maestro
-advancement grant @a[scores={bac_stat_loot_chest=2500..}] only bacaped:statistics/chests_aficionado
+advancement grant @a[scores={bac_stat_food=25000..}] only bacaped:statistics/bottomless_pit
+advancement grant @a[scores={bac_stat_loot_chest=2500..}] only bacaped:statistics/loot_obsession
 
 
 # Unite Storm check
@@ -41,7 +41,7 @@ execute as @a at @s run execute on vehicle if entity @s[type=minecraft:happy_gha
 execute as @a[predicate=bacaped:is_on_happy_ghast] run scoreboard players set @n[type=minecraft:happy_ghast] bacaped_ghast_passenger_count 0
 
 # Mounted Menace
-execute as @a[gamemode=!spectator,advancements={bacaped:challenges/mounted_menace=false}] at @s if entity @e[predicate=bacaped:mounted_menace/is_husk_on_cold_chicken,distance=..8] if entity @e[predicate=bacaped:mounted_menace/is_witch_on_temperate_chicken,distance=..8] if entity @e[predicate=bacaped:mounted_menace/is_drowned_with_trident_on_warm_chicken,distance=..8] run advancement grant @s only bacaped:challenges/mounted_menace
+execute as @a[gamemode=!spectator,advancements={bacaped:monsters/mounted_menace=false}] at @s if entity @e[predicate=bacaped:mounted_menace/is_husk_on_cold_chicken,distance=..8] if entity @e[predicate=bacaped:mounted_menace/is_witch_on_temperate_chicken,distance=..8] if entity @e[predicate=bacaped:mounted_menace/is_drowned_with_trident_on_warm_chicken,distance=..8] run advancement grant @s only bacaped:challenges/mounted_menace
 
 # Cookie Eater
 function bacaped:cookie_eater/reset
@@ -85,6 +85,22 @@ execute as @a[gamemode=!spectator, advancements={bacaped:statistics/frustrated_t
 execute as @a[gamemode=!spectator, advancements={bacaped:statistics/did_you_get_mending_yet=false}] as @s if score @s bacaped_villager_profession_blocks_mined matches 1000.. run advancement grant @s only bacaped:statistics/did_you_get_mending_yet
 execute as @a[gamemode=!spectator, advancements={bacaped:statistics/hr_manager_of_the_year=false}] as @s if score @s bacaped_villager_profession_blocks_mined matches 5000.. run advancement grant @s only bacaped:statistics/hr_manager_of_the_year
 
+# Lord of the Rings
+execute as @a[x=0,y=0,z=0,distance=1280..2816,predicate=bacaped:is_in_stronghold,advancements={bacaped:nether/lord_of_the_rings=false}] run advancement grant @s only bacaped:nether/lord_of_the_rings ring_1280-2816
+execute as @a[x=0,y=0,z=0,distance=4352..5888,predicate=bacaped:is_in_stronghold,advancements={bacaped:nether/lord_of_the_rings=false}] run advancement grant @s only bacaped:nether/lord_of_the_rings ring_4352-5888
+execute as @a[x=0,y=0,z=0,distance=7424..8960,predicate=bacaped:is_in_stronghold,advancements={bacaped:nether/lord_of_the_rings=false}] run advancement grant @s only bacaped:nether/lord_of_the_rings ring_7424-8960
+execute as @a[x=0,y=0,z=0,distance=10496..12032,predicate=bacaped:is_in_stronghold,advancements={bacaped:nether/lord_of_the_rings=false}] run advancement grant @s only bacaped:nether/lord_of_the_rings ring_10496-12032
+execute as @a[x=0,y=0,z=0,distance=13568..15104,predicate=bacaped:is_in_stronghold,advancements={bacaped:nether/lord_of_the_rings=false}] run advancement grant @s only bacaped:nether/lord_of_the_rings ring_13568-15104
+execute as @a[x=0,y=0,z=0,distance=16640..18176,predicate=bacaped:is_in_stronghold,advancements={bacaped:nether/lord_of_the_rings=false}] run advancement grant @s only bacaped:nether/lord_of_the_rings ring_16640-18176
+execute as @a[x=0,y=0,z=0,distance=19712..21248,predicate=bacaped:is_in_stronghold,advancements={bacaped:nether/lord_of_the_rings=false}] run advancement grant @s only bacaped:nether/lord_of_the_rings ring_19712-21248
+execute as @a[x=0,y=0,z=0,distance=22784..24320,predicate=bacaped:is_in_stronghold,advancements={bacaped:nether/lord_of_the_rings=false}] run advancement grant @s only bacaped:nether/lord_of_the_rings ring_22784-24320
+
+# Where did the Ground/World Go
+# we are checking only for hidden one since players cant get bacaped:mining/where_did_the_world_go without getting bacaped:mining/where_did_the_ground_go
+execute as @a[advancements={bacaped:mining/where_did_the_world_go=false},gamemode=!spectator] if dimension minecraft:overworld run function bacaped:chunk_mining/start_chunk_check
+
+# Logistics Nightmare
+execute as @e[type=minecraft:chest_minecart,tag=!bacaped_not_generated_in_sulfur_caves,nbt={LootTable:"minecraft:chests/abandoned_mineshaft"}] at @s unless biome ~ ~ ~ minecraft:sulfur_caves run tag @s add bacaped_not_generated_in_sulfur_caves
 
 # Fanpacks Handling
 function #bacaped_fanpacks:10sec_timer

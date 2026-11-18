@@ -10,7 +10,7 @@
       "translate": "Copper King"
     },
     "description": {
-      "translate": "Stand on a chest filled with copper blocks"
+      "translate": "Stand on a Chest filled with Copper Blocks"
     },
     "frame": "challenge",
     "announce_to_chat": true

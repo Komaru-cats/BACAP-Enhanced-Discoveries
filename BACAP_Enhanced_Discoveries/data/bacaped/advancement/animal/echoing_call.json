@@ -11,8 +11,7 @@
       "color": "green"
     },
     "frame": "task",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "parent": "blazeandcave:animal/ram",
   "criteria": {

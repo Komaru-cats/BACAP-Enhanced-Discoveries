@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/hot_wheels",reward_id:"statistics/hot_wheels",tier:"hidden"}

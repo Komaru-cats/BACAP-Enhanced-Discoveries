@@ -1,14 +1,13 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:guster_banner_pattern",
-      "components": {}
+      "id": "minecraft:guster_banner_pattern"
     },
     "title": {
       "translate": "Air Battle"
     },
     "description": {
-      "translate": "Kill 10 Chickens while both you and the Chickens are in the air, without using elytra, all in a single attempt, using a bow",
+      "translate": "Kill 10 Chickens while both you and the Chickens are in the air, without using Elytra, all in a single attempt, using a Bow",
       "color": "dark_purple"
     },
     "frame": "challenge",

@@ -1,6 +1,7 @@
 {
-    "replace": false,
-    "values": [
-        "bacaped_rewards:update_points"
-    ]
+  "replace": false,
+  "values": [
+    "bacaped_rewards:update_points",
+    "bacaped_rewards:update_bacaped_points"
+  ]
 }

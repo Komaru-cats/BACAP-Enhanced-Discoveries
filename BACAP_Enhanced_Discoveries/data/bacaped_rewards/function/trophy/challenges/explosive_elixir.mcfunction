@@ -1,0 +1,2 @@
+give @s minecraft:honey_bottle[minecraft:enchantment_glint_override=true, minecraft:custom_name={translate:"Sweet Darling",color:"#FEFF98",bold:true,italic:false}, minecraft:lore=[{translate:"Mix with a bucket of milk",color:"#FEFF98"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Explosive Elixir",color:"light_purple",italic:false}], minecraft:custom_model_data={strings:["bacaped:sweet_darling"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Sweet Darling"}]}

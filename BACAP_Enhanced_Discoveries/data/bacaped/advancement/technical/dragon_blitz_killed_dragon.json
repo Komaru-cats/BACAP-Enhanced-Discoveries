@@ -3,6 +3,23 @@
     "killed_dragon": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
+        "player": {
+          "type": "minecraft:inverted",
+          "term": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "advancements": {
+                  "bacaped:end/dragon_blitz": true
+                },
+                "gamemode": [
+                  "spectator"
+                ]
+              }
+            }
+          }
+        },
         "entity": {
           "type": "minecraft:entity_properties",
           "entity": "this",
@@ -14,6 +31,6 @@
     }
   },
   "rewards": {
-    "function": "bacaped:dragon_blitz_killed"
+    "function": "bacaped:scores/dragon_blitz"
   }
 }

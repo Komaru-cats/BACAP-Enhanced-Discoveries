@@ -1,2 +1,2 @@
-give @s minecraft:flower_pot 1
-tellraw @s {"color":"green","text":" +1 ","extra":[{"translate":"item.minecraft.flower_pot"}]}
+give @s minecraft:flower_pot
+tellraw @s {text:" +1 ",color:"green",extra:[{translate:"block.minecraft.flower_pot"}]}

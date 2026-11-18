@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/a_delicate_touch",reward_id:"statistics/a_delicate_touch",tier:"task"}

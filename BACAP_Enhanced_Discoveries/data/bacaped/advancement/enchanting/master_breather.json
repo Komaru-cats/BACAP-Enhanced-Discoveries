@@ -1,0 +1,209 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:turtle_helmet",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Master Breather"
+    },
+    "description": {
+      "translate": "Create a Turtle Shell with all possible enchants at max level",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:enchanting/master_sweeper",
+  "criteria": {
+    "helmet_protection": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:turtle_helmet",
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:protection",
+                  "levels": {
+                    "min": 4
+                  }
+                },
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:mending",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:aqua_affinity",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:respiration",
+                  "levels": {
+                    "min": 3
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "helmet_fire_protection": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:turtle_helmet",
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:fire_protection",
+                  "levels": {
+                    "min": 4
+                  }
+                },
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:mending",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:aqua_affinity",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:respiration",
+                  "levels": {
+                    "min": 3
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "helmet_projectile_protection": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:turtle_helmet",
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:projectile_protection",
+                  "levels": {
+                    "min": 4
+                  }
+                },
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:mending",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:aqua_affinity",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:respiration",
+                  "levels": {
+                    "min": 3
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "helmet_blast_protection": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:turtle_helmet",
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:blast_protection",
+                  "levels": {
+                    "min": 4
+                  }
+                },
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:mending",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:aqua_affinity",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:respiration",
+                  "levels": {
+                    "min": 3
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "helmet_protection",
+      "helmet_fire_protection",
+      "helmet_projectile_protection",
+      "helmet_blast_protection"
+    ]
+  ],
+  "rewards": {
+    "function": "bacaped_rewards:enchanting/master_breather"
+  }
+}

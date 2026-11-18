@@ -16,7 +16,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:challenges/5g_connectivity",
+  "parent": "bacaped:challenges/wither_aboard",
   "criteria": {
     "5_birds_1_stone": {
       "trigger": "minecraft:killed_by_arrow",

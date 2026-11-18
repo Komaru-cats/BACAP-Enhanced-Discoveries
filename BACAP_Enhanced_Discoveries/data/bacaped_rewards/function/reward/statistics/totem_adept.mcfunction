@@ -1,2 +1,2 @@
-give @s minecraft:totem_of_undying 1
-tellraw @s {"color":"green","text":" +1 ","extra":[{"translate":"item.minecraft.totem_of_undying"}]}
+give @s minecraft:totem_of_undying
+tellraw @s {text:" +1 ",color:"green",extra:[{translate:"item.minecraft.totem_of_undying"}]}

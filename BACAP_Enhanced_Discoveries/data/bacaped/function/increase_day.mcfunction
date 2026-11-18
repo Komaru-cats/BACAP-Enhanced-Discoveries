@@ -1,4 +1,4 @@
-# # For "Doctors Hate This Simple TRick" it is checked if an egapple was eaten in the previous day
+# # For "Doctors Hate This Simple Trick" it is checked if an enchanted golden was eaten in the previous day
 # If there wasn't one, the day score is reset
 execute as @a[advancements={bacaped:technical/consume_egapple=false}] run scoreboard players set @s bacaped_egapple_days 0
 

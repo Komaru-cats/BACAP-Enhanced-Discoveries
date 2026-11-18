@@ -10,7 +10,7 @@
       "translate": "Smoke Signal"
     },
     "description": {
-      "translate": "Place a campfire on a hay bale to make its smoke rise higher into the sky",
+      "translate": "Place a Campfire on a Hay Bale to make its smoke rise higher into the sky",
       "color": "green"
     },
     "frame": "task",

@@ -1,7 +1,4 @@
 {
-  "rewards": {
-    "function": "bacaped:scores/ominous_vault_hunter"
-  },
   "criteria": {
     "ominous_vault": {
       "trigger": "minecraft:item_used_on_block",
@@ -30,5 +27,8 @@
         }
       }
     }
+  },
+  "rewards": {
+    "function": "bacaped:scores/ominous_vault_hunter"
   }
 }

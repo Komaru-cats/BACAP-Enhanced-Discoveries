@@ -1,2 +1,2 @@
 give @s cod 4
-tellraw @s {"color":"green","text":" +4 ","extra":[{"translate":"item.minecraft.cod"}]}
+tellraw @s {text:" +4 ",color:"green",extra:[{translate:"item.minecraft.cod"}]}

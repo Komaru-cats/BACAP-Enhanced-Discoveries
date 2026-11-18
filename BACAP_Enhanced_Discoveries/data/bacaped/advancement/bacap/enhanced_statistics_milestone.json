@@ -15,6 +15,22 @@
   },
   "parent": "bacaped:bacap/enhanced_enchanting_milestone",
   "criteria": {
+    "a_delicate_touch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:statistics/a_delicate_touch": true
+              }
+            }
+          }
+        }
+      }
+    },
     "artisan_adept": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -41,6 +57,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:statistics/avid_trader": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "careful_excavator": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:statistics/careful_excavator": true
               }
             }
           }
@@ -201,6 +233,38 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:statistics/ladder_legend": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "living_history": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:statistics/living_history": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "master_archaeologist": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:statistics/master_archaeologist": true
               }
             }
           }

@@ -7,9 +7,10 @@
       "translate": "Intergalactic Journey"
     },
     "description": {
-      "translate": "Sail through all dimensions in one boat without getting out"
+      "translate": "Sail through all dimensions in one Boat without getting out",
+      "color": "#75E1FF"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "bacaped:end/interdimensional_travel",

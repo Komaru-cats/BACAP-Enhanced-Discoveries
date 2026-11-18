@@ -1,21 +1,18 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:suspicious_gravel",
-      "components": {
-        "minecraft:enchantment_glint_override": true
-      }
+      "id": "minecraft:netherite_shovel"
     },
     "title": {
       "translate": "Suspicious Miner"
     },
     "description": {
-      "translate": "Break 64 suspicious sand or gravel (break without brush)"
+      "translate": "Break 64 Suspicious Sand or Suspicious Gravel without a Brush"
     },
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:adventure/sus_miner",
+  "parent": "bacaped:adventure/oops",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:location",

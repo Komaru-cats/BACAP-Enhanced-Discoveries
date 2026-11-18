@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:nether/unfamiliar_depths",reward_id:"nether/unfamiliar_depths",tier:"challenge"}

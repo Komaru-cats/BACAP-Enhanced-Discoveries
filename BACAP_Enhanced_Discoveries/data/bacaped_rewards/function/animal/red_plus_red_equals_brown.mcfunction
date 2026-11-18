@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/red_plus_red_equals_brown",reward_id:"animal/red_plus_red_equals_brown",tier:"challenge"}

@@ -1,1 +1,0 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/ancient_sorcerer_sage",reward_id:"statistics/ancient_sorcerer_sage",tier:"hidden"}

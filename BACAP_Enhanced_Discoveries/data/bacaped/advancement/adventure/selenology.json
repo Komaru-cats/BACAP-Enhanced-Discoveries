@@ -1,0 +1,288 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQyZGI2OGIyYjNjYzY4NmFkYTcwNjg3N2NkNzM1NTQ2NDdlMWM2Y2I2MWM2MDA4NWVkZTgxZGZlNjM2OWNiNiJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "Selenology"
+    },
+    "description": {
+      "translate": "Look at each Moon phase through a Spyglass at midnight",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:adventure/the_beginning_of_the_day",
+  "criteria": {
+    "full_moon": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "bacaped_selenology_pitch": {
+                  "min": -9000,
+                  "max": -8000
+                }
+              }
+            },
+            {
+              "type": "minecraft:time_check",
+              "clock": "minecraft:overworld",
+              "value": {
+                "min": 17500,
+                "max": 18500
+              },
+              "period": 192000
+            }
+          ]
+        },
+        "item": {
+          "items": "minecraft:spyglass"
+        }
+      }
+    },
+    "waning_gibbous": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "bacaped_selenology_pitch": {
+                  "min": -9000,
+                  "max": -8000
+                }
+              }
+            },
+            {
+              "type": "minecraft:time_check",
+              "clock": "minecraft:overworld",
+              "value": {
+                "min": 41500,
+                "max": 42500
+              },
+              "period": 192000
+            }
+          ]
+        },
+        "item": {
+          "items": "minecraft:spyglass"
+        }
+      }
+    },
+    "last_quarter": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "bacaped_selenology_pitch": {
+                  "min": -9000,
+                  "max": -8000
+                }
+              }
+            },
+            {
+              "type": "minecraft:time_check",
+              "clock": "minecraft:overworld",
+              "value": {
+                "min": 65500,
+                "max": 66500
+              },
+              "period": 192000
+            }
+          ]
+        },
+        "item": {
+          "items": "minecraft:spyglass"
+        }
+      }
+    },
+    "waning_crescent": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "bacaped_selenology_pitch": {
+                  "min": -9000,
+                  "max": -8000
+                }
+              }
+            },
+            {
+              "type": "minecraft:time_check",
+              "clock": "minecraft:overworld",
+              "value": {
+                "min": 89500,
+                "max": 90500
+              },
+              "period": 192000
+            }
+          ]
+        },
+        "item": {
+          "items": "minecraft:spyglass"
+        }
+      }
+    },
+    "new_moon": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "bacaped_selenology_pitch": {
+                  "min": -9000,
+                  "max": -8000
+                }
+              }
+            },
+            {
+              "type": "minecraft:time_check",
+              "clock": "minecraft:overworld",
+              "value": {
+                "min": 113500,
+                "max": 114500
+              },
+              "period": 192000
+            }
+          ]
+        },
+        "item": {
+          "items": "minecraft:spyglass"
+        }
+      }
+    },
+    "waxing_crescent": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "bacaped_selenology_pitch": {
+                  "min": -9000,
+                  "max": -8000
+                }
+              }
+            },
+            {
+              "type": "minecraft:time_check",
+              "clock": "minecraft:overworld",
+              "value": {
+                "min": 137500,
+                "max": 138500
+              },
+              "period": 192000
+            }
+          ]
+        },
+        "item": {
+          "items": "minecraft:spyglass"
+        }
+      }
+    },
+    "first_quarter": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "bacaped_selenology_pitch": {
+                  "min": -9000,
+                  "max": -8000
+                }
+              }
+            },
+            {
+              "type": "minecraft:time_check",
+              "clock": "minecraft:overworld",
+              "value": {
+                "min": 161500,
+                "max": 162500
+              },
+              "period": 192000
+            }
+          ]
+        },
+        "item": {
+          "items": "minecraft:spyglass"
+        }
+      }
+    },
+    "waxing_gibbous": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "bacaped_selenology_pitch": {
+                  "min": -9000,
+                  "max": -8000
+                }
+              }
+            },
+            {
+              "type": "minecraft:time_check",
+              "clock": "minecraft:overworld",
+              "value": {
+                "min": 185500,
+                "max": 186500
+              },
+              "period": 192000
+            }
+          ]
+        },
+        "item": {
+          "items": "minecraft:spyglass"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:adventure/selenology"
+  }
+}

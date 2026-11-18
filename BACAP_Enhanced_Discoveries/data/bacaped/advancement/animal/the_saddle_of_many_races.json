@@ -1,0 +1,197 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:saddle"
+    },
+    "title": {
+      "translate": "The Saddle of Many Races"
+    },
+    "description": {
+      "translate": "Kill a Horse of each color variant with a Saddle",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:animal/a_small_horse_incident",
+  "criteria": {
+    "white": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:slots": {
+              "weapon.mainhand": {
+                "items": "minecraft:saddle"
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:components": {
+              "minecraft:horse/variant": "white"
+            }
+          }
+        }
+      }
+    },
+    "dark_brown": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:slots": {
+              "weapon.mainhand": {
+                "items": "minecraft:saddle"
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:components": {
+              "minecraft:horse/variant": "dark_brown"
+            }
+          }
+        }
+      }
+    },
+    "gray": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:slots": {
+              "weapon.mainhand": {
+                "items": "minecraft:saddle"
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:components": {
+              "minecraft:horse/variant": "gray"
+            }
+          }
+        }
+      }
+    },
+    "black": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:slots": {
+              "weapon.mainhand": {
+                "items": "minecraft:saddle"
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:components": {
+              "minecraft:horse/variant": "black"
+            }
+          }
+        }
+      }
+    },
+    "brown": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:slots": {
+              "weapon.mainhand": {
+                "items": "minecraft:saddle"
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:components": {
+              "minecraft:horse/variant": "brown"
+            }
+          }
+        }
+      }
+    },
+    "chestnut": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:slots": {
+              "weapon.mainhand": {
+                "items": "minecraft:saddle"
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:components": {
+              "minecraft:horse/variant": "chestnut"
+            }
+          }
+        }
+      }
+    },
+    "creamy": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:slots": {
+              "weapon.mainhand": {
+                "items": "minecraft:saddle"
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:components": {
+              "minecraft:horse/variant": "creamy"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:animal/the_saddle_of_many_races"
+  }
+}

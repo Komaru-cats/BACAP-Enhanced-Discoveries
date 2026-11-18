@@ -1,0 +1,2 @@
+give @s minecraft:sugar[minecraft:enchantment_glint_override=true, minecraft:custom_name={translate:"Salt",color:"#E6F7FF",bold:true,italic:false}, minecraft:lore=[{translate:"Do you like it?",color:"#E6F7FF"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Restoring the Population",color:"dark_purple",italic:false}], minecraft:custom_model_data={strings:["bacaped:salt"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:true}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Salt"}]}

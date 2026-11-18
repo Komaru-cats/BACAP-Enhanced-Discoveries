@@ -1,0 +1,3 @@
+
+give @s minecraft:golden_boots[minecraft:custom_data={Trophy:true}, minecraft:custom_name={translate:"Useful Attire",color:"#FFD073",bold:true,italic:false}, minecraft:custom_model_data={strings:["bacaped:useful_attire"]}, minecraft:lore=[{translate:"There’s no such thing as too many shoes!",color:"#FFD073"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"All the Netherite Armor",color:"dark_purple",italic:false}]]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Useful Attire"}]}

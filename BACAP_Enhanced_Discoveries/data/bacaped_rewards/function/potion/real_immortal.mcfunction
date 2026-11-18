@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:potion/real_immortal",reward_id:"potion/real_immortal",tier:"challenge"}

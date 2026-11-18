@@ -1,13 +1,13 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:emerald"
+      "id": "minecraft:emerald_block"
     },
     "title": {
       "translate": "Thorny Prices"
     },
     "description": {
-      "translate": "Die from a Villager wearing armor with the Thorns enchantment",
+      "translate": "Die from a Villager wearing Armor with the Thorns enchantment",
       "color": "#75E1FF"
     },
     "frame": "goal",

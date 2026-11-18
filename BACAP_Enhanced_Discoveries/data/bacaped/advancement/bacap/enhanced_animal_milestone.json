@@ -15,7 +15,7 @@
   },
   "parent": "bacaped:bacap/enhanced_farming_milestone",
   "criteria": {
-    "air_balloon": {
+    "5g_connectivity": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -24,7 +24,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:animal/air_balloon": true
+                "bacaped:animal/5g_connectivity": true
               }
             }
           }
@@ -47,6 +47,54 @@
         }
       }
     },
+    "a_small_horse_incident": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:animal/a_small_horse_incident": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "air_balloon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:animal/air_balloon": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "australia": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:animal/australia": true
+              }
+            }
+          }
+        }
+      }
+    },
     "baby_zoo": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -57,6 +105,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:animal/baby_zoo": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "back_to_basics": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:animal/back_to_basics": true
               }
             }
           }
@@ -121,22 +185,6 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:animal/camel_adventure": true
-              }
-            }
-          }
-        }
-      }
-    },
-    "cheers": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:type_specific/player": {
-              "advancements": {
-                "bacaped:animal/cheers": true
               }
             }
           }
@@ -223,6 +271,22 @@
         }
       }
     },
+    "exemplary_worker": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:animal/exemplary_worker": true
+              }
+            }
+          }
+        }
+      }
+    },
     "extraordinary_duel": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -233,6 +297,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:animal/extraordinary_duel": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "forbidden_flower": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:animal/forbidden_flower": true
               }
             }
           }
@@ -335,6 +415,22 @@
         }
       }
     },
+    "i_am_a_train": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:animal/i_am_a_train": true
+              }
+            }
+          }
+        }
+      }
+    },
     "live_salmon": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -383,6 +479,22 @@
         }
       }
     },
+    "one_in_a_million_steed": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:animal/one_in_a_million_steed": true
+              }
+            }
+          }
+        }
+      }
+    },
     "pie-fox_fest": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -399,6 +511,22 @@
         }
       }
     },
+    "piggish_poison_tango": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:animal/piggish_poison_tango": true
+              }
+            }
+          }
+        }
+      }
+    },
     "poisoned_ball": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -409,6 +537,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:animal/poisoned_ball": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "red_plus_red_equals_brown": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:animal/red_plus_red_equals_brown": true
               }
             }
           }
@@ -463,6 +607,22 @@
         }
       }
     },
+    "snip-snip": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:animal/snip-snip": true
+              }
+            }
+          }
+        }
+      }
+    },
     "telefoxing": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -505,6 +665,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:animal/the_invisible_turtle": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "the_saddle_of_many_races": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:animal/the_saddle_of_many_races": true
               }
             }
           }
@@ -559,7 +735,7 @@
         }
       }
     },
-    "whats_the_best_transport": {
+    "what_a_mess_this_horse_is": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -568,7 +744,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:animal/whats_the_best_transport": true
+                "bacaped:animal/what_a_mess_this_horse_is": true
               }
             }
           }
@@ -607,7 +783,7 @@
         }
       }
     },
-    "what_a_mess_this_horse_is": {
+    "whats_the_best_transport": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -616,7 +792,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:animal/what_a_mess_this_horse_is": true
+                "bacaped:animal/whats_the_best_transport": true
               }
             }
           }
@@ -649,6 +825,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:animal/youre_part_of_a_hive_mind_now": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "zero_coordinates_magnet": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:animal/zero_coordinates_magnet": true
               }
             }
           }

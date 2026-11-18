@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:redstone/idea_generator",reward_id:"redstone/idea_generator",tier:"task"}

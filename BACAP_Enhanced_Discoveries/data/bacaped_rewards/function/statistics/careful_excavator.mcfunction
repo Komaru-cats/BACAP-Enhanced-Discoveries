@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/careful_excavator",reward_id:"statistics/careful_excavator",tier:"goal"}

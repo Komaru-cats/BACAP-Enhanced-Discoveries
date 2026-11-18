@@ -10,13 +10,13 @@
       "translate": "The King of the Redskins"
     },
     "description": {
-      "translate": "Fill your inventory with redstone blocks",
+      "translate": "Fill your inventory with Redstone Blocks",
       "color": "#FF2A2A"
     },
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:challenges/root",
+  "parent": "bacaped:challenges/definitely_not_raid_farming",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:location",

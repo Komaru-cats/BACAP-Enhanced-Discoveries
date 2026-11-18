@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone_block"
+    },
+    "title": {
+      "translate": "More Optimizations!"
+    },
+    "description": {
+      "translate": "Place a Redstone Block above a Hopper to lock it",
+      "color": "green"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:redstone/old_optimizations",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:redstone_block"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:hopper"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:redstone/more_optimizations"
+  }
+}

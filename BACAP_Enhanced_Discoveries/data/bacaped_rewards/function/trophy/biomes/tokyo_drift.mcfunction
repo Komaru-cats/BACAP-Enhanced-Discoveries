@@ -1,0 +1,3 @@
+
+give @s minecraft:recovery_compass[minecraft:custom_data={Trophy:true}, minecraft:custom_name={translate:"Tachometer",color:"#55FFFF",bold:true,italic:false}, minecraft:custom_model_data={strings:["bacaped:tachometer"]}, minecraft:lore=[{translate:"Looks like it's stuck on the rev limiter",color:"#55FFFF"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Tokyo Drift",color:"dark_purple",italic:false}]]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Tachometer"}]}

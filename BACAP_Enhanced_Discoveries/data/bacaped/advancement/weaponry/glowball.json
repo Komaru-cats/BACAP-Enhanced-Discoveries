@@ -7,7 +7,7 @@
       "translate": "Glowball"
     },
     "description": {
-      "translate": "Hit the Glow Squid in the air with a snowball"
+      "translate": "Hit the Glow Squid in the air with a Snowball"
     },
     "frame": "challenge",
     "announce_to_chat": true

@@ -23,13 +23,13 @@
       "translate": "Thousand Lives"
     },
     "description": {
-      "translate": "Fill your inventory with yellow shulker boxes full of Totems of Undying",
+      "translate": "Fill your inventory with Yellow Shulker Boxes full of Totems of Undying",
       "color": "#FF2A2A"
     },
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:challenges/immortal",
+  "parent": "blazeandcave:challenges/root",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:location",

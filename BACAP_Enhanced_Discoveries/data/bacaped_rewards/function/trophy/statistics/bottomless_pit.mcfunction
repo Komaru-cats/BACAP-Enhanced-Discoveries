@@ -1,0 +1,2 @@
+give @s minecraft:dried_kelp[minecraft:enchantment_glint_override=true, minecraft:custom_name={translate:"Low-Calorie Food",color:"#176B2E",bold:true,italic:false}, minecraft:lore=[{translate:"I think you need to go on a diet",color:"#176B2E"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Bottomless Pit",color:"light_purple",italic:false}], minecraft:custom_model_data={strings:["bacaped:low_calorie_food"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Low-Calorie Food"}]}

@@ -1,1 +1,0 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/no_shield_please",reward_id:"challenges/no_shield_please",tier:"super_challenge"}

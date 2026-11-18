@@ -1,1 +1,0 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/wandering_caravane",reward_id:"adventure/wandering_caravane",tier:"goal"}

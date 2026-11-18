@@ -1,1 +1,0 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/5g_connectivity",reward_id:"challenges/5g_connectivity",tier:"super_challenge"}

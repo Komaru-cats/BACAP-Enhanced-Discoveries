@@ -20,17 +20,17 @@
       }
     },
     "title": {
-      "translate": "Komaru \u2665"
+      "translate": "Komaru ♥"
     },
     "description": {
-      "translate": "Name a Cat \"Komaru\"",
+      "translate": "Name a Cat 'Komaru'",
       "color": "light_purple"
     },
     "frame": "challenge",
-    "hidden": true,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "hidden": true
   },
-  "parent": "bacaped:adventure/wardens_thrust",
+  "parent": "bacaped:adventure/placeholder",
   "criteria": {
     "Komaru": {
       "trigger": "minecraft:player_interacted_with_entity",

@@ -1,2 +1,2 @@
 give @s carrot 8
-tellraw @s {"color":"green","text":" +8 ","extra":[{"translate":"item.minecraft.carrot"}]}
+tellraw @s {text:" +8 ",color:"green",extra:[{translate:"item.minecraft.carrot"}]}

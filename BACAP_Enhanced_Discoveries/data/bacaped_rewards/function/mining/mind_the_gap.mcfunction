@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:mining/mind_the_gap",reward_id:"mining/mind_the_gap",tier:"task"}

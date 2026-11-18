@@ -7,14 +7,13 @@
       "translate": "Say NO to Campfires"
     },
     "description": {
-      "translate": "Place a dispenser next to a beehive to automate your buzzing buddies\u2019 work",
+      "translate": "Place a Dispenser next to a Beehive to automate the Bees' work",
       "color": "#75E1FF"
     },
     "frame": "goal",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
-  "parent": "blazeandcave:redstone/dispense_with_this",
+  "parent": "bacaped:redstone/using_a_bow_using_a_bow",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:placed_block",

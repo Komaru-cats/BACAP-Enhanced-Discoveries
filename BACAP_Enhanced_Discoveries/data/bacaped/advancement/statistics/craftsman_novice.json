@@ -7,12 +7,11 @@
       "translate": "Craftsman Novice"
     },
     "description": {
-      "translate": "Open a crafting table 15 times",
+      "translate": "Open a Crafting Table 15 times",
       "color": "green"
     },
     "frame": "task",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "parent": "blazeandcave:technical/you_are_a_big_cheater",
   "criteria": {

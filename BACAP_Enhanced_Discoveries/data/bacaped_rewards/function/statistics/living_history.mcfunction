@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/living_history",reward_id:"statistics/living_history",tier:"challenge"}

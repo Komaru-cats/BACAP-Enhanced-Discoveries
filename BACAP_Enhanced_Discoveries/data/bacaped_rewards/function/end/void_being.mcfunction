@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:end/void_being",reward_id:"end/void_being",tier:"challenge"}

@@ -7,7 +7,7 @@
       "translate": "Dragon vs Wither IV"
     },
     "description": {
-      "translate": "Kill the Wither while in lava while wearing a dragon head and elytra",
+      "translate": "Kill the Wither in the Nether while in Lava while wearing a Dragon Head and Elytra",
       "color": "#FF2A2A"
     },
     "frame": "challenge",
@@ -23,6 +23,7 @@
           "entity": "this",
           "predicate": {
             "location": {
+              "dimension": "minecraft:the_nether",
               "fluid": {
                 "fluids": "#minecraft:lava"
               }

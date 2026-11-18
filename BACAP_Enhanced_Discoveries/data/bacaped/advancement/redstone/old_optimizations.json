@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:composter"
+    },
+    "title": {
+      "translate": "Old Optimizations"
+    },
+    "description": {
+      "translate": "Before 1.21, placing a Composter above a Hopper optimized calculations. Do it in honor of tradition",
+      "color": "green"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/space_hopper",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:composter"
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:hopper"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:redstone/old_optimizations"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": "minecraft:healing"
+      }
+    },
+    "title": {
+      "translate": "No Discrimination Club"
+    },
+    "description": {
+      "translate": "Use a Spyglass to look at a Villager and Pillager without a crossbow sitting in a Boat from at least 50 blocks away",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/hey_you_two_should_kiss",
+  "criteria": {
+    "trigger1": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:type_specific/player": {
+                    "looking_at": {
+                      "minecraft:entity_type": "#minecraft:boat",
+                      "minecraft:nbt": "{Passengers:[{id:\"minecraft:pillager\", equipment:{mainhand:{}}}]}"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "looking_at": {
+                    "entity_type": "#minecraft:boat",
+                    "nbt": "{Passengers:[{id:\"minecraft:villager\"},{id:\"minecraft:pillager\"}]}",
+                    "distance": {
+                      "absolute": {
+                        "min": 50
+                      }
+                    }
+                  }
+                }
+              },
+              "entity": "this"
+            }
+          ]
+        },
+        "item": {
+          "items": "minecraft:spyglass"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:adventure/no_discrimination_club"
+  }
+}

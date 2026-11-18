@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/stoppable_force",reward_id:"challenges/stoppable_force",tier:"super_challenge"}

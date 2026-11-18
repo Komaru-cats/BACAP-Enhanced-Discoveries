@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spyglass",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "The Cult of the Spyglass"
+    },
+    "description": {
+      "translate": "Look at a Spyglass through a Spyglass",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/galileo_figaro",
+  "criteria": {
+    "spyglass": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "looking_at": {
+                "entity_type": "minecraft:item",
+                "minecraft:nbt": "{Item: {id: \"minecraft:spyglass\"}}"
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:spyglass"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:mining/the_cult_of_the_spyglass"
+  }
+}

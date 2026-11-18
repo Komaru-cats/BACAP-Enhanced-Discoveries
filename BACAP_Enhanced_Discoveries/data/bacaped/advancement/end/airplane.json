@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra"
+    },
+    "title": {
+      "translate": "Airplane"
+    },
+    "description": {
+      "translate": "Glide with an Elytra for 20 minutes continuously",
+      "color": "dark_purple",
+      "extra": [
+        {
+          "text": "\n\n"
+        },
+        {
+          "translate": "To view progress, run:",
+          "color": "dark_gray",
+          "italic": true
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "text": "/trigger bac_timers",
+          "color": "gray"
+        }
+      ]
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:end/weightlessness",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:end/airplane"
+  }
+}

@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:end/a_diverting_misconception",reward_id:"end/a_diverting_misconception",tier:"challenge"}

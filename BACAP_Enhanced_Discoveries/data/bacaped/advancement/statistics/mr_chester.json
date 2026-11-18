@@ -23,7 +23,7 @@
       "translate": "Mr. Chester"
     },
     "description": {
-      "translate": "Open 10,000 chests!"
+      "translate": "Open 10,000 Chests!"
     },
     "frame": "challenge",
     "announce_to_chat": true

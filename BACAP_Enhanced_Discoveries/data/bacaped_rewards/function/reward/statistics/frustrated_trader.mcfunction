@@ -1,2 +1,2 @@
-give @s iron_axe[tooltip_display={hidden_components:[]}, enchantments={efficiency:2}, enchantment_glint_override=true] 1
-tellraw @s {"color":"green","text":" +1 ","extra":[{"translate":"item.minecraft.iron_axe"}]}
+give @s iron_axe[minecraft:tooltip_display={}, minecraft:enchantments={efficiency:2}, minecraft:enchantment_glint_override=true]
+tellraw @s {text:" +1 ",color:"green",extra:[{translate:"item.minecraft.iron_axe"}]}

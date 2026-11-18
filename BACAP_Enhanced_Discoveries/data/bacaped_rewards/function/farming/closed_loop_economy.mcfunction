@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:farming/closed_loop_economy",reward_id:"farming/closed_loop_economy",tier:"task"}

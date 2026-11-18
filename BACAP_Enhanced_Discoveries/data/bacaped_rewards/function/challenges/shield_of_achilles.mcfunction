@@ -1,1 +1,0 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/shield_of_achilles",reward_id:"challenges/shield_of_achilles",tier:"super_challenge"}

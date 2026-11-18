@@ -1,5 +1,5 @@
 {
-  "parent": "bacaped:challenges/command_work",
+  "parent": "bacaped:challenges/stoppable_force",
   "criteria": {
     "root": {
       "trigger": "minecraft:location",

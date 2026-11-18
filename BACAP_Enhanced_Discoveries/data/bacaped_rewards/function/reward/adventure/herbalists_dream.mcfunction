@@ -1,2 +1,4 @@
-give @s large_fern 1
-tellraw @s {"color":"green","text":" +1 ","extra":[{"translate":"block.minecraft.large_fern"}]}
+give @s large_fern 2
+tellraw @s {text:" +2 ",color:"green",extra:[{translate:"block.minecraft.large_fern"}]}
+give @s tall_grass 2
+tellraw @s {text:" +2 ",color:"green",extra:[{translate:"block.minecraft.tall_grass"}]}

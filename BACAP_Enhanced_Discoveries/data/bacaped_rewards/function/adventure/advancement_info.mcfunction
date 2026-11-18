@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/advancement_info",reward_id:"adventure/advancement_info",tier:"hidden"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/advancement_info",reward_id:"adventure/advancement_info",tier:"goal"}

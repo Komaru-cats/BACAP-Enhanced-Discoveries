@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/back_to_basics",reward_id:"animal/back_to_basics",tier:"task"}

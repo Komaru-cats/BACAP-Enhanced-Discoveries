@@ -42,7 +42,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:challenges/airborne_annihilator",
+  "parent": "blazeandcave:challenges/biological_warfare",
   "criteria": {
     "bat": {
       "trigger": "minecraft:location",

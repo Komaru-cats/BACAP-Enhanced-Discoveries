@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_terracotta"
+    },
+    "title": {
+      "translate": "Unprofitable Transportation"
+    },
+    "description": {
+      "translate": "Buy any type of Terracotta from a Villager in a Badlands biome",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:adventure/on_site_sale",
+  "criteria": {
+    "buy_terracotta": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": "minecraft:any_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biomes": "#minecraft:is_badlands"
+                }
+              }
+            }
+          ]
+        },
+        "item": {
+          "items": "#minecraft:terracotta"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:adventure/unprofitable_transportation"
+  }
+}

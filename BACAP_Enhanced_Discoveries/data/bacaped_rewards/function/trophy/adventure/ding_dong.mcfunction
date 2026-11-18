@@ -1,0 +1,2 @@
+give @s minecraft:bell[minecraft:enchantment_glint_override=true, minecraft:custom_name={translate:"Magic Bell",color:"#FBFB80",bold:true,italic:false}, minecraft:lore=[{translate:"Knock yourself on the head",color:"#FBFB80"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Ding Dong",color:"#75E1FF",italic:false}], minecraft:custom_model_data={strings:["bacaped:magic_bell"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:true}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Magic Bell"}]}

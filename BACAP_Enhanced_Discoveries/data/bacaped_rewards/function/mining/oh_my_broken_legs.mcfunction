@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:mining/oh_my_broken_legs",reward_id:"mining/oh_my_broken_legs",tier:"challenge"}

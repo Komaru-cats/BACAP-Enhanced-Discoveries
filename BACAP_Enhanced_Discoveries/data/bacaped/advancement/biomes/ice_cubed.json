@@ -1,0 +1,244 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWQ0MWVjYWQ5OTc4NTIwZDY0ZDkzODdiNWE1M2Y1YmMxNGE4YjIwM2E0NjQ5MTAwY2VjZWM0YWNkODJmY2YzNiJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "Ice³"
+    },
+    "description": {
+      "translate": "Have a Shulker Box full of Blue Ice in your inventory",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/everybody_loves_ice",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:slots": {
+              "container.*": {
+                "items": "#minecraft:shulker_boxes",
+                "count": {
+                  "min": 1
+                },
+                "components": {
+                  "minecraft:container": [
+                    {
+                      "slot": 0,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 1,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 2,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 3,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 4,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 5,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 6,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 7,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 8,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 9,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 10,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 11,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 12,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 13,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 14,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 15,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 16,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 17,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 18,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 19,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 20,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 21,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 22,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 23,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 24,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 25,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    },
+                    {
+                      "slot": 26,
+                      "item": {
+                        "id": "minecraft:blue_ice",
+                        "count": 64
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:biomes/ice_cubed"
+  }
+}

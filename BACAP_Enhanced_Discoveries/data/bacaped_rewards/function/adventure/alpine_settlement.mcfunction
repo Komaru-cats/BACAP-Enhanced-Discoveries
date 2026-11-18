@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/alpine_settlement",reward_id:"adventure/alpine_settlement",tier:"goal"}

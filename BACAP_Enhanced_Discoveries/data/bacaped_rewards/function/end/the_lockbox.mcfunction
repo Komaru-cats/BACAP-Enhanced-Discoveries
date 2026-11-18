@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:end/the_lockbox",reward_id:"end/the_lockbox",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:end/the_lockbox",reward_id:"end/the_lockbox",tier:"goal"}

@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:redstone/classic_door_trap",reward_id:"redstone/classic_door_trap",tier:"task"}

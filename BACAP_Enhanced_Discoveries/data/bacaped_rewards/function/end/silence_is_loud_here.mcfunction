@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:end/silence_is_loud_here",reward_id:"end/silence_is_loud_here",tier:"challenge"}

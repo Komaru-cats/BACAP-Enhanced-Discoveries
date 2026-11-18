@@ -10,11 +10,10 @@
       "translate": "What About Mooblooms?"
     },
     "description": {
-      "translate": "Kill a Glow Squid in a flower forest while holding a dandelion"
+      "translate": "Kill a Glow Squid in a Flower Forest while holding a Dandelion"
     },
     "frame": "challenge",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "parent": "blazeandcave:animal/iceologer_shouldve_won",
   "criteria": {

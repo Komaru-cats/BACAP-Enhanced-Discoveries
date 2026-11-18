@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:building/heavy_industry",reward_id:"building/heavy_industry",tier:"goal"}

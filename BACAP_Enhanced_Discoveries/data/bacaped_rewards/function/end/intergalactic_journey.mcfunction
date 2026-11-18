@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:end/intergalactic_journey",reward_id:"end/intergalactic_journey",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:end/intergalactic_journey",reward_id:"end/intergalactic_journey",tier:"goal"}

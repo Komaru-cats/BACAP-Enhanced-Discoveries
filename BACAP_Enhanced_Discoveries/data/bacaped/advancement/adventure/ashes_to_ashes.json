@@ -1,0 +1,89 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGRjMGY2ZjRiODFlZDc3YWJiYTVjODg1MjZmNTViNDZlNWE3ZDg4YjhjMDkzNWQ4ZGQyZWMyMjg3NTU4Nzk4MSJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "Ashes to Ashes"
+    },
+    "description": {
+      "translate": "Burn down a Pillager Outpost, a Swamp Hut, and a Woodland Mansion",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/redemption_arc",
+  "criteria": {
+    "mansion": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:slots": {
+              "weapon.mainhand": {
+                "items": "minecraft:flint_and_steel"
+              }
+            },
+            "minecraft:location": {
+              "structures": "minecraft:mansion"
+            }
+          }
+        }
+      }
+    },
+    "witch_hut": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:slots": {
+              "weapon.mainhand": {
+                "items": "minecraft:flint_and_steel"
+              }
+            },
+            "minecraft:location": {
+              "structures": "minecraft:swamp_hut"
+            }
+          }
+        }
+      }
+    },
+    "pillager_outpost": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:slots": {
+              "weapon.mainhand": {
+                "items": "minecraft:flint_and_steel"
+              }
+            },
+            "minecraft:location": {
+              "structures": "minecraft:pillager_outpost"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:adventure/ashes_to_ashes"
+  }
+}

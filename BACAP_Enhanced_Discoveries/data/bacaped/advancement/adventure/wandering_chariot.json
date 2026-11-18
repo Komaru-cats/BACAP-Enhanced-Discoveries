@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trader_llama_spawn_egg"
+    },
+    "title": {
+      "translate": "Wandering Chariot"
+    },
+    "description": {
+      "translate": "Leash a Boat with a Wandering Trader and Trader Llama inside",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:adventure/oh_you_again",
+  "criteria": {
+    "transport_trader_and_llama": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "#minecraft:boat",
+            "minecraft:nbt": "{Passengers:[{id:\"minecraft:trader_llama\"},{id:\"minecraft:wandering_trader\"}]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:adventure/wandering_chariot"
+  }
+}

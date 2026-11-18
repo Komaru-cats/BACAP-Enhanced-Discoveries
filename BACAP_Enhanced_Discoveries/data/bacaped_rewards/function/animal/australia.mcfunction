@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/australia",reward_id:"animal/australia",tier:"task"}

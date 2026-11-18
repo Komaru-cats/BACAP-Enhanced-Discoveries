@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:name_tag"
+    },
+    "title": {
+      "translate": "Metal Nameplate"
+    },
+    "description": {
+      "translate": "Craft a Name Tag using every type of Nugget",
+      "color": "green"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/not_chicken_mcnuggets",
+  "criteria": {
+    "copper_nugget": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:name_tag",
+        "ingredients": [
+          {
+            "items": "minecraft:copper_nugget"
+          }
+        ]
+      }
+    },
+    "gold_nugget": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:name_tag",
+        "ingredients": [
+          {
+            "items": "minecraft:gold_nugget"
+          }
+        ]
+      }
+    },
+    "iron_nugget": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:name_tag",
+        "ingredients": [
+          {
+            "items": "minecraft:iron_nugget"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:mining/metal_nameplate"
+  }
+}

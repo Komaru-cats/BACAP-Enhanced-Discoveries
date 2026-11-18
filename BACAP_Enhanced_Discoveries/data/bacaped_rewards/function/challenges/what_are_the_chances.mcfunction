@@ -1,1 +1,0 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/what_are_the_chances",reward_id:"challenges/what_are_the_chances",tier:"super_challenge"}

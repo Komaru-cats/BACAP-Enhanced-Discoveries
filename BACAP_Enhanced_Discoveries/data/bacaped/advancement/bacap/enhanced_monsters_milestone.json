@@ -31,6 +31,38 @@
         }
       }
     },
+    "between_betweenkill": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:monsters/between_betweenkill": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "betweenkill": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:monsters/betweenkill": true
+              }
+            }
+          }
+        }
+      }
+    },
     "born_to_spawn": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -41,6 +73,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:monsters/born_to_spawn": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "eye_contact_master": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:monsters/eye_contact_master": true
               }
             }
           }
@@ -191,6 +239,22 @@
         }
       }
     },
+    "sandwich": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:monsters/sandwich": true
+              }
+            }
+          }
+        }
+      }
+    },
     "suspicious_duel": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -233,6 +297,38 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:monsters/the_undertakers_revenge": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "wardens_thrust": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:monsters/wardens_thrust": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "what_are_the_chances": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:monsters/what_are_the_chances": true
               }
             }
           }

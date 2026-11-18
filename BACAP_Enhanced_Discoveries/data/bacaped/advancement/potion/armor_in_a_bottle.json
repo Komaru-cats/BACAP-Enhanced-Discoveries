@@ -3,9 +3,7 @@
     "icon": {
       "id": "minecraft:lingering_potion",
       "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:strong_turtle_master"
-        }
+        "minecraft:potion_contents": "minecraft:strong_turtle_master"
       }
     },
     "title": {
@@ -16,8 +14,7 @@
       "color": "#75E1FF"
     },
     "frame": "goal",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "parent": "bacaped:potion/cowabunga_it_is",
   "criteria": {

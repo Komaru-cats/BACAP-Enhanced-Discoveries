@@ -1,0 +1,2 @@
+give @s minecraft:warped_fungus_on_a_stick
+tellraw @s {text:" +1 ",color:"green",extra:[{translate:"item.minecraft.warped_fungus_on_a_stick"}]}

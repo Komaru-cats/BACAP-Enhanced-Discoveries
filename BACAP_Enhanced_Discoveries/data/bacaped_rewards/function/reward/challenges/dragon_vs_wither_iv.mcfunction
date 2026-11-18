@@ -1,2 +1,2 @@
-give @s minecraft:dragon_head 1
-tellraw @s {"color":"green","text":" +1 ","extra":[{"translate":"block.minecraft.dragon_head"}]}
+give @s minecraft:dragon_head
+tellraw @s {text:" +1 ",color:"green",extra:[{translate:"block.minecraft.dragon_head"}]}

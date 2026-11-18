@@ -1,5 +1,5 @@
 {
-  "parent": "bacaped:challenges/mob_universe",
+  "parent": "bacaped:challenges/compass_overload",
   "criteria": {
     "root": {
       "trigger": "minecraft:location",

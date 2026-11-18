@@ -3,9 +3,7 @@
     "icon": {
       "id": "minecraft:lingering_potion",
       "components": {
-        "minecraft:potion_contents": {
-          "custom_color": 3325906
-        }
+        "minecraft:potion_contents": "minecraft:regeneration"
       }
     },
     "title": {
@@ -110,6 +108,38 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:potion/master_of_effects": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "real_immortal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:potion/real_immortal": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "seasick": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:potion/seasick": true
               }
             }
           }

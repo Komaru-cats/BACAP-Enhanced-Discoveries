@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:mining/bomb_has_been_defused",reward_id:"mining/bomb_has_been_defused",tier:"task"}

@@ -7,7 +7,7 @@
       "translate": "My Chest!"
     },
     "description": {
-      "translate": "Open 100 chests"
+      "translate": "Open 100 Chests"
     },
     "frame": "task",
     "announce_to_chat": true

@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:mining/metal_nameplate",reward_id:"mining/metal_nameplate",tier:"task"}

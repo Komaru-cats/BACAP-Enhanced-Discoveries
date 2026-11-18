@@ -1,2 +1,3 @@
-
-
+give @s ochre_froglight[minecraft:enchantment_glint_override=true, minecraft:lore=[{translate:"As fast as you may go, you can never truly",color:"#FFF8E7"},{translate:"reach this speed",color:"#FFF8E7"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Speed of Light",color:"light_purple",italic:false}], minecraft:custom_name={translate:"Light Block",color:"#FFF8E7",bold:true,italic:false}, minecraft:custom_model_data={floats:[15500f]}, minecraft:custom_data={Trophy:true}]
+tellraw @s {text:" +1 ",color:"green",extra:[{translate:"block.minecraft.ochre_froglight"}]}
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Light Block"}]}

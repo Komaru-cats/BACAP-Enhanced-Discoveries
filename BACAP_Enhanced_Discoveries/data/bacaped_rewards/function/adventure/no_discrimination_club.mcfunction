@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/no_discrimination_club",reward_id:"adventure/no_discrimination_club",tier:"challenge"}

@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/pork_formula_1",reward_id:"statistics/pork_formula_1",tier:"hidden"}

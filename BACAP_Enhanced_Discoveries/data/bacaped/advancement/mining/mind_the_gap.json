@@ -1,0 +1,103 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pointed_dripstone"
+    },
+    "title": {
+      "translate": "Mind the Gap"
+    },
+    "description": {
+      "translate": "Place opposing Pointed Dripstones while crouching to keep them separated",
+      "color": "green"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/thats_the_point",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "input": {
+                "sneak": true
+              }
+            }
+          }
+        },
+        "location": {
+          "type": "minecraft:any_of",
+          "terms": [
+            {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:pointed_dripstone",
+                      "state": {
+                        "vertical_direction": "down",
+                        "thickness": "tip"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetY": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:pointed_dripstone",
+                      "state": {
+                        "vertical_direction": "up",
+                        "thickness": "tip"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:pointed_dripstone",
+                      "state": {
+                        "vertical_direction": "up",
+                        "thickness": "tip"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetY": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:pointed_dripstone",
+                      "state": {
+                        "vertical_direction": "down",
+                        "thickness": "tip"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:mining/mind_the_gap"
+  }
+}

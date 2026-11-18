@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/wolf_of_villager_st",reward_id:"statistics/wolf_of_villager_st",tier:"hidden"}

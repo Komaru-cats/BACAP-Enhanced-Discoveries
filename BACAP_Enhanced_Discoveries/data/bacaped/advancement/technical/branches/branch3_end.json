@@ -1,5 +1,5 @@
 {
-  "parent": "bacaped:challenges/wither_aboard",
+  "parent": "bacaped:challenges/pooch_purge_pilot",
   "criteria": {
     "root": {
       "trigger": "minecraft:location",

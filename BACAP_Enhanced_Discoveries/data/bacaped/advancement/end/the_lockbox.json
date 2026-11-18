@@ -7,12 +7,11 @@
       "translate": "The Lockbox"
     },
     "description": {
-      "translate": "Put the dragon egg in the ender chest",
-      "color": "dark_purple"
+      "translate": "Put the Dragon Egg in an Ender Chest",
+      "color": "#75E1FF"
     },
-    "frame": "challenge",
-    "announce_to_chat": true,
-    "hidden": false
+    "frame": "goal",
+    "announce_to_chat": true
   },
   "parent": "minecraft:end/dragon_egg",
   "criteria": {

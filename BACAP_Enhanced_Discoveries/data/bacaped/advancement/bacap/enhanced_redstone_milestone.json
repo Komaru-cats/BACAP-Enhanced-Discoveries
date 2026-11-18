@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:crafter"
+      "id": "minecraft:redstone_torch"
     },
     "title": {
       "translate": "Enh. Redstone Milestone"
@@ -15,7 +15,7 @@
   },
   "parent": "bacaped:bacap/enhanced_adventure_milestone",
   "criteria": {
-    "crafting_lockdown": {
+    "classic_door_trap": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -24,7 +24,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:redstone/crafting_lockdown": true
+                "bacaped:redstone/classic_door_trap": true
               }
             }
           }
@@ -41,6 +41,22 @@
             "minecraft:type_specific/player": {
               "advancements": {
                 "bacaped:redstone/craft_me_all": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "crafting_lockdown": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:redstone/crafting_lockdown": true
               }
             }
           }
@@ -95,6 +111,22 @@
         }
       }
     },
+    "idea_generator": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:redstone/idea_generator": true
+              }
+            }
+          }
+        }
+      }
+    },
     "light_touch": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -111,7 +143,7 @@
         }
       }
     },
-    "more_optimisations": {
+    "more_optimizations": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -120,7 +152,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:redstone/more_optimisations": true
+                "bacaped:redstone/more_optimizations": true
               }
             }
           }
@@ -143,7 +175,7 @@
         }
       }
     },
-    "old_optimisations": {
+    "old_optimizations": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -152,7 +184,7 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:redstone/old_optimisations": true
+                "bacaped:redstone/old_optimizations": true
               }
             }
           }
@@ -191,7 +223,7 @@
         }
       }
     },
-    "using_a_bow_a_bow_a_bow_a_bow": {
+    "staring_contest": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
@@ -200,7 +232,39 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "advancements": {
-                "bacaped:redstone/using_a_bow_a_bow_a_bow_a_bow": true
+                "bacaped:redstone/staring_contest": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "timing_is_everything": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:redstone/timing_is_everything": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "using_a_bow_using_a_bow": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "bacaped:redstone/using_a_bow_using_a_bow": true
               }
             }
           }

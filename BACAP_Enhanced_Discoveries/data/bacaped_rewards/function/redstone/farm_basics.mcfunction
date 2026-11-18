@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:redstone/farm_basics",reward_id:"redstone/farm_basics",tier:"goal"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:redstone/farm_basics",reward_id:"redstone/farm_basics",tier:"task"}

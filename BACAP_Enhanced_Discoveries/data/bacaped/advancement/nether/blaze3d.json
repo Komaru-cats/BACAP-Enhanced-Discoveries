@@ -3,9 +3,7 @@
     "icon": {
       "id": "minecraft:tipped_arrow",
       "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:fire_resistance"
-        }
+        "minecraft:potion_contents": "minecraft:fire_resistance"
       }
     },
     "title": {

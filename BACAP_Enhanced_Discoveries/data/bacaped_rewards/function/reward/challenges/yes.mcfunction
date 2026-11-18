@@ -1,2 +1,2 @@
 give @s minecraft:beacon 64
-tellraw @s {"color":"green","text":" +64 ","extra":[{"translate":"block.minecraft.beacon"}]}
+tellraw @s {text:" +64 ",color:"green",extra:[{translate:"block.minecraft.beacon"}]}

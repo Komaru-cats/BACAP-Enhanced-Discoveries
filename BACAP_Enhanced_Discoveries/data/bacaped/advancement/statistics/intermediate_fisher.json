@@ -10,12 +10,11 @@
       "translate": "Intermediate Fisher"
     },
     "description": {
-      "translate": "Catch 25 fish with a fishing rod",
+      "translate": "Catch 25 fish with a Fishing Rod",
       "color": "#75E1FF"
     },
     "frame": "goal",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "parent": "bacaped:statistics/novice_angler",
   "criteria": {

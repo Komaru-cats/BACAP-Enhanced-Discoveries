@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:mining/high_effort_inefficiency",reward_id:"mining/high_effort_inefficiency",tier:"task"}

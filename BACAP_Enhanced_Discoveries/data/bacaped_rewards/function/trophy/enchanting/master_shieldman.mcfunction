@@ -1,2 +1,2 @@
-
-
+give @s filled_map[minecraft:enchantment_glint_override=true, minecraft:lore=[{translate:"Forged in war",color:"#701000"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Master Shieldman",color:"dark_purple",italic:false}], minecraft:custom_name={translate:"Blood Contract",color:"#701000",bold:true,italic:false}, minecraft:custom_model_data={strings:["bacaped:blood_contract"]}, minecraft:custom_data={Trophy:true}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Blood Contract"}]}

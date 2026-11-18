@@ -1,1 +1,1 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:weaponry/deflector",reward_id:"weaponry/deflector",tier:"challenge"}
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:weaponry/deflector",reward_id:"weaponry/deflector",tier:"goal"}

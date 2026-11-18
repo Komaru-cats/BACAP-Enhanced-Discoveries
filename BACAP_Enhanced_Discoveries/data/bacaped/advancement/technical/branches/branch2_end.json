@@ -1,5 +1,5 @@
 {
-  "parent": "bacaped:challenges/extincion",
+  "parent": "bacaped:challenges/baron_munchausen",
   "criteria": {
     "root": {
       "trigger": "minecraft:location",

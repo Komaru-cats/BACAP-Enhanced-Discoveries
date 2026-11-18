@@ -1,2 +1,2 @@
 give @s minecraft:sculk_catalyst 2
-tellraw @s {"color":"green","text":" +2 ","extra":[{"translate":"block.minecraft.sculk_catalyst"}]}
+tellraw @s {text:" +2 ",color:"green",extra:[{translate:"block.minecraft.sculk_catalyst"}]}

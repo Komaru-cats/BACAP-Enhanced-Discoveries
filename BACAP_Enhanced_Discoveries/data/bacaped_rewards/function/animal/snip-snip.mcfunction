@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/snip-snip",reward_id:"animal/snip-snip",tier:"goal"}

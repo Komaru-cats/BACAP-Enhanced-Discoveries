@@ -31,8 +31,7 @@
       ]
     },
     "frame": "challenge",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "parent": "blazeandcave:monsters/house_of_freaks",
   "criteria": {

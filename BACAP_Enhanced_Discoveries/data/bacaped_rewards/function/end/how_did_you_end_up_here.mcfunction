@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:end/how_did_you_end_up_here",reward_id:"end/how_did_you_end_up_here",tier:"challenge"}

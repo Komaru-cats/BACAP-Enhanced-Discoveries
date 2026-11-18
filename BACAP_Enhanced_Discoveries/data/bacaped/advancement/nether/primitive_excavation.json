@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:orange_bed"
+    },
+    "title": {
+      "translate": "Primitive Excavation"
+    },
+    "description": {
+      "translate": "Use a Bed as an explosive mining tool",
+      "color": "#75E1FF"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:nether/obtain_ancient_debris",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "dimension": "minecraft:the_nether"
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:bad_respawn_point",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:nether/primitive_excavation"
+  }
+}

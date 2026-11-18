@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/the_saddle_of_many_races",reward_id:"animal/the_saddle_of_many_races",tier:"goal"}

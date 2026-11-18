@@ -1,5 +1,5 @@
 {
-  "parent": "bacaped:challenges/big_end_adventure",
+  "parent": "bacaped:challenges/monstrous_rocket",
   "criteria": {
     "root": {
       "trigger": "minecraft:location",

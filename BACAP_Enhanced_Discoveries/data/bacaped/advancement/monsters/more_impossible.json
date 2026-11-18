@@ -3,9 +3,7 @@
     "icon": {
       "id": "minecraft:tipped_arrow",
       "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:weakness"
-        }
+        "minecraft:potion_contents": "minecraft:weakness"
       }
     },
     "title": {

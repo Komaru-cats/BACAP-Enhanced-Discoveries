@@ -1,0 +1,2 @@
+give @s minecraft:anvil[minecraft:enchantment_glint_override=true, minecraft:custom_name={translate:"The Orbital Anvil",color:"#57554F",bold:true,italic:false}, minecraft:lore=[{translate:"Minecraft's heaviest low-orbit satellite",color:"#57554F"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Astronomer",color:"dark_purple",italic:false}], minecraft:custom_model_data={strings:["bacaped:the_orbital_anvil"]}, minecraft:tooltip_display={}, minecraft:custom_data={Trophy:1}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"The Orbital Anvil"}]}

@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:farming/i_am_on_diet",reward_id:"farming/i_am_on_diet",tier:"challenge"}

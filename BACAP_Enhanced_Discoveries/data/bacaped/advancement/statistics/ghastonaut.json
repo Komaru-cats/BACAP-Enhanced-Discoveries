@@ -7,11 +7,11 @@
       "translate": "Ghastonaut"
     },
     "description": {
-      "color": "light_purple",
-      "translate": "Ride 50km on a Happy Ghast"
+      "translate": "Ride 50km on a Happy Ghast",
+      "color": "light_purple"
     },
-    "announce_to_chat": true,
     "frame": "challenge",
+    "announce_to_chat": true,
     "hidden": true
   },
   "parent": "blazeandcave:statistics/big_blimp_enthusiast",

@@ -1,20 +1,19 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:skull_banner_pattern",
-      "components": {}
+      "id": "minecraft:skull_banner_pattern"
     },
     "title": {
       "translate": "Wither Aboard!"
     },
     "description": {
-      "translate": "Defeat the Wither in the shipwreck with a Parrot sitting on your shoulder",
+      "translate": "Defeat the Wither in the Shipwreck with a Parrot sitting on your shoulder",
       "color": "#FF2A2A"
     },
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:challenges/dead_carnaval",
+  "parent": "blazeandcave:challenges/endergeddon",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:player_killed_entity",

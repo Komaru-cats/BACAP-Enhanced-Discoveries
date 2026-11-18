@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:redstone/staring_contest",reward_id:"redstone/staring_contest",tier:"task"}

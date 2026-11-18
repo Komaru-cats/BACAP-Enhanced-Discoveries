@@ -1,2 +1,2 @@
 give @s painting 2
-tellraw @s {"color":"green","text":" +2 ","extra":[{"translate":"item.minecraft.painting"}]}
+tellraw @s {text:" +2 ",color:"green",extra:[{translate:"item.minecraft.painting"}]}

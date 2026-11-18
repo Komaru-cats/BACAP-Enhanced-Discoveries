@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:biomes/death_fell_accident_water",reward_id:"biomes/death_fell_accident_water",tier:"goal"}

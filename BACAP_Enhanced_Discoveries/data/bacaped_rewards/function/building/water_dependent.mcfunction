@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:building/water_dependent",reward_id:"building/water_dependent",tier:"goal"}

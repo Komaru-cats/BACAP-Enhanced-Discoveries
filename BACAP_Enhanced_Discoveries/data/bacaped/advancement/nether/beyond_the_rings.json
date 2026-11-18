@@ -16,7 +16,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:nether/inside_out",
+  "parent": "bacaped:nether/lord_of_the_rings",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:used_ender_eye",

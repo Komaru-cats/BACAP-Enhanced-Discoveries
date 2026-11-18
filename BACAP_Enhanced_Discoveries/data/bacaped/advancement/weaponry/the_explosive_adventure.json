@@ -11,7 +11,7 @@
     },
     "description": {
       "translate": "Ignite 250 blocks of TNT",
-      "color": "#75E1FF",
+      "color": "dark_purple",
       "extra": [
         {
           "text": "\n\n"
@@ -30,7 +30,7 @@
         }
       ]
     },
-    "frame": "goal",
+    "frame": "challenge",
     "announce_to_chat": true
   },
   "parent": "bacaped:weaponry/explosive_fisherman",

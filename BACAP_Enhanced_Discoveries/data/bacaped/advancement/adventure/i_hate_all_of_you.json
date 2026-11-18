@@ -28,7 +28,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:adventure/thorny_prices",
+  "parent": "bacaped:adventure/do_you_see_this",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:location",

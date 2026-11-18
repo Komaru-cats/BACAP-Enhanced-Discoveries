@@ -7,7 +7,7 @@
       "translate": "On Site Sale"
     },
     "description": {
-      "translate": "Buy bricks from a Villager in the river biome",
+      "translate": "Buy Brick items from a Villager in a River biome",
       "color": "#75E1FF"
     },
     "frame": "goal",
@@ -23,7 +23,7 @@
           "entity": "this",
           "predicate": {
             "location": {
-              "biomes": "minecraft:river"
+              "biomes": "#minecraft:is_river"
             }
           }
         },

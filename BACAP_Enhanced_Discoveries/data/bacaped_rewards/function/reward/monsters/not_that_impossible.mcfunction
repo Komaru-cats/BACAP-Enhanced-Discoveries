@@ -1,2 +1,2 @@
 give @s minecraft:rotten_flesh 4
-tellraw @s {"color":"green","text":" +4 ","extra":[{"translate":"item.minecraft.rotten_flesh"}]}
+tellraw @s {text:" +4 ",color:"green",extra:[{translate:"item.minecraft.rotten_flesh"}]}

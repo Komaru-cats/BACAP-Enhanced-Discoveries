@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brush"
+    },
+    "title": {
+      "translate": "A Delicate Touch"
+    },
+    "description": {
+      "translate": "Brush 10 Suspicious blocks",
+      "color": "green",
+      "extra": [
+        {
+          "text": "\n\n"
+        },
+        {
+          "translate": "To view progress, run:",
+          "color": "dark_gray",
+          "italic": true
+        },
+        {
+          "text": "\n/trigger bac_statistics",
+          "color": "gray"
+        }
+      ]
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:technical/you_are_a_big_cheater",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:statistics/a_delicate_touch"
+  }
+}

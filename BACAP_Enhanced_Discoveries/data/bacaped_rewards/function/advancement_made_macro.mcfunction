@@ -101,6 +101,7 @@ $execute if entity @s[team=bac_team_white] unless score $(tier) bac_dont_count m
 scoreboard players add @s bacaped_all_advancements 1
 $execute unless score $(tier) bac_dont_count matches 1 run scoreboard players add @s bacaped_advancements 1
 $execute if score $(tier) bacaped_is_hidden matches 1 run scoreboard players add @s bacaped_advancements_only_hiddens 1
+$scoreboard players operation @s bacaped_advancements_points += $(tier) bac_points
 
 # Points scores
 $scoreboard players operation @s bac_advancements_points += $(tier) bac_points
@@ -157,6 +158,9 @@ $execute if entity @s[team=bac_team_light_purple] run scoreboard players add $(a
 $execute if entity @s[team=bac_team_yellow] run scoreboard players add $(adv_id) bac_obtained_yellow 1
 $execute if entity @s[team=bac_team_white] run scoreboard players add $(adv_id) bac_obtained_white 1
 
+# Additional commands run by fanpacks
+$function #bacaped_fanpacks:$(reward_id) {adv_id:"$(adv_id)", reward_id:"$(reward_id)", tier:"$(tier)"}
+
 # Cooperative Mode and Team Cooperative Mode
 $execute if score coop bac_settings matches 1 run advancement grant @a only $(adv_id)
 $execute if score coop bac_settings matches 2 if entity @s[team=bac_team_black] run advancement grant @a[team=bac_team_black] only $(adv_id)
@@ -175,6 +179,3 @@ $execute if score coop bac_settings matches 2 if entity @s[team=bac_team_red] ru
 $execute if score coop bac_settings matches 2 if entity @s[team=bac_team_light_purple] run advancement grant @a[team=bac_team_light_purple] only $(adv_id)
 $execute if score coop bac_settings matches 2 if entity @s[team=bac_team_yellow] run advancement grant @a[team=bac_team_yellow] only $(adv_id)
 $execute if score coop bac_settings matches 2 if entity @s[team=bac_team_white] run advancement grant @a[team=bac_team_white] only $(adv_id)
-
-# Additional commands run by fanpacks
-$function #bacaped_fanpacks:$(reward_id) {adv_id:"$(adv_id)", reward_id:"$(reward_id)", tier:"$(tier)"}

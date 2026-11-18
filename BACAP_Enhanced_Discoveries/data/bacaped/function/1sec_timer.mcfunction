@@ -6,8 +6,8 @@ execute as @a[gamemode=!spectator] at @s if entity @e[type=warden,distance=..8] 
 # Golems
 execute as @a[gamemode=!spectator] at @s if entity @e[type=wither,distance=..16] run function bacaped:mob_collections/golems_check
 
-# The World is Actually Ending 2
-execute as @a[gamemode=!spectator] if score @s bac_ten_withers matches 64.. run advancement grant @s only bacaped:challenges/the_world_is_actually_ending_2
+# The World is Actually Ending
+execute as @a[gamemode=!spectator] if score @s bac_ten_withers matches 64.. run advancement grant @s only bacaped:challenges/the_world_is_actually_ending
 
 # The Apocalyptic Decalogy
 execute as @a[gamemode=!spectator] at @s if entity @e[type=wither,distance=..48] run function bacaped:mob_collections/the_apocalyptic_decalogy_check
@@ -46,34 +46,32 @@ execute as @a[advancements={bacaped:end/intergalactic_journey=false}] unless pre
 execute as @a[advancements={bacaped:challenges/pooch_purge_pilot=false}] run execute unless entity @s[predicate=bacaped:is_sitting_on_llama] run advancement revoke @s only bacaped:challenges/pooch_purge_pilot
 
 # Australia
-execute as @a[advancements={bacaped:biomes/australia=false}] at @s if entity @e[type=pig,distance=..8,predicate=bacaped:australia_pig] run advancement grant @s only bacaped:biomes/australia
+execute as @a[advancements={bacaped:animal/australia=false}] at @s if entity @e[type=pig,distance=..8,predicate=bacaped:australia_pig] run advancement grant @s only bacaped:animal/australia
 
 # Dead Carnival
-execute as @a[gamemode=!spectator,advancements={bacaped:challenges/dead_carnaval=false}] run advancement revoke @s only bacaped:challenges/dead_carnaval
+execute as @a[gamemode=!spectator,advancements={bacaped:challenges/dead_carnival=false}] run advancement revoke @s only bacaped:challenges/dead_carnival
 
 # Flap, Don't Fall
 execute as @a[gamemode=!spectator,advancements={bacaped:nether/flap_dont_fall=false},predicate=bacaped:flap_dont_fall_reset] at @s run function bacaped:flap_dont_fall_reset
 
-# Scores
+# I Am a Train
+execute as @a[gamemode=!spectator, advancements={bacaped:animal/i_am_a_train=false}] on vehicle if entity @s[type=#blazeandcave:all_boats] as @e[type=#blazeandcave:all_boats] on leasher if entity @s[type=#blazeandcave:all_boats] on leasher if entity @s[type=#blazeandcave:all_boats] on leasher if entity @s[type=#blazeandcave:all_boats] on leasher if entity @s[type=#blazeandcave:all_boats] on passengers if entity @s[type=player, gamemode=!spectator, advancements={bacaped:animal/i_am_a_train=false}] run advancement grant @s only bacaped:animal/i_am_a_train
 
+# Scores
 # In lava cauldron score
 execute as @a[advancements={bacaped:biomes/the_infernal_cauldron=false},gamemode=!spectator] at @s run function bacaped:scores/in_lava_cauldron
 
 # In cave score
 execute as @a[advancements={bacaped:mining/distorted_cave_maze=false},gamemode=!spectator] run function bacaped:scores/in_cave
 
-# Unlucky score
-function bacaped:unlucky_check
-
 # Warden near score
 execute as @a[gamemode=!spectator,advancements={bacaped:monsters/one_minute_wardens_hugs=false}] at @s run function bacaped:scores/warden_near
 
-# Dragon Blitz
-execute as @a[gamemode=!spectator, advancements={bacaped:end/dragon_blitz=false}] at @s if score @s bacaped_dragon1_timer matches 1.. run scoreboard players remove @s bacaped_dragon1_timer 1
-execute as @a[gamemode=!spectator, advancements={bacaped:end/dragon_blitz=false}] at @s if score @s bacaped_dragon1_timer matches 1 run scoreboard players remove @s bacaped_dragon_blitz 1
+# Time without food score
+execute as @a[advancements={bacaped:farming/i_am_on_diet=false},gamemode=!spectator] at @s run function bacaped:scores/i_am_on_diet
 
-execute as @a[gamemode=!spectator, advancements={bacaped:end/dragon_blitz=false}] at @s if score @s bacaped_dragon2_timer matches 1.. run scoreboard players remove @s bacaped_dragon2_timer 1
-execute as @a[gamemode=!spectator, advancements={bacaped:end/dragon_blitz=false}] at @s if score @s bacaped_dragon2_timer matches 1 run scoreboard players remove @s bacaped_dragon_blitz 1
+# Unlucky score
+function bacaped:unlucky_check
 
 # Air Battle
 execute as @a[gamemode=!spectator, advancements={bacaped:weaponry/air_battle=false}] at @s if predicate bacaped:reset_air_battle run scoreboard players set @s bacaped_air_battle 0
@@ -83,6 +81,12 @@ execute as @a[gamemode=!spectator, advancements={bacaped:farming/exemplary_worke
 
 # One Small Step for Man
 execute as @a[gamemode=!spectator, advancements={bacaped:end/one_small_step_for_man=false}] at @s if predicate bacaped:min_y_350 positioned ~-0.5 ~-0.1 ~-0.5 if entity @e[type=shulker,dx=0,dy=0,dz=0] run advancement grant @s only bacaped:end/one_small_step_for_man
+
+# Airplane
+execute as @a[gamemode=!spectator,advancements={bacaped:end/airplane=false}] run function bacaped:scores/airplane
+
+# Selenology
+execute as @a[gamemode=!spectator, advancements={bacaped:adventure/selenology=false}] store result score @s bacaped_selenology_pitch run data get entity @s Rotation[1] 100
 
 # Triggers
 

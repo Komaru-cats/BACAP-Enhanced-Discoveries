@@ -7,28 +7,28 @@
       "translate": "Doctors Hate This Simple Trick"
     },
     "description": {
-      "color": "dark_purple",
       "translate": "Eat an Enchanted Golden Apple every day for 30 in-game days",
+      "color": "dark_purple",
       "extra": [
         {
           "text": "\n\n"
         },
         {
-          "italic": true,
+          "translate": "To view progress, run:",
           "color": "dark_gray",
-          "translate": "To view progress, run:"
+          "italic": true
         },
         {
           "text": "\n"
         },
         {
-          "color": "gray",
-          "text": "/trigger bacaped_egapple_a_day"
+          "text": "/trigger bacaped_egapple_a_day",
+          "color": "gray"
         }
       ]
     },
-    "announce_to_chat": true,
-    "frame": "challenge"
+    "frame": "challenge",
+    "announce_to_chat": true
   },
   "parent": "blazeandcave:farming/an_apple_a_day",
   "criteria": {

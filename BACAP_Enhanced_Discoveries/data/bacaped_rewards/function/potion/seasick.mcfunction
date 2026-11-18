@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:potion/seasick",reward_id:"potion/seasick",tier:"task"}

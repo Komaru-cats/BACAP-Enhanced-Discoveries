@@ -7,14 +7,14 @@
       "translate": "The V O I D"
     },
     "description": {
-      "translate": "Be under bedrock in the Overworld and the Nether",
+      "translate": "Be under Bedrock in the Overworld and the Nether",
       "color": "light_purple"
     },
     "frame": "challenge",
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "bacaped:end/intergalactic_journey",
+  "parent": "bacaped:end/void_being",
   "criteria": {
     "overworld": {
       "trigger": "minecraft:location",

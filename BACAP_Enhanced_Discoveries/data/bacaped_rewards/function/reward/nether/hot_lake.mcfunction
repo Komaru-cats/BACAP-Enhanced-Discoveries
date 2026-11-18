@@ -1,2 +1,2 @@
 give @s cooked_salmon 4
-tellraw @s {"color":"green","text":" +4 ","extra":[{"translate":"item.minecraft.cooked_salmon"}]}
+tellraw @s {text:" +4 ",color:"green",extra:[{translate:"item.minecraft.cooked_salmon"}]}

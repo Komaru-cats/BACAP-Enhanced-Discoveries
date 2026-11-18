@@ -1,1 +1,0 @@
-function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/wardens_thrust",reward_id:"adventure/wardens_thrust",tier:"challenge"}

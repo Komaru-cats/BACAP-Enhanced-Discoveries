@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/monumental_speedrun",reward_id:"adventure/monumental_speedrun",tier:"challenge"}

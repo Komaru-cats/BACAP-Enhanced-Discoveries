@@ -1,2 +1,3 @@
 
-
+give @s minecraft:player_head[minecraft:custom_data={Trophy:true}, minecraft:custom_name={translate:"Strange Frog",color:"#FF55FF",bold:true,italic:false}, minecraft:custom_model_data={strings:["bacaped:strange_frog"]}, minecraft:lore=[{translate:"Maybe it is from the End?",color:"#FF55FF"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"One More Frog!",color:"light_purple",italic:false}], minecraft:profile={properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2ViMTA5OWE4Yjg5YTlhMGM5NTQ4ZDc0OTQ5MzM0NDZhYjA4MjA2M2QzYjA5ZjQzM2I3MGVjNmZhMTNkM2M4MSJ9fX0="}]}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Strange Frog"}]}

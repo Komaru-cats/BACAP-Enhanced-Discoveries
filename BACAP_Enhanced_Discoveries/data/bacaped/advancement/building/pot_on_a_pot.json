@@ -7,11 +7,10 @@
       "translate": "Pot on a Pot"
     },
     "description": {
-      "translate": "Place a flower pot above a decorated pot",
+      "translate": "Place a Flower Pot above a Decorated Pot",
       "color": "green"
     },
     "frame": "task",
-    "hidden": false,
     "announce_to_chat": true
   },
   "parent": "blazeandcave:building/pot_planter",

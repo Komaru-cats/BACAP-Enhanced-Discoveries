@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_rocket"
+    },
+    "title": {
+      "translate": "Happy Minecraft Year"
+    },
+    "description": {
+      "translate": "Launch a Firework on new year's day in Minecraft!",
+      "color": "light_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "blazeandcave:weaponry/fireworks_display",
+  "criteria": {
+    "new_year": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:time_check",
+          "clock": "minecraft:overworld",
+          "value": {
+            "min": 0,
+            "max": 24000
+          },
+          "period": 8760000
+        },
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": "minecraft:firework_rocket"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaped_rewards:weaponry/happy_minecraft_year"
+  }
+}

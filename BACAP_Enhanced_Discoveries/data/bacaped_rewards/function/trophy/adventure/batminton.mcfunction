@@ -1,0 +1,3 @@
+
+give @s minecraft:player_head[minecraft:custom_data={Trophy:true}, minecraft:custom_name={translate:"Bat's Head",color:"#858393",bold:true,italic:false}, minecraft:custom_model_data={strings:["bacaped:bats_head"]}, minecraft:lore=[{translate:"Shaped like a badminton shuttlecock",color:"#858393"},{text:" "},{translate:"Awarded for achieving",color:"gray"},{translate:"Batminton",color:"dark_purple",italic:false}], minecraft:profile={properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzgyMGExMGRiMjIyZjY5YWMyMjE1ZDdkMTBkY2E0N2VlYWZhMjE1NTUzNzY0YTJiODFiYWZkNDc5ZTc5MzNkMSJ9fX0="}]}]
+tellraw @s {text:" +1 ",color:"gold",extra:[{translate:"Bat's Head"}]}

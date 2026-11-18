@@ -1,2 +1,2 @@
 give @s minecraft:glass 16
-tellraw @s {"color":"green","text":" +16 ","extra":[{"translate":"block.minecraft.glass"}]}
+tellraw @s {text:" +16 ",color:"green",extra:[{translate:"block.minecraft.glass"}]}

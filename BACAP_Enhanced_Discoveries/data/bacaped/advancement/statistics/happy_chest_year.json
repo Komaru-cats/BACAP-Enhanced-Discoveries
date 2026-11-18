@@ -27,8 +27,8 @@
       "color": "light_purple"
     },
     "frame": "challenge",
-    "hidden": true,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "hidden": true
   },
   "parent": "bacaped:statistics/mr_chester",
   "criteria": {

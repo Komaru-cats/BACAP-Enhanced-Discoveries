@@ -2,8 +2,8 @@
   "type": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "entity_type": "minecraft:player",
-    "location": {
+    "minecraft:entity_type": "minecraft:player",
+    "minecraft:location": {
       "dimension": "minecraft:the_end"
     }
   }

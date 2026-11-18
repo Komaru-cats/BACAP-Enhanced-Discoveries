@@ -20,15 +20,15 @@
       }
     },
     "title": {
-      "translate": "What Do You Know About Pistons"
+      "translate": "What Do You Know About Pistons?"
     },
     "description": {
-      "translate": "Craft 1000 pistons"
+      "translate": "Craft 1000 Pistons"
     },
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:redstone/moving_parts",
+  "parent": "blazeandcave:redstone/master_engineer",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:recipe_crafted",

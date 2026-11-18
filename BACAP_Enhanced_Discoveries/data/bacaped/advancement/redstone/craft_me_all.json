@@ -10,7 +10,7 @@
       "translate": "Craft Me ALL!"
     },
     "description": {
-      "translate": "Craft every redstone component using a crafter",
+      "translate": "Craft every Redstone component using a Crafter",
       "color": "dark_purple"
     },
     "frame": "challenge",
@@ -360,7 +360,7 @@
         "recipes": "minecraft:decorated_pot"
       }
     },
-    "decorated_pot_simple": {
+    "decorated_pot_sherds": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
         "recipes": "minecraft:decorated_pot_simple"
@@ -439,7 +439,7 @@
     ],
     [
       "decorated_pot",
-      "decorated_pot_simple"
+      "decorated_pot_sherds"
     ],
     [
       "dye_white_wool",

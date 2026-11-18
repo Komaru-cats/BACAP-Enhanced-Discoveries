@@ -10,13 +10,13 @@
       "translate": "So Bright"
     },
     "description": {
-      "translate": "Fill your inventory with diamonds",
+      "translate": "Fill your inventory with Diamonds",
       "color": "#FF2A2A"
     },
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaped:challenges/definitely_not_raid_farming",
+  "parent": "bacaped:challenges/raise_the_stakes",
   "criteria": {
     "full_diamond_inventory": {
       "trigger": "minecraft:location",

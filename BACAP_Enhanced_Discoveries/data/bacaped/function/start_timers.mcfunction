@@ -1,8 +1,6 @@
 # Objectives
 scoreboard objectives add bacaped_dragon_blitz dummy
 scoreboard objectives add bacaped_air_battle dummy
-scoreboard objectives add bacaped_dragon1_timer dummy
-scoreboard objectives add bacaped_dragon2_timer dummy
 scoreboard objectives add bacaped_in_lava_cauldron dummy
 scoreboard objectives add bacaped_warden_mason dummy
 scoreboard objectives add bacaped_ravager_count dummy
@@ -27,6 +25,23 @@ scoreboard objectives add bacaped_you_goat_me_to_an_end_timer dummy
 scoreboard objectives add bacaped_leashed_horses dummy
 scoreboard objectives add bacaped_current_day dummy
 scoreboard objectives add bacaped_ominous_vault_hunter_count dummy
+scoreboard objectives add bacaped_archeology_stats dummy
+scoreboard objectives add bacaped_kill_tick_count dummy
+scoreboard objectives add bacaped_flying_with_elytra dummy
+scoreboard objectives add bacaped_fly_delta minecraft.custom:minecraft.aviate_one_cm
+scoreboard objectives add bacaped_selenology_pitch dummy
+scoreboard objectives add bacaped_persistent_fighters dummy
+scoreboard objectives add bacaped_temp dummy
+scoreboard objectives add bacaped_in_struct_summary dummy
+scoreboard objectives add bacaped_time_without_food dummy
+
+# Monumental Speedrun
+scoreboard objectives add bacaped_monumental_speedrun_t1 dummy
+scoreboard objectives add bacaped_monumental_speedrun_t2 dummy
+
+# Dragon Blitz
+scoreboard objectives add bacaped_dragon_blitz_t1 dummy
+scoreboard objectives add bacaped_dragon_blitz_t2 dummy
 
 # Workstations statistics
 scoreboard objectives add bacaped_barrel_mined minecraft.mined:minecraft.barrel
@@ -42,8 +57,10 @@ scoreboard objectives add bacaped_loom_mined minecraft.mined:minecraft.loom
 scoreboard objectives add bacaped_smithing_table_mined minecraft.mined:minecraft.smithing_table
 scoreboard objectives add bacaped_stonecutter_mined minecraft.mined:minecraft.stonecutter
 scoreboard objectives add bacaped_villager_profession_blocks_mined dummy
-scoreboard objectives add bacaped_in_struct_summary dummy
 
+# For advancements related to mining the chunk
+scoreboard objectives add bacaped_chunk dummy
+scoreboard players set #bacaped_16 bacaped_chunk 16
 
 # Display Scoreboards
 scoreboard objectives add bacaped_advancements dummy {"translate":"ED Advancements","color":"white"}
@@ -52,6 +69,8 @@ scoreboard objectives add bacaped_advancements_only_hiddens dummy {"translate":"
 scoreboard objectives modify bacaped_advancements numberformat styled {"color":"green"}
 scoreboard objectives modify bacaped_all_advancements numberformat styled {"color":"green"}
 scoreboard objectives modify bacaped_advancements_only_hiddens numberformat styled {"color":"green"}
+scoreboard objectives add bacaped_advancements_points dummy {"translate":"ED Advancement Points","color":"white"}
+scoreboard objectives modify bacaped_advancements_points numberformat styled {"color":"green"}
 # For eq. check in advancement_made_macro
 scoreboard objectives add bacaped_is_hidden dummy
 scoreboard players set hidden bacaped_is_hidden 1

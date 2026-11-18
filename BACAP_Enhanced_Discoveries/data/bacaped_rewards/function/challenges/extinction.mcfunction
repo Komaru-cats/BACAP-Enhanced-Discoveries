@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/extinction",reward_id:"challenges/extinction",tier:"super_challenge"}

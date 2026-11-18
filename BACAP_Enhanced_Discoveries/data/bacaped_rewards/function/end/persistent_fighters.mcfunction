@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:end/persistent_fighters",reward_id:"end/persistent_fighters",tier:"goal"}

@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:statistics/lord_of_the_tides",reward_id:"statistics/lord_of_the_tides",tier:"hidden"}

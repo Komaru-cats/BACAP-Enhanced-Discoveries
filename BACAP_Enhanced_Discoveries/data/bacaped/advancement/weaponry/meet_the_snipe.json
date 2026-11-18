@@ -7,7 +7,7 @@
       "translate": "Meet the Snipe"
     },
     "description": {
-      "translate": "Hold a spyglass and a crossbow"
+      "translate": "Hold a Spyglass and a Crossbow"
     },
     "frame": "task",
     "announce_to_chat": true

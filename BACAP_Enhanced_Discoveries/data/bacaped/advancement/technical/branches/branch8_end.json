@@ -1,5 +1,5 @@
 {
-  "parent": "bacaped:challenges/monstrous_rocket",
+  "parent": "bacaped:challenges/extinction",
   "criteria": {
     "root": {
       "trigger": "minecraft:location",

@@ -1,5 +1,5 @@
 {
-  "parent": "bacaped:challenges/baron_munchausen",
+  "parent": "bacaped:challenges/dragon_vs_warden_vi",
   "criteria": {
     "root": {
       "trigger": "minecraft:location",

@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:animal/one_in_a_million_steed",reward_id:"animal/one_in_a_million_steed",tier:"challenge"}

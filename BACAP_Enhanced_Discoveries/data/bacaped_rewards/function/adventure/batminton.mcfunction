@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:adventure/batminton",reward_id:"adventure/batminton",tier:"challenge"}

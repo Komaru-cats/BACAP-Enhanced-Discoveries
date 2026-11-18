@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:biomes/neverland_lost",reward_id:"biomes/neverland_lost",tier:"task"}

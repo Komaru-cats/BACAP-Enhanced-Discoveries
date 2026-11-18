@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:challenges/explosive_elixir",reward_id:"challenges/explosive_elixir",tier:"hidden"}

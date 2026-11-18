@@ -1,0 +1,1 @@
+function bacaped_rewards:advancement_made_macro {adv_id:"bacaped:nether/primitive_excavation",reward_id:"nether/primitive_excavation",tier:"goal"}

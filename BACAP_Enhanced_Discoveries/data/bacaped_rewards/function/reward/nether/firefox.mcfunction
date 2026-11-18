@@ -1,2 +1,2 @@
-give @s campfire 1
-tellraw @s {"color":"green","text":" +1 ","extra":[{"translate":"block.minecraft.campfire"}]}
+give @s campfire
+tellraw @s {text:" +1 ",color:"green",extra:[{translate:"block.minecraft.campfire"}]}

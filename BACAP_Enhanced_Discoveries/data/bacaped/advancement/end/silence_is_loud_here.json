@@ -1,0 +1,126 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_portal_frame"
+    },
+    "title": {
+      "translate": "Silence Is Loud Here"
+    },
+    "description": {
+      "translate": "Kill the Ender Dragon deep in the void between the main and outer End islands",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaped:end/a_diverting_misconception",
+  "criteria": {
+    "east": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "dimension": "minecraft:the_end",
+              "position": {
+                "x": {
+                  "min": 150,
+                  "max": 1000
+                },
+                "z": {
+                  "min": -1000,
+                  "max": 1000
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "west": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "dimension": "minecraft:the_end",
+              "position": {
+                "x": {
+                  "min": -1000,
+                  "max": -150
+                },
+                "z": {
+                  "min": -1000,
+                  "max": 1000
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "south": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "dimension": "minecraft:the_end",
+              "position": {
+                "x": {
+                  "min": -1000,
+                  "max": 1000
+                },
+                "z": {
+                  "min": 150,
+                  "max": 1000
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "north": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "dimension": "minecraft:the_end",
+              "position": {
+                "x": {
+                  "min": -1000,
+                  "max": 1000
+                },
+                "z": {
+                  "min": -1000,
+                  "max": -150
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "east",
+      "west",
+      "south",
+      "north"
+    ]
+  ],
+  "rewards": {
+    "function": "bacaped_rewards:end/silence_is_loud_here"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:leather_chestplate",
+      "id": "minecraft:leather_helmet",
       "components": {
         "minecraft:trim": {
           "material": "minecraft:netherite",
@@ -14,7 +14,7 @@
       "translate": "Fake Netherite Armor"
     },
     "description": {
-      "translate": "Wear a full set of black leather armor with any netherite trims of the same type",
+      "translate": "Wear a full set of black Leather Armor with any Netherite Trims of the same type",
       "color": "#75E1FF"
     },
     "frame": "goal",

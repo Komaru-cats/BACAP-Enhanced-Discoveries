@@ -6,28 +6,28 @@
         "minecraft:base_color": "blue",
         "minecraft:banner_patterns": [
           {
-            "pattern": "minecraft:mojang",
-            "color": "light_gray"
+            "color": "light_gray",
+            "pattern": "minecraft:mojang"
           },
           {
-            "pattern": "minecraft:gradient_up",
-            "color": "light_blue"
+            "color": "light_blue",
+            "pattern": "minecraft:gradient_up"
           },
           {
-            "pattern": "minecraft:gradient",
-            "color": "black"
+            "color": "black",
+            "pattern": "minecraft:gradient"
           },
           {
-            "pattern": "minecraft:triangles_bottom",
-            "color": "black"
+            "color": "black",
+            "pattern": "minecraft:triangles_bottom"
           },
           {
-            "pattern": "minecraft:circle",
-            "color": "white"
+            "color": "white",
+            "pattern": "minecraft:circle"
           },
           {
-            "pattern": "minecraft:square_bottom_left",
-            "color": "black"
+            "color": "black",
+            "pattern": "minecraft:square_bottom_left"
           }
         ]
       }
@@ -36,12 +36,11 @@
       "translate": "More Shields!"
     },
     "description": {
-      "translate": "Fill your inventory with shields",
+      "translate": "Fill your inventory with Shields",
       "color": "#75E1FF"
     },
     "frame": "goal",
-    "announce_to_chat": true,
-    "hidden": false
+    "announce_to_chat": true
   },
   "parent": "blazeandcave:weaponry/flying_colors",
   "criteria": {
