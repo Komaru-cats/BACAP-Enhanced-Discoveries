@@ -5,7 +5,7 @@ Because people want to know what exactly you can and can’t do
 
 ### The conditions of receiving the role in general are:
 Achieve the Enhanced Legend advancement in Enhanced Discoveries Advancement Pack.
-As for the versions, at the moment any version above and including 2.8.1 is suitable, except 2.9.3 because of major bugs found in that version. Later the criteria may change.
+As for the versions, at the moment any version excluding alpha and beta above and including 2.8 is suitable, except 2.9.3 because of major bugs found in that version. Later the criteria may change.
 
 
 ## YOU CAN:
